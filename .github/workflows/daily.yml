@@ -1,0 +1,59 @@
+# Regenereaza predictiile zilnic si le comite in repo.
+#
+# Ruleaza gratuit pe GitHub Actions (2000 minute/luna incluse; rularea asta
+# consuma ~2 minute pe zi, deci ~60 minute/luna). Nu are nevoie de nicio cheie
+# API: toate datele vin de la football-data.co.uk.
+#
+# Ca sa activezi: pune proiectul pe GitHub si da-i workflow-ului drept de scriere
+# din Settings > Actions > General > Workflow permissions > Read and write.
+
+name: Actualizare predictii
+
+on:
+  schedule:
+    # 06:30 UTC in fiecare zi (09:30 ora Romaniei vara, 08:30 iarna)
+    - cron: '30 6 * * *'
+  workflow_dispatch: {}
+
+jobs:
+  predictii:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Instaleaza dependentele
+        run: pip install -r research/requirements.txt
+
+      # Sezoanele incheiate nu se mai schimba niciodata. Le pastram intre rulari
+      # ca sa nu descarcam 156 de fisiere in fiecare zi de pe un site gratuit.
+      - name: Refoloseste datele descarcate anterior
+        uses: actions/cache@v6
+        with:
+          path: research/data
+          key: football-data-${{ github.run_id }}
+          restore-keys: football-data-
+
+      - name: Descarca datele istorice
+        working-directory: research
+        run: python download_data.py
+
+      - name: Genereaza predictiile
+        working-directory: research
+        run: python predict.py
+
+      - name: Comite rezultatul daca s-a schimbat
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- app/assets/predictions.json; then
+            echo "Nicio schimbare in predictii."
+          else
+            git add app/assets/predictions.json
+            git commit -m "Actualizare predictii $(date -u +%Y-%m-%d)"
+            git push
+          fi

@@ -1,0 +1,1706 @@
+{
+ "generated_at": "2026-09-15T16:58:42+00:00",
+ "model": {
+  "name": "Dixon-Coles + suturi pe poarta",
+  "goals_weight": 0.5,
+  "xi": 0.003,
+  "backtest": {
+   "matches_tested": 28675,
+   "period": "2019-2026",
+   "log_loss": 0.99155,
+   "accuracy": 0.5175,
+   "ece": 0.007,
+   "market_log_loss": 0.9698,
+   "beats_market": false,
+   "note": "Calibrare foarte buna, dar modelul NU bate cotele de inchidere si nu a produs ROI pozitiv in backtest."
+  }
+ },
+ "matches": [
+  {
+   "id": "SP1_20260915_Vallecano_Espanol",
+   "league": "SP1",
+   "league_name": "La Liga",
+   "date": "2026-09-15",
+   "time": "18:00",
+   "home": "Vallecano",
+   "away": "Espanol",
+   "probs": {
+    "p_home": 0.521,
+    "p_draw": 0.2501,
+    "p_away": 0.2289,
+    "p_over25": 0.4945,
+    "p_btts": 0.5143,
+    "p_under25": 0.5055,
+    "p_no_btts": 0.4857
+   },
+   "expected_goals": {
+    "home": 1.65,
+    "away": 1.01
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 114,
+    "away_matches": 81
+   },
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 0.1191
+    },
+    {
+     "score": "1-0",
+     "p": 0.1138
+    },
+    {
+     "score": "2-1",
+     "p": 0.0961
+    },
+    {
+     "score": "2-0",
+     "p": 0.0955
+    },
+    {
+     "score": "0-0",
+     "p": 0.0728
+    }
+   ],
+   "reference_odds": {
+    "home": 2.3,
+    "draw": 3.3,
+    "away": 3.1
+   },
+   "context": {
+    "home": {
+     "form": [
+      "V",
+      "I",
+      "E",
+      "I",
+      "V",
+      "I"
+     ],
+     "goals_for_avg": 1.67,
+     "goals_against_avg": 2.5,
+     "shots_on_target_avg": 5.83,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "E",
+      "V",
+      "I",
+      "I",
+      "E",
+      "V"
+     ],
+     "goals_for_avg": 1.5,
+     "goals_against_avg": 1.0,
+     "shots_on_target_avg": 4.33,
+     "matches_analysed": 6
+    },
+    "h2h": [
+     {
+      "date": "2026-04-23",
+      "home": "Vallecano",
+      "away": "Espanol",
+      "score": "1-0"
+     },
+     {
+      "date": "2025-12-07",
+      "home": "Espanol",
+      "away": "Vallecano",
+      "score": "1-0"
+     },
+     {
+      "date": "2025-04-04",
+      "home": "Vallecano",
+      "away": "Espanol",
+      "score": "0-4"
+     },
+     {
+      "date": "2024-08-31",
+      "home": "Espanol",
+      "away": "Vallecano",
+      "score": "2-1"
+     },
+     {
+      "date": "2023-05-21",
+      "home": "Vallecano",
+      "away": "Espanol",
+      "score": "1-2"
+     }
+    ]
+   },
+   "explanation": "Vallecano e favorita, cu 52% sanse de victorie. Goluri asteptate: 1.65 pentru Vallecano, 1.01 pentru Espanol. Forma recenta — Vallecano: VIEIVI, Espanol: EVIIEV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Vallecano e pe locul 18 la atac, Espanol pe 17, din 29 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+  },
+  {
+   "id": "N1_20260915_Ajax_WillemII",
+   "league": "N1",
+   "league_name": "Eredivisie",
+   "date": "2026-09-15",
+   "time": "19:00",
+   "home": "Ajax",
+   "away": "Willem II",
+   "probs": {
+    "p_home": 0.7768,
+    "p_draw": 0.1558,
+    "p_away": 0.0673,
+    "p_over25": 0.6494,
+    "p_btts": 0.4785,
+    "p_under25": 0.3506,
+    "p_no_btts": 0.5215
+   },
+   "expected_goals": {
+    "home": 2.64,
+    "away": 0.71
+   },
+   "confidence": "medie",
+   "sample": {
+    "home_matches": 104,
+    "away_matches": 39
+   },
+   "top_scores": [
+    {
+     "score": "2-0",
+     "p": 0.1229
+    },
+    {
+     "score": "3-0",
+     "p": 0.1081
+    },
+    {
+     "score": "2-1",
+     "p": 0.0867
+    },
+    {
+     "score": "1-0",
+     "p": 0.0845
+    },
+    {
+     "score": "3-1",
+     "p": 0.0762
+    }
+   ],
+   "reference_odds": {
+    "home": 1.1,
+    "draw": 9.0,
+    "away": 21.0
+   },
+   "context": {
+    "home": {
+     "form": [
+      "E",
+      "V",
+      "E",
+      "V",
+      "I",
+      "V"
+     ],
+     "goals_for_avg": 2.33,
+     "goals_against_avg": 1.0,
+     "shots_on_target_avg": 7.0,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "E",
+      "I",
+      "I",
+      "E",
+      "I",
+      "E"
+     ],
+     "goals_for_avg": 1.0,
+     "goals_against_avg": 2.5,
+     "shots_on_target_avg": 3.0,
+     "matches_analysed": 6
+    },
+    "h2h": [
+     {
+      "date": "2025-04-13",
+      "home": "Willem II",
+      "away": "Ajax",
+      "score": "1-2"
+     },
+     {
+      "date": "2024-10-27",
+      "home": "Ajax",
+      "away": "Willem II",
+      "score": "1-0"
+     },
+     {
+      "date": "2022-02-19",
+      "home": "Willem II",
+      "away": "Ajax",
+      "score": "0-1"
+     },
+     {
+      "date": "2021-12-02",
+      "home": "Ajax",
+      "away": "Willem II",
+      "score": "5-0"
+     },
+     {
+      "date": "2021-01-28",
+      "home": "Ajax",
+      "away": "Willem II",
+      "score": "3-1"
+     }
+    ]
+   },
+   "explanation": "Ajax e favorita, cu 78% sanse de victorie. Goluri asteptate: 2.64 pentru Ajax, 0.71 pentru Willem II. Forma recenta — Ajax: EVEVIV, Willem II: EIIEIE (cel mai recent meci la dreapta). In clasamentul intern al modelului, Ajax e pe locul 3 la atac, Willem II pe 22, din 24 echipe. Se asteapta un meci deschis: 65% sanse la peste 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+  },
+  {
+   "id": "SP1_20260915_Alaves_Valencia",
+   "league": "SP1",
+   "league_name": "La Liga",
+   "date": "2026-09-15",
+   "time": "19:00",
+   "home": "Alaves",
+   "away": "Valencia",
+   "probs": {
+    "p_home": 0.5158,
+    "p_draw": 0.2685,
+    "p_away": 0.2158,
+    "p_over25": 0.4149,
+    "p_btts": 0.448,
+    "p_under25": 0.5851,
+    "p_no_btts": 0.552
+   },
+   "expected_goals": {
+    "home": 1.48,
+    "away": 0.86
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 114,
+    "away_matches": 115
+   },
+   "top_scores": [
+    {
+     "score": "1-0",
+     "p": 0.1402
+    },
+    {
+     "score": "1-1",
+     "p": 0.1249
+    },
+    {
+     "score": "2-0",
+     "p": 0.1056
+    },
+    {
+     "score": "0-0",
+     "p": 0.0986
+    },
+    {
+     "score": "2-1",
+     "p": 0.0908
+    }
+   ],
+   "reference_odds": {
+    "home": 1.7,
+    "draw": 3.5,
+    "away": 5.5
+   },
+   "context": {
+    "home": {
+     "form": [
+      "I",
+      "V",
+      "E",
+      "V",
+      "V",
+      "I"
+     ],
+     "goals_for_avg": 2.0,
+     "goals_against_avg": 1.17,
+     "shots_on_target_avg": 6.5,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "V",
+      "E",
+      "I",
+      "I",
+      "I",
+      "I"
+     ],
+     "goals_for_avg": 0.67,
+     "goals_against_avg": 1.83,
+     "shots_on_target_avg": 2.83,
+     "matches_analysed": 6
+    },
+    "h2h": [
+     {
+      "date": "2026-03-08",
+      "home": "Valencia",
+      "away": "Alaves",
+      "score": "3-2"
+     },
+     {
+      "date": "2025-10-20",
+      "home": "Alaves",
+      "away": "Valencia",
+      "score": "0-0"
+     },
+     {
+      "date": "2025-05-14",
+      "home": "Alaves",
+      "away": "Valencia",
+      "score": "1-0"
+     },
+     {
+      "date": "2024-12-22",
+      "home": "Valencia",
+      "away": "Alaves",
+      "score": "2-2"
+     },
+     {
+      "date": "2024-05-05",
+      "home": "Valencia",
+      "away": "Alaves",
+      "score": "0-1"
+     }
+    ]
+   },
+   "explanation": "Alaves e favorita, cu 52% sanse de victorie. Goluri asteptate: 1.48 pentru Alaves, 0.86 pentru Valencia. Forma recenta — Alaves: IVEVVI, Valencia: VEIIII (cel mai recent meci la dreapta). In clasamentul intern al modelului, Alaves e pe locul 11 la atac, Valencia pe 21, din 29 echipe. Se asteapta un meci inchis: 59% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+  },
+  {
+   "id": "E1_20260915_BristolCity_Lincoln",
+   "league": "E1",
+   "league_name": "Championship",
+   "date": "2026-09-15",
+   "time": "19:45",
+   "home": "Bristol City",
+   "away": "Lincoln",
+   "probs": {
+    "p_home": 0.4966,
+    "p_draw": 0.3044,
+    "p_away": 0.199,
+    "p_over25": 0.3477,
+    "p_btts": 0.4003,
+    "p_under25": 0.6523,
+    "p_no_btts": 0.5997
+   },
+   "expected_goals": {
+    "home": 1.34,
+    "away": 0.75
+   },
+   "confidence": "scazuta",
+   "sample": {
+    "home_matches": 139,
+    "away_matches": 6
+   },
+   "top_scores": [
+    {
+     "score": "1-0",
+     "p": 0.155
+    },
+    {
+     "score": "1-1",
+     "p": 0.135
+    },
+    {
+     "score": "0-0",
+     "p": 0.1344
+    },
+    {
+     "score": "2-0",
+     "p": 0.1109
+    },
+    {
+     "score": "2-1",
+     "p": 0.0833
+    }
+   ],
+   "reference_odds": {
+    "home": 1.79,
+    "draw": 3.6,
+    "away": 4.1
+   },
+   "context": {
+    "home": {
+     "form": [
+      "I",
+      "E",
+      "V",
+      "V",
+      "V",
+      "I"
+     ],
+     "goals_for_avg": 1.67,
+     "goals_against_avg": 1.83,
+     "shots_on_target_avg": 4.33,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "I",
+      "I",
+      "V",
+      "E",
+      "E",
+      "V"
+     ],
+     "goals_for_avg": 0.83,
+     "goals_against_avg": 1.0,
+     "shots_on_target_avg": 2.83,
+     "matches_analysed": 6
+    },
+    "h2h": []
+   },
+   "explanation": "Bristol City e favorita, cu 50% sanse de victorie. Goluri asteptate: 1.34 pentru Bristol City, 0.75 pentru Lincoln. Forma recenta — Bristol City: IEVVVI, Lincoln: IIVEEV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Bristol City e pe locul 14 la atac, Lincoln pe 35, din 36 echipe. Se asteapta un meci inchis: 65% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+  },
+  {
+   "id": "E1_20260915_Middlesbrough_Millwall",
+   "league": "E1",
+   "league_name": "Championship",
+   "date": "2026-09-15",
+   "time": "19:45",
+   "home": "Middlesbrough",
+   "away": "Millwall",
+   "probs": {
+    "p_home": 0.4835,
+    "p_draw": 0.2718,
+    "p_away": 0.2448,
+    "p_over25": 0.4918,
+    "p_btts": 0.5295,
+    "p_under25": 0.5082,
+    "p_no_btts": 0.4705
+   },
+   "expected_goals": {
+    "home": 1.58,
+    "away": 1.06
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 139,
+    "away_matches": 139
+   },
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 0.1298
+    },
+    {
+     "score": "1-0",
+     "p": 0.1024
+    },
+    {
+     "score": "2-1",
+     "p": 0.0944
+    },
+    {
+     "score": "2-0",
+     "p": 0.089
+    },
+    {
+     "score": "0-0",
+     "p": 0.0815
+    }
+   ],
+   "reference_odds": {
+    "home": 1.42,
+    "draw": 4.75,
+    "away": 6.5
+   },
+   "context": {
+    "home": {
+     "form": [
+      "V",
+      "I",
+      "V",
+      "E",
+      "V",
+      "V"
+     ],
+     "goals_for_avg": 2.0,
+     "goals_against_avg": 1.33,
+     "shots_on_target_avg": 5.0,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "V",
+      "V",
+      "I",
+      "I",
+      "V",
+      "I"
+     ],
+     "goals_for_avg": 1.83,
+     "goals_against_avg": 1.83,
+     "shots_on_target_avg": 3.67,
+     "matches_analysed": 6
+    },
+    "h2h": [
+     {
+      "date": "2026-04-03",
+      "home": "Middlesbrough",
+      "away": "Millwall",
+      "score": "1-2"
+     },
+     {
+      "date": "2025-08-16",
+      "home": "Millwall",
+      "away": "Middlesbrough",
+      "score": "0-3"
+     },
+     {
+      "date": "2025-04-12",
+      "home": "Millwall",
+      "away": "Middlesbrough",
+      "score": "1-0"
+     },
+     {
+      "date": "2024-12-14",
+      "home": "Middlesbrough",
+      "away": "Millwall",
+      "score": "1-0"
+     },
+     {
+      "date": "2024-01-13",
+      "home": "Millwall",
+      "away": "Middlesbrough",
+      "score": "1-3"
+     }
+    ]
+   },
+   "explanation": "Middlesbrough e favorita, cu 48% sanse de victorie. Goluri asteptate: 1.58 pentru Middlesbrough, 1.06 pentru Millwall. Forma recenta — Middlesbrough: VIVEVV, Millwall: VVIIVI (cel mai recent meci la dreapta). In clasamentul intern al modelului, Middlesbrough e pe locul 7 la atac, Millwall pe 11, din 36 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+  },
+  {
+   "id": "SC0_20260915_Falkirk_Hearts",
+   "league": "SC0",
+   "league_name": "Scottish Premiership",
+   "date": "2026-09-15",
+   "time": "19:45",
+   "home": "Falkirk",
+   "away": "Hearts",
+   "probs": {
+    "p_home": 0.2312,
+    "p_draw": 0.2624,
+    "p_away": 0.5064,
+    "p_over25": 0.4537,
+    "p_btts": 0.4851,
+    "p_under25": 0.5463,
+    "p_no_btts": 0.5149
+   },
+   "expected_goals": {
+    "home": 0.95,
+    "away": 1.54
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 43,
+    "away_matches": 115
+   },
+   "top_scores": [
+    {
+     "score": "0-1",
+     "p": 0.1246
+    },
+    {
+     "score": "1-1",
+     "p": 0.1243
+    },
+    {
+     "score": "0-2",
+     "p": 0.098
+    },
+    {
+     "score": "1-2",
+     "p": 0.0933
+    },
+    {
+     "score": "0-0",
+     "p": 0.0858
+    }
+   ],
+   "reference_odds": {
+    "home": 3.8,
+    "draw": 3.6,
+    "away": 1.86
+   },
+   "context": {
+    "home": {
+     "form": [
+      "I",
+      "I",
+      "E",
+      "I",
+      "I",
+      "E"
+     ],
+     "goals_for_avg": 0.83,
+     "goals_against_avg": 2.0,
+     "shots_on_target_avg": 2.5,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "I",
+      "I",
+      "V",
+      "V",
+      "V",
+      "V"
+     ],
+     "goals_for_avg": 2.17,
+     "goals_against_avg": 1.33,
+     "shots_on_target_avg": 5.33,
+     "matches_analysed": 6
+    },
+    "h2h": [
+     {
+      "date": "2026-05-13",
+      "home": "Hearts",
+      "away": "Falkirk",
+      "score": "3-0"
+     },
+     {
+      "date": "2026-02-21",
+      "home": "Hearts",
+      "away": "Falkirk",
+      "score": "1-0"
+     },
+     {
+      "date": "2025-12-13",
+      "home": "Falkirk",
+      "away": "Hearts",
+      "score": "0-2"
+     },
+     {
+      "date": "2025-09-27",
+      "home": "Hearts",
+      "away": "Falkirk",
+      "score": "3-0"
+     }
+    ]
+   },
+   "explanation": "Hearts e favorita, cu 51% sanse de victorie. Goluri asteptate: 0.95 pentru Falkirk, 1.54 pentru Hearts. Forma recenta — Falkirk: IIEIIE, Hearts: IIVVVV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Falkirk e pe locul 7 la atac, Hearts pe 3, din 14 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+  },
+  {
+   "id": "SC0_20260915_Hibernian_Kilmarnock",
+   "league": "SC0",
+   "league_name": "Scottish Premiership",
+   "date": "2026-09-15",
+   "time": "19:45",
+   "home": "Hibernian",
+   "away": "Kilmarnock",
+   "probs": {
+    "p_home": 0.6178,
+    "p_draw": 0.2069,
+    "p_away": 0.1753,
+    "p_over25": 0.6109,
+    "p_btts": 0.571,
+    "p_under25": 0.3891,
+    "p_no_btts": 0.429
+   },
+   "expected_goals": {
+    "home": 2.12,
+    "away": 1.04
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 115,
+    "away_matches": 115
+   },
+   "top_scores": [
+    {
+     "score": "2-1",
+     "p": 0.0992
+    },
+    {
+     "score": "1-1",
+     "p": 0.096
+    },
+    {
+     "score": "2-0",
+     "p": 0.0953
+    },
+    {
+     "score": "1-0",
+     "p": 0.0879
+    },
+    {
+     "score": "3-1",
+     "p": 0.0699
+    }
+   ],
+   "reference_odds": {
+    "home": 1.39,
+    "draw": 4.75,
+    "away": 6.5
+   },
+   "context": {
+    "home": {
+     "form": [
+      "I",
+      "I",
+      "V",
+      "V",
+      "I",
+      "I"
+     ],
+     "goals_for_avg": 1.17,
+     "goals_against_avg": 1.67,
+     "shots_on_target_avg": 3.83,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "V",
+      "I",
+      "I",
+      "I",
+      "I",
+      "E"
+     ],
+     "goals_for_avg": 1.33,
+     "goals_against_avg": 2.5,
+     "shots_on_target_avg": 4.17,
+     "matches_analysed": 6
+    },
+    "h2h": [
+     {
+      "date": "2026-04-04",
+      "home": "Hibernian",
+      "away": "Kilmarnock",
+      "score": "3-0"
+     },
+     {
+      "date": "2026-01-03",
+      "home": "Kilmarnock",
+      "away": "Hibernian",
+      "score": "1-3"
+     },
+     {
+      "date": "2025-08-10",
+      "home": "Hibernian",
+      "away": "Kilmarnock",
+      "score": "2-2"
+     },
+     {
+      "date": "2025-03-15",
+      "home": "Kilmarnock",
+      "away": "Hibernian",
+      "score": "1-1"
+     },
+     {
+      "date": "2024-12-29",
+      "home": "Hibernian",
+      "away": "Kilmarnock",
+      "score": "1-0"
+     }
+    ]
+   },
+   "explanation": "Hibernian e favorita, cu 62% sanse de victorie. Goluri asteptate: 2.12 pentru Hibernian, 1.04 pentru Kilmarnock. Forma recenta — Hibernian: IIVVII, Kilmarnock: VIIIIE (cel mai recent meci la dreapta). In clasamentul intern al modelului, Hibernian e pe locul 4 la atac, Kilmarnock pe 6, din 14 echipe. Se asteapta un meci deschis: 61% sanse la peste 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+  },
+  {
+   "id": "SC0_20260915_Motherwell_Aberdeen",
+   "league": "SC0",
+   "league_name": "Scottish Premiership",
+   "date": "2026-09-15",
+   "time": "19:45",
+   "home": "Motherwell",
+   "away": "Aberdeen",
+   "probs": {
+    "p_home": 0.6067,
+    "p_draw": 0.2323,
+    "p_away": 0.161,
+    "p_over25": 0.4808,
+    "p_btts": 0.4627,
+    "p_under25": 0.5192,
+    "p_no_btts": 0.5373
+   },
+   "expected_goals": {
+    "home": 1.79,
+    "away": 0.8
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 115,
+    "away_matches": 115
+   },
+   "top_scores": [
+    {
+     "score": "1-0",
+     "p": 0.1311
+    },
+    {
+     "score": "2-0",
+     "p": 0.1199
+    },
+    {
+     "score": "1-1",
+     "p": 0.1099
+    },
+    {
+     "score": "2-1",
+     "p": 0.0963
+    },
+    {
+     "score": "0-0",
+     "p": 0.077
+    }
+   ],
+   "reference_odds": {
+    "home": 1.79,
+    "draw": 3.8,
+    "away": 3.9
+   },
+   "context": {
+    "home": {
+     "form": [
+      "V",
+      "V",
+      "E",
+      "E",
+      "V",
+      "I"
+     ],
+     "goals_for_avg": 1.5,
+     "goals_against_avg": 0.83,
+     "shots_on_target_avg": 5.0,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "I",
+      "V",
+      "I",
+      "I",
+      "I",
+      "E"
+     ],
+     "goals_for_avg": 0.67,
+     "goals_against_avg": 1.67,
+     "shots_on_target_avg": 2.33,
+     "matches_analysed": 6
+    },
+    "h2h": [
+     {
+      "date": "2026-02-15",
+      "home": "Motherwell",
+      "away": "Aberdeen",
+      "score": "2-0"
+     },
+     {
+      "date": "2025-11-09",
+      "home": "Aberdeen",
+      "away": "Motherwell",
+      "score": "1-1"
+     },
+     {
+      "date": "2025-09-27",
+      "home": "Motherwell",
+      "away": "Aberdeen",
+      "score": "2-0"
+     },
+     {
+      "date": "2025-03-29",
+      "home": "Aberdeen",
+      "away": "Motherwell",
+      "score": "4-1"
+     },
+     {
+      "date": "2025-01-05",
+      "home": "Motherwell",
+      "away": "Aberdeen",
+      "score": "2-0"
+     }
+    ]
+   },
+   "explanation": "Motherwell e favorita, cu 61% sanse de victorie. Goluri asteptate: 1.79 pentru Motherwell, 0.80 pentru Aberdeen. Forma recenta — Motherwell: VVEEVI, Aberdeen: IVIIIE (cel mai recent meci la dreapta). In clasamentul intern al modelului, Motherwell e pe locul 5 la atac, Aberdeen pe 13, din 14 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+  },
+  {
+   "id": "SP1_20260915_Elche_RealMadrid",
+   "league": "SP1",
+   "league_name": "La Liga",
+   "date": "2026-09-15",
+   "time": "20:30",
+   "home": "Elche",
+   "away": "Real Madrid",
+   "probs": {
+    "p_home": 0.1913,
+    "p_draw": 0.2092,
+    "p_away": 0.5995,
+    "p_over25": 0.6228,
+    "p_btts": 0.5905,
+    "p_under25": 0.3772,
+    "p_no_btts": 0.4095
+   },
+   "expected_goals": {
+    "home": 1.11,
+    "away": 2.1
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 43,
+    "away_matches": 115
+   },
+   "top_scores": [
+    {
+     "score": "1-2",
+     "p": 0.0988
+    },
+    {
+     "score": "1-1",
+     "p": 0.0958
+    },
+    {
+     "score": "0-2",
+     "p": 0.089
+    },
+    {
+     "score": "0-1",
+     "p": 0.0828
+    },
+    {
+     "score": "1-3",
+     "p": 0.0692
+    }
+   ],
+   "reference_odds": {
+    "home": 12.0,
+    "draw": 7.5,
+    "away": 1.2
+   },
+   "context": {
+    "home": {
+     "form": [
+      "E",
+      "E",
+      "I",
+      "I",
+      "I",
+      "E"
+     ],
+     "goals_for_avg": 1.17,
+     "goals_against_avg": 2.33,
+     "shots_on_target_avg": 4.5,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "V",
+      "V",
+      "V",
+      "V",
+      "I",
+      "V"
+     ],
+     "goals_for_avg": 3.0,
+     "goals_against_avg": 1.0,
+     "shots_on_target_avg": 9.0,
+     "matches_analysed": 6
+    },
+    "h2h": [
+     {
+      "date": "2026-03-14",
+      "home": "Real Madrid",
+      "away": "Elche",
+      "score": "4-1"
+     },
+     {
+      "date": "2025-11-23",
+      "home": "Elche",
+      "away": "Real Madrid",
+      "score": "2-2"
+     },
+     {
+      "date": "2023-02-15",
+      "home": "Real Madrid",
+      "away": "Elche",
+      "score": "4-0"
+     },
+     {
+      "date": "2022-10-19",
+      "home": "Elche",
+      "away": "Real Madrid",
+      "score": "0-3"
+     },
+     {
+      "date": "2022-01-23",
+      "home": "Real Madrid",
+      "away": "Elche",
+      "score": "2-2"
+     }
+    ]
+   },
+   "explanation": "Real Madrid e favorita, cu 60% sanse de victorie. Goluri asteptate: 1.11 pentru Elche, 2.10 pentru Real Madrid. Forma recenta — Elche: EEIIIE, Real Madrid: VVVVIV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Elche e pe locul 10 la atac, Real Madrid pe 2, din 29 echipe. Se asteapta un meci deschis: 62% sanse la peste 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+  },
+  {
+   "id": "SP1_20260916_AthMadrid_Osasuna",
+   "league": "SP1",
+   "league_name": "La Liga",
+   "date": "2026-09-16",
+   "time": "18:00",
+   "home": "Ath Madrid",
+   "away": "Osasuna",
+   "probs": {
+    "p_home": 0.6077,
+    "p_draw": 0.2207,
+    "p_away": 0.1715,
+    "p_over25": 0.54,
+    "p_btts": 0.5143,
+    "p_under25": 0.46,
+    "p_no_btts": 0.4857
+   },
+   "expected_goals": {
+    "home": 1.92,
+    "away": 0.92
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 116,
+    "away_matches": 115
+   },
+   "top_scores": [
+    {
+     "score": "1-0",
+     "p": 0.1104
+    },
+    {
+     "score": "2-0",
+     "p": 0.1082
+    },
+    {
+     "score": "1-1",
+     "p": 0.105
+    },
+    {
+     "score": "2-1",
+     "p": 0.0991
+    },
+    {
+     "score": "3-0",
+     "p": 0.0694
+    }
+   ],
+   "reference_odds": {
+    "home": 1.38,
+    "draw": 4.75,
+    "away": 8.5
+   },
+   "context": {
+    "home": {
+     "form": [
+      "I",
+      "V",
+      "E",
+      "V",
+      "I",
+      "V"
+     ],
+     "goals_for_avg": 1.83,
+     "goals_against_avg": 1.83,
+     "shots_on_target_avg": 4.83,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "I",
+      "E",
+      "V",
+      "V",
+      "I",
+      "I"
+     ],
+     "goals_for_avg": 0.83,
+     "goals_against_avg": 1.5,
+     "shots_on_target_avg": 4.67,
+     "matches_analysed": 6
+    },
+    "h2h": [
+     {
+      "date": "2026-05-12",
+      "home": "Osasuna",
+      "away": "Ath Madrid",
+      "score": "1-2"
+     },
+     {
+      "date": "2025-10-18",
+      "home": "Ath Madrid",
+      "away": "Osasuna",
+      "score": "1-0"
+     },
+     {
+      "date": "2025-05-15",
+      "home": "Osasuna",
+      "away": "Ath Madrid",
+      "score": "2-0"
+     },
+     {
+      "date": "2025-01-12",
+      "home": "Ath Madrid",
+      "away": "Osasuna",
+      "score": "1-0"
+     },
+     {
+      "date": "2024-05-19",
+      "home": "Ath Madrid",
+      "away": "Osasuna",
+      "score": "1-4"
+     }
+    ]
+   },
+   "explanation": "Ath Madrid e favorita, cu 61% sanse de victorie. Goluri asteptate: 1.92 pentru Ath Madrid, 0.92 pentru Osasuna. Forma recenta — Ath Madrid: IVEVIV, Osasuna: IEVVII (cel mai recent meci la dreapta). In clasamentul intern al modelului, Ath Madrid e pe locul 6 la atac, Osasuna pe 16, din 29 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+  },
+  {
+   "id": "SP1_20260916_LaCoruna_Sevilla",
+   "league": "SP1",
+   "league_name": "La Liga",
+   "date": "2026-09-16",
+   "time": "18:00",
+   "home": "La Coruna",
+   "away": "Sevilla",
+   "probs": {
+    "p_home": 0.4708,
+    "p_draw": 0.2488,
+    "p_away": 0.2804,
+    "p_over25": 0.5405,
+    "p_btts": 0.5666,
+    "p_under25": 0.4595,
+    "p_no_btts": 0.4334
+   },
+   "expected_goals": {
+    "home": 1.63,
+    "away": 1.21
+   },
+   "confidence": "scazuta",
+   "sample": {
+    "home_matches": 5,
+    "away_matches": 116
+   },
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 0.1173
+    },
+    {
+     "score": "2-1",
+     "p": 0.094
+    },
+    {
+     "score": "1-0",
+     "p": 0.093
+    },
+    {
+     "score": "2-0",
+     "p": 0.0778
+    },
+    {
+     "score": "1-2",
+     "p": 0.0695
+    }
+   ],
+   "reference_odds": {
+    "home": 2.4,
+    "draw": 3.25,
+    "away": 3.0
+   },
+   "context": {
+    "home": {
+     "form": [
+      "I",
+      "E",
+      "E",
+      "V",
+      "V",
+      "E"
+     ],
+     "goals_for_avg": 1.67,
+     "goals_against_avg": 1.33,
+     "shots_on_target_avg": 4.0,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "I",
+      "V",
+      "V",
+      "I",
+      "E",
+      "V"
+     ],
+     "goals_for_avg": 1.33,
+     "goals_against_avg": 1.17,
+     "shots_on_target_avg": 3.67,
+     "matches_analysed": 6
+    },
+    "h2h": [
+     {
+      "date": "2018-04-17",
+      "home": "La Coruna",
+      "away": "Sevilla",
+      "score": "0-0"
+     },
+     {
+      "date": "2017-12-02",
+      "home": "Sevilla",
+      "away": "La Coruna",
+      "score": "2-0"
+     },
+     {
+      "date": "2017-04-08",
+      "home": "Sevilla",
+      "away": "La Coruna",
+      "score": "4-2"
+     },
+     {
+      "date": "2016-11-19",
+      "home": "La Coruna",
+      "away": "Sevilla",
+      "score": "2-3"
+     },
+     {
+      "date": "2016-04-17",
+      "home": "Sevilla",
+      "away": "La Coruna",
+      "score": "1-1"
+     }
+    ]
+   },
+   "explanation": "La Coruna e favorita, cu 47% sanse de victorie. Goluri asteptate: 1.63 pentru La Coruna, 1.21 pentru Sevilla. Forma recenta — La Coruna: IEEVVE, Sevilla: IVVIEV (cel mai recent meci la dreapta). In clasamentul intern al modelului, La Coruna e pe locul 3 la atac, Sevilla pe 14, din 29 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+  },
+  {
+   "id": "SP1_20260916_Barcelona_Santander",
+   "league": "SP1",
+   "league_name": "La Liga",
+   "date": "2026-09-16",
+   "time": "20:30",
+   "home": "Barcelona",
+   "away": "Santander",
+   "probs": {
+    "p_home": 0.902,
+    "p_draw": 0.0629,
+    "p_away": 0.0351,
+    "p_over25": 0.8938,
+    "p_btts": 0.6051,
+    "p_under25": 0.1062,
+    "p_no_btts": 0.3949
+   },
+   "expected_goals": {
+    "home": 4.29,
+    "away": 0.95
+   },
+   "confidence": "scazuta",
+   "sample": {
+    "home_matches": 115,
+    "away_matches": 5
+   },
+   "top_scores": [
+    {
+     "score": "4-0",
+     "p": 0.0752
+    },
+    {
+     "score": "4-1",
+     "p": 0.0714
+    },
+    {
+     "score": "3-0",
+     "p": 0.0701
+    },
+    {
+     "score": "3-1",
+     "p": 0.0665
+    },
+    {
+     "score": "5-0",
+     "p": 0.0645
+    }
+   ],
+   "reference_odds": {
+    "home": 1.06,
+    "draw": 14.0,
+    "away": 23.0
+   },
+   "context": {
+    "home": {
+     "form": [
+      "I",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+     ],
+     "goals_for_avg": 3.67,
+     "goals_against_avg": 1.17,
+     "shots_on_target_avg": 7.67,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "E",
+      "I",
+      "V",
+      "I",
+      "V"
+     ],
+     "goals_for_avg": 1.8,
+     "goals_against_avg": 1.8,
+     "shots_on_target_avg": 4.0,
+     "matches_analysed": 5
+    },
+    "h2h": []
+   },
+   "explanation": "Barcelona e favorita, cu 90% sanse de victorie. Goluri asteptate: 4.29 pentru Barcelona, 0.95 pentru Santander. Forma recenta — Barcelona: IVVVVV, Santander: EIVIV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Barcelona e pe locul 1 la atac, Santander pe 5, din 29 echipe. Se asteapta un meci deschis: 89% sanse la peste 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+  },
+  {
+   "id": "SP1_20260916_Levante_AthBilbao",
+   "league": "SP1",
+   "league_name": "La Liga",
+   "date": "2026-09-16",
+   "time": "20:30",
+   "home": "Levante",
+   "away": "Ath Bilbao",
+   "probs": {
+    "p_home": 0.3795,
+    "p_draw": 0.2606,
+    "p_away": 0.36,
+    "p_over25": 0.5165,
+    "p_btts": 0.5589,
+    "p_under25": 0.4835,
+    "p_no_btts": 0.4411
+   },
+   "expected_goals": {
+    "home": 1.39,
+    "away": 1.35
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 43,
+    "away_matches": 115
+   },
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 0.1235
+    },
+    {
+     "score": "1-0",
+     "p": 0.0874
+    },
+    {
+     "score": "0-1",
+     "p": 0.0846
+    },
+    {
+     "score": "2-1",
+     "p": 0.0843
+    },
+    {
+     "score": "1-2",
+     "p": 0.0817
+    }
+   ],
+   "reference_odds": {
+    "home": 3.4,
+    "draw": 3.5,
+    "away": 2.1
+   },
+   "context": {
+    "home": {
+     "form": [
+      "I",
+      "I",
+      "E",
+      "V",
+      "E",
+      "I"
+     ],
+     "goals_for_avg": 1.33,
+     "goals_against_avg": 1.83,
+     "shots_on_target_avg": 4.67,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "I",
+      "I",
+      "I",
+      "V",
+      "V",
+      "E"
+     ],
+     "goals_for_avg": 1.5,
+     "goals_against_avg": 1.67,
+     "shots_on_target_avg": 4.0,
+     "matches_analysed": 6
+    },
+    "h2h": [
+     {
+      "date": "2026-02-08",
+      "home": "Ath Bilbao",
+      "away": "Levante",
+      "score": "4-2"
+     },
+     {
+      "date": "2025-11-29",
+      "home": "Levante",
+      "away": "Ath Bilbao",
+      "score": "0-2"
+     },
+     {
+      "date": "2022-03-07",
+      "home": "Ath Bilbao",
+      "away": "Levante",
+      "score": "3-1"
+     },
+     {
+      "date": "2021-11-19",
+      "home": "Levante",
+      "away": "Ath Bilbao",
+      "score": "0-0"
+     },
+     {
+      "date": "2021-02-26",
+      "home": "Levante",
+      "away": "Ath Bilbao",
+      "score": "1-1"
+     }
+    ]
+   },
+   "explanation": "Meci echilibrat: modelul nu vede un favorit clar (38% / 26% / 36%). Goluri asteptate: 1.39 pentru Levante, 1.35 pentru Ath Bilbao. Forma recenta — Levante: IIEVEI, Ath Bilbao: IIIVVE (cel mai recent meci la dreapta). In clasamentul intern al modelului, Levante e pe locul 9 la atac, Ath Bilbao pe 13, din 29 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+  },
+  {
+   "id": "SP1_20260917_Betis_Getafe",
+   "league": "SP1",
+   "league_name": "La Liga",
+   "date": "2026-09-17",
+   "time": "18:00",
+   "home": "Betis",
+   "away": "Getafe",
+   "probs": {
+    "p_home": 0.5544,
+    "p_draw": 0.2683,
+    "p_away": 0.1773,
+    "p_over25": 0.377,
+    "p_btts": 0.3971,
+    "p_under25": 0.623,
+    "p_no_btts": 0.6029
+   },
+   "expected_goals": {
+    "home": 1.48,
+    "away": 0.71
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 115,
+    "away_matches": 115
+   },
+   "top_scores": [
+    {
+     "score": "1-0",
+     "p": 0.1624
+    },
+    {
+     "score": "2-0",
+     "p": 0.1222
+    },
+    {
+     "score": "1-1",
+     "p": 0.1199
+    },
+    {
+     "score": "0-0",
+     "p": 0.1132
+    },
+    {
+     "score": "2-1",
+     "p": 0.0873
+    }
+   ],
+   "reference_odds": {
+    "home": 1.57,
+    "draw": 4.0,
+    "away": 5.75
+   },
+   "context": {
+    "home": {
+     "form": [
+      "V",
+      "V",
+      "V",
+      "I",
+      "V",
+      "V"
+     ],
+     "goals_for_avg": 1.5,
+     "goals_against_avg": 1.17,
+     "shots_on_target_avg": 6.83,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "V",
+      "I",
+      "V",
+      "I",
+      "E",
+      "E"
+     ],
+     "goals_for_avg": 0.67,
+     "goals_against_avg": 1.0,
+     "shots_on_target_avg": 2.17,
+     "matches_analysed": 6
+    },
+    "h2h": [
+     {
+      "date": "2026-03-08",
+      "home": "Getafe",
+      "away": "Betis",
+      "score": "2-0"
+     },
+     {
+      "date": "2025-12-21",
+      "home": "Betis",
+      "away": "Getafe",
+      "score": "4-0"
+     },
+     {
+      "date": "2025-02-23",
+      "home": "Getafe",
+      "away": "Betis",
+      "score": "1-2"
+     },
+     {
+      "date": "2024-09-18",
+      "home": "Betis",
+      "away": "Getafe",
+      "score": "2-1"
+     },
+     {
+      "date": "2024-02-04",
+      "home": "Betis",
+      "away": "Getafe",
+      "score": "1-1"
+     }
+    ]
+   },
+   "explanation": "Betis e favorita, cu 55% sanse de victorie. Goluri asteptate: 1.48 pentru Betis, 0.71 pentru Getafe. Forma recenta — Betis: VVVIVV, Getafe: VIVIEE (cel mai recent meci la dreapta). In clasamentul intern al modelului, Betis e pe locul 7 la atac, Getafe pe 25, din 29 echipe. Se asteapta un meci inchis: 62% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+  },
+  {
+   "id": "SP1_20260917_Malaga_Villarreal",
+   "league": "SP1",
+   "league_name": "La Liga",
+   "date": "2026-09-17",
+   "time": "20:30",
+   "home": "Malaga",
+   "away": "Villarreal",
+   "probs": {
+    "p_home": 0.1468,
+    "p_draw": 0.2811,
+    "p_away": 0.5721,
+    "p_over25": 0.3086,
+    "p_btts": 0.3228,
+    "p_under25": 0.6914,
+    "p_no_btts": 0.6772
+   },
+   "expected_goals": {
+    "home": 0.56,
+    "away": 1.39
+   },
+   "confidence": "scazuta",
+   "sample": {
+    "home_matches": 5,
+    "away_matches": 115
+   },
+   "top_scores": [
+    {
+     "score": "0-1",
+     "p": 0.1962
+    },
+    {
+     "score": "0-0",
+     "p": 0.1451
+    },
+    {
+     "score": "0-2",
+     "p": 0.1377
+    },
+    {
+     "score": "1-1",
+     "p": 0.1127
+    },
+    {
+     "score": "1-0",
+     "p": 0.0775
+    }
+   ],
+   "reference_odds": {
+    "home": 3.6,
+    "draw": 3.7,
+    "away": 1.95
+   },
+   "context": {
+    "home": {
+     "form": [
+      "I",
+      "I",
+      "E",
+      "I",
+      "E",
+      "E"
+     ],
+     "goals_for_avg": 0.33,
+     "goals_against_avg": 1.5,
+     "shots_on_target_avg": 1.83,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "V",
+      "E",
+      "E",
+      "I",
+      "I",
+      "I"
+     ],
+     "goals_for_avg": 2.0,
+     "goals_against_avg": 1.83,
+     "shots_on_target_avg": 6.67,
+     "matches_analysed": 6
+    },
+    "h2h": [
+     {
+      "date": "2018-04-01",
+      "home": "Malaga",
+      "away": "Villarreal",
+      "score": "1-0"
+     },
+     {
+      "date": "2017-11-05",
+      "home": "Villarreal",
+      "away": "Malaga",
+      "score": "2-0"
+     },
+     {
+      "date": "2017-02-12",
+      "home": "Villarreal",
+      "away": "Malaga",
+      "score": "1-1"
+     },
+     {
+      "date": "2016-09-10",
+      "home": "Malaga",
+      "away": "Villarreal",
+      "score": "0-2"
+     },
+     {
+      "date": "2016-02-13",
+      "home": "Villarreal",
+      "away": "Malaga",
+      "score": "1-0"
+     }
+    ]
+   },
+   "explanation": "Villarreal e favorita, cu 57% sanse de victorie. Goluri asteptate: 0.56 pentru Malaga, 1.39 pentru Villarreal. Forma recenta — Malaga: IIEIEE, Villarreal: VEEIII (cel mai recent meci la dreapta). In clasamentul intern al modelului, Malaga e pe locul 29 la atac, Villarreal pe 4, din 29 echipe. Se asteapta un meci inchis: 69% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+  }
+ ]
+}

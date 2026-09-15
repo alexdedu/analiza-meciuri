@@ -1,0 +1,10 @@
+research/.venv/
+research/data/
+research/out/
+app/build/
+app/.dart_tool/
+app/android/.gradle/
+*.pyc
+__pycache__/
+app/.flutter-plugins-dependencies
+app/windows/
