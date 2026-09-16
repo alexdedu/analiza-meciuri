@@ -116,6 +116,6 @@ void main() {
 
   testWidgets('reperul de randament din backtest este vizibil', (tester) async {
     await pumpCalculator(tester);
-    expect(find.textContaining('−3.7%'), findsOneWidget);
+    expect(find.textContaining('−3.8%'), findsOneWidget);
   });
 }

@@ -36,6 +36,6 @@ void main() {
 
   testWidgets('numarul de meciuri testate e formatat cu separator', (tester) async {
     await tester.pumpWidget(MaterialApp(home: AboutScreen(bundle: bundle)));
-    expect(find.text('28.675'), findsOneWidget);
+    expect(find.text('60.539'), findsOneWidget);
   });
 }

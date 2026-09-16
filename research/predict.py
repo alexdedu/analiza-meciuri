@@ -18,12 +18,13 @@ from scipy.special import gammaln
 
 from backtest import WINDOW_DAYS
 from backtest_xg import XI, fit_on
-from data_loader import load_all
+from data_loader import league_slug, load_all
 from dixon_coles import MAX_GOALS, markets_from_rates
-from download_data import LEAGUES, SEASONS, fetch
+from download_data import EXTRA_LEAGUES, LEAGUES, SEASONS, fetch
 
 ALPHA = 0.50  # pondere goluri vs suturi, aleasa pe perioada de validare
 FIXTURES_URL = "https://www.football-data.co.uk/fixtures.csv"
+EXTRA_FIXTURES_URL = "https://www.football-data.co.uk/new_league_fixtures.csv"
 OUT = Path(__file__).parent.parent / "app" / "assets" / "predictions.json"
 
 
@@ -37,16 +38,55 @@ def refresh_current_season() -> None:
         fetch(current, code)
 
 
-def get_fixtures() -> pd.DataFrame:
-    r = requests.get(FIXTURES_URL, timeout=30, headers={"User-Agent": "Mozilla/5.0"})
+def _download_csv(url: str) -> pd.DataFrame:
+    r = requests.get(url, timeout=30, headers={"User-Agent": "Mozilla/5.0"})
     r.raise_for_status()
     # Citim octetii, nu r.text: requests ghiceste ISO-8859-1 si sparge BOM-ul
     # UTF-8 in trei caractere, iar prima coloana devine de necitit.
     fx = pd.read_csv(io.BytesIO(r.content), encoding="utf-8-sig")
     fx.columns = [c.strip() for c in fx.columns]
-    fx = fx[fx["Div"].isin(LEAGUES)].copy()
+    return fx
+
+
+def get_fixtures() -> pd.DataFrame:
+    """Meciurile viitoare din ambele feeduri, aduse la aceleasi coloane."""
+    parts = []
+
+    core = _download_csv(FIXTURES_URL)
+    core = core[core["Div"].isin(LEAGUES)].copy()
+    core["div"] = core["Div"]
+    core["home"] = core["HomeTeam"]
+    core["away"] = core["AwayTeam"]
+    parts.append(core)
+
+    # Codul tarii nu apare in feedul suplimentar, doar numele ei.
+    code_by_country = {country: code for code, (country, _) in EXTRA_LEAGUES.items()}
+    try:
+        extra = _download_csv(EXTRA_FIXTURES_URL)
+    except requests.RequestException as exc:
+        print(f"  (feedul suplimentar nu a raspuns: {exc})")
+        extra = pd.DataFrame()
+    if not extra.empty and {"Country", "League", "Home", "Away"}.issubset(extra.columns):
+        extra = extra[extra["Country"].isin(code_by_country)].copy()
+        extra["div"] = (extra["Country"].map(code_by_country) + "_"
+                        + extra["League"].map(league_slug))
+        extra["home"] = extra["Home"]
+        extra["away"] = extra["Away"]
+        parts.append(extra)
+
+    keep = ["div", "Date", "Time", "home", "away", "B365H", "B365D", "B365A"]
+    frames = []
+    for part in parts:
+        for col in keep:
+            if col not in part.columns:
+                part[col] = pd.NA
+        frames.append(part[keep])
+
+    fx = pd.concat(frames, ignore_index=True)
     fx["date"] = pd.to_datetime(fx["Date"], format="mixed", dayfirst=True, errors="coerce")
-    return fx.dropna(subset=["date", "HomeTeam", "AwayTeam"])
+    fx["home"] = fx["home"].astype("string").str.strip()
+    fx["away"] = fx["away"].astype("string").str.strip()
+    return fx.dropna(subset=["date", "home", "away"])
 
 
 def team_context(hist: pd.DataFrame, team: str, n: int = 6) -> dict:
@@ -149,9 +189,13 @@ def main() -> None:
     fx = get_fixtures()
     print(f"  {len(fx)} meciuri viitoare in ligile acoperite")
 
+    # Numele afisat al competitiei vine din datele istorice, ca sa fie identic
+    # pentru ambele formate de fisiere.
+    nume_liga = dict(zip(hist["div"], hist["league_name"]))
+
     today = pd.Timestamp(datetime.now().date())
     out = []
-    for div, group in fx.groupby("Div"):
+    for div, group in fx.groupby("div"):
         league = hist[hist["div"] == div]
         train = league[league["date"] >= today - pd.Timedelta(days=WINDOW_DAYS)]
         if len(train) < 150:
@@ -171,8 +215,8 @@ def main() -> None:
 
         n_div = 0
         for _, m in group.iterrows():
-            home = str(m["HomeTeam"]).strip()
-            away = str(m["AwayTeam"]).strip()
+            home = str(m["home"]).strip()
+            away = str(m["away"]).strip()
             if home not in fit_g.teams or away not in fit_g.teams:
                 print(f"  {div}: sar peste {home} - {away} (istoric insuficient)")
                 continue
@@ -208,7 +252,7 @@ def main() -> None:
             out.append({
                 "id": match_id,
                 "league": div,
-                "league_name": LEAGUES[div],
+                "league_name": nume_liga.get(div, div),
                 "date": m["date"].strftime("%Y-%m-%d"),
                 "time": str(m.get("Time", "")),
                 "home": home,
@@ -237,12 +281,12 @@ def main() -> None:
             "goals_weight": ALPHA,
             "xi": XI,
             "backtest": {
-                "matches_tested": 28675,
+                "matches_tested": 60539,
                 "period": "2019-2026",
-                "log_loss": 0.99155,
-                "accuracy": 0.5175,
-                "ece": 0.0070,
-                "market_log_loss": 0.96980,
+                "log_loss": 1.01648,
+                "accuracy": 0.4997,
+                "ece": 0.0080,
+                "market_log_loss": 0.98846,
                 "beats_market": False,
                 "note": ("Calibrare foarte buna, dar modelul NU bate cotele de inchidere "
                          "si nu a produs ROI pozitiv in backtest."),

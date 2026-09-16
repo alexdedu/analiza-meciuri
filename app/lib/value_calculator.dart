@@ -75,7 +75,7 @@ class _ValueCalculatorState extends State<ValueCalculator> {
           for (final market in _markets) _buildRow(market),
           const SizedBox(height: 10),
           const Text(
-            'Reper: in backtest, selectia dupa acest avantaj a dat −3.7% pe 43.101 de pariuri.',
+            'Reper: in backtest, selectia dupa acest avantaj a dat −3.8% pe 87.186 de pariuri.',
             style: TextStyle(fontSize: 11, color: AppColors.textSecondary, height: 1.3),
           ),
         ],

@@ -1,26 +1,29 @@
 # Backtest — rezultate și concluzii
 
-**Date:** 48.935 meciuri, 12 ligi, 2014–2026 (football-data.co.uk, gratuit)
-**Predicții evaluate:** 41.959, din care **28.675 pe perioada de test curată** (2019–2026)
+**Date:** 112.119 meciuri, 30 de competiții din 28 de țări, 2012–2026
+(football-data.co.uk, gratuit)
+**Predicții evaluate:** 97.168, din care **60.539 pe perioada de test curată** (2019–2026)
 **Protocol:** walk-forward, reantrenare săptămânală, fereastră de 3 sezoane.
 Niciun meci nu contribuie la propria predicție. `xi` și ponderea goluri/șuturi au fost
 alese exclusiv pe 2015–2019 și aplicate neschimbate pe 2019–2026.
 
-> Notă: o primă rulare a folosit din greșeală un subset (32.758 predicții) — un bug în
-> loader arunca tăcut fișierele cu BOM. După corectare, concluziile au rămas identice,
-> iar semnificația statistică a crescut.
+> Notă: datele despre șuturi pe poartă există doar pentru cele 12 competiții „de bază"
+> (39,8% din meciuri). Pentru restul — România, Polonia, Brazilia, MLS etc. — modelul
+> funcționează doar pe goluri.
 
 ## 1. Modelul vs piață (1X2)
 
 | Model | log-loss | Brier | Acuratețe |
 |---|---|---|---|
-| Dixon-Coles, doar goluri | 0.99858 | 0.5941 | 51.31% |
-| **Dixon-Coles, goluri + șuturi pe poartă** | **0.99155** | **0.5906** | **51.75%** |
-| Cote de închidere (piața) | **0.96980** | **0.5768** | **53.12%** |
-| Referință: „mereu gazda" | 1.07373 | 0.6499 | 43.26% |
+| Dixon-Coles, doar goluri | 1.01981 | 0.6086 | 49.76% |
+| **Dixon-Coles, goluri + șuturi pe poartă** | **1.01648** | **0.6069** | **49.97%** |
+| Cote de închidere (piața) | **0.98846** | **0.5897** | **51.49%** |
 
-Modelul bate net referința naivă, dar **pierde consistent în fața pieței**.
-Șuturile pe poartă (proxy gratuit de xG) au închis ~24% din distanță.
+Modelul **pierde consistent în fața pieței**.
+
+Cifrele sunt mai slabe decât pe setul inițial de 12 ligi (era 0.99155 față de 0.96980),
+și asta e de așteptat: competițiile adăugate sunt mai imprevizibile, iar pentru ele
+lipsesc datele despre șuturi. Concluzia calitativă nu se schimbă cu nimic.
 
 ## 2. Testul decisiv: adaugă modelul informație peste piață?
 
@@ -28,59 +31,64 @@ Pool logaritmic model × piață, pondere căutată direct pe test:
 
 | Pondere model | 0% | 5% | 10% | 25% | 40% |
 |---|---|---|---|---|---|
-| log-loss | **0.96980** | 0.97012 | 0.97052 | 0.97220 | 0.97463 |
+| log-loss | **0.98846** | 0.98877 | 0.98920 | 0.99124 | 0.99432 |
 
 **Optimul e 0%.** Orice cantitate de model înrăutățește predicția pieței.
-Modelul nu conține informație pe care cotele să nu o aibă deja.
 
 ## 3. ROI (miză fixă, cea mai bună cotă de pe piață)
 
 | Prag edge | Pariuri | ROI | t |
 |---|---|---|---|
-| >0% | 43.101 | −3.71% | −4.00 |
-| >5% | 32.807 | −4.97% | −4.43 |
-| >10% | 25.183 | −6.14% | −4.57 |
-| >20% | 15.137 | −7.67% | −4.00 |
+| >0% | 87.186 | −3.84% | −6.30 |
+| >5% | 66.972 | −4.77% | −6.60 |
+| >10% | 51.264 | −5.73% | −6.66 |
+| >20% | 30.443 | −6.41% | −5.26 |
 
-Negativ peste tot, **puternic semnificativ statistic**. Over/Under 2.5: identic, −2.5% … −4.3%.
+Negativ peste tot. Cu de două ori mai multe date, semnificația statistică a crescut de la
+t ≈ −4 la **t ≈ −6.6**: nu mai e loc de îndoială că e sistematic, nu ghinion.
+
 Pragurile mari înrăutățesc lucrurile: **acolo unde modelul crede că are cel mai mare
-avantaj, se înșală cel mai tare.** E semnătura unui model care nu găsește valoare.
+avantaj, se înșală cel mai tare.**
 
-## 4. Strategia alternativă: cotă bună vs linia „ascuțită" (Pinnacle)
-
-Fără niciun model, doar comparând cea mai bună cotă de pe piață cu prețul corect Pinnacle:
-ROI +1.3% … +6.0%, dar **t ≈ +1.2 — nesemnificativ**. Defalcarea pe ligi (Bundesliga +11%,
-Portugalia −11%) e zgomot, nu structură. Plus: „cea mai bună cotă" înseamnă best-of-40-case
-la închidere — un cont obișnuit nu obține prețul ăla.
-
-## 5. Ce a ieșit foarte bine: calibrarea
+## 4. Ce a ieșit foarte bine: calibrarea
 
 | Interval prezis | n | Prezis | Realizat | Eroare |
 |---|---|---|---|---|
-| 0–10% | 2.060 | 0.071 | 0.072 | −0.001 |
-| 20–30% | 34.490 | 0.255 | 0.255 | +0.000 |
-| 40–50% | 10.798 | 0.447 | 0.445 | +0.002 |
-| 60–70% | 3.637 | 0.644 | 0.685 | −0.040 |
-| 80–90% | 534 | 0.837 | 0.861 | −0.024 |
+| 10–20% | 21.528 | 0.160 | 0.171 | −0.011 |
+| 20–30% | 70.642 | 0.254 | 0.259 | −0.005 |
+| 30–40% | 35.817 | 0.344 | 0.336 | +0.008 |
+| 40–50% | 22.631 | 0.447 | 0.439 | +0.007 |
+| 50–60% | 14.561 | 0.545 | 0.537 | +0.008 |
+| 60–70% | 7.819 | 0.644 | 0.639 | +0.005 |
+| 80–90% | 1.014 | 0.838 | 0.805 | +0.033 |
 
-**Eroare medie de calibrare (ECE): 0.0070.** Când modelul spune 30%, se întâmplă în 25.5%…
-mai exact, în banda 20–30% media prezisă 0.255 vs realizat 0.255. Over 2.5: 0.506 prezis vs
-0.524 real. BTTS: 0.514 vs 0.531. Singura zonă slabă e peste 90% (doar 60 de cazuri).
+**Eroare medie de calibrare (ECE): 0.0080.** Când modelul spune 30%, se întâmplă în ~30%
+din cazuri. Peste 90% prezis rămâne zona slabă, dar acolo sunt doar 145 de cazuri.
+
+Over 2.5: 0.495 prezis vs 0.514 real. BTTS: 0.505 vs 0.532.
 
 ## Concluzie
 
-Modelul **nu poate fi folosit ca să bată casele de pariuri** — demonstrat, nu presupus.
-Poate fi folosit ca **motor de probabilități onest și bine calibrat**: îți spune corect
-cât de probabil e fiecare rezultat, ca punct de plecare pentru propria analiză.
+Modelul **nu poate fi folosit ca să bată casele de pariuri** — demonstrat pe 60.539 de
+meciuri, nu presupus. Poate fi folosit ca **motor de probabilități onest și bine
+calibrat**: îți spune corect cât de probabil e fiecare rezultat.
 
-## Cum se poate îmbunătăți (gratuit)
+## Ce nu se poate face gratuit
 
-1. **xG real** — football-data.co.uk a început să publice coloanele `HxG`/`AxG` din sezonul
-   2026/27. Deocamdată prea puține meciuri pentru antrenare, dar peste 1–2 sezoane devine
-   cel mai serios upgrade disponibil, fără scraping și fără costuri.
-2. Absențe/accidentări (necesită API-Football, 19 $/lună)
-3. Zile de odihnă între meciuri, meciuri europene la mijloc de săptămână
-4. Importanța meciului la final de sezon
+**Cupele europene (Champions League, Europa League) nu există în nicio sursă gratuită.**
+Verificat: football-data.co.uk are doar campionate interne; API-ul de meciuri al Club Elo
+a fost dezactivat; openfootball are sezonul curent, dar tot doar campionate interne.
 
-Distanța de recuperat în log-loss e 0.022. Niciuna dintre îmbunătățiri nu garantează
-depășirea pieței.
+Chiar cu meciurile la îndemână, ar mai fi o problemă de fond: modelul e antrenat separat
+pe fiecare competiție, iar forțele sunt normalizate în interiorul ei. O echipă de mijlocul
+clasamentului din Olanda și una din Spania au amândouă atac ≈ 0. Pentru meciuri între ligi
+diferite ar fi nevoie de un rating comparabil între campionate, iar date istorice din
+cupele europene, pe care să-l antrenez, nu avem deloc.
+
+## Cum se poate îmbunătăți
+
+1. **xG real** — football-data.co.uk publică `HxG`/`AxG` din sezonul 2026/27. Prea puține
+   meciuri acum, dar peste 1–2 sezoane devine cel mai serios upgrade gratuit.
+2. Cupe europene + absențe + orizont de 7 zile — necesită API-Football, ~19 $/lună.
+3. Zile de odihnă între meciuri, meciuri europene la mijloc de săptămână.
+4. Importanța meciului la final de sezon.

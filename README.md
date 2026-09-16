@@ -9,13 +9,16 @@ Over/Under 2.5, Ambele înscriu), pe baza istoricului și a formei echipelor.
 
 ## Ce face și ce nu face
 
-**Face:** probabilități bine calibrate, calculate din 48.935 de meciuri istorice.
-Eroarea medie de calibrare este 0.0070 — când modelul spune 30%, se întâmplă în ~30%
-din cazuri.
+**Face:** probabilități bine calibrate pentru **30 de competiții din 28 de țări**,
+inclusiv Superliga României, calculate din 112.119 meciuri istorice. Eroarea medie de
+calibrare este 0.0080 — când modelul spune 30%, se întâmplă în ~30% din cazuri.
 
-**Nu face:** nu bate casele de pariuri. Testat pe 28.675 de meciuri din perioada
-2019–2026, modelul are log-loss 0.9916 față de 0.9698 al cotelor de închidere, iar
-pariurile alese după el au dat randament **negativ** (−3.7%, semnificativ statistic).
+**Nu face:** nu bate casele de pariuri. Testat pe 60.539 de meciuri din perioada
+2019–2026, modelul are log-loss 1.0165 față de 0.9885 al cotelor de închidere, iar
+pariurile alese după el au dat randament **negativ** (−3.8%, t = −6.3).
+
+**Nu are:** Champions League și Europa League. Nu există în nicio sursă gratuită, iar
+modelul oricum nu poate compara echipe din campionate diferite. Detalii în CONCLUZII.md.
 
 Cifrele complete și metodologia sunt în [research/CONCLUZII.md](research/CONCLUZII.md).
 Aceleași cifre sunt afișate și în aplicație, pe ecranul „Despre model".
@@ -39,7 +42,7 @@ research/          Partea de date și modelare (Python)
 app/               Aplicația Flutter
   lib/               Cod sursă
   lib/config.dart    Adresa de unde se descarca predictiile (vezi mai jos)
-  test/              24 de teste
+  test/              30 de teste
   assets/predictions.json
   assets/icon/       Iconita generata
 
@@ -118,8 +121,14 @@ cd research
 ## Sursele de date
 
 Totul de la [football-data.co.uk](https://www.football-data.co.uk/) — CSV-uri gratuite,
-fără cont, fără limită de cereri: rezultate, statistici de meci și cote de la ~40 de case
-de pariuri, pentru 12 ligi începând din 2014.
+fără cont, fără limită de cereri. Sursa are două formate:
+
+- **12 competiții „de bază"** (Anglia, Spania, Italia, Germania, Franța, Olanda, Portugalia,
+  Belgia, Turcia, Grecia, Scoția): rezultate, statistici de meci **cu șuturi pe poartă** și
+  cote pentru 1X2 și Over/Under, din 2014.
+- **18 competiții suplimentare** (România, Polonia, Danemarca, Norvegia, Suedia, Finlanda,
+  Austria, Elveția, Irlanda, Rusia, Brazilia, Argentina, Mexic, SUA, Japonia, China): doar
+  rezultate și cote 1X2, din 2012. Fără șuturi, deci modelul merge pe varianta doar-goluri.
 
 Meciurile viitoare vin din `fixtures.csv` de pe același site, care folosește exact
 aceleași nume de echipe — deci nu e nevoie de nicio potrivire aproximativă de nume.

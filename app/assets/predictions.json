@@ -1,21 +1,138 @@
 {
- "generated_at": "2026-09-16T08:58:37+00:00",
+ "generated_at": "2026-09-16T09:11:24+00:00",
  "model": {
   "name": "Dixon-Coles + suturi pe poarta",
   "goals_weight": 0.5,
   "xi": 0.003,
   "backtest": {
-   "matches_tested": 28675,
+   "matches_tested": 60539,
    "period": "2019-2026",
-   "log_loss": 0.99155,
-   "accuracy": 0.5175,
-   "ece": 0.007,
-   "market_log_loss": 0.9698,
+   "log_loss": 1.01648,
+   "accuracy": 0.4997,
+   "ece": 0.008,
+   "market_log_loss": 0.98846,
    "beats_market": false,
    "note": "Calibrare foarte buna, dar modelul NU bate cotele de inchidere si nu a produs ROI pozitiv in backtest."
   }
  },
  "matches": [
+  {
+   "id": "POL_Ekstraklasa_20260915_Rakow_Zaglebie",
+   "league": "POL_Ekstraklasa",
+   "league_name": "Polonia — Ekstraklasa",
+   "date": "2026-09-15",
+   "time": "17:00",
+   "home": "Rakow",
+   "away": "Zaglebie",
+   "probs": {
+    "p_home": 0.4474,
+    "p_draw": 0.3169,
+    "p_away": 0.2358,
+    "p_over25": 0.3826,
+    "p_btts": 0.4523,
+    "p_under25": 0.6174,
+    "p_no_btts": 0.5477
+   },
+   "expected_goals": {
+    "home": 1.32,
+    "away": 0.9
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 103,
+    "away_matches": 102
+   },
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 0.1467
+    },
+    {
+     "score": "0-0",
+     "p": 0.1265
+    },
+    {
+     "score": "1-0",
+     "p": 0.1258
+    },
+    {
+     "score": "2-0",
+     "p": 0.095
+    },
+    {
+     "score": "2-1",
+     "p": 0.0852
+    }
+   ],
+   "reference_odds": {
+    "home": 1.8,
+    "draw": 3.75,
+    "away": 4.2
+   },
+   "context": {
+    "home": {
+     "form": [
+      "I",
+      "I",
+      "I",
+      "I",
+      "I",
+      "V"
+     ],
+     "goals_for_avg": 1.17,
+     "goals_against_avg": 2.17,
+     "shots_on_target_avg": null,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "I",
+      "V",
+      "E",
+      "E",
+      "E",
+      "V"
+     ],
+     "goals_for_avg": 1.0,
+     "goals_against_avg": 1.0,
+     "shots_on_target_avg": null,
+     "matches_analysed": 6
+    },
+    "h2h": [
+     {
+      "date": "2026-02-14",
+      "home": "Zaglebie",
+      "away": "Rakow",
+      "score": "0-0"
+     },
+     {
+      "date": "2025-12-14",
+      "home": "Rakow",
+      "away": "Zaglebie",
+      "score": "0-1"
+     },
+     {
+      "date": "2025-03-31",
+      "home": "Zaglebie",
+      "away": "Rakow",
+      "score": "0-2"
+     },
+     {
+      "date": "2024-09-22",
+      "home": "Rakow",
+      "away": "Zaglebie",
+      "score": "5-1"
+     },
+     {
+      "date": "2024-05-04",
+      "home": "Zaglebie",
+      "away": "Rakow",
+      "score": "2-0"
+     }
+    ]
+   },
+   "explanation": "Rakow e favorita, cu 45% sanse de victorie. Goluri asteptate: 1.32 pentru Rakow, 0.90 pentru Zaglebie. Forma recenta — Rakow: IIIIIV, Zaglebie: IVEEEV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Rakow e pe locul 8 la atac, Zaglebie pe 23, din 26 echipe. Se asteapta un meci inchis: 62% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+  },
   {
    "id": "SP1_20260915_Vallecano_Espanol",
    "league": "SP1",
@@ -132,6 +249,123 @@
     ]
    },
    "explanation": "Vallecano e favorita, cu 52% sanse de victorie. Goluri asteptate: 1.65 pentru Vallecano, 1.01 pentru Espanol. Forma recenta — Vallecano: VIEIVI, Espanol: EVIIEV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Vallecano e pe locul 18 la atac, Espanol pe 17, din 29 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+  },
+  {
+   "id": "SWZ_SuperLeague_20260915_Grasshoppers_Sion",
+   "league": "SWZ_SuperLeague",
+   "league_name": "Elvetia — Super League",
+   "date": "2026-09-15",
+   "time": "18:00",
+   "home": "Grasshoppers",
+   "away": "Sion",
+   "probs": {
+    "p_home": 0.2001,
+    "p_draw": 0.2367,
+    "p_away": 0.5632,
+    "p_over25": 0.5212,
+    "p_btts": 0.5205,
+    "p_under25": 0.4788,
+    "p_no_btts": 0.4795
+   },
+   "expected_goals": {
+    "home": 0.97,
+    "away": 1.79
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 117,
+    "away_matches": 83
+   },
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 0.1127
+    },
+    {
+     "score": "0-1",
+     "p": 0.1104
+    },
+    {
+     "score": "0-2",
+     "p": 0.1012
+    },
+    {
+     "score": "1-2",
+     "p": 0.0984
+    },
+    {
+     "score": "0-0",
+     "p": 0.066
+    }
+   ],
+   "reference_odds": {
+    "home": 3.8,
+    "draw": 3.8,
+    "away": 1.79
+   },
+   "context": {
+    "home": {
+     "form": [
+      "I",
+      "I",
+      "I",
+      "V",
+      "E",
+      "V"
+     ],
+     "goals_for_avg": 1.5,
+     "goals_against_avg": 2.17,
+     "shots_on_target_avg": null,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "V",
+      "V",
+      "I",
+      "V",
+      "V",
+      "V"
+     ],
+     "goals_for_avg": 2.5,
+     "goals_against_avg": 1.17,
+     "shots_on_target_avg": null,
+     "matches_analysed": 6
+    },
+    "h2h": [
+     {
+      "date": "2026-04-06",
+      "home": "Grasshoppers",
+      "away": "Sion",
+      "score": "0-4"
+     },
+     {
+      "date": "2025-12-13",
+      "home": "Sion",
+      "away": "Grasshoppers",
+      "score": "1-0"
+     },
+     {
+      "date": "2025-10-19",
+      "home": "Grasshoppers",
+      "away": "Sion",
+      "score": "0-1"
+     },
+     {
+      "date": "2025-05-17",
+      "home": "Sion",
+      "away": "Grasshoppers",
+      "score": "2-1"
+     },
+     {
+      "date": "2025-03-16",
+      "home": "Grasshoppers",
+      "away": "Sion",
+      "score": "1-1"
+     }
+    ]
+   },
+   "explanation": "Sion e favorita, cu 56% sanse de victorie. Goluri asteptate: 0.97 pentru Grasshoppers, 1.79 pentru Sion. Forma recenta — Grasshoppers: IIIVEV, Sion: VVIVVV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Grasshoppers e pe locul 11 la atac, Sion pe 6, din 15 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
   },
   {
    "id": "N1_20260915_Ajax_WillemII",
@@ -366,6 +600,123 @@
     ]
    },
    "explanation": "Alaves e favorita, cu 52% sanse de victorie. Goluri asteptate: 1.48 pentru Alaves, 0.86 pentru Valencia. Forma recenta — Alaves: IVEVVI, Valencia: VEIIII (cel mai recent meci la dreapta). In clasamentul intern al modelului, Alaves e pe locul 12 la atac, Valencia pe 21, din 29 echipe. Se asteapta un meci inchis: 59% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+  },
+  {
+   "id": "POL_Ekstraklasa_20260915_KoronaKielce_GornikZabrze",
+   "league": "POL_Ekstraklasa",
+   "league_name": "Polonia — Ekstraklasa",
+   "date": "2026-09-15",
+   "time": "19:30",
+   "home": "Korona Kielce",
+   "away": "Gornik Zabrze",
+   "probs": {
+    "p_home": 0.3376,
+    "p_draw": 0.3309,
+    "p_away": 0.3315,
+    "p_over25": 0.3693,
+    "p_btts": 0.457,
+    "p_under25": 0.6307,
+    "p_no_btts": 0.543
+   },
+   "expected_goals": {
+    "home": 1.09,
+    "away": 1.08
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 102,
+    "away_matches": 101
+   },
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 0.153
+    },
+    {
+     "score": "0-0",
+     "p": 0.1328
+    },
+    {
+     "score": "1-0",
+     "p": 0.106
+    },
+    {
+     "score": "0-1",
+     "p": 0.1046
+    },
+    {
+     "score": "2-1",
+     "p": 0.0733
+    }
+   ],
+   "reference_odds": {
+    "home": 2.63,
+    "draw": 3.4,
+    "away": 2.6
+   },
+   "context": {
+    "home": {
+     "form": [
+      "E",
+      "V",
+      "E",
+      "V",
+      "E",
+      "V"
+     ],
+     "goals_for_avg": 1.5,
+     "goals_against_avg": 0.83,
+     "shots_on_target_avg": null,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "V",
+      "V",
+      "I",
+      "V",
+      "V",
+      "V"
+     ],
+     "goals_for_avg": 2.0,
+     "goals_against_avg": 1.17,
+     "shots_on_target_avg": null,
+     "matches_analysed": 6
+    },
+    "h2h": [
+     {
+      "date": "2026-04-18",
+      "home": "Gornik Zabrze",
+      "away": "Korona Kielce",
+      "score": "1-0"
+     },
+     {
+      "date": "2025-10-18",
+      "home": "Korona Kielce",
+      "away": "Gornik Zabrze",
+      "score": "1-1"
+     },
+     {
+      "date": "2025-05-24",
+      "home": "Gornik Zabrze",
+      "away": "Korona Kielce",
+      "score": "1-1"
+     },
+     {
+      "date": "2024-12-01",
+      "home": "Korona Kielce",
+      "away": "Gornik Zabrze",
+      "score": "2-4"
+     },
+     {
+      "date": "2024-02-19",
+      "home": "Gornik Zabrze",
+      "away": "Korona Kielce",
+      "score": "3-1"
+     }
+    ]
+   },
+   "explanation": "Meci echilibrat: modelul nu vede un favorit clar (34% / 33% / 33%). Goluri asteptate: 1.09 pentru Korona Kielce, 1.08 pentru Gornik Zabrze. Forma recenta — Korona Kielce: EVEVEV, Gornik Zabrze: VVIVVV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Korona Kielce e pe locul 20 la atac, Gornik Zabrze pe 7, din 26 echipe. Se asteapta un meci inchis: 63% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
   },
   {
    "id": "E1_20260915_BristolCity_Lincoln",
@@ -1033,6 +1384,123 @@
    "explanation": "Real Madrid e favorita, cu 60% sanse de victorie. Goluri asteptate: 1.11 pentru Elche, 2.10 pentru Real Madrid. Forma recenta — Elche: EEIIIE, Real Madrid: VVVVIV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Elche e pe locul 10 la atac, Real Madrid pe 2, din 29 echipe. Se asteapta un meci deschis: 62% sanse la peste 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
   },
   {
+   "id": "MEX_LigaMx_20260916_Puebla_Toluca",
+   "league": "MEX_LigaMx",
+   "league_name": "Mexic — Liga MX",
+   "date": "2026-09-16",
+   "time": "02:00",
+   "home": "Puebla",
+   "away": "Toluca",
+   "probs": {
+    "p_home": 0.1608,
+    "p_draw": 0.2274,
+    "p_away": 0.6117,
+    "p_over25": 0.5519,
+    "p_btts": 0.525,
+    "p_under25": 0.4481,
+    "p_no_btts": 0.475
+   },
+   "expected_goals": {
+    "home": 0.92,
+    "away": 1.97
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 104,
+    "away_matches": 119
+   },
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 0.1083
+    },
+    {
+     "score": "0-2",
+     "p": 0.108
+    },
+    {
+     "score": "0-1",
+     "p": 0.1018
+    },
+    {
+     "score": "1-2",
+     "p": 0.0992
+    },
+    {
+     "score": "0-3",
+     "p": 0.071
+    }
+   ],
+   "reference_odds": {
+    "home": 5.75,
+    "draw": 4.33,
+    "away": 1.49
+   },
+   "context": {
+    "home": {
+     "form": [
+      "I",
+      "E",
+      "V",
+      "V",
+      "I",
+      "V"
+     ],
+     "goals_for_avg": 1.5,
+     "goals_against_avg": 1.5,
+     "shots_on_target_avg": null,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "I",
+      "V",
+      "E",
+      "V",
+      "V",
+      "V"
+     ],
+     "goals_for_avg": 2.5,
+     "goals_against_avg": 1.0,
+     "shots_on_target_avg": null,
+     "matches_analysed": 6
+    },
+    "h2h": [
+     {
+      "date": "2026-01-31",
+      "home": "Puebla",
+      "away": "Toluca",
+      "score": "0-0"
+     },
+     {
+      "date": "2025-09-14",
+      "home": "Toluca",
+      "away": "Puebla",
+      "score": "3-1"
+     },
+     {
+      "date": "2025-03-15",
+      "home": "Puebla",
+      "away": "Toluca",
+      "score": "0-3"
+     },
+     {
+      "date": "2024-10-23",
+      "home": "Toluca",
+      "away": "Puebla",
+      "score": "5-0"
+     },
+     {
+      "date": "2024-01-27",
+      "home": "Puebla",
+      "away": "Toluca",
+      "score": "1-1"
+     }
+    ]
+   },
+   "explanation": "Toluca e favorita, cu 61% sanse de victorie. Goluri asteptate: 0.92 pentru Puebla, 1.97 pentru Toluca. Forma recenta — Puebla: IEVVIV, Toluca: IVEVVV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Puebla e pe locul 17 la atac, Toluca pe 1, din 19 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+  },
+  {
    "id": "SP1_20260916_AthMadrid_Osasuna",
    "league": "SP1",
    "league_name": "La Liga",
@@ -1267,6 +1735,357 @@
    "explanation": "La Coruna e favorita, cu 47% sanse de victorie. Goluri asteptate: 1.63 pentru La Coruna, 1.21 pentru Sevilla. Forma recenta — La Coruna: IEEVVE, Sevilla: IVVIEV (cel mai recent meci la dreapta). In clasamentul intern al modelului, La Coruna e pe locul 3 la atac, Sevilla pe 14, din 29 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
   },
   {
+   "id": "SWE_Allsvenskan_20260916_AIK_Mjallby",
+   "league": "SWE_Allsvenskan",
+   "league_name": "Suedia — Allsvenskan",
+   "date": "2026-09-16",
+   "time": "18:00",
+   "home": "AIK",
+   "away": "Mjallby",
+   "probs": {
+    "p_home": 0.3998,
+    "p_draw": 0.2701,
+    "p_away": 0.3301,
+    "p_over25": 0.5011,
+    "p_btts": 0.5489,
+    "p_under25": 0.4989,
+    "p_no_btts": 0.4511
+   },
+   "expected_goals": {
+    "home": 1.41,
+    "away": 1.26
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 88,
+    "away_matches": 88
+   },
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 0.1286
+    },
+    {
+     "score": "1-0",
+     "p": 0.0914
+    },
+    {
+     "score": "2-1",
+     "p": 0.0868
+    },
+    {
+     "score": "0-1",
+     "p": 0.081
+    },
+    {
+     "score": "1-2",
+     "p": 0.0776
+    }
+   ],
+   "reference_odds": {
+    "home": 2.1,
+    "draw": 3.6,
+    "away": 3.1
+   },
+   "context": {
+    "home": {
+     "form": [
+      "I",
+      "V",
+      "V",
+      "V",
+      "E",
+      "I"
+     ],
+     "goals_for_avg": 1.83,
+     "goals_against_avg": 2.17,
+     "shots_on_target_avg": null,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "I",
+      "V",
+      "I",
+      "I",
+      "I",
+      "E"
+     ],
+     "goals_for_avg": 1.0,
+     "goals_against_avg": 2.5,
+     "shots_on_target_avg": null,
+     "matches_analysed": 6
+    },
+    "h2h": [
+     {
+      "date": "2026-07-11",
+      "home": "Mjallby",
+      "away": "AIK",
+      "score": "1-2"
+     },
+     {
+      "date": "2025-07-20",
+      "home": "Mjallby",
+      "away": "AIK",
+      "score": "2-0"
+     },
+     {
+      "date": "2025-05-11",
+      "home": "AIK",
+      "away": "Mjallby",
+      "score": "2-1"
+     },
+     {
+      "date": "2024-08-11",
+      "home": "AIK",
+      "away": "Mjallby",
+      "score": "1-0"
+     },
+     {
+      "date": "2024-04-13",
+      "home": "Mjallby",
+      "away": "AIK",
+      "score": "1-1"
+     }
+    ]
+   },
+   "explanation": "Meci echilibrat: modelul nu vede un favorit clar (40% / 27% / 33%). Goluri asteptate: 1.41 pentru AIK, 1.26 pentru Mjallby. Forma recenta — AIK: IVVVEI, Mjallby: IVIIIE (cel mai recent meci la dreapta). In clasamentul intern al modelului, AIK e pe locul 8 la atac, Mjallby pe 6, din 21 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+  },
+  {
+   "id": "SWZ_SuperLeague_20260916_Lugano_St.Gallen",
+   "league": "SWZ_SuperLeague",
+   "league_name": "Elvetia — Super League",
+   "date": "2026-09-16",
+   "time": "18:00",
+   "home": "Lugano",
+   "away": "St. Gallen",
+   "probs": {
+    "p_home": 0.4998,
+    "p_draw": 0.2557,
+    "p_away": 0.2445,
+    "p_over25": 0.4919,
+    "p_btts": 0.5196,
+    "p_under25": 0.5081,
+    "p_no_btts": 0.4804
+   },
+   "expected_goals": {
+    "home": 1.6,
+    "away": 1.04
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 116,
+    "away_matches": 115
+   },
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 0.1218
+    },
+    {
+     "score": "1-0",
+     "p": 0.111
+    },
+    {
+     "score": "2-1",
+     "p": 0.095
+    },
+    {
+     "score": "2-0",
+     "p": 0.0911
+    },
+    {
+     "score": "0-0",
+     "p": 0.0742
+    }
+   ],
+   "reference_odds": {
+    "home": 1.79,
+    "draw": 4.1,
+    "away": 3.6
+   },
+   "context": {
+    "home": {
+     "form": [
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "E"
+     ],
+     "goals_for_avg": 2.83,
+     "goals_against_avg": 0.83,
+     "shots_on_target_avg": null,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "V",
+      "E",
+      "I",
+      "I",
+      "V",
+      "I"
+     ],
+     "goals_for_avg": 1.67,
+     "goals_against_avg": 2.17,
+     "shots_on_target_avg": null,
+     "matches_analysed": 6
+    },
+    "h2h": [
+     {
+      "date": "2026-05-10",
+      "home": "Lugano",
+      "away": "St. Gallen",
+      "score": "1-2"
+     },
+     {
+      "date": "2026-03-17",
+      "home": "St. Gallen",
+      "away": "Lugano",
+      "score": "1-1"
+     },
+     {
+      "date": "2025-11-26",
+      "home": "Lugano",
+      "away": "St. Gallen",
+      "score": "1-3"
+     },
+     {
+      "date": "2025-09-13",
+      "home": "St. Gallen",
+      "away": "Lugano",
+      "score": "1-0"
+     },
+     {
+      "date": "2025-04-13",
+      "home": "Lugano",
+      "away": "St. Gallen",
+      "score": "1-1"
+     }
+    ]
+   },
+   "explanation": "Lugano e favorita, cu 50% sanse de victorie. Goluri asteptate: 1.60 pentru Lugano, 1.04 pentru St. Gallen. Forma recenta — Lugano: VVVVVE, St. Gallen: VEIIVI (cel mai recent meci la dreapta). In clasamentul intern al modelului, Lugano e pe locul 7 la atac, St. Gallen pe 8, din 15 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+  },
+  {
+   "id": "SWZ_SuperLeague_20260916_Thun_Servette",
+   "league": "SWZ_SuperLeague",
+   "league_name": "Elvetia — Super League",
+   "date": "2026-09-16",
+   "time": "18:00",
+   "home": "Thun",
+   "away": "Servette",
+   "probs": {
+    "p_home": 0.4596,
+    "p_draw": 0.2247,
+    "p_away": 0.3157,
+    "p_over25": 0.6759,
+    "p_btts": 0.677,
+    "p_under25": 0.3241,
+    "p_no_btts": 0.323
+   },
+   "expected_goals": {
+    "home": 1.92,
+    "away": 1.57
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 47,
+    "away_matches": 115
+   },
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 0.0945
+    },
+    {
+     "score": "2-1",
+     "p": 0.0884
+    },
+    {
+     "score": "1-2",
+     "p": 0.0722
+    },
+    {
+     "score": "2-2",
+     "p": 0.0692
+    },
+    {
+     "score": "1-0",
+     "p": 0.0566
+    }
+   ],
+   "reference_odds": {
+    "home": 2.75,
+    "draw": 3.7,
+    "away": 2.25
+   },
+   "context": {
+    "home": {
+     "form": [
+      "I",
+      "I",
+      "V",
+      "E",
+      "I",
+      "I"
+     ],
+     "goals_for_avg": 1.33,
+     "goals_against_avg": 2.83,
+     "shots_on_target_avg": null,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "I",
+      "V",
+      "E",
+      "I",
+      "I",
+      "V"
+     ],
+     "goals_for_avg": 0.83,
+     "goals_against_avg": 1.17,
+     "shots_on_target_avg": null,
+     "matches_analysed": 6
+    },
+    "h2h": [
+     {
+      "date": "2026-02-08",
+      "home": "Servette",
+      "away": "Thun",
+      "score": "1-3"
+     },
+     {
+      "date": "2025-11-08",
+      "home": "Servette",
+      "away": "Thun",
+      "score": "0-1"
+     },
+     {
+      "date": "2025-10-18",
+      "home": "Thun",
+      "away": "Servette",
+      "score": "3-1"
+     },
+     {
+      "date": "2020-07-22",
+      "home": "Thun",
+      "away": "Servette",
+      "score": "5-1"
+     },
+     {
+      "date": "2020-02-02",
+      "home": "Servette",
+      "away": "Thun",
+      "score": "2-0"
+     }
+    ]
+   },
+   "explanation": "Thun e favorita, cu 46% sanse de victorie. Goluri asteptate: 1.92 pentru Thun, 1.57 pentru Servette. Forma recenta — Thun: IIVEII, Servette: IVEIIV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Thun e pe locul 3 la atac, Servette pe 9, din 15 echipe. Se asteapta un meci deschis: 68% sanse la peste 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+  },
+  {
    "id": "SP1_20260916_Barcelona_Santander",
    "league": "SP1",
    "league_name": "La Liga",
@@ -1467,6 +2286,123 @@
     ]
    },
    "explanation": "Meci echilibrat: modelul nu vede un favorit clar (38% / 26% / 36%). Goluri asteptate: 1.39 pentru Levante, 1.35 pentru Ath Bilbao. Forma recenta — Levante: IIEVEI, Ath Bilbao: IIIVVE (cel mai recent meci la dreapta). In clasamentul intern al modelului, Levante e pe locul 9 la atac, Ath Bilbao pe 13, din 29 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+  },
+  {
+   "id": "BRA_SerieA_20260916_BotafogoRJ_Gremio",
+   "league": "BRA_SerieA",
+   "league_name": "Brazilia — Serie A",
+   "date": "2026-09-16",
+   "time": "23:30",
+   "home": "Botafogo RJ",
+   "away": "Gremio",
+   "probs": {
+    "p_home": 0.5685,
+    "p_draw": 0.2413,
+    "p_away": 0.1902,
+    "p_over25": 0.5184,
+    "p_btts": 0.5173,
+    "p_under25": 0.4816,
+    "p_no_btts": 0.4827
+   },
+   "expected_goals": {
+    "home": 1.8,
+    "away": 0.95
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 118,
+    "away_matches": 118
+   },
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 0.1151
+    },
+    {
+     "score": "1-0",
+     "p": 0.1094
+    },
+    {
+     "score": "2-0",
+     "p": 0.1037
+    },
+    {
+     "score": "2-1",
+     "p": 0.0984
+    },
+    {
+     "score": "0-0",
+     "p": 0.0698
+    }
+   ],
+   "reference_odds": {
+    "home": 1.66,
+    "draw": 3.75,
+    "away": 5.0
+   },
+   "context": {
+    "home": {
+     "form": [
+      "E",
+      "I",
+      "I",
+      "I",
+      "E",
+      "E"
+     ],
+     "goals_for_avg": 0.67,
+     "goals_against_avg": 1.5,
+     "shots_on_target_avg": null,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "V",
+      "I",
+      "I",
+      "V",
+      "I",
+      "I"
+     ],
+     "goals_for_avg": 1.0,
+     "goals_against_avg": 1.5,
+     "shots_on_target_avg": null,
+     "matches_analysed": 6
+    },
+    "h2h": [
+     {
+      "date": "2026-02-05",
+      "home": "Gremio",
+      "away": "Botafogo RJ",
+      "score": "5-3"
+     },
+     {
+      "date": "2025-11-22",
+      "home": "Botafogo RJ",
+      "away": "Gremio",
+      "score": "3-2"
+     },
+     {
+      "date": "2025-09-24",
+      "home": "Gremio",
+      "away": "Botafogo RJ",
+      "score": "1-1"
+     },
+     {
+      "date": "2024-09-29",
+      "home": "Botafogo RJ",
+      "away": "Gremio",
+      "score": "0-0"
+     },
+     {
+      "date": "2024-06-16",
+      "home": "Gremio",
+      "away": "Botafogo RJ",
+      "score": "1-2"
+     }
+    ]
+   },
+   "explanation": "Botafogo RJ e favorita, cu 57% sanse de victorie. Goluri asteptate: 1.80 pentru Botafogo RJ, 0.95 pentru Gremio. Forma recenta — Botafogo RJ: EIIIEE, Gremio: VIIVII (cel mai recent meci la dreapta). In clasamentul intern al modelului, Botafogo RJ e pe locul 4 la atac, Gremio pe 18, din 29 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
   },
   {
    "id": "SP1_20260917_Betis_Getafe",

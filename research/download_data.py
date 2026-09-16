@@ -31,6 +31,32 @@ LEAGUES = {
 # 2014/15 .. 2026/27
 SEASONS = [f"{y % 100:02d}{(y + 1) % 100:02d}" for y in range(2014, 2027)]
 
+# Campionatele din afara "nucleului" englezesc stau in alt format: un singur
+# fisier cumulativ per tara, cu toate sezoanele. Au cote 1X2 de inchidere, dar
+# nu au suturi pe poarta si nici cote Over/Under.
+# Cheia e codul folosit de site; valorile sunt numele tarii asa cum apare in
+# fisier si numele afisat in aplicatie.
+EXTRA_LEAGUES = {
+    "ARG": ("Argentina", "Argentina"),
+    "AUT": ("Austria", "Austria"),
+    "BRA": ("Brazil", "Brazilia"),
+    "CHN": ("China", "China"),
+    "DNK": ("Denmark", "Danemarca"),
+    "FIN": ("Finland", "Finlanda"),
+    "IRL": ("Ireland", "Irlanda"),
+    "JPN": ("Japan", "Japonia"),
+    "MEX": ("Mexico", "Mexic"),
+    "NOR": ("Norway", "Norvegia"),
+    "POL": ("Poland", "Polonia"),
+    "ROU": ("Romania", "Romania"),
+    "RUS": ("Russia", "Rusia"),
+    "SWE": ("Sweden", "Suedia"),
+    "SWZ": ("Switzerland", "Elvetia"),
+    "USA": ("USA", "SUA"),
+}
+
+EXTRA_DIR = DATA / "extra"
+
 
 def fetch(season: str, code: str) -> str | None:
     dest = DATA / season / f"{code}.csv"
@@ -49,6 +75,22 @@ def fetch(season: str, code: str) -> str | None:
     return f"{len(r.content) // 1024} KB"
 
 
+def fetch_extra(code: str) -> str | None:
+    """Fisierele cumulative se re-descarca mereu: contin si meciurile de ieri."""
+    dest = EXTRA_DIR / f"{code}.csv"
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    url = f"https://www.football-data.co.uk/new/{code}.csv"
+    try:
+        r = requests.get(url, timeout=30, headers={"User-Agent": "Mozilla/5.0"})
+    except requests.RequestException:
+        return None
+    if r.status_code != 200 or len(r.content) < 1000:
+        return None
+    dest.write_bytes(r.content)
+    time.sleep(0.4)
+    return f"{len(r.content) // 1024} KB"
+
+
 def main() -> int:
     ok = skipped = 0
     for season in SEASONS:
@@ -63,6 +105,17 @@ def main() -> int:
                     line.append(code)
         if line:
             print(f"  {season}: descarcat {' '.join(line)}", flush=True)
+
+    extra_ok = []
+    for code in EXTRA_LEAGUES:
+        if fetch_extra(code):
+            extra_ok.append(code)
+            ok += 1
+        else:
+            skipped += 1
+    if extra_ok:
+        print(f"  campionate suplimentare: {' '.join(extra_ok)}", flush=True)
+
     print(f"\nGata: {ok} fisiere disponibile, {skipped} indisponibile (sezon/liga inexistenta).")
     return 0
 

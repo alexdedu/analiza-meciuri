@@ -1,13 +1,22 @@
-"""Incarca toate CSV-urile descarcate intr-un singur DataFrame curat."""
+"""Incarca toate CSV-urile descarcate intr-un singur DataFrame curat.
+
+Sursa are doua formate diferite:
+  - campionatele "de baza" (Anglia, Spania, Italia...): un fisier per liga si
+    sezon, cu statistici de meci, suturi si cote pentru multe piete;
+  - campionatele suplimentare (Romania, Polonia, Brazilia...): un singur fisier
+    cumulativ per tara, doar cu rezultate si cote 1X2.
+Le aducem pe amandoua la aceeasi forma; coloanele care lipsesc raman goale, iar
+modelul se descurca fara ele.
+"""
 from __future__ import annotations
 
 from pathlib import Path
 
 import pandas as pd
 
-DATA = Path(__file__).parent / "data"
+from download_data import EXTRA_DIR, EXTRA_LEAGUES, LEAGUES
 
-CORE = ["Div", "Date", "HomeTeam", "AwayTeam", "FTHG", "FTAG"]
+DATA = Path(__file__).parent / "data"
 
 # cote de inchidere (sufix C) cu rezerva pe cele pre-meci daca lipsesc
 ODDS = {
@@ -22,10 +31,27 @@ ODDS = {
     "max_u25": ["MaxC<2.5", "Max<2.5", "BbMx<2.5"],
 }
 
+COLUMNS = ["div", "league_name", "season", "date", "home", "away", "hg", "ag",
+           "hst", "ast", *ODDS]
 
-def load_all() -> pd.DataFrame:
+
+def league_slug(name: str) -> str:
+    """'Liga Profesional ' si 'Liga Profesional' trebuie sa dea acelasi cod.
+
+    Fisierele sursa contin spatii in plus la capete si intre cuvinte, iar fara
+    normalizare aceeasi competitie ar aparea de doua ori, cu istoricul taiat in
+    doua si cu echipele impartite intre ele.
+    """
+    return "".join(word.capitalize() for word in str(name).split())
+
+
+def _empty(index: pd.Index) -> pd.DataFrame:
+    return pd.DataFrame(index=index)
+
+
+def _load_core() -> list[pd.DataFrame]:
     frames = []
-    for path in sorted(DATA.glob("*/*.csv")):
+    for path in sorted(DATA.glob("[0-9]*/*.csv")):
         try:
             df = pd.read_csv(path, encoding="latin-1", on_bad_lines="skip", low_memory=False)
         except Exception:
@@ -37,24 +63,64 @@ def load_all() -> pd.DataFrame:
             continue
         # ATENTIE: indexul trebuie luat de la df. Atribuirea unui scalar pe un
         # DataFrame gol nu creeaza randuri, iar coloana ramane NaN dupa aceea.
-        out = pd.DataFrame(index=df.index)
+        out = _empty(df.index)
         out["div"] = (df["Div"].astype("string").str.strip() if "Div" in df.columns
                       else path.stem)
+        out["league_name"] = out["div"].map(lambda d: LEAGUES.get(d, d))
         out["season"] = path.parent.name
         out["date"] = pd.to_datetime(df["Date"], format="mixed", dayfirst=True, errors="coerce")
         out["home"] = df["HomeTeam"].astype("string").str.strip()
         out["away"] = df["AwayTeam"].astype("string").str.strip()
         out["hg"] = pd.to_numeric(df["FTHG"], errors="coerce")
         out["ag"] = pd.to_numeric(df["FTAG"], errors="coerce")
-        # suturi pe poarta: proxy gratuit de xG, deja prezent in CSV-uri
+        # suturi pe poarta: proxy gratuit de xG, prezent doar in acest format
         out["hst"] = pd.to_numeric(df["HST"], errors="coerce") if "HST" in df else None
         out["ast"] = pd.to_numeric(df["AST"], errors="coerce") if "AST" in df else None
         for target, candidates in ODDS.items():
             col = next((c for c in candidates if c in df.columns), None)
             out[target] = pd.to_numeric(df[col], errors="coerce") if col else pd.NA
             out[target] = pd.to_numeric(out[target], errors="coerce")
-        frames.append(out)
+        frames.append(out[COLUMNS])
+    return frames
 
+
+def _load_extra() -> list[pd.DataFrame]:
+    frames = []
+    for code, (_, tara) in EXTRA_LEAGUES.items():
+        path = EXTRA_DIR / f"{code}.csv"
+        if not path.exists():
+            continue
+        try:
+            df = pd.read_csv(path, encoding="utf-8-sig", on_bad_lines="skip", low_memory=False)
+        except Exception:
+            continue
+        df.columns = [c.strip() for c in df.columns]
+        if not {"Home", "Away", "HG", "AG", "Date", "League"}.issubset(df.columns):
+            continue
+
+        liga = df["League"].astype("string").str.strip()
+        out = _empty(df.index)
+        out["div"] = code + "_" + liga.map(league_slug)
+        out["league_name"] = tara + " — " + liga
+        out["season"] = df["Season"].astype("string") if "Season" in df else ""
+        out["date"] = pd.to_datetime(df["Date"], format="mixed", dayfirst=True, errors="coerce")
+        out["home"] = df["Home"].astype("string").str.strip()
+        out["away"] = df["Away"].astype("string").str.strip()
+        out["hg"] = pd.to_numeric(df["HG"], errors="coerce")
+        out["ag"] = pd.to_numeric(df["AG"], errors="coerce")
+        # Formatul acesta nu are suturi si nici cote Over/Under.
+        out["hst"] = None
+        out["ast"] = None
+        for target, candidates in ODDS.items():
+            col = next((c for c in candidates if c in df.columns), None)
+            out[target] = pd.to_numeric(df[col], errors="coerce") if col else pd.NA
+            out[target] = pd.to_numeric(out[target], errors="coerce")
+        frames.append(out[COLUMNS])
+    return frames
+
+
+def load_all() -> pd.DataFrame:
+    frames = _load_core() + _load_extra()
     all_df = pd.concat(frames, ignore_index=True)
     all_df = all_df.dropna(subset=["date", "home", "away", "hg", "ag"])
     all_df = all_df[(all_df["home"] != "") & (all_df["away"] != "")]
@@ -72,9 +138,11 @@ if __name__ == "__main__":
     df = load_all()
     print(f"Total meciuri: {len(df):,}")
     print(f"Perioada: {df['date'].min().date()} -> {df['date'].max().date()}")
-    print(f"Ligi: {df['div'].nunique()}  |  Echipe unice: {pd.concat([df['home'], df['away']]).nunique()}")
-    print("\nAcoperire cote (% din meciuri):")
-    for c in ODDS:
-        print(f"  {c:9s} {df[c].notna().mean() * 100:5.1f}%")
-    print("\nRezultate:", df["result"].value_counts(normalize=True).sort_index().round(3).to_dict())
-    print("Over 2.5:", round(df["over25"].mean(), 3), " BTTS:", round(df["btts"].mean(), 3))
+    print(f"Competitii: {df['div'].nunique()}  |  "
+          f"Echipe unice: {pd.concat([df['home'], df['away']]).nunique():,}")
+    print(f"Meciuri cu suturi pe poarta: {df['hst'].notna().mean() * 100:.1f}%")
+    print("\nCompetitii:")
+    rezumat = (df.groupby(["div", "league_name"])
+                 .agg(meciuri=("date", "size"), ultima=("date", "max"))
+                 .sort_values("meciuri", ascending=False))
+    print(rezumat.to_string())
