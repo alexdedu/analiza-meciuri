@@ -11,8 +11,12 @@ name: Actualizare predictii
 
 on:
   schedule:
-    # 06:30 UTC in fiecare zi (09:30 ora Romaniei vara, 08:30 iarna)
-    - cron: '30 6 * * *'
+    # GitHub trateaza sarcinile programate ca "pe cat posibil": la orele rotunde
+    # si la fix/jumatate se aduna zeci de mii de repo-uri, iar rularile sunt
+    # intarziate sau sarite complet. De aceea folosim minute neobisnuite si doua
+    # incercari pe zi -- daca prima e sarita, a doua prinde.
+    - cron: '17 5 * * *'   # 08:17 ora Romaniei vara
+    - cron: '43 11 * * *'  # 14:43 ora Romaniei vara
   workflow_dispatch: {}
 
 jobs:
