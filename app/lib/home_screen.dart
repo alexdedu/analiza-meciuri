@@ -6,6 +6,7 @@ import 'detail_screen.dart';
 import 'formatting.dart';
 import 'models.dart';
 import 'repository.dart';
+import 'search_screen.dart';
 import 'theme.dart';
 import 'widgets.dart';
 
@@ -110,6 +111,13 @@ class _MatchList extends StatelessWidget {
         SliverAppBar.large(
           title: const Text('Analiza meciurilor'),
           actions: [
+            IconButton(
+              icon: const Icon(Icons.search),
+              tooltip: 'Caută alt meci',
+              onPressed: () => Navigator.of(context).push(
+                MaterialPageRoute(builder: (_) => const SearchScreen()),
+              ),
+            ),
             IconButton(
               icon: const Icon(Icons.info_outline),
               tooltip: 'Despre model',

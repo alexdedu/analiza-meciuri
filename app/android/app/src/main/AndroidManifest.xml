@@ -4,6 +4,16 @@
          poate descarca predictiile de pe GitHub: cade tacut pe fisierul inclus. -->
     <uses-permission android:name="android.permission.INTERNET"/>
 
+    <!-- Incepand cu Android 11, o aplicatie nu mai poate afla ce alte aplicatii
+         exista decat daca declara explicit ce cauta. Fara blocul asta,
+         deschiderea unei adrese web esueaza tacut pe telefoanele noi. -->
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="https" />
+        </intent>
+    </queries>
+
     <application
         android:label="Analiza Meciuri"
         android:name="${applicationName}"

@@ -19,6 +19,8 @@ pariurile alese după el au dat randament **negativ** (−3.8%, t = −6.3).
 
 **Nu are:** Champions League și Europa League. Nu există în nicio sursă gratuită, iar
 modelul oricum nu poate compara echipe din campionate diferite. Detalii în CONCLUZII.md.
+Pentru ele, aplicația are un ecran de căutare: scrii echipele și deschide căutarea în
+browser. Nu aduce nimic înapoi în aplicație — e o scurtătură, nu o sursă de date.
 
 Cifrele complete și metodologia sunt în [research/CONCLUZII.md](research/CONCLUZII.md).
 Aceleași cifre sunt afișate și în aplicație, pe ecranul „Despre model".
@@ -42,7 +44,8 @@ research/          Partea de date și modelare (Python)
 app/               Aplicația Flutter
   lib/               Cod sursă
   lib/config.dart    Adresa de unde se descarca predictiile (vezi mai jos)
-  test/              30 de teste
+  lib/search_links.dart  Construieste adresele de cautare pentru un meci
+  test/              37 de teste
   assets/predictions.json
   assets/icon/       Iconita generata
 

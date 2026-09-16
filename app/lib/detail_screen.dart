@@ -3,6 +3,7 @@ import 'package:intl/intl.dart';
 
 import 'models.dart';
 import 'repository.dart';
+import 'search_card.dart';
 import 'theme.dart';
 import 'value_calculator.dart';
 import 'widgets.dart';
@@ -36,6 +37,8 @@ class DetailScreen extends StatelessWidget {
           ],
           const SizedBox(height: 12),
           _ExplanationCard(match: match),
+          const SizedBox(height: 12),
+          SearchCard(home: match.home, away: match.away),
         ],
       ),
     );
