@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T09:11:24+00:00",
+ "generated_at": "2026-09-16T15:32:34+00:00",
  "model": {
   "name": "Dixon-Coles + suturi pe poarta",
   "goals_weight": 0.5,
@@ -1630,9 +1630,9 @@
     "p_draw": 0.2489,
     "p_away": 0.2806,
     "p_over25": 0.5408,
-    "p_btts": 0.5669,
+    "p_btts": 0.567,
     "p_under25": 0.4592,
-    "p_no_btts": 0.4331
+    "p_no_btts": 0.433
    },
    "expected_goals": {
     "home": 1.63,
@@ -1746,10 +1746,10 @@
     "p_home": 0.3998,
     "p_draw": 0.2701,
     "p_away": 0.3301,
-    "p_over25": 0.5011,
-    "p_btts": 0.5489,
-    "p_under25": 0.4989,
-    "p_no_btts": 0.4511
+    "p_over25": 0.501,
+    "p_btts": 0.5488,
+    "p_under25": 0.499,
+    "p_no_btts": 0.4512
    },
    "expected_goals": {
     "home": 1.41,
