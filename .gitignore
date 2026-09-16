@@ -8,3 +8,9 @@ app/android/.gradle/
 __pycache__/
 app/.flutter-plugins-dependencies
 app/windows/
+
+# Chei API. NU trebuie sa ajunga niciodata in repo: e public.
+.secrets.env
+*.secrets.env
+research/.secrets.env
+*.key
