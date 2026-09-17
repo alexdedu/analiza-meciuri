@@ -27,7 +27,13 @@ COMPETITII = {
     3: "UEFA Europa League",
     848: "UEFA Conference League",
 }
-ZILE_INAINTE = 10
+# In formatul de liga, etapele europene sunt rare: intre prima si a doua pot
+# trece aproape patru saptamani. O fereastra fixa de zile ar lasa aplicatia fara
+# cupe aproape tot timpul, asa ca cerem direct urmatoarele meciuri programate.
+# O etapa are 18 meciuri per competitie; cerem putin peste, ca sa o prindem
+# intreaga, si taiem ce e prea departe ca sa aiba sens.
+MECIURI_CERUTE = 24
+ZILE_MAXIM = 45
 
 
 def incarca_puteri() -> dict | None:
@@ -51,12 +57,12 @@ def _api(base, headers, path, **params):
 def fixturi_viitoare(base, headers) -> list[dict]:
     """Meciurile europene din urmatoarele zile, cu numele si data lor."""
     azi = datetime.now().date()
-    pana = azi + timedelta(days=ZILE_INAINTE)
+    limita = azi + timedelta(days=ZILE_MAXIM)
     out = []
     for liga_id, nume in COMPETITII.items():
         try:
-            raspuns = _api(base, headers, "fixtures", league=liga_id, season=azi.year,
-                           **{"from": azi.isoformat(), "to": pana.isoformat()})
+            raspuns = _api(base, headers, "fixtures", league=liga_id,
+                           next=MECIURI_CERUTE)
         except Exception as exc:
             print(f"  {nume}: nu am putut lua meciurile ({str(exc)[:60]})")
             continue
@@ -64,6 +70,8 @@ def fixturi_viitoare(base, headers) -> list[dict]:
             fx = item["fixture"]
             if fx["status"]["short"] not in ("NS", "TBD"):
                 continue  # deja jucat sau in desfasurare
+            if datetime.fromisoformat(fx["date"]).date() > limita:
+                continue  # prea departe ca sa aiba sens o predictie
             out.append({
                 "fixture_id": fx["id"],
                 "liga_id": liga_id,
@@ -226,7 +234,12 @@ def construieste_predictii(hist: pd.DataFrame) -> list[dict]:
             "confidence": confidence,
             "sample": {"home_matches": n_home, "away_matches": n_away},
             "top_scores": top_scores(lam, mu, rho),
-            "reference_odds": cote_1x2(base, headers, f["fixture_id"]),
+            # Cotele exista doar cu ~2 saptamani inainte de meci. Pentru etapele
+            # mai indepartate nu are rost sa cerem: ar fi 35 de cereri pe zi
+            # care se intorc goale.
+            "reference_odds": (cote_1x2(base, headers, f["fixture_id"])
+                               if (datetime.fromisoformat(f["data"]).date()
+                                   - datetime.now().date()).days <= 14 else {}),
             "context": {
                 "home": ctx_h,
                 "away": ctx_a,

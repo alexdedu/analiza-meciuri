@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T18:47:32+00:00",
+ "generated_at": "2026-09-17T19:18:07+00:00",
  "model": {
   "name": "Dixon-Coles + suturi pe poarta",
   "goals_weight": 0.5,
@@ -25,43 +25,43 @@
    "home": "Rakow",
    "away": "Zaglebie",
    "probs": {
-    "p_home": 0.4474,
-    "p_draw": 0.3169,
-    "p_away": 0.2358,
-    "p_over25": 0.3826,
-    "p_btts": 0.4523,
-    "p_under25": 0.6174,
-    "p_no_btts": 0.5477
+    "p_home": 0.4339,
+    "p_draw": 0.3077,
+    "p_away": 0.2584,
+    "p_over25": 0.4235,
+    "p_btts": 0.4903,
+    "p_under25": 0.5765,
+    "p_no_btts": 0.5097
    },
    "expected_goals": {
-    "home": 1.32,
-    "away": 0.9
+    "home": 1.37,
+    "away": 1.01
    },
    "confidence": "ridicata",
    "sample": {
-    "home_matches": 103,
-    "away_matches": 102
+    "home_matches": 104,
+    "away_matches": 103
    },
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1467
+     "p": 0.1456
     },
     {
      "score": "0-0",
-     "p": 0.1264
+     "p": 0.1106
     },
     {
      "score": "1-0",
-     "p": 0.1258
-    },
-    {
-     "score": "2-0",
-     "p": 0.095
+     "p": 0.1099
     },
     {
      "score": "2-1",
-     "p": 0.0853
+     "p": 0.0876
+    },
+    {
+     "score": "2-0",
+     "p": 0.0871
     }
    ],
    "reference_odds": {
@@ -76,29 +76,35 @@
       "I",
       "I",
       "I",
-      "I",
-      "V"
+      "V",
+      "I"
      ],
-     "goals_for_avg": 1.17,
-     "goals_against_avg": 2.17,
+     "goals_for_avg": 1.33,
+     "goals_against_avg": 2.33,
      "shots_on_target_avg": null,
      "matches_analysed": 6
     },
     "away": {
      "form": [
-      "I",
       "V",
       "E",
       "E",
       "E",
+      "V",
       "V"
      ],
-     "goals_for_avg": 1.0,
-     "goals_against_avg": 1.0,
+     "goals_for_avg": 1.33,
+     "goals_against_avg": 0.83,
      "shots_on_target_avg": null,
      "matches_analysed": 6
     },
     "h2h": [
+     {
+      "date": "2026-09-15",
+      "home": "Rakow",
+      "away": "Zaglebie",
+      "score": "2-3"
+     },
      {
       "date": "2026-02-14",
       "home": "Zaglebie",
@@ -122,16 +128,10 @@
       "home": "Rakow",
       "away": "Zaglebie",
       "score": "5-1"
-     },
-     {
-      "date": "2024-05-04",
-      "home": "Zaglebie",
-      "away": "Rakow",
-      "score": "2-0"
      }
     ]
    },
-   "explanation": "Rakow e favorita, cu 45% sanse de victorie. Goluri asteptate: 1.32 pentru Rakow, 0.90 pentru Zaglebie. Forma recenta — Rakow: IIIIIV, Zaglebie: IVEEEV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Rakow e pe locul 8 la atac, Zaglebie pe 23, din 26 echipe. Se asteapta un meci inchis: 62% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+   "explanation": "Rakow e favorita, cu 43% sanse de victorie. Goluri asteptate: 1.37 pentru Rakow, 1.01 pentru Zaglebie. Forma recenta — Rakow: IIIIVI, Zaglebie: VEEEVV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Rakow e pe locul 8 la atac, Zaglebie pe 20, din 26 echipe. Se asteapta un meci inchis: 58% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
   },
   {
    "id": "SP1_20260915_Vallecano_Espanol",
@@ -259,43 +259,43 @@
    "home": "Grasshoppers",
    "away": "Sion",
    "probs": {
-    "p_home": 0.2001,
-    "p_draw": 0.2367,
-    "p_away": 0.5632,
-    "p_over25": 0.5212,
-    "p_btts": 0.5205,
-    "p_under25": 0.4788,
-    "p_no_btts": 0.4795
+    "p_home": 0.1863,
+    "p_draw": 0.219,
+    "p_away": 0.5947,
+    "p_over25": 0.5733,
+    "p_btts": 0.5502,
+    "p_under25": 0.4267,
+    "p_no_btts": 0.4498
    },
    "expected_goals": {
-    "home": 0.97,
-    "away": 1.79
+    "home": 1.01,
+    "away": 1.97
    },
    "confidence": "ridicata",
    "sample": {
-    "home_matches": 117,
-    "away_matches": 83
+    "home_matches": 118,
+    "away_matches": 84
    },
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1127
-    },
-    {
-     "score": "0-1",
-     "p": 0.1104
-    },
-    {
-     "score": "0-2",
-     "p": 0.1012
+     "p": 0.1032
     },
     {
      "score": "1-2",
+     "p": 0.0995
+    },
+    {
+     "score": "0-2",
      "p": 0.0984
     },
     {
-     "score": "0-0",
-     "p": 0.066
+     "score": "0-1",
+     "p": 0.0975
+    },
+    {
+     "score": "1-3",
+     "p": 0.0654
     }
    ],
    "reference_odds": {
@@ -308,31 +308,37 @@
      "form": [
       "I",
       "I",
-      "I",
       "V",
       "E",
-      "V"
+      "V",
+      "I"
      ],
-     "goals_for_avg": 1.5,
-     "goals_against_avg": 2.17,
+     "goals_for_avg": 1.67,
+     "goals_against_avg": 2.33,
      "shots_on_target_avg": null,
      "matches_analysed": 6
     },
     "away": {
      "form": [
       "V",
-      "V",
       "I",
+      "V",
       "V",
       "V",
       "V"
      ],
-     "goals_for_avg": 2.5,
-     "goals_against_avg": 1.17,
+     "goals_for_avg": 2.83,
+     "goals_against_avg": 1.5,
      "shots_on_target_avg": null,
      "matches_analysed": 6
     },
     "h2h": [
+     {
+      "date": "2026-09-15",
+      "home": "Grasshoppers",
+      "away": "Sion",
+      "score": "2-5"
+     },
      {
       "date": "2026-04-06",
       "home": "Grasshoppers",
@@ -356,16 +362,10 @@
       "home": "Sion",
       "away": "Grasshoppers",
       "score": "2-1"
-     },
-     {
-      "date": "2025-03-16",
-      "home": "Grasshoppers",
-      "away": "Sion",
-      "score": "1-1"
      }
     ]
    },
-   "explanation": "Sion e favorita, cu 56% sanse de victorie. Goluri asteptate: 0.97 pentru Grasshoppers, 1.79 pentru Sion. Forma recenta — Grasshoppers: IIIVEV, Sion: VVIVVV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Grasshoppers e pe locul 11 la atac, Sion pe 6, din 15 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+   "explanation": "Sion e favorita, cu 59% sanse de victorie. Goluri asteptate: 1.01 pentru Grasshoppers, 1.97 pentru Sion. Forma recenta — Grasshoppers: IIVEVI, Sion: VIVVVV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Grasshoppers e pe locul 11 la atac, Sion pe 4, din 15 echipe. Se asteapta un meci deschis: 57% sanse la peste 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
   },
   {
    "id": "N1_20260915_Ajax_WillemII",
@@ -610,43 +610,43 @@
    "home": "Korona Kielce",
    "away": "Gornik Zabrze",
    "probs": {
-    "p_home": 0.3376,
-    "p_draw": 0.3309,
-    "p_away": 0.3315,
-    "p_over25": 0.3693,
-    "p_btts": 0.457,
-    "p_under25": 0.6307,
-    "p_no_btts": 0.543
+    "p_home": 0.307,
+    "p_draw": 0.3316,
+    "p_away": 0.3615,
+    "p_over25": 0.3635,
+    "p_btts": 0.451,
+    "p_under25": 0.6365,
+    "p_no_btts": 0.549
    },
    "expected_goals": {
-    "home": 1.09,
-    "away": 1.08
+    "home": 1.02,
+    "away": 1.13
    },
    "confidence": "ridicata",
    "sample": {
-    "home_matches": 102,
-    "away_matches": 101
+    "home_matches": 103,
+    "away_matches": 102
    },
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.153
+     "p": 0.1526
     },
     {
      "score": "0-0",
-     "p": 0.1328
-    },
-    {
-     "score": "1-0",
-     "p": 0.106
+     "p": 0.135
     },
     {
      "score": "0-1",
-     "p": 0.1046
+     "p": 0.1132
     },
     {
-     "score": "2-1",
-     "p": 0.0733
+     "score": "1-0",
+     "p": 0.1007
+    },
+    {
+     "score": "1-2",
+     "p": 0.0757
     }
    ],
    "reference_odds": {
@@ -657,33 +657,39 @@
    "context": {
     "home": {
      "form": [
-      "E",
       "V",
       "E",
       "V",
       "E",
-      "V"
+      "V",
+      "I"
      ],
-     "goals_for_avg": 1.5,
-     "goals_against_avg": 0.83,
+     "goals_for_avg": 1.33,
+     "goals_against_avg": 1.0,
      "shots_on_target_avg": null,
      "matches_analysed": 6
     },
     "away": {
      "form": [
       "V",
-      "V",
       "I",
+      "V",
       "V",
       "V",
       "V"
      ],
-     "goals_for_avg": 2.0,
-     "goals_against_avg": 1.17,
+     "goals_for_avg": 1.83,
+     "goals_against_avg": 1.0,
      "shots_on_target_avg": null,
      "matches_analysed": 6
     },
     "h2h": [
+     {
+      "date": "2026-09-15",
+      "home": "Korona Kielce",
+      "away": "Gornik Zabrze",
+      "score": "0-2"
+     },
      {
       "date": "2026-04-18",
       "home": "Gornik Zabrze",
@@ -707,16 +713,10 @@
       "home": "Korona Kielce",
       "away": "Gornik Zabrze",
       "score": "2-4"
-     },
-     {
-      "date": "2024-02-19",
-      "home": "Gornik Zabrze",
-      "away": "Korona Kielce",
-      "score": "3-1"
      }
     ]
    },
-   "explanation": "Meci echilibrat: modelul nu vede un favorit clar (34% / 33% / 33%). Goluri asteptate: 1.09 pentru Korona Kielce, 1.08 pentru Gornik Zabrze. Forma recenta — Korona Kielce: EVEVEV, Gornik Zabrze: VVIVVV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Korona Kielce e pe locul 20 la atac, Gornik Zabrze pe 7, din 26 echipe. Se asteapta un meci inchis: 63% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+   "explanation": "Meci echilibrat: modelul nu vede un favorit clar (31% / 33% / 36%). Goluri asteptate: 1.02 pentru Korona Kielce, 1.13 pentru Gornik Zabrze. Forma recenta — Korona Kielce: VEVEVI, Gornik Zabrze: VIVVVV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Korona Kielce e pe locul 21 la atac, Gornik Zabrze pe 6, din 26 echipe. Se asteapta un meci inchis: 64% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
   },
   {
    "id": "E1_20260915_BristolCity_Lincoln",
@@ -1392,43 +1392,43 @@
    "home": "Puebla",
    "away": "Toluca",
    "probs": {
-    "p_home": 0.1608,
-    "p_draw": 0.2274,
-    "p_away": 0.6119,
-    "p_over25": 0.5521,
-    "p_btts": 0.5251,
-    "p_under25": 0.4479,
-    "p_no_btts": 0.4749
+    "p_home": 0.1571,
+    "p_draw": 0.2316,
+    "p_away": 0.6113,
+    "p_over25": 0.5237,
+    "p_btts": 0.5002,
+    "p_under25": 0.4763,
+    "p_no_btts": 0.4998
    },
    "expected_goals": {
-    "home": 0.92,
-    "away": 1.97
+    "home": 0.86,
+    "away": 1.91
    },
    "confidence": "ridicata",
    "sample": {
-    "home_matches": 104,
-    "away_matches": 119
+    "home_matches": 105,
+    "away_matches": 120
    },
    "top_scores": [
     {
-     "score": "1-1",
-     "p": 0.1083
-    },
-    {
      "score": "0-2",
-     "p": 0.108
+     "p": 0.1137
     },
     {
      "score": "0-1",
-     "p": 0.1018
+     "p": 0.112
+    },
+    {
+     "score": "1-1",
+     "p": 0.1105
     },
     {
      "score": "1-2",
-     "p": 0.0992
+     "p": 0.0984
     },
     {
      "score": "0-3",
-     "p": 0.071
+     "p": 0.0723
     }
    ],
    "reference_odds": {
@@ -1439,33 +1439,39 @@
    "context": {
     "home": {
      "form": [
-      "I",
       "E",
       "V",
       "V",
       "I",
-      "V"
+      "V",
+      "I"
      ],
-     "goals_for_avg": 1.5,
-     "goals_against_avg": 1.5,
+     "goals_for_avg": 1.33,
+     "goals_against_avg": 1.33,
      "shots_on_target_avg": null,
      "matches_analysed": 6
     },
     "away": {
      "form": [
-      "I",
       "V",
       "E",
+      "V",
       "V",
       "V",
       "V"
      ],
      "goals_for_avg": 2.5,
-     "goals_against_avg": 1.0,
+     "goals_against_avg": 0.67,
      "shots_on_target_avg": null,
      "matches_analysed": 6
     },
     "h2h": [
+     {
+      "date": "2026-09-16",
+      "home": "Puebla",
+      "away": "Toluca",
+      "score": "0-1"
+     },
      {
       "date": "2026-01-31",
       "home": "Puebla",
@@ -1489,16 +1495,10 @@
       "home": "Toluca",
       "away": "Puebla",
       "score": "5-0"
-     },
-     {
-      "date": "2024-01-27",
-      "home": "Puebla",
-      "away": "Toluca",
-      "score": "1-1"
      }
     ]
    },
-   "explanation": "Toluca e favorita, cu 61% sanse de victorie. Goluri asteptate: 0.92 pentru Puebla, 1.97 pentru Toluca. Forma recenta — Puebla: IEVVIV, Toluca: IVEVVV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Puebla e pe locul 17 la atac, Toluca pe 1, din 19 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+   "explanation": "Toluca e favorita, cu 61% sanse de victorie. Goluri asteptate: 0.86 pentru Puebla, 1.91 pentru Toluca. Forma recenta — Puebla: EVVIVI, Toluca: VEVVVV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Puebla e pe locul 18 la atac, Toluca pe 1, din 19 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
   },
   {
    "id": "SP1_20260916_AthMadrid_Osasuna",
@@ -1743,43 +1743,43 @@
    "home": "AIK",
    "away": "Mjallby",
    "probs": {
-    "p_home": 0.4,
-    "p_draw": 0.2701,
-    "p_away": 0.3299,
-    "p_over25": 0.5012,
-    "p_btts": 0.549,
-    "p_under25": 0.4988,
-    "p_no_btts": 0.451
+    "p_home": 0.395,
+    "p_draw": 0.2746,
+    "p_away": 0.3303,
+    "p_over25": 0.4903,
+    "p_btts": 0.5415,
+    "p_under25": 0.5097,
+    "p_no_btts": 0.4585
    },
    "expected_goals": {
-    "home": 1.42,
-    "away": 1.26
+    "home": 1.39,
+    "away": 1.25
    },
    "confidence": "ridicata",
    "sample": {
-    "home_matches": 88,
-    "away_matches": 88
+    "home_matches": 89,
+    "away_matches": 89
    },
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1286
+     "p": 0.1309
     },
     {
      "score": "1-0",
-     "p": 0.0913
+     "p": 0.0927
     },
     {
      "score": "2-1",
-     "p": 0.0869
+     "p": 0.0861
     },
     {
      "score": "0-1",
-     "p": 0.0809
+     "p": 0.0828
     },
     {
-     "score": "1-2",
-     "p": 0.0775
+     "score": "0-0",
+     "p": 0.0785
     }
    ],
    "reference_odds": {
@@ -1790,33 +1790,39 @@
    "context": {
     "home": {
      "form": [
-      "I",
       "V",
       "V",
       "V",
       "E",
-      "I"
+      "I",
+      "E"
      ],
-     "goals_for_avg": 1.83,
-     "goals_against_avg": 2.17,
+     "goals_for_avg": 2.0,
+     "goals_against_avg": 1.83,
      "shots_on_target_avg": null,
      "matches_analysed": 6
     },
     "away": {
      "form": [
-      "I",
       "V",
       "I",
       "I",
       "I",
+      "E",
       "E"
      ],
-     "goals_for_avg": 1.0,
+     "goals_for_avg": 1.17,
      "goals_against_avg": 2.5,
      "shots_on_target_avg": null,
      "matches_analysed": 6
     },
     "h2h": [
+     {
+      "date": "2026-09-16",
+      "home": "AIK",
+      "away": "Mjallby",
+      "score": "1-1"
+     },
      {
       "date": "2026-07-11",
       "home": "Mjallby",
@@ -1840,16 +1846,10 @@
       "home": "AIK",
       "away": "Mjallby",
       "score": "1-0"
-     },
-     {
-      "date": "2024-04-13",
-      "home": "Mjallby",
-      "away": "AIK",
-      "score": "1-1"
      }
     ]
    },
-   "explanation": "Meci echilibrat: modelul nu vede un favorit clar (40% / 27% / 33%). Goluri asteptate: 1.42 pentru AIK, 1.26 pentru Mjallby. Forma recenta — AIK: IVVVEI, Mjallby: IVIIIE (cel mai recent meci la dreapta). In clasamentul intern al modelului, AIK e pe locul 8 la atac, Mjallby pe 6, din 21 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+   "explanation": "Meci echilibrat: modelul nu vede un favorit clar (40% / 27% / 33%). Goluri asteptate: 1.39 pentru AIK, 1.25 pentru Mjallby. Forma recenta — AIK: VVVEIE, Mjallby: VIIIEE (cel mai recent meci la dreapta). In clasamentul intern al modelului, AIK e pe locul 8 la atac, Mjallby pe 6, din 21 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
   },
   {
    "id": "SWZ_SuperLeague_20260916_Lugano_St.Gallen",
@@ -1860,43 +1860,43 @@
    "home": "Lugano",
    "away": "St. Gallen",
    "probs": {
-    "p_home": 0.4998,
-    "p_draw": 0.2557,
-    "p_away": 0.2445,
-    "p_over25": 0.4919,
-    "p_btts": 0.5195,
-    "p_under25": 0.5081,
-    "p_no_btts": 0.4805
+    "p_home": 0.5294,
+    "p_draw": 0.2444,
+    "p_away": 0.2262,
+    "p_over25": 0.517,
+    "p_btts": 0.5304,
+    "p_under25": 0.483,
+    "p_no_btts": 0.4696
    },
    "expected_goals": {
-    "home": 1.6,
-    "away": 1.04
+    "home": 1.71,
+    "away": 1.03
    },
    "confidence": "ridicata",
    "sample": {
-    "home_matches": 116,
-    "away_matches": 115
+    "home_matches": 117,
+    "away_matches": 116
    },
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1218
+     "p": 0.1163
     },
     {
      "score": "1-0",
-     "p": 0.111
+     "p": 0.1075
     },
     {
      "score": "2-1",
-     "p": 0.095
+     "p": 0.0972
     },
     {
      "score": "2-0",
-     "p": 0.0911
+     "p": 0.094
     },
     {
      "score": "0-0",
-     "p": 0.0742
+     "p": 0.0668
     }
    ],
    "reference_odds": {
@@ -1911,8 +1911,8 @@
       "V",
       "V",
       "V",
-      "V",
-      "E"
+      "E",
+      "V"
      ],
      "goals_for_avg": 2.83,
      "goals_against_avg": 0.83,
@@ -1921,19 +1921,25 @@
     },
     "away": {
      "form": [
-      "V",
       "E",
       "I",
       "I",
       "V",
+      "I",
       "I"
      ],
-     "goals_for_avg": 1.67,
-     "goals_against_avg": 2.17,
+     "goals_for_avg": 1.33,
+     "goals_against_avg": 2.5,
      "shots_on_target_avg": null,
      "matches_analysed": 6
     },
     "h2h": [
+     {
+      "date": "2026-09-16",
+      "home": "Lugano",
+      "away": "St. Gallen",
+      "score": "4-1"
+     },
      {
       "date": "2026-05-10",
       "home": "Lugano",
@@ -1957,16 +1963,10 @@
       "home": "St. Gallen",
       "away": "Lugano",
       "score": "1-0"
-     },
-     {
-      "date": "2025-04-13",
-      "home": "Lugano",
-      "away": "St. Gallen",
-      "score": "1-1"
      }
     ]
    },
-   "explanation": "Lugano e favorita, cu 50% sanse de victorie. Goluri asteptate: 1.60 pentru Lugano, 1.04 pentru St. Gallen. Forma recenta — Lugano: VVVVVE, St. Gallen: VEIIVI (cel mai recent meci la dreapta). In clasamentul intern al modelului, Lugano e pe locul 7 la atac, St. Gallen pe 8, din 15 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+   "explanation": "Lugano e favorita, cu 53% sanse de victorie. Goluri asteptate: 1.71 pentru Lugano, 1.03 pentru St. Gallen. Forma recenta — Lugano: VVVVEV, St. Gallen: EIIVII (cel mai recent meci la dreapta). In clasamentul intern al modelului, Lugano e pe locul 6 la atac, St. Gallen pe 9, din 15 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
   },
   {
    "id": "SWZ_SuperLeague_20260916_Thun_Servette",
@@ -1977,43 +1977,43 @@
    "home": "Thun",
    "away": "Servette",
    "probs": {
-    "p_home": 0.4596,
-    "p_draw": 0.2247,
-    "p_away": 0.3157,
-    "p_over25": 0.6759,
-    "p_btts": 0.677,
-    "p_under25": 0.3241,
-    "p_no_btts": 0.323
+    "p_home": 0.4279,
+    "p_draw": 0.2222,
+    "p_away": 0.3499,
+    "p_over25": 0.6978,
+    "p_btts": 0.6975,
+    "p_under25": 0.3022,
+    "p_no_btts": 0.3025
    },
    "expected_goals": {
-    "home": 1.92,
-    "away": 1.57
+    "home": 1.9,
+    "away": 1.71
    },
    "confidence": "ridicata",
    "sample": {
-    "home_matches": 47,
-    "away_matches": 115
+    "home_matches": 48,
+    "away_matches": 116
    },
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.0945
+     "p": 0.0901
     },
     {
      "score": "2-1",
-     "p": 0.0884
+     "p": 0.0837
     },
     {
      "score": "1-2",
-     "p": 0.0722
+     "p": 0.0752
     },
     {
      "score": "2-2",
-     "p": 0.0692
+     "p": 0.0713
     },
     {
-     "score": "1-0",
-     "p": 0.0566
+     "score": "3-1",
+     "p": 0.0529
     }
    ],
    "reference_odds": {
@@ -2025,32 +2025,38 @@
     "home": {
      "form": [
       "I",
-      "I",
       "V",
       "E",
       "I",
+      "I",
       "I"
      ],
-     "goals_for_avg": 1.33,
-     "goals_against_avg": 2.83,
+     "goals_for_avg": 1.67,
+     "goals_against_avg": 2.5,
      "shots_on_target_avg": null,
      "matches_analysed": 6
     },
     "away": {
      "form": [
-      "I",
       "V",
       "E",
       "I",
       "I",
+      "V",
       "V"
      ],
-     "goals_for_avg": 0.83,
+     "goals_for_avg": 1.33,
      "goals_against_avg": 1.17,
      "shots_on_target_avg": null,
      "matches_analysed": 6
     },
     "h2h": [
+     {
+      "date": "2026-09-16",
+      "home": "Thun",
+      "away": "Servette",
+      "score": "2-4"
+     },
      {
       "date": "2026-02-08",
       "home": "Servette",
@@ -2074,16 +2080,10 @@
       "home": "Thun",
       "away": "Servette",
       "score": "5-1"
-     },
-     {
-      "date": "2020-02-02",
-      "home": "Servette",
-      "away": "Thun",
-      "score": "2-0"
      }
     ]
    },
-   "explanation": "Thun e favorita, cu 46% sanse de victorie. Goluri asteptate: 1.92 pentru Thun, 1.57 pentru Servette. Forma recenta — Thun: IIVEII, Servette: IVEIIV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Thun e pe locul 3 la atac, Servette pe 9, din 15 echipe. Se asteapta un meci deschis: 68% sanse la peste 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+   "explanation": "Meci echilibrat: modelul nu vede un favorit clar (43% / 22% / 35%). Goluri asteptate: 1.90 pentru Thun, 1.71 pentru Servette. Forma recenta — Thun: IVEIII, Servette: VEIIVV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Thun e pe locul 3 la atac, Servette pe 8, din 15 echipe. Se asteapta un meci deschis: 70% sanse la peste 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
   },
   {
    "id": "SP1_20260916_Barcelona_Santander",
@@ -2296,43 +2296,43 @@
    "home": "Botafogo RJ",
    "away": "Gremio",
    "probs": {
-    "p_home": 0.5687,
-    "p_draw": 0.2412,
-    "p_away": 0.19,
-    "p_over25": 0.5189,
-    "p_btts": 0.5176,
-    "p_under25": 0.4811,
-    "p_no_btts": 0.4824
+    "p_home": 0.5766,
+    "p_draw": 0.2335,
+    "p_away": 0.1899,
+    "p_over25": 0.5499,
+    "p_btts": 0.5405,
+    "p_under25": 0.4501,
+    "p_no_btts": 0.4595
    },
    "expected_goals": {
-    "home": 1.8,
-    "away": 0.95
+    "home": 1.89,
+    "away": 1.0
    },
    "confidence": "ridicata",
    "sample": {
-    "home_matches": 117,
-    "away_matches": 118
+    "home_matches": 118,
+    "away_matches": 119
    },
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.115
+     "p": 0.1108
     },
     {
      "score": "1-0",
-     "p": 0.1093
+     "p": 0.1001
     },
     {
      "score": "2-0",
-     "p": 0.1037
+     "p": 0.0997
     },
     {
      "score": "2-1",
-     "p": 0.0984
+     "p": 0.0992
     },
     {
-     "score": "0-0",
-     "p": 0.0697
+     "score": "3-0",
+     "p": 0.0627
     }
    ],
    "reference_odds": {
@@ -2343,33 +2343,39 @@
    "context": {
     "home": {
      "form": [
-      "E",
       "I",
       "I",
       "I",
       "E",
-      "E"
+      "E",
+      "V"
      ],
-     "goals_for_avg": 0.67,
-     "goals_against_avg": 1.5,
+     "goals_for_avg": 1.0,
+     "goals_against_avg": 1.67,
      "shots_on_target_avg": null,
      "matches_analysed": 6
     },
     "away": {
      "form": [
-      "V",
       "I",
       "I",
       "V",
+      "I",
       "I",
       "I"
      ],
      "goals_for_avg": 1.0,
-     "goals_against_avg": 1.5,
+     "goals_against_avg": 1.83,
      "shots_on_target_avg": null,
      "matches_analysed": 6
     },
     "h2h": [
+     {
+      "date": "2026-09-16",
+      "home": "Botafogo RJ",
+      "away": "Gremio",
+      "score": "3-2"
+     },
      {
       "date": "2026-02-05",
       "home": "Gremio",
@@ -2393,16 +2399,10 @@
       "home": "Botafogo RJ",
       "away": "Gremio",
       "score": "0-0"
-     },
-     {
-      "date": "2024-06-16",
-      "home": "Gremio",
-      "away": "Botafogo RJ",
-      "score": "1-2"
      }
     ]
    },
-   "explanation": "Botafogo RJ e favorita, cu 57% sanse de victorie. Goluri asteptate: 1.80 pentru Botafogo RJ, 0.95 pentru Gremio. Forma recenta — Botafogo RJ: EIIIEE, Gremio: VIIVII (cel mai recent meci la dreapta). In clasamentul intern al modelului, Botafogo RJ e pe locul 4 la atac, Gremio pe 18, din 29 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+   "explanation": "Botafogo RJ e favorita, cu 58% sanse de victorie. Goluri asteptate: 1.89 pentru Botafogo RJ, 1.00 pentru Gremio. Forma recenta — Botafogo RJ: IIIEEV, Gremio: IIVIII (cel mai recent meci la dreapta). In clasamentul intern al modelului, Botafogo RJ e pe locul 3 la atac, Gremio pe 17, din 29 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
   },
   {
    "id": "SP1_20260917_Betis_Getafe",
@@ -2522,350 +2522,6 @@
    "explanation": "Betis e favorita, cu 55% sanse de victorie. Goluri asteptate: 1.48 pentru Betis, 0.71 pentru Getafe. Forma recenta — Betis: VVVIVV, Getafe: VIVIEE (cel mai recent meci la dreapta). In clasamentul intern al modelului, Betis e pe locul 7 la atac, Getafe pe 25, din 29 echipe. Se asteapta un meci inchis: 62% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
   },
   {
-   "id": "EU1636251",
-   "league": "EU_3",
-   "league_name": "UEFA Europa League",
-   "date": "2026-09-17",
-   "time": "19:00",
-   "home": "Crystal Palace",
-   "away": "Lech Poznan",
-   "probs": {
-    "p_home": 0.7122,
-    "p_draw": 0.1658,
-    "p_away": 0.122,
-    "p_over25": 0.6351,
-    "p_btts": 0.5286,
-    "p_under25": 0.3649,
-    "p_no_btts": 0.4714
-   },
-   "expected_goals": {
-    "home": 2.39,
-    "away": 0.88
-   },
-   "confidence": "ridicata",
-   "sample": {
-    "home_matches": 113,
-    "away_matches": 103
-   },
-   "top_scores": [
-    {
-     "score": "2-0",
-     "p": 0.1087
-    },
-    {
-     "score": "2-1",
-     "p": 0.0954
-    },
-    {
-     "score": "1-0",
-     "p": 0.0932
-    },
-    {
-     "score": "3-0",
-     "p": 0.0868
-    },
-    {
-     "score": "1-1",
-     "p": 0.0773
-    }
-   ],
-   "reference_odds": {
-    "home": 1.36,
-    "draw": 5.19,
-    "away": 7.93
-   },
-   "context": {
-    "home": {
-     "form": [
-      "E",
-      "I",
-      "I",
-      "I",
-      "V",
-      "I"
-     ],
-     "goals_for_avg": 1.5,
-     "goals_against_avg": 2.5,
-     "shots_on_target_avg": 3.67,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "V",
-      "V",
-      "V",
-      "V",
-      "V",
-      "I"
-     ],
-     "goals_for_avg": 2.0,
-     "goals_against_avg": 1.0,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "h2h": []
-   },
-   "explanation": "Crystal Palace e favorita, cu 71% sanse de victorie. Goluri asteptate: 2.39 pentru Crystal Palace, 0.88 pentru Lech Poznan. Fiind un meci intre campionate diferite, fortele echipelor sunt aduse pe aceeasi scara folosind puterea estimata a fiecarui campionat (E0: +0.64, POL_Ekstraklasa: +0.03), calculata din 3,239 de meciuri europene anterioare. Pentru cupele europene nu exista cote istorice, deci aceste probabilitati nu au putut fi comparate cu piata asa cum s-a facut pentru campionate."
-  },
-  {
-   "id": "EU1636278",
-   "league": "EU_3",
-   "league_name": "UEFA Europa League",
-   "date": "2026-09-17",
-   "time": "19:00",
-   "home": "Juventus",
-   "away": "Nijmegen",
-   "probs": {
-    "p_home": 0.8078,
-    "p_draw": 0.118,
-    "p_away": 0.0742,
-    "p_over25": 0.7302,
-    "p_btts": 0.5291,
-    "p_under25": 0.2698,
-    "p_no_btts": 0.4709
-   },
-   "expected_goals": {
-    "home": 2.98,
-    "away": 0.82
-   },
-   "confidence": "ridicata",
-   "sample": {
-    "home_matches": 114,
-    "away_matches": 103
-   },
-   "top_scores": [
-    {
-     "score": "2-0",
-     "p": 0.0996
-    },
-    {
-     "score": "3-0",
-     "p": 0.0987
-    },
-    {
-     "score": "2-1",
-     "p": 0.0816
-    },
-    {
-     "score": "3-1",
-     "p": 0.0809
-    },
-    {
-     "score": "4-0",
-     "p": 0.0734
-    }
-   ],
-   "reference_odds": {
-    "home": 1.17,
-    "draw": 7.79,
-    "away": 15.54
-   },
-   "context": {
-    "home": {
-     "form": [
-      "I",
-      "E",
-      "V",
-      "V",
-      "E",
-      "I"
-     ],
-     "goals_for_avg": 1.33,
-     "goals_against_avg": 1.33,
-     "shots_on_target_avg": 6.17,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "I",
-      "V",
-      "V",
-      "I",
-      "E",
-      "I"
-     ],
-     "goals_for_avg": 1.83,
-     "goals_against_avg": 2.0,
-     "shots_on_target_avg": 4.0,
-     "matches_analysed": 6
-    },
-    "h2h": []
-   },
-   "explanation": "Juventus e favorita, cu 81% sanse de victorie. Goluri asteptate: 2.98 pentru Juventus, 0.82 pentru Nijmegen. Fiind un meci intre campionate diferite, fortele echipelor sunt aduse pe aceeasi scara folosind puterea estimata a fiecarui campionat (I1: +0.35, N1: +0.04), calculata din 3,239 de meciuri europene anterioare. Pentru cupele europene nu exista cote istorice, deci aceste probabilitati nu au putut fi comparate cu piata asa cum s-a facut pentru campionate."
-  },
-  {
-   "id": "EU1636321",
-   "league": "EU_3",
-   "league_name": "UEFA Europa League",
-   "date": "2026-09-17",
-   "time": "19:00",
-   "home": "Sociedad",
-   "away": "Bournemouth",
-   "probs": {
-    "p_home": 0.2126,
-    "p_draw": 0.2057,
-    "p_away": 0.5817,
-    "p_over25": 0.618,
-    "p_btts": 0.5917,
-    "p_under25": 0.382,
-    "p_no_btts": 0.4083
-   },
-   "expected_goals": {
-    "home": 1.15,
-    "away": 2.04
-   },
-   "confidence": "ridicata",
-   "sample": {
-    "home_matches": 115,
-    "away_matches": 113
-   },
-   "top_scores": [
-    {
-     "score": "1-2",
-     "p": 0.0985
-    },
-    {
-     "score": "1-1",
-     "p": 0.0937
-    },
-    {
-     "score": "0-1",
-     "p": 0.0869
-    },
-    {
-     "score": "0-2",
-     "p": 0.0856
-    },
-    {
-     "score": "1-3",
-     "p": 0.067
-    }
-   ],
-   "reference_odds": {
-    "home": 3.04,
-    "draw": 3.58,
-    "away": 2.24
-   },
-   "context": {
-    "home": {
-     "form": [
-      "I",
-      "I",
-      "V",
-      "E",
-      "V",
-      "I"
-     ],
-     "goals_for_avg": 1.0,
-     "goals_against_avg": 1.83,
-     "shots_on_target_avg": 5.0,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "E",
-      "E",
-      "I",
-      "E",
-      "E",
-      "E"
-     ],
-     "goals_for_avg": 1.33,
-     "goals_against_avg": 1.5,
-     "shots_on_target_avg": 5.0,
-     "matches_analysed": 6
-    },
-    "h2h": []
-   },
-   "explanation": "Bournemouth e favorita, cu 58% sanse de victorie. Goluri asteptate: 1.15 pentru Sociedad, 2.04 pentru Bournemouth. Fiind un meci intre campionate diferite, fortele echipelor sunt aduse pe aceeasi scara folosind puterea estimata a fiecarui campionat (SP1: +0.37, E0: +0.64), calculata din 3,239 de meciuri europene anterioare. Pentru cupele europene nu exista cote istorice, deci aceste probabilitati nu au putut fi comparate cu piata asa cum s-a facut pentru campionate."
-  },
-  {
-   "id": "EU1636232",
-   "league": "EU_3",
-   "league_name": "UEFA Europa League",
-   "date": "2026-09-17",
-   "time": "19:00",
-   "home": "Besiktas",
-   "away": "Marseille",
-   "probs": {
-    "p_home": 0.3521,
-    "p_draw": 0.2308,
-    "p_away": 0.4171,
-    "p_over25": 0.6009,
-    "p_btts": 0.6177,
-    "p_under25": 0.3991,
-    "p_no_btts": 0.3823
-   },
-   "expected_goals": {
-    "home": 1.48,
-    "away": 1.63
-   },
-   "confidence": "ridicata",
-   "sample": {
-    "home_matches": 109,
-    "away_matches": 101
-   },
-   "top_scores": [
-    {
-     "score": "1-1",
-     "p": 0.1043
-    },
-    {
-     "score": "1-2",
-     "p": 0.0877
-    },
-    {
-     "score": "2-1",
-     "p": 0.0796
-    },
-    {
-     "score": "0-1",
-     "p": 0.076
-    },
-    {
-     "score": "1-0",
-     "p": 0.0693
-    }
-   ],
-   "reference_odds": {
-    "home": 1.78,
-    "draw": 4.04,
-    "away": 4.1
-   },
-   "context": {
-    "home": {
-     "form": [
-      "E",
-      "V",
-      "I",
-      "V",
-      "V",
-      "V"
-     ],
-     "goals_for_avg": 2.33,
-     "goals_against_avg": 1.0,
-     "shots_on_target_avg": 6.5,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "V",
-      "V",
-      "V",
-      "I",
-      "I",
-      "I"
-     ],
-     "goals_for_avg": 1.67,
-     "goals_against_avg": 1.17,
-     "shots_on_target_avg": 5.67,
-     "matches_analysed": 6
-    },
-    "h2h": []
-   },
-   "explanation": "Marseille e favorita, cu 42% sanse de victorie. Goluri asteptate: 1.48 pentru Besiktas, 1.63 pentru Marseille. Fiind un meci intre campionate diferite, fortele echipelor sunt aduse pe aceeasi scara folosind puterea estimata a fiecarui campionat (T1: +0.01, F1: +0.34), calculata din 3,239 de meciuri europene anterioare. Pentru cupele europene nu exista cote istorice, deci aceste probabilitati nu au putut fi comparate cu piata asa cum s-a facut pentru campionate."
-  },
-  {
    "id": "SP1_20260917_Malaga_Villarreal",
    "league": "SP1",
    "league_name": "La Liga",
@@ -2981,6 +2637,2876 @@
     ]
    },
    "explanation": "Villarreal e favorita, cu 57% sanse de victorie. Goluri asteptate: 0.56 pentru Malaga, 1.39 pentru Villarreal. Forma recenta — Malaga: IIEIEE, Villarreal: VEEIII (cel mai recent meci la dreapta). In clasamentul intern al modelului, Malaga e pe locul 29 la atac, Villarreal pe 4, din 29 echipe. Se asteapta un meci inchis: 69% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+  },
+  {
+   "id": "EU1635679",
+   "league": "EU_2",
+   "league_name": "UEFA Champions League",
+   "date": "2026-10-13",
+   "time": "16:45",
+   "home": "Lens",
+   "away": "Sp Lisbon",
+   "probs": {
+    "p_home": 0.3896,
+    "p_draw": 0.2272,
+    "p_away": 0.3832,
+    "p_over25": 0.6236,
+    "p_btts": 0.6365,
+    "p_under25": 0.3764,
+    "p_no_btts": 0.3635
+   },
+   "expected_goals": {
+    "home": 1.62,
+    "away": 1.6
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 101,
+    "away_matches": 103
+   },
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 0.1005
+    },
+    {
+     "score": "2-1",
+     "p": 0.0838
+    },
+    {
+     "score": "1-2",
+     "p": 0.083
+    },
+    {
+     "score": "1-0",
+     "p": 0.0679
+    },
+    {
+     "score": "0-1",
+     "p": 0.0673
+    }
+   ],
+   "reference_odds": {},
+   "context": {
+    "home": {
+     "form": [
+      "I",
+      "V",
+      "V",
+      "I",
+      "I",
+      "E"
+     ],
+     "goals_for_avg": 2.0,
+     "goals_against_avg": 1.5,
+     "shots_on_target_avg": 7.0,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "E",
+      "V",
+      "V",
+      "V",
+      "V",
+      "E"
+     ],
+     "goals_for_avg": 2.5,
+     "goals_against_avg": 1.0,
+     "shots_on_target_avg": 6.33,
+     "matches_analysed": 6
+    },
+    "h2h": []
+   },
+   "explanation": "Lens e favorita, cu 39% sanse de victorie. Goluri asteptate: 1.62 pentru Lens, 1.60 pentru Sp Lisbon. Fiind un meci intre campionate diferite, fortele echipelor sunt aduse pe aceeasi scara folosind puterea estimata a fiecarui campionat (F1: +0.34, P1: +0.07), calculata din 3,239 de meciuri europene anterioare. Pentru cupele europene nu exista cote istorice, deci aceste probabilitati nu au putut fi comparate cu piata asa cum s-a facut pentru campionate."
+  },
+  {
+   "id": "EU1635748",
+   "league": "EU_2",
+   "league_name": "UEFA Champions League",
+   "date": "2026-10-13",
+   "time": "19:00",
+   "home": "Villarreal",
+   "away": "Napoli",
+   "probs": {
+    "p_home": 0.4558,
+    "p_draw": 0.2346,
+    "p_away": 0.3097,
+    "p_over25": 0.5667,
+    "p_btts": 0.586,
+    "p_under25": 0.4333,
+    "p_no_btts": 0.414
+   },
+   "expected_goals": {
+    "home": 1.64,
+    "away": 1.31
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 114,
+    "away_matches": 114
+   },
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 0.1088
+    },
+    {
+     "score": "2-1",
+     "p": 0.0922
+    },
+    {
+     "score": "1-0",
+     "p": 0.089
+    },
+    {
+     "score": "1-2",
+     "p": 0.0736
+    },
+    {
+     "score": "0-1",
+     "p": 0.0717
+    }
+   ],
+   "reference_odds": {},
+   "context": {
+    "home": {
+     "form": [
+      "V",
+      "E",
+      "E",
+      "I",
+      "I",
+      "I"
+     ],
+     "goals_for_avg": 2.0,
+     "goals_against_avg": 1.83,
+     "shots_on_target_avg": 6.67,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "V",
+      "V",
+      "V",
+      "I",
+      "I",
+      "V"
+     ],
+     "goals_for_avg": 1.67,
+     "goals_against_avg": 0.83,
+     "shots_on_target_avg": 4.5,
+     "matches_analysed": 6
+    },
+    "h2h": []
+   },
+   "explanation": "Villarreal e favorita, cu 46% sanse de victorie. Goluri asteptate: 1.64 pentru Villarreal, 1.31 pentru Napoli. Fiind un meci intre campionate diferite, fortele echipelor sunt aduse pe aceeasi scara folosind puterea estimata a fiecarui campionat (SP1: +0.37, I1: +0.35), calculata din 3,239 de meciuri europene anterioare. Pentru cupele europene nu exista cote istorice, deci aceste probabilitati nu au putut fi comparate cu piata asa cum s-a facut pentru campionate."
+  },
+  {
+   "id": "EU1635666",
+   "league": "EU_2",
+   "league_name": "UEFA Champions League",
+   "date": "2026-10-13",
+   "time": "19:00",
+   "home": "Galatasaray",
+   "away": "Barcelona",
+   "probs": {
+    "p_home": 0.1742,
+    "p_draw": 0.1736,
+    "p_away": 0.6522,
+    "p_over25": 0.721,
+    "p_btts": 0.649,
+    "p_under25": 0.279,
+    "p_no_btts": 0.351
+   },
+   "expected_goals": {
+    "home": 1.24,
+    "away": 2.5
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 109,
+    "away_matches": 114
+   },
+   "top_scores": [
+    {
+     "score": "1-2",
+     "p": 0.0921
+    },
+    {
+     "score": "1-3",
+     "p": 0.0768
+    },
+    {
+     "score": "0-2",
+     "p": 0.0745
+    },
+    {
+     "score": "1-1",
+     "p": 0.0713
+    },
+    {
+     "score": "0-3",
+     "p": 0.0622
+    }
+   ],
+   "reference_odds": {},
+   "context": {
+    "home": {
+     "form": [
+      "I",
+      "E",
+      "V",
+      "V",
+      "V",
+      "V"
+     ],
+     "goals_for_avg": 2.17,
+     "goals_against_avg": 1.17,
+     "shots_on_target_avg": 8.0,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "I",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+     ],
+     "goals_for_avg": 3.67,
+     "goals_against_avg": 1.17,
+     "shots_on_target_avg": 7.67,
+     "matches_analysed": 6
+    },
+    "h2h": []
+   },
+   "explanation": "Barcelona e favorita, cu 65% sanse de victorie. Goluri asteptate: 1.24 pentru Galatasaray, 2.50 pentru Barcelona. Fiind un meci intre campionate diferite, fortele echipelor sunt aduse pe aceeasi scara folosind puterea estimata a fiecarui campionat (T1: +0.01, SP1: +0.37), calculata din 3,239 de meciuri europene anterioare. Pentru cupele europene nu exista cote istorice, deci aceste probabilitati nu au putut fi comparate cu piata asa cum s-a facut pentru campionate."
+  },
+  {
+   "id": "EU1635612",
+   "league": "EU_2",
+   "league_name": "UEFA Champions League",
+   "date": "2026-10-13",
+   "time": "19:00",
+   "home": "Arsenal",
+   "away": "Lille",
+   "probs": {
+    "p_home": 0.7693,
+    "p_draw": 0.163,
+    "p_away": 0.0678,
+    "p_over25": 0.4786,
+    "p_btts": 0.3189,
+    "p_under25": 0.5214,
+    "p_no_btts": 0.6811
+   },
+   "expected_goals": {
+    "home": 2.14,
+    "away": 0.45
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 113,
+    "away_matches": 101
+   },
+   "top_scores": [
+    {
+     "score": "2-0",
+     "p": 0.1714
+    },
+    {
+     "score": "1-0",
+     "p": 0.1627
+    },
+    {
+     "score": "3-0",
+     "p": 0.122
+    },
+    {
+     "score": "2-1",
+     "p": 0.0776
+    },
+    {
+     "score": "0-0",
+     "p": 0.0729
+    }
+   ],
+   "reference_odds": {},
+   "context": {
+    "home": {
+     "form": [
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+     ],
+     "goals_for_avg": 1.83,
+     "goals_against_avg": 0.33,
+     "shots_on_target_avg": 5.33,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "V",
+      "I",
+      "V",
+      "E",
+      "V",
+      "V"
+     ],
+     "goals_for_avg": 1.33,
+     "goals_against_avg": 0.67,
+     "shots_on_target_avg": 4.83,
+     "matches_analysed": 6
+    },
+    "h2h": []
+   },
+   "explanation": "Arsenal e favorita, cu 77% sanse de victorie. Goluri asteptate: 2.14 pentru Arsenal, 0.45 pentru Lille. Fiind un meci intre campionate diferite, fortele echipelor sunt aduse pe aceeasi scara folosind puterea estimata a fiecarui campionat (E0: +0.64, F1: +0.34), calculata din 3,239 de meciuri europene anterioare. Pentru cupele europene nu exista cote istorice, deci aceste probabilitati nu au putut fi comparate cu piata asa cum s-a facut pentru campionate."
+  },
+  {
+   "id": "EU1635711",
+   "league": "EU_2",
+   "league_name": "UEFA Champions League",
+   "date": "2026-10-13",
+   "time": "19:00",
+   "home": "RB Leipzig",
+   "away": "PSV Eindhoven",
+   "probs": {
+    "p_home": 0.6916,
+    "p_draw": 0.1483,
+    "p_away": 0.1601,
+    "p_over25": 0.8309,
+    "p_btts": 0.7357,
+    "p_under25": 0.1691,
+    "p_no_btts": 0.2643
+   },
+   "expected_goals": {
+    "home": 3.06,
+    "away": 1.49
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 101,
+    "away_matches": 104
+   },
+   "top_scores": [
+    {
+     "score": "3-1",
+     "p": 0.0753
+    },
+    {
+     "score": "2-1",
+     "p": 0.074
+    },
+    {
+     "score": "4-1",
+     "p": 0.0575
+    },
+    {
+     "score": "3-2",
+     "p": 0.056
+    },
+    {
+     "score": "2-2",
+     "p": 0.055
+    }
+   ],
+   "reference_odds": {},
+   "context": {
+    "home": {
+     "form": [
+      "I",
+      "V",
+      "I",
+      "V",
+      "I",
+      "V"
+     ],
+     "goals_for_avg": 2.17,
+     "goals_against_avg": 2.0,
+     "shots_on_target_avg": 6.33,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "E",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+     ],
+     "goals_for_avg": 3.67,
+     "goals_against_avg": 1.17,
+     "shots_on_target_avg": 9.17,
+     "matches_analysed": 6
+    },
+    "h2h": []
+   },
+   "explanation": "RB Leipzig e favorita, cu 69% sanse de victorie. Goluri asteptate: 3.06 pentru RB Leipzig, 1.49 pentru PSV Eindhoven. Fiind un meci intre campionate diferite, fortele echipelor sunt aduse pe aceeasi scara folosind puterea estimata a fiecarui campionat (D1: +0.48, N1: +0.04), calculata din 3,239 de meciuri europene anterioare. Pentru cupele europene nu exista cote istorice, deci aceste probabilitati nu au putut fi comparate cu piata asa cum s-a facut pentru campionate."
+  },
+  {
+   "id": "EU1635671",
+   "league": "EU_2",
+   "league_name": "UEFA Champions League",
+   "date": "2026-10-13",
+   "time": "19:00",
+   "home": "Inter",
+   "away": "Club Brugge",
+   "probs": {
+    "p_home": 0.6472,
+    "p_draw": 0.1706,
+    "p_away": 0.1822,
+    "p_over25": 0.7537,
+    "p_btts": 0.682,
+    "p_under25": 0.2463,
+    "p_no_btts": 0.318
+   },
+   "expected_goals": {
+    "home": 2.6,
+    "away": 1.34
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 114,
+    "away_matches": 120
+   },
+   "top_scores": [
+    {
+     "score": "2-1",
+     "p": 0.088
+    },
+    {
+     "score": "3-1",
+     "p": 0.0763
+    },
+    {
+     "score": "2-0",
+     "p": 0.0655
+    },
+    {
+     "score": "1-1",
+     "p": 0.0655
+    },
+    {
+     "score": "2-2",
+     "p": 0.0591
+    }
+   ],
+   "reference_odds": {},
+   "context": {
+    "home": {
+     "form": [
+      "E",
+      "E",
+      "V",
+      "V",
+      "V",
+      "V"
+     ],
+     "goals_for_avg": 2.83,
+     "goals_against_avg": 1.67,
+     "shots_on_target_avg": 7.17,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "V",
+      "V",
+      "V",
+      "I",
+      "V",
+      "V"
+     ],
+     "goals_for_avg": 2.0,
+     "goals_against_avg": 0.5,
+     "shots_on_target_avg": 6.0,
+     "matches_analysed": 6
+    },
+    "h2h": []
+   },
+   "explanation": "Inter e favorita, cu 65% sanse de victorie. Goluri asteptate: 2.60 pentru Inter, 1.34 pentru Club Brugge. Fiind un meci intre campionate diferite, fortele echipelor sunt aduse pe aceeasi scara folosind puterea estimata a fiecarui campionat (I1: +0.35, B1: +0.10), calculata din 3,239 de meciuri europene anterioare. Pentru cupele europene nu exista cote istorice, deci aceste probabilitati nu au putut fi comparate cu piata asa cum s-a facut pentru campionate."
+  },
+  {
+   "id": "EU1635742",
+   "league": "EU_2",
+   "league_name": "UEFA Champions League",
+   "date": "2026-10-13",
+   "time": "19:00",
+   "home": "Viking",
+   "away": "Bayern Munich",
+   "probs": {
+    "p_home": 0.1275,
+    "p_draw": 0.1409,
+    "p_away": 0.7317,
+    "p_over25": 0.7911,
+    "p_btts": 0.6687,
+    "p_under25": 0.2089,
+    "p_no_btts": 0.3313
+   },
+   "expected_goals": {
+    "home": 1.22,
+    "away": 2.99
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 89,
+    "away_matches": 101
+   },
+   "top_scores": [
+    {
+     "score": "1-2",
+     "p": 0.081
+    },
+    {
+     "score": "1-3",
+     "p": 0.0807
+    },
+    {
+     "score": "0-2",
+     "p": 0.0662
+    },
+    {
+     "score": "0-3",
+     "p": 0.0659
+    },
+    {
+     "score": "1-4",
+     "p": 0.0602
+    }
+   ],
+   "reference_odds": {},
+   "context": {
+    "home": {
+     "form": [
+      "V",
+      "V",
+      "I",
+      "V",
+      "E",
+      "V"
+     ],
+     "goals_for_avg": 2.83,
+     "goals_against_avg": 1.0,
+     "shots_on_target_avg": null,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "E",
+      "V",
+      "V",
+      "V",
+      "E",
+      "V"
+     ],
+     "goals_for_avg": 2.67,
+     "goals_against_avg": 1.0,
+     "shots_on_target_avg": 7.17,
+     "matches_analysed": 6
+    },
+    "h2h": []
+   },
+   "explanation": "Bayern Munich e favorita, cu 73% sanse de victorie. Goluri asteptate: 1.22 pentru Viking, 2.99 pentru Bayern Munich. Fiind un meci intre campionate diferite, fortele echipelor sunt aduse pe aceeasi scara folosind puterea estimata a fiecarui campionat (NOR_Eliteserien: +0.00, D1: +0.48), calculata din 3,239 de meciuri europene anterioare. Pentru cupele europene nu exista cote istorice, deci aceste probabilitati nu au putut fi comparate cu piata asa cum s-a facut pentru campionate."
+  },
+  {
+   "id": "EU1635623",
+   "league": "EU_2",
+   "league_name": "UEFA Champions League",
+   "date": "2026-10-13",
+   "time": "19:00",
+   "home": "Ath Madrid",
+   "away": "Man United",
+   "probs": {
+    "p_home": 0.3352,
+    "p_draw": 0.23,
+    "p_away": 0.4348,
+    "p_over25": 0.6002,
+    "p_btts": 0.6155,
+    "p_under25": 0.3998,
+    "p_no_btts": 0.3845
+   },
+   "expected_goals": {
+    "home": 1.44,
+    "away": 1.67
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 115,
+    "away_matches": 113
+   },
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 0.1041
+    },
+    {
+     "score": "1-2",
+     "p": 0.0896
+    },
+    {
+     "score": "0-1",
+     "p": 0.078
+    },
+    {
+     "score": "2-1",
+     "p": 0.0772
+    },
+    {
+     "score": "1-0",
+     "p": 0.0677
+    }
+   ],
+   "reference_odds": {},
+   "context": {
+    "home": {
+     "form": [
+      "I",
+      "V",
+      "E",
+      "V",
+      "I",
+      "V"
+     ],
+     "goals_for_avg": 1.83,
+     "goals_against_avg": 1.83,
+     "shots_on_target_avg": 4.83,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "V",
+      "V",
+      "I",
+      "V",
+      "E",
+      "I"
+     ],
+     "goals_for_avg": 2.17,
+     "goals_against_avg": 1.5,
+     "shots_on_target_avg": 6.17,
+     "matches_analysed": 6
+    },
+    "h2h": []
+   },
+   "explanation": "Man United e favorita, cu 43% sanse de victorie. Goluri asteptate: 1.44 pentru Ath Madrid, 1.67 pentru Man United. Fiind un meci intre campionate diferite, fortele echipelor sunt aduse pe aceeasi scara folosind puterea estimata a fiecarui campionat (SP1: +0.37, E0: +0.64), calculata din 3,239 de meciuri europene anterioare. Pentru cupele europene nu exista cote istorice, deci aceste probabilitati nu au putut fi comparate cu piata asa cum s-a facut pentru campionate."
+  },
+  {
+   "id": "EU1635665",
+   "league": "EU_2",
+   "league_name": "UEFA Champions League",
+   "date": "2026-10-14",
+   "time": "16:45",
+   "home": "Feyenoord",
+   "away": "Como",
+   "probs": {
+    "p_home": 0.2291,
+    "p_draw": 0.2097,
+    "p_away": 0.5612,
+    "p_over25": 0.6204,
+    "p_btts": 0.6018,
+    "p_under25": 0.3796,
+    "p_no_btts": 0.3982
+   },
+   "expected_goals": {
+    "home": 1.2,
+    "away": 2.0
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 103,
+    "away_matches": 80
+   },
+   "top_scores": [
+    {
+     "score": "1-2",
+     "p": 0.0978
+    },
+    {
+     "score": "1-1",
+     "p": 0.0949
+    },
+    {
+     "score": "0-1",
+     "p": 0.0843
+    },
+    {
+     "score": "0-2",
+     "p": 0.0813
+    },
+    {
+     "score": "1-3",
+     "p": 0.0651
+    }
+   ],
+   "reference_odds": {},
+   "context": {
+    "home": {
+     "form": [
+      "V",
+      "E",
+      "V",
+      "E",
+      "V",
+      "V"
+     ],
+     "goals_for_avg": 3.33,
+     "goals_against_avg": 1.17,
+     "shots_on_target_avg": 8.0,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "V",
+      "V",
+      "E",
+      "V",
+      "V",
+      "V"
+     ],
+     "goals_for_avg": 2.33,
+     "goals_against_avg": 0.83,
+     "shots_on_target_avg": 6.83,
+     "matches_analysed": 6
+    },
+    "h2h": []
+   },
+   "explanation": "Como e favorita, cu 56% sanse de victorie. Goluri asteptate: 1.20 pentru Feyenoord, 2.00 pentru Como. Fiind un meci intre campionate diferite, fortele echipelor sunt aduse pe aceeasi scara folosind puterea estimata a fiecarui campionat (N1: +0.04, I1: +0.35), calculata din 3,239 de meciuri europene anterioare. Pentru cupele europene nu exista cote istorice, deci aceste probabilitati nu au putut fi comparate cu piata asa cum s-a facut pentru campionate."
+  },
+  {
+   "id": "EU1635614",
+   "league": "EU_2",
+   "league_name": "UEFA Champions League",
+   "date": "2026-10-14",
+   "time": "19:00",
+   "home": "Roma",
+   "away": "Real Madrid",
+   "probs": {
+    "p_home": 0.3826,
+    "p_draw": 0.2512,
+    "p_away": 0.3662,
+    "p_over25": 0.5038,
+    "p_btts": 0.5429,
+    "p_under25": 0.4962,
+    "p_no_btts": 0.4571
+   },
+   "expected_goals": {
+    "home": 1.36,
+    "away": 1.33
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 114,
+    "away_matches": 114
+   },
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 0.119
+    },
+    {
+     "score": "1-0",
+     "p": 0.0963
+    },
+    {
+     "score": "0-1",
+     "p": 0.0939
+    },
+    {
+     "score": "2-1",
+     "p": 0.0837
+    },
+    {
+     "score": "1-2",
+     "p": 0.0815
+    }
+   ],
+   "reference_odds": {},
+   "context": {
+    "home": {
+     "form": [
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+     ],
+     "goals_for_avg": 2.67,
+     "goals_against_avg": 0.17,
+     "shots_on_target_avg": 7.5,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "V",
+      "V",
+      "V",
+      "V",
+      "I",
+      "V"
+     ],
+     "goals_for_avg": 3.0,
+     "goals_against_avg": 1.0,
+     "shots_on_target_avg": 9.0,
+     "matches_analysed": 6
+    },
+    "h2h": []
+   },
+   "explanation": "Roma e favorita, cu 38% sanse de victorie. Goluri asteptate: 1.36 pentru Roma, 1.33 pentru Real Madrid. Fiind un meci intre campionate diferite, fortele echipelor sunt aduse pe aceeasi scara folosind puterea estimata a fiecarui campionat (I1: +0.35, SP1: +0.37), calculata din 3,239 de meciuri europene anterioare. Pentru cupele europene nu exista cote istorice, deci aceste probabilitati nu au putut fi comparate cu piata asa cum s-a facut pentru campionate."
+  },
+  {
+   "id": "EU1635620",
+   "league": "EU_2",
+   "league_name": "UEFA Champions League",
+   "date": "2026-10-14",
+   "time": "19:00",
+   "home": "Aston Villa",
+   "away": "Fenerbahce",
+   "probs": {
+    "p_home": 0.7476,
+    "p_draw": 0.1422,
+    "p_away": 0.1101,
+    "p_over25": 0.7287,
+    "p_btts": 0.5907,
+    "p_under25": 0.2713,
+    "p_no_btts": 0.4093
+   },
+   "expected_goals": {
+    "home": 2.79,
+    "away": 1.0
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 113,
+    "away_matches": 109
+   },
+   "top_scores": [
+    {
+     "score": "2-0",
+     "p": 0.0882
+    },
+    {
+     "score": "2-1",
+     "p": 0.088
+    },
+    {
+     "score": "3-0",
+     "p": 0.0819
+    },
+    {
+     "score": "3-1",
+     "p": 0.0818
+    },
+    {
+     "score": "1-0",
+     "p": 0.0652
+    }
+   ],
+   "reference_odds": {},
+   "context": {
+    "home": {
+     "form": [
+      "V",
+      "V",
+      "I",
+      "I",
+      "E",
+      "I"
+     ],
+     "goals_for_avg": 1.17,
+     "goals_against_avg": 1.67,
+     "shots_on_target_avg": 3.33,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "E",
+      "I",
+      "V",
+      "V",
+      "I",
+      "E"
+     ],
+     "goals_for_avg": 1.83,
+     "goals_against_avg": 1.5,
+     "shots_on_target_avg": 6.67,
+     "matches_analysed": 6
+    },
+    "h2h": []
+   },
+   "explanation": "Aston Villa e favorita, cu 75% sanse de victorie. Goluri asteptate: 2.79 pentru Aston Villa, 1.00 pentru Fenerbahce. Fiind un meci intre campionate diferite, fortele echipelor sunt aduse pe aceeasi scara folosind puterea estimata a fiecarui campionat (E0: +0.64, T1: +0.01), calculata din 3,239 de meciuri europene anterioare. Pentru cupele europene nu exista cote istorice, deci aceste probabilitati nu au putut fi comparate cu piata asa cum s-a facut pentru campionate."
+  },
+  {
+   "id": "EU1635635",
+   "league": "EU_2",
+   "league_name": "UEFA Champions League",
+   "date": "2026-10-14",
+   "time": "19:00",
+   "home": "Betis",
+   "away": "Porto",
+   "probs": {
+    "p_home": 0.3833,
+    "p_draw": 0.2762,
+    "p_away": 0.3405,
+    "p_over25": 0.4005,
+    "p_btts": 0.4595,
+    "p_under25": 0.5995,
+    "p_no_btts": 0.5405
+   },
+   "expected_goals": {
+    "home": 1.19,
+    "away": 1.1
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 114,
+    "away_matches": 103
+   },
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 0.1286
+    },
+    {
+     "score": "1-0",
+     "p": 0.1246
+    },
+    {
+     "score": "0-1",
+     "p": 0.1158
+    },
+    {
+     "score": "0-0",
+     "p": 0.0975
+    },
+    {
+     "score": "2-1",
+     "p": 0.0787
+    }
+   ],
+   "reference_odds": {},
+   "context": {
+    "home": {
+     "form": [
+      "V",
+      "V",
+      "V",
+      "I",
+      "V",
+      "V"
+     ],
+     "goals_for_avg": 1.5,
+     "goals_against_avg": 1.17,
+     "shots_on_target_avg": 6.83,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+     ],
+     "goals_for_avg": 2.5,
+     "goals_against_avg": 0.33,
+     "shots_on_target_avg": 6.17,
+     "matches_analysed": 6
+    },
+    "h2h": []
+   },
+   "explanation": "Betis e favorita, cu 38% sanse de victorie. Goluri asteptate: 1.19 pentru Betis, 1.10 pentru Porto. Fiind un meci intre campionate diferite, fortele echipelor sunt aduse pe aceeasi scara folosind puterea estimata a fiecarui campionat (SP1: +0.37, P1: +0.07), calculata din 3,239 de meciuri europene anterioare. Pentru cupele europene nu exista cote istorice, deci aceste probabilitati nu au putut fi comparate cu piata asa cum s-a facut pentru campionate."
+  },
+  {
+   "id": "EU1635690",
+   "league": "EU_2",
+   "league_name": "UEFA Champions League",
+   "date": "2026-10-14",
+   "time": "19:00",
+   "home": "Man City",
+   "away": "Paris SG",
+   "probs": {
+    "p_home": 0.7142,
+    "p_draw": 0.1653,
+    "p_away": 0.1205,
+    "p_over25": 0.6333,
+    "p_btts": 0.5253,
+    "p_under25": 0.3667,
+    "p_no_btts": 0.4747
+   },
+   "expected_goals": {
+    "home": 2.39,
+    "away": 0.87
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 113,
+    "away_matches": 101
+   },
+   "top_scores": [
+    {
+     "score": "2-0",
+     "p": 0.1097
+    },
+    {
+     "score": "2-1",
+     "p": 0.0953
+    },
+    {
+     "score": "1-0",
+     "p": 0.094
+    },
+    {
+     "score": "3-0",
+     "p": 0.0875
+    },
+    {
+     "score": "1-1",
+     "p": 0.0772
+    }
+   ],
+   "reference_odds": {},
+   "context": {
+    "home": {
+     "form": [
+      "E",
+      "I",
+      "V",
+      "V",
+      "V",
+      "V"
+     ],
+     "goals_for_avg": 1.67,
+     "goals_against_avg": 0.83,
+     "shots_on_target_avg": 4.83,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "V",
+      "I",
+      "E",
+      "E",
+      "I",
+      "V"
+     ],
+     "goals_for_avg": 1.5,
+     "goals_against_avg": 1.33,
+     "shots_on_target_avg": 5.17,
+     "matches_analysed": 6
+    },
+    "h2h": []
+   },
+   "explanation": "Man City e favorita, cu 71% sanse de victorie. Goluri asteptate: 2.39 pentru Man City, 0.87 pentru Paris SG. Fiind un meci intre campionate diferite, fortele echipelor sunt aduse pe aceeasi scara folosind puterea estimata a fiecarui campionat (E0: +0.64, F1: +0.34), calculata din 3,239 de meciuri europene anterioare. Pentru cupele europene nu exista cote istorice, deci aceste probabilitati nu au putut fi comparate cu piata asa cum s-a facut pentru campionate."
+  },
+  {
+   "id": "EU1635639",
+   "league": "EU_2",
+   "league_name": "UEFA Champions League",
+   "date": "2026-10-14",
+   "time": "19:00",
+   "home": "Bodo/Glimt",
+   "away": "Dortmund",
+   "probs": {
+    "p_home": 0.3325,
+    "p_draw": 0.2317,
+    "p_away": 0.4359,
+    "p_over25": 0.5908,
+    "p_btts": 0.608,
+    "p_under25": 0.4092,
+    "p_no_btts": 0.392
+   },
+   "expected_goals": {
+    "home": 1.41,
+    "away": 1.65
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 89,
+    "away_matches": 101
+   },
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 0.1056
+    },
+    {
+     "score": "1-2",
+     "p": 0.0899
+    },
+    {
+     "score": "0-1",
+     "p": 0.0805
+    },
+    {
+     "score": "2-1",
+     "p": 0.077
+    },
+    {
+     "score": "1-0",
+     "p": 0.0694
+    }
+   ],
+   "reference_odds": {},
+   "context": {
+    "home": {
+     "form": [
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+     ],
+     "goals_for_avg": 3.0,
+     "goals_against_avg": 1.0,
+     "shots_on_target_avg": null,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "I",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+     ],
+     "goals_for_avg": 2.17,
+     "goals_against_avg": 0.83,
+     "shots_on_target_avg": 6.0,
+     "matches_analysed": 6
+    },
+    "h2h": []
+   },
+   "explanation": "Dortmund e favorita, cu 44% sanse de victorie. Goluri asteptate: 1.41 pentru Bodo/Glimt, 1.65 pentru Dortmund. Fiind un meci intre campionate diferite, fortele echipelor sunt aduse pe aceeasi scara folosind puterea estimata a fiecarui campionat (NOR_Eliteserien: +0.00, D1: +0.48), calculata din 3,239 de meciuri europene anterioare. Pentru cupele europene nu exista cote istorice, deci aceste probabilitati nu au putut fi comparate cu piata asa cum s-a facut pentru campionate."
+  },
+  {
+   "id": "EU1636293",
+   "league": "EU_3",
+   "league_name": "UEFA Europa League",
+   "date": "2026-10-15",
+   "time": "16:45",
+   "home": "Lyon",
+   "away": "Crystal Palace",
+   "probs": {
+    "p_home": 0.3689,
+    "p_draw": 0.24,
+    "p_away": 0.3911,
+    "p_over25": 0.5571,
+    "p_btts": 0.5846,
+    "p_under25": 0.4429,
+    "p_no_btts": 0.4154
+   },
+   "expected_goals": {
+    "home": 1.43,
+    "away": 1.48
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 101,
+    "away_matches": 113
+   },
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 0.1116
+    },
+    {
+     "score": "1-2",
+     "p": 0.0853
+    },
+    {
+     "score": "0-1",
+     "p": 0.084
+    },
+    {
+     "score": "2-1",
+     "p": 0.0825
+    },
+    {
+     "score": "1-0",
+     "p": 0.0813
+    }
+   ],
+   "reference_odds": {},
+   "context": {
+    "home": {
+     "form": [
+      "I",
+      "I",
+      "V",
+      "E",
+      "V",
+      "E"
+     ],
+     "goals_for_avg": 1.17,
+     "goals_against_avg": 1.33,
+     "shots_on_target_avg": 3.83,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "E",
+      "I",
+      "I",
+      "I",
+      "V",
+      "I"
+     ],
+     "goals_for_avg": 1.5,
+     "goals_against_avg": 2.5,
+     "shots_on_target_avg": 3.67,
+     "matches_analysed": 6
+    },
+    "h2h": []
+   },
+   "explanation": "Crystal Palace e favorita, cu 39% sanse de victorie. Goluri asteptate: 1.43 pentru Lyon, 1.48 pentru Crystal Palace. Fiind un meci intre campionate diferite, fortele echipelor sunt aduse pe aceeasi scara folosind puterea estimata a fiecarui campionat (F1: +0.34, E0: +0.64), calculata din 3,239 de meciuri europene anterioare. Pentru cupele europene nu exista cote istorice, deci aceste probabilitati nu au putut fi comparate cu piata asa cum s-a facut pentru campionate."
+  },
+  {
+   "id": "EU1636328",
+   "league": "EU_3",
+   "league_name": "UEFA Europa League",
+   "date": "2026-10-15",
+   "time": "16:45",
+   "home": "St. Gilloise",
+   "away": "Sociedad",
+   "probs": {
+    "p_home": 0.6132,
+    "p_draw": 0.22,
+    "p_away": 0.1667,
+    "p_over25": 0.4833,
+    "p_btts": 0.4587,
+    "p_under25": 0.5167,
+    "p_no_btts": 0.5413
+   },
+   "expected_goals": {
+    "home": 1.8,
+    "away": 0.81
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 120,
+    "away_matches": 115
+   },
+   "top_scores": [
+    {
+     "score": "1-0",
+     "p": 0.1361
+    },
+    {
+     "score": "2-0",
+     "p": 0.1196
+    },
+    {
+     "score": "1-1",
+     "p": 0.1038
+    },
+    {
+     "score": "2-1",
+     "p": 0.0964
+    },
+    {
+     "score": "3-0",
+     "p": 0.0718
+    }
+   ],
+   "reference_odds": {},
+   "context": {
+    "home": {
+     "form": [
+      "V",
+      "E",
+      "V",
+      "V",
+      "V",
+      "V"
+     ],
+     "goals_for_avg": 3.17,
+     "goals_against_avg": 0.5,
+     "shots_on_target_avg": 7.5,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "I",
+      "I",
+      "V",
+      "E",
+      "V",
+      "I"
+     ],
+     "goals_for_avg": 1.0,
+     "goals_against_avg": 1.83,
+     "shots_on_target_avg": 5.0,
+     "matches_analysed": 6
+    },
+    "h2h": []
+   },
+   "explanation": "St. Gilloise e favorita, cu 61% sanse de victorie. Goluri asteptate: 1.80 pentru St. Gilloise, 0.81 pentru Sociedad. Fiind un meci intre campionate diferite, fortele echipelor sunt aduse pe aceeasi scara folosind puterea estimata a fiecarui campionat (B1: +0.10, SP1: +0.37), calculata din 3,239 de meciuri europene anterioare. Pentru cupele europene nu exista cote istorice, deci aceste probabilitati nu au putut fi comparate cu piata asa cum s-a facut pentru campionate."
+  },
+  {
+   "id": "EU1636279",
+   "league": "EU_3",
+   "league_name": "UEFA Europa League",
+   "date": "2026-10-15",
+   "time": "16:45",
+   "home": "Lech Poznan",
+   "away": "Leverkusen",
+   "probs": {
+    "p_home": 0.1614,
+    "p_draw": 0.1804,
+    "p_away": 0.6582,
+    "p_over25": 0.6571,
+    "p_btts": 0.5872,
+    "p_under25": 0.3429,
+    "p_no_btts": 0.4128
+   },
+   "expected_goals": {
+    "home": 1.06,
+    "away": 2.32
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 103,
+    "away_matches": 101
+   },
+   "top_scores": [
+    {
+     "score": "1-2",
+     "p": 0.0971
+    },
+    {
+     "score": "0-2",
+     "p": 0.0915
+    },
+    {
+     "score": "0-1",
+     "p": 0.0814
+    },
+    {
+     "score": "1-1",
+     "p": 0.081
+    },
+    {
+     "score": "1-3",
+     "p": 0.0752
+    }
+   ],
+   "reference_odds": {},
+   "context": {
+    "home": {
+     "form": [
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "I"
+     ],
+     "goals_for_avg": 2.0,
+     "goals_against_avg": 1.0,
+     "shots_on_target_avg": null,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "V",
+      "I",
+      "E",
+      "I",
+      "V",
+      "E"
+     ],
+     "goals_for_avg": 2.33,
+     "goals_against_avg": 1.67,
+     "shots_on_target_avg": 6.83,
+     "matches_analysed": 6
+    },
+    "h2h": []
+   },
+   "explanation": "Leverkusen e favorita, cu 66% sanse de victorie. Goluri asteptate: 1.06 pentru Lech Poznan, 2.32 pentru Leverkusen. Fiind un meci intre campionate diferite, fortele echipelor sunt aduse pe aceeasi scara folosind puterea estimata a fiecarui campionat (POL_Ekstraklasa: +0.03, D1: +0.48), calculata din 3,239 de meciuri europene anterioare. Pentru cupele europene nu exista cote istorice, deci aceste probabilitati nu au putut fi comparate cu piata asa cum s-a facut pentru campionate."
+  },
+  {
+   "id": "EU1636332",
+   "league": "EU_3",
+   "league_name": "UEFA Europa League",
+   "date": "2026-10-15",
+   "time": "16:45",
+   "home": "Salzburg",
+   "away": "Milan",
+   "probs": {
+    "p_home": 0.2575,
+    "p_draw": 0.2267,
+    "p_away": 0.5158,
+    "p_over25": 0.5679,
+    "p_btts": 0.5732,
+    "p_under25": 0.4321,
+    "p_no_btts": 0.4268
+   },
+   "expected_goals": {
+    "home": 1.18,
+    "away": 1.78
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 95,
+    "away_matches": 114
+   },
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 0.1056
+    },
+    {
+     "score": "1-2",
+     "p": 0.0968
+    },
+    {
+     "score": "0-1",
+     "p": 0.0953
+    },
+    {
+     "score": "0-2",
+     "p": 0.0817
+    },
+    {
+     "score": "1-0",
+     "p": 0.0647
+    }
+   ],
+   "reference_odds": {},
+   "context": {
+    "home": {
+     "form": [
+      "V",
+      "E",
+      "V",
+      "V",
+      "V",
+      "E"
+     ],
+     "goals_for_avg": 2.5,
+     "goals_against_avg": 0.67,
+     "shots_on_target_avg": null,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "V",
+      "I",
+      "V",
+      "V",
+      "E",
+      "E"
+     ],
+     "goals_for_avg": 1.67,
+     "goals_against_avg": 1.17,
+     "shots_on_target_avg": 4.33,
+     "matches_analysed": 6
+    },
+    "h2h": []
+   },
+   "explanation": "Milan e favorita, cu 52% sanse de victorie. Goluri asteptate: 1.18 pentru Salzburg, 1.78 pentru Milan. Fiind un meci intre campionate diferite, fortele echipelor sunt aduse pe aceeasi scara folosind puterea estimata a fiecarui campionat (AUT_Bundesliga: -0.04, I1: +0.35), calculata din 3,239 de meciuri europene anterioare. Pentru cupele europene nu exista cote istorice, deci aceste probabilitati nu au putut fi comparate cu piata asa cum s-a facut pentru campionate."
+  },
+  {
+   "id": "EU1636440",
+   "league": "EU_848",
+   "league_name": "UEFA Conference League",
+   "date": "2026-10-15",
+   "time": "16:45",
+   "home": "KuPS",
+   "away": "Trabzonspor",
+   "probs": {
+    "p_home": 0.1945,
+    "p_draw": 0.2158,
+    "p_away": 0.5897,
+    "p_over25": 0.5438,
+    "p_btts": 0.5243,
+    "p_under25": 0.4562,
+    "p_no_btts": 0.4757
+   },
+   "expected_goals": {
+    "home": 0.97,
+    "away": 1.88
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 87,
+    "away_matches": 108
+   },
+   "top_scores": [
+    {
+     "score": "0-1",
+     "p": 0.1115
+    },
+    {
+     "score": "1-1",
+     "p": 0.1022
+    },
+    {
+     "score": "0-2",
+     "p": 0.1019
+    },
+    {
+     "score": "1-2",
+     "p": 0.0992
+    },
+    {
+     "score": "0-3",
+     "p": 0.0639
+    }
+   ],
+   "reference_odds": {},
+   "context": {
+    "home": {
+     "form": [
+      "E",
+      "V",
+      "I",
+      "I",
+      "E",
+      "E"
+     ],
+     "goals_for_avg": 1.0,
+     "goals_against_avg": 1.33,
+     "shots_on_target_avg": null,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "I",
+      "E",
+      "V",
+      "I",
+      "V",
+      "I"
+     ],
+     "goals_for_avg": 1.5,
+     "goals_against_avg": 1.33,
+     "shots_on_target_avg": 6.5,
+     "matches_analysed": 6
+    },
+    "h2h": []
+   },
+   "explanation": "Trabzonspor e favorita, cu 59% sanse de victorie. Goluri asteptate: 0.97 pentru KuPS, 1.88 pentru Trabzonspor. Fiind un meci intre campionate diferite, fortele echipelor sunt aduse pe aceeasi scara folosind puterea estimata a fiecarui campionat (FIN_Veikkausliiga: -0.46, T1: +0.01), calculata din 3,239 de meciuri europene anterioare. Pentru cupele europene nu exista cote istorice, deci aceste probabilitati nu au putut fi comparate cu piata asa cum s-a facut pentru campionate."
+  },
+  {
+   "id": "EU1636414",
+   "league": "EU_848",
+   "league_name": "UEFA Conference League",
+   "date": "2026-10-15",
+   "time": "16:45",
+   "home": "Gent",
+   "away": "Aarhus",
+   "probs": {
+    "p_home": 0.4658,
+    "p_draw": 0.2378,
+    "p_away": 0.2964,
+    "p_over25": 0.5442,
+    "p_btts": 0.5661,
+    "p_under25": 0.4558,
+    "p_no_btts": 0.4339
+   },
+   "expected_goals": {
+    "home": 1.62,
+    "away": 1.24
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 121,
+    "away_matches": 96
+   },
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 0.1116
+    },
+    {
+     "score": "1-0",
+     "p": 0.0964
+    },
+    {
+     "score": "2-1",
+     "p": 0.0932
+    },
+    {
+     "score": "2-0",
+     "p": 0.0752
+    },
+    {
+     "score": "0-1",
+     "p": 0.0747
+    }
+   ],
+   "reference_odds": {},
+   "context": {
+    "home": {
+     "form": [
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "E"
+     ],
+     "goals_for_avg": 1.83,
+     "goals_against_avg": 0.5,
+     "shots_on_target_avg": 4.67,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "I",
+      "E",
+      "I",
+      "I",
+      "E",
+      "I"
+     ],
+     "goals_for_avg": 1.0,
+     "goals_against_avg": 2.0,
+     "shots_on_target_avg": null,
+     "matches_analysed": 6
+    },
+    "h2h": []
+   },
+   "explanation": "Gent e favorita, cu 47% sanse de victorie. Goluri asteptate: 1.62 pentru Gent, 1.24 pentru Aarhus. Fiind un meci intre campionate diferite, fortele echipelor sunt aduse pe aceeasi scara folosind puterea estimata a fiecarui campionat (B1: +0.10, DNK_Superliga: +0.14), calculata din 3,239 de meciuri europene anterioare. Pentru cupele europene nu exista cote istorice, deci aceste probabilitati nu au putut fi comparate cu piata asa cum s-a facut pentru campionate."
+  },
+  {
+   "id": "EU1636482",
+   "league": "EU_848",
+   "league_name": "UEFA Conference League",
+   "date": "2026-10-15",
+   "time": "16:45",
+   "home": "Univ. Craiova",
+   "away": "Getafe",
+   "probs": {
+    "p_home": 0.2618,
+    "p_draw": 0.3357,
+    "p_away": 0.4025,
+    "p_over25": 0.2279,
+    "p_btts": 0.3032,
+    "p_under25": 0.7721,
+    "p_no_btts": 0.6968
+   },
+   "expected_goals": {
+    "home": 0.7,
+    "away": 0.95
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 121,
+    "away_matches": 114
+   },
+   "top_scores": [
+    {
+     "score": "0-0",
+     "p": 0.1894
+    },
+    {
+     "score": "0-1",
+     "p": 0.1868
+    },
+    {
+     "score": "1-0",
+     "p": 0.1387
+    },
+    {
+     "score": "1-1",
+     "p": 0.1236
+    },
+    {
+     "score": "0-2",
+     "p": 0.0866
+    }
+   ],
+   "reference_odds": {},
+   "context": {
+    "home": {
+     "form": [
+      "I",
+      "E",
+      "V",
+      "E",
+      "V",
+      "V"
+     ],
+     "goals_for_avg": 1.67,
+     "goals_against_avg": 0.67,
+     "shots_on_target_avg": null,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "V",
+      "I",
+      "V",
+      "I",
+      "E",
+      "E"
+     ],
+     "goals_for_avg": 0.67,
+     "goals_against_avg": 1.0,
+     "shots_on_target_avg": 2.17,
+     "matches_analysed": 6
+    },
+    "h2h": []
+   },
+   "explanation": "Getafe e favorita, cu 40% sanse de victorie. Goluri asteptate: 0.70 pentru Univ. Craiova, 0.95 pentru Getafe. Fiind un meci intre campionate diferite, fortele echipelor sunt aduse pe aceeasi scara folosind puterea estimata a fiecarui campionat (ROU_Superliga: -0.48, SP1: +0.37), calculata din 3,239 de meciuri europene anterioare. Pentru cupele europene nu exista cote istorice, deci aceste probabilitati nu au putut fi comparate cu piata asa cum s-a facut pentru campionate."
+  },
+  {
+   "id": "EU1636295",
+   "league": "EU_3",
+   "league_name": "UEFA Europa League",
+   "date": "2026-10-15",
+   "time": "19:00",
+   "home": "Marseille",
+   "away": "Olympiakos",
+   "probs": {
+    "p_home": 0.4961,
+    "p_draw": 0.2699,
+    "p_away": 0.2341,
+    "p_over25": 0.3791,
+    "p_btts": 0.4195,
+    "p_under25": 0.6209,
+    "p_no_btts": 0.5805
+   },
+   "expected_goals": {
+    "home": 1.37,
+    "away": 0.84
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 101,
+    "away_matches": 100
+   },
+   "top_scores": [
+    {
+     "score": "1-0",
+     "p": 0.1543
+    },
+    {
+     "score": "1-1",
+     "p": 0.1225
+    },
+    {
+     "score": "0-0",
+     "p": 0.1062
+    },
+    {
+     "score": "2-0",
+     "p": 0.1029
+    },
+    {
+     "score": "0-1",
+     "p": 0.0962
+    }
+   ],
+   "reference_odds": {},
+   "context": {
+    "home": {
+     "form": [
+      "V",
+      "V",
+      "V",
+      "I",
+      "I",
+      "I"
+     ],
+     "goals_for_avg": 1.67,
+     "goals_against_avg": 1.17,
+     "shots_on_target_avg": 5.67,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "V",
+      "E",
+      "V",
+      "V",
+      "E",
+      "I"
+     ],
+     "goals_for_avg": 0.83,
+     "goals_against_avg": 0.5,
+     "shots_on_target_avg": 5.83,
+     "matches_analysed": 6
+    },
+    "h2h": []
+   },
+   "explanation": "Marseille e favorita, cu 50% sanse de victorie. Goluri asteptate: 1.37 pentru Marseille, 0.84 pentru Olympiakos. Fiind un meci intre campionate diferite, fortele echipelor sunt aduse pe aceeasi scara folosind puterea estimata a fiecarui campionat (F1: +0.34, G1: -0.23), calculata din 3,239 de meciuri europene anterioare. Pentru cupele europene nu exista cote istorice, deci aceste probabilitati nu au putut fi comparate cu piata asa cum s-a facut pentru campionate."
+  },
+  {
+   "id": "EU1636243",
+   "league": "EU_3",
+   "league_name": "UEFA Europa League",
+   "date": "2026-10-15",
+   "time": "19:00",
+   "home": "Celta",
+   "away": "Juventus",
+   "probs": {
+    "p_home": 0.3418,
+    "p_draw": 0.2654,
+    "p_away": 0.3928,
+    "p_over25": 0.4413,
+    "p_btts": 0.4924,
+    "p_under25": 0.5587,
+    "p_no_btts": 0.5076
+   },
+   "expected_goals": {
+    "home": 1.17,
+    "away": 1.27
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 115,
+    "away_matches": 114
+   },
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 0.1255
+    },
+    {
+     "score": "0-1",
+     "p": 0.1148
+    },
+    {
+     "score": "1-0",
+     "p": 0.1055
+    },
+    {
+     "score": "0-0",
+     "p": 0.083
+    },
+    {
+     "score": "1-2",
+     "p": 0.0825
+    }
+   ],
+   "reference_odds": {},
+   "context": {
+    "home": {
+     "form": [
+      "E",
+      "I",
+      "I",
+      "E",
+      "E",
+      "E"
+     ],
+     "goals_for_avg": 0.5,
+     "goals_against_avg": 1.0,
+     "shots_on_target_avg": 2.83,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "I",
+      "E",
+      "V",
+      "V",
+      "E",
+      "I"
+     ],
+     "goals_for_avg": 1.33,
+     "goals_against_avg": 1.33,
+     "shots_on_target_avg": 6.17,
+     "matches_analysed": 6
+    },
+    "h2h": []
+   },
+   "explanation": "Juventus e favorita, cu 39% sanse de victorie. Goluri asteptate: 1.17 pentru Celta, 1.27 pentru Juventus. Fiind un meci intre campionate diferite, fortele echipelor sunt aduse pe aceeasi scara folosind puterea estimata a fiecarui campionat (SP1: +0.37, I1: +0.35), calculata din 3,239 de meciuri europene anterioare. Pentru cupele europene nu exista cote istorice, deci aceste probabilitati nu au putut fi comparate cu piata asa cum s-a facut pentru campionate."
+  },
+  {
+   "id": "EU1636228",
+   "league": "EU_3",
+   "league_name": "UEFA Europa League",
+   "date": "2026-10-15",
+   "time": "19:00",
+   "home": "Benfica",
+   "away": "Celtic",
+   "probs": {
+    "p_home": 0.8015,
+    "p_draw": 0.122,
+    "p_away": 0.0764,
+    "p_over25": 0.7157,
+    "p_btts": 0.5209,
+    "p_under25": 0.2843,
+    "p_no_btts": 0.4791
+   },
+   "expected_goals": {
+    "home": 2.9,
+    "away": 0.81
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 103,
+    "away_matches": 115
+   },
+   "top_scores": [
+    {
+     "score": "2-0",
+     "p": 0.1034
+    },
+    {
+     "score": "3-0",
+     "p": 0.1
+    },
+    {
+     "score": "2-1",
+     "p": 0.0833
+    },
+    {
+     "score": "3-1",
+     "p": 0.0805
+    },
+    {
+     "score": "1-0",
+     "p": 0.073
+    }
+   ],
+   "reference_odds": {},
+   "context": {
+    "home": {
+     "form": [
+      "E",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+     ],
+     "goals_for_avg": 3.5,
+     "goals_against_avg": 0.67,
+     "shots_on_target_avg": 7.83,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+     ],
+     "goals_for_avg": 2.33,
+     "goals_against_avg": 0.5,
+     "shots_on_target_avg": 9.5,
+     "matches_analysed": 6
+    },
+    "h2h": []
+   },
+   "explanation": "Benfica e favorita, cu 80% sanse de victorie. Goluri asteptate: 2.90 pentru Benfica, 0.81 pentru Celtic. Fiind un meci intre campionate diferite, fortele echipelor sunt aduse pe aceeasi scara folosind puterea estimata a fiecarui campionat (P1: +0.07, SC0: -0.26), calculata din 3,239 de meciuri europene anterioare. Pentru cupele europene nu exista cote istorice, deci aceste probabilitati nu au putut fi comparate cu piata asa cum s-a facut pentru campionate."
+  },
+  {
+   "id": "EU1636268",
+   "league": "EU_3",
+   "league_name": "UEFA Europa League",
+   "date": "2026-10-15",
+   "time": "19:00",
+   "home": "Hoffenheim",
+   "away": "Besiktas",
+   "probs": {
+    "p_home": 0.6385,
+    "p_draw": 0.1839,
+    "p_away": 0.1776,
+    "p_over25": 0.6719,
+    "p_btts": 0.6117,
+    "p_under25": 0.3281,
+    "p_no_btts": 0.3883
+   },
+   "expected_goals": {
+    "home": 2.32,
+    "away": 1.14
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 101,
+    "away_matches": 109
+   },
+   "top_scores": [
+    {
+     "score": "2-1",
+     "p": 0.0964
+    },
+    {
+     "score": "2-0",
+     "p": 0.0843
+    },
+    {
+     "score": "1-1",
+     "p": 0.0807
+    },
+    {
+     "score": "1-0",
+     "p": 0.0753
+    },
+    {
+     "score": "3-1",
+     "p": 0.0745
+    }
+   ],
+   "reference_odds": {},
+   "context": {
+    "home": {
+     "form": [
+      "E",
+      "V",
+      "I",
+      "I",
+      "I",
+      "V"
+     ],
+     "goals_for_avg": 1.67,
+     "goals_against_avg": 2.33,
+     "shots_on_target_avg": 5.67,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "E",
+      "V",
+      "I",
+      "V",
+      "V",
+      "V"
+     ],
+     "goals_for_avg": 2.33,
+     "goals_against_avg": 1.0,
+     "shots_on_target_avg": 6.5,
+     "matches_analysed": 6
+    },
+    "h2h": []
+   },
+   "explanation": "Hoffenheim e favorita, cu 64% sanse de victorie. Goluri asteptate: 2.32 pentru Hoffenheim, 1.14 pentru Besiktas. Fiind un meci intre campionate diferite, fortele echipelor sunt aduse pe aceeasi scara folosind puterea estimata a fiecarui campionat (D1: +0.48, T1: +0.01), calculata din 3,239 de meciuri europene anterioare. Pentru cupele europene nu exista cote istorice, deci aceste probabilitati nu au putut fi comparate cu piata asa cum s-a facut pentru campionate."
+  },
+  {
+   "id": "EU1636236",
+   "league": "EU_3",
+   "league_name": "UEFA Europa League",
+   "date": "2026-10-15",
+   "time": "19:00",
+   "home": "Bournemouth",
+   "away": "Sturm Graz",
+   "probs": {
+    "p_home": 0.8343,
+    "p_draw": 0.1089,
+    "p_away": 0.0568,
+    "p_over25": 0.6963,
+    "p_btts": 0.4542,
+    "p_under25": 0.3037,
+    "p_no_btts": 0.5458
+   },
+   "expected_goals": {
+    "home": 2.94,
+    "away": 0.66
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 113,
+    "away_matches": 95
+   },
+   "top_scores": [
+    {
+     "score": "2-0",
+     "p": 0.1186
+    },
+    {
+     "score": "3-0",
+     "p": 0.1162
+    },
+    {
+     "score": "4-0",
+     "p": 0.0853
+    },
+    {
+     "score": "1-0",
+     "p": 0.0823
+    },
+    {
+     "score": "2-1",
+     "p": 0.0778
+    }
+   ],
+   "reference_odds": {},
+   "context": {
+    "home": {
+     "form": [
+      "E",
+      "E",
+      "I",
+      "E",
+      "E",
+      "E"
+     ],
+     "goals_for_avg": 1.33,
+     "goals_against_avg": 1.5,
+     "shots_on_target_avg": 5.0,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "E",
+      "V",
+      "V",
+      "E",
+      "I",
+      "V"
+     ],
+     "goals_for_avg": 1.33,
+     "goals_against_avg": 1.0,
+     "shots_on_target_avg": null,
+     "matches_analysed": 6
+    },
+    "h2h": []
+   },
+   "explanation": "Bournemouth e favorita, cu 83% sanse de victorie. Goluri asteptate: 2.94 pentru Bournemouth, 0.66 pentru Sturm Graz. Fiind un meci intre campionate diferite, fortele echipelor sunt aduse pe aceeasi scara folosind puterea estimata a fiecarui campionat (E0: +0.64, AUT_Bundesliga: -0.04), calculata din 3,239 de meciuri europene anterioare. Pentru cupele europene nu exista cote istorice, deci aceste probabilitati nu au putut fi comparate cu piata asa cum s-a facut pentru campionate."
+  },
+  {
+   "id": "EU1636480",
+   "league": "EU_848",
+   "league_name": "UEFA Conference League",
+   "date": "2026-10-15",
+   "time": "19:00",
+   "home": "Twente",
+   "away": "Thun",
+   "probs": {
+    "p_home": 0.7856,
+    "p_draw": 0.1235,
+    "p_away": 0.091,
+    "p_over25": 0.7701,
+    "p_btts": 0.5992,
+    "p_under25": 0.2299,
+    "p_no_btts": 0.4008
+   },
+   "expected_goals": {
+    "home": 3.06,
+    "away": 1.0
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 104,
+    "away_matches": 48
+   },
+   "top_scores": [
+    {
+     "score": "3-0",
+     "p": 0.0828
+    },
+    {
+     "score": "3-1",
+     "p": 0.0824
+    },
+    {
+     "score": "2-0",
+     "p": 0.0811
+    },
+    {
+     "score": "2-1",
+     "p": 0.0807
+    },
+    {
+     "score": "4-0",
+     "p": 0.0634
+    }
+   ],
+   "reference_odds": {},
+   "context": {
+    "home": {
+     "form": [
+      "I",
+      "V",
+      "V",
+      "E",
+      "V",
+      "V"
+     ],
+     "goals_for_avg": 2.0,
+     "goals_against_avg": 0.83,
+     "shots_on_target_avg": 8.0,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "I",
+      "V",
+      "E",
+      "I",
+      "I",
+      "I"
+     ],
+     "goals_for_avg": 1.67,
+     "goals_against_avg": 2.5,
+     "shots_on_target_avg": null,
+     "matches_analysed": 6
+    },
+    "h2h": []
+   },
+   "explanation": "Twente e favorita, cu 79% sanse de victorie. Goluri asteptate: 3.06 pentru Twente, 1.00 pentru Thun. Fiind un meci intre campionate diferite, fortele echipelor sunt aduse pe aceeasi scara folosind puterea estimata a fiecarui campionat (N1: +0.04, SWZ_SuperLeague: -0.17), calculata din 3,239 de meciuri europene anterioare. Pentru cupele europene nu exista cote istorice, deci aceste probabilitati nu au putut fi comparate cu piata asa cum s-a facut pentru campionate."
+  },
+  {
+   "id": "EU1636406",
+   "league": "EU_848",
+   "league_name": "UEFA Conference League",
+   "date": "2026-10-15",
+   "time": "19:00",
+   "home": "FC Copenhagen",
+   "away": "Sp Braga",
+   "probs": {
+    "p_home": 0.4733,
+    "p_draw": 0.2186,
+    "p_away": 0.308,
+    "p_over25": 0.6465,
+    "p_btts": 0.6469,
+    "p_under25": 0.3535,
+    "p_no_btts": 0.3531
+   },
+   "expected_goals": {
+    "home": 1.86,
+    "away": 1.47
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 97,
+    "away_matches": 102
+   },
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 0.0948
+    },
+    {
+     "score": "2-1",
+     "p": 0.0911
+    },
+    {
+     "score": "1-2",
+     "p": 0.0717
+    },
+    {
+     "score": "1-0",
+     "p": 0.0697
+    },
+    {
+     "score": "2-2",
+     "p": 0.0668
+    }
+   ],
+   "reference_odds": {},
+   "context": {
+    "home": {
+     "form": [
+      "V",
+      "I",
+      "V",
+      "V",
+      "V",
+      "V"
+     ],
+     "goals_for_avg": 2.67,
+     "goals_against_avg": 0.83,
+     "shots_on_target_avg": null,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "E",
+      "E",
+      "V",
+      "V",
+      "I",
+      "V"
+     ],
+     "goals_for_avg": 1.5,
+     "goals_against_avg": 1.17,
+     "shots_on_target_avg": 4.83,
+     "matches_analysed": 6
+    },
+    "h2h": []
+   },
+   "explanation": "FC Copenhagen e favorita, cu 47% sanse de victorie. Goluri asteptate: 1.86 pentru FC Copenhagen, 1.47 pentru Sp Braga. Fiind un meci intre campionate diferite, fortele echipelor sunt aduse pe aceeasi scara folosind puterea estimata a fiecarui campionat (DNK_Superliga: +0.14, P1: +0.07), calculata din 3,239 de meciuri europene anterioare. Pentru cupele europene nu exista cote istorice, deci aceste probabilitati nu au putut fi comparate cu piata asa cum s-a facut pentru campionate."
+  },
+  {
+   "id": "EU1636423",
+   "league": "EU_848",
+   "league_name": "UEFA Conference League",
+   "date": "2026-10-15",
+   "time": "19:00",
+   "home": "Hearts",
+   "away": "Nordsjaelland",
+   "probs": {
+    "p_home": 0.2981,
+    "p_draw": 0.254,
+    "p_away": 0.4479,
+    "p_over25": 0.4742,
+    "p_btts": 0.5125,
+    "p_under25": 0.5258,
+    "p_no_btts": 0.4875
+   },
+   "expected_goals": {
+    "home": 1.13,
+    "away": 1.45
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 114,
+    "away_matches": 96
+   },
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 0.1206
+    },
+    {
+     "score": "0-1",
+     "p": 0.1143
+    },
+    {
+     "score": "1-2",
+     "p": 0.0899
+    },
+    {
+     "score": "1-0",
+     "p": 0.0899
+    },
+    {
+     "score": "0-2",
+     "p": 0.0799
+    }
+   ],
+   "reference_odds": {},
+   "context": {
+    "home": {
+     "form": [
+      "I",
+      "I",
+      "V",
+      "V",
+      "V",
+      "V"
+     ],
+     "goals_for_avg": 2.17,
+     "goals_against_avg": 1.33,
+     "shots_on_target_avg": 5.33,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "V",
+      "V",
+      "V",
+      "I",
+      "E",
+      "V"
+     ],
+     "goals_for_avg": 1.83,
+     "goals_against_avg": 0.83,
+     "shots_on_target_avg": null,
+     "matches_analysed": 6
+    },
+    "h2h": []
+   },
+   "explanation": "Nordsjaelland e favorita, cu 45% sanse de victorie. Goluri asteptate: 1.13 pentru Hearts, 1.45 pentru Nordsjaelland. Fiind un meci intre campionate diferite, fortele echipelor sunt aduse pe aceeasi scara folosind puterea estimata a fiecarui campionat (SC0: -0.26, DNK_Superliga: +0.14), calculata din 3,239 de meciuri europene anterioare. Pentru cupele europene nu exista cote istorice, deci aceste probabilitati nu au putut fi comparate cu piata asa cum s-a facut pentru campionate."
+  },
+  {
+   "id": "EU1636392",
+   "league": "EU_848",
+   "league_name": "UEFA Conference League",
+   "date": "2026-10-15",
+   "time": "19:00",
+   "home": "Brann",
+   "away": "Lincoln",
+   "probs": {
+    "p_home": 0.5963,
+    "p_draw": 0.2487,
+    "p_away": 0.1551,
+    "p_over25": 0.3686,
+    "p_btts": 0.3639,
+    "p_under25": 0.6314,
+    "p_no_btts": 0.6361
+   },
+   "expected_goals": {
+    "home": 1.54,
+    "away": 0.63
+   },
+   "confidence": "scazuta",
+   "sample": {
+    "home_matches": 89,
+    "away_matches": 6
+   },
+   "top_scores": [
+    {
+     "score": "1-0",
+     "p": 0.1792
+    },
+    {
+     "score": "2-0",
+     "p": 0.1351
+    },
+    {
+     "score": "0-0",
+     "p": 0.1111
+    },
+    {
+     "score": "1-1",
+     "p": 0.1076
+    },
+    {
+     "score": "2-1",
+     "p": 0.0853
+    }
+   ],
+   "reference_odds": {},
+   "context": {
+    "home": {
+     "form": [
+      "I",
+      "V",
+      "V",
+      "E",
+      "I",
+      "I"
+     ],
+     "goals_for_avg": 1.5,
+     "goals_against_avg": 1.5,
+     "shots_on_target_avg": null,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "I",
+      "I",
+      "V",
+      "E",
+      "E",
+      "V"
+     ],
+     "goals_for_avg": 0.83,
+     "goals_against_avg": 1.0,
+     "shots_on_target_avg": 2.83,
+     "matches_analysed": 6
+    },
+    "h2h": []
+   },
+   "explanation": "Brann e favorita, cu 60% sanse de victorie. Goluri asteptate: 1.54 pentru Brann, 0.63 pentru Lincoln. Fiind un meci intre campionate diferite, fortele echipelor sunt aduse pe aceeasi scara folosind puterea estimata a fiecarui campionat (NOR_Eliteserien: +0.00, E1: +0.00), calculata din 3,239 de meciuri europene anterioare. Pentru cupele europene nu exista cote istorice, deci aceste probabilitati nu au putut fi comparate cu piata asa cum s-a facut pentru campionate."
+  },
+  {
+   "id": "EU1635702",
+   "league": "EU_2",
+   "league_name": "UEFA Champions League",
+   "date": "2026-10-20",
+   "time": "19:00",
+   "home": "Paris SG",
+   "away": "Barcelona",
+   "probs": {
+    "p_home": 0.3179,
+    "p_draw": 0.2147,
+    "p_away": 0.4674,
+    "p_over25": 0.673,
+    "p_btts": 0.6691,
+    "p_under25": 0.327,
+    "p_no_btts": 0.3309
+   },
+   "expected_goals": {
+    "home": 1.55,
+    "away": 1.92
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 101,
+    "away_matches": 114
+   },
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 0.0899
+    },
+    {
+     "score": "1-2",
+     "p": 0.0888
+    },
+    {
+     "score": "2-1",
+     "p": 0.0719
+    },
+    {
+     "score": "2-2",
+     "p": 0.0689
+    },
+    {
+     "score": "0-1",
+     "p": 0.0626
+    }
+   ],
+   "reference_odds": {},
+   "context": {
+    "home": {
+     "form": [
+      "V",
+      "I",
+      "E",
+      "E",
+      "I",
+      "V"
+     ],
+     "goals_for_avg": 1.5,
+     "goals_against_avg": 1.33,
+     "shots_on_target_avg": 5.17,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "I",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+     ],
+     "goals_for_avg": 3.67,
+     "goals_against_avg": 1.17,
+     "shots_on_target_avg": 7.67,
+     "matches_analysed": 6
+    },
+    "h2h": []
+   },
+   "explanation": "Barcelona e favorita, cu 47% sanse de victorie. Goluri asteptate: 1.55 pentru Paris SG, 1.92 pentru Barcelona. Fiind un meci intre campionate diferite, fortele echipelor sunt aduse pe aceeasi scara folosind puterea estimata a fiecarui campionat (F1: +0.34, SP1: +0.37), calculata din 3,239 de meciuri europene anterioare. Pentru cupele europene nu exista cote istorice, deci aceste probabilitati nu au putut fi comparate cu piata asa cum s-a facut pentru campionate."
+  },
+  {
+   "id": "EU1635655",
+   "league": "EU_2",
+   "league_name": "UEFA Champions League",
+   "date": "2026-10-20",
+   "time": "19:00",
+   "home": "Porto",
+   "away": "PSV Eindhoven",
+   "probs": {
+    "p_home": 0.6129,
+    "p_draw": 0.1932,
+    "p_away": 0.194,
+    "p_over25": 0.653,
+    "p_btts": 0.6079,
+    "p_under25": 0.347,
+    "p_no_btts": 0.3921
+   },
+   "expected_goals": {
+    "home": 2.2,
+    "away": 1.16
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 103,
+    "away_matches": 104
+   },
+   "top_scores": [
+    {
+     "score": "2-1",
+     "p": 0.0975
+    },
+    {
+     "score": "1-1",
+     "p": 0.0858
+    },
+    {
+     "score": "2-0",
+     "p": 0.084
+    },
+    {
+     "score": "1-0",
+     "p": 0.079
+    },
+    {
+     "score": "3-1",
+     "p": 0.0716
+    }
+   ],
+   "reference_odds": {},
+   "context": {
+    "home": {
+     "form": [
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+     ],
+     "goals_for_avg": 2.5,
+     "goals_against_avg": 0.33,
+     "shots_on_target_avg": 6.17,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "E",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+     ],
+     "goals_for_avg": 3.67,
+     "goals_against_avg": 1.17,
+     "shots_on_target_avg": 9.17,
+     "matches_analysed": 6
+    },
+    "h2h": []
+   },
+   "explanation": "Porto e favorita, cu 61% sanse de victorie. Goluri asteptate: 2.20 pentru Porto, 1.16 pentru PSV Eindhoven. Fiind un meci intre campionate diferite, fortele echipelor sunt aduse pe aceeasi scara folosind puterea estimata a fiecarui campionat (P1: +0.07, N1: +0.04), calculata din 3,239 de meciuri europene anterioare. Pentru cupele europene nu exista cote istorice, deci aceste probabilitati nu au putut fi comparate cu piata asa cum s-a facut pentru campionate."
+  },
+  {
+   "id": "EU1636276",
+   "league": "EU_3",
+   "league_name": "UEFA Europa League",
+   "date": "2026-10-22",
+   "time": "16:45",
+   "home": "Juventus",
+   "away": "Rennes",
+   "probs": {
+    "p_home": 0.5816,
+    "p_draw": 0.208,
+    "p_away": 0.2104,
+    "p_over25": 0.6035,
+    "p_btts": 0.5793,
+    "p_under25": 0.3965,
+    "p_no_btts": 0.4207
+   },
+   "expected_goals": {
+    "home": 2.0,
+    "away": 1.12
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 114,
+    "away_matches": 101
+   },
+   "top_scores": [
+    {
+     "score": "2-1",
+     "p": 0.0989
+    },
+    {
+     "score": "1-1",
+     "p": 0.0957
+    },
+    {
+     "score": "1-0",
+     "p": 0.0914
+    },
+    {
+     "score": "2-0",
+     "p": 0.0885
+    },
+    {
+     "score": "3-1",
+     "p": 0.0661
+    }
+   ],
+   "reference_odds": {},
+   "context": {
+    "home": {
+     "form": [
+      "I",
+      "E",
+      "V",
+      "V",
+      "E",
+      "I"
+     ],
+     "goals_for_avg": 1.33,
+     "goals_against_avg": 1.33,
+     "shots_on_target_avg": 6.17,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "V",
+      "I",
+      "E",
+      "V",
+      "V",
+      "V"
+     ],
+     "goals_for_avg": 1.83,
+     "goals_against_avg": 1.5,
+     "shots_on_target_avg": 5.67,
+     "matches_analysed": 6
+    },
+    "h2h": []
+   },
+   "explanation": "Juventus e favorita, cu 58% sanse de victorie. Goluri asteptate: 2.00 pentru Juventus, 1.12 pentru Rennes. Fiind un meci intre campionate diferite, fortele echipelor sunt aduse pe aceeasi scara folosind puterea estimata a fiecarui campionat (I1: +0.35, F1: +0.34), calculata din 3,239 de meciuri europene anterioare. Pentru cupele europene nu exista cote istorice, deci aceste probabilitati nu au putut fi comparate cu piata asa cum s-a facut pentru campionate."
+  },
+  {
+   "id": "EU1636280",
+   "league": "EU_3",
+   "league_name": "UEFA Europa League",
+   "date": "2026-10-22",
+   "time": "16:45",
+   "home": "Lech Poznan",
+   "away": "Sunderland",
+   "probs": {
+    "p_home": 0.2085,
+    "p_draw": 0.2398,
+    "p_away": 0.5517,
+    "p_over25": 0.4617,
+    "p_btts": 0.4706,
+    "p_under25": 0.5383,
+    "p_no_btts": 0.5294
+   },
+   "expected_goals": {
+    "home": 0.89,
+    "away": 1.63
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 103,
+    "away_matches": 42
+   },
+   "top_scores": [
+    {
+     "score": "0-1",
+     "p": 0.1346
+    },
+    {
+     "score": "1-1",
+     "p": 0.1131
+    },
+    {
+     "score": "0-2",
+     "p": 0.1068
+    },
+    {
+     "score": "1-2",
+     "p": 0.0952
+    },
+    {
+     "score": "0-0",
+     "p": 0.0768
+    }
+   ],
+   "reference_odds": {},
+   "context": {
+    "home": {
+     "form": [
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "I"
+     ],
+     "goals_for_avg": 2.0,
+     "goals_against_avg": 1.0,
+     "shots_on_target_avg": null,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "V",
+      "V",
+      "I",
+      "V",
+      "E",
+      "I"
+     ],
+     "goals_for_avg": 1.33,
+     "goals_against_avg": 1.17,
+     "shots_on_target_avg": 3.5,
+     "matches_analysed": 6
+    },
+    "h2h": []
+   },
+   "explanation": "Sunderland e favorita, cu 55% sanse de victorie. Goluri asteptate: 0.89 pentru Lech Poznan, 1.63 pentru Sunderland. Fiind un meci intre campionate diferite, fortele echipelor sunt aduse pe aceeasi scara folosind puterea estimata a fiecarui campionat (POL_Ekstraklasa: +0.03, E0: +0.64), calculata din 3,239 de meciuri europene anterioare. Pentru cupele europene nu exista cote istorice, deci aceste probabilitati nu au putut fi comparate cu piata asa cum s-a facut pentru campionate."
+  },
+  {
+   "id": "EU1636415",
+   "league": "EU_848",
+   "league_name": "UEFA Conference League",
+   "date": "2026-10-22",
+   "time": "16:45",
+   "home": "Getafe",
+   "away": "Lugano",
+   "probs": {
+    "p_home": 0.6029,
+    "p_draw": 0.2634,
+    "p_away": 0.1337,
+    "p_over25": 0.3047,
+    "p_btts": 0.2981,
+    "p_under25": 0.6953,
+    "p_no_btts": 0.7019
+   },
+   "expected_goals": {
+    "home": 1.43,
+    "away": 0.51
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 114,
+    "away_matches": 117
+   },
+   "top_scores": [
+    {
+     "score": "1-0",
+     "p": 0.2099
+    },
+    {
+     "score": "2-0",
+     "p": 0.1474
+    },
+    {
+     "score": "0-0",
+     "p": 0.1418
+    },
+    {
+     "score": "1-1",
+     "p": 0.1012
+    },
+    {
+     "score": "0-1",
+     "p": 0.0764
+    }
+   ],
+   "reference_odds": {},
+   "context": {
+    "home": {
+     "form": [
+      "V",
+      "I",
+      "V",
+      "I",
+      "E",
+      "E"
+     ],
+     "goals_for_avg": 0.67,
+     "goals_against_avg": 1.0,
+     "shots_on_target_avg": 2.17,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "V",
+      "V",
+      "V",
+      "V",
+      "E",
+      "V"
+     ],
+     "goals_for_avg": 2.83,
+     "goals_against_avg": 0.83,
+     "shots_on_target_avg": null,
+     "matches_analysed": 6
+    },
+    "h2h": []
+   },
+   "explanation": "Getafe e favorita, cu 60% sanse de victorie. Goluri asteptate: 1.43 pentru Getafe, 0.51 pentru Lugano. Fiind un meci intre campionate diferite, fortele echipelor sunt aduse pe aceeasi scara folosind puterea estimata a fiecarui campionat (SP1: +0.37, SWZ_SuperLeague: -0.17), calculata din 3,239 de meciuri europene anterioare. Pentru cupele europene nu exista cote istorice, deci aceste probabilitati nu au putut fi comparate cu piata asa cum s-a facut pentru campionate."
   }
  ]
 }
