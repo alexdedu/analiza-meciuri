@@ -13,6 +13,7 @@ from team_matching import build_matcher, normalize
 LOCALE = [
     "Bragantino",  # capcana: "Braga" e prefix, dar e alt club, din alta tara
     "Sp Braga",
+    "Nijmegen", "St. Gilloise",
     "Man City", "Man United", "Ath Bilbao", "Ath Madrid", "M'gladbach",
     "Bayern Munich", "Dortmund", "Paris SG", "Milan", "Inter", "Inter Turku",
     "Inter Miami", "Sp Lisbon", "Porto", "Olympiakos", "Univ. Craiova",
@@ -42,6 +43,10 @@ CAZURI_CORECTE = [
     ("Stade Brestois 29", "Brest"),
     ("SC Braga", "Sp Braga"),
     ("Sporting Braga", "Sp Braga"),
+    # API-ul adauga prescurtarea clubului inaintea orasului; cuvantul lung si
+    # unic ("nijmegen", "gilloise") identifica singur echipa.
+    ("NEC Nijmegen", "Nijmegen"),
+    ("Union St. Gilloise", "St. Gilloise"),
 ]
 
 # Echipe din campionate pe care nu le acoperim: raspunsul corect e "nu stiu".

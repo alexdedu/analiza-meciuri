@@ -22,6 +22,10 @@ on:
 jobs:
   predictii:
     runs-on: ubuntu-latest
+    env:
+      # Se pune la Settings > Secrets and variables > Actions.
+      # Daca lipseste, partea de cupe europene e sarita, restul merge normal.
+      APIFOOTBALL_KEY: ${{ secrets.APIFOOTBALL_KEY }}
     steps:
       - uses: actions/checkout@v7
 
@@ -53,6 +57,19 @@ jobs:
       - name: Descarca datele istorice
         working-directory: research
         run: python download_data.py
+
+      # Cupele europene vin de la API-Football. Pasii astia nu opresc fluxul
+      # daca esueaza: fara ei raman meciurile din campionate, care nu depind de
+      # nicio cheie.
+      - name: Descarca istoricul cupelor europene
+        working-directory: research
+        continue-on-error: true
+        run: python fetch_europe.py
+
+      - name: Estimeaza puterea campionatelor
+        working-directory: research
+        continue-on-error: true
+        run: python fit_strengths.py
 
       - name: Genereaza predictiile
         working-directory: research

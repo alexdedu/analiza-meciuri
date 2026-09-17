@@ -155,6 +155,16 @@ def build_matcher(nume_locale: list[str]):
     locale_norm = {n: normalize(n) for n in nume_locale}
     set_local = set(nume_locale)
 
+    # Cate cluburi din datele noastre contin fiecare cuvant. Un cuvant lung care
+    # apare la un singur club il identifica singur: "nijmegen" sau "gilloise" nu
+    # pot fi altcineva. Asta rezolva cazurile in care API-ul adauga prescurtarea
+    # clubului ("NEC Nijmegen", "Union St. Gilloise"), unde penalizarea de
+    # lungime ar respinge pe nedrept potrivirea corecta.
+    frecventa: dict[str, int] = {}
+    for tokens_local in locale_norm.values():
+        for t in set(tokens_local):
+            frecventa[t] = frecventa.get(t, 0) + 1
+
     def match(nume_api: str) -> str | None:
         alias = ALIAS_PLAT.get(_fara_diacritice(nume_api))
         if alias:
@@ -163,6 +173,15 @@ def build_matcher(nume_locale: list[str]):
             return nume_api
 
         tokens = normalize(nume_api)
+
+        candidati = [
+            local for local, t_local in locale_norm.items()
+            if any(len(t) >= 7 and frecventa.get(t) == 1
+                   for t in set(tokens) & set(t_local))
+        ]
+        if len(candidati) == 1:
+            return candidati[0]
+
         cel_mai_bun, scor_max = None, 0.0
         for local, t_local in locale_norm.items():
             scor = _token_score(tokens, t_local)

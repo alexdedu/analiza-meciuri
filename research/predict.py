@@ -287,6 +287,18 @@ def main() -> None:
             n_div += 1
         print(f"  {div}: {n_div} predictii")
 
+
+    # Cupele europene vin din alta sursa (API-Football) si folosesc un model in
+    # plus, pentru ca echipele sunt din campionate diferite. Daca ceva lipseste
+    # -- cheia, puterile campionatelor, conexiunea -- pipeline-ul merge mai
+    # departe cu meciurile interne in loc sa cada de tot.
+    try:
+        from predict_europa import construieste_predictii
+        print("Cupe europene:")
+        out.extend(construieste_predictii(hist))
+    except Exception as exc:
+        print(f"  cupele europene au fost sarite: {str(exc)[:100]}")
+
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "model": {
