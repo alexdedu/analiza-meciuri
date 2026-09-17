@@ -57,6 +57,8 @@ ALIAS = {
     "Vitoria SC": "Guimaraes",
     "FC Porto": "Porto",
     "Sporting Braga": "Sp Braga",
+    "SC Braga": "Sp Braga",
+    "Braga": "Sp Braga",
     "Universitatea Craiova": "Univ. Craiova",
     "Universitatea Cluj": "U. Cluj",
     "FCSB": "FCSB",
@@ -89,7 +91,7 @@ ALIAS = {
 ZGOMOT = {
     "fc", "afc", "cf", "sc", "ac", "as", "ss", "ssc", "cd", "ud", "rc", "sv",
     "tsv", "vfb", "vfl", "fsv", "bsc", "fk", "nk", "hnk", "sk", "bk", "if",
-    "club", "calcio", "futbol", "football", "de", "of", "the", "1", "05", "04",
+    "sp", "club", "calcio", "futbol", "football", "de", "of", "the", "1", "05", "04",
     "1899", "1900", "1907", "09", "team", "kv", "sa", "cp", "cs", "acs", "asa",
 }
 
@@ -105,10 +107,18 @@ def normalize(name: str) -> list[str]:
 
 
 def _token_score(a: list[str], b: list[str]) -> float:
-    """Cat de bine se acopera doua liste de cuvinte, cu prescurtari acceptate."""
+    """Cat de bine se acopera doua liste de cuvinte, cu prescurtari acceptate.
+
+    O prescurtare e dovada buna doar cand mai exista un cuvant care se
+    potriveste exact: "Man City" ~ "Manchester City" merge pentru ca "city"
+    confirma. Un nume dintr-un singur cuvant nu are ce sa confirme, iar atunci
+    prefixul devine periculos: "Braga" ar deveni "Bragantino", cluburi din tari
+    diferite. De aceea prefixul singur primeste un scor sub pragul de acceptare.
+    """
     if not a or not b:
         return 0.0
     scurt, lung = (a, b) if len(a) <= len(b) else (b, a)
+    scor_prefix = 0.92 if len(scurt) >= 2 else 0.70
     total = 0.0
     for cuvant in scurt:
         cel_mai_bun = 0.0
@@ -116,9 +126,9 @@ def _token_score(a: list[str], b: list[str]) -> float:
             if cuvant == altul:
                 scor = 1.0
             elif len(cuvant) >= 3 and altul.startswith(cuvant):
-                scor = 0.92  # "man" din "manchester"
+                scor = scor_prefix  # "man" din "manchester"
             elif len(altul) >= 3 and cuvant.startswith(altul):
-                scor = 0.92
+                scor = scor_prefix
             else:
                 scor = difflib.SequenceMatcher(None, cuvant, altul).ratio()
                 scor = scor if scor > 0.85 else 0.0

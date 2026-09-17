@@ -11,6 +11,8 @@ import sys
 from team_matching import build_matcher, normalize
 
 LOCALE = [
+    "Bragantino",  # capcana: "Braga" e prefix, dar e alt club, din alta tara
+    "Sp Braga",
     "Man City", "Man United", "Ath Bilbao", "Ath Madrid", "M'gladbach",
     "Bayern Munich", "Dortmund", "Paris SG", "Milan", "Inter", "Inter Turku",
     "Inter Miami", "Sp Lisbon", "Porto", "Olympiakos", "Univ. Craiova",
@@ -38,6 +40,8 @@ CAZURI_CORECTE = [
     ("Celtic", "Celtic"),
     ("Arsenal", "Arsenal"),
     ("Stade Brestois 29", "Brest"),
+    ("SC Braga", "Sp Braga"),
+    ("Sporting Braga", "Sp Braga"),
 ]
 
 # Echipe din campionate pe care nu le acoperim: raspunsul corect e "nu stiu".
