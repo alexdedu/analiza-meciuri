@@ -163,6 +163,61 @@ class MatchPrediction {
   }
 }
 
+/// Un pariu ales automat de model dintre meciurile afisate.
+///
+/// Selectia nu urmareste valoarea fata de cota -- aceea a fost masurata si
+/// pierde. Urmareste increderea modelului acolo unde piata e de acord cu el.
+class Recommendation {
+  const Recommendation({
+    required this.matchId,
+    required this.leagueName,
+    required this.date,
+    required this.time,
+    required this.home,
+    required this.away,
+    required this.marketLabel,
+    required this.probability,
+    required this.odds,
+    required this.marketProbability,
+    required this.band,
+    required this.historicalHitRate,
+  });
+
+  final String matchId;
+  final String leagueName;
+  final String date;
+  final String time;
+  final String home;
+  final String away;
+
+  /// "Victorie Arsenal", "Sub 2.5 goluri" etc.
+  final String marketLabel;
+  final double probability;
+  final double odds;
+  final double marketProbability;
+
+  /// Banda de probabilitate din care face parte, pentru rata istorica.
+  final String band;
+
+  /// Cat de des s-au confirmat istoric selectiile din aceeasi banda.
+  final double historicalHitRate;
+
+  factory Recommendation.fromJson(Map<String, dynamic> json) => Recommendation(
+        matchId: json['match_id'] as String,
+        leagueName: json['league_name'] as String,
+        date: json['date'] as String,
+        time: (json['time'] as String?) ?? '',
+        home: json['home'] as String,
+        away: json['away'] as String,
+        marketLabel: json['market_label'] as String,
+        probability: (json['probability'] as num).toDouble(),
+        odds: (json['odds'] as num).toDouble(),
+        marketProbability: (json['market_probability'] as num).toDouble(),
+        band: (json['band'] as String?) ?? '',
+        historicalHitRate: (json['historical_hit_rate'] as num).toDouble(),
+      );
+}
+
 /// Rezultatele backtest-ului, afisate in aplicatie asa cum sunt.
 class BacktestInfo {
   const BacktestInfo({
@@ -203,12 +258,14 @@ class PredictionBundle {
     required this.modelName,
     required this.backtest,
     required this.matches,
+    required this.recommendations,
   });
 
   final DateTime generatedAt;
   final String modelName;
   final BacktestInfo backtest;
   final List<MatchPrediction> matches;
+  final List<Recommendation> recommendations;
 
   factory PredictionBundle.fromJson(Map<String, dynamic> json) {
     final model = json['model'] as Map<String, dynamic>;
@@ -218,6 +275,10 @@ class PredictionBundle {
       backtest: BacktestInfo.fromJson(model['backtest'] as Map<String, dynamic>),
       matches: (json['matches'] as List<dynamic>)
           .map((e) => MatchPrediction.fromJson(e as Map<String, dynamic>))
+          .toList(),
+      // Lipseste in fisierele generate inainte de aparitia sectiunii.
+      recommendations: ((json['recommendations'] as List<dynamic>?) ?? [])
+          .map((e) => Recommendation.fromJson(e as Map<String, dynamic>))
           .toList(),
     );
   }

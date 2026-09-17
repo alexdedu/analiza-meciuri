@@ -5,6 +5,7 @@ import 'about_screen.dart';
 import 'detail_screen.dart';
 import 'formatting.dart';
 import 'models.dart';
+import 'recommendations_card.dart';
 import 'repository.dart';
 import 'search_screen.dart';
 import 'theme.dart';
@@ -133,6 +134,15 @@ class _MatchList extends StatelessWidget {
             child: _HonestyBanner(result: result),
           ),
         ),
+        SliverToBoxAdapter(
+          child: Padding(
+            padding: const EdgeInsets.fromLTRB(16, 0, 16, 14),
+            child: RecommendationsCard(
+              recommendations: bundle.recommendations,
+              onTap: (matchId) => _deschideMeci(context, matchId),
+            ),
+          ),
+        ),
         if (leagues.length > 1)
           SliverToBoxAdapter(
             child: SizedBox(
@@ -196,6 +206,15 @@ class _MatchList extends StatelessWidget {
           child: SizedBox(height: 28 + MediaQuery.paddingOf(context).bottom),
         ),
       ],
+    );
+  }
+
+  /// Din recomandare se ajunge la meciul din care a venit.
+  void _deschideMeci(BuildContext context, String matchId) {
+    final meci = bundle.matches.where((m) => m.id == matchId).firstOrNull;
+    if (meci == null) return;
+    Navigator.of(context).push(
+      MaterialPageRoute(builder: (_) => DetailScreen(match: meci, store: store)),
     );
   }
 

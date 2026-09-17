@@ -33,7 +33,6 @@ COMPETITII = {
 # O etapa are 18 meciuri per competitie; cerem putin peste, ca sa o prindem
 # intreaga, si taiem ce e prea departe ca sa aiba sens.
 MECIURI_CERUTE = 24
-ZILE_MAXIM = 45
 
 
 def incarca_puteri() -> dict | None:
@@ -56,8 +55,10 @@ def _api(base, headers, path, **params):
 
 def fixturi_viitoare(base, headers) -> list[dict]:
     """Meciurile europene din urmatoarele zile, cu numele si data lor."""
+    from predict import ZILE_AFISATE
     azi = datetime.now().date()
-    limita = azi + timedelta(days=ZILE_MAXIM)
+    # Aceeasi fereastra ca la campionate: aplicatia arata doar ce se joaca acum.
+    limita = azi + timedelta(days=ZILE_AFISATE - 1)
     out = []
     for liga_id, nume in COMPETITII.items():
         try:

@@ -23,6 +23,14 @@ from dixon_coles import MAX_GOALS, markets_from_rates
 from download_data import EXTRA_LEAGUES, LEAGUES, SEASONS, fetch
 
 ALPHA = 0.50  # pondere goluri vs suturi, aleasa pe perioada de validare
+
+# Doar competitiile care apar in aplicatie. Restul raman in model -- ajuta la
+# estimarea puterii campionatelor -- dar nu se afiseaza.
+LIGI_AFISATE = {
+    "E0", "E1", "SP1", "I1", "D1", "F1", "N1", "P1", "B1", "ROU_Superliga",
+}
+# Cate zile inainte aratam, inclusiv ziua curenta: joi -> joi, vineri, sambata.
+ZILE_AFISATE = 3
 FIXTURES_URL = "https://www.football-data.co.uk/fixtures.csv"
 EXTRA_FIXTURES_URL = "https://www.football-data.co.uk/new_league_fixtures.csv"
 OUT = Path(__file__).parent.parent / "app" / "assets" / "predictions.json"
@@ -87,7 +95,9 @@ def get_fixtures() -> pd.DataFrame:
         # goala ar sterge meciurile din aplicatie -- deci oprim cu eroare.
         raise RuntimeError("Niciun feed de meciuri viitoare nu a raspuns.")
 
-    keep = ["div", "Date", "Time", "home", "away", "B365H", "B365D", "B365A"]
+    keep = ["div", "Date", "Time", "home", "away",
+            "AvgH", "AvgD", "AvgA", "B365H", "B365D", "B365A",
+            "Avg>2.5", "Avg<2.5"]
     frames = []
     for part in parts:
         for col in keep:
@@ -99,7 +109,12 @@ def get_fixtures() -> pd.DataFrame:
     fx["date"] = pd.to_datetime(fx["Date"], format="mixed", dayfirst=True, errors="coerce")
     fx["home"] = fx["home"].astype("string").str.strip()
     fx["away"] = fx["away"].astype("string").str.strip()
-    return fx.dropna(subset=["date", "home", "away"])
+    fx = fx.dropna(subset=["date", "home", "away"])
+
+    fx = fx[fx["div"].isin(LIGI_AFISATE)]
+    azi = pd.Timestamp(datetime.now().date())
+    fx = fx[(fx["date"] >= azi) & (fx["date"] < azi + pd.Timedelta(days=ZILE_AFISATE))]
+    return fx
 
 
 def team_context(hist: pd.DataFrame, team: str, n: int = 6) -> dict:
@@ -256,10 +271,16 @@ def main() -> None:
             confidence = "ridicata" if n_min >= 40 else ("medie" if n_min >= 15 else "scazuta")
 
             odds = {}
-            for key, col in (("home", "B365H"), ("draw", "B365D"), ("away", "B365A")):
-                value = m.get(col)
-                if pd.notna(value):
-                    odds[key] = float(value)
+            for key, coloane in (("home", ("AvgH", "B365H")),
+                                 ("draw", ("AvgD", "B365D")),
+                                 ("away", ("AvgA", "B365A")),
+                                 ("over25", ("Avg>2.5",)),
+                                 ("under25", ("Avg<2.5",))):
+                for col in coloane:
+                    value = m.get(col)
+                    if value is not None and pd.notna(value):
+                        odds[key] = float(value)
+                        break
 
             match_id = f"{div}_{m['date'].strftime('%Y%m%d')}_{home}_{away}".replace(" ", "")
             out.append({
@@ -299,8 +320,16 @@ def main() -> None:
     except Exception as exc:
         print(f"  cupele europene au fost sarite: {str(exc)[:100]}")
 
+    from recomandari import construieste as construieste_recomandari
+    recomandari = construieste_recomandari(out)
+    print(f"\nRecomandari automate: {len(recomandari)}")
+    for r in recomandari:
+        print(f"  {r['home']} - {r['away']}: {r['market_label']} "
+              f"({r['probability']:.0%}, cota {r['odds']})")
+
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "recommendations": recomandari,
         "model": {
             "name": "Dixon-Coles + suturi pe poarta",
             "goals_weight": ALPHA,

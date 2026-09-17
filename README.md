@@ -9,8 +9,18 @@ Over/Under 2.5, Ambele înscriu), pe baza istoricului și a formei echipelor.
 
 ## Ce face și ce nu face
 
-**Face:** probabilități bine calibrate pentru **30 de competiții din 28 de țări**,
-inclusiv Superliga României, calculate din 112.119 meciuri istorice. Eroarea medie de
+**Afișează** meciurile din **următoarele 3 zile**, din ligile de top (Anglia, Spania,
+Italia, Germania, Franța, Olanda, Portugalia, Belgia, Championship), **Superliga
+României** și **cupele europene**. Modelul e antrenat pe toate cele 30 de competiții
+și 112.119 meciuri, dar afișează doar aceste competiții.
+
+**Alege automat** câteva pariuri, după o regulă măsurată pe 25.168 de meciuri: încredere
+de cel puțin 60% pe o piață cu cotă disponibilă, unde piața nu contrazice modelul.
+Selecția după avantajul față de cotă — metoda intuitivă — a dat 31,5% reușite și
+randament negativ, deci nu e folosită. Rate istorice ale regulii folosite: 63,6% la
+banda 60–65%, 75,3% la 70–80%, 88,2% peste 80%.
+
+**Probabilități bine calibrate**, calculate din 112.119 meciuri istorice. Eroarea medie de
 calibrare este 0.0080 — când modelul spune 30%, se întâmplă în ~30% din cazuri.
 
 **Nu face:** nu bate casele de pariuri. Testat pe 60.539 de meciuri din perioada
@@ -45,7 +55,7 @@ app/               Aplicația Flutter
   lib/               Cod sursă
   lib/config.dart    Adresa de unde se descarca predictiile (vezi mai jos)
   lib/search_links.dart  Construieste adresele de cautare pentru un meci
-  test/              37 de teste
+  test/              42 de teste
   assets/predictions.json
   assets/icon/       Iconita generata
 

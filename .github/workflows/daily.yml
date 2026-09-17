@@ -53,6 +53,7 @@ jobs:
         run: |
           python test_robustete.py
           python test_team_matching.py
+          python test_recomandari.py
 
       - name: Descarca datele istorice
         working-directory: research
