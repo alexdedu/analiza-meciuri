@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T15:32:34+00:00",
+ "generated_at": "2026-09-17T18:23:29+00:00",
  "model": {
   "name": "Dixon-Coles + suturi pe poarta",
   "goals_weight": 0.5,
@@ -49,7 +49,7 @@
     },
     {
      "score": "0-0",
-     "p": 0.1265
+     "p": 0.1264
     },
     {
      "score": "1-0",
@@ -61,7 +61,7 @@
     },
     {
      "score": "2-1",
-     "p": 0.0852
+     "p": 0.0853
     }
    ],
    "reference_odds": {
@@ -144,11 +144,11 @@
    "probs": {
     "p_home": 0.5209,
     "p_draw": 0.2501,
-    "p_away": 0.229,
-    "p_over25": 0.4947,
-    "p_btts": 0.5145,
-    "p_under25": 0.5053,
-    "p_no_btts": 0.4855
+    "p_away": 0.2289,
+    "p_over25": 0.4949,
+    "p_btts": 0.5148,
+    "p_under25": 0.5051,
+    "p_no_btts": 0.4852
    },
    "expected_goals": {
     "home": 1.65,
@@ -166,7 +166,7 @@
     },
     {
      "score": "1-0",
-     "p": 0.1137
+     "p": 0.1135
     },
     {
      "score": "2-1",
@@ -174,7 +174,7 @@
     },
     {
      "score": "2-0",
-     "p": 0.0955
+     "p": 0.0954
     },
     {
      "score": "0-0",
@@ -376,21 +376,21 @@
    "home": "Ajax",
    "away": "Willem II",
    "probs": {
-    "p_home": 0.7766,
-    "p_draw": 0.156,
-    "p_away": 0.0674,
-    "p_over25": 0.6489,
-    "p_btts": 0.4783,
-    "p_under25": 0.3511,
-    "p_no_btts": 0.5217
+    "p_home": 0.7769,
+    "p_draw": 0.1558,
+    "p_away": 0.0673,
+    "p_over25": 0.6491,
+    "p_btts": 0.4781,
+    "p_under25": 0.3509,
+    "p_no_btts": 0.5219
    },
    "expected_goals": {
     "home": 2.64,
-    "away": 0.71
+    "away": 0.7
    },
    "confidence": "medie",
    "sample": {
-    "home_matches": 104,
+    "home_matches": 103,
     "away_matches": 39
    },
    "top_scores": [
@@ -400,7 +400,7 @@
     },
     {
      "score": "3-0",
-     "p": 0.1081
+     "p": 0.1082
     },
     {
      "score": "2-1",
@@ -408,7 +408,7 @@
     },
     {
      "score": "1-0",
-     "p": 0.0846
+     "p": 0.0847
     },
     {
      "score": "3-1",
@@ -482,7 +482,7 @@
      }
     ]
    },
-   "explanation": "Ajax e favorita, cu 78% sanse de victorie. Goluri asteptate: 2.64 pentru Ajax, 0.71 pentru Willem II. Forma recenta — Ajax: EVEVIV, Willem II: EIIEIE (cel mai recent meci la dreapta). In clasamentul intern al modelului, Ajax e pe locul 3 la atac, Willem II pe 22, din 24 echipe. Se asteapta un meci deschis: 65% sanse la peste 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+   "explanation": "Ajax e favorita, cu 78% sanse de victorie. Goluri asteptate: 2.64 pentru Ajax, 0.70 pentru Willem II. Forma recenta — Ajax: EVEVIV, Willem II: EIIEIE (cel mai recent meci la dreapta). In clasamentul intern al modelului, Ajax e pe locul 3 la atac, Willem II pe 22, din 24 echipe. Se asteapta un meci deschis: 65% sanse la peste 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
   },
   {
    "id": "SP1_20260915_Alaves_Valencia",
@@ -493,13 +493,13 @@
    "home": "Alaves",
    "away": "Valencia",
    "probs": {
-    "p_home": 0.5163,
+    "p_home": 0.5164,
     "p_draw": 0.2685,
-    "p_away": 0.2152,
-    "p_over25": 0.4149,
-    "p_btts": 0.4477,
-    "p_under25": 0.5851,
-    "p_no_btts": 0.5523
+    "p_away": 0.2151,
+    "p_over25": 0.4151,
+    "p_btts": 0.448,
+    "p_under25": 0.5849,
+    "p_no_btts": 0.552
    },
    "expected_goals": {
     "home": 1.48,
@@ -513,7 +513,7 @@
    "top_scores": [
     {
      "score": "1-0",
-     "p": 0.1403
+     "p": 0.1401
     },
     {
      "score": "1-1",
@@ -525,7 +525,7 @@
     },
     {
      "score": "0-0",
-     "p": 0.0987
+     "p": 0.0986
     },
     {
      "score": "2-1",
@@ -599,7 +599,7 @@
      }
     ]
    },
-   "explanation": "Alaves e favorita, cu 52% sanse de victorie. Goluri asteptate: 1.48 pentru Alaves, 0.86 pentru Valencia. Forma recenta — Alaves: IVEVVI, Valencia: VEIIII (cel mai recent meci la dreapta). In clasamentul intern al modelului, Alaves e pe locul 12 la atac, Valencia pe 21, din 29 echipe. Se asteapta un meci inchis: 59% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+   "explanation": "Alaves e favorita, cu 52% sanse de victorie. Goluri asteptate: 1.48 pentru Alaves, 0.86 pentru Valencia. Forma recenta — Alaves: IVEVVI, Valencia: VEIIII (cel mai recent meci la dreapta). In clasamentul intern al modelului, Alaves e pe locul 12 la atac, Valencia pe 21, din 29 echipe. Se asteapta un meci inchis: 58% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
   },
   {
    "id": "POL_Ekstraklasa_20260915_KoronaKielce_GornikZabrze",
@@ -751,7 +751,7 @@
     },
     {
      "score": "1-1",
-     "p": 0.135
+     "p": 0.1351
     },
     {
      "score": "0-0",
@@ -813,13 +813,13 @@
    "home": "Middlesbrough",
    "away": "Millwall",
    "probs": {
-    "p_home": 0.4837,
-    "p_draw": 0.2717,
-    "p_away": 0.2446,
-    "p_over25": 0.492,
-    "p_btts": 0.5295,
-    "p_under25": 0.508,
-    "p_no_btts": 0.4705
+    "p_home": 0.4835,
+    "p_draw": 0.2718,
+    "p_away": 0.2447,
+    "p_over25": 0.4918,
+    "p_btts": 0.5294,
+    "p_under25": 0.5082,
+    "p_no_btts": 0.4706
    },
    "expected_goals": {
     "home": 1.58,
@@ -828,12 +828,12 @@
    "confidence": "ridicata",
    "sample": {
     "home_matches": 138,
-    "away_matches": 139
+    "away_matches": 138
    },
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1297
+     "p": 0.1298
     },
     {
      "score": "1-0",
@@ -849,7 +849,7 @@
     },
     {
      "score": "0-0",
-     "p": 0.0815
+     "p": 0.0816
     }
    ],
    "reference_odds": {
@@ -932,7 +932,7 @@
    "probs": {
     "p_home": 0.2311,
     "p_draw": 0.2624,
-    "p_away": 0.5066,
+    "p_away": 0.5065,
     "p_over25": 0.4539,
     "p_btts": 0.4853,
     "p_under25": 0.5461,
@@ -1159,7 +1159,7 @@
    "away": "Aberdeen",
    "probs": {
     "p_home": 0.607,
-    "p_draw": 0.2321,
+    "p_draw": 0.2322,
     "p_away": 0.1608,
     "p_over25": 0.4812,
     "p_btts": 0.4629,
@@ -1275,27 +1275,27 @@
    "home": "Elche",
    "away": "Real Madrid",
    "probs": {
-    "p_home": 0.1911,
+    "p_home": 0.191,
     "p_draw": 0.2091,
-    "p_away": 0.5998,
-    "p_over25": 0.6231,
-    "p_btts": 0.5906,
-    "p_under25": 0.3769,
-    "p_no_btts": 0.4094
+    "p_away": 0.6,
+    "p_over25": 0.6233,
+    "p_btts": 0.5907,
+    "p_under25": 0.3767,
+    "p_no_btts": 0.4093
    },
    "expected_goals": {
     "home": 1.11,
-    "away": 2.1
+    "away": 2.11
    },
    "confidence": "ridicata",
    "sample": {
     "home_matches": 43,
-    "away_matches": 115
+    "away_matches": 114
    },
    "top_scores": [
     {
      "score": "1-2",
-     "p": 0.0988
+     "p": 0.0987
     },
     {
      "score": "1-1",
@@ -1307,7 +1307,7 @@
     },
     {
      "score": "0-1",
-     "p": 0.0827
+     "p": 0.0826
     },
     {
      "score": "1-3",
@@ -1381,7 +1381,7 @@
      }
     ]
    },
-   "explanation": "Real Madrid e favorita, cu 60% sanse de victorie. Goluri asteptate: 1.11 pentru Elche, 2.10 pentru Real Madrid. Forma recenta — Elche: EEIIIE, Real Madrid: VVVVIV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Elche e pe locul 10 la atac, Real Madrid pe 2, din 29 echipe. Se asteapta un meci deschis: 62% sanse la peste 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+   "explanation": "Real Madrid e favorita, cu 60% sanse de victorie. Goluri asteptate: 1.11 pentru Elche, 2.11 pentru Real Madrid. Forma recenta — Elche: EEIIIE, Real Madrid: VVVVIV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Elche e pe locul 10 la atac, Real Madrid pe 2, din 29 echipe. Se asteapta un meci deschis: 62% sanse la peste 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
   },
   {
    "id": "MEX_LigaMx_20260916_Puebla_Toluca",
@@ -1394,11 +1394,11 @@
    "probs": {
     "p_home": 0.1608,
     "p_draw": 0.2274,
-    "p_away": 0.6117,
-    "p_over25": 0.5519,
-    "p_btts": 0.525,
-    "p_under25": 0.4481,
-    "p_no_btts": 0.475
+    "p_away": 0.6119,
+    "p_over25": 0.5521,
+    "p_btts": 0.5251,
+    "p_under25": 0.4479,
+    "p_no_btts": 0.4749
    },
    "expected_goals": {
     "home": 0.92,
@@ -1509,27 +1509,27 @@
    "home": "Ath Madrid",
    "away": "Osasuna",
    "probs": {
-    "p_home": 0.6083,
-    "p_draw": 0.2206,
-    "p_away": 0.1711,
-    "p_over25": 0.5401,
-    "p_btts": 0.5141,
-    "p_under25": 0.4599,
-    "p_no_btts": 0.4859
+    "p_home": 0.608,
+    "p_draw": 0.2209,
+    "p_away": 0.1712,
+    "p_over25": 0.5396,
+    "p_btts": 0.5139,
+    "p_under25": 0.4604,
+    "p_no_btts": 0.4861
    },
    "expected_goals": {
-    "home": 1.93,
+    "home": 1.92,
     "away": 0.91
    },
    "confidence": "ridicata",
    "sample": {
     "home_matches": 115,
-    "away_matches": 115
+    "away_matches": 114
    },
    "top_scores": [
     {
      "score": "1-0",
-     "p": 0.1104
+     "p": 0.1105
     },
     {
      "score": "2-0",
@@ -1537,15 +1537,15 @@
     },
     {
      "score": "1-1",
-     "p": 0.1049
+     "p": 0.1051
     },
     {
      "score": "2-1",
-     "p": 0.0991
+     "p": 0.099
     },
     {
      "score": "3-0",
-     "p": 0.0695
+     "p": 0.0694
     }
    ],
    "reference_odds": {
@@ -1615,7 +1615,7 @@
      }
     ]
    },
-   "explanation": "Ath Madrid e favorita, cu 61% sanse de victorie. Goluri asteptate: 1.93 pentru Ath Madrid, 0.91 pentru Osasuna. Forma recenta — Ath Madrid: IVEVIV, Osasuna: IEVVII (cel mai recent meci la dreapta). In clasamentul intern al modelului, Ath Madrid e pe locul 6 la atac, Osasuna pe 16, din 29 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+   "explanation": "Ath Madrid e favorita, cu 61% sanse de victorie. Goluri asteptate: 1.92 pentru Ath Madrid, 0.91 pentru Osasuna. Forma recenta — Ath Madrid: IVEVIV, Osasuna: IEVVII (cel mai recent meci la dreapta). In clasamentul intern al modelului, Ath Madrid e pe locul 6 la atac, Osasuna pe 16, din 29 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
   },
   {
    "id": "SP1_20260916_LaCoruna_Sevilla",
@@ -1626,27 +1626,27 @@
    "home": "La Coruna",
    "away": "Sevilla",
    "probs": {
-    "p_home": 0.4705,
+    "p_home": 0.4708,
     "p_draw": 0.2489,
-    "p_away": 0.2806,
-    "p_over25": 0.5408,
-    "p_btts": 0.567,
-    "p_under25": 0.4592,
-    "p_no_btts": 0.433
+    "p_away": 0.2803,
+    "p_over25": 0.5411,
+    "p_btts": 0.5672,
+    "p_under25": 0.4589,
+    "p_no_btts": 0.4328
    },
    "expected_goals": {
-    "home": 1.63,
+    "home": 1.64,
     "away": 1.21
    },
    "confidence": "scazuta",
    "sample": {
     "home_matches": 5,
-    "away_matches": 116
+    "away_matches": 115
    },
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1174
+     "p": 0.1173
     },
     {
      "score": "2-1",
@@ -1654,15 +1654,15 @@
     },
     {
      "score": "1-0",
-     "p": 0.0929
+     "p": 0.0928
     },
     {
      "score": "2-0",
-     "p": 0.0777
+     "p": 0.0778
     },
     {
      "score": "1-2",
-     "p": 0.0696
+     "p": 0.0695
     }
    ],
    "reference_odds": {
@@ -1732,7 +1732,7 @@
      }
     ]
    },
-   "explanation": "La Coruna e favorita, cu 47% sanse de victorie. Goluri asteptate: 1.63 pentru La Coruna, 1.21 pentru Sevilla. Forma recenta — La Coruna: IEEVVE, Sevilla: IVVIEV (cel mai recent meci la dreapta). In clasamentul intern al modelului, La Coruna e pe locul 3 la atac, Sevilla pe 14, din 29 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+   "explanation": "La Coruna e favorita, cu 47% sanse de victorie. Goluri asteptate: 1.64 pentru La Coruna, 1.21 pentru Sevilla. Forma recenta — La Coruna: IEEVVE, Sevilla: IVVIEV (cel mai recent meci la dreapta). In clasamentul intern al modelului, La Coruna e pe locul 3 la atac, Sevilla pe 14, din 29 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
   },
   {
    "id": "SWE_Allsvenskan_20260916_AIK_Mjallby",
@@ -1743,16 +1743,16 @@
    "home": "AIK",
    "away": "Mjallby",
    "probs": {
-    "p_home": 0.3998,
+    "p_home": 0.4,
     "p_draw": 0.2701,
-    "p_away": 0.3301,
-    "p_over25": 0.501,
-    "p_btts": 0.5488,
-    "p_under25": 0.499,
-    "p_no_btts": 0.4512
+    "p_away": 0.3299,
+    "p_over25": 0.5012,
+    "p_btts": 0.549,
+    "p_under25": 0.4988,
+    "p_no_btts": 0.451
    },
    "expected_goals": {
-    "home": 1.41,
+    "home": 1.42,
     "away": 1.26
    },
    "confidence": "ridicata",
@@ -1767,19 +1767,19 @@
     },
     {
      "score": "1-0",
-     "p": 0.0914
+     "p": 0.0913
     },
     {
      "score": "2-1",
-     "p": 0.0868
+     "p": 0.0869
     },
     {
      "score": "0-1",
-     "p": 0.081
+     "p": 0.0809
     },
     {
      "score": "1-2",
-     "p": 0.0776
+     "p": 0.0775
     }
    ],
    "reference_odds": {
@@ -1849,7 +1849,7 @@
      }
     ]
    },
-   "explanation": "Meci echilibrat: modelul nu vede un favorit clar (40% / 27% / 33%). Goluri asteptate: 1.41 pentru AIK, 1.26 pentru Mjallby. Forma recenta — AIK: IVVVEI, Mjallby: IVIIIE (cel mai recent meci la dreapta). In clasamentul intern al modelului, AIK e pe locul 8 la atac, Mjallby pe 6, din 21 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+   "explanation": "Meci echilibrat: modelul nu vede un favorit clar (40% / 27% / 33%). Goluri asteptate: 1.42 pentru AIK, 1.26 pentru Mjallby. Forma recenta — AIK: IVVVEI, Mjallby: IVIIIE (cel mai recent meci la dreapta). In clasamentul intern al modelului, AIK e pe locul 8 la atac, Mjallby pe 6, din 21 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
   },
   {
    "id": "SWZ_SuperLeague_20260916_Lugano_St.Gallen",
@@ -1864,9 +1864,9 @@
     "p_draw": 0.2557,
     "p_away": 0.2445,
     "p_over25": 0.4919,
-    "p_btts": 0.5196,
+    "p_btts": 0.5195,
     "p_under25": 0.5081,
-    "p_no_btts": 0.4804
+    "p_no_btts": 0.4805
    },
    "expected_goals": {
     "home": 1.6,
@@ -2094,13 +2094,13 @@
    "home": "Barcelona",
    "away": "Santander",
    "probs": {
-    "p_home": 0.9018,
+    "p_home": 0.9019,
     "p_draw": 0.063,
-    "p_away": 0.0352,
-    "p_over25": 0.8938,
-    "p_btts": 0.6056,
-    "p_under25": 0.1062,
-    "p_no_btts": 0.3944
+    "p_away": 0.0351,
+    "p_over25": 0.894,
+    "p_btts": 0.6057,
+    "p_under25": 0.106,
+    "p_no_btts": 0.3943
    },
    "expected_goals": {
     "home": 4.29,
@@ -2122,15 +2122,15 @@
     },
     {
      "score": "3-0",
-     "p": 0.07
+     "p": 0.0699
     },
     {
      "score": "3-1",
-     "p": 0.0666
+     "p": 0.0665
     },
     {
      "score": "5-0",
-     "p": 0.0644
+     "p": 0.0645
     }
    ],
    "reference_odds": {
@@ -2179,13 +2179,13 @@
    "home": "Levante",
    "away": "Ath Bilbao",
    "probs": {
-    "p_home": 0.3796,
+    "p_home": 0.3797,
     "p_draw": 0.2607,
-    "p_away": 0.3597,
-    "p_over25": 0.5163,
-    "p_btts": 0.5588,
-    "p_under25": 0.4837,
-    "p_no_btts": 0.4412
+    "p_away": 0.3596,
+    "p_over25": 0.5166,
+    "p_btts": 0.5591,
+    "p_under25": 0.4834,
+    "p_no_btts": 0.4409
    },
    "expected_goals": {
     "home": 1.39,
@@ -2203,11 +2203,11 @@
     },
     {
      "score": "1-0",
-     "p": 0.0874
+     "p": 0.0873
     },
     {
      "score": "0-1",
-     "p": 0.0846
+     "p": 0.0845
     },
     {
      "score": "2-1",
@@ -2296,13 +2296,13 @@
    "home": "Botafogo RJ",
    "away": "Gremio",
    "probs": {
-    "p_home": 0.5685,
-    "p_draw": 0.2413,
-    "p_away": 0.1902,
-    "p_over25": 0.5184,
-    "p_btts": 0.5173,
-    "p_under25": 0.4816,
-    "p_no_btts": 0.4827
+    "p_home": 0.5687,
+    "p_draw": 0.2412,
+    "p_away": 0.19,
+    "p_over25": 0.5189,
+    "p_btts": 0.5176,
+    "p_under25": 0.4811,
+    "p_no_btts": 0.4824
    },
    "expected_goals": {
     "home": 1.8,
@@ -2310,17 +2310,17 @@
    },
    "confidence": "ridicata",
    "sample": {
-    "home_matches": 118,
+    "home_matches": 117,
     "away_matches": 118
    },
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1151
+     "p": 0.115
     },
     {
      "score": "1-0",
-     "p": 0.1094
+     "p": 0.1093
     },
     {
      "score": "2-0",
@@ -2332,7 +2332,7 @@
     },
     {
      "score": "0-0",
-     "p": 0.0698
+     "p": 0.0697
     }
    ],
    "reference_odds": {
@@ -2413,31 +2413,31 @@
    "home": "Betis",
    "away": "Getafe",
    "probs": {
-    "p_home": 0.5547,
-    "p_draw": 0.2683,
-    "p_away": 0.177,
-    "p_over25": 0.3771,
-    "p_btts": 0.3972,
-    "p_under25": 0.6229,
-    "p_no_btts": 0.6028
+    "p_home": 0.5549,
+    "p_draw": 0.2684,
+    "p_away": 0.1767,
+    "p_over25": 0.3767,
+    "p_btts": 0.3967,
+    "p_under25": 0.6233,
+    "p_no_btts": 0.6033
    },
    "expected_goals": {
-    "home": 1.49,
+    "home": 1.48,
     "away": 0.71
    },
    "confidence": "ridicata",
    "sample": {
     "home_matches": 114,
-    "away_matches": 115
+    "away_matches": 114
    },
    "top_scores": [
     {
      "score": "1-0",
-     "p": 0.1623
+     "p": 0.1625
     },
     {
      "score": "2-0",
-     "p": 0.1223
+     "p": 0.1224
     },
     {
      "score": "1-1",
@@ -2445,7 +2445,7 @@
     },
     {
      "score": "0-0",
-     "p": 0.1132
+     "p": 0.1134
     },
     {
      "score": "2-1",
@@ -2519,7 +2519,7 @@
      }
     ]
    },
-   "explanation": "Betis e favorita, cu 55% sanse de victorie. Goluri asteptate: 1.49 pentru Betis, 0.71 pentru Getafe. Forma recenta — Betis: VVVIVV, Getafe: VIVIEE (cel mai recent meci la dreapta). In clasamentul intern al modelului, Betis e pe locul 7 la atac, Getafe pe 25, din 29 echipe. Se asteapta un meci inchis: 62% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+   "explanation": "Betis e favorita, cu 55% sanse de victorie. Goluri asteptate: 1.48 pentru Betis, 0.71 pentru Getafe. Forma recenta — Betis: VVVIVV, Getafe: VIVIEE (cel mai recent meci la dreapta). In clasamentul intern al modelului, Betis e pe locul 7 la atac, Getafe pe 25, din 29 echipe. Se asteapta un meci inchis: 62% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
   },
   {
    "id": "SP1_20260917_Malaga_Villarreal",
@@ -2530,13 +2530,13 @@
    "home": "Malaga",
    "away": "Villarreal",
    "probs": {
-    "p_home": 0.1467,
-    "p_draw": 0.2812,
-    "p_away": 0.5721,
-    "p_over25": 0.3087,
-    "p_btts": 0.3229,
-    "p_under25": 0.6913,
-    "p_no_btts": 0.6771
+    "p_home": 0.1465,
+    "p_draw": 0.281,
+    "p_away": 0.5725,
+    "p_over25": 0.309,
+    "p_btts": 0.323,
+    "p_under25": 0.691,
+    "p_no_btts": 0.677
    },
    "expected_goals": {
     "home": 0.56,
@@ -2545,28 +2545,28 @@
    "confidence": "scazuta",
    "sample": {
     "home_matches": 5,
-    "away_matches": 115
+    "away_matches": 114
    },
    "top_scores": [
     {
      "score": "0-1",
-     "p": 0.1962
+     "p": 0.1961
     },
     {
      "score": "0-0",
-     "p": 0.1451
+     "p": 0.145
     },
     {
      "score": "0-2",
-     "p": 0.1377
+     "p": 0.1378
     },
     {
      "score": "1-1",
-     "p": 0.1128
+     "p": 0.1127
     },
     {
      "score": "1-0",
-     "p": 0.0774
+     "p": 0.0773
     }
    ],
    "reference_odds": {

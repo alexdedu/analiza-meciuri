@@ -58,37 +58,51 @@ EXTRA_LEAGUES = {
 EXTRA_DIR = DATA / "extra"
 
 
-def fetch(season: str, code: str) -> str | None:
+def _descarca(url: str, incercari: int = 3) -> bytes | None:
+    """Continutul fisierului, sau None. Reincearca: retelele mai si clipesc."""
+    for incercare in range(incercari):
+        try:
+            r = requests.get(url, timeout=30, headers={"User-Agent": "Mozilla/5.0"})
+            if r.status_code == 200 and len(r.content) >= 1000:
+                return r.content
+        except requests.RequestException:
+            pass
+        if incercare < incercari - 1:
+            time.sleep(1.5 * (incercare + 1))
+    return None
+
+
+def fetch(season: str, code: str, force: bool = False) -> str | None:
+    """Descarca un fisier. NU sterge nimic daca descarcarea esueaza.
+
+    `force` re-descarca chiar daca fisierul exista deja (sezonul curent se
+    schimba dupa fiecare etapa), dar il inlocuieste doar dupa ce noile date au
+    ajuns intregi. Varianta veche stergea intai si descarca dupa, deci o pana
+    de retea lasa proiectul fara date.
+    """
     dest = DATA / season / f"{code}.csv"
-    if dest.exists() and dest.stat().st_size > 1000:
+    if not force and dest.exists() and dest.stat().st_size > 1000:
         return "cached"
     dest.parent.mkdir(parents=True, exist_ok=True)
-    url = f"{BASE}/{season}/{code}.csv"
-    try:
-        r = requests.get(url, timeout=30, headers={"User-Agent": "Mozilla/5.0"})
-    except requests.RequestException as exc:
-        return f"eroare: {exc}"
-    if r.status_code != 200 or len(r.content) < 1000:
-        return None
-    dest.write_bytes(r.content)
+
+    continut = _descarca(f"{BASE}/{season}/{code}.csv")
+    if continut is None:
+        return None  # fisierul existent ramane neatins
+    dest.write_bytes(continut)
     time.sleep(0.4)  # politicos fata de server
-    return f"{len(r.content) // 1024} KB"
+    return f"{len(continut) // 1024} KB"
 
 
 def fetch_extra(code: str) -> str | None:
     """Fisierele cumulative se re-descarca mereu: contin si meciurile de ieri."""
     dest = EXTRA_DIR / f"{code}.csv"
     dest.parent.mkdir(parents=True, exist_ok=True)
-    url = f"https://www.football-data.co.uk/new/{code}.csv"
-    try:
-        r = requests.get(url, timeout=30, headers={"User-Agent": "Mozilla/5.0"})
-    except requests.RequestException:
+    continut = _descarca(f"https://www.football-data.co.uk/new/{code}.csv")
+    if continut is None:
         return None
-    if r.status_code != 200 or len(r.content) < 1000:
-        return None
-    dest.write_bytes(r.content)
+    dest.write_bytes(continut)
     time.sleep(0.4)
-    return f"{len(r.content) // 1024} KB"
+    return f"{len(continut) // 1024} KB"
 
 
 def main() -> int:

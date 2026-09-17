@@ -28,14 +28,19 @@ EXTRA_FIXTURES_URL = "https://www.football-data.co.uk/new_league_fixtures.csv"
 OUT = Path(__file__).parent.parent / "app" / "assets" / "predictions.json"
 
 
-def refresh_current_season() -> None:
-    """Re-descarca sezonul curent ca sa avem rezultatele din ultima etapa."""
+def refresh_current_season() -> int:
+    """Re-descarca sezonul curent ca sa avem rezultatele din ultima etapa.
+
+    Nu sterge nimic in avans: `fetch(force=True)` inlocuieste fisierul doar dupa
+    ce noile date au ajuns intregi. Altfel o pana de retea ne lasa fara sezonul
+    curent, iar modelul ar prezice pe date vechi fara sa spuna nimic.
+    """
     current = SEASONS[-1]
-    for code in LEAGUES:
-        path = Path(__file__).parent / "data" / current / f"{code}.csv"
-        if path.exists():
-            path.unlink()
-        fetch(current, code)
+    reusite = sum(1 for code in LEAGUES if fetch(current, code, force=True))
+    if reusite < len(LEAGUES):
+        print(f"  atentie: {len(LEAGUES) - reusite} din {len(LEAGUES)} fisiere "
+              "nu s-au putut reimprospata; folosim ce aveam")
+    return reusite
 
 
 def _download_csv(url: str) -> pd.DataFrame:
@@ -52,19 +57,22 @@ def get_fixtures() -> pd.DataFrame:
     """Meciurile viitoare din ambele feeduri, aduse la aceleasi coloane."""
     parts = []
 
-    core = _download_csv(FIXTURES_URL)
-    core = core[core["Div"].isin(LEAGUES)].copy()
-    core["div"] = core["Div"]
-    core["home"] = core["HomeTeam"]
-    core["away"] = core["AwayTeam"]
-    parts.append(core)
+    try:
+        core = _download_csv(FIXTURES_URL)
+        core = core[core["Div"].isin(LEAGUES)].copy()
+        core["div"] = core["Div"]
+        core["home"] = core["HomeTeam"]
+        core["away"] = core["AwayTeam"]
+        parts.append(core)
+    except Exception as exc:
+        print(f"  (feedul principal nu a raspuns: {str(exc)[:80]})")
 
     # Codul tarii nu apare in feedul suplimentar, doar numele ei.
     code_by_country = {country: code for code, (country, _) in EXTRA_LEAGUES.items()}
     try:
         extra = _download_csv(EXTRA_FIXTURES_URL)
-    except requests.RequestException as exc:
-        print(f"  (feedul suplimentar nu a raspuns: {exc})")
+    except Exception as exc:
+        print(f"  (feedul suplimentar nu a raspuns: {str(exc)[:80]})")
         extra = pd.DataFrame()
     if not extra.empty and {"Country", "League", "Home", "Away"}.issubset(extra.columns):
         extra = extra[extra["Country"].isin(code_by_country)].copy()
@@ -73,6 +81,11 @@ def get_fixtures() -> pd.DataFrame:
         extra["home"] = extra["Home"]
         extra["away"] = extra["Away"]
         parts.append(extra)
+
+    if not parts:
+        # Amandoua feedurile au picat. Mai departe n-am ce prezice, iar o lista
+        # goala ar sterge meciurile din aplicatie -- deci oprim cu eroare.
+        raise RuntimeError("Niciun feed de meciuri viitoare nu a raspuns.")
 
     keep = ["div", "Date", "Time", "home", "away", "B365H", "B365D", "B365A"]
     frames = []
@@ -294,6 +307,19 @@ def main() -> None:
         },
         "matches": sorted(out, key=lambda x: (x["date"], x["time"])),
     }
+    # Nu inlocuim niciodata un fisier bun cu unul gol. Daca sursa n-are meciuri
+    # in urmatoarele zile, aplicatia trebuie sa pastreze ce avea, nu sa ramana
+    # cu lista goala.
+    if not out and OUT.exists():
+        try:
+            vechi = json.loads(OUT.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            vechi = {}
+        if vechi.get("matches"):
+            print(f"\nNiciun meci nou de prezis. Pastram cele "
+                  f"{len(vechi['matches'])} predictii existente.")
+            return
+
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"\n{len(out)} predictii scrise in {OUT}")

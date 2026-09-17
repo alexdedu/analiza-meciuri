@@ -42,6 +42,14 @@ jobs:
           key: football-data-${{ github.run_id }}
           restore-keys: football-data-
 
+      # Verificam intai regulile de siguranta: o descarcare esuata nu trebuie sa
+      # distruga datele, iar o zi fara meciuri nu trebuie sa goleasca aplicatia.
+      - name: Teste
+        working-directory: research
+        run: |
+          python test_robustete.py
+          python test_team_matching.py
+
       - name: Descarca datele istorice
         working-directory: research
         run: python download_data.py
