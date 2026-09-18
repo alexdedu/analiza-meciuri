@@ -11,12 +11,16 @@ name: Actualizare predictii
 
 on:
   schedule:
-    # GitHub trateaza sarcinile programate ca "pe cat posibil": la orele rotunde
-    # si la fix/jumatate se aduna zeci de mii de repo-uri, iar rularile sunt
-    # intarziate sau sarite complet. De aceea folosim minute neobisnuite si doua
-    # incercari pe zi -- daca prima e sarita, a doua prinde.
-    - cron: '17 5 * * *'   # 08:17 ora Romaniei vara
-    - cron: '43 11 * * *'  # 14:43 ora Romaniei vara
+    # Masurat pe rulari reale: GitHub porneste sarcinile programate cu 3,5-4,5
+    # ore intarziere, constant. Au cea mai mica prioritate pe runnerele gratuite
+    # si nu exista mod de a grabi asta. Singura solutie e sa cerem devreme, cu
+    # intarzierea inclusa in calcul, si de mai multe ori pe zi.
+    #
+    # ora ceruta (UTC)  ->  ora probabila (Romania, vara)
+    - cron: '23 0 * * *'   # 00:23  ->  ~07:30, inainte de micul dejun
+    - cron: '37 4 * * *'   # 04:37  ->  ~11:40
+    - cron: '19 9 * * *'   # 09:19  ->  ~16:20
+    - cron: '41 14 * * *'  # 14:41  ->  ~21:40
   workflow_dispatch: {}
 
 jobs:

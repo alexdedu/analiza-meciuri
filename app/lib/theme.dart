@@ -22,6 +22,9 @@ abstract final class AppColors {
   static const negative = Color(0xFFF87171);
   static const warning = Color(0xFFFBBF24);
 
+  /// Chihlimbar, folosit ca sa iasa in evidenta anteturile de zi.
+  static const highlight = Color(0xFFFBBF24);
+
   static const textPrimary = Color(0xFFE8EBF2);
   static const textSecondary = Color(0xFF8B97AD);
 }

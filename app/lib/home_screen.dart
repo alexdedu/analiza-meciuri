@@ -173,7 +173,8 @@ class _MatchList extends StatelessWidget {
               padding: EdgeInsets.all(32),
               child: Center(
                 child: Text(
-                  'Niciun meci disponibil.\nRuleaza predict.py pentru a genera predictii noi.',
+                  'Niciun meci în următoarele 3 zile.\n'
+                  'Lista se actualizează singură de câteva ori pe zi.',
                   textAlign: TextAlign.center,
                   style: TextStyle(color: AppColors.textSecondary),
                 ),
@@ -181,16 +182,7 @@ class _MatchList extends StatelessWidget {
             ),
           ),
         for (final day in days) ...[
-          SliverToBoxAdapter(
-            child: Padding(
-              padding: const EdgeInsets.fromLTRB(16, 18, 16, 8),
-              child: Text(
-                _formatDay(day),
-                style: const TextStyle(
-                    fontSize: 13, fontWeight: FontWeight.w600, color: AppColors.accent),
-              ),
-            ),
-          ),
+          SliverToBoxAdapter(child: DayHeader(day: day)),
           SliverList.separated(
             itemCount: byDate[day]!.length,
             separatorBuilder: (_, __) => const SizedBox(height: 10),
@@ -218,9 +210,76 @@ class _MatchList extends StatelessWidget {
     );
   }
 
-  static String _formatDay(DateTime day) {
+}
+
+/// Antetul unei zile din lista.
+///
+/// Intr-o fereastra de trei zile, "AZI" si "MAINE" spun mai mult dintr-o
+/// privire decat data calendaristica, asa ca apar primele.
+class DayHeader extends StatelessWidget {
+  const DayHeader({super.key, required this.day});
+
+  final DateTime day;
+
+  @override
+  Widget build(BuildContext context) {
+    final acum = DateTime.now();
+    final azi = DateTime(acum.year, acum.month, acum.day);
+    final diferenta = DateTime(day.year, day.month, day.day).difference(azi).inDays;
+    final eticheta = switch (diferenta) {
+      0 => 'AZI',
+      1 => 'MÂINE',
+      _ => null,
+    };
+
     final text = DateFormat("EEEE, d MMMM", 'ro').format(day);
-    return text[0].toUpperCase() + text.substring(1);
+    final data = text[0].toUpperCase() + text.substring(1);
+
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(16, 22, 16, 10),
+      child: Row(
+        children: [
+          Container(
+            width: 4,
+            height: 22,
+            decoration: BoxDecoration(
+              color: AppColors.highlight,
+              borderRadius: BorderRadius.circular(2),
+            ),
+          ),
+          const SizedBox(width: 10),
+          if (eticheta != null) ...[
+            Container(
+              padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
+              decoration: BoxDecoration(
+                color: AppColors.highlight,
+                borderRadius: BorderRadius.circular(5),
+              ),
+              child: Text(eticheta,
+                  style: const TextStyle(
+                    fontSize: 11,
+                    fontWeight: FontWeight.w800,
+                    letterSpacing: 0.5,
+                    color: AppColors.background,
+                  )),
+            ),
+            const SizedBox(width: 9),
+          ],
+          Flexible(
+            child: Text(
+              data,
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+              style: const TextStyle(
+                fontSize: 16,
+                fontWeight: FontWeight.w700,
+                color: AppColors.highlight,
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
   }
 }
 
