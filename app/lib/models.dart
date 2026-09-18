@@ -218,6 +218,78 @@ class Recommendation {
       );
 }
 
+/// Cum s-a descurcat o banda de probabilitate in realitate, fata de backtest.
+class BandRecord {
+  const BandRecord({
+    required this.band,
+    required this.count,
+    required this.hits,
+    required this.rate,
+    required this.expected,
+  });
+
+  final String band;
+  final int count;
+  final int hits;
+  final double rate;
+
+  /// Rata masurata in backtest pentru aceeasi banda.
+  final double expected;
+
+  factory BandRecord.fromJson(Map<String, dynamic> json) => BandRecord(
+        band: json['band'] as String,
+        count: (json['n'] as num).toInt(),
+        hits: (json['hits'] as num).toInt(),
+        rate: (json['rate'] as num).toDouble(),
+        expected: (json['expected'] as num).toDouble(),
+      );
+}
+
+/// Bilantul propriilor selectii, verificate dupa ce meciurile s-au jucat.
+///
+/// Backtestul e o promisiune despre trecut; asta e o dovada despre prezent.
+class TrackRecord {
+  const TrackRecord({
+    required this.total,
+    required this.resolved,
+    required this.pending,
+    required this.hits,
+    required this.hitRate,
+    required this.profitUnits,
+    required this.roi,
+    required this.bands,
+    required this.since,
+  });
+
+  final int total;
+  final int resolved;
+  final int pending;
+  final int hits;
+
+  /// Null cat timp nu s-a terminat niciun meci.
+  final double? hitRate;
+  final double? profitUnits;
+  final double? roi;
+  final List<BandRecord> bands;
+  final String? since;
+
+  bool get hasResults => resolved > 0 && hitRate != null;
+
+  factory TrackRecord.fromJson(Map<String, dynamic> json) => TrackRecord(
+        total: (json['total'] as num).toInt(),
+        resolved: (json['resolved'] as num).toInt(),
+        pending: (json['pending'] as num).toInt(),
+        hits: (json['hits'] as num).toInt(),
+        hitRate: (json['hit_rate'] as num?)?.toDouble(),
+        profitUnits: (json['profit_units'] as num?)?.toDouble(),
+        roi: (json['roi'] as num?)?.toDouble(),
+        bands: ((json['by_band'] as List<dynamic>?) ?? [])
+            .map((e) => BandRecord.fromJson(e as Map<String, dynamic>))
+            .toList(),
+        since: json['since'] as String?,
+      );
+}
+
 /// Rezultatele backtest-ului, afisate in aplicatie asa cum sunt.
 class BacktestInfo {
   const BacktestInfo({
@@ -259,6 +331,7 @@ class PredictionBundle {
     required this.backtest,
     required this.matches,
     required this.recommendations,
+    required this.trackRecord,
   });
 
   final DateTime generatedAt;
@@ -266,6 +339,9 @@ class PredictionBundle {
   final BacktestInfo backtest;
   final List<MatchPrediction> matches;
   final List<Recommendation> recommendations;
+
+  /// Lipseste pana la prima rulare care noteaza selectii.
+  final TrackRecord? trackRecord;
 
   factory PredictionBundle.fromJson(Map<String, dynamic> json) {
     final model = json['model'] as Map<String, dynamic>;
@@ -280,6 +356,9 @@ class PredictionBundle {
       recommendations: ((json['recommendations'] as List<dynamic>?) ?? [])
           .map((e) => Recommendation.fromJson(e as Map<String, dynamic>))
           .toList(),
+      trackRecord: json['track_record'] == null
+          ? null
+          : TrackRecord.fromJson(json['track_record'] as Map<String, dynamic>),
     );
   }
 }

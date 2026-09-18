@@ -9,6 +9,7 @@ import 'recommendations_card.dart';
 import 'repository.dart';
 import 'search_screen.dart';
 import 'theme.dart';
+import 'track_record_card.dart';
 import 'widgets.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -143,6 +144,13 @@ class _MatchList extends StatelessWidget {
             ),
           ),
         ),
+        if (bundle.trackRecord != null)
+          SliverToBoxAdapter(
+            child: Padding(
+              padding: const EdgeInsets.fromLTRB(16, 0, 16, 14),
+              child: TrackRecordCard(record: bundle.trackRecord!),
+            ),
+          ),
         if (leagues.length > 1)
           SliverToBoxAdapter(
             child: SizedBox(

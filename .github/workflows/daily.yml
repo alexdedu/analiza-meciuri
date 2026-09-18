@@ -58,6 +58,7 @@ jobs:
           python test_robustete.py
           python test_team_matching.py
           python test_recomandari.py
+          python test_scorecard.py
 
       - name: Descarca datele istorice
         working-directory: research
@@ -84,10 +85,13 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet -- app/assets/predictions.json; then
-            echo "Nicio schimbare in predictii."
+          # Istoricul selectiilor se comite obligatoriu: e singura copie durabila.
+          # Cache-ul CI se poate sterge oricand, iar un bilant pierdut nu se
+          # mai poate reconstitui.
+          git add app/assets/predictions.json istoric/selectii.json
+          if git diff --cached --quiet; then
+            echo "Nicio schimbare."
           else
-            git add app/assets/predictions.json
             git commit -m "Actualizare predictii $(date -u +%Y-%m-%d)"
             git push
           fi

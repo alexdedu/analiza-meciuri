@@ -208,6 +208,28 @@ def explain(home, away, p, ctx_h, ctx_a, lam, mu, rank_h, rank_a, n_teams) -> st
     return " ".join(parts)
 
 
+def _rezultat_european(match_id: str):
+    """Scorul unui meci european, cerut dupa identificatorul din API-Football."""
+    try:
+        from api_config import load_key, request_config
+        key = load_key()
+        if not key:
+            return None
+        base, headers = request_config(key)
+        r = requests.get(f"{base}/fixtures", headers=headers,
+                         params={"id": match_id.removeprefix("EU")}, timeout=30)
+        r.raise_for_status()
+        raspuns = r.json().get("response") or []
+        if not raspuns:
+            return None
+        scor = raspuns[0]["score"]["fulltime"]
+        if scor["home"] is None or scor["away"] is None:
+            return None
+        return int(scor["home"]), int(scor["away"])
+    except Exception:
+        return None
+
+
 def main() -> None:
     print("Actualizez sezonul curent...")
     refresh_current_season()
@@ -322,6 +344,23 @@ def main() -> None:
 
     from recomandari import construieste as construieste_recomandari
     recomandari = construieste_recomandari(out)
+
+    # Fisa de rezultate: notam selectiile de azi si verificam ce s-a intamplat
+    # cu cele mai vechi. Daca ceva pica aici, predictiile de azi tot se scriu.
+    import scorecard
+    try:
+        selectii = scorecard.adauga(scorecard.incarca(), recomandari)
+        selectii, rezolvate_acum = scorecard.rezolva(selectii, hist,
+                                                     rezultat_european=_rezultat_european)
+        scorecard.salveaza(selectii)
+        bilant = scorecard.rezumat(selectii)
+        print(f"Fisa de rezultate: {bilant['resolved']} verificate din {bilant['total']}"
+              + (f", {bilant['hits']} reusite ({bilant['hit_rate']:.0%})"
+                 if bilant['resolved'] else "")
+              + (f", {rezolvate_acum} noi" if rezolvate_acum else ""))
+    except Exception as exc:
+        print(f"  fisa de rezultate a esuat: {str(exc)[:90]}")
+        bilant = None
     print(f"\nRecomandari automate: {len(recomandari)}")
     for r in recomandari:
         print(f"  {r['home']} - {r['away']}: {r['market_label']} "
@@ -330,6 +369,7 @@ def main() -> None:
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "recommendations": recomandari,
+        "track_record": bilant,
         "model": {
             "name": "Dixon-Coles + suturi pe poarta",
             "goals_weight": ALPHA,
