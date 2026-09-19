@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T19:33:01+00:00",
+ "generated_at": "2026-09-19T04:43:32+00:00",
  "recommendations": [
   {
    "match_id": "P1_20260919_SpLisbon_Arouca",
@@ -126,1186 +126,6 @@
  },
  "matches": [
   {
-   "id": "ROU_Superliga_20260918_UTAArad_SepsiSf.Gheorghe",
-   "league": "ROU_Superliga",
-   "league_name": "Romania — Superliga",
-   "date": "2026-09-18",
-   "time": "16:00",
-   "home": "UTA Arad",
-   "away": "Sepsi Sf. Gheorghe",
-   "probs": {
-    "p_home": 0.4886,
-    "p_draw": 0.2707,
-    "p_away": 0.2407,
-    "p_over25": 0.4394,
-    "p_btts": 0.4795,
-    "p_under25": 0.5606,
-    "p_no_btts": 0.5205
-   },
-   "expected_goals": {
-    "home": 1.48,
-    "away": 0.96
-   },
-   "confidence": "ridicata",
-   "sample": {
-    "home_matches": 118,
-    "away_matches": 81
-   },
-   "top_scores": [
-    {
-     "score": "1-1",
-     "p": 0.1278
-    },
-    {
-     "score": "1-0",
-     "p": 0.1255
-    },
-    {
-     "score": "2-0",
-     "p": 0.0956
-    },
-    {
-     "score": "2-1",
-     "p": 0.0916
-    },
-    {
-     "score": "0-0",
-     "p": 0.0915
-    }
-   ],
-   "reference_odds": {
-    "home": 1.95,
-    "draw": 3.23,
-    "away": 3.59
-   },
-   "context": {
-    "home": {
-     "form": [
-      "E",
-      "I",
-      "E",
-      "V",
-      "V",
-      "I"
-     ],
-     "goals_for_avg": 1.83,
-     "goals_against_avg": 1.33,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "E",
-      "E",
-      "E",
-      "V",
-      "I",
-      "V"
-     ],
-     "goals_for_avg": 0.83,
-     "goals_against_avg": 1.17,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "h2h": [
-     {
-      "date": "2025-04-18",
-      "home": "UTA Arad",
-      "away": "Sepsi Sf. Gheorghe",
-      "score": "1-1"
-     },
-     {
-      "date": "2025-02-24",
-      "home": "UTA Arad",
-      "away": "Sepsi Sf. Gheorghe",
-      "score": "1-2"
-     },
-     {
-      "date": "2024-10-19",
-      "home": "Sepsi Sf. Gheorghe",
-      "away": "UTA Arad",
-      "score": "1-0"
-     },
-     {
-      "date": "2024-01-27",
-      "home": "UTA Arad",
-      "away": "Sepsi Sf. Gheorghe",
-      "score": "2-1"
-     },
-     {
-      "date": "2023-09-04",
-      "home": "Sepsi Sf. Gheorghe",
-      "away": "UTA Arad",
-      "score": "1-0"
-     }
-    ]
-   },
-   "explanation": "UTA Arad e favorita, cu 49% sanse de victorie. Goluri asteptate: 1.48 pentru UTA Arad, 0.96 pentru Sepsi Sf. Gheorghe. Forma recenta — UTA Arad: EIEVVI, Sepsi Sf. Gheorghe: EEEVIV (cel mai recent meci la dreapta). In clasamentul intern al modelului, UTA Arad e pe locul 9 la atac, Sepsi Sf. Gheorghe pe 16, din 25 echipe. Se asteapta un meci inchis: 56% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
-  },
-  {
-   "id": "N1_20260918_Groningen_Zwolle",
-   "league": "N1",
-   "league_name": "Eredivisie",
-   "date": "2026-09-18",
-   "time": "19:00",
-   "home": "Groningen",
-   "away": "Zwolle",
-   "probs": {
-    "p_home": 0.589,
-    "p_draw": 0.2308,
-    "p_away": 0.1802,
-    "p_over25": 0.6192,
-    "p_btts": 0.5979,
-    "p_under25": 0.3808,
-    "p_no_btts": 0.4021
-   },
-   "expected_goals": {
-    "home": 2.09,
-    "away": 1.1
-   },
-   "confidence": "ridicata",
-   "sample": {
-    "home_matches": 74,
-    "away_matches": 103
-   },
-   "top_scores": [
-    {
-     "score": "1-1",
-     "p": 0.1068
-    },
-    {
-     "score": "2-1",
-     "p": 0.0989
-    },
-    {
-     "score": "2-0",
-     "p": 0.0897
-    },
-    {
-     "score": "1-0",
-     "p": 0.0733
-    },
-    {
-     "score": "3-1",
-     "p": 0.069
-    }
-   ],
-   "reference_odds": {
-    "home": 1.5,
-    "draw": 4.52,
-    "away": 5.23,
-    "over25": 1.36,
-    "under25": 2.95
-   },
-   "context": {
-    "home": {
-     "form": [
-      "V",
-      "V",
-      "I",
-      "I",
-      "E",
-      "E"
-     ],
-     "goals_for_avg": 2.0,
-     "goals_against_avg": 2.17,
-     "shots_on_target_avg": 5.17,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "I",
-      "I",
-      "V",
-      "I",
-      "E",
-      "I"
-     ],
-     "goals_for_avg": 1.0,
-     "goals_against_avg": 2.83,
-     "shots_on_target_avg": 3.83,
-     "matches_analysed": 6
-    },
-    "h2h": [
-     {
-      "date": "2026-03-13",
-      "home": "Zwolle",
-      "away": "Groningen",
-      "score": "1-1"
-     },
-     {
-      "date": "2025-11-23",
-      "home": "Groningen",
-      "away": "Zwolle",
-      "score": "2-2"
-     },
-     {
-      "date": "2025-05-18",
-      "home": "Zwolle",
-      "away": "Groningen",
-      "score": "2-0"
-     },
-     {
-      "date": "2024-12-08",
-      "home": "Groningen",
-      "away": "Zwolle",
-      "score": "0-0"
-     },
-     {
-      "date": "2022-02-20",
-      "home": "Zwolle",
-      "away": "Groningen",
-      "score": "1-1"
-     }
-    ]
-   },
-   "explanation": "Groningen e favorita, cu 59% sanse de victorie. Goluri asteptate: 2.09 pentru Groningen, 1.10 pentru Zwolle. Forma recenta — Groningen: VVIIEE, Zwolle: IIVIEI (cel mai recent meci la dreapta). In clasamentul intern al modelului, Groningen e pe locul 10 la atac, Zwolle pe 17, din 24 echipe. Se asteapta un meci deschis: 62% sanse la peste 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
-  },
-  {
-   "id": "ROU_Superliga_20260918_FCRapidBucuresti_FCArges",
-   "league": "ROU_Superliga",
-   "league_name": "Romania — Superliga",
-   "date": "2026-09-18",
-   "time": "19:00",
-   "home": "FC Rapid Bucuresti",
-   "away": "FC Arges",
-   "probs": {
-    "p_home": 0.4578,
-    "p_draw": 0.3507,
-    "p_away": 0.1915,
-    "p_over25": 0.2072,
-    "p_btts": 0.2728,
-    "p_under25": 0.7928,
-    "p_no_btts": 0.7272
-   },
-   "expected_goals": {
-    "home": 1.01,
-    "away": 0.55
-   },
-   "confidence": "ridicata",
-   "sample": {
-    "home_matches": 120,
-    "away_matches": 49
-   },
-   "top_scores": [
-    {
-     "score": "0-0",
-     "p": 0.2131
-    },
-    {
-     "score": "1-0",
-     "p": 0.2089
-    },
-    {
-     "score": "1-1",
-     "p": 0.1203
-    },
-    {
-     "score": "0-1",
-     "p": 0.1112
-    },
-    {
-     "score": "2-0",
-     "p": 0.1079
-    }
-   ],
-   "reference_odds": {
-    "home": 1.56,
-    "draw": 3.61,
-    "away": 5.47
-   },
-   "context": {
-    "home": {
-     "form": [
-      "E",
-      "I",
-      "V",
-      "E",
-      "V",
-      "V"
-     ],
-     "goals_for_avg": 1.0,
-     "goals_against_avg": 0.5,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "V",
-      "E",
-      "I",
-      "I",
-      "I",
-      "E"
-     ],
-     "goals_for_avg": 0.5,
-     "goals_against_avg": 0.83,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "h2h": [
-     {
-      "date": "2026-05-15",
-      "home": "FC Arges",
-      "away": "FC Rapid Bucuresti",
-      "score": "2-2"
-     },
-     {
-      "date": "2026-04-13",
-      "home": "FC Rapid Bucuresti",
-      "away": "FC Arges",
-      "score": "0-0"
-     },
-     {
-      "date": "2025-11-08",
-      "home": "FC Rapid Bucuresti",
-      "away": "FC Arges",
-      "score": "2-0"
-     },
-     {
-      "date": "2025-07-11",
-      "home": "FC Arges",
-      "away": "FC Rapid Bucuresti",
-      "score": "0-2"
-     },
-     {
-      "date": "2022-12-04",
-      "home": "FC Arges",
-      "away": "FC Rapid Bucuresti",
-      "score": "1-1"
-     }
-    ]
-   },
-   "explanation": "FC Rapid Bucuresti e favorita, cu 46% sanse de victorie. Goluri asteptate: 1.01 pentru FC Rapid Bucuresti, 0.55 pentru FC Arges. Forma recenta — FC Rapid Bucuresti: EIVEVV, FC Arges: VEIIIE (cel mai recent meci la dreapta). In clasamentul intern al modelului, FC Rapid Bucuresti e pe locul 8 la atac, FC Arges pe 23, din 25 echipe. Se asteapta un meci inchis: 79% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
-  },
-  {
-   "id": "D1_20260918_BayernMunich_UnionBerlin",
-   "league": "D1",
-   "league_name": "Bundesliga",
-   "date": "2026-09-18",
-   "time": "19:30",
-   "home": "Bayern Munich",
-   "away": "Union Berlin",
-   "probs": {
-    "p_home": 0.8527,
-    "p_draw": 0.1006,
-    "p_away": 0.0467,
-    "p_over25": 0.7747,
-    "p_btts": 0.5148,
-    "p_under25": 0.2253,
-    "p_no_btts": 0.4852
-   },
-   "expected_goals": {
-    "home": 3.33,
-    "away": 0.76
-   },
-   "confidence": "ridicata",
-   "sample": {
-    "home_matches": 101,
-    "away_matches": 101
-   },
-   "top_scores": [
-    {
-     "score": "3-0",
-     "p": 0.1034
-    },
-    {
-     "score": "2-0",
-     "p": 0.0931
-    },
-    {
-     "score": "4-0",
-     "p": 0.0862
-    },
-    {
-     "score": "3-1",
-     "p": 0.0782
-    },
-    {
-     "score": "2-1",
-     "p": 0.0704
-    }
-   ],
-   "reference_odds": {
-    "home": 1.04,
-    "draw": 16.58,
-    "away": 32.77,
-    "over25": 1.09,
-    "under25": 7.19
-   },
-   "context": {
-    "home": {
-     "form": [
-      "E",
-      "V",
-      "V",
-      "V",
-      "E",
-      "V"
-     ],
-     "goals_for_avg": 2.67,
-     "goals_against_avg": 1.0,
-     "shots_on_target_avg": 7.17,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "E",
-      "V",
-      "V",
-      "E",
-      "I",
-      "I"
-     ],
-     "goals_for_avg": 2.17,
-     "goals_against_avg": 2.17,
-     "shots_on_target_avg": 6.5,
-     "matches_analysed": 6
-    },
-    "h2h": [
-     {
-      "date": "2026-03-21",
-      "home": "Bayern Munich",
-      "away": "Union Berlin",
-      "score": "4-0"
-     },
-     {
-      "date": "2025-11-08",
-      "home": "Union Berlin",
-      "away": "Bayern Munich",
-      "score": "2-2"
-     },
-     {
-      "date": "2025-03-15",
-      "home": "Union Berlin",
-      "away": "Bayern Munich",
-      "score": "1-1"
-     },
-     {
-      "date": "2024-11-02",
-      "home": "Bayern Munich",
-      "away": "Union Berlin",
-      "score": "3-0"
-     },
-     {
-      "date": "2024-04-20",
-      "home": "Union Berlin",
-      "away": "Bayern Munich",
-      "score": "1-5"
-     }
-    ]
-   },
-   "explanation": "Bayern Munich e favorita, cu 85% sanse de victorie. Goluri asteptate: 3.33 pentru Bayern Munich, 0.76 pentru Union Berlin. Forma recenta — Bayern Munich: EVVVEV, Union Berlin: EVVEII (cel mai recent meci la dreapta). In clasamentul intern al modelului, Bayern Munich e pe locul 1 la atac, Union Berlin pe 16, din 24 echipe. Se asteapta un meci deschis: 77% sanse la peste 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
-  },
-  {
-   "id": "B1_20260918_Gent_Standard",
-   "league": "B1",
-   "league_name": "Jupiler Pro League",
-   "date": "2026-09-18",
-   "time": "19:45",
-   "home": "Gent",
-   "away": "Standard",
-   "probs": {
-    "p_home": 0.4561,
-    "p_draw": 0.2827,
-    "p_away": 0.2611,
-    "p_over25": 0.4246,
-    "p_btts": 0.4772,
-    "p_under25": 0.5754,
-    "p_no_btts": 0.5228
-   },
-   "expected_goals": {
-    "home": 1.39,
-    "away": 0.99
-   },
-   "confidence": "ridicata",
-   "sample": {
-    "home_matches": 121,
-    "away_matches": 118
-   },
-   "top_scores": [
-    {
-     "score": "1-1",
-     "p": 0.1332
-    },
-    {
-     "score": "1-0",
-     "p": 0.1231
-    },
-    {
-     "score": "0-0",
-     "p": 0.0986
-    },
-    {
-     "score": "2-0",
-     "p": 0.0897
-    },
-    {
-     "score": "2-1",
-     "p": 0.0885
-    }
-   ],
-   "reference_odds": {
-    "home": 1.77,
-    "draw": 3.5,
-    "away": 4.34,
-    "over25": 1.91,
-    "under25": 1.82
-   },
-   "context": {
-    "home": {
-     "form": [
-      "V",
-      "V",
-      "V",
-      "V",
-      "V",
-      "E"
-     ],
-     "goals_for_avg": 1.83,
-     "goals_against_avg": 0.5,
-     "shots_on_target_avg": 4.67,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "E",
-      "E",
-      "V",
-      "V",
-      "V",
-      "I"
-     ],
-     "goals_for_avg": 2.0,
-     "goals_against_avg": 1.67,
-     "shots_on_target_avg": 5.67,
-     "matches_analysed": 6
-    },
-    "h2h": [
-     {
-      "date": "2026-01-23",
-      "home": "Standard",
-      "away": "Gent",
-      "score": "0-4"
-     },
-     {
-      "date": "2025-10-25",
-      "home": "Gent",
-      "away": "Standard",
-      "score": "4-0"
-     },
-     {
-      "date": "2024-12-22",
-      "home": "Standard",
-      "away": "Gent",
-      "score": "0-1"
-     },
-     {
-      "date": "2024-11-10",
-      "home": "Gent",
-      "away": "Standard",
-      "score": "5-0"
-     },
-     {
-      "date": "2024-05-18",
-      "home": "Standard",
-      "away": "Gent",
-      "score": "1-4"
-     }
-    ]
-   },
-   "explanation": "Gent e favorita, cu 46% sanse de victorie. Goluri asteptate: 1.39 pentru Gent, 0.99 pentru Standard. Forma recenta — Gent: VVVVVE, Standard: EEVVVI (cel mai recent meci la dreapta). In clasamentul intern al modelului, Gent e pe locul 8 la atac, Standard pe 14, din 22 echipe. Se asteapta un meci inchis: 58% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
-  },
-  {
-   "id": "F1_20260918_Monaco_Lens",
-   "league": "F1",
-   "league_name": "Ligue 1",
-   "date": "2026-09-18",
-   "time": "19:45",
-   "home": "Monaco",
-   "away": "Lens",
-   "probs": {
-    "p_home": 0.3834,
-    "p_draw": 0.2543,
-    "p_away": 0.3623,
-    "p_over25": 0.59,
-    "p_btts": 0.6207,
-    "p_under25": 0.41,
-    "p_no_btts": 0.3793
-   },
-   "expected_goals": {
-    "home": 1.55,
-    "away": 1.51
-   },
-   "confidence": "ridicata",
-   "sample": {
-    "home_matches": 101,
-    "away_matches": 101
-   },
-   "top_scores": [
-    {
-     "score": "1-1",
-     "p": 0.1168
-    },
-    {
-     "score": "2-1",
-     "p": 0.0853
-    },
-    {
-     "score": "1-2",
-     "p": 0.0826
-    },
-    {
-     "score": "1-0",
-     "p": 0.0658
-    },
-    {
-     "score": "2-2",
-     "p": 0.0642
-    }
-   ],
-   "reference_odds": {
-    "home": 2.01,
-    "draw": 3.71,
-    "away": 3.42,
-    "over25": 1.59,
-    "under25": 2.28
-   },
-   "context": {
-    "home": {
-     "form": [
-      "I",
-      "I",
-      "V",
-      "V",
-      "V",
-      "E"
-     ],
-     "goals_for_avg": 1.67,
-     "goals_against_avg": 1.33,
-     "shots_on_target_avg": 4.67,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "I",
-      "V",
-      "V",
-      "I",
-      "I",
-      "E"
-     ],
-     "goals_for_avg": 2.0,
-     "goals_against_avg": 1.5,
-     "shots_on_target_avg": 7.0,
-     "matches_analysed": 6
-    },
-    "h2h": [
-     {
-      "date": "2026-02-21",
-      "home": "Lens",
-      "away": "Monaco",
-      "score": "2-3"
-     },
-     {
-      "date": "2025-11-08",
-      "home": "Monaco",
-      "away": "Lens",
-      "score": "1-4"
-     },
-     {
-      "date": "2025-05-17",
-      "home": "Lens",
-      "away": "Monaco",
-      "score": "4-0"
-     },
-     {
-      "date": "2024-09-01",
-      "home": "Monaco",
-      "away": "Lens",
-      "score": "1-1"
-     },
-     {
-      "date": "2024-02-25",
-      "home": "Lens",
-      "away": "Monaco",
-      "score": "2-3"
-     }
-    ]
-   },
-   "explanation": "Meci echilibrat: modelul nu vede un favorit clar (38% / 25% / 36%). Goluri asteptate: 1.55 pentru Monaco, 1.51 pentru Lens. Forma recenta — Monaco: IIVVVE, Lens: IVVIIE (cel mai recent meci la dreapta). In clasamentul intern al modelului, Monaco e pe locul 2 la atac, Lens pe 4, din 24 echipe. Se asteapta un meci deschis: 59% sanse la peste 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
-  },
-  {
-   "id": "I1_20260918_Monza_Sassuolo",
-   "league": "I1",
-   "league_name": "Serie A",
-   "date": "2026-09-18",
-   "time": "19:45",
-   "home": "Monza",
-   "away": "Sassuolo",
-   "probs": {
-    "p_home": 0.3128,
-    "p_draw": 0.2308,
-    "p_away": 0.4564,
-    "p_over25": 0.6039,
-    "p_btts": 0.617,
-    "p_under25": 0.3961,
-    "p_no_btts": 0.383
-   },
-   "expected_goals": {
-    "home": 1.39,
-    "away": 1.73
-   },
-   "confidence": "ridicata",
-   "sample": {
-    "home_matches": 76,
-    "away_matches": 76
-   },
-   "top_scores": [
-    {
-     "score": "1-1",
-     "p": 0.1045
-    },
-    {
-     "score": "1-2",
-     "p": 0.0917
-    },
-    {
-     "score": "0-1",
-     "p": 0.0777
-    },
-    {
-     "score": "2-1",
-     "p": 0.074
-    },
-    {
-     "score": "0-2",
-     "p": 0.0657
-    }
-   ],
-   "reference_odds": {
-    "home": 2.7,
-    "draw": 3.4,
-    "away": 2.53,
-    "over25": 1.71,
-    "under25": 2.08
-   },
-   "context": {
-    "home": {
-     "form": [
-      "I",
-      "I",
-      "I",
-      "I",
-      "E",
-      "I"
-     ],
-     "goals_for_avg": 1.17,
-     "goals_against_avg": 2.67,
-     "shots_on_target_avg": 5.0,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "I",
-      "I",
-      "I",
-      "V",
-      "E",
-      "V"
-     ],
-     "goals_for_avg": 1.67,
-     "goals_against_avg": 1.83,
-     "shots_on_target_avg": 5.67,
-     "matches_analysed": 6
-    },
-    "h2h": [
-     {
-      "date": "2024-01-28",
-      "home": "Monza",
-      "away": "Sassuolo",
-      "score": "1-0"
-     },
-     {
-      "date": "2023-10-02",
-      "home": "Sassuolo",
-      "away": "Monza",
-      "score": "0-1"
-     },
-     {
-      "date": "2023-05-19",
-      "home": "Sassuolo",
-      "away": "Monza",
-      "score": "1-2"
-     },
-     {
-      "date": "2023-01-22",
-      "home": "Monza",
-      "away": "Sassuolo",
-      "score": "1-1"
-     }
-    ]
-   },
-   "explanation": "Sassuolo e favorita, cu 46% sanse de victorie. Goluri asteptate: 1.39 pentru Monza, 1.73 pentru Sassuolo. Forma recenta — Monza: IIIIEI, Sassuolo: IIIVEV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Monza e pe locul 16 la atac, Sassuolo pe 9, din 25 echipe. Se asteapta un meci deschis: 60% sanse la peste 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
-  },
-  {
-   "id": "E0_20260918_Brentford_Chelsea",
-   "league": "E0",
-   "league_name": "Premier League",
-   "date": "2026-09-18",
-   "time": "20:00",
-   "home": "Brentford",
-   "away": "Chelsea",
-   "probs": {
-    "p_home": 0.3792,
-    "p_draw": 0.2617,
-    "p_away": 0.3591,
-    "p_over25": 0.6257,
-    "p_btts": 0.6555,
-    "p_under25": 0.3743,
-    "p_no_btts": 0.3445
-   },
-   "expected_goals": {
-    "home": 1.64,
-    "away": 1.59
-   },
-   "confidence": "ridicata",
-   "sample": {
-    "home_matches": 113,
-    "away_matches": 113
-   },
-   "top_scores": [
-    {
-     "score": "1-1",
-     "p": 0.1175
-    },
-    {
-     "score": "2-1",
-     "p": 0.0845
-    },
-    {
-     "score": "1-2",
-     "p": 0.0821
-    },
-    {
-     "score": "2-2",
-     "p": 0.0672
-    },
-    {
-     "score": "0-0",
-     "p": 0.054
-    }
-   ],
-   "reference_odds": {
-    "home": 2.62,
-    "draw": 3.7,
-    "away": 2.48,
-    "over25": 1.48,
-    "under25": 2.59
-   },
-   "context": {
-    "home": {
-     "form": [
-      "E",
-      "E",
-      "V",
-      "E",
-      "E",
-      "E"
-     ],
-     "goals_for_avg": 1.67,
-     "goals_against_avg": 1.17,
-     "shots_on_target_avg": 3.67,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "V",
-      "I",
-      "V",
-      "V",
-      "I",
-      "E"
-     ],
-     "goals_for_avg": 2.17,
-     "goals_against_avg": 2.0,
-     "shots_on_target_avg": 4.83,
-     "matches_analysed": 6
-    },
-    "h2h": [
-     {
-      "date": "2026-01-17",
-      "home": "Chelsea",
-      "away": "Brentford",
-      "score": "2-0"
-     },
-     {
-      "date": "2025-09-13",
-      "home": "Brentford",
-      "away": "Chelsea",
-      "score": "2-2"
-     },
-     {
-      "date": "2025-04-06",
-      "home": "Brentford",
-      "away": "Chelsea",
-      "score": "0-0"
-     },
-     {
-      "date": "2024-12-15",
-      "home": "Chelsea",
-      "away": "Brentford",
-      "score": "2-1"
-     },
-     {
-      "date": "2024-03-02",
-      "home": "Brentford",
-      "away": "Chelsea",
-      "score": "2-2"
-     }
-    ]
-   },
-   "explanation": "Meci echilibrat: modelul nu vede un favorit clar (38% / 26% / 36%). Goluri asteptate: 1.64 pentru Brentford, 1.59 pentru Chelsea. Forma recenta — Brentford: EEVEEE, Chelsea: VIVVIE (cel mai recent meci la dreapta). In clasamentul intern al modelului, Brentford e pe locul 8 la atac, Chelsea pe 4, din 27 echipe. Se asteapta un meci deschis: 63% sanse la peste 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
-  },
-  {
-   "id": "E1_20260918_BristolCity_Watford",
-   "league": "E1",
-   "league_name": "Championship",
-   "date": "2026-09-18",
-   "time": "20:00",
-   "home": "Bristol City",
-   "away": "Watford",
-   "probs": {
-    "p_home": 0.4674,
-    "p_draw": 0.2754,
-    "p_away": 0.2572,
-    "p_over25": 0.4842,
-    "p_btts": 0.5274,
-    "p_under25": 0.5158,
-    "p_no_btts": 0.4726
-   },
-   "expected_goals": {
-    "home": 1.53,
-    "away": 1.08
-   },
-   "confidence": "ridicata",
-   "sample": {
-    "home_matches": 139,
-    "away_matches": 139
-   },
-   "top_scores": [
-    {
-     "score": "1-1",
-     "p": 0.1315
-    },
-    {
-     "score": "1-0",
-     "p": 0.1025
-    },
-    {
-     "score": "2-1",
-     "p": 0.093
-    },
-    {
-     "score": "2-0",
-     "p": 0.0862
-    },
-    {
-     "score": "0-0",
-     "p": 0.0835
-    }
-   ],
-   "reference_odds": {
-    "home": 1.74,
-    "draw": 3.85,
-    "away": 4.41,
-    "over25": 1.72,
-    "under25": 2.04
-   },
-   "context": {
-    "home": {
-     "form": [
-      "E",
-      "V",
-      "V",
-      "V",
-      "I",
-      "I"
-     ],
-     "goals_for_avg": 1.67,
-     "goals_against_avg": 1.67,
-     "shots_on_target_avg": 5.0,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "E",
-      "E",
-      "I",
-      "I",
-      "V",
-      "I"
-     ],
-     "goals_for_avg": 0.83,
-     "goals_against_avg": 1.33,
-     "shots_on_target_avg": 3.83,
-     "matches_analysed": 6
-    },
-    "h2h": [
-     {
-      "date": "2026-02-27",
-      "home": "Bristol City",
-      "away": "Watford",
-      "score": "1-2"
-     },
-     {
-      "date": "2025-11-07",
-      "home": "Watford",
-      "away": "Bristol City",
-      "score": "1-1"
-     },
-     {
-      "date": "2025-04-05",
-      "home": "Bristol City",
-      "away": "Watford",
-      "score": "2-1"
-     },
-     {
-      "date": "2024-11-26",
-      "home": "Watford",
-      "away": "Bristol City",
-      "score": "1-0"
-     },
-     {
-      "date": "2024-01-20",
-      "home": "Bristol City",
-      "away": "Watford",
-      "score": "1-1"
-     }
-    ]
-   },
-   "explanation": "Bristol City e favorita, cu 47% sanse de victorie. Goluri asteptate: 1.53 pentru Bristol City, 1.08 pentru Watford. Forma recenta — Bristol City: EVVVII, Watford: EEIIVI (cel mai recent meci la dreapta). In clasamentul intern al modelului, Bristol City e pe locul 14 la atac, Watford pe 26, din 36 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
-  },
-  {
-   "id": "SP1_20260918_Espanol_Elche",
-   "league": "SP1",
-   "league_name": "La Liga",
-   "date": "2026-09-18",
-   "time": "20:00",
-   "home": "Espanol",
-   "away": "Elche",
-   "probs": {
-    "p_home": 0.4609,
-    "p_draw": 0.2496,
-    "p_away": 0.2895,
-    "p_over25": 0.5216,
-    "p_btts": 0.5516,
-    "p_under25": 0.4784,
-    "p_no_btts": 0.4484
-   },
-   "expected_goals": {
-    "home": 1.57,
-    "away": 1.19
-   },
-   "confidence": "ridicata",
-   "sample": {
-    "home_matches": 82,
-    "away_matches": 44
-   },
-   "top_scores": [
-    {
-     "score": "1-1",
-     "p": 0.1182
-    },
-    {
-     "score": "1-0",
-     "p": 0.0991
-    },
-    {
-     "score": "2-1",
-     "p": 0.0928
-    },
-    {
-     "score": "2-0",
-     "p": 0.0778
-    },
-    {
-     "score": "0-1",
-     "p": 0.0753
-    }
-   ],
-   "reference_odds": {
-    "home": 1.8,
-    "draw": 3.59,
-    "away": 4.41,
-    "over25": 1.78,
-    "under25": 1.97
-   },
-   "context": {
-    "home": {
-     "form": [
-      "V",
-      "I",
-      "I",
-      "E",
-      "V",
-      "I"
-     ],
-     "goals_for_avg": 1.5,
-     "goals_against_avg": 1.17,
-     "shots_on_target_avg": 3.83,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "E",
-      "I",
-      "I",
-      "I",
-      "E",
-      "I"
-     ],
-     "goals_for_avg": 1.33,
-     "goals_against_avg": 2.67,
-     "shots_on_target_avg": 4.83,
-     "matches_analysed": 6
-    },
-    "h2h": [
-     {
-      "date": "2026-03-01",
-      "home": "Elche",
-      "away": "Espanol",
-      "score": "2-2"
-     },
-     {
-      "date": "2025-10-25",
-      "home": "Espanol",
-      "away": "Elche",
-      "score": "1-0"
-     },
-     {
-      "date": "2023-02-19",
-      "home": "Elche",
-      "away": "Espanol",
-      "score": "0-1"
-     },
-     {
-      "date": "2022-10-23",
-      "home": "Espanol",
-      "away": "Elche",
-      "score": "2-2"
-     },
-     {
-      "date": "2022-01-10",
-      "home": "Espanol",
-      "away": "Elche",
-      "score": "1-2"
-     }
-    ]
-   },
-   "explanation": "Espanol e favorita, cu 46% sanse de victorie. Goluri asteptate: 1.57 pentru Espanol, 1.19 pentru Elche. Forma recenta — Espanol: VIIEVI, Elche: EIIIEI (cel mai recent meci la dreapta). In clasamentul intern al modelului, Espanol e pe locul 16 la atac, Elche pe 10, din 29 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
-  },
-  {
    "id": "E0_20260919_Tottenham_AstonVilla",
    "league": "E0",
    "league_name": "Premier League",
@@ -1316,10 +136,10 @@
    "probs": {
     "p_home": 0.3551,
     "p_draw": 0.2909,
-    "p_away": 0.3541,
-    "p_over25": 0.5109,
+    "p_away": 0.354,
+    "p_over25": 0.5108,
     "p_btts": 0.5691,
-    "p_under25": 0.4891,
+    "p_under25": 0.4892,
     "p_no_btts": 0.4309
    },
    "expected_goals": {
@@ -1433,43 +253,43 @@
    "home": "Cardiff",
    "away": "Charlton",
    "probs": {
-    "p_home": 0.4252,
-    "p_draw": 0.2929,
-    "p_away": 0.282,
-    "p_over25": 0.435,
-    "p_btts": 0.4961,
-    "p_under25": 0.565,
-    "p_no_btts": 0.5039
+    "p_home": 0.4241,
+    "p_draw": 0.2932,
+    "p_away": 0.2826,
+    "p_over25": 0.434,
+    "p_btts": 0.4955,
+    "p_under25": 0.566,
+    "p_no_btts": 0.5045
    },
    "expected_goals": {
-    "home": 1.36,
+    "home": 1.35,
     "away": 1.06
    },
    "confidence": "ridicata",
    "sample": {
-    "home_matches": 93,
+    "home_matches": 92,
     "away_matches": 53
    },
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1389
+     "p": 0.139
     },
     {
      "score": "1-0",
-     "p": 0.1104
+     "p": 0.1105
     },
     {
      "score": "0-0",
-     "p": 0.0997
+     "p": 0.1001
     },
     {
      "score": "2-1",
-     "p": 0.0871
+     "p": 0.0869
     },
     {
      "score": "0-1",
-     "p": 0.0839
+     "p": 0.0842
     }
    ],
    "reference_odds": {
@@ -1541,7 +361,7 @@
      }
     ]
    },
-   "explanation": "Cardiff e favorita, cu 43% sanse de victorie. Goluri asteptate: 1.36 pentru Cardiff, 1.06 pentru Charlton. Forma recenta — Cardiff: EEIIEI, Charlton: VVEIEE (cel mai recent meci la dreapta). In clasamentul intern al modelului, Cardiff e pe locul 31 la atac, Charlton pe 33, din 36 echipe. Se asteapta un meci inchis: 57% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+   "explanation": "Cardiff e favorita, cu 42% sanse de victorie. Goluri asteptate: 1.35 pentru Cardiff, 1.06 pentru Charlton. Forma recenta — Cardiff: EEIIEI, Charlton: VVEIEE (cel mai recent meci la dreapta). In clasamentul intern al modelului, Cardiff e pe locul 31 la atac, Charlton pe 33, din 36 echipe. Se asteapta un meci inchis: 57% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
   },
   {
    "id": "E1_20260919_Millwall_WestHam",
@@ -1552,13 +372,13 @@
    "home": "Millwall",
    "away": "West Ham",
    "probs": {
-    "p_home": 0.2977,
-    "p_draw": 0.2498,
-    "p_away": 0.4525,
-    "p_over25": 0.6091,
-    "p_btts": 0.6304,
-    "p_under25": 0.3909,
-    "p_no_btts": 0.3696
+    "p_home": 0.2976,
+    "p_draw": 0.25,
+    "p_away": 0.4524,
+    "p_over25": 0.6086,
+    "p_btts": 0.63,
+    "p_under25": 0.3914,
+    "p_no_btts": 0.37
    },
    "expected_goals": {
     "home": 1.39,
@@ -1572,7 +392,7 @@
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1137
+     "p": 0.1138
     },
     {
      "score": "1-2",
@@ -1584,11 +404,11 @@
     },
     {
      "score": "0-1",
-     "p": 0.0667
+     "p": 0.0668
     },
     {
      "score": "0-2",
-     "p": 0.0661
+     "p": 0.0662
     }
    ],
    "reference_odds": {
@@ -1640,13 +460,13 @@
    "home": "Stoke",
    "away": "Sheffield United",
    "probs": {
-    "p_home": 0.3717,
-    "p_draw": 0.2902,
+    "p_home": 0.3716,
+    "p_draw": 0.2903,
     "p_away": 0.3381,
-    "p_over25": 0.4595,
-    "p_btts": 0.5219,
-    "p_under25": 0.5405,
-    "p_no_btts": 0.4781
+    "p_over25": 0.459,
+    "p_btts": 0.5215,
+    "p_under25": 0.541,
+    "p_no_btts": 0.4785
    },
    "expected_goals": {
     "home": 1.29,
@@ -1660,23 +480,23 @@
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1384
+     "p": 0.1385
     },
     {
      "score": "1-0",
-     "p": 0.0941
+     "p": 0.0942
     },
     {
      "score": "0-0",
-     "p": 0.0916
+     "p": 0.0918
     },
     {
      "score": "0-1",
-     "p": 0.0884
+     "p": 0.0885
     },
     {
      "score": "2-1",
-     "p": 0.0826
+     "p": 0.0825
     }
    ],
    "reference_odds": {
@@ -2120,9 +940,9 @@
     "p_draw": 0.2376,
     "p_away": 0.3104,
     "p_over25": 0.6588,
-    "p_btts": 0.6686,
+    "p_btts": 0.6685,
     "p_under25": 0.3412,
-    "p_no_btts": 0.3314
+    "p_no_btts": 0.3315
    },
    "expected_goals": {
     "home": 1.87,
@@ -2235,7 +1055,7 @@
    "home": "Hamburg",
    "away": "FC Koln",
    "probs": {
-    "p_home": 0.3802,
+    "p_home": 0.3801,
     "p_draw": 0.2589,
     "p_away": 0.361,
     "p_over25": 0.5794,
@@ -2620,7 +1440,7 @@
     },
     {
      "score": "0-0",
-     "p": 0.1075
+     "p": 0.1076
     },
     {
      "score": "0-1",
@@ -2694,8 +1514,8 @@
    "away": "Arsenal",
    "probs": {
     "p_home": 0.2238,
-    "p_draw": 0.2959,
-    "p_away": 0.4803,
+    "p_draw": 0.296,
+    "p_away": 0.4802,
     "p_over25": 0.4404,
     "p_btts": 0.4919,
     "p_under25": 0.5596,
@@ -2812,8 +1632,8 @@
    "home": "Everton",
    "away": "Ipswich",
    "probs": {
-    "p_home": 0.5901,
-    "p_draw": 0.2345,
+    "p_home": 0.5902,
+    "p_draw": 0.2344,
     "p_away": 0.1754,
     "p_over25": 0.6047,
     "p_btts": 0.5852,
@@ -2848,7 +1668,7 @@
     },
     {
      "score": "3-1",
-     "p": 0.0682
+     "p": 0.0683
     }
    ],
    "reference_odds": {
@@ -2913,13 +1733,13 @@
    "home": "Newcastle",
    "away": "Hull",
    "probs": {
-    "p_home": 0.3002,
+    "p_home": 0.3,
     "p_draw": 0.3259,
-    "p_away": 0.3739,
-    "p_over25": 0.3817,
-    "p_btts": 0.4653,
-    "p_under25": 0.6183,
-    "p_no_btts": 0.5347
+    "p_away": 0.3741,
+    "p_over25": 0.3815,
+    "p_btts": 0.4652,
+    "p_under25": 0.6185,
+    "p_no_btts": 0.5348
    },
    "expected_goals": {
     "home": 1.03,
@@ -2937,11 +1757,11 @@
     },
     {
      "score": "0-0",
-     "p": 0.1274
+     "p": 0.1275
     },
     {
      "score": "0-1",
-     "p": 0.1104
+     "p": 0.1105
     },
     {
      "score": "1-0",
@@ -2949,7 +1769,7 @@
     },
     {
      "score": "1-2",
-     "p": 0.0787
+     "p": 0.0788
     }
    ],
    "reference_odds": {
@@ -3014,31 +1834,31 @@
    "home": "Birmingham",
    "away": "Middlesbrough",
    "probs": {
-    "p_home": 0.3494,
-    "p_draw": 0.2827,
+    "p_home": 0.3492,
+    "p_draw": 0.2828,
     "p_away": 0.368,
-    "p_over25": 0.4892,
-    "p_btts": 0.5455,
-    "p_under25": 0.5108,
-    "p_no_btts": 0.4545
+    "p_over25": 0.4889,
+    "p_btts": 0.5452,
+    "p_under25": 0.5111,
+    "p_no_btts": 0.4548
    },
    "expected_goals": {
-    "home": 1.3,
-    "away": 1.34
+    "home": 1.29,
+    "away": 1.33
    },
    "confidence": "ridicata",
    "sample": {
-    "home_matches": 93,
-    "away_matches": 139
+    "home_matches": 92,
+    "away_matches": 138
    },
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1349
+     "p": 0.135
     },
     {
      "score": "0-1",
-     "p": 0.0859
+     "p": 0.086
     },
     {
      "score": "1-2",
@@ -3046,11 +1866,11 @@
     },
     {
      "score": "1-0",
-     "p": 0.083
+     "p": 0.0831
     },
     {
      "score": "0-0",
-     "p": 0.0823
+     "p": 0.0825
     }
    ],
    "reference_odds": {
@@ -3122,7 +1942,7 @@
      }
     ]
    },
-   "explanation": "Meci echilibrat: modelul nu vede un favorit clar (35% / 28% / 37%). Goluri asteptate: 1.30 pentru Birmingham, 1.34 pentru Middlesbrough. Forma recenta — Birmingham: EVEEIV, Middlesbrough: IVEVVE (cel mai recent meci la dreapta). In clasamentul intern al modelului, Birmingham e pe locul 19 la atac, Middlesbrough pe 7, din 36 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+   "explanation": "Meci echilibrat: modelul nu vede un favorit clar (35% / 28% / 37%). Goluri asteptate: 1.29 pentru Birmingham, 1.33 pentru Middlesbrough. Forma recenta — Birmingham: EVEEIV, Middlesbrough: IVEVVE (cel mai recent meci la dreapta). In clasamentul intern al modelului, Birmingham e pe locul 19 la atac, Middlesbrough pe 7, din 36 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
   },
   {
    "id": "E1_20260919_Burnley_Derby",
@@ -3133,13 +1953,13 @@
    "home": "Burnley",
    "away": "Derby",
    "probs": {
-    "p_home": 0.5215,
-    "p_draw": 0.2709,
-    "p_away": 0.2075,
-    "p_over25": 0.4585,
-    "p_btts": 0.4882,
-    "p_under25": 0.5415,
-    "p_no_btts": 0.5118
+    "p_home": 0.5213,
+    "p_draw": 0.2711,
+    "p_away": 0.2076,
+    "p_over25": 0.4581,
+    "p_btts": 0.4879,
+    "p_under25": 0.5419,
+    "p_no_btts": 0.5121
    },
    "expected_goals": {
     "home": 1.59,
@@ -3153,15 +1973,15 @@
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1286
+     "p": 0.1287
     },
     {
      "score": "1-0",
-     "p": 0.1196
+     "p": 0.1197
     },
     {
      "score": "2-0",
-     "p": 0.1029
+     "p": 0.103
     },
     {
      "score": "2-1",
@@ -3169,7 +1989,7 @@
     },
     {
      "score": "0-0",
-     "p": 0.0912
+     "p": 0.0913
     }
    ],
    "reference_odds": {
@@ -3246,13 +2066,13 @@
    "home": "Lincoln",
    "away": "Swansea",
    "probs": {
-    "p_home": 0.3141,
-    "p_draw": 0.3461,
+    "p_home": 0.3139,
+    "p_draw": 0.3463,
     "p_away": 0.3398,
-    "p_over25": 0.2814,
-    "p_btts": 0.3738,
-    "p_under25": 0.7186,
-    "p_no_btts": 0.6262
+    "p_over25": 0.281,
+    "p_btts": 0.3735,
+    "p_under25": 0.719,
+    "p_no_btts": 0.6265
    },
    "expected_goals": {
     "home": 0.9,
@@ -3261,12 +2081,12 @@
    "confidence": "scazuta",
    "sample": {
     "home_matches": 7,
-    "away_matches": 139
+    "away_matches": 138
    },
    "top_scores": [
     {
      "score": "0-0",
-     "p": 0.1692
+     "p": 0.1694
     },
     {
      "score": "1-1",
@@ -3274,11 +2094,11 @@
     },
     {
      "score": "0-1",
-     "p": 0.1384
+     "p": 0.1385
     },
     {
      "score": "1-0",
-     "p": 0.1309
+     "p": 0.131
     },
     {
      "score": "0-2",
@@ -3323,7 +2143,7 @@
     },
     "h2h": []
    },
-   "explanation": "Meci echilibrat: modelul nu vede un favorit clar (31% / 35% / 34%). Goluri asteptate: 0.90 pentru Lincoln, 0.95 pentru Swansea. Forma recenta — Lincoln: IVEEVV, Swansea: EVVEIV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Lincoln e pe locul 34 la atac, Swansea pe 15, din 36 echipe. Se asteapta un meci inchis: 72% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+   "explanation": "Meci echilibrat: modelul nu vede un favorit clar (31% / 35% / 34%). Goluri asteptate: 0.90 pentru Lincoln, 0.95 pentru Swansea. Forma recenta — Lincoln: IVEEVV, Swansea: EVVEIV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Lincoln e pe locul 34 la atac, Swansea pe 14, din 36 echipe. Se asteapta un meci inchis: 72% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
   },
   {
    "id": "E1_20260919_Portsmouth_Blackburn",
@@ -3334,13 +2154,13 @@
    "home": "Portsmouth",
    "away": "Blackburn",
    "probs": {
-    "p_home": 0.3874,
-    "p_draw": 0.311,
+    "p_home": 0.3872,
+    "p_draw": 0.3112,
     "p_away": 0.3016,
-    "p_over25": 0.3805,
-    "p_btts": 0.4563,
-    "p_under25": 0.6195,
-    "p_no_btts": 0.5437
+    "p_over25": 0.3801,
+    "p_btts": 0.456,
+    "p_under25": 0.6199,
+    "p_no_btts": 0.544
    },
    "expected_goals": {
     "home": 1.19,
@@ -3354,19 +2174,19 @@
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1441
+     "p": 0.1442
     },
     {
      "score": "0-0",
-     "p": 0.1205
+     "p": 0.1207
     },
     {
      "score": "1-0",
-     "p": 0.1194
+     "p": 0.1195
     },
     {
      "score": "0-1",
-     "p": 0.1007
+     "p": 0.1008
     },
     {
      "score": "2-1",
@@ -3448,12 +2268,12 @@
    "away": "Preston",
    "probs": {
     "p_home": 0.4963,
-    "p_draw": 0.2708,
-    "p_away": 0.2329,
-    "p_over25": 0.4828,
-    "p_btts": 0.5178,
-    "p_under25": 0.5172,
-    "p_no_btts": 0.4822
+    "p_draw": 0.2709,
+    "p_away": 0.2328,
+    "p_over25": 0.4824,
+    "p_btts": 0.5175,
+    "p_under25": 0.5176,
+    "p_no_btts": 0.4825
    },
    "expected_goals": {
     "home": 1.59,
@@ -3461,21 +2281,21 @@
    },
    "confidence": "ridicata",
    "sample": {
-    "home_matches": 139,
-    "away_matches": 139
+    "home_matches": 138,
+    "away_matches": 138
    },
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1292
+     "p": 0.1293
     },
     {
      "score": "1-0",
-     "p": 0.1075
+     "p": 0.1076
     },
     {
      "score": "2-1",
-     "p": 0.0948
+     "p": 0.0947
     },
     {
      "score": "2-0",
@@ -3483,7 +2303,7 @@
     },
     {
      "score": "0-0",
-     "p": 0.0838
+     "p": 0.0839
     }
    ],
    "reference_odds": {
@@ -3566,13 +2386,13 @@
    "home": "Wrexham",
    "away": "Southampton",
    "probs": {
-    "p_home": 0.2874,
+    "p_home": 0.2873,
     "p_draw": 0.2496,
-    "p_away": 0.463,
+    "p_away": 0.4632,
     "p_over25": 0.6048,
-    "p_btts": 0.6251,
+    "p_btts": 0.625,
     "p_under25": 0.3952,
-    "p_no_btts": 0.3749
+    "p_no_btts": 0.375
    },
    "expected_goals": {
     "home": 1.36,
@@ -3581,16 +2401,16 @@
    "confidence": "ridicata",
    "sample": {
     "home_matches": 53,
-    "away_matches": 93
+    "away_matches": 92
    },
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1141
+     "p": 0.114
     },
     {
      "score": "1-2",
-     "p": 0.0931
+     "p": 0.0932
     },
     {
      "score": "2-1",
@@ -3602,7 +2422,7 @@
     },
     {
      "score": "0-2",
-     "p": 0.0685
+     "p": 0.0686
     }
    ],
    "reference_odds": {
@@ -3671,9 +2491,9 @@
     "p_draw": 0.2645,
     "p_away": 0.2598,
     "p_over25": 0.4438,
-    "p_btts": 0.484,
+    "p_btts": 0.4841,
     "p_under25": 0.5562,
-    "p_no_btts": 0.516
+    "p_no_btts": 0.5159
    },
    "expected_goals": {
     "home": 1.45,
@@ -3786,12 +2606,12 @@
    "home": "Den Haag",
    "away": "Cambuur",
    "probs": {
-    "p_home": 0.3075,
+    "p_home": 0.3076,
     "p_draw": 0.2271,
     "p_away": 0.4654,
-    "p_over25": 0.7428,
+    "p_over25": 0.7429,
     "p_btts": 0.7367,
-    "p_under25": 0.2572,
+    "p_under25": 0.2571,
     "p_no_btts": 0.2633
    },
    "expected_goals": {
@@ -3899,7 +2719,7 @@
    "home": "Gil Vicente",
    "away": "Maritimo",
    "probs": {
-    "p_home": 0.6033,
+    "p_home": 0.6032,
     "p_draw": 0.2211,
     "p_away": 0.1757,
     "p_over25": 0.4963,
@@ -3919,7 +2739,7 @@
    "top_scores": [
     {
      "score": "1-0",
-     "p": 0.1295
+     "p": 0.1296
     },
     {
      "score": "2-0",
@@ -4383,7 +3203,7 @@
     },
     {
      "score": "0-1",
-     "p": 0.0838
+     "p": 0.0839
     },
     {
      "score": "2-1",
@@ -4596,9 +3416,9 @@
     "p_home": 0.4076,
     "p_draw": 0.2449,
     "p_away": 0.3475,
-    "p_over25": 0.6387,
+    "p_over25": 0.6388,
     "p_btts": 0.6578,
-    "p_under25": 0.3613,
+    "p_under25": 0.3612,
     "p_no_btts": 0.3422
    },
    "expected_goals": {
@@ -4886,7 +3706,7 @@
    "home": "Sparta Rotterdam",
    "away": "Heerenveen",
    "probs": {
-    "p_home": 0.3582,
+    "p_home": 0.3583,
     "p_draw": 0.2713,
     "p_away": 0.3704,
     "p_over25": 0.5809,
@@ -5029,7 +3849,7 @@
     },
     {
      "score": "1-0",
-     "p": 0.1083
+     "p": 0.1084
     },
     {
      "score": "2-1",
@@ -5106,13 +3926,13 @@
    "home": "Univ. Craiova",
    "away": "FCSB",
    "probs": {
-    "p_home": 0.6303,
+    "p_home": 0.6304,
     "p_draw": 0.2144,
     "p_away": 0.1552,
     "p_over25": 0.5501,
-    "p_btts": 0.5106,
+    "p_btts": 0.5105,
     "p_under25": 0.4499,
-    "p_no_btts": 0.4894
+    "p_no_btts": 0.4895
    },
    "expected_goals": {
     "home": 2.0,
@@ -5223,7 +4043,7 @@
    "home": "Ajax",
    "away": "Excelsior",
    "probs": {
-    "p_home": 0.5734,
+    "p_home": 0.5733,
     "p_draw": 0.2386,
     "p_away": 0.188,
     "p_over25": 0.6002,
@@ -5344,10 +4164,10 @@
    "probs": {
     "p_home": 0.4341,
     "p_draw": 0.265,
-    "p_away": 0.3009,
-    "p_over25": 0.5112,
+    "p_away": 0.3008,
+    "p_over25": 0.5111,
     "p_btts": 0.5526,
-    "p_under25": 0.4888,
+    "p_under25": 0.4889,
     "p_no_btts": 0.4474
    },
    "expected_goals": {
@@ -5549,7 +4369,7 @@
    "home": "Angers",
    "away": "Troyes",
    "probs": {
-    "p_home": 0.4701,
+    "p_home": 0.4702,
     "p_draw": 0.2707,
     "p_away": 0.2592,
     "p_over25": 0.485,
@@ -5581,7 +4401,7 @@
     },
     {
      "score": "2-0",
-     "p": 0.0862
+     "p": 0.0863
     },
     {
      "score": "0-0",
@@ -5668,16 +4488,16 @@
    "home": "Le Mans",
    "away": "Lorient",
    "probs": {
-    "p_home": 0.405,
+    "p_home": 0.4049,
     "p_draw": 0.2524,
-    "p_away": 0.3426,
+    "p_away": 0.3427,
     "p_over25": 0.5959,
     "p_btts": 0.6241,
     "p_under25": 0.4041,
     "p_no_btts": 0.3759
    },
    "expected_goals": {
-    "home": 1.62,
+    "home": 1.61,
     "away": 1.47
    },
    "confidence": "scazuta",
@@ -5743,7 +4563,7 @@
     },
     "h2h": []
    },
-   "explanation": "Meci echilibrat: modelul nu vede un favorit clar (41% / 25% / 34%). Goluri asteptate: 1.62 pentru Le Mans, 1.47 pentru Lorient. Forma recenta — Le Mans: EIEE, Lorient: VIEIVE (cel mai recent meci la dreapta). In clasamentul intern al modelului, Le Mans e pe locul 7 la atac, Lorient pe 12, din 24 echipe. Se asteapta un meci deschis: 60% sanse la peste 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+   "explanation": "Meci echilibrat: modelul nu vede un favorit clar (40% / 25% / 34%). Goluri asteptate: 1.61 pentru Le Mans, 1.47 pentru Lorient. Forma recenta — Le Mans: EIEE, Lorient: VIEIVE (cel mai recent meci la dreapta). In clasamentul intern al modelului, Le Mans e pe locul 7 la atac, Lorient pe 12, din 24 echipe. Se asteapta un meci deschis: 60% sanse la peste 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
   },
   {
    "id": "F1_20260919_Lyon_Rennes",
@@ -5994,7 +4814,7 @@
    "probs": {
     "p_home": 0.2045,
     "p_draw": 0.2275,
-    "p_away": 0.568,
+    "p_away": 0.5679,
     "p_over25": 0.5228,
     "p_btts": 0.5173,
     "p_under25": 0.4772,
@@ -6016,7 +4836,7 @@
     },
     {
      "score": "1-1",
-     "p": 0.108
+     "p": 0.1081
     },
     {
      "score": "0-2",
@@ -6141,7 +4961,7 @@
     },
     {
      "score": "0-0",
-     "p": 0.0668
+     "p": 0.0667
     }
    ],
    "reference_odds": {
@@ -6462,7 +5282,7 @@
    "home": "Feyenoord",
    "away": "Utrecht",
    "probs": {
-    "p_home": 0.6026,
+    "p_home": 0.6027,
     "p_draw": 0.219,
     "p_away": 0.1783,
     "p_over25": 0.6619,
@@ -6700,13 +5520,13 @@
    "home": "Wolves",
    "away": "West Brom",
    "probs": {
-    "p_home": 0.5238,
-    "p_draw": 0.2538,
-    "p_away": 0.2224,
-    "p_over25": 0.537,
-    "p_btts": 0.5535,
-    "p_under25": 0.463,
-    "p_no_btts": 0.4465
+    "p_home": 0.5235,
+    "p_draw": 0.254,
+    "p_away": 0.2225,
+    "p_over25": 0.5366,
+    "p_btts": 0.5532,
+    "p_under25": 0.4634,
+    "p_no_btts": 0.4468
    },
    "expected_goals": {
     "home": 1.75,
@@ -6720,7 +5540,7 @@
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1206
+     "p": 0.1207
     },
     {
      "score": "2-1",
@@ -6728,7 +5548,7 @@
     },
     {
      "score": "1-0",
-     "p": 0.0945
+     "p": 0.0947
     },
     {
      "score": "2-0",
@@ -6736,7 +5556,7 @@
     },
     {
      "score": "0-0",
-     "p": 0.0684
+     "p": 0.0685
     }
    ],
    "reference_odds": {
@@ -6790,7 +5610,7 @@
    "probs": {
     "p_home": 0.2499,
     "p_draw": 0.2279,
-    "p_away": 0.5223,
+    "p_away": 0.5222,
     "p_over25": 0.6218,
     "p_btts": 0.6201,
     "p_under25": 0.3782,
@@ -7143,13 +5963,13 @@
    "home": "Norwich",
    "away": "Bolton",
    "probs": {
-    "p_home": 0.6418,
-    "p_draw": 0.2008,
+    "p_home": 0.6417,
+    "p_draw": 0.2009,
     "p_away": 0.1574,
-    "p_over25": 0.6611,
-    "p_btts": 0.6044,
-    "p_under25": 0.3389,
-    "p_no_btts": 0.3956
+    "p_over25": 0.6607,
+    "p_btts": 0.6041,
+    "p_under25": 0.3393,
+    "p_no_btts": 0.3959
    },
    "expected_goals": {
     "home": 2.32,
@@ -7167,11 +5987,11 @@
     },
     {
      "score": "1-1",
-     "p": 0.0906
+     "p": 0.0907
     },
     {
      "score": "2-0",
-     "p": 0.0892
+     "p": 0.0893
     },
     {
      "score": "3-1",
@@ -7179,7 +5999,7 @@
     },
     {
      "score": "1-0",
-     "p": 0.0701
+     "p": 0.0702
     }
    ],
    "reference_odds": {
@@ -7482,7 +6302,7 @@
    "home": "Bournemouth",
    "away": "Liverpool",
    "probs": {
-    "p_home": 0.3775,
+    "p_home": 0.3776,
     "p_draw": 0.2654,
     "p_away": 0.357,
     "p_over25": 0.6106,
@@ -7601,9 +6421,9 @@
    "home": "Leeds",
    "away": "Crystal Palace",
    "probs": {
-    "p_home": 0.4675,
+    "p_home": 0.4676,
     "p_draw": 0.2828,
-    "p_away": 0.2497,
+    "p_away": 0.2496,
     "p_over25": 0.5054,
     "p_btts": 0.5496,
     "p_under25": 0.4946,
@@ -7723,9 +6543,9 @@
     "p_home": 0.6254,
     "p_draw": 0.248,
     "p_away": 0.1266,
-    "p_over25": 0.471,
+    "p_over25": 0.4711,
     "p_btts": 0.4464,
-    "p_under25": 0.529,
+    "p_under25": 0.5289,
     "p_no_btts": 0.5536
    },
    "expected_goals": {
@@ -7841,10 +6661,10 @@
    "probs": {
     "p_home": 0.3816,
     "p_draw": 0.2705,
-    "p_away": 0.3479,
-    "p_over25": 0.5194,
+    "p_away": 0.3478,
+    "p_over25": 0.5195,
     "p_btts": 0.5664,
-    "p_under25": 0.4806,
+    "p_under25": 0.4805,
     "p_no_btts": 0.4336
    },
    "expected_goals": {
@@ -7958,17 +6778,17 @@
    "home": "Frosinone",
    "away": "Como",
    "probs": {
-    "p_home": 0.2631,
+    "p_home": 0.2632,
     "p_draw": 0.2349,
-    "p_away": 0.502,
+    "p_away": 0.5019,
     "p_over25": 0.5517,
-    "p_btts": 0.5651,
+    "p_btts": 0.565,
     "p_under25": 0.4483,
-    "p_no_btts": 0.4349
+    "p_no_btts": 0.435
    },
    "expected_goals": {
     "home": 1.17,
-    "away": 1.72
+    "away": 1.71
    },
    "confidence": "medie",
    "sample": {
@@ -8035,7 +6855,7 @@
     },
     "h2h": []
    },
-   "explanation": "Como e favorita, cu 50% sanse de victorie. Goluri asteptate: 1.17 pentru Frosinone, 1.72 pentru Como. Forma recenta — Frosinone: VIIVVE, Como: VVEVVV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Frosinone e pe locul 8 la atac, Como pe 3, din 25 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+   "explanation": "Como e favorita, cu 50% sanse de victorie. Goluri asteptate: 1.17 pentru Frosinone, 1.71 pentru Como. Forma recenta — Frosinone: VIIVVE, Como: VVEVVV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Frosinone e pe locul 8 la atac, Como pe 3, din 25 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
   },
   {
    "id": "I1_20260920_Parma_Genoa",
@@ -8046,12 +6866,12 @@
    "home": "Parma",
    "away": "Genoa",
    "probs": {
-    "p_home": 0.3332,
+    "p_home": 0.3333,
     "p_draw": 0.3074,
     "p_away": 0.3593,
-    "p_over25": 0.3142,
+    "p_over25": 0.3143,
     "p_btts": 0.3895,
-    "p_under25": 0.6858,
+    "p_under25": 0.6857,
     "p_no_btts": 0.6105
    },
    "expected_goals": {
@@ -8287,9 +7107,9 @@
     "p_home": 0.4894,
     "p_draw": 0.2381,
     "p_away": 0.2725,
-    "p_over25": 0.6093,
+    "p_over25": 0.6092,
     "p_btts": 0.6199,
-    "p_under25": 0.3907,
+    "p_under25": 0.3908,
     "p_no_btts": 0.3801
    },
    "expected_goals": {
@@ -8405,10 +7225,10 @@
    "probs": {
     "p_home": 0.3601,
     "p_draw": 0.2411,
-    "p_away": 0.3989,
-    "p_over25": 0.5849,
+    "p_away": 0.3988,
+    "p_over25": 0.5848,
     "p_btts": 0.6093,
-    "p_under25": 0.4151,
+    "p_under25": 0.4152,
     "p_no_btts": 0.3907
    },
    "expected_goals": {
@@ -8522,8 +7342,8 @@
    "home": "Estrela",
    "away": "Academico Viseu",
    "probs": {
-    "p_home": 0.4365,
-    "p_draw": 0.2399,
+    "p_home": 0.4366,
+    "p_draw": 0.2398,
     "p_away": 0.3236,
     "p_over25": 0.5512,
     "p_btts": 0.5767,
@@ -8611,7 +7431,7 @@
    "away": "Moreirense",
    "probs": {
     "p_home": 0.4941,
-    "p_draw": 0.257,
+    "p_draw": 0.2569,
     "p_away": 0.249,
     "p_over25": 0.437,
     "p_btts": 0.4706,
@@ -9053,7 +7873,7 @@
    "away": "Man United",
    "probs": {
     "p_home": 0.3008,
-    "p_draw": 0.2825,
+    "p_draw": 0.2826,
     "p_away": 0.4167,
     "p_over25": 0.5329,
     "p_btts": 0.5817,
@@ -9172,8 +7992,8 @@
    "away": "Atalanta",
    "probs": {
     "p_home": 0.4997,
-    "p_draw": 0.25,
-    "p_away": 0.2504,
+    "p_draw": 0.2499,
+    "p_away": 0.2503,
     "p_over25": 0.4773,
     "p_btts": 0.504,
     "p_under25": 0.5227,
@@ -9290,9 +8110,9 @@
    "home": "Club Brugge",
    "away": "Genk",
    "probs": {
-    "p_home": 0.5869,
+    "p_home": 0.5868,
     "p_draw": 0.2162,
-    "p_away": 0.1969,
+    "p_away": 0.197,
     "p_over25": 0.6256,
     "p_btts": 0.6001,
     "p_under25": 0.3744,
@@ -9412,9 +8232,9 @@
     "p_home": 0.3284,
     "p_draw": 0.2417,
     "p_away": 0.4299,
-    "p_over25": 0.5745,
+    "p_over25": 0.5744,
     "p_btts": 0.5987,
-    "p_under25": 0.4255,
+    "p_under25": 0.4256,
     "p_no_btts": 0.4013
    },
    "expected_goals": {
@@ -9532,9 +8352,9 @@
     "p_draw": 0.194,
     "p_away": 0.1809,
     "p_over25": 0.6579,
-    "p_btts": 0.6075,
+    "p_btts": 0.6076,
     "p_under25": 0.3421,
-    "p_no_btts": 0.3925
+    "p_no_btts": 0.3924
    },
    "expected_goals": {
     "home": 2.25,
@@ -9667,7 +8487,7 @@
    "top_scores": [
     {
      "score": "1-0",
-     "p": 0.1299
+     "p": 0.13
     },
     {
      "score": "1-1",
@@ -9770,9 +8590,9 @@
     "p_draw": 0.2826,
     "p_away": 0.4113,
     "p_over25": 0.375,
-    "p_btts": 0.4359,
+    "p_btts": 0.4358,
     "p_under25": 0.625,
-    "p_no_btts": 0.5641
+    "p_no_btts": 0.5642
    },
    "expected_goals": {
     "home": 0.99,
@@ -9885,12 +8705,12 @@
    "home": "Kortrijk",
    "away": "Beveren",
    "probs": {
-    "p_home": 0.273,
-    "p_draw": 0.2852,
-    "p_away": 0.4418,
-    "p_over25": 0.4225,
+    "p_home": 0.2729,
+    "p_draw": 0.2851,
+    "p_away": 0.4419,
+    "p_over25": 0.4226,
     "p_btts": 0.4787,
-    "p_under25": 0.5775,
+    "p_under25": 0.5774,
     "p_no_btts": 0.5213
    },
    "expected_goals": {
@@ -9913,7 +8733,7 @@
     },
     {
      "score": "0-0",
-     "p": 0.0994
+     "p": 0.0993
     },
     {
      "score": "1-0",
@@ -10089,9 +8909,9 @@
     "p_home": 0.6802,
     "p_draw": 0.1987,
     "p_away": 0.1211,
-    "p_over25": 0.5434,
+    "p_over25": 0.5433,
     "p_btts": 0.4696,
-    "p_under25": 0.4566,
+    "p_under25": 0.4567,
     "p_no_btts": 0.5304
    },
    "expected_goals": {
@@ -10110,7 +8930,7 @@
     },
     {
      "score": "1-0",
-     "p": 0.1177
+     "p": 0.1178
     },
     {
      "score": "2-1",
@@ -10295,9 +9115,9 @@
     "p_draw": 0.2306,
     "p_away": 0.1512,
     "p_over25": 0.4343,
-    "p_btts": 0.4121,
+    "p_btts": 0.412,
     "p_under25": 0.5657,
-    "p_no_btts": 0.5879
+    "p_no_btts": 0.588
    },
    "expected_goals": {
     "home": 1.71,
@@ -10549,11 +9369,11 @@
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1247
+     "p": 0.1246
     },
     {
      "score": "1-0",
-     "p": 0.1115
+     "p": 0.1116
     },
     {
      "score": "0-1",
@@ -10638,6 +9458,197 @@
     ]
    },
    "explanation": "Meci echilibrat: modelul nu vede un favorit clar (40% / 26% / 34%). Goluri asteptate: 1.31 pentru Porto, 1.19 pentru Benfica. Forma recenta — Porto: VVVVVV, Benfica: EVVVVV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Porto e pe locul 3 la atac, Benfica pe 2, din 25 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+  },
+  {
+   "id": "ROU_Superliga_20260921_Otelul_Corvinul",
+   "league": "ROU_Superliga",
+   "league_name": "Romania — Superliga",
+   "date": "2026-09-21",
+   "time": "16:00",
+   "home": "Otelul",
+   "away": "Corvinul",
+   "probs": {
+    "p_home": 0.3684,
+    "p_draw": 0.3582,
+    "p_away": 0.2734,
+    "p_over25": 0.2192,
+    "p_btts": 0.3066,
+    "p_under25": 0.7808,
+    "p_no_btts": 0.6934
+   },
+   "expected_goals": {
+    "home": 0.89,
+    "away": 0.72
+   },
+   "confidence": "scazuta",
+   "sample": {
+    "home_matches": 118,
+    "away_matches": 9
+   },
+   "top_scores": [
+    {
+     "score": "0-0",
+     "p": 0.204
+    },
+    {
+     "score": "1-0",
+     "p": 0.1735
+    },
+    {
+     "score": "0-1",
+     "p": 0.1402
+    },
+    {
+     "score": "1-1",
+     "p": 0.1322
+    },
+    {
+     "score": "2-0",
+     "p": 0.0789
+    }
+   ],
+   "reference_odds": {
+    "home": 2.31,
+    "draw": 3.09,
+    "away": 2.84
+   },
+   "context": {
+    "home": {
+     "form": [
+      "I",
+      "E",
+      "V",
+      "E",
+      "I",
+      "I"
+     ],
+     "goals_for_avg": 0.67,
+     "goals_against_avg": 1.33,
+     "shots_on_target_avg": null,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "E",
+      "V",
+      "E",
+      "E",
+      "I",
+      "I"
+     ],
+     "goals_for_avg": 0.67,
+     "goals_against_avg": 0.67,
+     "shots_on_target_avg": null,
+     "matches_analysed": 6
+    },
+    "h2h": []
+   },
+   "explanation": "Otelul e favorita, cu 37% sanse de victorie. Goluri asteptate: 0.89 pentru Otelul, 0.72 pentru Corvinul. Forma recenta — Otelul: IEVEII, Corvinul: EVEEII (cel mai recent meci la dreapta). In clasamentul intern al modelului, Otelul e pe locul 13 la atac, Corvinul pe 22, din 25 echipe. Se asteapta un meci inchis: 78% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+  },
+  {
+   "id": "ROU_Superliga_20260921_Petrolul_CsikszeredaM.Ciuc",
+   "league": "ROU_Superliga",
+   "league_name": "Romania — Superliga",
+   "date": "2026-09-21",
+   "time": "19:00",
+   "home": "Petrolul",
+   "away": "Csikszereda M. Ciuc",
+   "probs": {
+    "p_home": 0.5828,
+    "p_draw": 0.249,
+    "p_away": 0.1682,
+    "p_over25": 0.4388,
+    "p_btts": 0.439,
+    "p_under25": 0.5612,
+    "p_no_btts": 0.561
+   },
+   "expected_goals": {
+    "home": 1.66,
+    "away": 0.77
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 117,
+    "away_matches": 50
+   },
+   "top_scores": [
+    {
+     "score": "1-0",
+     "p": 0.1423
+    },
+    {
+     "score": "2-0",
+     "p": 0.1212
+    },
+    {
+     "score": "1-1",
+     "p": 0.1161
+    },
+    {
+     "score": "2-1",
+     "p": 0.0935
+    },
+    {
+     "score": "0-0",
+     "p": 0.0914
+    }
+   ],
+   "reference_odds": {
+    "home": 1.67,
+    "draw": 3.53,
+    "away": 4.52
+   },
+   "context": {
+    "home": {
+     "form": [
+      "V",
+      "V",
+      "I",
+      "V",
+      "V",
+      "E"
+     ],
+     "goals_for_avg": 1.67,
+     "goals_against_avg": 1.17,
+     "shots_on_target_avg": null,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "I",
+      "E",
+      "I",
+      "I",
+      "I",
+      "I"
+     ],
+     "goals_for_avg": 1.0,
+     "goals_against_avg": 2.5,
+     "shots_on_target_avg": null,
+     "matches_analysed": 6
+    },
+    "h2h": [
+     {
+      "date": "2026-04-06",
+      "home": "Petrolul",
+      "away": "Csikszereda M. Ciuc",
+      "score": "2-0"
+     },
+     {
+      "date": "2026-03-01",
+      "home": "Petrolul",
+      "away": "Csikszereda M. Ciuc",
+      "score": "1-1"
+     },
+     {
+      "date": "2025-10-24",
+      "home": "Csikszereda M. Ciuc",
+      "away": "Petrolul",
+      "score": "1-1"
+     }
+    ]
+   },
+   "explanation": "Petrolul e favorita, cu 58% sanse de victorie. Goluri asteptate: 1.66 pentru Petrolul, 0.77 pentru Csikszereda M. Ciuc. Forma recenta — Petrolul: VVIVVE, Csikszereda M. Ciuc: IEIIII (cel mai recent meci la dreapta). In clasamentul intern al modelului, Petrolul e pe locul 17 la atac, Csikszereda M. Ciuc pe 18, din 25 echipe. Se asteapta un meci inchis: 56% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
   }
  ]
 }
