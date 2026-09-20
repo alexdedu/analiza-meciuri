@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-09-19T17:26:57+00:00",
+ "actualizat": "2026-09-20T04:59:57+00:00",
  "selectii": [
   {
    "cheie": "P1_20260919_SpLisbon_Arouca|home",
@@ -94,6 +94,38 @@
    "odds": 1.36,
    "band": "60-65%",
    "notat_la": "2026-09-18T19:32:14+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "B1_20260920_ClubBrugge_Genk|over25",
+   "match_id": "B1_20260920_ClubBrugge_Genk",
+   "date": "2026-09-20",
+   "league_name": "Jupiler Pro League",
+   "home": "Club Brugge",
+   "away": "Genk",
+   "market": "over25",
+   "market_label": "Peste 2.5 goluri",
+   "probability": 0.6256,
+   "odds": 1.38,
+   "band": "60-65%",
+   "notat_la": "2026-09-20T04:59:56+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "P1_20260920_SantaClara_SpBraga|under25",
+   "match_id": "P1_20260920_SantaClara_SpBraga",
+   "date": "2026-09-20",
+   "league_name": "Primeira Liga",
+   "home": "Santa Clara",
+   "away": "Sp Braga",
+   "market": "under25",
+   "market_label": "Sub 2.5 goluri",
+   "probability": 0.625,
+   "odds": 1.51,
+   "band": "60-65%",
+   "notat_la": "2026-09-20T04:59:56+00:00",
    "castigat": null,
    "scor": null
   }
