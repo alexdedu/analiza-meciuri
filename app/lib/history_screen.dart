@@ -278,8 +278,14 @@ class _Linie extends StatelessWidget {
     final culoare = s.isPending
         ? AppColors.textSecondary
         : (s.won! ? AppColors.positive : AppColors.negative);
+    // Rezultatele vin din fisierele football-data, care se publica de doua ori
+    // pe saptamana. Un meci jucat vineri poate ramane o zi-doua fara scor, si
+    // "nejucat" ar fi atunci o minciuna.
+    final acum = DateTime.now();
+    final asteaptaRezultatul = s.isPending &&
+        s.date.isBefore(DateTime(acum.year, acum.month, acum.day));
     final semn = s.isPending
-        ? Icons.schedule
+        ? (asteaptaRezultatul ? Icons.hourglass_empty : Icons.schedule)
         : (s.won! ? Icons.check_rounded : Icons.close_rounded);
 
     return Container(
@@ -337,7 +343,7 @@ class _Linie extends StatelessWidget {
               const SizedBox(height: 3),
               Text(
                 s.profitUnits == null
-                    ? 'nejucat'
+                    ? (asteaptaRezultatul ? 'așteaptă scorul' : 'nejucat')
                     : '${s.profitUnits! >= 0 ? '+' : ''}'
                         '${s.profitUnits!.toStringAsFixed(2)}u',
                 style: TextStyle(

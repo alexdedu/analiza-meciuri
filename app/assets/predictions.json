@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-20T09:27:26+00:00",
+ "generated_at": "2026-09-20T10:18:07+00:00",
  "recommendations": [
   {
    "match_id": "N1_20260920_Nijmegen_GoAheadEagles",
@@ -107,7 +107,113 @@
   "profit_units": null,
   "roi": null,
   "by_band": [],
-  "since": "2026-09-19"
+  "since": "2026-09-19",
+  "selections": [
+   {
+    "match_id": "P1_20260920_SantaClara_SpBraga",
+    "date": "2026-09-20",
+    "league_name": "Primeira Liga",
+    "home": "Santa Clara",
+    "away": "Sp Braga",
+    "market_label": "Sub 2.5 goluri",
+    "probability": 0.625,
+    "odds": 1.51,
+    "band": "60-65%",
+    "won": null,
+    "score": null
+   },
+   {
+    "match_id": "B1_20260920_ClubBrugge_Genk",
+    "date": "2026-09-20",
+    "league_name": "Jupiler Pro League",
+    "home": "Club Brugge",
+    "away": "Genk",
+    "market_label": "Peste 2.5 goluri",
+    "probability": 0.6256,
+    "odds": 1.38,
+    "band": "60-65%",
+    "won": null,
+    "score": null
+   },
+   {
+    "match_id": "SP1_20260920_Villarreal_Levante",
+    "date": "2026-09-20",
+    "league_name": "La Liga",
+    "home": "Villarreal",
+    "away": "Levante",
+    "market_label": "Peste 2.5 goluri",
+    "probability": 0.6579,
+    "odds": 1.46,
+    "band": "65-70%",
+    "won": null,
+    "score": null
+   },
+   {
+    "match_id": "N1_20260920_Nijmegen_GoAheadEagles",
+    "date": "2026-09-20",
+    "league_name": "Eredivisie",
+    "home": "Nijmegen",
+    "away": "Go Ahead Eagles",
+    "market_label": "Peste 2.5 goluri",
+    "probability": 0.6987,
+    "odds": 1.33,
+    "band": "65-70%",
+    "won": null,
+    "score": null
+   },
+   {
+    "match_id": "F1_20260920_Marseille_ParisSG",
+    "date": "2026-09-20",
+    "league_name": "Ligue 1",
+    "home": "Marseille",
+    "away": "Paris SG",
+    "market_label": "Peste 2.5 goluri",
+    "probability": 0.6441,
+    "odds": 1.36,
+    "band": "60-65%",
+    "won": null,
+    "score": null
+   },
+   {
+    "match_id": "D1_20260920_Leverkusen_RBLeipzig",
+    "date": "2026-09-20",
+    "league_name": "Bundesliga",
+    "home": "Leverkusen",
+    "away": "RB Leipzig",
+    "market_label": "Peste 2.5 goluri",
+    "probability": 0.6752,
+    "odds": 1.33,
+    "band": "65-70%",
+    "won": null,
+    "score": null
+   },
+   {
+    "match_id": "P1_20260919_SpLisbon_Arouca",
+    "date": "2026-09-19",
+    "league_name": "Primeira Liga",
+    "home": "Sp Lisbon",
+    "away": "Arouca",
+    "market_label": "Victorie Sp Lisbon",
+    "probability": 0.7826,
+    "odds": 1.2,
+    "band": "70-80%",
+    "won": null,
+    "score": null
+   },
+   {
+    "match_id": "D1_20260919_EinFrankfurt_Freiburg",
+    "date": "2026-09-19",
+    "league_name": "Bundesliga",
+    "home": "Ein Frankfurt",
+    "away": "Freiburg",
+    "market_label": "Peste 2.5 goluri",
+    "probability": 0.6588,
+    "odds": 1.42,
+    "band": "65-70%",
+    "won": null,
+    "score": null
+   }
+  ]
  },
  "model": {
   "name": "Dixon-Coles + suturi pe poarta",
@@ -460,13 +566,13 @@
    "home": "FC Voluntari",
    "away": "U. Cluj",
    "probs": {
-    "p_home": 0.2506,
-    "p_draw": 0.2276,
-    "p_away": 0.5218,
-    "p_over25": 0.6227,
-    "p_btts": 0.621,
-    "p_under25": 0.3773,
-    "p_no_btts": 0.379
+    "p_home": 0.2499,
+    "p_draw": 0.2279,
+    "p_away": 0.5223,
+    "p_over25": 0.6218,
+    "p_btts": 0.6201,
+    "p_under25": 0.3782,
+    "p_no_btts": 0.3799
    },
    "expected_goals": {
     "home": 1.28,
@@ -480,23 +586,23 @@
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1027
+     "p": 0.1029
     },
     {
      "score": "1-2",
-     "p": 0.0961
+     "p": 0.0962
     },
     {
      "score": "0-2",
-     "p": 0.0749
+     "p": 0.0752
     },
     {
      "score": "0-1",
-     "p": 0.0746
+     "p": 0.0748
     },
     {
      "score": "2-1",
-     "p": 0.064
+     "p": 0.0639
     }
    ],
    "reference_odds": {
@@ -3758,16 +3864,16 @@
    "home": "Dinamo Bucuresti",
    "away": "Farul Constanta",
    "probs": {
-    "p_home": 0.6807,
-    "p_draw": 0.1983,
-    "p_away": 0.121,
-    "p_over25": 0.5438,
-    "p_btts": 0.4697,
-    "p_under25": 0.4562,
-    "p_no_btts": 0.5303
+    "p_home": 0.6802,
+    "p_draw": 0.1987,
+    "p_away": 0.1211,
+    "p_over25": 0.5433,
+    "p_btts": 0.4696,
+    "p_under25": 0.4567,
+    "p_no_btts": 0.5304
    },
    "expected_goals": {
-    "home": 2.1,
+    "home": 2.09,
     "away": 0.76
    },
    "confidence": "medie",
@@ -3782,7 +3888,7 @@
     },
     {
      "score": "1-0",
-     "p": 0.1177
+     "p": 0.1178
     },
     {
      "score": "2-1",
@@ -3790,11 +3896,11 @@
     },
     {
      "score": "1-1",
-     "p": 0.0944
+     "p": 0.0946
     },
     {
      "score": "3-0",
-     "p": 0.0883
+     "p": 0.0882
     }
    ],
    "reference_odds": {
@@ -3833,7 +3939,7 @@
     },
     "h2h": []
    },
-   "explanation": "Dinamo Bucuresti e favorita, cu 68% sanse de victorie. Goluri asteptate: 2.10 pentru Dinamo Bucuresti, 0.76 pentru Farul Constanta. Forma recenta — Dinamo Bucuresti: VVVEVV, Farul Constanta: VEEEEV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Dinamo Bucuresti e pe locul 2 la atac, Farul Constanta pe 12, din 25 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+   "explanation": "Dinamo Bucuresti e favorita, cu 68% sanse de victorie. Goluri asteptate: 2.09 pentru Dinamo Bucuresti, 0.76 pentru Farul Constanta. Forma recenta — Dinamo Bucuresti: VVVEVV, Farul Constanta: VEEEEV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Dinamo Bucuresti e pe locul 2 la atac, Farul Constanta pe 12, din 25 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
   },
   {
    "id": "F1_20260920_Marseille_ParisSG",
@@ -4320,13 +4426,13 @@
    "home": "Otelul",
    "away": "Corvinul",
    "probs": {
-    "p_home": 0.3697,
-    "p_draw": 0.3568,
-    "p_away": 0.2735,
-    "p_over25": 0.2214,
-    "p_btts": 0.3086,
-    "p_under25": 0.7786,
-    "p_no_btts": 0.6914
+    "p_home": 0.3681,
+    "p_draw": 0.3583,
+    "p_away": 0.2736,
+    "p_over25": 0.2191,
+    "p_btts": 0.3065,
+    "p_under25": 0.7809,
+    "p_no_btts": 0.6935
    },
    "expected_goals": {
     "home": 0.89,
@@ -4340,23 +4446,23 @@
    "top_scores": [
     {
      "score": "0-0",
-     "p": 0.2021
+     "p": 0.2041
     },
     {
      "score": "1-0",
-     "p": 0.1732
+     "p": 0.1735
     },
     {
      "score": "0-1",
-     "p": 0.1397
+     "p": 0.1403
     },
     {
      "score": "1-1",
-     "p": 0.1323
+     "p": 0.1322
     },
     {
      "score": "2-0",
-     "p": 0.0792
+     "p": 0.0788
     }
    ],
    "reference_odds": {
@@ -4406,12 +4512,12 @@
    "home": "Petrolul",
    "away": "Csikszereda M. Ciuc",
    "probs": {
-    "p_home": 0.5827,
-    "p_draw": 0.2489,
-    "p_away": 0.1684,
-    "p_over25": 0.4387,
+    "p_home": 0.5828,
+    "p_draw": 0.249,
+    "p_away": 0.1682,
+    "p_over25": 0.4388,
     "p_btts": 0.439,
-    "p_under25": 0.5613,
+    "p_under25": 0.5612,
     "p_no_btts": 0.561
    },
    "expected_goals": {
@@ -4426,15 +4532,15 @@
    "top_scores": [
     {
      "score": "1-0",
-     "p": 0.1424
+     "p": 0.1423
     },
     {
      "score": "2-0",
-     "p": 0.1211
+     "p": 0.1212
     },
     {
      "score": "1-1",
-     "p": 0.116
+     "p": 0.1161
     },
     {
      "score": "2-1",
@@ -4442,7 +4548,7 @@
     },
     {
      "score": "0-0",
-     "p": 0.0913
+     "p": 0.0914
     }
    ],
    "reference_odds": {

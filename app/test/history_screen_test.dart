@@ -7,9 +7,16 @@ import 'package:intl/date_symbol_data_local.dart';
 /// Ecranul asta e dovada bilantului. Daca ascunde o selectie pierduta sau
 /// scrie alt scor decat cel primit, tot restul aplicatiei devine nedemn de
 /// incredere, asa ca verificam fiecare stare in parte.
+/// Zilele se calculeaza fata de ceasul de acum: un meci "de maine" scris ca
+/// data fixa devine trecut peste o saptamana, iar testul ar incepe sa cada.
+DateTime cuZile(int zile) {
+  final a = DateTime.now();
+  return DateTime(a.year, a.month, a.day).add(Duration(days: zile));
+}
+
 SelectionRecord sel({
   String matchId = 'M1',
-  String date = '2026-09-19',
+  DateTime? date,
   String home = 'Gazda',
   String away = 'Oaspete',
   bool? won,
@@ -18,7 +25,7 @@ SelectionRecord sel({
 }) =>
     SelectionRecord(
       matchId: matchId,
-      date: DateTime.parse(date),
+      date: date ?? cuZile(-2),
       leagueName: 'Primeira Liga',
       home: home,
       away: away,
@@ -70,11 +77,24 @@ void main() {
     expect(find.text('-1.00u'), findsOneWidget);
   });
 
-  testWidgets('un meci nejucat nu primeste nici scor, nici profit',
+  testWidgets('un meci care nu s-a jucat inca nu primeste nici scor, nici profit',
       (tester) async {
-    await pump(tester, record([sel()], resolved: 0, hits: 0, rata: null, profit: null));
+    await pump(tester,
+        record([sel(date: cuZile(2))],
+            resolved: 0, hits: 0, rata: null, profit: null));
     expect(find.text('nejucat'), findsOneWidget);
     expect(find.text('—'), findsWidgets);
+  });
+
+  testWidgets('un meci jucat, dar fara scor in date, spune ca asteapta',
+      (tester) async {
+    // Rezultatele apar in sursa cu o zi-doua intarziere. Pana atunci, "nejucat"
+    // ar fi o minciuna.
+    await pump(tester,
+        record([sel(date: cuZile(-1))],
+            resolved: 0, hits: 0, rata: null, profit: null));
+    expect(find.text('așteaptă scorul'), findsOneWidget);
+    expect(find.text('nejucat'), findsNothing);
   });
 
   testWidgets('filtrul pe jucate lasa deoparte meciurile viitoare',
@@ -83,7 +103,7 @@ void main() {
       tester,
       record([
         sel(matchId: 'A', home: 'Jucat', won: true, score: '3-1'),
-        sel(matchId: 'B', home: 'Viitor', date: '2026-09-25'),
+        sel(matchId: 'B', home: 'Viitor', date: cuZile(5)),
       ]),
     );
     expect(find.text('Jucat – Oaspete'), findsOneWidget);
