@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-20T10:32:42+00:00",
+ "generated_at": "2026-09-20T13:36:38+00:00",
  "recommendations": [
   {
    "match_id": "N1_20260920_Nijmegen_GoAheadEagles",
@@ -581,13 +581,13 @@
    "home": "FC Voluntari",
    "away": "U. Cluj",
    "probs": {
-    "p_home": 0.2499,
-    "p_draw": 0.2279,
-    "p_away": 0.5223,
-    "p_over25": 0.6218,
-    "p_btts": 0.6201,
-    "p_under25": 0.3782,
-    "p_no_btts": 0.3799
+    "p_home": 0.2506,
+    "p_draw": 0.2282,
+    "p_away": 0.5212,
+    "p_over25": 0.6217,
+    "p_btts": 0.6204,
+    "p_under25": 0.3783,
+    "p_no_btts": 0.3796
    },
    "expected_goals": {
     "home": 1.28,
@@ -601,7 +601,7 @@
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1029
+     "p": 0.1031
     },
     {
      "score": "1-2",
@@ -609,15 +609,15 @@
     },
     {
      "score": "0-2",
-     "p": 0.0752
+     "p": 0.075
     },
     {
      "score": "0-1",
-     "p": 0.0748
+     "p": 0.0747
     },
     {
      "score": "2-1",
-     "p": 0.0639
+     "p": 0.064
     }
    ],
    "reference_odds": {
@@ -718,7 +718,7 @@
    "top_scores": [
     {
      "score": "0-1",
-     "p": 0.1306
+     "p": 0.1307
     },
     {
      "score": "0-2",
@@ -3085,7 +3085,7 @@
    "probs": {
     "p_home": 0.5869,
     "p_draw": 0.2162,
-    "p_away": 0.1969,
+    "p_away": 0.197,
     "p_over25": 0.6256,
     "p_btts": 0.6001,
     "p_under25": 0.3744,
@@ -3103,7 +3103,7 @@
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.0988
+     "p": 0.0987
     },
     {
      "score": "2-1",
@@ -3679,7 +3679,7 @@
    "away": "Beveren",
    "probs": {
     "p_home": 0.2729,
-    "p_draw": 0.2852,
+    "p_draw": 0.2851,
     "p_away": 0.4419,
     "p_over25": 0.4225,
     "p_btts": 0.4787,
@@ -3706,7 +3706,7 @@
     },
     {
      "score": "0-0",
-     "p": 0.0994
+     "p": 0.0993
     },
     {
      "score": "1-0",
@@ -3879,12 +3879,12 @@
    "home": "Dinamo Bucuresti",
    "away": "Farul Constanta",
    "probs": {
-    "p_home": 0.6802,
+    "p_home": 0.6803,
     "p_draw": 0.1987,
-    "p_away": 0.1211,
-    "p_over25": 0.5433,
+    "p_away": 0.121,
+    "p_over25": 0.5434,
     "p_btts": 0.4696,
-    "p_under25": 0.4567,
+    "p_under25": 0.4566,
     "p_no_btts": 0.5304
    },
    "expected_goals": {
@@ -3899,11 +3899,11 @@
    "top_scores": [
     {
      "score": "2-0",
-     "p": 0.1263
+     "p": 0.1264
     },
     {
      "score": "1-0",
-     "p": 0.1178
+     "p": 0.1177
     },
     {
      "score": "2-1",
@@ -4441,13 +4441,13 @@
    "home": "Otelul",
    "away": "Corvinul",
    "probs": {
-    "p_home": 0.3681,
-    "p_draw": 0.3583,
-    "p_away": 0.2736,
-    "p_over25": 0.2191,
-    "p_btts": 0.3065,
-    "p_under25": 0.7809,
-    "p_no_btts": 0.6935
+    "p_home": 0.3691,
+    "p_draw": 0.3575,
+    "p_away": 0.2735,
+    "p_over25": 0.2209,
+    "p_btts": 0.3083,
+    "p_under25": 0.7791,
+    "p_no_btts": 0.6917
    },
    "expected_goals": {
     "home": 0.89,
@@ -4461,23 +4461,23 @@
    "top_scores": [
     {
      "score": "0-0",
-     "p": 0.2041
+     "p": 0.2027
     },
     {
      "score": "1-0",
-     "p": 0.1735
+     "p": 0.173
     },
     {
      "score": "0-1",
-     "p": 0.1403
+     "p": 0.1397
     },
     {
      "score": "1-1",
-     "p": 0.1322
+     "p": 0.1325
     },
     {
      "score": "2-0",
-     "p": 0.0788
+     "p": 0.079
     }
    ],
    "reference_odds": {
@@ -4527,13 +4527,13 @@
    "home": "Petrolul",
    "away": "Csikszereda M. Ciuc",
    "probs": {
-    "p_home": 0.5828,
-    "p_draw": 0.249,
-    "p_away": 0.1682,
-    "p_over25": 0.4388,
-    "p_btts": 0.439,
-    "p_under25": 0.5612,
-    "p_no_btts": 0.561
+    "p_home": 0.5829,
+    "p_draw": 0.2491,
+    "p_away": 0.1681,
+    "p_over25": 0.4391,
+    "p_btts": 0.4393,
+    "p_under25": 0.5609,
+    "p_no_btts": 0.5607
    },
    "expected_goals": {
     "home": 1.66,
@@ -4547,7 +4547,7 @@
    "top_scores": [
     {
      "score": "1-0",
-     "p": 0.1423
+     "p": 0.1422
     },
     {
      "score": "2-0",
@@ -4563,7 +4563,7 @@
     },
     {
      "score": "0-0",
-     "p": 0.0914
+     "p": 0.0913
     }
    ],
    "reference_odds": {
