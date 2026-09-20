@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'history_screen.dart';
 import 'models.dart';
 import 'theme.dart';
 import 'widgets.dart';
@@ -68,7 +69,51 @@ class TrackRecordCard extends StatelessWidget {
             style: const TextStyle(
                 fontSize: 11, color: AppColors.textSecondary, height: 1.35),
           ),
+          _VeziToate(record: record),
         ],
+      ),
+    );
+  }
+}
+
+/// Intrarea catre lista selectiilor, linie cu linie.
+///
+/// Fara ea, cifrele de mai sus ar trebui crezute pe cuvant: meciurile alese
+/// ies din fereastra de trei zile a ecranului principal si nu se mai vad.
+class _VeziToate extends StatelessWidget {
+  const _VeziToate({required this.record});
+
+  final TrackRecord record;
+
+  @override
+  Widget build(BuildContext context) {
+    if (record.selections.isEmpty) return const SizedBox.shrink();
+
+    return Padding(
+      padding: const EdgeInsets.only(top: 6),
+      child: Material(
+        color: Colors.transparent,
+        child: InkWell(
+          borderRadius: BorderRadius.circular(8),
+          onTap: () => Navigator.of(context).push(
+            MaterialPageRoute(builder: (_) => HistoryScreen(record: record)),
+          ),
+          child: Padding(
+            padding: const EdgeInsets.symmetric(vertical: 9),
+            child: Row(
+              children: [
+                Text('Vezi toate selecțiile (${record.selections.length})',
+                    style: const TextStyle(
+                        fontSize: 12.5,
+                        fontWeight: FontWeight.w600,
+                        color: AppColors.accentSoft)),
+                const SizedBox(width: 4),
+                const Icon(Icons.chevron_right,
+                    size: 18, color: AppColors.accentSoft),
+              ],
+            ),
+          ),
+        ),
       ),
     );
   }
@@ -144,22 +189,29 @@ class _Asteptare extends StatelessWidget {
   Widget build(BuildContext context) {
     return SectionCard(
       title: 'Bilanțul selecțiilor',
-      child: Row(
+      child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Icon(Icons.hourglass_empty, size: 18, color: AppColors.textSecondary),
-          const SizedBox(width: 10),
-          Expanded(
-            child: Text(
-              record.total == 0
-                  ? 'Încă nu s-a notat nicio selecție. Bilanțul apare după prima '
-                      'rundă de meciuri.'
-                  : '${record.total} selecții notate, niciun meci încheiat încă. '
-                      'Rezultatele se completează singure după ce se joacă.',
-              style: const TextStyle(
-                  fontSize: 12.5, color: AppColors.textSecondary, height: 1.4),
-            ),
+          Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const Icon(Icons.hourglass_empty,
+                  size: 18, color: AppColors.textSecondary),
+              const SizedBox(width: 10),
+              Expanded(
+                child: Text(
+                  record.total == 0
+                      ? 'Încă nu s-a notat nicio selecție. Bilanțul apare după prima '
+                          'rundă de meciuri.'
+                      : '${record.total} selecții notate, niciun meci încheiat încă. '
+                          'Rezultatele se completează singure după ce se joacă.',
+                  style: const TextStyle(
+                      fontSize: 12.5, color: AppColors.textSecondary, height: 1.4),
+                ),
+              ),
+            ],
           ),
+          _VeziToate(record: record),
         ],
       ),
     );

@@ -245,6 +245,59 @@ class BandRecord {
       );
 }
 
+/// O selectie notata, cu rezultatul ei daca meciul s-a jucat.
+///
+/// Ecranul principal arata doar trei zile, deci meciurile trecute dispar de
+/// acolo. Lista asta e singurul loc in care raman vizibile.
+class SelectionRecord {
+  const SelectionRecord({
+    required this.matchId,
+    required this.date,
+    required this.leagueName,
+    required this.home,
+    required this.away,
+    required this.marketLabel,
+    required this.probability,
+    required this.odds,
+    required this.band,
+    required this.won,
+    required this.score,
+  });
+
+  final String matchId;
+  final DateTime date;
+  final String leagueName;
+  final String home;
+  final String away;
+  final String marketLabel;
+  final double probability;
+  final double odds;
+  final String band;
+
+  /// Null cat timp meciul nu s-a jucat sau scorul inca nu a ajuns in date.
+  final bool? won;
+  final String? score;
+
+  bool get isPending => won == null;
+
+  /// Castig sau pierdere la o miza de o unitate, la cota din momentul notarii.
+  double? get profitUnits => won == null ? null : (won! ? odds - 1 : -1.0);
+
+  factory SelectionRecord.fromJson(Map<String, dynamic> json) => SelectionRecord(
+        matchId: json['match_id'] as String,
+        date: DateTime.parse(json['date'] as String),
+        leagueName: json['league_name'] as String,
+        home: json['home'] as String,
+        away: json['away'] as String,
+        marketLabel: json['market_label'] as String,
+        probability: (json['probability'] as num).toDouble(),
+        odds: (json['odds'] as num).toDouble(),
+        band: (json['band'] as String?) ?? '',
+        won: json['won'] as bool?,
+        score: json['score'] as String?,
+      );
+}
+
 /// Bilantul propriilor selectii, verificate dupa ce meciurile s-au jucat.
 ///
 /// Backtestul e o promisiune despre trecut; asta e o dovada despre prezent.
@@ -259,6 +312,7 @@ class TrackRecord {
     required this.roi,
     required this.bands,
     required this.since,
+    required this.selections,
   });
 
   final int total;
@@ -272,6 +326,10 @@ class TrackRecord {
   final double? roi;
   final List<BandRecord> bands;
   final String? since;
+
+  /// Selectiile notate, cele mai noi intai. Goala in fisierele generate
+  /// inainte de aparitia ecranului de istoric.
+  final List<SelectionRecord> selections;
 
   bool get hasResults => resolved > 0 && hitRate != null;
 
@@ -287,6 +345,9 @@ class TrackRecord {
             .map((e) => BandRecord.fromJson(e as Map<String, dynamic>))
             .toList(),
         since: json['since'] as String?,
+        selections: ((json['selections'] as List<dynamic>?) ?? [])
+            .map((e) => SelectionRecord.fromJson(e as Map<String, dynamic>))
+            .toList(),
       );
 }
 

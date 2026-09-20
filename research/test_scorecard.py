@@ -131,6 +131,33 @@ def test_banda_compara_cu_asteptarea_din_backtest() -> None:
     verifica(banda["expected"] == 0.753, "asteptarea din backtest lipseste")
 
 
+def test_istoricul_pentru_aplicatie() -> None:
+    sel = scorecard.adauga([], [
+        recomandare(match_id="VECHI", data="2026-09-01"),
+        recomandare(match_id="NOU", data="2026-09-10"),
+    ])
+    sel[0]["castigat"], sel[0]["scor"] = True, "2-1"
+    lista = scorecard.recente(sel)
+
+    verifica([s["match_id"] for s in lista] == ["NOU", "VECHI"],
+             "istoricul nu e ordonat cu cele mai noi intai")
+    verifica(lista[1]["won"] is True and lista[1]["score"] == "2-1",
+             "rezultatul nu a ajuns in lista pentru aplicatie")
+    verifica(lista[0]["won"] is None,
+             "o selectie nejucata ar trebui sa ramana fara verdict")
+    verifica(all(k in lista[0] for k in
+                 ("date", "league_name", "home", "away", "market_label",
+                  "probability", "odds", "band")),
+             "lipsesc campuri din care aplicatia construieste linia")
+
+
+def test_istoricul_e_limitat() -> None:
+    sel = scorecard.adauga([], [recomandare(match_id=f"M{i}", data="2026-09-01")
+                                for i in range(120)])
+    verifica(len(scorecard.recente(sel, limita=80)) == 80,
+             "istoricul trimis in aplicatie nu respecta limita")
+
+
 def main() -> int:
     for test in (test_nu_dubleaza_aceeasi_selectie,
                  test_acelasi_meci_piete_diferite_sunt_separate,
@@ -139,7 +166,9 @@ def main() -> int:
                  test_nu_rescrie_un_verdict_deja_dat,
                  test_bilantul_si_profitul,
                  test_bilant_gol_nu_arunca,
-                 test_banda_compara_cu_asteptarea_din_backtest):
+                 test_banda_compara_cu_asteptarea_din_backtest,
+                 test_istoricul_pentru_aplicatie,
+                 test_istoricul_e_limitat):
         test()
     if esecuri:
         print(f"ESUAT: {len(esecuri)}")

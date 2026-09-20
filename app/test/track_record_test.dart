@@ -11,6 +11,7 @@ TrackRecord record({
   double? hitRate = 0.75,
   double? profit = 1.4,
   List<BandRecord> bands = const [],
+  List<SelectionRecord> selections = const [],
 }) =>
     TrackRecord(
       total: total,
@@ -22,6 +23,30 @@ TrackRecord record({
       roi: 0.1,
       bands: bands,
       since: '2026-09-18',
+      selections: selections,
+    );
+
+SelectionRecord selectie({
+  String matchId = 'M1',
+  String date = '2026-09-19',
+  String home = 'Gazda',
+  String away = 'Oaspete',
+  bool? won,
+  String? score,
+  double odds = 1.50,
+}) =>
+    SelectionRecord(
+      matchId: matchId,
+      date: DateTime.parse(date),
+      leagueName: 'Test',
+      home: home,
+      away: away,
+      marketLabel: 'Victorie $home',
+      probability: 0.72,
+      odds: odds,
+      band: '70-80%',
+      won: won,
+      score: score,
     );
 
 Future<void> pump(WidgetTester tester, TrackRecord r) => tester.pumpWidget(
@@ -70,5 +95,29 @@ void main() {
       (tester) async {
     await pump(tester, record(resolved: 12));
     expect(find.textContaining('mai degrabă noroc decât semnal'), findsOneWidget);
+  });
+
+  testWidgets('ofera drumul catre lista selectiilor', (tester) async {
+    await pump(tester, record(selections: [selectie(), selectie(matchId: 'M2')]));
+    expect(find.textContaining('Vezi toate selecțiile (2)'), findsOneWidget);
+  });
+
+  testWidgets('drumul apare si cand niciun meci nu s-a jucat inca',
+      (tester) async {
+    await pump(
+        tester,
+        record(
+          resolved: 0,
+          hits: 0,
+          hitRate: null,
+          profit: null,
+          selections: [selectie()],
+        ));
+    expect(find.textContaining('Vezi toate selecțiile (1)'), findsOneWidget);
+  });
+
+  testWidgets('fara selectii nu promite o lista care nu exista', (tester) async {
+    await pump(tester, record());
+    expect(find.textContaining('Vezi toate selecțiile'), findsNothing);
   });
 }

@@ -354,6 +354,9 @@ def main() -> None:
                                                      rezultat_european=_rezultat_european)
         scorecard.salveaza(selectii)
         bilant = scorecard.rezumat(selectii)
+        # Lista propriu-zisa: ecranul principal arata doar trei zile, deci fara
+        # ea selectiile jucate ar disparea fara urma.
+        bilant["selections"] = scorecard.recente(selectii)
         print(f"Fisa de rezultate: {bilant['resolved']} verificate din {bilant['total']}"
               + (f", {bilant['hits']} reusite ({bilant['hit_rate']:.0%})"
                  if bilant['resolved'] else "")

@@ -147,3 +147,34 @@ def rezumat(selectii: list[dict]) -> dict:
         "by_band": benzi,
         "since": min((s["date"] for s in selectii), default=None),
     }
+
+
+# Cate selectii trecute trimitem in aplicatie. Fisierul de istoric creste la
+# nesfarsit; ecranul are nevoie doar de ultimele saptamani, iar predictions.json
+# se descarca de pe retea de cateva ori pe zi.
+LIMITA_ISTORIC = 80
+
+
+def recente(selectii: list[dict], limita: int = LIMITA_ISTORIC) -> list[dict]:
+    """Selectiile pentru ecranul de istoric, cele mai noi intai.
+
+    Le trimitem pe toate, si pe cele nejucate: altfel meciurile de maine ar
+    disparea din lista imediat ce ies din fereastra de trei zile a ecranului
+    principal, iar utilizatorul n-ar mai sti ce a fost notat.
+    """
+    ordonate = sorted(selectii,
+                      key=lambda s: (s["date"], s.get("notat_la", ""), s["home"]),
+                      reverse=True)
+    return [{
+        "match_id": s["match_id"],
+        "date": s["date"],
+        "league_name": s["league_name"],
+        "home": s["home"],
+        "away": s["away"],
+        "market_label": s["market_label"],
+        "probability": s["probability"],
+        "odds": s["odds"],
+        "band": s["band"],
+        "won": s["castigat"],
+        "score": s["scor"],
+    } for s in ordonate[:limita]]
