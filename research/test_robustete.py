@@ -75,7 +75,14 @@ def test_zero_meciuri_pastreaza_predictiile_existente() -> None:
         gol = pd.DataFrame(columns=["div", "Date", "Time", "home", "away",
                                     "B365H", "B365D", "B365A", "date"])
 
+        # Istoricul selectiilor e singura copie durabila a bilantului, iar API-ul
+        # costa cereri: un test nu are voie sa atinga niciunul.
+        import rezultate_api
+        import scorecard
+
         with mock.patch.object(predict, "OUT", out), \
+             mock.patch.object(scorecard, "ISTORIC", Path(tmp) / "selectii.json"), \
+             mock.patch.object(rezultate_api, "rezolvator", lambda: None), \
              mock.patch.object(predict, "refresh_current_season", return_value=0), \
              mock.patch.object(predict, "get_fixtures", return_value=gol), \
              mock.patch.object(predict, "load_all", return_value=_istoric_minimal()):

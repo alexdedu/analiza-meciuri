@@ -59,6 +59,7 @@ jobs:
           python test_team_matching.py
           python test_recomandari.py
           python test_scorecard.py
+          python test_rezultate_api.py
 
       - name: Descarca datele istorice
         working-directory: research

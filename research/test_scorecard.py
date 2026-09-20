@@ -131,6 +131,29 @@ def test_banda_compara_cu_asteptarea_din_backtest() -> None:
     verifica(banda["expected"] == 0.753, "asteptarea din backtest lipseste")
 
 
+def test_scorul_extern_completeaza_ce_lipseste_din_istoric() -> None:
+    ieri = (datetime.now() - timedelta(days=1)).date().isoformat()
+    sel = scorecard.adauga([], [recomandare(data=ieri)])
+    sel, noi = scorecard.rezolva(sel, istoric([]), scor_extern=lambda s: (2, 0))
+    verifica(noi == 1 and sel[0]["scor"] == "2-0",
+             "scorul de la API nu a fost folosit cand istoricul nu-l avea")
+
+
+def test_istoricul_are_intaietate_in_fata_apiului() -> None:
+    ieri = (datetime.now() - timedelta(days=1)).date().isoformat()
+    sel = scorecard.adauga([], [recomandare(data=ieri)])
+    cereri = []
+
+    def api(s):
+        cereri.append(s["match_id"])
+        return (0, 5)
+
+    sel, _ = scorecard.rezolva(sel, istoric([(ieri, "Gazda", "Oaspete", 2, 0)]),
+                               scor_extern=api)
+    verifica(sel[0]["scor"] == "2-0", f"a preferat API-ul: {sel[0]['scor']}")
+    verifica(not cereri, "a cerut la API un scor pe care il avea deja")
+
+
 def test_istoricul_pentru_aplicatie() -> None:
     sel = scorecard.adauga([], [
         recomandare(match_id="VECHI", data="2026-09-01"),
@@ -167,6 +190,8 @@ def main() -> int:
                  test_bilantul_si_profitul,
                  test_bilant_gol_nu_arunca,
                  test_banda_compara_cu_asteptarea_din_backtest,
+                 test_scorul_extern_completeaza_ce_lipseste_din_istoric,
+                 test_istoricul_are_intaietate_in_fata_apiului,
                  test_istoricul_pentru_aplicatie,
                  test_istoricul_e_limitat):
         test()

@@ -350,8 +350,15 @@ def main() -> None:
     import scorecard
     try:
         selectii = scorecard.adauga(scorecard.incarca(), recomandari)
-        selectii, rezolvate_acum = scorecard.rezolva(selectii, hist,
-                                                     rezultat_european=_rezultat_european)
+        # Arhivele football-data publica scorurile cu una-doua zile intarziere.
+        # Pentru verificarea selectiilor luam scorul de la API-Football, care il
+        # are in aceeasi seara; fara cheie, `rezolvator` intoarce None si
+        # ramane doar cautarea in istoric.
+        from rezultate_api import rezolvator
+        selectii, rezolvate_acum = scorecard.rezolva(
+            selectii, hist,
+            rezultat_european=_rezultat_european,
+            scor_extern=rezolvator())
         scorecard.salveaza(selectii)
         bilant = scorecard.rezumat(selectii)
         # Lista propriu-zisa: ecranul principal arata doar trei zile, deci fara

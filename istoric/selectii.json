@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-09-20T10:18:07+00:00",
+ "actualizat": "2026-09-20T10:32:42+00:00",
  "selectii": [
   {
    "cheie": "P1_20260919_SpLisbon_Arouca|home",
@@ -14,8 +14,10 @@
    "odds": 1.2,
    "band": "70-80%",
    "notat_la": "2026-09-18T19:32:14+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": false,
+   "scor": "2-2",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-09-20T10:31:18+00:00"
   },
   {
    "cheie": "N1_20260920_Nijmegen_GoAheadEagles|over25",
@@ -62,8 +64,10 @@
    "odds": 1.42,
    "band": "65-70%",
    "notat_la": "2026-09-18T19:32:14+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": true,
+   "scor": "2-2",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-09-20T10:31:19+00:00"
   },
   {
    "cheie": "SP1_20260920_Villarreal_Levante|over25",

@@ -85,8 +85,13 @@ def _verdict(market: str, hg: int, ag: int) -> bool:
 
 
 def rezolva(selectii: list[dict], hist: pd.DataFrame,
-            rezultat_european=None) -> tuple[list[dict], int]:
-    """Completeaza rezultatul pentru meciurile care s-au jucat deja."""
+            rezultat_european=None, scor_extern=None) -> tuple[list[dict], int]:
+    """Completeaza rezultatul pentru meciurile care s-au jucat deja.
+
+    Cauta intai in istoricul nostru, apoi, daca acolo nu e nimic, prin
+    `scor_extern` -- adica la API-Football, care stie scorul in aceeasi seara,
+    nu peste doua zile ca arhivele football-data.
+    """
     azi = datetime.now().date()
     # Cautare rapida dupa (data, gazda, oaspete).
     jucate = {}
@@ -103,10 +108,14 @@ def rezolva(selectii: list[dict], hist: pd.DataFrame,
         scor = jucate.get((s["date"], s["home"], s["away"]))
         if scor is None and rezultat_european and s["match_id"].startswith("EU"):
             scor = rezultat_european(s["match_id"])
+        if scor is None and scor_extern:
+            scor = scor_extern(s)
         if scor is None:
             continue
 
         hg, ag = scor
+        s["sursa_scor"] = "istoric" if jucate.get(
+            (s["date"], s["home"], s["away"])) else "api"
         s["castigat"] = _verdict(s["market"], hg, ag)
         s["scor"] = f"{hg}-{ag}"
         s["rezolvat_la"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
