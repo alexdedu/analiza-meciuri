@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-09-20T17:40:39+00:00",
+ "actualizat": "2026-09-21T05:03:36+00:00",
  "selectii": [
   {
    "cheie": "P1_20260919_SpLisbon_Arouca|home",
@@ -32,8 +32,10 @@
    "odds": 1.33,
    "band": "65-70%",
    "notat_la": "2026-09-18T19:32:14+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": false,
+   "scor": "1-1",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-09-21T05:03:35+00:00"
   },
   {
    "cheie": "D1_20260920_Leverkusen_RBLeipzig|over25",
@@ -48,8 +50,10 @@
    "odds": 1.33,
    "band": "65-70%",
    "notat_la": "2026-09-18T19:32:14+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": false,
+   "scor": "2-0",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-09-21T05:03:35+00:00"
   },
   {
    "cheie": "D1_20260919_EinFrankfurt_Freiburg|over25",
@@ -82,8 +86,10 @@
    "odds": 1.46,
    "band": "65-70%",
    "notat_la": "2026-09-18T19:32:14+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": true,
+   "scor": "3-1",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-09-21T05:03:35+00:00"
   },
   {
    "cheie": "F1_20260920_Marseille_ParisSG|over25",
@@ -98,8 +104,10 @@
    "odds": 1.36,
    "band": "60-65%",
    "notat_la": "2026-09-18T19:32:14+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": true,
+   "scor": "1-2",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-09-21T05:03:35+00:00"
   },
   {
    "cheie": "B1_20260920_ClubBrugge_Genk|over25",
@@ -114,8 +122,10 @@
    "odds": 1.38,
    "band": "60-65%",
    "notat_la": "2026-09-20T04:59:56+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": true,
+   "scor": "3-0",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-09-21T05:03:35+00:00"
   },
   {
    "cheie": "P1_20260920_SantaClara_SpBraga|under25",
@@ -130,8 +140,10 @@
    "odds": 1.51,
    "band": "60-65%",
    "notat_la": "2026-09-20T04:59:56+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": true,
+   "scor": "0-0",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-09-21T05:03:36+00:00"
   }
  ]
 }
