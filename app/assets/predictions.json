@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T05:03:36+00:00",
+ "generated_at": "2026-09-21T15:55:13+00:00",
  "recommendations": [],
  "track_record": {
   "total": 8,
@@ -165,13 +165,13 @@
    "home": "Otelul",
    "away": "Corvinul",
    "probs": {
-    "p_home": 0.3679,
-    "p_draw": 0.3584,
-    "p_away": 0.2737,
-    "p_over25": 0.2185,
-    "p_btts": 0.3059,
-    "p_under25": 0.7815,
-    "p_no_btts": 0.6941
+    "p_home": 0.3701,
+    "p_draw": 0.3572,
+    "p_away": 0.2728,
+    "p_over25": 0.2212,
+    "p_btts": 0.3084,
+    "p_under25": 0.7788,
+    "p_no_btts": 0.6916
    },
    "expected_goals": {
     "home": 0.89,
@@ -185,23 +185,23 @@
    "top_scores": [
     {
      "score": "0-0",
-     "p": 0.2044
+     "p": 0.2025
     },
     {
      "score": "1-0",
-     "p": 0.1737
+     "p": 0.1733
     },
     {
      "score": "0-1",
-     "p": 0.1406
+     "p": 0.1394
     },
     {
      "score": "1-1",
-     "p": 0.132
+     "p": 0.1324
     },
     {
      "score": "2-0",
-     "p": 0.0787
+     "p": 0.0793
     }
    ],
    "reference_odds": {
@@ -251,13 +251,13 @@
    "home": "Petrolul",
    "away": "Csikszereda M. Ciuc",
    "probs": {
-    "p_home": 0.5829,
-    "p_draw": 0.2489,
-    "p_away": 0.1682,
-    "p_over25": 0.4386,
-    "p_btts": 0.4388,
-    "p_under25": 0.5614,
-    "p_no_btts": 0.5612
+    "p_home": 0.5825,
+    "p_draw": 0.2492,
+    "p_away": 0.1683,
+    "p_over25": 0.4388,
+    "p_btts": 0.4392,
+    "p_under25": 0.5612,
+    "p_no_btts": 0.5608
    },
    "expected_goals": {
     "home": 1.66,
@@ -271,23 +271,23 @@
    "top_scores": [
     {
      "score": "1-0",
-     "p": 0.1425
+     "p": 0.1422
     },
     {
      "score": "2-0",
-     "p": 0.1212
+     "p": 0.1211
     },
     {
      "score": "1-1",
-     "p": 0.116
+     "p": 0.1161
     },
     {
      "score": "2-1",
-     "p": 0.0934
+     "p": 0.0935
     },
     {
      "score": "0-0",
-     "p": 0.0913
+     "p": 0.0914
     }
    ],
    "reference_odds": {
