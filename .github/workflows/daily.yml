@@ -66,6 +66,7 @@ jobs:
           python test_recomandari.py
           python test_scorecard.py
           python test_rezultate_api.py
+          python test_national.py
 
       - name: Descarca datele istorice
         working-directory: research
@@ -78,6 +79,13 @@ jobs:
         working-directory: research
         continue-on-error: true
         run: python fetch_europe.py
+
+      # Nationalele au model propriu, cu istoric propriu. Pasul nu opreste
+      # fluxul: fara el raman campionatele si cupele.
+      - name: Descarca istoricul echipelor nationale
+        working-directory: research
+        continue-on-error: true
+        run: python fetch_national.py
 
       - name: Estimeaza puterea campionatelor
         working-directory: research

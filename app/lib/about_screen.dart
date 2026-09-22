@@ -71,6 +71,39 @@ class AboutScreen extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 12),
+          const SectionCard(
+            title: 'Echipele naționale',
+            subtitle: 'Alt model, alte date, altă verificare.',
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  'O națională nu joacă în niciun campionat, deci forțele ei nu se pot '
+                  'deduce din datele de club. Meciurile dintre naționale au model '
+                  'propriu, antrenat pe 8.146 de partide din 2015 încoace: preliminarii, '
+                  'Liga Națiunilor și amicale.\n\n'
+                  'Turneele finale (Mondial, Euro, Cupa Africii) nu intră la antrenament: '
+                  'se joacă la o singură țară gazdă, deci "acasă" ar fi o ficțiune care ar '
+                  'strica avantajul terenului pentru toată lumea.',
+                  style: TextStyle(fontSize: 13, height: 1.5),
+                ),
+                SizedBox(height: 12),
+                _Stat('Meciuri testate', '3.339'),
+                _Stat('Log-loss model', '0.89666'),
+                _Stat('Log-loss ghicit', '1.05524'),
+                _Stat('Acuratete 1X2', '58.9%'),
+                SizedBox(height: 10),
+                Text(
+                  'Pentru naționale nu există cote istorice nicăieri, deci nu s-a putut '
+                  'verifica dacă modelul bate piața — doar că bate clar ghicitul ratelor '
+                  'de bază. Ia procentele de aici cu o rezervă în plus față de campionate.',
+                  style: TextStyle(
+                      fontSize: 12, height: 1.45, color: AppColors.textSecondary),
+                ),
+              ],
+            ),
+          ),
+          const SizedBox(height: 12),
           SectionCard(
             title: 'Cum functioneaza',
             child: Column(

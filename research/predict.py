@@ -208,16 +208,22 @@ def explain(home, away, p, ctx_h, ctx_a, lam, mu, rank_h, rank_a, n_teams) -> st
     return " ".join(parts)
 
 
-def _rezultat_european(match_id: str):
-    """Scorul unui meci european, cerut dupa identificatorul din API-Football."""
+def _rezultat_dupa_id(match_id: str):
+    """Scorul unui meci identificat direct prin fixture-ul din API-Football.
+
+    Asa sunt cupele europene ("EU123") si nationalele ("NAT123"): pentru ele nu
+    exista randuri in fisierele football-data, deci singura cale catre rezultat
+    e identificatorul.
+    """
     try:
         from api_config import load_key, request_config
         key = load_key()
         if not key:
             return None
         base, headers = request_config(key)
+        fixture = match_id.removeprefix("NAT").removeprefix("EU")
         r = requests.get(f"{base}/fixtures", headers=headers,
-                         params={"id": match_id.removeprefix("EU")}, timeout=30)
+                         params={"id": fixture}, timeout=30)
         r.raise_for_status()
         raspuns = r.json().get("response") or []
         if not raspuns:
@@ -342,6 +348,16 @@ def main() -> None:
     except Exception as exc:
         print(f"  cupele europene au fost sarite: {str(exc)[:100]}")
 
+    # Nationalele au model propriu: nu apar in niciun campionat, deci fortele
+    # lor nu se pot deduce din datele de club. In pauzele competitionale, ele
+    # sunt singurul lucru care se joaca.
+    try:
+        from predict_national import construieste_predictii as predictii_nationale
+        print("Echipe nationale:")
+        out.extend(predictii_nationale(ZILE_AFISATE))
+    except Exception as exc:
+        print(f"  nationalele au fost sarite: {str(exc)[:100]}")
+
     from recomandari import construieste as construieste_recomandari
     recomandari = construieste_recomandari(out)
 
@@ -357,7 +373,7 @@ def main() -> None:
         from rezultate_api import rezolvator
         selectii, rezolvate_acum = scorecard.rezolva(
             selectii, hist,
-            rezultat_european=_rezultat_european,
+            rezultat_dupa_id=_rezultat_dupa_id,
             scor_extern=rezolvator())
         scorecard.salveaza(selectii)
         bilant = scorecard.rezumat(selectii)

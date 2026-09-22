@@ -68,7 +68,11 @@ def _ruleaza_fara_meciuri(tmp: str, out: Path, etapa):
                                 "B365H", "B365D", "B365A", "date"])
 
     # Istoricul selectiilor e singura copie durabila a bilantului, iar API-ul
-    # costa cereri: un test nu are voie sa atinga niciunul.
+    # costa cereri: un test nu are voie sa atinga niciunul. Sursele care ies
+    # pe retea (cupe europene, nationale) se inlocuiesc cu liste goale, ca
+    # testul sa masoare exact ce vrea: comportarea la zero meciuri.
+    import predict_europa
+    import predict_national
     import rezultate_api
     import scorecard
 
@@ -76,6 +80,10 @@ def _ruleaza_fara_meciuri(tmp: str, out: Path, etapa):
          mock.patch.object(scorecard, "ISTORIC", Path(tmp) / "selectii.json"), \
          mock.patch.object(rezultate_api, "rezolvator", lambda: None), \
          mock.patch.object(rezultate_api, "urmatoarea_etapa", lambda: etapa), \
+         mock.patch.object(predict_europa, "construieste_predictii",
+                           lambda hist: []), \
+         mock.patch.object(predict_national, "construieste_predictii",
+                           lambda zile: []), \
          mock.patch.object(predict, "refresh_current_season", return_value=0), \
          mock.patch.object(predict, "get_fixtures", return_value=gol), \
          mock.patch.object(predict, "load_all", return_value=_istoric_minimal()):

@@ -131,6 +131,23 @@ def test_banda_compara_cu_asteptarea_din_backtest() -> None:
     verifica(banda["expected"] == 0.753, "asteptarea din backtest lipseste")
 
 
+def test_meciurile_fara_istoric_local_se_verifica_dupa_id() -> None:
+    """Cupele europene si nationalele nu apar in fisierele football-data."""
+    ieri = (datetime.now() - timedelta(days=1)).date().isoformat()
+    for prefix in ("EU", "NAT"):
+        sel = scorecard.adauga([], [recomandare(match_id=f"{prefix}555", data=ieri)])
+        cerute = []
+
+        def dupa_id(match_id):
+            cerute.append(match_id)
+            return (1, 0)
+
+        sel, noi = scorecard.rezolva(sel, istoric([]), rezultat_dupa_id=dupa_id)
+        verifica(noi == 1 and sel[0]["scor"] == "1-0",
+                 f"{prefix}: scorul nu a fost cerut dupa identificator")
+        verifica(cerute == [f"{prefix}555"], f"{prefix}: identificator gresit {cerute}")
+
+
 def test_scorul_extern_completeaza_ce_lipseste_din_istoric() -> None:
     ieri = (datetime.now() - timedelta(days=1)).date().isoformat()
     sel = scorecard.adauga([], [recomandare(data=ieri)])
@@ -190,6 +207,7 @@ def main() -> int:
                  test_bilantul_si_profitul,
                  test_bilant_gol_nu_arunca,
                  test_banda_compara_cu_asteptarea_din_backtest,
+                 test_meciurile_fara_istoric_local_se_verifica_dupa_id,
                  test_scorul_extern_completeaza_ce_lipseste_din_istoric,
                  test_istoricul_are_intaietate_in_fata_apiului,
                  test_istoricul_pentru_aplicatie,

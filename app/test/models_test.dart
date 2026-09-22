@@ -53,11 +53,18 @@ void main() {
   });
 
   test('echipele cu putine meciuri sunt marcate cu incredere scazuta', () {
+    // Pragurile difera intre cluburi si nationale, si asta e intentionat: un
+    // club joaca ~38 de meciuri pe an, o nationala ~10. Acelasi prag ar face ca
+    // orice meci de nationala sa para nesigur.
     for (final m in bundle.matches) {
       final smallest = m.homeMatches < m.awayMatches ? m.homeMatches : m.awayMatches;
-      if (smallest < 15) {
+      final nationala = m.id.startsWith('NAT');
+      final pragJos = nationala ? 12 : 15;
+      final pragSus = nationala ? 25 : 40;
+
+      if (smallest < pragJos) {
         expect(m.confidence, Confidence.scazuta, reason: m.id);
-      } else if (smallest >= 40) {
+      } else if (smallest >= pragSus) {
         expect(m.confidence, Confidence.ridicata, reason: m.id);
       }
     }

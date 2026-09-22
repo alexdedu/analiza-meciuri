@@ -84,8 +84,13 @@ def _verdict(market: str, hg: int, ag: int) -> bool:
     }[market]
 
 
+# Meciurile astea nu exista in fisierele football-data: identificatorul lor
+# este chiar fixture-ul din API-Football, deci scorul se cere dupa el.
+PREFIXE_DUPA_ID = ("EU", "NAT")
+
+
 def rezolva(selectii: list[dict], hist: pd.DataFrame,
-            rezultat_european=None, scor_extern=None) -> tuple[list[dict], int]:
+            rezultat_dupa_id=None, scor_extern=None) -> tuple[list[dict], int]:
     """Completeaza rezultatul pentru meciurile care s-au jucat deja.
 
     Cauta intai in istoricul nostru, apoi, daca acolo nu e nimic, prin
@@ -106,8 +111,9 @@ def rezolva(selectii: list[dict], hist: pd.DataFrame,
             continue  # meciul nu s-a jucat inca
 
         scor = jucate.get((s["date"], s["home"], s["away"]))
-        if scor is None and rezultat_european and s["match_id"].startswith("EU"):
-            scor = rezultat_european(s["match_id"])
+        if (scor is None and rezultat_dupa_id
+                and s["match_id"].startswith(PREFIXE_DUPA_ID)):
+            scor = rezultat_dupa_id(s["match_id"])
         if scor is None and scor_extern:
             scor = scor_extern(s)
         if scor is None:
