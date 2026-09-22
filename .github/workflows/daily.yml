@@ -23,6 +23,12 @@ on:
     - cron: '41 14 * * *'  # 14:41  ->  ~21:40
   workflow_dispatch: {}
 
+# Doua rulari care se suprapun ar incerca sa impinga pe aceeasi ramura, iar una
+# dintre ele ar fi respinsa. Le punem la rand: a doua asteapta, nu se anuleaza.
+concurrency:
+  group: actualizare-predictii
+  cancel-in-progress: false
+
 jobs:
   predictii:
     runs-on: ubuntu-latest
@@ -82,8 +88,18 @@ jobs:
         working-directory: research
         run: python predict.py
 
+      # Pasul asta a picat de doua ori (21 si 22 septembrie), mereu la fel:
+      # toate calculele reusite, iar la final niciun commit pe ramura. Cum
+      # fisierele exista si sunt urmarite, `git add` si `git commit` nu aveau
+      # de ce sa cada; ramane impingerea, care poate fi respinsa de o ciocnire
+      # cu alta rulare sau de o eroare de moment a GitHub-ului.
+      #
+      # Deci: reincercam de trei ori, aducand intre incercari ce s-a schimbat
+      # pe ramura, si scriem in log exact ce s-a intamplat. Daca pica si asa,
+      # data viitoare logul va spune motivul in loc de "exit code 1".
       - name: Comite rezultatul daca s-a schimbat
         run: |
+          set -x
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           # Istoricul selectiilor se comite obligatoriu: e singura copie durabila.
@@ -92,7 +108,23 @@ jobs:
           git add app/assets/predictions.json istoric/selectii.json
           if git diff --cached --quiet; then
             echo "Nicio schimbare."
-          else
-            git commit -m "Actualizare predictii $(date -u +%Y-%m-%d)"
-            git push
+            exit 0
           fi
+          git commit -m "Actualizare predictii $(date -u +%Y-%m-%d)"
+
+          for incercare in 1 2 3; do
+            if git push origin HEAD:main; then
+              echo "Impins din incercarea $incercare."
+              exit 0
+            fi
+            echo "Impingerea a esuat (incercarea $incercare). Starea ramurii:"
+            git status --short
+            git log --oneline -1
+            # Daca intre timp a aparut alt commit, ne asezam peste el si
+            # reincercam; predictiile noastre sunt oricum cele mai proaspete.
+            git fetch origin main || true
+            git rebase origin/main || git rebase --abort
+            sleep $((incercare * 10))
+          done
+          echo "Nu s-a putut impinge dupa trei incercari."
+          exit 1
