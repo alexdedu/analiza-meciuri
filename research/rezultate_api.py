@@ -43,6 +43,18 @@ LIGI = {
 STATUSURI_FINALE = {"FT", "AET", "PEN"}
 
 
+# Cupele europene nu apar in LIGI (au alt model), dar cand campionatele stau,
+# ele sunt de obicei primele care se reiau, deci conteaza la "cand revin meciurile".
+COMPETITII_EUROPENE = {2: "Champions League", 3: "Europa League",
+                       848: "Conference League"}
+
+NUME_LIGI = {
+    "E0": "Premier League", "E1": "Championship", "SP1": "La Liga",
+    "I1": "Serie A", "D1": "Bundesliga", "F1": "Ligue 1", "N1": "Eredivisie",
+    "P1": "Primeira Liga", "B1": "Jupiler Pro League", "ROU_Superliga": "Superliga",
+}
+
+
 def divizia(match_id: str) -> str | None:
     """Campionatul din identificatorul unui meci, daca il acoperim."""
     # "ROU_Superliga_..." incepe si cu "ROU_", deci potrivirea cea mai lunga
@@ -135,3 +147,57 @@ def rezolvator(fetch=None):
         return None
 
     return scor
+
+
+def _urmatorul(base: str, headers: dict, league_id: int) -> str | None:
+    """Data primului meci neinceput dintr-o competitie, format YYYY-MM-DD."""
+    r = requests.get(f"{base}/fixtures", headers=headers,
+                     params={"league": league_id, "next": 1}, timeout=30)
+    r.raise_for_status()
+    raspuns = r.json().get("response") or []
+    return raspuns[0]["fixture"]["date"][:10] if raspuns else None
+
+
+def urmatoarea_etapa(fetch_next=None) -> dict | None:
+    """Cand se reiau meciurile, cand nu e nimic de prezis in zilele urmatoare.
+
+    Fara asta, o pauza competitionala arata in aplicatie exact ca o defectiune:
+    lista ramane inghetata pe ultima zi cu meciuri si nimeni nu stie de ce.
+
+    Intoarce None daca API-ul nu raspunde deloc -- si atunci chiar nu stim daca
+    e pauza sau pana, deci nu avem voie sa golim lista din aplicatie.
+    """
+    if fetch_next is None:
+        key = load_key()
+        if not key:
+            return None
+        base, headers = request_config(key)
+
+        def fetch_next(league_id: int) -> str | None:
+            return _urmatorul(base, headers, league_id)
+
+    competitii = [(NUME_LIGI.get(div, div), lid) for div, lid in LIGI.items()]
+    competitii += [(nume, lid) for lid, nume in COMPETITII_EUROPENE.items()]
+
+    gasite: list[tuple[str, str]] = []
+    raspunsuri = 0
+    for nume, league_id in competitii:
+        try:
+            data = fetch_next(league_id)
+            raspunsuri += 1
+        except Exception:
+            continue
+        if data:
+            gasite.append((data, nume))
+
+    if not raspunsuri:
+        return None  # API-ul tace: nu tragem nicio concluzie
+    if not gasite:
+        return {"date": None, "competitions": []}
+
+    prima = min(data for data, _ in gasite)
+    return {
+        "date": prima,
+        # Cine joaca in prima zi: de obicei una-doua competitii, nu toate.
+        "competitions": sorted(nume for data, nume in gasite if data == prima),
+    }

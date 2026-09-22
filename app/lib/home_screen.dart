@@ -175,18 +175,11 @@ class _MatchList extends StatelessWidget {
             ),
           ),
         if (matches.isEmpty)
-          const SliverFillRemaining(
+          SliverFillRemaining(
             hasScrollBody: false,
             child: Padding(
-              padding: EdgeInsets.all(32),
-              child: Center(
-                child: Text(
-                  'Niciun meci în următoarele 3 zile.\n'
-                  'Lista se actualizează singură de câteva ori pe zi.',
-                  textAlign: TextAlign.center,
-                  style: TextStyle(color: AppColors.textSecondary),
-                ),
-              ),
+              padding: const EdgeInsets.all(32),
+              child: Center(child: EmptyState(nextRound: bundle.nextRound)),
             ),
           ),
         for (final day in days) ...[
@@ -218,6 +211,92 @@ class _MatchList extends StatelessWidget {
     );
   }
 
+}
+
+/// Ce se afiseaza cand nu e niciun meci de aratat.
+///
+/// Diferenta dintre "e pauza" si "s-a stricat ceva" e tot ce conteaza aici:
+/// in pauza, o lista goala e raspunsul corect, iar utilizatorul trebuie sa
+/// stie cand sa revina.
+class EmptyState extends StatelessWidget {
+  const EmptyState({super.key, required this.nextRound});
+
+  final NextRound? nextRound;
+
+  @override
+  Widget build(BuildContext context) {
+    final r = nextRound;
+    if (r == null) {
+      return const Text(
+        'Niciun meci în următoarele 3 zile.\n'
+        'Lista se actualizează singură de câteva ori pe zi.',
+        textAlign: TextAlign.center,
+        style: TextStyle(color: AppColors.textSecondary),
+      );
+    }
+
+    final acum = DateTime.now();
+    final zile = DateTime(r.date.year, r.date.month, r.date.day)
+        .difference(DateTime(acum.year, acum.month, acum.day))
+        .inDays;
+    final text = DateFormat("EEEE, d MMMM", 'ro').format(r.date);
+    final data = text[0].toUpperCase() + text.substring(1);
+
+    return Column(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        const Icon(Icons.event_busy, size: 34, color: AppColors.textSecondary),
+        const SizedBox(height: 14),
+        const Text('Pauză competițională',
+            style: TextStyle(
+                fontSize: 16,
+                fontWeight: FontWeight.w700,
+                color: AppColors.textPrimary)),
+        const SizedBox(height: 8),
+        const Text('Nu se joacă nimic în campionatele urmărite.',
+            textAlign: TextAlign.center,
+            style: TextStyle(fontSize: 13, color: AppColors.textSecondary)),
+        const SizedBox(height: 18),
+        Container(
+          padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 11),
+          decoration: BoxDecoration(
+            color: AppColors.surfaceHigh,
+            borderRadius: BorderRadius.circular(11),
+            border: Border.all(color: AppColors.border),
+          ),
+          child: Column(
+            children: [
+              const Text('Următoarele meciuri',
+                  style: TextStyle(fontSize: 11, color: AppColors.textSecondary)),
+              const SizedBox(height: 4),
+              Text(data,
+                  style: const TextStyle(
+                      fontSize: 15,
+                      fontWeight: FontWeight.w800,
+                      color: AppColors.highlight)),
+              if (zile > 0) ...[
+                const SizedBox(height: 3),
+                Text(zile == 1 ? 'mâine' : 'peste $zile zile',
+                    style: const TextStyle(
+                        fontSize: 11.5, color: AppColors.textSecondary)),
+              ],
+              if (r.competitions.isNotEmpty) ...[
+                const SizedBox(height: 7),
+                Text(r.competitions.join(' · '),
+                    textAlign: TextAlign.center,
+                    style: const TextStyle(
+                        fontSize: 11.5, color: AppColors.textPrimary)),
+              ],
+            ],
+          ),
+        ),
+        const SizedBox(height: 16),
+        const Text('Predicțiile apar singure cu trei zile înainte.',
+            textAlign: TextAlign.center,
+            style: TextStyle(fontSize: 11.5, color: AppColors.textSecondary)),
+      ],
+    );
+  }
 }
 
 /// Antetul unei zile din lista.

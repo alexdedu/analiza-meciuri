@@ -398,18 +398,32 @@ def main() -> None:
         },
         "matches": sorted(out, key=lambda x: (x["date"], x["time"])),
     }
-    # Nu inlocuim niciodata un fisier bun cu unul gol. Daca sursa n-are meciuri
-    # in urmatoarele zile, aplicatia trebuie sa pastreze ce avea, nu sa ramana
-    # cu lista goala.
-    if not out and OUT.exists():
+    # Zero meciuri inseamna doua lucruri complet diferite: ori e pauza
+    # competitionala (si atunci aplicatia trebuie sa spuna asta, nu sa arate
+    # meciuri de saptamana trecuta), ori sursele au picat (si atunci fisierul
+    # vechi e mai bun decat unul gol). Le deosebim intreband API-ul cand se
+    # reiau meciurile: daca raspunde, stim ca pauza e reala.
+    if not out:
+        etapa = None
         try:
-            vechi = json.loads(OUT.read_text(encoding="utf-8"))
-        except (OSError, json.JSONDecodeError):
-            vechi = {}
-        if vechi.get("matches"):
-            print(f"\nNiciun meci nou de prezis. Pastram cele "
-                  f"{len(vechi['matches'])} predictii existente.")
-            return
+            from rezultate_api import urmatoarea_etapa
+            etapa = urmatoarea_etapa()
+        except Exception as exc:
+            print(f"  (nu am putut afla cand se reiau meciurile: {str(exc)[:70]})")
+
+        if etapa and etapa.get("date"):
+            payload["next_round"] = etapa
+            print(f"\nPauza competitionala. Urmatoarele meciuri pe "
+                  f"{etapa['date']}: {', '.join(etapa['competitions'])}")
+        elif OUT.exists():
+            try:
+                vechi = json.loads(OUT.read_text(encoding="utf-8"))
+            except (OSError, json.JSONDecodeError):
+                vechi = {}
+            if vechi.get("matches"):
+                print(f"\nNiciun meci nou de prezis si nu stiu de ce. Pastram "
+                      f"cele {len(vechi['matches'])} predictii existente.")
+                return
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")

@@ -112,6 +112,35 @@ def test_o_eroare_de_retea_nu_opreste_fisa() -> None:
              "o eroare ar trebui sa dea None, nu sa arunce")
 
 
+def test_urmatoarea_etapa_ia_cea_mai_apropiata_zi() -> None:
+    zile = {39: "2026-10-10", 140: "2026-10-10", 2: "2026-10-20",
+            283: "2026-10-03"}
+
+    def fetch_next(league_id):
+        return zile.get(league_id, "2026-11-01")
+
+    etapa = rezultate_api.urmatoarea_etapa(fetch_next=fetch_next)
+    verifica(etapa["date"] == "2026-10-03", f"data gresita: {etapa['date']}")
+    verifica(etapa["competitions"] == ["Superliga"],
+             f"competitii gresite: {etapa['competitions']}")
+
+
+def test_urmatoarea_etapa_tace_daca_apiul_tace() -> None:
+    def fetch_next(league_id):
+        raise RuntimeError("fara retea")
+
+    # None inseamna "nu stiu", iar pipeline-ul pastreaza atunci meciurile
+    # vechi in loc sa goleasca aplicatia pe baza unei banuieli.
+    verifica(rezultate_api.urmatoarea_etapa(fetch_next=fetch_next) is None,
+             "fara raspuns de la API ar trebui sa intoarca None")
+
+
+def test_urmatoarea_etapa_cand_nu_mai_e_nimic_programat() -> None:
+    etapa = rezultate_api.urmatoarea_etapa(fetch_next=lambda league_id: None)
+    verifica(etapa is not None and etapa["date"] is None,
+             "sezon terminat: asteptam un raspuns fara data, nu None")
+
+
 def main() -> int:
     for test in (test_divizia_din_identificator,
                  test_sezonul_urmeaza_startul_campionatului,
@@ -121,7 +150,10 @@ def main() -> int:
                  test_nu_confunda_alt_meci_din_aceeasi_zi,
                  test_inversarea_terenului_nu_trece,
                  test_o_singura_cerere_pentru_aceeasi_zi_si_campionat,
-                 test_o_eroare_de_retea_nu_opreste_fisa):
+                 test_o_eroare_de_retea_nu_opreste_fisa,
+                 test_urmatoarea_etapa_ia_cea_mai_apropiata_zi,
+                 test_urmatoarea_etapa_tace_daca_apiul_tace,
+                 test_urmatoarea_etapa_cand_nu_mai_e_nimic_programat):
         test()
     if esecuri:
         print(f"ESUAT: {len(esecuri)}")

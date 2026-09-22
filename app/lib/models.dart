@@ -385,6 +385,30 @@ class BacktestInfo {
       );
 }
 
+/// Cand se reiau meciurile, in pauzele competitionale.
+///
+/// Exista ca sa se poata deosebi o pauza de o defectiune: fara ea, o listă
+/// goala si o lista inghetata arata la fel.
+class NextRound {
+  const NextRound({required this.date, required this.competitions});
+
+  final DateTime date;
+
+  /// Cine joaca in prima zi: de obicei una-doua competitii.
+  final List<String> competitions;
+
+  static NextRound? fromJson(Map<String, dynamic>? json) {
+    final data = json?['date'] as String?;
+    if (data == null) return null;
+    return NextRound(
+      date: DateTime.parse(data),
+      competitions: ((json!['competitions'] as List<dynamic>?) ?? [])
+          .map((e) => e as String)
+          .toList(),
+    );
+  }
+}
+
 class PredictionBundle {
   const PredictionBundle({
     required this.generatedAt,
@@ -393,6 +417,7 @@ class PredictionBundle {
     required this.matches,
     required this.recommendations,
     required this.trackRecord,
+    required this.nextRound,
   });
 
   final DateTime generatedAt;
@@ -403,6 +428,9 @@ class PredictionBundle {
 
   /// Lipseste pana la prima rulare care noteaza selectii.
   final TrackRecord? trackRecord;
+
+  /// Prezent doar cand nu sunt meciuri in fereastra afisata.
+  final NextRound? nextRound;
 
   factory PredictionBundle.fromJson(Map<String, dynamic> json) {
     final model = json['model'] as Map<String, dynamic>;
@@ -420,6 +448,7 @@ class PredictionBundle {
       trackRecord: json['track_record'] == null
           ? null
           : TrackRecord.fromJson(json['track_record'] as Map<String, dynamic>),
+      nextRound: NextRound.fromJson(json['next_round'] as Map<String, dynamic>?),
     );
   }
 }

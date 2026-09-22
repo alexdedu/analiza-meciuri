@@ -60,37 +60,67 @@ def test_descarcare_reusita_inlocuieste() -> None:
         verifica(dest.read_bytes().startswith(b"nou"), "datele noi nu au fost scrise")
 
 
+def _ruleaza_fara_meciuri(tmp: str, out: Path, etapa):
+    """predict.main() cu zero meciuri si un raspuns dat despre pauza."""
+    import pandas as pd
+
+    gol = pd.DataFrame(columns=["div", "Date", "Time", "home", "away",
+                                "B365H", "B365D", "B365A", "date"])
+
+    # Istoricul selectiilor e singura copie durabila a bilantului, iar API-ul
+    # costa cereri: un test nu are voie sa atinga niciunul.
+    import rezultate_api
+    import scorecard
+
+    with mock.patch.object(predict, "OUT", out), \
+         mock.patch.object(scorecard, "ISTORIC", Path(tmp) / "selectii.json"), \
+         mock.patch.object(rezultate_api, "rezolvator", lambda: None), \
+         mock.patch.object(rezultate_api, "urmatoarea_etapa", lambda: etapa), \
+         mock.patch.object(predict, "refresh_current_season", return_value=0), \
+         mock.patch.object(predict, "get_fixtures", return_value=gol), \
+         mock.patch.object(predict, "load_all", return_value=_istoric_minimal()):
+        predict.main()
+
+
+def _fisier_existent(out: Path) -> None:
+    out.write_text(json.dumps({
+        "generated_at": "2026-09-16T09:00:00+00:00",
+        "model": {"name": "test", "backtest": {}},
+        "matches": [{"id": "vechi_1"}, {"id": "vechi_2"}],
+    }), encoding="utf-8")
+
+
 def test_zero_meciuri_pastreaza_predictiile_existente() -> None:
-    """Fara meciuri noi, fisierul aplicatiei trebuie sa ramana neatins."""
+    """Cand nu stim de ce nu sunt meciuri, fisierul ramane neatins."""
     with tempfile.TemporaryDirectory() as tmp:
         out = Path(tmp) / "predictions.json"
-        existent = {
-            "generated_at": "2026-09-16T09:00:00+00:00",
-            "model": {"name": "test", "backtest": {}},
-            "matches": [{"id": "vechi_1"}, {"id": "vechi_2"}],
-        }
-        out.write_text(json.dumps(existent), encoding="utf-8")
-
-        import pandas as pd
-        gol = pd.DataFrame(columns=["div", "Date", "Time", "home", "away",
-                                    "B365H", "B365D", "B365A", "date"])
-
-        # Istoricul selectiilor e singura copie durabila a bilantului, iar API-ul
-        # costa cereri: un test nu are voie sa atinga niciunul.
-        import rezultate_api
-        import scorecard
-
-        with mock.patch.object(predict, "OUT", out), \
-             mock.patch.object(scorecard, "ISTORIC", Path(tmp) / "selectii.json"), \
-             mock.patch.object(rezultate_api, "rezolvator", lambda: None), \
-             mock.patch.object(predict, "refresh_current_season", return_value=0), \
-             mock.patch.object(predict, "get_fixtures", return_value=gol), \
-             mock.patch.object(predict, "load_all", return_value=_istoric_minimal()):
-            predict.main()
+        _fisier_existent(out)
+        # None = API-ul n-a raspuns, deci nu stim daca e pauza sau pana.
+        _ruleaza_fara_meciuri(tmp, out, etapa=None)
 
         pastrat = json.loads(out.read_text(encoding="utf-8"))
         verifica(len(pastrat.get("matches", [])) == 2,
                  "predictiile existente au fost sterse de o rulare fara meciuri")
+
+
+def test_pauza_confirmata_inlocuieste_meciurile_vechi() -> None:
+    """Pauza competitionala nu trebuie sa arate ca o lista inghetata.
+
+    Daca API-ul confirma ca urmatoarele meciuri sunt peste doua saptamani,
+    meciurile de saptamana trecuta nu mai au ce cauta in aplicatie: ar parea
+    program viitor. Le inlocuim cu explicatia.
+    """
+    with tempfile.TemporaryDirectory() as tmp:
+        out = Path(tmp) / "predictions.json"
+        _fisier_existent(out)
+        _ruleaza_fara_meciuri(tmp, out, etapa={
+            "date": "2026-10-10", "competitions": ["Premier League"]})
+
+        nou = json.loads(out.read_text(encoding="utf-8"))
+        verifica(nou.get("matches") == [],
+                 "meciurile vechi au ramas desi e pauza confirmata")
+        verifica(nou.get("next_round", {}).get("date") == "2026-10-10",
+                 "aplicatia nu afla cand se reiau meciurile")
 
 
 def _istoric_minimal():
@@ -106,6 +136,7 @@ def main() -> int:
     test_descarcare_esuata_nu_sterge_datele()
     test_descarcare_reusita_inlocuieste()
     test_zero_meciuri_pastreaza_predictiile_existente()
+    test_pauza_confirmata_inlocuieste_meciurile_vechi()
 
     if esecuri:
         print(f"ESUAT: {len(esecuri)} verificari")
