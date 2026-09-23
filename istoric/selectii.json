@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-09-22T18:17:50+00:00",
+ "actualizat": "2026-09-23T04:51:34+00:00",
  "selectii": [
   {
    "cheie": "P1_20260919_SpLisbon_Arouca|home",
@@ -238,6 +238,54 @@
    "odds": 1.53,
    "band": "60-65%",
    "notat_la": "2026-09-22T15:20:20+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "NAT1637929|home",
+   "match_id": "NAT1637929",
+   "date": "2026-09-23",
+   "league_name": "Cupa Golfului",
+   "home": "Saudi Arabia",
+   "away": "Kuwait",
+   "market": "home",
+   "market_label": "Victorie Saudi Arabia",
+   "probability": 0.745,
+   "odds": 1.26,
+   "band": "70-80%",
+   "notat_la": "2026-09-23T04:51:33+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "NAT1545829|home",
+   "match_id": "NAT1545829",
+   "date": "2026-09-25",
+   "league_name": "Preliminarii Cupa Africii",
+   "home": "Nigeria",
+   "away": "Madagascar",
+   "market": "home",
+   "market_label": "Victorie Nigeria",
+   "probability": 0.7365,
+   "odds": 1.19,
+   "band": "70-80%",
+   "notat_la": "2026-09-23T04:51:33+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "NAT1545818|home",
+   "match_id": "NAT1545818",
+   "date": "2026-09-25",
+   "league_name": "Preliminarii Cupa Africii",
+   "home": "Egypt",
+   "away": "Angola",
+   "market": "home",
+   "market_label": "Victorie Egypt",
+   "probability": 0.6432,
+   "odds": 1.4,
+   "band": "60-65%",
+   "notat_la": "2026-09-23T04:51:33+00:00",
    "castigat": null,
    "scor": null
   }
