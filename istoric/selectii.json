@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-09-23T14:16:22+00:00",
+ "actualizat": "2026-09-23T18:38:06+00:00",
  "selectii": [
   {
    "cheie": "P1_20260919_SpLisbon_Arouca|home",
@@ -286,6 +286,38 @@
    "odds": 1.4,
    "band": "60-65%",
    "notat_la": "2026-09-23T04:51:33+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "NAT1528878|home",
+   "match_id": "NAT1528878",
+   "date": "2026-09-24",
+   "league_name": "UEFA Nations League",
+   "home": "Austria",
+   "away": "Israel",
+   "market": "home",
+   "market_label": "Victorie Austria",
+   "probability": 0.7154,
+   "odds": 1.4,
+   "band": "70-80%",
+   "notat_la": "2026-09-23T18:38:05+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "NAT1545832|under25",
+   "match_id": "NAT1545832",
+   "date": "2026-09-24",
+   "league_name": "Preliminarii Cupa Africii",
+   "home": "Sierra Leone",
+   "away": "Zimbabwe",
+   "market": "under25",
+   "market_label": "Sub 2.5 goluri",
+   "probability": 0.6828,
+   "odds": 1.45,
+   "band": "65-70%",
+   "notat_la": "2026-09-23T18:38:05+00:00",
    "castigat": null,
    "scor": null
   }
