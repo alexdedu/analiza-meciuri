@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-09-25T05:04:12+00:00",
+ "actualizat": "2026-09-25T09:47:59+00:00",
  "selectii": [
   {
    "cheie": "P1_20260919_SpLisbon_Arouca|home",
@@ -432,6 +432,22 @@
    "odds": 1.47,
    "band": "65-70%",
    "notat_la": "2026-09-25T05:04:09+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "NAT1545826|home",
+   "match_id": "NAT1545826",
+   "date": "2026-09-25",
+   "league_name": "Preliminarii Cupa Africii",
+   "home": "Morocco",
+   "away": "Gabon",
+   "market": "home",
+   "market_label": "Victorie Morocco",
+   "probability": 0.8583,
+   "odds": 1.15,
+   "band": "80% sau peste",
+   "notat_la": "2026-09-25T09:47:58+00:00",
    "castigat": null,
    "scor": null
   }
