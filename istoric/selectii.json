@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-09-26T13:47:24+00:00",
+ "actualizat": "2026-09-26T18:02:05+00:00",
  "selectii": [
   {
    "cheie": "P1_20260919_SpLisbon_Arouca|home",
@@ -504,6 +504,38 @@
    "odds": 1.4,
    "band": "70-80%",
    "notat_la": "2026-09-26T13:47:23+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "NAT1640066|home",
+   "match_id": "NAT1640066",
+   "date": "2026-09-27",
+   "league_name": "Friendlies",
+   "home": "Jordan",
+   "away": "Syria",
+   "market": "home",
+   "market_label": "Victorie Jordan",
+   "probability": 0.6375,
+   "odds": 1.52,
+   "band": "60-65%",
+   "notat_la": "2026-09-26T18:02:04+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "NAT1528898|home",
+   "match_id": "NAT1528898",
+   "date": "2026-09-27",
+   "league_name": "UEFA Nations League",
+   "home": "Austria",
+   "away": "Kosovo",
+   "market": "home",
+   "market_label": "Victorie Austria",
+   "probability": 0.6332,
+   "odds": 1.54,
+   "band": "60-65%",
+   "notat_la": "2026-09-26T18:02:04+00:00",
    "castigat": null,
    "scor": null
   }
