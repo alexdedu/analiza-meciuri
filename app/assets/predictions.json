@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-26T05:06:51+00:00",
+ "generated_at": "2026-09-26T09:31:54+00:00",
  "recommendations": [
   {
    "match_id": "NAT1528888",
@@ -12,8 +12,8 @@
    "market_label": "Victorie Finland",
    "probability": 0.8994,
    "odds": 1.08,
-   "market_probability": 0.8779,
-   "disagreement": 0.0215,
+   "market_probability": 0.8776,
+   "disagreement": 0.0218,
    "band": "80% sau peste",
    "historical_hit_rate": 0.882
   },
@@ -27,9 +27,9 @@
    "market": "home",
    "market_label": "Victorie Slovakia",
    "probability": 0.8051,
-   "odds": 1.16,
-   "market_probability": 0.815,
-   "disagreement": -0.0099,
+   "odds": 1.14,
+   "market_probability": 0.8354,
+   "disagreement": -0.0303,
    "band": "80% sau peste",
    "historical_hit_rate": 0.882
   },
@@ -43,9 +43,9 @@
    "market": "home",
    "market_label": "Victorie Iceland",
    "probability": 0.71,
-   "odds": 1.27,
-   "market_probability": 0.7463,
-   "disagreement": -0.0363,
+   "odds": 1.28,
+   "market_probability": 0.74,
+   "disagreement": -0.03,
    "band": "70-80%",
    "historical_hit_rate": 0.753
   },
@@ -59,9 +59,9 @@
    "market": "away",
    "market_label": "Victorie Switzerland",
    "probability": 0.6706,
-   "odds": 1.41,
-   "market_probability": 0.6733,
-   "disagreement": -0.0027,
+   "odds": 1.36,
+   "market_probability": 0.7011,
+   "disagreement": -0.0305,
    "band": "65-70%",
    "historical_hit_rate": 0.666
   },
@@ -76,32 +76,32 @@
    "market_label": "Victorie Denmark",
    "probability": 0.6683,
    "odds": 1.46,
-   "market_probability": 0.6493,
-   "disagreement": 0.019,
+   "market_probability": 0.6498,
+   "disagreement": 0.0185,
    "band": "65-70%",
    "historical_hit_rate": 0.666
   },
   {
-   "match_id": "NAT1528889",
-   "league_name": "UEFA Nations League",
+   "match_id": "NAT1545833",
+   "league_name": "Preliminarii Cupa Africii",
    "date": "2026-09-26",
-   "time": "16:00",
-   "home": "Faroe Islands",
-   "away": "Kazakhstan",
+   "time": "13:00",
+   "home": "South Africa",
+   "away": "Guinea",
    "market": "under25",
    "market_label": "Sub 2.5 goluri",
-   "probability": 0.663,
-   "odds": 1.53,
-   "market_probability": 0.6165,
-   "disagreement": 0.0465,
-   "band": "65-70%",
-   "historical_hit_rate": 0.666
+   "probability": 0.6493,
+   "odds": 1.44,
+   "market_probability": 0.6409,
+   "disagreement": 0.0084,
+   "band": "60-65%",
+   "historical_hit_rate": 0.636
   }
  ],
  "track_record": {
-  "total": 27,
+  "total": 28,
   "resolved": 21,
-  "pending": 6,
+  "pending": 7,
   "hits": 12,
   "hit_rate": 0.5714,
   "profit_units": -4.56,
@@ -148,6 +148,19 @@
     "probability": 0.6696,
     "odds": 1.47,
     "band": "65-70%",
+    "won": null,
+    "score": null
+   },
+   {
+    "match_id": "NAT1545833",
+    "date": "2026-09-26",
+    "league_name": "Preliminarii Cupa Africii",
+    "home": "South Africa",
+    "away": "Guinea",
+    "market_label": "Sub 2.5 goluri",
+    "probability": 0.6493,
+    "odds": 1.44,
+    "band": "60-65%",
     "won": null,
     "score": null
    },
@@ -556,10 +569,10 @@
     }
    ],
    "reference_odds": {
-    "home": 2.55,
-    "draw": 3.15,
-    "away": 2.92,
-    "over25": 2.29,
+    "home": 2.51,
+    "draw": 3.16,
+    "away": 2.97,
+    "over25": 2.27,
     "under25": 1.63
    },
    "context": {
@@ -657,11 +670,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.29,
-    "draw": 4.75,
-    "away": 10.04,
-    "over25": 2.06,
-    "under25": 1.71
+    "home": 1.35,
+    "draw": 4.42,
+    "away": 8.66,
+    "over25": 2.13,
+    "under25": 1.66
    },
    "context": {
     "home": {
@@ -745,11 +758,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.83,
-    "draw": 3.08,
-    "away": 4.52,
-    "over25": 2.61,
-    "under25": 1.42
+    "home": 1.82,
+    "draw": 3.13,
+    "away": 4.51,
+    "over25": 2.57,
+    "under25": 1.44
    },
    "context": {
     "home": {
@@ -840,9 +853,9 @@
     }
    ],
    "reference_odds": {
-    "home": 1.87,
-    "draw": 3.36,
-    "away": 3.65,
+    "home": 1.9,
+    "draw": 3.34,
+    "away": 3.56,
     "over25": 1.87,
     "under25": 1.85
    },
@@ -884,7 +897,7 @@
    "league": "NAT_25",
    "league_name": "Cupa Golfului",
    "date": "2026-09-26",
-   "time": "15:00",
+   "time": "15:55",
    "home": "Kuwait",
    "away": "Iraq",
    "probs": {
@@ -928,11 +941,11 @@
     }
    ],
    "reference_odds": {
-    "home": 6.19,
-    "draw": 3.67,
-    "away": 1.51,
-    "over25": 2.18,
-    "under25": 1.62
+    "home": 6.58,
+    "draw": 3.8,
+    "away": 1.47,
+    "over25": 2.15,
+    "under25": 1.64
    },
    "context": {
     "home": {
@@ -1047,11 +1060,11 @@
     }
    ],
    "reference_odds": {
-    "home": 32.5,
+    "home": 32.17,
     "draw": 10.2,
     "away": 1.08,
-    "over25": 1.47,
-    "under25": 2.53
+    "over25": 1.45,
+    "under25": 2.56
    },
    "context": {
     "home": {
@@ -1148,11 +1161,11 @@
     }
    ],
    "reference_odds": {
-    "home": 2.29,
-    "draw": 3.12,
-    "away": 3.35,
-    "over25": 2.46,
-    "under25": 1.53
+    "home": 2.27,
+    "draw": 3.14,
+    "away": 3.38,
+    "over25": 2.39,
+    "under25": 1.56
    },
    "context": {
     "home": {
@@ -1243,11 +1256,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.27,
-    "draw": 5.62,
-    "away": 11.15,
-    "over25": 1.63,
-    "under25": 2.24
+    "home": 1.28,
+    "draw": 5.48,
+    "away": 10.87,
+    "over25": 1.68,
+    "under25": 2.16
    },
    "context": {
     "home": {
@@ -1338,11 +1351,11 @@
     }
    ],
    "reference_odds": {
-    "home": 2.3,
-    "draw": 3.08,
+    "home": 2.33,
+    "draw": 3.02,
     "away": 3.35,
-    "over25": 2.4,
-    "under25": 1.55
+    "over25": 2.5,
+    "under25": 1.51
    },
    "context": {
     "home": {
@@ -1457,11 +1470,11 @@
     }
    ],
    "reference_odds": {
-    "home": 5.29,
-    "draw": 3.71,
-    "away": 1.57,
-    "over25": 2.05,
-    "under25": 1.71
+    "home": 5.65,
+    "draw": 3.67,
+    "away": 1.55,
+    "over25": 2.17,
+    "under25": 1.63
    },
    "context": {
     "home": {
@@ -1558,11 +1571,11 @@
     }
    ],
    "reference_odds": {
-    "home": 3.22,
-    "draw": 3.46,
-    "away": 2.23,
-    "over25": 1.76,
-    "under25": 2.07
+    "home": 3.45,
+    "draw": 3.5,
+    "away": 2.13,
+    "over25": 1.72,
+    "under25": 2.14
    },
    "context": {
     "home": {
@@ -1659,11 +1672,11 @@
     }
    ],
    "reference_odds": {
-    "home": 3.37,
-    "draw": 3.48,
-    "away": 2.16,
-    "over25": 1.85,
-    "under25": 1.97
+    "home": 3.47,
+    "draw": 3.49,
+    "away": 2.12,
+    "over25": 1.86,
+    "under25": 1.96
    },
    "context": {
     "home": {
@@ -1760,11 +1773,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.51,
-    "draw": 4.0,
-    "away": 7.1,
-    "over25": 2.21,
-    "under25": 1.64
+    "home": 1.54,
+    "draw": 3.88,
+    "away": 6.68,
+    "over25": 2.24,
+    "under25": 1.63
    },
    "context": {
     "home": {
@@ -1861,11 +1874,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.16,
-    "draw": 7.31,
-    "away": 16.97,
-    "over25": 1.54,
-    "under25": 2.34
+    "home": 1.14,
+    "draw": 8.0,
+    "away": 20.92,
+    "over25": 1.55,
+    "under25": 2.35
    },
    "context": {
     "home": {
@@ -1949,11 +1962,11 @@
     }
    ],
    "reference_odds": {
-    "home": 7.46,
-    "draw": 4.76,
-    "away": 1.41,
-    "over25": 1.73,
-    "under25": 2.11
+    "home": 9.25,
+    "draw": 4.87,
+    "away": 1.36,
+    "over25": 1.86,
+    "under25": 1.95
    },
    "context": {
     "home": {
@@ -2037,11 +2050,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.17,
-    "draw": 7.0,
-    "away": 9.0,
-    "over25": 1.44,
-    "under25": 2.7
+    "home": 1.24,
+    "draw": 5.62,
+    "away": 9.05,
+    "over25": 1.47,
+    "under25": 2.46
    },
    "context": {
     "home": {
@@ -2125,11 +2138,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.12,
-    "draw": 9.0,
-    "away": 13.0,
-    "over25": 1.4,
-    "under25": 2.88
+    "home": 1.08,
+    "draw": 9.54,
+    "away": 18.7,
+    "over25": 1.26,
+    "under25": 3.42
    },
    "context": {
     "home": {
@@ -2226,11 +2239,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.5,
-    "draw": 4.1,
-    "away": 6.33,
-    "over25": 1.82,
-    "under25": 1.98
+    "home": 1.51,
+    "draw": 4.03,
+    "away": 6.36,
+    "over25": 1.88,
+    "under25": 1.92
    },
    "context": {
     "home": {
@@ -2321,11 +2334,11 @@
     }
    ],
    "reference_odds": {
-    "home": 3.8,
-    "draw": 3.5,
-    "away": 1.75,
+    "home": 3.86,
+    "draw": 3.65,
+    "away": 1.78,
     "over25": 1.67,
-    "under25": 2.15
+    "under25": 2.1
    },
    "context": {
     "home": {
@@ -2422,9 +2435,9 @@
     }
    ],
    "reference_odds": {
-    "home": 1.69,
-    "draw": 3.7,
-    "away": 5.01,
+    "home": 1.68,
+    "draw": 3.71,
+    "away": 5.07,
     "over25": 1.95,
     "under25": 1.83
    },
@@ -2510,11 +2523,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.09,
-    "draw": 8.15,
-    "away": 23.5,
-    "over25": 1.45,
-    "under25": 2.53
+    "home": 1.08,
+    "draw": 8.61,
+    "away": 24.18,
+    "over25": 1.44,
+    "under25": 2.57
    },
    "context": {
     "home": {
@@ -2598,11 +2611,11 @@
     }
    ],
    "reference_odds": {
-    "home": 2.56,
+    "home": 2.57,
     "draw": 3.25,
     "away": 2.73,
-    "over25": 2.06,
-    "under25": 1.75
+    "over25": 2.07,
+    "under25": 1.74
    },
    "context": {
     "home": {
@@ -2705,10 +2718,10 @@
     }
    ],
    "reference_odds": {
-    "home": 3.1,
+    "home": 3.08,
     "draw": 3.39,
     "away": 2.11,
-    "over25": 1.82,
+    "over25": 1.81,
     "under25": 1.93
    },
    "context": {
@@ -2793,7 +2806,7 @@
     }
    ],
    "reference_odds": {
-    "home": 21.83,
+    "home": 21.5,
     "draw": 9.1,
     "away": 1.11,
     "over25": 1.22,
@@ -3447,11 +3460,11 @@
     }
    ],
    "reference_odds": {
-    "home": 2.47,
-    "draw": 3.03,
+    "home": 2.46,
+    "draw": 3.02,
     "away": 3.03,
-    "over25": 2.52,
-    "under25": 1.51
+    "over25": 2.53,
+    "under25": 1.5
    },
    "context": {
     "home": {
@@ -3713,8 +3726,8 @@
    ],
    "reference_odds": {
     "home": 1.46,
-    "draw": 4.49,
-    "away": 6.79,
+    "draw": 4.53,
+    "away": 6.74,
     "over25": 1.77,
     "under25": 2.06
    },
@@ -3901,10 +3914,10 @@
     }
    ],
    "reference_odds": {
-    "home": 3.57,
-    "draw": 2.81,
-    "away": 2.33,
-    "over25": 3.12,
+    "home": 3.56,
+    "draw": 2.82,
+    "away": 2.32,
+    "over25": 3.1,
     "under25": 1.33
    },
    "context": {
@@ -4193,10 +4206,10 @@
    ],
    "reference_odds": {
     "home": 1.53,
-    "draw": 3.64,
-    "away": 7.53,
+    "draw": 3.71,
+    "away": 6.41,
     "over25": 2.09,
-    "under25": 1.71
+    "under25": 1.7
    },
    "context": {
     "home": {
@@ -4298,7 +4311,13 @@
      "p": 0.0944
     }
    ],
-   "reference_odds": {},
+   "reference_odds": {
+    "home": 5.25,
+    "draw": 3.67,
+    "away": 1.56,
+    "over25": 2.0,
+    "under25": 1.73
+   },
    "context": {
     "home": {
      "form": [
@@ -4407,10 +4426,10 @@
    ],
    "reference_odds": {
     "home": 1.41,
-    "draw": 4.97,
-    "away": 6.94,
+    "draw": 5.04,
+    "away": 7.06,
     "over25": 1.47,
-    "under25": 2.57
+    "under25": 2.6
    },
    "context": {
     "home": {
@@ -4502,10 +4521,10 @@
    ],
    "reference_odds": {
     "home": 2.53,
-    "draw": 3.71,
+    "draw": 3.72,
     "away": 2.56,
-    "over25": 1.46,
-    "under25": 2.57
+    "over25": 1.47,
+    "under25": 2.55
    },
    "context": {
     "home": {
@@ -5845,9 +5864,9 @@
     }
    ],
    "reference_odds": {
-    "home": 2.68,
+    "home": 2.69,
     "draw": 3.21,
-    "away": 2.66,
+    "away": 2.68,
     "over25": 2.11,
     "under25": 1.73
    },
@@ -5946,9 +5965,9 @@
     }
    ],
    "reference_odds": {
-    "home": 2.67,
+    "home": 2.66,
     "draw": 3.24,
-    "away": 2.66,
+    "away": 2.65,
     "over25": 2.19,
     "under25": 1.67
    },
@@ -6400,9 +6419,9 @@
     }
    ],
    "reference_odds": {
-    "home": 3.72,
+    "home": 3.73,
     "draw": 4.01,
-    "away": 1.87,
+    "away": 1.86,
     "over25": 1.49,
     "under25": 2.52
    },
@@ -6509,7 +6528,7 @@
    "reference_odds": {
     "home": 2.67,
     "draw": 3.46,
-    "away": 2.56,
+    "away": 2.57,
     "over25": 1.76,
     "under25": 2.06
    },
