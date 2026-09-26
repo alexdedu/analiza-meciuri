@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-09-25T18:53:20+00:00",
+ "actualizat": "2026-09-26T05:06:51+00:00",
  "selectii": [
   {
    "cheie": "P1_20260919_SpLisbon_Arouca|home",
@@ -284,8 +284,10 @@
    "odds": 1.19,
    "band": "70-80%",
    "notat_la": "2026-09-23T04:51:33+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": true,
+   "scor": "2-1",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-09-26T05:06:50+00:00"
   },
   {
    "cheie": "NAT1545818|home",
@@ -300,8 +302,10 @@
    "odds": 1.4,
    "band": "60-65%",
    "notat_la": "2026-09-23T04:51:33+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": false,
+   "scor": "0-0",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-09-26T05:06:50+00:00"
   },
   {
    "cheie": "NAT1528878|home",
@@ -384,8 +388,10 @@
    "odds": 1.29,
    "band": "70-80%",
    "notat_la": "2026-09-24T04:59:16+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": false,
+   "scor": "1-1",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-09-26T05:06:50+00:00"
   },
   {
    "cheie": "NAT1528890|home",
@@ -448,6 +454,24 @@
    "odds": 1.15,
    "band": "80% sau peste",
    "notat_la": "2026-09-25T09:47:58+00:00",
+   "castigat": true,
+   "scor": "2-0",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-09-26T05:06:51+00:00"
+  },
+  {
+   "cheie": "NAT1528889|under25",
+   "match_id": "NAT1528889",
+   "date": "2026-09-26",
+   "league_name": "UEFA Nations League",
+   "home": "Faroe Islands",
+   "away": "Kazakhstan",
+   "market": "under25",
+   "market_label": "Sub 2.5 goluri",
+   "probability": 0.663,
+   "odds": 1.53,
+   "band": "65-70%",
+   "notat_la": "2026-09-26T05:06:49+00:00",
    "castigat": null,
    "scor": null
   }
