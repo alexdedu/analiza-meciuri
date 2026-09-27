@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-09-26T18:02:05+00:00",
+ "actualizat": "2026-09-27T05:25:12+00:00",
  "selectii": [
   {
    "cheie": "P1_20260919_SpLisbon_Arouca|home",
@@ -356,8 +356,10 @@
    "odds": 1.09,
    "band": "80% sau peste",
    "notat_la": "2026-09-24T04:59:16+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": true,
+   "scor": "0-7",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-09-27T05:25:11+00:00"
   },
   {
    "cheie": "NAT1528894|home",
@@ -372,8 +374,10 @@
    "odds": 1.24,
    "band": "80% sau peste",
    "notat_la": "2026-09-24T04:59:16+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": true,
+   "scor": "2-0",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-09-27T05:25:11+00:00"
   },
   {
    "cheie": "NAT1545831|away",
@@ -406,8 +410,10 @@
    "odds": 1.27,
    "band": "70-80%",
    "notat_la": "2026-09-24T09:31:02+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": false,
+   "scor": "1-1",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-09-27T05:25:11+00:00"
   },
   {
    "cheie": "NAT1545656|away",
@@ -422,8 +428,10 @@
    "odds": 1.37,
    "band": "65-70%",
    "notat_la": "2026-09-24T09:31:02+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": true,
+   "scor": "0-3",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-09-27T05:25:11+00:00"
   },
   {
    "cheie": "NAT1528897|home",
@@ -472,8 +480,10 @@
    "odds": 1.53,
    "band": "65-70%",
    "notat_la": "2026-09-26T05:06:49+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": true,
+   "scor": "1-1",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-09-27T05:25:12+00:00"
   },
   {
    "cheie": "NAT1545833|under25",
@@ -488,8 +498,10 @@
    "odds": 1.44,
    "band": "60-65%",
    "notat_la": "2026-09-26T09:31:53+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": false,
+   "scor": "2-1",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-09-27T05:25:12+00:00"
   },
   {
    "cheie": "NAT1545603|under25",
@@ -504,8 +516,10 @@
    "odds": 1.4,
    "band": "70-80%",
    "notat_la": "2026-09-26T13:47:23+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": false,
+   "scor": "1-2",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-09-27T05:25:12+00:00"
   },
   {
    "cheie": "NAT1640066|home",
@@ -536,6 +550,102 @@
    "odds": 1.54,
    "band": "60-65%",
    "notat_la": "2026-09-26T18:02:04+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "NAT1545853|away",
+   "match_id": "NAT1545853",
+   "date": "2026-09-29",
+   "league_name": "Preliminarii Cupa Africii",
+   "home": "Lesotho",
+   "away": "Morocco",
+   "market": "away",
+   "market_label": "Victorie Morocco",
+   "probability": 0.902,
+   "odds": 1.03,
+   "band": "80% sau peste",
+   "notat_la": "2026-09-27T05:25:09+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "NAT1528911|away",
+   "match_id": "NAT1528911",
+   "date": "2026-09-29",
+   "league_name": "UEFA Nations League",
+   "home": "San Marino",
+   "away": "Albania",
+   "market": "away",
+   "market_label": "Victorie Albania",
+   "probability": 0.8823,
+   "odds": 1.06,
+   "band": "80% sau peste",
+   "notat_la": "2026-09-27T05:25:09+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "NAT1545858|away",
+   "match_id": "NAT1545858",
+   "date": "2026-09-29",
+   "league_name": "Preliminarii Cupa Africii",
+   "home": "South Sudan",
+   "away": "Egypt",
+   "market": "away",
+   "market_label": "Victorie Egypt",
+   "probability": 0.8236,
+   "odds": 1.17,
+   "band": "80% sau peste",
+   "notat_la": "2026-09-27T05:25:09+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "NAT1545848|away",
+   "match_id": "NAT1545848",
+   "date": "2026-09-29",
+   "league_name": "Preliminarii Cupa Africii",
+   "home": "Ethiopia",
+   "away": "Senegal",
+   "market": "away",
+   "market_label": "Victorie Senegal",
+   "probability": 0.7789,
+   "odds": 1.22,
+   "band": "70-80%",
+   "notat_la": "2026-09-27T05:25:09+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "NAT1628998|home",
+   "match_id": "NAT1628998",
+   "date": "2026-09-27",
+   "league_name": "Friendlies",
+   "home": "Malta",
+   "away": "Liechtenstein",
+   "market": "home",
+   "market_label": "Victorie Malta",
+   "probability": 0.7651,
+   "odds": 1.27,
+   "band": "70-80%",
+   "notat_la": "2026-09-27T05:25:09+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "NAT1528913|home",
+   "match_id": "NAT1528913",
+   "date": "2026-09-29",
+   "league_name": "UEFA Nations League",
+   "home": "Slovakia",
+   "away": "Kazakhstan",
+   "market": "home",
+   "market_label": "Victorie Slovakia",
+   "probability": 0.71,
+   "odds": 1.29,
+   "band": "70-80%",
+   "notat_la": "2026-09-27T05:25:09+00:00",
    "castigat": null,
    "scor": null
   }
