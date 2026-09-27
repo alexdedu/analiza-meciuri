@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-09-27T14:44:09+00:00",
+ "actualizat": "2026-09-27T18:40:08+00:00",
  "selectii": [
   {
    "cheie": "P1_20260919_SpLisbon_Arouca|home",
@@ -662,6 +662,22 @@
    "odds": 1.27,
    "band": "70-80%",
    "notat_la": "2026-09-27T10:12:24+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "NAT1629000|home",
+   "match_id": "NAT1629000",
+   "date": "2026-09-28",
+   "league_name": "Friendlies",
+   "home": "Japan",
+   "away": "Venezuela",
+   "market": "home",
+   "market_label": "Victorie Japan",
+   "probability": 0.6923,
+   "odds": 1.29,
+   "band": "65-70%",
+   "notat_la": "2026-09-27T18:40:07+00:00",
    "castigat": null,
    "scor": null
   }
