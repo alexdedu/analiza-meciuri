@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-09-27T05:25:12+00:00",
+ "actualizat": "2026-09-27T10:12:25+00:00",
  "selectii": [
   {
    "cheie": "P1_20260919_SpLisbon_Arouca|home",
@@ -646,6 +646,22 @@
    "odds": 1.29,
    "band": "70-80%",
    "notat_la": "2026-09-27T05:25:09+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "NAT1545843|away",
+   "match_id": "NAT1545843",
+   "date": "2026-09-28",
+   "league_name": "Preliminarii Cupa Africii",
+   "home": "Central African Republic",
+   "away": "Burkina Faso",
+   "market": "away",
+   "market_label": "Victorie Burkina Faso",
+   "probability": 0.7094,
+   "odds": 1.27,
+   "band": "70-80%",
+   "notat_la": "2026-09-27T10:12:24+00:00",
    "castigat": null,
    "scor": null
   }
