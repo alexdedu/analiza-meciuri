@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-09-27T18:40:08+00:00",
+ "actualizat": "2026-09-28T05:31:26+00:00",
  "selectii": [
   {
    "cheie": "P1_20260919_SpLisbon_Arouca|home",
@@ -446,8 +446,10 @@
    "odds": 1.47,
    "band": "65-70%",
    "notat_la": "2026-09-25T05:04:09+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": true,
+   "scor": "2-0",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-09-28T05:31:26+00:00"
   },
   {
    "cheie": "NAT1545826|home",
@@ -534,8 +536,10 @@
    "odds": 1.52,
    "band": "60-65%",
    "notat_la": "2026-09-26T18:02:04+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": false,
+   "scor": "1-1",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-09-28T05:31:26+00:00"
   },
   {
    "cheie": "NAT1528898|home",
@@ -550,8 +554,10 @@
    "odds": 1.54,
    "band": "60-65%",
    "notat_la": "2026-09-26T18:02:04+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": true,
+   "scor": "3-1",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-09-28T05:31:26+00:00"
   },
   {
    "cheie": "NAT1545853|away",
@@ -630,8 +636,10 @@
    "odds": 1.27,
    "band": "70-80%",
    "notat_la": "2026-09-27T05:25:09+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": true,
+   "scor": "2-0",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-09-28T05:31:26+00:00"
   },
   {
    "cheie": "NAT1528913|home",
