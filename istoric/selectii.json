@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-09-28T17:41:33+00:00",
+ "actualizat": "2026-09-28T20:48:28+00:00",
  "selectii": [
   {
    "cheie": "P1_20260919_SpLisbon_Arouca|home",
@@ -734,6 +734,22 @@
    "odds": 1.47,
    "band": "65-70%",
    "notat_la": "2026-09-28T17:41:32+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "NAT1545855|under25",
+   "match_id": "NAT1545855",
+   "date": "2026-09-29",
+   "league_name": "Preliminarii Cupa Africii",
+   "home": "Madagascar",
+   "away": "Tanzania",
+   "market": "under25",
+   "market_label": "Sub 2.5 goluri",
+   "probability": 0.6519,
+   "odds": 1.49,
+   "band": "65-70%",
+   "notat_la": "2026-09-28T20:48:27+00:00",
    "castigat": null,
    "scor": null
   }
