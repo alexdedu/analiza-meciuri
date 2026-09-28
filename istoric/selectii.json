@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-09-28T05:31:26+00:00",
+ "actualizat": "2026-09-28T11:14:12+00:00",
  "selectii": [
   {
    "cheie": "P1_20260919_SpLisbon_Arouca|home",
@@ -686,6 +686,22 @@
    "odds": 1.29,
    "band": "65-70%",
    "notat_la": "2026-09-27T18:40:07+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "NAT1545856|under25",
+   "match_id": "NAT1545856",
+   "date": "2026-09-29",
+   "league_name": "Preliminarii Cupa Africii",
+   "home": "Mozambique",
+   "away": "Sudan",
+   "market": "under25",
+   "market_label": "Sub 2.5 goluri",
+   "probability": 0.6977,
+   "odds": 1.37,
+   "band": "65-70%",
+   "notat_la": "2026-09-28T11:14:12+00:00",
    "castigat": null,
    "scor": null
   }
