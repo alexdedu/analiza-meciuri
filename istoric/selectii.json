@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-09-29T10:54:43+00:00",
+ "actualizat": "2026-09-29T15:54:19+00:00",
  "selectii": [
   {
    "cheie": "P1_20260919_SpLisbon_Arouca|home",
@@ -804,6 +804,22 @@
    "odds": 1.24,
    "band": "70-80%",
    "notat_la": "2026-09-29T05:50:00+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "NAT1545607|home",
+   "match_id": "NAT1545607",
+   "date": "2026-10-01",
+   "league_name": "UEFA Nations League",
+   "home": "Malta",
+   "away": "Gibraltar",
+   "market": "home",
+   "market_label": "Victorie Malta",
+   "probability": 0.7018,
+   "odds": 1.28,
+   "band": "70-80%",
+   "notat_la": "2026-09-29T15:54:18+00:00",
    "castigat": null,
    "scor": null
   }
