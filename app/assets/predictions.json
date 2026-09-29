@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T17:21:45+00:00",
+ "generated_at": "2026-09-29T17:53:03+00:00",
  "recommendations": [
   {
    "match_id": "NAT1640511",
@@ -853,226 +853,6 @@
    "explanation": "Benin e favorita, cu 42% sanse de victorie. Goluri asteptate: 1.11 pentru Benin, 0.78 pentru Mauritania. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,435 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Benin are 31 meciuri in ultimii patru ani, Mauritania are 33. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
-   "id": "NAT1637936",
-   "league": "NAT_25",
-   "league_name": "Cupa Golfului",
-   "date": "2026-09-29",
-   "time": "17:30",
-   "home": "Saudi Arabia",
-   "away": "Iraq",
-   "probs": {
-    "p_home": 0.385,
-    "p_draw": 0.3733,
-    "p_away": 0.2417,
-    "p_over25": 0.1951,
-    "p_btts": 0.2815,
-    "p_under25": 0.8049,
-    "p_no_btts": 0.7185
-   },
-   "expected_goals": {
-    "home": 0.88,
-    "away": 0.63
-   },
-   "confidence": "ridicata",
-   "sample": {
-    "home_matches": 44,
-    "away_matches": 31
-   },
-   "top_scores": [
-    {
-     "score": "0-0",
-     "p": 0.2259
-    },
-    {
-     "score": "1-0",
-     "p": 0.1872
-    },
-    {
-     "score": "0-1",
-     "p": 0.1332
-    },
-    {
-     "score": "1-1",
-     "p": 0.1291
-    },
-    {
-     "score": "2-0",
-     "p": 0.0852
-    }
-   ],
-   "reference_odds": {
-    "home": 2.05,
-    "draw": 2.99,
-    "away": 3.66,
-    "over25": 2.43,
-    "under25": 1.51
-   },
-   "context": {
-    "home": {
-     "form": [
-      "I",
-      "I",
-      "I",
-      "I",
-      "V",
-      "E"
-     ],
-     "goals_for_avg": 0.83,
-     "goals_against_avg": 1.67,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "E",
-      "E",
-      "V",
-      "V",
-      "E",
-      "I"
-     ],
-     "goals_for_avg": 0.83,
-     "goals_against_avg": 0.83,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "h2h": [
-     {
-      "date": "2025-10-14",
-      "home": "Saudi Arabia",
-      "away": "Iraq",
-      "score": "0-0"
-     },
-     {
-      "date": "2018-10-15",
-      "home": "Saudi Arabia",
-      "away": "Iraq",
-      "score": "1-1"
-     },
-     {
-      "date": "2018-02-28",
-      "home": "Iraq",
-      "away": "Saudi Arabia",
-      "score": "4-1"
-     },
-     {
-      "date": "2017-03-28",
-      "home": "Saudi Arabia",
-      "away": "Iraq",
-      "score": "1-0"
-     },
-     {
-      "date": "2016-09-06",
-      "home": "Iraq",
-      "away": "Saudi Arabia",
-      "score": "1-2"
-     }
-    ]
-   },
-   "explanation": "Saudi Arabia e favorita, cu 39% sanse de victorie. Goluri asteptate: 0.88 pentru Saudi Arabia, 0.63 pentru Iraq. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,435 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Saudi Arabia are 44 meciuri in ultimii patru ani, Iraq are 31. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
-  },
-  {
-   "id": "NAT1637937",
-   "league": "NAT_25",
-   "league_name": "Cupa Golfului",
-   "date": "2026-09-29",
-   "time": "17:30",
-   "home": "Oman",
-   "away": "Kuwait",
-   "probs": {
-    "p_home": 0.6093,
-    "p_draw": 0.2476,
-    "p_away": 0.1431,
-    "p_over25": 0.4236,
-    "p_btts": 0.4106,
-    "p_under25": 0.5764,
-    "p_no_btts": 0.5894
-   },
-   "expected_goals": {
-    "home": 1.69,
-    "away": 0.69
-   },
-   "confidence": "ridicata",
-   "sample": {
-    "home_matches": 34,
-    "away_matches": 37
-   },
-   "top_scores": [
-    {
-     "score": "1-0",
-     "p": 0.1515
-    },
-    {
-     "score": "2-0",
-     "p": 0.1325
-    },
-    {
-     "score": "1-1",
-     "p": 0.1134
-    },
-    {
-     "score": "0-0",
-     "p": 0.0986
-    },
-    {
-     "score": "2-1",
-     "p": 0.091
-    }
-   ],
-   "reference_odds": {
-    "home": 1.71,
-    "draw": 3.49,
-    "away": 4.45,
-    "over25": 2.06,
-    "under25": 1.71
-   },
-   "context": {
-    "home": {
-     "form": [
-      "E",
-      "I",
-      "V",
-      "I",
-      "I",
-      "V"
-     ],
-     "goals_for_avg": 1.17,
-     "goals_against_avg": 1.33,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "E",
-      "I",
-      "I",
-      "V",
-      "E",
-      "E"
-     ],
-     "goals_for_avg": 1.67,
-     "goals_against_avg": 2.0,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "h2h": [
-     {
-      "date": "2025-03-25",
-      "home": "Kuwait",
-      "away": "Oman",
-      "score": "0-1"
-     },
-     {
-      "date": "2024-10-10",
-      "home": "Oman",
-      "away": "Kuwait",
-      "score": "4-0"
-     }
-    ]
-   },
-   "explanation": "Oman e favorita, cu 61% sanse de victorie. Goluri asteptate: 1.69 pentru Oman, 0.69 pentru Kuwait. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,435 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Oman are 34 meciuri in ultimii patru ani, Kuwait are 37. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
-  },
-  {
    "id": "NAT1528909",
    "league": "NAT_5",
    "league_name": "UEFA Nations League",
@@ -1228,11 +1008,11 @@
     }
    ],
    "reference_odds": {
-    "home": 9.48,
-    "draw": 5.39,
-    "away": 1.31,
-    "over25": 1.64,
-    "under25": 2.26
+    "home": 10.47,
+    "draw": 5.59,
+    "away": 1.27,
+    "over25": 1.55,
+    "under25": 2.4
    },
    "context": {
     "home": {
@@ -1606,10 +1386,10 @@
     }
    ],
    "reference_odds": {
-    "home": 3.36,
-    "draw": 3.25,
-    "away": 2.15,
-    "over25": 2.16,
+    "home": 3.08,
+    "draw": 3.21,
+    "away": 2.29,
+    "over25": 2.17,
     "under25": 1.68
    },
    "context": {
@@ -1890,11 +1670,11 @@
     }
    ],
    "reference_odds": {
-    "home": 5.41,
+    "home": 5.28,
     "draw": 3.55,
-    "away": 1.6,
-    "over25": 2.18,
-    "under25": 1.63
+    "away": 1.61,
+    "over25": 2.13,
+    "under25": 1.66
    },
    "context": {
     "home": {
@@ -2080,11 +1860,11 @@
     }
    ],
    "reference_odds": {
-    "home": 6.54,
+    "home": 6.49,
     "draw": 3.72,
-    "away": 1.47,
-    "over25": 2.21,
-    "under25": 1.61
+    "away": 1.48,
+    "over25": 2.2,
+    "under25": 1.62
    },
    "context": {
     "home": {
@@ -2622,11 +2402,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.45,
-    "draw": 4.23,
-    "away": 6.51,
-    "over25": 1.77,
-    "under25": 2.02
+    "home": 1.42,
+    "draw": 4.39,
+    "away": 6.7,
+    "over25": 1.75,
+    "under25": 2.06
    },
    "context": {
     "home": {
@@ -3038,11 +2818,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.65,
-    "draw": 4.2,
-    "away": 3.7,
-    "over25": 1.5,
-    "under25": 2.5
+    "home": 1.69,
+    "draw": 4.05,
+    "away": 4.01,
+    "over25": 1.52,
+    "under25": 2.38
    },
    "context": {
     "home": {
@@ -4996,7 +4776,13 @@
      "p": 0.0781
     }
    ],
-   "reference_odds": {},
+   "reference_odds": {
+    "home": 8.59,
+    "draw": 5.09,
+    "away": 1.29,
+    "over25": 1.68,
+    "under25": 2.13
+   },
    "context": {
     "home": {
      "form": [
@@ -5091,7 +4877,13 @@
      "p": 0.0851
     }
    ],
-   "reference_odds": {},
+   "reference_odds": {
+    "home": 9.1,
+    "draw": 4.87,
+    "away": 1.28,
+    "over25": 1.67,
+    "under25": 2.13
+   },
    "context": {
     "home": {
      "form": [
