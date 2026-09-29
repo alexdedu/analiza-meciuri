@@ -1,0 +1,70 @@
+fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,ar1,ar2
+1570333,2026-08-15,SP1,2026,Alaves,Getafe,Alaves,Getafe,1,3,2,1,0,0,1,0
+1570341,2026-08-15,SP1,2026,Sevilla,Rayo Vallecano,Sevilla,Vallecano,1,3,0,4,0,1,0,0
+1570338,2026-08-16,SP1,2026,Espanyol,Levante,Espanol,Levante,1,2,0,0,0,0,0,0
+1570339,2026-08-16,SP1,2026,Racing Santander,Villarreal,Santander,Villarreal,1,1,0,4,0,0,0,0
+1570337,2026-08-17,SP1,2026,Deportivo La Coruna,Elche,La Coruna,Elche,2,0,0,2,0,0,0,0
+1570334,2026-08-19,SP1,2026,Atletico Madrid,Malaga,Ath Madrid,Malaga,2,0,1,2,0,0,0,0
+1570351,2026-08-20,SP1,2026,Rayo Vallecano,Alaves,Vallecano,Alaves,0,1,1,1,0,0,0,0
+1570345,2026-08-21,SP1,2026,Real Betis,Real Sociedad,Betis,Sociedad,0,3,0,3,0,0,0,0
+1570343,2026-08-22,SP1,2026,Athletic Club,Sevilla,Ath Bilbao,Sevilla,1,1,3,2,1,0,0,0
+1570352,2026-08-22,SP1,2026,Valencia,Celta Vigo,Valencia,Celta,2,0,0,3,0,0,0,0
+1570347,2026-08-22,SP1,2026,Espanyol,Real Madrid,Espanol,Real Madrid,1,4,1,0,0,0,0,0
+1570344,2026-08-23,SP1,2026,Atletico Madrid,Villarreal,Ath Madrid,Villarreal,0,3,0,2,0,1,0,0
+1570348,2026-08-23,SP1,2026,Getafe,Racing Santander,Getafe,Santander,1,0,2,1,0,0,0,0
+1570346,2026-08-23,SP1,2026,Elche,Barcelona,Elche,Barcelona,1,0,0,0,0,0,0,0
+1570350,2026-08-24,SP1,2026,Osasuna,Levante,Osasuna,Levante,0,2,1,0,0,0,0,0
+1570349,2026-08-24,SP1,2026,Malaga,Deportivo La Coruna,Malaga,La Coruna,0,1,1,3,0,0,0,0
+1570342,2026-08-25,SP1,2026,Valencia,Real Betis,Valencia,Betis,1,1,1,0,0,0,0,0
+1570340,2026-08-26,SP1,2026,Real Madrid,Real Sociedad,Real Madrid,Sociedad,1,2,2,1,0,0,0,0
+1570335,2026-08-27,SP1,2026,Barcelona,Athletic Club,Barcelona,Ath Bilbao,1,0,0,2,0,0,0,0
+1570336,2026-08-27,SP1,2026,Celta Vigo,Osasuna,Celta,Osasuna,0,0,1,0,0,1,0,0
+1570359,2026-08-28,SP1,2026,Racing Santander,Elche,Santander,Elche,2,0,0,1,0,0,0,0
+1570353,2026-08-28,SP1,2026,Alaves,Villarreal,Alaves,Villarreal,0,3,0,1,0,0,0,0
+1570357,2026-08-29,SP1,2026,Levante,Real Betis,Levante,Betis,0,1,0,1,0,0,0,0
+1570361,2026-08-29,SP1,2026,Real Sociedad,Espanyol,Sociedad,Espanol,1,1,1,3,0,0,0,0
+1570362,2026-08-29,SP1,2026,Sevilla,Atletico Madrid,Sevilla,Ath Madrid,0,2,1,1,0,0,0,0
+1570360,2026-08-30,SP1,2026,Real Madrid,Malaga,Real Madrid,Malaga,0,0,0,2,0,0,0,0
+1570356,2026-08-30,SP1,2026,Deportivo La Coruna,Valencia,La Coruna,Valencia,0,2,0,1,0,1,0,0
+1570355,2026-08-30,SP1,2026,Celta Vigo,Athletic Club,Celta,Ath Bilbao,0,0,0,3,0,0,0,0
+1570358,2026-08-31,SP1,2026,Osasuna,Getafe,Osasuna,Getafe,1,4,1,3,0,0,0,0
+1570354,2026-08-31,SP1,2026,Barcelona,Rayo Vallecano,Barcelona,Vallecano,0,0,0,1,0,0,0,0
+1570392,2026-09-03,SP1,2026,Real Sociedad,Celta Vigo,Sociedad,Celta,1,1,0,3,0,0,0,0
+1570365,2026-09-04,SP1,2026,Real Betis,Real Madrid,Betis,Real Madrid,0,3,1,3,0,0,0,0
+1570364,2026-09-05,SP1,2026,Athletic Club,Atletico Madrid,Ath Bilbao,Ath Madrid,0,0,1,0,0,0,0,0
+1570370,2026-09-05,SP1,2026,Rayo Vallecano,Racing Santander,Vallecano,Santander,2,1,2,0,1,1,0,0
+1570372,2026-09-05,SP1,2026,Villarreal,Deportivo La Coruna,Villarreal,La Coruna,0,2,0,2,0,0,0,0
+1570363,2026-09-06,SP1,2026,Alaves,Osasuna,Alaves,Osasuna,0,1,0,2,0,0,0,0
+1570367,2026-09-06,SP1,2026,Espanyol,Sevilla,Espanol,Sevilla,1,1,3,0,0,0,0,1
+1570371,2026-09-06,SP1,2026,Valencia,Barcelona,Valencia,Barcelona,0,1,1,2,0,0,0,0
+1570369,2026-09-06,SP1,2026,Malaga,Levante,Malaga,Levante,3,1,0,2,0,0,0,0
+1570368,2026-09-07,SP1,2026,Getafe,Celta Vigo,Getafe,Celta,1,3,0,2,0,1,0,0
+1570366,2026-09-07,SP1,2026,Elche,Real Sociedad,Elche,Sociedad,1,3,1,0,0,0,0,1
+1570381,2026-09-11,SP1,2026,Sevilla,Valencia,Sevilla,Valencia,0,1,1,1,0,0,0,0
+1570378,2026-09-12,SP1,2026,Racing Santander,Alaves,Santander,Alaves,1,1,2,1,0,1,0,0
+1570377,2026-09-12,SP1,2026,Osasuna,Espanyol,Osasuna,Espanol,2,0,2,1,0,0,0,0
+1570379,2026-09-12,SP1,2026,Real Madrid,Rayo Vallecano,Real Madrid,Vallecano,0,0,0,1,0,0,0,0
+1570373,2026-09-12,SP1,2026,Athletic Club,Elche,Ath Bilbao,Elche,0,3,0,3,0,0,0,0
+1570374,2026-09-13,SP1,2026,Celta Vigo,Malaga,Celta,Malaga,1,0,1,0,0,0,0,0
+1570376,2026-09-13,SP1,2026,Levante,Barcelona,Levante,Barcelona,1,0,1,0,0,0,0,0
+1570375,2026-09-13,SP1,2026,Getafe,Deportivo La Coruna,Getafe,La Coruna,2,1,1,0,0,0,0,0
+1570380,2026-09-13,SP1,2026,Real Sociedad,Atletico Madrid,Sociedad,Ath Madrid,1,1,0,1,0,0,0,0
+1570382,2026-09-14,SP1,2026,Villarreal,Real Betis,Villarreal,Betis,0,1,0,0,0,0,0,0
+1570388,2026-09-15,SP1,2026,Elche,Real Madrid,Elche,Real Madrid,1,3,1,1,0,0,0,0
+1570383,2026-09-15,SP1,2026,Alaves,Valencia,Alaves,Valencia,1,0,2,2,0,0,0,0
+1570391,2026-09-15,SP1,2026,Rayo Vallecano,Espanyol,Vallecano,Espanol,1,4,0,1,0,0,0,1
+1570387,2026-09-16,SP1,2026,Deportivo La Coruna,Sevilla,La Coruna,Sevilla,0,1,0,4,0,1,0,0
+1570384,2026-09-16,SP1,2026,Atletico Madrid,Osasuna,Ath Madrid,Osasuna,0,1,0,2,0,0,0,0
+1570385,2026-09-16,SP1,2026,Barcelona,Racing Santander,Barcelona,Santander,1,2,1,1,0,0,0,0
+1570386,2026-09-17,SP1,2026,Real Betis,Getafe,Betis,Getafe,1,0,1,4,0,0,0,1
+1570390,2026-09-17,SP1,2026,Malaga,Villarreal,Malaga,Villarreal,1,4,1,0,0,0,0,0
+1570397,2026-09-18,SP1,2026,Espanyol,Elche,Espanol,Elche,1,1,1,1,0,0,1,0
+1570399,2026-09-19,SP1,2026,Osasuna,Rayo Vallecano,Osasuna,Vallecano,2,1,1,1,0,0,0,0
+1570393,2026-09-19,SP1,2026,Athletic Club,Alaves,Ath Bilbao,Alaves,0,2,0,0,0,0,0,0
+1570395,2026-09-19,SP1,2026,Celta Vigo,Racing Santander,Celta,Santander,1,1,0,5,0,0,0,0
+1570400,2026-09-19,SP1,2026,Sevilla,Barcelona,Sevilla,Barcelona,0,1,0,0,0,0,0,0
+1570398,2026-09-20,SP1,2026,Getafe,Malaga,Getafe,Malaga,1,3,2,0,0,0,0,0
+1570394,2026-09-20,SP1,2026,Atletico Madrid,Real Madrid,Ath Madrid,Real Madrid,2,0,0,2,0,0,0,1
+1570396,2026-09-20,SP1,2026,Deportivo La Coruna,Real Betis,La Coruna,Betis,1,0,0,1,0,0,0,0
+1570402,2026-09-20,SP1,2026,Villarreal,Levante,Villarreal,Levante,0,1,1,0,0,0,0,0
+1570401,2026-09-20,SP1,2026,Valencia,Real Sociedad,Valencia,Sociedad,2,0,0,3,0,0,0,1
