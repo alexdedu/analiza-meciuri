@@ -1,4 +1,196 @@
 fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,ar1,ar2,evenimente
+1382426,2025-07-25,B1,2025,Antwerp,Union St. Gilloise,Antwerp,St. Gilloise,2,1,1,2,0,0,0,0,16
+1382429,2025-07-26,B1,2025,RAAL La Louvière,Standard Liege,RAAL La Louviere,Standard,0,2,0,1,0,0,0,0,16
+1382427,2025-07-26,B1,2025,Dender,Cercle Brugge,Dender,Cercle Brugge,0,0,0,2,0,0,0,0,8
+1382428,2025-07-26,B1,2025,Zulte Waregem,KV Mechelen,Waregem,Mechelen,0,3,1,2,0,0,0,0,17
+1382433,2025-07-27,B1,2025,St. Truiden,Gent,St Truiden,Gent,0,1,1,0,0,0,0,0,14
+1382430,2025-07-27,B1,2025,Anderlecht,KVC Westerlo,Anderlecht,Westerlo,2,2,0,2,0,0,0,0,22
+1382431,2025-07-27,B1,2025,OH Leuven,Charleroi,Oud-Heverlee Leuven,Charleroi,0,2,0,2,0,0,0,0,17
+1382432,2025-07-27,B1,2025,Club Brugge KV,Genk,Club Brugge,Genk,0,1,0,2,0,1,0,0,17
+1382434,2025-08-01,B1,2025,KV Mechelen,Club Brugge KV,Mechelen,Club Brugge,2,2,0,0,0,0,0,0,17
+1382435,2025-08-02,B1,2025,KVC Westerlo,Zulte Waregem,Westerlo,Waregem,0,1,1,0,0,0,0,0,14
+1382436,2025-08-02,B1,2025,Standard Liege,Dender,Standard,Dender,1,2,0,3,0,0,0,0,15
+1382437,2025-08-02,B1,2025,Gent,RAAL La Louvière,Gent,RAAL La Louviere,0,0,0,1,0,0,0,0,12
+1382438,2025-08-03,B1,2025,Genk,Antwerp,Genk,Antwerp,0,0,0,2,0,0,0,0,12
+1382439,2025-08-03,B1,2025,Cercle Brugge,Anderlecht,Cercle Brugge,Anderlecht,1,1,0,2,0,0,0,0,16
+1382440,2025-08-03,B1,2025,Union St. Gilloise,OH Leuven,St. Gilloise,Oud-Heverlee Leuven,0,1,0,2,0,0,0,0,18
+1382441,2025-08-03,B1,2025,Charleroi,St. Truiden,Charleroi,St Truiden,2,3,0,1,0,1,0,0,20
+1382442,2025-08-08,B1,2025,St. Truiden,Dender,St Truiden,Dender,1,2,0,0,0,0,0,1,17
+1382443,2025-08-09,B1,2025,Club Brugge KV,Cercle Brugge,Club Brugge,Cercle Brugge,0,2,2,1,0,0,1,0,18
+1382444,2025-08-09,B1,2025,KVC Westerlo,KV Mechelen,Westerlo,Mechelen,1,0,1,0,0,0,0,0,13
+1382445,2025-08-09,B1,2025,Gent,Union St. Gilloise,Gent,St. Gilloise,0,1,1,3,0,0,0,0,20
+1382446,2025-08-10,B1,2025,RAAL La Louvière,Charleroi,RAAL La Louviere,Charleroi,1,2,0,0,0,0,0,0,12
+1382447,2025-08-10,B1,2025,Anderlecht,Zulte Waregem,Anderlecht,Waregem,0,0,0,3,0,0,0,0,18
+1382448,2025-08-10,B1,2025,Standard Liege,Genk,Standard,Genk,3,1,1,2,0,0,0,0,20
+1382449,2025-08-10,B1,2025,Antwerp,OH Leuven,Antwerp,Oud-Heverlee Leuven,0,3,3,2,0,0,0,1,24
+1382450,2025-08-15,B1,2025,OH Leuven,Genk,Oud-Heverlee Leuven,Genk,0,2,0,2,0,0,0,0,17
+1382452,2025-08-16,B1,2025,KV Mechelen,Gent,Mechelen,Gent,0,2,1,0,0,0,0,0,15
+1382451,2025-08-16,B1,2025,Zulte Waregem,Club Brugge KV,Waregem,Club Brugge,0,1,0,2,0,0,0,0,13
+1382453,2025-08-16,B1,2025,Union St. Gilloise,Standard Liege,St. Gilloise,Standard,0,1,2,0,0,0,1,0,16
+1382454,2025-08-17,B1,2025,Dender,Anderlecht,Dender,Anderlecht,0,1,1,0,0,0,0,0,14
+1382455,2025-08-17,B1,2025,St. Truiden,RAAL La Louvière,St Truiden,RAAL La Louviere,0,1,0,2,0,0,0,0,13
+1382456,2025-08-17,B1,2025,Charleroi,Antwerp,Charleroi,Antwerp,0,3,0,3,0,0,0,0,15
+1382457,2025-08-17,B1,2025,Cercle Brugge,KVC Westerlo,Cercle Brugge,Westerlo,0,0,0,1,0,0,0,0,15
+1382460,2025-08-23,B1,2025,Standard Liege,Cercle Brugge,Standard,Cercle Brugge,1,0,1,2,0,0,0,0,16
+1382461,2025-08-23,B1,2025,Zulte Waregem,St. Truiden,Waregem,St Truiden,2,0,0,0,0,1,0,0,14
+1382464,2025-08-24,B1,2025,RAAL La Louvière,Union St. Gilloise,RAAL La Louviere,St. Gilloise,2,0,1,2,0,0,0,0,13
+1382465,2025-08-24,B1,2025,Dender,OH Leuven,Dender,Oud-Heverlee Leuven,1,2,0,4,0,0,0,0,18
+1382462,2025-08-24,B1,2025,Antwerp,KV Mechelen,Antwerp,Mechelen,0,0,1,2,0,1,0,0,17
+1382466,2025-08-29,B1,2025,Cercle Brugge,St. Truiden,Cercle Brugge,St Truiden,0,2,0,1,0,0,0,0,11
+1382467,2025-08-30,B1,2025,KV Mechelen,RAAL La Louvière,Mechelen,RAAL La Louviere,0,1,0,0,0,0,0,0,15
+1382468,2025-08-30,B1,2025,KVC Westerlo,Antwerp,Westerlo,Antwerp,0,2,1,2,0,0,0,0,17
+1382471,2025-08-30,B1,2025,Charleroi,Dender,Charleroi,Dender,0,1,0,0,0,0,0,0,15
+1382473,2025-08-31,B1,2025,Genk,Zulte Waregem,Genk,Waregem,1,1,0,2,1,0,0,0,18
+1382472,2025-08-31,B1,2025,Union St. Gilloise,Anderlecht,St. Gilloise,Anderlecht,0,1,1,5,0,0,0,2,18
+1382470,2025-08-31,B1,2025,Gent,Club Brugge KV,Gent,Club Brugge,1,3,0,2,0,0,0,0,16
+1382469,2025-08-31,B1,2025,OH Leuven,Standard Liege,Oud-Heverlee Leuven,Standard,2,1,2,1,0,0,0,0,17
+1382474,2025-09-12,B1,2025,Standard Liege,KV Mechelen,Standard,Mechelen,0,3,1,2,0,0,0,0,18
+1382477,2025-09-13,B1,2025,RAAL La Louvière,Club Brugge KV,RAAL La Louviere,Club Brugge,0,0,2,0,0,0,0,0,13
+1382475,2025-09-13,B1,2025,Zulte Waregem,OH Leuven,Waregem,Oud-Heverlee Leuven,0,3,2,2,0,0,0,0,18
+1382476,2025-09-13,B1,2025,Dender,Union St. Gilloise,Dender,St. Gilloise,0,0,0,0,0,0,0,0,10
+1382478,2025-09-14,B1,2025,Antwerp,Gent,Antwerp,Gent,2,2,1,1,0,0,1,0,19
+1382479,2025-09-14,B1,2025,Cercle Brugge,Charleroi,Cercle Brugge,Charleroi,0,1,0,2,0,0,0,0,20
+1382480,2025-09-14,B1,2025,Anderlecht,Genk,Anderlecht,Genk,1,1,1,2,1,0,0,0,17
+1382481,2025-09-14,B1,2025,St. Truiden,KVC Westerlo,St Truiden,Westerlo,0,1,0,2,0,0,0,0,15
+1382458,2025-09-17,B1,2025,Genk,Charleroi,Genk,Charleroi,0,0,1,1,0,0,0,0,13
+1382482,2025-09-19,B1,2025,Gent,Dender,Gent,Dender,1,0,0,1,0,0,0,0,15
+1382488,2025-09-20,B1,2025,OH Leuven,RAAL La Louvière,Oud-Heverlee Leuven,RAAL La Louviere,0,4,0,3,0,0,0,0,17
+1382489,2025-09-20,B1,2025,Charleroi,Zulte Waregem,Charleroi,Waregem,0,3,0,1,1,0,0,0,18
+1382483,2025-09-20,B1,2025,Anderlecht,Antwerp,Anderlecht,Antwerp,0,3,0,2,0,0,0,0,15
+1382485,2025-09-21,B1,2025,KV Mechelen,Cercle Brugge,Mechelen,Cercle Brugge,0,1,2,1,0,0,0,0,11
+1382486,2025-09-21,B1,2025,Genk,Union St. Gilloise,Genk,St. Gilloise,1,1,1,3,0,0,0,0,18
+1382487,2025-09-21,B1,2025,KVC Westerlo,Standard Liege,Westerlo,Standard,0,0,1,4,0,0,0,0,15
+1382484,2025-09-21,B1,2025,Club Brugge KV,St. Truiden,Club Brugge,St Truiden,0,1,0,2,0,0,0,0,14
+1382463,2025-09-23,B1,2025,Anderlecht,Gent,Anderlecht,Gent,0,3,0,3,0,0,0,0,16
+1382459,2025-09-24,B1,2025,Club Brugge KV,KVC Westerlo,Club Brugge,Westerlo,0,1,0,3,0,0,0,0,24
+1382493,2025-09-26,B1,2025,OH Leuven,Anderlecht,Oud-Heverlee Leuven,Anderlecht,0,4,2,1,0,0,0,0,18
+1382494,2025-09-27,B1,2025,Standard Liege,Club Brugge KV,Standard,Club Brugge,2,2,0,2,0,1,0,0,20
+1382497,2025-09-27,B1,2025,Union St. Gilloise,KVC Westerlo,St. Gilloise,Westerlo,0,3,0,2,0,0,0,0,17
+1382492,2025-09-27,B1,2025,Zulte Waregem,Antwerp,Waregem,Antwerp,0,0,1,0,0,0,0,0,10
+1382490,2025-09-28,B1,2025,St. Truiden,Genk,St Truiden,Genk,1,3,0,2,0,1,0,0,18
+1382495,2025-09-28,B1,2025,Cercle Brugge,Gent,Cercle Brugge,Gent,2,0,2,1,0,0,0,0,21
+1382496,2025-09-28,B1,2025,Charleroi,KV Mechelen,Charleroi,Mechelen,0,0,0,4,0,0,0,0,15
+1382491,2025-09-28,B1,2025,Dender,RAAL La Louvière,Dender,RAAL La Louviere,0,1,2,1,0,0,0,0,12
+1382498,2025-10-03,B1,2025,Gent,Charleroi,Gent,Charleroi,1,1,0,4,0,0,0,0,16
+1382503,2025-10-04,B1,2025,KV Mechelen,St. Truiden,Mechelen,St Truiden,0,3,0,1,0,0,0,0,16
+1382499,2025-10-04,B1,2025,RAAL La Louvière,Zulte Waregem,RAAL La Louviere,Waregem,2,0,0,3,0,0,0,0,11
+1382501,2025-10-04,B1,2025,Antwerp,Cercle Brugge,Antwerp,Cercle Brugge,1,0,1,0,0,0,0,0,14
+1382504,2025-10-05,B1,2025,KVC Westerlo,OH Leuven,Westerlo,Oud-Heverlee Leuven,0,2,1,1,0,0,0,0,16
+1382502,2025-10-05,B1,2025,Anderlecht,Standard Liege,Anderlecht,Standard,1,2,1,2,0,0,0,1,18
+1382505,2025-10-05,B1,2025,Genk,Dender,Genk,Dender,0,2,3,2,0,0,0,2,22
+1382500,2025-10-05,B1,2025,Club Brugge KV,Union St. Gilloise,Club Brugge,St. Gilloise,1,1,2,1,0,0,0,0,15
+1382508,2025-10-18,B1,2025,Union St. Gilloise,Charleroi,St. Gilloise,Charleroi,0,0,2,1,0,0,0,0,17
+1382510,2025-10-18,B1,2025,RAAL La Louvière,KVC Westerlo,RAAL La Louviere,Westerlo,0,0,0,1,0,0,0,0,11
+1382513,2025-10-18,B1,2025,OH Leuven,Club Brugge KV,Oud-Heverlee Leuven,Club Brugge,0,2,1,0,0,0,0,0,13
+1382512,2025-10-19,B1,2025,Dender,KV Mechelen,Dender,Mechelen,0,1,0,0,0,0,0,0,14
+1382506,2025-10-19,B1,2025,St. Truiden,Anderlecht,St Truiden,Anderlecht,0,1,2,0,0,0,0,0,17
+1382507,2025-10-19,B1,2025,Zulte Waregem,Gent,Waregem,Gent,0,0,0,2,0,0,0,0,14
+1382509,2025-10-19,B1,2025,Cercle Brugge,Genk,Cercle Brugge,Genk,1,2,1,1,0,0,0,0,18
+1382511,2025-10-20,B1,2025,Standard Liege,Antwerp,Standard,Antwerp,0,2,1,2,1,0,0,0,18
+1382521,2025-10-24,B1,2025,Charleroi,Anderlecht,Charleroi,Anderlecht,0,2,0,2,0,0,0,0,12
+1382517,2025-10-25,B1,2025,Gent,Standard Liege,Gent,Standard,0,0,0,2,0,0,0,0,16
+1382518,2025-10-25,B1,2025,KVC Westerlo,Dender,Westerlo,Dender,0,2,1,1,0,0,0,0,14
+1382514,2025-10-25,B1,2025,KV Mechelen,OH Leuven,Mechelen,Oud-Heverlee Leuven,3,0,2,3,0,0,0,0,19
+1382515,2025-10-26,B1,2025,Cercle Brugge,Zulte Waregem,Cercle Brugge,Waregem,0,0,0,1,0,0,0,0,11
+1382520,2025-10-26,B1,2025,Genk,RAAL La Louvière,Genk,RAAL La Louviere,1,0,1,2,0,0,0,0,15
+1382516,2025-10-26,B1,2025,Union St. Gilloise,St. Truiden,St. Gilloise,St Truiden,0,1,2,0,0,0,0,0,15
+1382519,2025-10-26,B1,2025,Antwerp,Club Brugge KV,Antwerp,Club Brugge,1,1,1,1,0,0,0,0,12
+1382526,2025-10-31,B1,2025,Standard Liege,Charleroi,Standard,Charleroi,1,1,0,3,0,0,0,0,18
+1382527,2025-11-01,B1,2025,Zulte Waregem,Union St. Gilloise,Waregem,St. Gilloise,1,0,2,2,0,0,0,0,19
+1382529,2025-11-01,B1,2025,Club Brugge KV,Dender,Club Brugge,Dender,0,1,0,1,0,0,0,0,14
+1382523,2025-11-01,B1,2025,Anderlecht,KV Mechelen,Anderlecht,Mechelen,1,0,0,1,0,0,0,0,15
+1382522,2025-11-02,B1,2025,RAAL La Louvière,Cercle Brugge,RAAL La Louviere,Cercle Brugge,0,3,1,0,0,0,0,0,17
+1382525,2025-11-02,B1,2025,St. Truiden,Antwerp,St Truiden,Antwerp,1,2,1,1,0,0,1,0,14
+1382524,2025-11-02,B1,2025,KVC Westerlo,Genk,Westerlo,Genk,0,0,0,1,0,0,0,0,11
+1382528,2025-11-02,B1,2025,OH Leuven,Gent,Oud-Heverlee Leuven,Gent,1,3,1,1,0,0,0,1,21
+1382530,2025-11-07,B1,2025,Dender,Zulte Waregem,Dender,Waregem,1,0,1,0,0,0,0,0,16
+1382535,2025-11-08,B1,2025,Cercle Brugge,OH Leuven,Cercle Brugge,Oud-Heverlee Leuven,0,1,1,0,0,0,0,0,14
+1382534,2025-11-08,B1,2025,Charleroi,KVC Westerlo,Charleroi,Westerlo,0,2,0,1,0,0,0,0,13
+1382531,2025-11-08,B1,2025,Antwerp,RAAL La Louvière,Antwerp,RAAL La Louviere,1,3,2,1,0,0,1,0,21
+1382536,2025-11-09,B1,2025,Anderlecht,Club Brugge KV,Anderlecht,Club Brugge,1,4,2,2,0,0,0,0,20
+1382537,2025-11-09,B1,2025,St. Truiden,Standard Liege,St Truiden,Standard,0,0,0,1,0,0,0,0,9
+1382532,2025-11-09,B1,2025,Gent,Genk,Gent,Genk,0,2,1,0,0,0,0,0,13
+1382533,2025-11-09,B1,2025,KV Mechelen,Union St. Gilloise,Mechelen,St. Gilloise,1,2,1,1,0,0,0,0,15
+1382544,2025-11-21,B1,2025,Standard Liege,Zulte Waregem,Standard,Waregem,1,1,0,1,0,1,1,0,13
+1382543,2025-11-22,B1,2025,KVC Westerlo,Gent,Westerlo,Gent,1,2,1,2,0,0,0,0,15
+1382540,2025-11-22,B1,2025,Club Brugge KV,Charleroi,Club Brugge,Charleroi,0,2,0,1,0,0,0,0,12
+1382545,2025-11-22,B1,2025,Union St. Gilloise,Cercle Brugge,St. Gilloise,Cercle Brugge,1,1,3,1,0,0,0,0,17
+1382538,2025-11-23,B1,2025,Genk,KV Mechelen,Genk,Mechelen,0,0,2,3,0,0,0,0,13
+1382539,2025-11-23,B1,2025,Antwerp,Dender,Antwerp,Dender,1,0,1,3,0,0,0,0,16
+1382541,2025-11-23,B1,2025,RAAL La Louvière,Anderlecht,RAAL La Louviere,Anderlecht,1,1,1,2,0,0,0,0,13
+1382542,2025-11-23,B1,2025,OH Leuven,St. Truiden,Oud-Heverlee Leuven,St Truiden,1,2,0,2,0,0,0,0,19
+1382547,2025-11-28,B1,2025,KV Mechelen,Standard Liege,Mechelen,Standard,0,1,0,1,0,0,0,0,12
+1382550,2025-11-29,B1,2025,Charleroi,RAAL La Louvière,Charleroi,RAAL La Louviere,0,0,1,0,0,0,0,0,8
+1382548,2025-11-29,B1,2025,Dender,KVC Westerlo,Dender,Westerlo,1,3,0,1,0,0,0,0,16
+1382549,2025-11-29,B1,2025,Zulte Waregem,Cercle Brugge,Waregem,Cercle Brugge,1,0,1,1,0,0,0,0,10
+1382546,2025-11-30,B1,2025,Gent,St. Truiden,Gent,St Truiden,0,2,1,1,0,0,0,0,17
+1382551,2025-11-30,B1,2025,Club Brugge KV,Antwerp,Club Brugge,Antwerp,0,0,0,3,0,0,0,0,14
+1382552,2025-11-30,B1,2025,Genk,OH Leuven,Genk,Oud-Heverlee Leuven,0,0,2,1,0,0,0,0,16
+1382553,2025-11-30,B1,2025,Anderlecht,Union St. Gilloise,Anderlecht,St. Gilloise,1,1,2,2,0,0,0,0,17
+1382557,2025-12-05,B1,2025,RAAL La Louvière,Dender,RAAL La Louviere,Dender,1,0,0,1,0,0,0,0,13
+1382555,2025-12-06,B1,2025,Cercle Brugge,Standard Liege,Cercle Brugge,Standard,0,0,1,1,0,0,0,0,14
+1382554,2025-12-06,B1,2025,Union St. Gilloise,Gent,St. Gilloise,Gent,0,1,0,1,0,0,0,0,12
+1382559,2025-12-06,B1,2025,St. Truiden,Club Brugge KV,St Truiden,Club Brugge,1,1,0,1,0,0,0,0,18
+1382560,2025-12-07,B1,2025,KVC Westerlo,Anderlecht,Westerlo,Anderlecht,2,1,1,1,0,0,0,0,19
+1382561,2025-12-07,B1,2025,Antwerp,Genk,Antwerp,Genk,1,0,0,1,0,0,0,0,15
+1382558,2025-12-07,B1,2025,OH Leuven,Zulte Waregem,Oud-Heverlee Leuven,Waregem,1,1,1,2,0,0,0,0,14
+1382556,2025-12-07,B1,2025,KV Mechelen,Charleroi,Mechelen,Charleroi,2,2,0,2,0,0,0,0,17
+1382563,2025-12-12,B1,2025,Standard Liege,OH Leuven,Standard,Oud-Heverlee Leuven,0,2,0,2,0,0,0,0,13
+1382566,2025-12-13,B1,2025,Cercle Brugge,KV Mechelen,Cercle Brugge,Mechelen,0,1,1,1,0,0,0,0,18
+1382562,2025-12-13,B1,2025,Zulte Waregem,RAAL La Louvière,Waregem,RAAL La Louviere,1,0,0,2,0,0,0,0,19
+1382569,2025-12-13,B1,2025,Anderlecht,St. Truiden,Anderlecht,St Truiden,2,2,1,4,0,0,0,0,23
+1382565,2025-12-14,B1,2025,Genk,KVC Westerlo,Genk,Westerlo,0,0,0,2,0,0,0,1,13
+1382567,2025-12-14,B1,2025,Charleroi,Union St. Gilloise,Charleroi,St. Gilloise,0,1,0,2,0,0,0,0,14
+1382564,2025-12-14,B1,2025,Gent,Antwerp,Gent,Antwerp,0,0,0,1,0,1,0,0,12
+1382568,2025-12-14,B1,2025,Dender,Club Brugge KV,Dender,Club Brugge,0,0,0,0,0,0,0,0,16
+1382577,2025-12-19,B1,2025,Charleroi,Genk,Charleroi,Genk,1,1,0,0,0,0,0,0,15
+1382575,2025-12-20,B1,2025,Dender,Standard Liege,Dender,Standard,3,1,0,1,0,0,0,0,15
+1382576,2025-12-20,B1,2025,KVC Westerlo,RAAL La Louvière,Westerlo,RAAL La Louviere,0,2,0,0,0,0,0,0,13
+1382573,2025-12-20,B1,2025,Union St. Gilloise,Zulte Waregem,St. Gilloise,Waregem,0,1,1,1,0,0,0,0,14
+1382571,2025-12-21,B1,2025,Antwerp,Anderlecht,Antwerp,Anderlecht,0,0,1,2,0,0,0,0,16
+1382570,2025-12-21,B1,2025,OH Leuven,Cercle Brugge,Oud-Heverlee Leuven,Cercle Brugge,2,3,2,3,0,0,0,0,21
+1382572,2025-12-21,B1,2025,Club Brugge KV,Gent,Club Brugge,Gent,0,0,0,2,0,0,0,0,14
+1382574,2025-12-21,B1,2025,St. Truiden,KV Mechelen,St Truiden,Mechelen,0,2,1,1,0,0,0,0,10
+1382578,2025-12-26,B1,2025,Genk,Club Brugge KV,Genk,Club Brugge,2,1,1,2,0,0,0,0,25
+1382584,2025-12-26,B1,2025,Cercle Brugge,Union St. Gilloise,Cercle Brugge,St. Gilloise,1,2,2,2,0,1,0,1,17
+1382579,2025-12-26,B1,2025,Standard Liege,St. Truiden,Standard,St Truiden,0,1,2,0,1,0,0,0,17
+1382581,2025-12-26,B1,2025,Anderlecht,Charleroi,Anderlecht,Charleroi,1,0,2,2,0,0,0,0,19
+1382585,2025-12-27,B1,2025,Antwerp,Zulte Waregem,Antwerp,Waregem,0,3,0,0,0,0,0,0,17
+1382580,2025-12-27,B1,2025,RAAL La Louvière,OH Leuven,RAAL La Louviere,Oud-Heverlee Leuven,1,0,2,1,0,0,0,0,11
+1382582,2025-12-27,B1,2025,KV Mechelen,Dender,Mechelen,Dender,0,2,2,3,0,0,0,1,19
+1382583,2025-12-27,B1,2025,Gent,KVC Westerlo,Gent,Westerlo,1,0,1,0,0,0,0,0,12
+1382593,2026-01-16,B1,2025,Club Brugge KV,RAAL La Louvière,Club Brugge,RAAL La Louviere,0,0,2,1,1,0,0,0,18
+1382590,2026-01-17,B1,2025,KVC Westerlo,Cercle Brugge,Westerlo,Cercle Brugge,0,0,1,3,0,0,0,0,15
+1382588,2026-01-17,B1,2025,Zulte Waregem,Genk,Waregem,Genk,0,2,1,1,0,0,0,0,16
+1382592,2026-01-17,B1,2025,Union St. Gilloise,KV Mechelen,St. Gilloise,Mechelen,1,3,1,1,0,0,0,0,16
+1382591,2026-01-18,B1,2025,Gent,Anderlecht,Gent,Anderlecht,1,3,2,1,0,0,0,0,23
+1382589,2026-01-18,B1,2025,Dender,Antwerp,Dender,Antwerp,0,2,0,0,0,0,0,0,12
+1382586,2026-01-18,B1,2025,Charleroi,Standard Liege,Charleroi,Standard,0,2,0,1,0,0,0,0,15
+1382587,2026-01-18,B1,2025,St. Truiden,OH Leuven,St Truiden,Oud-Heverlee Leuven,0,3,2,4,0,0,0,0,19
+1382601,2026-01-23,B1,2025,Standard Liege,Gent,Standard,Gent,0,2,0,0,0,0,0,0,16
+1382600,2026-01-24,B1,2025,RAAL La Louvière,St. Truiden,RAAL La Louviere,St Truiden,1,1,1,1,0,0,0,0,13
+1382595,2026-01-24,B1,2025,Club Brugge KV,Zulte Waregem,Club Brugge,Waregem,1,2,2,1,0,0,0,0,24
+1382598,2026-01-24,B1,2025,OH Leuven,Union St. Gilloise,Oud-Heverlee Leuven,St. Gilloise,1,2,0,2,0,0,0,0,15
+1382597,2026-01-25,B1,2025,Antwerp,Charleroi,Antwerp,Charleroi,1,1,1,1,0,0,0,0,15
+1382596,2026-01-25,B1,2025,Genk,Cercle Brugge,Genk,Cercle Brugge,0,1,0,0,0,0,0,0,12
+1382594,2026-01-25,B1,2025,Anderlecht,Dender,Anderlecht,Dender,1,0,1,3,0,0,0,0,15
+1382599,2026-01-25,B1,2025,KV Mechelen,KVC Westerlo,Mechelen,Westerlo,0,2,0,1,0,0,0,0,14
+1382608,2026-01-30,B1,2025,RAAL La Louvière,Gent,RAAL La Louviere,Gent,0,0,0,0,0,0,0,0,9
+1382605,2026-01-31,B1,2025,St. Truiden,Charleroi,St Truiden,Charleroi,1,1,2,1,1,0,0,0,17
+1382606,2026-01-31,B1,2025,Zulte Waregem,KVC Westerlo,Waregem,Westerlo,0,1,0,2,0,0,0,0,12
+1382602,2026-01-31,B1,2025,Cercle Brugge,Antwerp,Cercle Brugge,Antwerp,0,1,0,1,1,0,0,0,18
+1382607,2026-02-01,B1,2025,Standard Liege,Anderlecht,Standard,Anderlecht,2,1,3,1,0,0,0,0,19
+1382609,2026-02-01,B1,2025,Dender,Genk,Dender,Genk,0,4,0,1,0,0,0,0,18
+1382604,2026-02-01,B1,2025,Union St. Gilloise,Club Brugge KV,St. Gilloise,Club Brugge,1,2,1,2,0,0,0,0,16
+1382603,2026-02-01,B1,2025,OH Leuven,KV Mechelen,Oud-Heverlee Leuven,Mechelen,2,1,1,5,0,0,0,0,22
+1382610,2026-02-06,B1,2025,KVC Westerlo,St. Truiden,Westerlo,St Truiden,0,3,1,0,0,1,0,0,18
+1382611,2026-02-07,B1,2025,Zulte Waregem,Dender,Waregem,Dender,1,0,3,1,0,0,0,0,15
+1382615,2026-02-07,B1,2025,Charleroi,Cercle Brugge,Charleroi,Cercle Brugge,0,2,0,3,0,1,1,0,26
+1382613,2026-02-07,B1,2025,Gent,OH Leuven,Gent,Oud-Heverlee Leuven,1,1,1,4,0,0,0,0,23
+1382614,2026-02-08,B1,2025,Genk,Anderlecht,Genk,Anderlecht,1,1,1,0,0,0,0,0,13
+1382617,2026-02-08,B1,2025,Union St. Gilloise,RAAL La Louvière,St. Gilloise,RAAL La Louviere,0,4,0,4,0,0,0,0,20
+1382612,2026-02-08,B1,2025,Club Brugge KV,Standard Liege,Club Brugge,Standard,0,0,0,2,0,0,0,0,15
+1382616,2026-02-08,B1,2025,KV Mechelen,Antwerp,Mechelen,Antwerp,0,1,0,1,0,0,0,0,14
 1382623,2026-02-13,B1,2025,KV Mechelen,Genk,Mechelen,Genk,1,1,1,2,0,0,0,0,5
 1382620,2026-02-14,B1,2025,Standard Liege,Union St. Gilloise,Standard,St. Gilloise,2,2,0,4,0,0,0,0,8
 1382625,2026-02-14,B1,2025,OH Leuven,Dender,Oud-Heverlee Leuven,Dender,0,2,1,0,0,0,0,0,3
@@ -8,21 +200,21 @@ fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,a
 1382618,2026-02-15,B1,2025,Antwerp,KVC Westerlo,Antwerp,Westerlo,1,1,1,3,0,0,0,0,6
 1382624,2026-02-15,B1,2025,Anderlecht,RAAL La Louvière,Anderlecht,RAAL La Louviere,0,1,1,4,0,0,0,0,6
 1382627,2026-02-20,B1,2025,Gent,Cercle Brugge,Gent,Cercle Brugge,0,0,1,3,0,1,0,0,5
-1382632,2026-02-21,B1,2025,Dender,St. Truiden,Dender,St Truiden,0,3,0,0,0,0,0,0,3
 1382626,2026-02-21,B1,2025,Club Brugge KV,OH Leuven,Club Brugge,Oud-Heverlee Leuven,0,0,0,1,0,0,0,0,1
 1382629,2026-02-21,B1,2025,Union St. Gilloise,Antwerp,St. Gilloise,Antwerp,0,2,1,0,0,0,0,0,3
+1382632,2026-02-21,B1,2025,Dender,St. Truiden,Dender,St Truiden,0,3,0,0,0,0,0,0,3
+1382630,2026-02-22,B1,2025,KVC Westerlo,Charleroi,Westerlo,Charleroi,0,2,0,2,0,0,0,0,4
 1382633,2026-02-22,B1,2025,Genk,Standard Liege,Genk,Standard,0,0,0,0,0,0,0,0,13
 1382628,2026-02-22,B1,2025,RAAL La Louvière,KV Mechelen,RAAL La Louviere,Mechelen,0,1,0,0,1,0,0,0,2
 1382631,2026-02-22,B1,2025,Zulte Waregem,Anderlecht,Waregem,Anderlecht,0,1,0,1,0,0,0,0,2
-1382630,2026-02-22,B1,2025,KVC Westerlo,Charleroi,Westerlo,Charleroi,0,2,0,2,0,0,0,0,4
 1382640,2026-02-27,B1,2025,Standard Liege,RAAL La Louvière,Standard,RAAL La Louviere,0,1,0,3,0,0,0,0,4
-1382634,2026-02-28,B1,2025,Anderlecht,OH Leuven,Anderlecht,Oud-Heverlee Leuven,0,4,1,3,0,0,0,0,8
-1382637,2026-02-28,B1,2025,KV Mechelen,Zulte Waregem,Mechelen,Waregem,0,1,0,2,0,0,0,0,3
 1382638,2026-02-28,B1,2025,Antwerp,St. Truiden,Antwerp,St Truiden,2,0,1,0,0,0,0,0,3
-1382636,2026-03-01,B1,2025,Genk,Gent,Genk,Gent,0,2,0,0,0,0,0,0,2
-1382641,2026-03-01,B1,2025,KVC Westerlo,Union St. Gilloise,Westerlo,St. Gilloise,0,1,1,2,1,0,0,0,5
-1382635,2026-03-01,B1,2025,Charleroi,Club Brugge KV,Charleroi,Club Brugge,1,4,0,1,0,1,0,0,7
+1382637,2026-02-28,B1,2025,KV Mechelen,Zulte Waregem,Mechelen,Waregem,0,1,0,2,0,0,0,0,3
+1382634,2026-02-28,B1,2025,Anderlecht,OH Leuven,Anderlecht,Oud-Heverlee Leuven,0,4,1,3,0,0,0,0,8
 1382639,2026-03-01,B1,2025,Cercle Brugge,Dender,Cercle Brugge,Dender,1,0,2,0,0,0,0,0,3
+1382641,2026-03-01,B1,2025,KVC Westerlo,Union St. Gilloise,Westerlo,St. Gilloise,0,1,1,2,1,0,0,0,5
+1382636,2026-03-01,B1,2025,Genk,Gent,Genk,Gent,0,2,0,0,0,0,0,0,2
+1382635,2026-03-01,B1,2025,Charleroi,Club Brugge KV,Charleroi,Club Brugge,1,4,0,1,0,1,0,0,7
 1382642,2026-03-06,B1,2025,RAAL La Louvière,Antwerp,RAAL La Louviere,Antwerp,0,1,0,3,0,0,0,1,5
 1382644,2026-03-07,B1,2025,OH Leuven,KVC Westerlo,Oud-Heverlee Leuven,Westerlo,1,1,1,2,0,0,0,0,5
 1382647,2026-03-07,B1,2025,Dender,Charleroi,Dender,Charleroi,0,1,0,1,0,0,0,0,2
@@ -35,10 +227,11 @@ fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,a
 1382652,2026-03-14,B1,2025,Union St. Gilloise,Dender,St. Gilloise,Dender,0,0,0,1,0,0,0,0,1
 1382654,2026-03-14,B1,2025,KVC Westerlo,Club Brugge KV,Westerlo,Club Brugge,0,1,0,2,0,0,0,0,3
 1382657,2026-03-14,B1,2025,Charleroi,OH Leuven,Charleroi,Oud-Heverlee Leuven,0,1,1,0,0,0,0,0,2
-1382655,2026-03-15,B1,2025,Genk,St. Truiden,Genk,St Truiden,0,2,0,0,0,0,0,0,2
-1382656,2026-03-15,B1,2025,Antwerp,Standard Liege,Antwerp,Standard,0,2,1,2,0,1,0,0,6
-1382653,2026-03-15,B1,2025,KV Mechelen,Anderlecht,Mechelen,Anderlecht,0,2,1,7,0,0,0,1,11
 1382650,2026-03-15,B1,2025,Cercle Brugge,RAAL La Louvière,Cercle Brugge,RAAL La Louviere,1,1,2,0,0,0,0,0,4
+1382653,2026-03-15,B1,2025,KV Mechelen,Anderlecht,Mechelen,Anderlecht,0,2,1,7,0,0,0,1,11
+1382656,2026-03-15,B1,2025,Antwerp,Standard Liege,Antwerp,Standard,0,2,1,2,0,1,0,0,6
+1382655,2026-03-15,B1,2025,Genk,St. Truiden,Genk,St Truiden,0,2,0,0,0,0,0,0,2
+1382660,2026-03-22,B1,2025,Zulte Waregem,Charleroi,Waregem,Charleroi,0,1,1,1,0,0,0,0,3
 1382663,2026-03-22,B1,2025,OH Leuven,Antwerp,Oud-Heverlee Leuven,Antwerp,1,2,2,3,0,0,0,1,9
 1382658,2026-03-22,B1,2025,Anderlecht,Cercle Brugge,Anderlecht,Cercle Brugge,0,1,0,2,0,0,0,0,3
 1382664,2026-03-22,B1,2025,Club Brugge KV,KV Mechelen,Club Brugge,Mechelen,0,0,1,0,0,0,0,0,1
@@ -46,11 +239,10 @@ fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,a
 1382661,2026-03-22,B1,2025,Standard Liege,KVC Westerlo,Standard,Westerlo,0,3,1,0,0,0,0,0,4
 1382662,2026-03-22,B1,2025,RAAL La Louvière,Genk,RAAL La Louviere,Genk,0,2,1,0,0,0,0,0,3
 1382659,2026-03-22,B1,2025,Dender,Gent,Dender,Gent,0,2,0,2,0,0,0,0,4
-1382660,2026-03-22,B1,2025,Zulte Waregem,Charleroi,Waregem,Charleroi,0,1,1,1,0,0,0,0,3
 1536936,2026-04-03,B1,2025,Antwerp,Genk,Antwerp,Genk,0,2,1,1,0,0,0,0,4
-1536978,2026-04-04,B1,2025,Union St. Gilloise,St. Truiden,St. Gilloise,St Truiden,0,3,0,1,0,0,0,0,4
 1536966,2026-04-04,B1,2025,Zulte Waregem,Cercle Brugge,Waregem,Cercle Brugge,2,0,0,3,0,0,0,0,5
 1536937,2026-04-04,B1,2025,OH Leuven,Standard Liege,Oud-Heverlee Leuven,Standard,0,0,0,0,0,0,0,0,14
+1536978,2026-04-04,B1,2025,Union St. Gilloise,St. Truiden,St. Gilloise,St Truiden,0,3,0,1,0,0,0,0,4
 1536938,2026-04-05,B1,2025,KVC Westerlo,Charleroi,Westerlo,Charleroi,0,2,0,2,0,0,0,1,5
 1536979,2026-04-06,B1,2025,Club Brugge KV,Anderlecht,Club Brugge,Anderlecht,1,1,0,1,0,0,0,0,3
 1536967,2026-04-06,B1,2025,RAAL La Louvière,Dender,RAAL La Louviere,Dender,1,2,2,2,0,0,0,0,7
@@ -59,14 +251,14 @@ fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,a
 1536968,2026-04-11,B1,2025,Cercle Brugge,RAAL La Louvière,Cercle Brugge,RAAL La Louviere,0,1,0,1,0,0,0,0,2
 1536940,2026-04-11,B1,2025,Standard Liege,KVC Westerlo,Standard,Westerlo,0,3,1,1,0,1,0,0,6
 1536982,2026-04-11,B1,2025,St. Truiden,Club Brugge KV,St Truiden,Club Brugge,0,3,0,2,0,0,0,0,5
+1536969,2026-04-12,B1,2025,Dender,Zulte Waregem,Dender,Waregem,0,2,0,0,0,0,0,0,2
 1536981,2026-04-12,B1,2025,KV Mechelen,Union St. Gilloise,Mechelen,St. Gilloise,0,1,0,4,0,0,0,0,5
 1536941,2026-04-12,B1,2025,Genk,OH Leuven,Genk,Oud-Heverlee Leuven,1,1,0,3,0,0,0,0,5
 1536983,2026-04-12,B1,2025,Anderlecht,Gent,Anderlecht,Gent,0,1,1,1,0,0,0,0,3
-1536969,2026-04-12,B1,2025,Dender,Zulte Waregem,Dender,Waregem,0,2,0,0,0,0,0,0,2
 1536944,2026-04-18,B1,2025,Antwerp,OH Leuven,Antwerp,Oud-Heverlee Leuven,0,2,2,2,0,0,1,1,8
-1536942,2026-04-18,B1,2025,KVC Westerlo,Genk,Westerlo,Genk,1,0,2,0,0,0,0,0,3
 1536943,2026-04-18,B1,2025,Charleroi,Standard Liege,Charleroi,Standard,0,3,0,1,0,0,0,0,4
 1536985,2026-04-18,B1,2025,KV Mechelen,Anderlecht,Mechelen,Anderlecht,2,2,4,2,0,0,0,0,10
+1536942,2026-04-18,B1,2025,KVC Westerlo,Genk,Westerlo,Genk,1,0,2,0,0,0,0,0,3
 1536984,2026-04-19,B1,2025,Gent,St. Truiden,Gent,St Truiden,0,0,0,1,0,0,0,0,1
 1536970,2026-04-19,B1,2025,Dender,Cercle Brugge,Dender,Cercle Brugge,2,2,0,0,0,0,0,0,4
 1536986,2026-04-19,B1,2025,Union St. Gilloise,Club Brugge KV,St. Gilloise,Club Brugge,3,0,3,2,0,0,0,0,8
@@ -76,9 +268,9 @@ fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,a
 1536946,2026-04-21,B1,2025,OH Leuven,KVC Westerlo,Oud-Heverlee Leuven,Westerlo,1,0,0,0,0,0,0,0,1
 1536988,2026-04-22,B1,2025,Union St. Gilloise,Gent,St. Gilloise,Gent,0,0,1,2,0,0,0,0,3
 1536989,2026-04-22,B1,2025,Club Brugge KV,KV Mechelen,Club Brugge,Mechelen,0,0,1,1,0,0,0,1,3
+1536987,2026-04-23,B1,2025,St. Truiden,Anderlecht,St Truiden,Anderlecht,0,0,1,1,0,0,0,0,2
 1541759,2026-04-23,B1,2025,Patro Eisden,Beerschot VA,,Beerschot VA,1,3,2,0,0,0,0,0,6
 1541758,2026-04-23,B1,2025,Lommel United,Liège,Lommel SK,,0,0,1,2,0,0,0,0,3
-1536987,2026-04-23,B1,2025,St. Truiden,Anderlecht,St Truiden,Anderlecht,0,0,1,1,0,0,0,0,2
 1536972,2026-04-24,B1,2025,Cercle Brugge,Dender,Cercle Brugge,Dender,0,0,1,1,0,0,0,0,2
 1536948,2026-04-25,B1,2025,KVC Westerlo,Antwerp,Westerlo,Antwerp,2,2,2,1,1,0,0,0,8
 1536949,2026-04-25,B1,2025,Genk,Standard Liege,Genk,Standard,0,3,1,1,0,0,0,0,5
@@ -87,8 +279,8 @@ fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,a
 1536991,2026-04-26,B1,2025,KV Mechelen,St. Truiden,Mechelen,St Truiden,0,1,0,1,0,0,0,0,2
 1536990,2026-04-26,B1,2025,Anderlecht,Union St. Gilloise,Anderlecht,St. Gilloise,1,1,2,1,1,0,0,0,6
 1536973,2026-04-26,B1,2025,Zulte Waregem,RAAL La Louvière,Waregem,RAAL La Louviere,1,0,0,1,0,0,0,0,2
-1541761,2026-04-27,B1,2025,Liège,Lommel United,,Lommel SK,1,1,0,1,0,0,0,0,3
 1541760,2026-04-27,B1,2025,Beerschot VA,Patro Eisden,Beerschot VA,,0,0,1,4,0,0,0,0,5
+1541761,2026-04-27,B1,2025,Liège,Lommel United,,Lommel SK,1,1,0,1,0,0,0,0,3
 1536974,2026-05-01,B1,2025,Cercle Brugge,Zulte Waregem,Cercle Brugge,Waregem,0,0,1,0,0,0,0,0,1
 1536952,2026-05-02,B1,2025,KVC Westerlo,OH Leuven,Westerlo,Oud-Heverlee Leuven,1,1,1,2,0,0,0,0,5
 1536951,2026-05-02,B1,2025,Charleroi,Genk,Charleroi,Genk,0,2,0,0,0,0,0,0,2
@@ -99,10 +291,10 @@ fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,a
 1536993,2026-05-03,B1,2025,KV Mechelen,Gent,Mechelen,Gent,0,2,0,3,0,0,0,0,5
 1536953,2026-05-03,B1,2025,Antwerp,Standard Liege,Antwerp,Standard,0,3,0,0,0,1,0,0,4
 1536954,2026-05-08,B1,2025,Standard Liege,OH Leuven,Standard,Oud-Heverlee Leuven,0,0,2,0,0,0,0,0,2
-1536977,2026-05-09,B1,2025,RAAL La Louvière,Cercle Brugge,RAAL La Louviere,Cercle Brugge,0,1,0,2,0,0,0,0,3
+1536997,2026-05-09,B1,2025,Club Brugge KV,St. Truiden,Club Brugge,St Truiden,0,0,0,1,0,0,0,1,2
 1536976,2026-05-09,B1,2025,Zulte Waregem,Dender,Waregem,Dender,1,0,2,3,0,0,0,0,6
 1542944,2026-05-09,B1,2025,Beerschot VA,Lommel United,Beerschot VA,Lommel SK,0,2,1,0,0,0,0,0,3
-1536997,2026-05-09,B1,2025,Club Brugge KV,St. Truiden,Club Brugge,St Truiden,0,0,0,1,0,0,0,1,2
+1536977,2026-05-09,B1,2025,RAAL La Louvière,Cercle Brugge,RAAL La Louviere,Cercle Brugge,0,1,0,2,0,0,0,0,3
 1536996,2026-05-10,B1,2025,Gent,Anderlecht,Gent,Anderlecht,2,2,2,2,0,0,1,0,9
 1536955,2026-05-10,B1,2025,Antwerp,Charleroi,Antwerp,Charleroi,1,1,0,3,0,0,0,0,5
 1536998,2026-05-10,B1,2025,Union St. Gilloise,KV Mechelen,St. Gilloise,Mechelen,1,0,0,1,0,0,0,0,2
@@ -111,20 +303,20 @@ fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,a
 1536958,2026-05-16,B1,2025,Charleroi,KVC Westerlo,Charleroi,Westerlo,1,2,1,1,0,0,0,0,5
 1536957,2026-05-16,B1,2025,Standard Liege,Genk,Standard,Genk,0,1,1,1,0,0,0,0,3
 1537001,2026-05-16,B1,2025,St. Truiden,Gent,St Truiden,Gent,0,0,0,1,0,0,0,0,1
-1536999,2026-05-17,B1,2025,Club Brugge KV,Union St. Gilloise,Club Brugge,St. Gilloise,1,0,1,1,0,0,0,0,3
-1544682,2026-05-17,B1,2025,Lommel United,Dender,Lommel SK,Dender,1,0,2,1,0,0,0,0,4
 1537000,2026-05-17,B1,2025,Anderlecht,KV Mechelen,Anderlecht,Mechelen,0,0,2,2,0,0,0,0,4
+1544682,2026-05-17,B1,2025,Lommel United,Dender,Lommel SK,Dender,1,0,2,1,0,0,0,0,4
+1536999,2026-05-17,B1,2025,Club Brugge KV,Union St. Gilloise,Club Brugge,St. Gilloise,1,0,1,1,0,0,0,0,3
 1536961,2026-05-19,B1,2025,Genk,Antwerp,Genk,Antwerp,0,0,0,2,0,0,0,0,2
 1536962,2026-05-19,B1,2025,Charleroi,OH Leuven,Charleroi,Oud-Heverlee Leuven,0,0,0,0,0,0,0,0,12
 1536960,2026-05-19,B1,2025,KVC Westerlo,Standard Liege,Westerlo,Standard,1,2,0,2,0,0,0,0,5
 1537003,2026-05-21,B1,2025,Gent,Union St. Gilloise,Gent,St. Gilloise,1,3,0,0,0,0,0,0,4
 1537004,2026-05-21,B1,2025,Anderlecht,St. Truiden,Anderlecht,St Truiden,0,2,1,1,0,0,0,0,4
 1537002,2026-05-21,B1,2025,KV Mechelen,Club Brugge KV,Mechelen,Club Brugge,0,1,0,2,0,0,0,0,3
+1536963,2026-05-23,B1,2025,Standard Liege,Charleroi,Standard,Charleroi,1,2,1,4,0,0,0,1,9
 1544683,2026-05-23,B1,2025,Dender,Lommel United,Dender,Lommel SK,0,2,0,3,0,0,0,0,5
 1536965,2026-05-23,B1,2025,Antwerp,KVC Westerlo,Antwerp,Westerlo,2,1,2,0,0,0,0,0,5
-1536963,2026-05-23,B1,2025,Standard Liege,Charleroi,Standard,Charleroi,1,2,1,4,0,0,0,1,9
 1536964,2026-05-23,B1,2025,OH Leuven,Genk,Oud-Heverlee Leuven,Genk,0,0,0,2,0,0,0,0,2
 1537006,2026-05-24,B1,2025,Union St. Gilloise,Anderlecht,St. Gilloise,Anderlecht,0,2,1,1,0,0,0,1,5
-1537005,2026-05-24,B1,2025,St. Truiden,KV Mechelen,St Truiden,Mechelen,0,2,1,1,0,0,0,0,4
 1537007,2026-05-24,B1,2025,Club Brugge KV,Gent,Club Brugge,Gent,0,0,0,1,0,0,0,0,1
+1537005,2026-05-24,B1,2025,St. Truiden,KV Mechelen,St Truiden,Mechelen,0,2,1,1,0,0,0,0,4
 1546340,2026-05-31,B1,2025,Gent,Genk,Gent,Genk,0,2,0,3,0,0,0,1,6

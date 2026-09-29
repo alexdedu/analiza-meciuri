@@ -1,0 +1,289 @@
+fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,ar1,ar2,evenimente
+1385788,2025-08-09,ROU_Superliga,2025,Uta Arad,Farul Constanta,UTA Arad,Farul Constanta,1,0,0,0,0,0,0,0,14
+1385793,2025-08-09,ROU_Superliga,2025,Universitatea Cluj,Petrolul Ploiesti,U. Cluj,Petrolul,0,2,0,2,0,0,0,0,16
+1385790,2025-08-10,ROU_Superliga,2025,FCSB,Unirea Slobozia,FCSB,Unirea Slobozia,0,2,0,2,0,0,0,0,15
+1385795,2025-08-10,ROU_Superliga,2025,Universitatea Craiova,AFC Hermannstadt,Univ. Craiova,FC Hermannstadt,0,1,0,2,0,0,0,0,13
+1385791,2025-08-11,ROU_Superliga,2025,Oţelul,Rapid,Otelul,FC Rapid Bucuresti,1,0,0,0,0,0,0,0,9
+1385792,2025-08-11,ROU_Superliga,2025,FC Botosani,Arges Pitesti,FC Botosani,FC Arges,0,2,0,1,0,0,0,0,17
+1385796,2025-08-15,ROU_Superliga,2025,Dinamo Bucuresti,Uta Arad,Dinamo Bucuresti,UTA Arad,0,4,0,1,0,2,0,0,18
+1385797,2025-08-15,ROU_Superliga,2025,Unirea Slobozia,Metaloglobus,Unirea Slobozia,Metaloglobus Bucharest,1,3,2,1,0,0,0,0,20
+1385802,2025-08-16,ROU_Superliga,2025,Petrolul Ploiesti,AFC Hermannstadt,Petrolul,FC Hermannstadt,0,1,0,1,0,0,0,0,13
+1385803,2025-08-17,ROU_Superliga,2025,Csikszereda,Universitatea Craiova,Csikszereda M. Ciuc,Univ. Craiova,3,1,1,1,0,0,0,0,17
+1385801,2025-08-17,ROU_Superliga,2025,CFR 1907 Cluj,FC Botosani,CFR Cluj,FC Botosani,0,2,0,3,0,0,0,0,21
+1385798,2025-08-17,ROU_Superliga,2025,Rapid,FCSB,FC Rapid Bucuresti,FCSB,1,1,0,3,0,0,0,0,19
+1385799,2025-08-18,ROU_Superliga,2025,Arges Pitesti,Oţelul,FC Arges,Otelul,0,1,1,1,0,0,0,0,13
+1385800,2025-08-18,ROU_Superliga,2025,Farul Constanta,Universitatea Cluj,Farul Constanta,U. Cluj,1,1,1,1,0,0,1,0,14
+1385804,2025-08-22,ROU_Superliga,2025,Uta Arad,Unirea Slobozia,UTA Arad,Unirea Slobozia,1,0,2,1,0,0,0,0,17
+1385805,2025-08-22,ROU_Superliga,2025,Metaloglobus,Rapid,Metaloglobus Bucharest,FC Rapid Bucuresti,0,2,0,3,0,0,0,0,18
+1385810,2025-08-23,ROU_Superliga,2025,FC Botosani,Csikszereda,FC Botosani,Csikszereda M. Ciuc,3,2,1,0,0,0,0,0,21
+1385807,2025-08-23,ROU_Superliga,2025,Universitatea Cluj,Dinamo Bucuresti,U. Cluj,Dinamo Bucuresti,2,1,1,3,0,0,0,0,14
+1385806,2025-08-24,ROU_Superliga,2025,FCSB,Arges Pitesti,FCSB,FC Arges,1,0,0,1,0,0,0,0,14
+1385808,2025-08-24,ROU_Superliga,2025,Oţelul,CFR 1907 Cluj,Otelul,CFR Cluj,0,2,0,1,0,0,0,1,20
+1385811,2025-08-24,ROU_Superliga,2025,Universitatea Craiova,Petrolul Ploiesti,Univ. Craiova,Petrolul,0,0,1,1,0,0,0,0,14
+1385809,2025-08-25,ROU_Superliga,2025,AFC Hermannstadt,Farul Constanta,FC Hermannstadt,Farul Constanta,1,2,1,3,0,0,0,0,18
+1385812,2025-08-29,ROU_Superliga,2025,Rapid,Uta Arad,FC Rapid Bucuresti,UTA Arad,1,3,1,1,0,0,0,0,17
+1385814,2025-08-30,ROU_Superliga,2025,Unirea Slobozia,Universitatea Cluj,Unirea Slobozia,U. Cluj,0,0,0,0,0,0,0,0,10
+1385816,2025-08-30,ROU_Superliga,2025,Dinamo Bucuresti,AFC Hermannstadt,Dinamo Bucuresti,FC Hermannstadt,1,1,0,1,0,0,0,0,14
+1385813,2025-08-31,ROU_Superliga,2025,Arges Pitesti,Metaloglobus,FC Arges,Metaloglobus Bucharest,2,0,1,2,0,0,0,0,17
+1385819,2025-08-31,ROU_Superliga,2025,FC Botosani,Universitatea Craiova,FC Botosani,Univ. Craiova,2,2,1,0,0,0,0,0,17
+1385815,2025-08-31,ROU_Superliga,2025,CFR 1907 Cluj,FCSB,CFR Cluj,FCSB,0,0,2,1,0,1,0,0,20
+1385817,2025-09-01,ROU_Superliga,2025,Csikszereda,Oţelul,Csikszereda M. Ciuc,Otelul,0,1,1,2,0,1,0,0,16
+1385818,2025-09-01,ROU_Superliga,2025,Farul Constanta,Petrolul Ploiesti,Farul Constanta,Petrolul,0,0,0,0,0,0,0,0,14
+1385821,2025-09-12,ROU_Superliga,2025,Universitatea Cluj,Rapid,U. Cluj,FC Rapid Bucuresti,1,1,0,0,0,0,0,0,12
+1385820,2025-09-13,ROU_Superliga,2025,Uta Arad,Arges Pitesti,UTA Arad,FC Arges,1,1,1,2,0,0,0,1,20
+1385822,2025-09-13,ROU_Superliga,2025,Metaloglobus,CFR 1907 Cluj,Metaloglobus Bucharest,CFR Cluj,1,0,1,0,0,0,0,0,16
+1385826,2025-09-14,ROU_Superliga,2025,Oţelul,FC Botosani,Otelul,FC Botosani,0,3,1,4,0,0,0,0,19
+1385827,2025-09-14,ROU_Superliga,2025,Universitatea Craiova,Farul Constanta,Univ. Craiova,Farul Constanta,3,0,3,2,0,0,0,0,20
+1385944,2025-09-14,ROU_Superliga,2025,Csikszereda,FCSB,Csikszereda M. Ciuc,FCSB,1,0,0,1,0,0,0,0,14
+1385825,2025-09-15,ROU_Superliga,2025,Petrolul Ploiesti,Dinamo Bucuresti,Petrolul,Dinamo Bucuresti,2,0,0,2,0,0,0,0,15
+1385823,2025-09-15,ROU_Superliga,2025,AFC Hermannstadt,Unirea Slobozia,FC Hermannstadt,Unirea Slobozia,1,2,1,3,0,0,0,0,18
+1385833,2025-09-19,ROU_Superliga,2025,FC Botosani,FCSB,FC Botosani,FCSB,1,3,3,1,0,0,0,0,21
+1385835,2025-09-20,ROU_Superliga,2025,Oţelul,Universitatea Craiova,Otelul,Univ. Craiova,2,1,3,0,0,1,0,0,18
+1385829,2025-09-20,ROU_Superliga,2025,Arges Pitesti,Universitatea Cluj,FC Arges,U. Cluj,2,3,0,2,0,1,0,1,21
+1385832,2025-09-21,ROU_Superliga,2025,Unirea Slobozia,Petrolul Ploiesti,Unirea Slobozia,Petrolul,1,0,1,2,0,0,0,0,15
+1385828,2025-09-21,ROU_Superliga,2025,CFR 1907 Cluj,Uta Arad,CFR Cluj,UTA Arad,2,2,2,0,0,0,0,0,18
+1385830,2025-09-21,ROU_Superliga,2025,Rapid,AFC Hermannstadt,FC Rapid Bucuresti,FC Hermannstadt,2,1,0,2,0,0,0,0,14
+1385831,2025-09-22,ROU_Superliga,2025,Csikszereda,Metaloglobus,Csikszereda M. Ciuc,Metaloglobus Bucharest,1,0,1,2,0,0,0,0,19
+1385834,2025-09-22,ROU_Superliga,2025,Dinamo Bucuresti,Farul Constanta,Dinamo Bucuresti,Farul Constanta,0,3,1,1,0,0,0,0,13
+1385838,2025-09-26,ROU_Superliga,2025,AFC Hermannstadt,Arges Pitesti,FC Hermannstadt,FC Arges,0,1,0,0,0,0,0,0,10
+1385843,2025-09-26,ROU_Superliga,2025,Universitatea Craiova,Dinamo Bucuresti,Univ. Craiova,Dinamo Bucuresti,0,1,1,2,0,1,0,0,18
+1385836,2025-09-27,ROU_Superliga,2025,Uta Arad,Csikszereda,UTA Arad,Csikszereda M. Ciuc,2,0,1,3,1,0,0,0,17
+1385839,2025-09-27,ROU_Superliga,2025,Petrolul Ploiesti,Rapid,Petrolul,FC Rapid Bucuresti,0,2,1,1,0,0,0,0,15
+1385841,2025-09-28,ROU_Superliga,2025,Farul Constanta,Unirea Slobozia,Farul Constanta,Unirea Slobozia,1,2,1,3,0,0,0,0,16
+1385842,2025-09-28,ROU_Superliga,2025,FCSB,Oţelul,FCSB,Otelul,1,1,0,1,0,0,0,0,13
+1385840,2025-09-29,ROU_Superliga,2025,Metaloglobus,FC Botosani,Metaloglobus Bucharest,FC Botosani,0,2,0,1,0,1,0,0,17
+1385837,2025-09-29,ROU_Superliga,2025,Universitatea Cluj,CFR 1907 Cluj,U. Cluj,CFR Cluj,0,1,1,0,0,0,0,0,16
+1385850,2025-10-03,ROU_Superliga,2025,Unirea Slobozia,Dinamo Bucuresti,Unirea Slobozia,Dinamo Bucuresti,1,2,0,2,0,0,0,0,17
+1385847,2025-10-04,ROU_Superliga,2025,Arges Pitesti,Petrolul Ploiesti,FC Arges,Petrolul,1,2,0,3,0,0,0,0,15
+1385848,2025-10-04,ROU_Superliga,2025,Rapid,Farul Constanta,FC Rapid Bucuresti,Farul Constanta,1,1,1,0,0,0,0,0,17
+1385845,2025-10-04,ROU_Superliga,2025,Csikszereda,Universitatea Cluj,Csikszereda M. Ciuc,U. Cluj,0,1,1,0,0,0,0,0,13
+1385846,2025-10-05,ROU_Superliga,2025,CFR 1907 Cluj,AFC Hermannstadt,CFR Cluj,FC Hermannstadt,0,0,1,2,0,0,0,0,16
+1385851,2025-10-05,ROU_Superliga,2025,FCSB,Universitatea Craiova,FCSB,Univ. Craiova,1,3,3,2,0,0,0,1,24
+1385849,2025-10-06,ROU_Superliga,2025,Oţelul,Metaloglobus,Otelul,Metaloglobus Bucharest,1,3,1,1,0,0,0,0,20
+1385844,2025-10-06,ROU_Superliga,2025,FC Botosani,Uta Arad,FC Botosani,UTA Arad,1,0,1,1,0,0,0,0,15
+1385794,2025-10-16,ROU_Superliga,2025,Csikszereda,CFR 1907 Cluj,Csikszereda M. Ciuc,CFR Cluj,0,2,0,3,0,0,0,0,18
+1385856,2025-10-17,ROU_Superliga,2025,Farul Constanta,Arges Pitesti,Farul Constanta,FC Arges,0,2,1,0,0,0,0,0,14
+1385853,2025-10-18,ROU_Superliga,2025,Universitatea Cluj,FC Botosani,U. Cluj,FC Botosani,1,1,0,0,0,0,0,0,14
+1385859,2025-10-18,ROU_Superliga,2025,Universitatea Craiova,Unirea Slobozia,Univ. Craiova,Unirea Slobozia,0,1,0,2,0,0,1,0,19
+1385858,2025-10-18,ROU_Superliga,2025,Metaloglobus,FCSB,Metaloglobus Bucharest,FCSB,4,3,0,1,0,0,0,0,23
+1385852,2025-10-19,ROU_Superliga,2025,Uta Arad,Oţelul,UTA Arad,Otelul,2,0,1,3,1,0,0,0,21
+1385857,2025-10-19,ROU_Superliga,2025,Dinamo Bucuresti,Rapid,Dinamo Bucuresti,FC Rapid Bucuresti,0,0,0,1,0,0,0,1,15
+1385854,2025-10-20,ROU_Superliga,2025,AFC Hermannstadt,Csikszereda,FC Hermannstadt,Csikszereda M. Ciuc,0,3,1,3,0,0,0,0,18
+1385855,2025-10-20,ROU_Superliga,2025,Petrolul Ploiesti,CFR 1907 Cluj,Petrolul,CFR Cluj,1,2,0,2,0,0,0,0,17
+1385865,2025-10-24,ROU_Superliga,2025,Arges Pitesti,Dinamo Bucuresti,FC Arges,Dinamo Bucuresti,1,2,1,0,0,0,0,0,15
+1385863,2025-10-24,ROU_Superliga,2025,Csikszereda,Petrolul Ploiesti,Csikszereda M. Ciuc,Petrolul,1,0,1,2,0,0,0,1,18
+1385861,2025-10-25,ROU_Superliga,2025,Oţelul,Universitatea Cluj,Otelul,U. Cluj,0,0,2,2,0,0,0,0,12
+1385864,2025-10-25,ROU_Superliga,2025,CFR 1907 Cluj,Farul Constanta,CFR Cluj,Farul Constanta,1,0,1,1,0,0,0,0,16
+1385867,2025-10-26,ROU_Superliga,2025,Metaloglobus,Universitatea Craiova,Metaloglobus Bucharest,Univ. Craiova,2,0,0,0,0,0,0,0,12
+1385860,2025-10-26,ROU_Superliga,2025,FCSB,Uta Arad,FCSB,UTA Arad,0,1,1,2,0,0,1,0,22
+1385862,2025-10-27,ROU_Superliga,2025,FC Botosani,AFC Hermannstadt,FC Botosani,FC Hermannstadt,0,2,1,1,0,0,0,0,15
+1385866,2025-10-27,ROU_Superliga,2025,Rapid,Unirea Slobozia,FC Rapid Bucuresti,Unirea Slobozia,0,0,0,0,0,0,0,0,15
+1385873,2025-10-31,ROU_Superliga,2025,Dinamo Bucuresti,CFR 1907 Cluj,Dinamo Bucuresti,CFR Cluj,0,1,0,0,0,0,0,0,15
+1385874,2025-11-01,ROU_Superliga,2025,Unirea Slobozia,Arges Pitesti,Unirea Slobozia,FC Arges,0,2,0,3,0,0,0,0,14
+1385869,2025-11-01,ROU_Superliga,2025,Universitatea Cluj,FCSB,U. Cluj,FCSB,3,1,0,1,1,0,0,0,16
+1385868,2025-11-02,ROU_Superliga,2025,Uta Arad,Metaloglobus,UTA Arad,Metaloglobus Bucharest,0,1,2,0,0,0,0,0,14
+1385870,2025-11-02,ROU_Superliga,2025,AFC Hermannstadt,Oţelul,FC Hermannstadt,Otelul,0,1,1,0,1,0,0,0,17
+1385875,2025-11-02,ROU_Superliga,2025,Universitatea Craiova,Rapid,Univ. Craiova,FC Rapid Bucuresti,2,2,0,2,0,0,0,0,20
+1385872,2025-11-03,ROU_Superliga,2025,Farul Constanta,Csikszereda,Farul Constanta,Csikszereda M. Ciuc,1,1,1,1,0,0,0,0,19
+1385871,2025-11-03,ROU_Superliga,2025,Petrolul Ploiesti,FC Botosani,Petrolul,FC Botosani,0,2,0,2,0,0,0,0,11
+1385877,2025-11-07,ROU_Superliga,2025,Universitatea Cluj,Metaloglobus,U. Cluj,Metaloglobus Bucharest,1,1,0,1,0,0,0,0,16
+1385880,2025-11-07,ROU_Superliga,2025,Farul Constanta,FC Botosani,Farul Constanta,FC Botosani,2,0,0,0,0,0,1,0,16
+1385883,2025-11-08,ROU_Superliga,2025,Rapid,Arges Pitesti,FC Rapid Bucuresti,FC Arges,1,1,0,1,0,0,0,0,15
+1385879,2025-11-08,ROU_Superliga,2025,Petrolul Ploiesti,Oţelul,Petrolul,Otelul,0,2,0,2,0,0,0,0,12
+1385881,2025-11-08,ROU_Superliga,2025,Dinamo Bucuresti,Csikszereda,Dinamo Bucuresti,Csikszereda M. Ciuc,1,1,1,2,0,0,0,0,21
+1385882,2025-11-09,ROU_Superliga,2025,Unirea Slobozia,CFR 1907 Cluj,Unirea Slobozia,CFR Cluj,0,2,0,2,0,0,0,0,14
+1385876,2025-11-09,ROU_Superliga,2025,Universitatea Craiova,Uta Arad,Univ. Craiova,UTA Arad,0,4,0,2,0,1,0,0,17
+1385878,2025-11-09,ROU_Superliga,2025,AFC Hermannstadt,FCSB,FC Hermannstadt,FCSB,1,0,0,3,0,0,0,1,20
+1385889,2025-11-21,ROU_Superliga,2025,Csikszereda,Unirea Slobozia,Csikszereda M. Ciuc,Unirea Slobozia,1,0,1,0,0,0,0,0,15
+1385891,2025-11-21,ROU_Superliga,2025,Arges Pitesti,Universitatea Craiova,FC Arges,Univ. Craiova,2,1,0,3,0,0,0,0,18
+1385884,2025-11-22,ROU_Superliga,2025,Uta Arad,Universitatea Cluj,UTA Arad,U. Cluj,1,0,0,2,0,0,0,0,14
+1385886,2025-11-22,ROU_Superliga,2025,FCSB,Petrolul Ploiesti,FCSB,Petrolul,1,0,1,1,0,0,0,0,15
+1385887,2025-11-23,ROU_Superliga,2025,Oţelul,Farul Constanta,Otelul,Farul Constanta,0,0,1,2,0,0,0,0,15
+1385890,2025-11-23,ROU_Superliga,2025,CFR 1907 Cluj,Rapid,CFR Cluj,FC Rapid Bucuresti,2,0,1,0,0,0,0,0,16
+1385885,2025-11-24,ROU_Superliga,2025,Metaloglobus,AFC Hermannstadt,Metaloglobus Bucharest,FC Hermannstadt,1,1,0,1,0,0,0,0,14
+1385888,2025-11-24,ROU_Superliga,2025,FC Botosani,Dinamo Bucuresti,FC Botosani,Dinamo Bucuresti,0,2,2,0,0,0,0,0,15
+1385897,2025-11-28,ROU_Superliga,2025,Rapid,Csikszereda,FC Rapid Bucuresti,Csikszereda M. Ciuc,1,0,1,0,0,0,0,0,16
+1385898,2025-11-29,ROU_Superliga,2025,Arges Pitesti,CFR 1907 Cluj,FC Arges,CFR Cluj,2,1,0,1,0,0,0,0,17
+1385895,2025-11-29,ROU_Superliga,2025,Dinamo Bucuresti,Oţelul,Dinamo Bucuresti,Otelul,1,1,1,2,0,0,0,0,14
+1385894,2025-11-30,ROU_Superliga,2025,Farul Constanta,FCSB,Farul Constanta,FCSB,1,1,0,2,0,0,0,0,17
+1385896,2025-11-30,ROU_Superliga,2025,Unirea Slobozia,FC Botosani,Unirea Slobozia,FC Botosani,3,3,3,3,0,0,0,0,23
+1385892,2025-11-30,ROU_Superliga,2025,AFC Hermannstadt,Uta Arad,FC Hermannstadt,UTA Arad,0,0,1,2,1,0,0,0,18
+1385893,2025-12-01,ROU_Superliga,2025,Petrolul Ploiesti,Metaloglobus,Petrolul,Metaloglobus Bucharest,0,1,1,2,0,0,0,0,20
+1385899,2025-12-01,ROU_Superliga,2025,Universitatea Cluj,Universitatea Craiova,U. Cluj,Univ. Craiova,0,0,0,1,0,0,0,0,11
+1385903,2025-12-05,ROU_Superliga,2025,Oţelul,Unirea Slobozia,Otelul,Unirea Slobozia,0,1,1,0,0,0,0,0,15
+1385905,2025-12-06,ROU_Superliga,2025,Csikszereda,Arges Pitesti,Csikszereda M. Ciuc,FC Arges,0,1,2,1,0,0,0,0,15
+1385902,2025-12-06,ROU_Superliga,2025,FCSB,Dinamo Bucuresti,FCSB,Dinamo Bucuresti,2,1,2,0,0,0,0,0,14
+1385906,2025-12-07,ROU_Superliga,2025,Universitatea Cluj,AFC Hermannstadt,U. Cluj,FC Hermannstadt,1,2,0,0,0,0,0,0,16
+1385901,2025-12-07,ROU_Superliga,2025,Metaloglobus,Farul Constanta,Metaloglobus Bucharest,Farul Constanta,1,2,1,1,0,0,0,1,19
+1385907,2025-12-07,ROU_Superliga,2025,Universitatea Craiova,CFR 1907 Cluj,Univ. Craiova,CFR Cluj,0,1,0,2,0,0,0,0,15
+1385900,2025-12-08,ROU_Superliga,2025,Uta Arad,Petrolul Ploiesti,UTA Arad,Petrolul,0,3,0,2,0,0,0,0,16
+1385904,2025-12-08,ROU_Superliga,2025,FC Botosani,Rapid,FC Botosani,FC Rapid Bucuresti,0,3,1,1,0,0,0,0,13
+1385914,2025-12-12,ROU_Superliga,2025,CFR 1907 Cluj,Csikszereda,CFR Cluj,Csikszereda M. Ciuc,1,2,0,2,0,0,0,0,18
+1385912,2025-12-13,ROU_Superliga,2025,Arges Pitesti,FC Botosani,FC Arges,FC Botosani,0,1,0,1,0,0,0,0,11
+1385911,2025-12-13,ROU_Superliga,2025,Rapid,Oţelul,FC Rapid Bucuresti,Otelul,1,0,0,0,0,0,0,0,12
+1385915,2025-12-14,ROU_Superliga,2025,AFC Hermannstadt,Universitatea Craiova,FC Hermannstadt,Univ. Craiova,1,1,0,1,0,0,0,0,15
+1385913,2025-12-14,ROU_Superliga,2025,Petrolul Ploiesti,Universitatea Cluj,Petrolul,U. Cluj,1,0,1,4,0,0,0,0,15
+1385909,2025-12-14,ROU_Superliga,2025,Dinamo Bucuresti,Metaloglobus,Dinamo Bucuresti,Metaloglobus Bucharest,0,0,0,1,0,0,0,0,16
+1385910,2025-12-15,ROU_Superliga,2025,Unirea Slobozia,FCSB,Unirea Slobozia,FCSB,0,0,0,1,0,1,0,0,14
+1385908,2025-12-15,ROU_Superliga,2025,Farul Constanta,Uta Arad,Farul Constanta,UTA Arad,0,2,1,1,0,0,0,0,17
+1385921,2025-12-19,ROU_Superliga,2025,FC Botosani,CFR 1907 Cluj,FC Botosani,CFR Cluj,0,2,0,2,0,0,0,0,12
+1385917,2025-12-20,ROU_Superliga,2025,Metaloglobus,Unirea Slobozia,Metaloglobus Bucharest,Unirea Slobozia,1,5,1,3,0,1,0,0,26
+1385919,2025-12-20,ROU_Superliga,2025,Oţelul,Arges Pitesti,Otelul,FC Arges,2,0,2,2,0,0,0,0,18
+1385916,2025-12-20,ROU_Superliga,2025,Uta Arad,Dinamo Bucuresti,UTA Arad,Dinamo Bucuresti,0,1,0,1,0,0,0,0,12
+1385922,2025-12-21,ROU_Superliga,2025,AFC Hermannstadt,Petrolul Ploiesti,FC Hermannstadt,Petrolul,0,2,1,3,0,0,0,0,14
+1385920,2025-12-21,ROU_Superliga,2025,Universitatea Cluj,Farul Constanta,U. Cluj,Farul Constanta,0,0,0,1,0,0,0,0,11
+1385918,2025-12-21,ROU_Superliga,2025,FCSB,Rapid,FCSB,FC Rapid Bucuresti,1,2,2,2,0,0,0,0,18
+1385923,2025-12-22,ROU_Superliga,2025,Universitatea Craiova,Csikszereda,Univ. Craiova,Csikszereda M. Ciuc,0,0,1,2,0,0,0,1,17
+1385926,2026-01-16,ROU_Superliga,2025,Arges Pitesti,FCSB,FC Arges,FCSB,1,0,0,0,0,0,0,0,10
+1385929,2026-01-17,ROU_Superliga,2025,Farul Constanta,AFC Hermannstadt,Farul Constanta,FC Hermannstadt,0,1,1,2,0,0,0,0,13
+1385925,2026-01-17,ROU_Superliga,2025,Rapid,Metaloglobus,FC Rapid Bucuresti,Metaloglobus Bucharest,0,1,0,1,0,0,0,0,12
+1385924,2026-01-17,ROU_Superliga,2025,Unirea Slobozia,Uta Arad,Unirea Slobozia,UTA Arad,1,2,0,1,0,0,0,0,16
+1385930,2026-01-18,ROU_Superliga,2025,Csikszereda,FC Botosani,Csikszereda M. Ciuc,FC Botosani,0,2,2,0,0,0,0,0,13
+1385928,2026-01-18,ROU_Superliga,2025,CFR 1907 Cluj,Oţelul,CFR Cluj,Otelul,2,2,0,3,0,0,1,0,17
+1385927,2026-01-18,ROU_Superliga,2025,Dinamo Bucuresti,Universitatea Cluj,Dinamo Bucuresti,U. Cluj,1,0,0,1,0,0,0,0,13
+1385931,2026-01-19,ROU_Superliga,2025,Petrolul Ploiesti,Universitatea Craiova,Petrolul,Univ. Craiova,0,0,1,0,0,0,0,0,16
+1385933,2026-01-23,ROU_Superliga,2025,Metaloglobus,Arges Pitesti,Metaloglobus Bucharest,FC Arges,2,2,1,1,0,1,0,0,19
+1385936,2026-01-23,ROU_Superliga,2025,AFC Hermannstadt,Dinamo Bucuresti,FC Hermannstadt,Dinamo Bucuresti,2,0,2,2,0,0,0,0,16
+1385939,2026-01-24,ROU_Superliga,2025,Universitatea Craiova,FC Botosani,Univ. Craiova,FC Botosani,1,1,2,2,0,0,0,0,18
+1385934,2026-01-24,ROU_Superliga,2025,Universitatea Cluj,Unirea Slobozia,U. Cluj,Unirea Slobozia,0,0,0,1,0,0,0,0,10
+1385935,2026-01-25,ROU_Superliga,2025,FCSB,CFR 1907 Cluj,FCSB,CFR Cluj,1,0,2,1,0,0,0,0,20
+1385938,2026-01-25,ROU_Superliga,2025,Petrolul Ploiesti,Farul Constanta,Petrolul,Farul Constanta,1,1,0,1,0,0,0,0,11
+1385932,2026-01-26,ROU_Superliga,2025,Uta Arad,Rapid,UTA Arad,FC Rapid Bucuresti,1,3,1,3,0,1,0,0,23
+1385937,2026-01-26,ROU_Superliga,2025,Oţelul,Csikszereda,Otelul,Csikszereda M. Ciuc,0,0,1,2,0,0,0,0,16
+1385942,2026-01-30,ROU_Superliga,2025,CFR 1907 Cluj,Metaloglobus,CFR Cluj,Metaloglobus Bucharest,1,0,0,1,0,0,0,0,18
+1385945,2026-01-30,ROU_Superliga,2025,Dinamo Bucuresti,Petrolul Ploiesti,Dinamo Bucuresti,Petrolul,1,1,0,1,0,0,0,0,15
+1385943,2026-01-31,ROU_Superliga,2025,Unirea Slobozia,AFC Hermannstadt,Unirea Slobozia,FC Hermannstadt,0,1,2,2,0,0,0,0,19
+1385940,2026-01-31,ROU_Superliga,2025,Arges Pitesti,Uta Arad,FC Arges,UTA Arad,3,1,1,2,0,0,0,0,17
+1385941,2026-01-31,ROU_Superliga,2025,Rapid,Universitatea Cluj,FC Rapid Bucuresti,U. Cluj,2,1,0,2,0,0,0,0,14
+1385947,2026-02-01,ROU_Superliga,2025,Farul Constanta,Universitatea Craiova,Farul Constanta,Univ. Craiova,1,0,1,0,0,0,0,1,18
+1385824,2026-02-01,ROU_Superliga,2025,FCSB,Csikszereda,FCSB,Csikszereda M. Ciuc,0,1,0,2,0,0,0,0,12
+1385946,2026-02-02,ROU_Superliga,2025,FC Botosani,Oţelul,FC Botosani,Otelul,0,1,0,2,0,0,0,0,12
+1385952,2026-02-03,ROU_Superliga,2025,Petrolul Ploiesti,Unirea Slobozia,Petrolul,Unirea Slobozia,1,0,0,1,0,0,0,0,11
+1385949,2026-02-03,ROU_Superliga,2025,Universitatea Cluj,Arges Pitesti,U. Cluj,FC Arges,0,0,1,0,0,0,0,0,15
+1385950,2026-02-03,ROU_Superliga,2025,AFC Hermannstadt,Rapid,FC Hermannstadt,FC Rapid Bucuresti,0,2,0,0,0,0,0,0,15
+1385954,2026-02-04,ROU_Superliga,2025,Farul Constanta,Dinamo Bucuresti,Farul Constanta,Dinamo Bucuresti,1,0,3,2,0,0,0,0,22
+1385951,2026-02-04,ROU_Superliga,2025,Metaloglobus,Csikszereda,Metaloglobus Bucharest,Csikszereda M. Ciuc,1,1,1,3,0,0,0,0,16
+1385948,2026-02-04,ROU_Superliga,2025,Uta Arad,CFR 1907 Cluj,UTA Arad,CFR Cluj,1,1,2,3,0,0,0,0,16
+1385955,2026-02-05,ROU_Superliga,2025,Universitatea Craiova,Oţelul,Univ. Craiova,Otelul,1,2,0,1,0,0,0,0,15
+1385953,2026-02-05,ROU_Superliga,2025,FCSB,FC Botosani,FCSB,FC Botosani,0,1,1,3,0,0,0,0,18
+1385958,2026-02-06,ROU_Superliga,2025,Arges Pitesti,AFC Hermannstadt,FC Arges,FC Hermannstadt,0,0,0,1,0,0,1,0,17
+1385959,2026-02-06,ROU_Superliga,2025,Rapid,Petrolul Ploiesti,FC Rapid Bucuresti,Petrolul,1,1,2,4,0,0,0,1,21
+1385961,2026-02-07,ROU_Superliga,2025,Unirea Slobozia,Farul Constanta,Unirea Slobozia,Farul Constanta,1,0,1,2,0,0,0,0,15
+1385956,2026-02-07,ROU_Superliga,2025,Csikszereda,Uta Arad,Csikszereda M. Ciuc,UTA Arad,0,4,0,2,0,0,0,0,18
+1385957,2026-02-07,ROU_Superliga,2025,CFR 1907 Cluj,Universitatea Cluj,CFR Cluj,U. Cluj,0,2,1,1,0,1,0,0,18
+1385960,2026-02-08,ROU_Superliga,2025,FC Botosani,Metaloglobus,FC Botosani,Metaloglobus Bucharest,0,0,0,0,0,0,0,0,14
+1385962,2026-02-08,ROU_Superliga,2025,Oţelul,FCSB,Otelul,FCSB,0,2,1,1,0,1,0,0,20
+1385963,2026-02-09,ROU_Superliga,2025,Dinamo Bucuresti,Universitatea Craiova,Dinamo Bucuresti,Univ. Craiova,0,2,2,0,0,0,0,0,14
+1385967,2026-02-13,ROU_Superliga,2025,Petrolul Ploiesti,Arges Pitesti,Petrolul,FC Arges,1,0,1,1,0,0,0,0,15
+1385969,2026-02-14,ROU_Superliga,2025,Metaloglobus,Oţelul,Metaloglobus Bucharest,Otelul,1,0,1,1,0,0,0,0,14
+1385965,2026-02-14,ROU_Superliga,2025,Universitatea Cluj,Csikszereda,U. Cluj,Csikszereda M. Ciuc,1,1,2,0,0,0,0,0,19
+1385964,2026-02-15,ROU_Superliga,2025,Uta Arad,FC Botosani,UTA Arad,FC Botosani,1,2,0,1,0,0,0,0,17
+1385968,2026-02-15,ROU_Superliga,2025,Farul Constanta,Rapid,Farul Constanta,FC Rapid Bucuresti,2,2,1,1,0,0,0,0,17
+1385971,2026-02-15,ROU_Superliga,2025,Universitatea Craiova,FCSB,Univ. Craiova,FCSB,1,2,3,0,0,0,0,0,15
+1385970,2026-02-16,ROU_Superliga,2025,Dinamo Bucuresti,Unirea Slobozia,Dinamo Bucuresti,Unirea Slobozia,1,0,0,2,0,0,0,0,14
+1385966,2026-02-16,ROU_Superliga,2025,AFC Hermannstadt,CFR 1907 Cluj,FC Hermannstadt,CFR Cluj,0,2,1,0,0,0,0,0,13
+1385972,2026-02-20,ROU_Superliga,2025,Oţelul,Uta Arad,Otelul,UTA Arad,0,2,0,1,0,0,0,0,15
+1385973,2026-02-20,ROU_Superliga,2025,FC Botosani,Universitatea Cluj,FC Botosani,U. Cluj,0,1,0,4,0,0,0,0,17
+1385975,2026-02-21,ROU_Superliga,2025,CFR 1907 Cluj,Petrolul Ploiesti,CFR Cluj,Petrolul,1,3,0,1,0,0,0,0,16
+1385977,2026-02-21,ROU_Superliga,2025,Rapid,Dinamo Bucuresti,FC Rapid Bucuresti,Dinamo Bucuresti,0,3,1,0,0,0,0,0,17
+1385976,2026-02-22,ROU_Superliga,2025,Arges Pitesti,Farul Constanta,FC Arges,Farul Constanta,1,0,1,0,0,0,0,0,14
+1385979,2026-02-22,ROU_Superliga,2025,Unirea Slobozia,Universitatea Craiova,Unirea Slobozia,Univ. Craiova,2,0,0,1,0,0,0,0,17
+1385974,2026-02-23,ROU_Superliga,2025,Csikszereda,AFC Hermannstadt,Csikszereda M. Ciuc,FC Hermannstadt,0,1,1,0,0,0,0,0,15
+1385978,2026-02-23,ROU_Superliga,2025,FCSB,Metaloglobus,FCSB,Metaloglobus Bucharest,0,0,1,1,0,0,0,1,19
+1385982,2026-02-27,ROU_Superliga,2025,AFC Hermannstadt,FC Botosani,FC Hermannstadt,FC Botosani,2,3,0,1,1,0,0,0,21
+1385981,2026-02-27,ROU_Superliga,2025,Universitatea Cluj,Oţelul,U. Cluj,Otelul,0,0,0,2,0,0,0,0,15
+1385987,2026-02-28,ROU_Superliga,2025,Universitatea Craiova,Metaloglobus,Univ. Craiova,Metaloglobus Bucharest,0,1,1,0,0,0,0,0,15
+1385984,2026-02-28,ROU_Superliga,2025,Farul Constanta,CFR 1907 Cluj,Farul Constanta,CFR Cluj,0,0,0,0,0,0,0,0,13
+1385983,2026-03-01,ROU_Superliga,2025,Petrolul Ploiesti,Csikszereda,Petrolul,Csikszereda M. Ciuc,0,2,0,3,0,0,0,0,18
+1385985,2026-03-01,ROU_Superliga,2025,Dinamo Bucuresti,Arges Pitesti,Dinamo Bucuresti,FC Arges,1,0,0,3,0,0,0,0,13
+1385980,2026-03-01,ROU_Superliga,2025,Uta Arad,FCSB,UTA Arad,FCSB,2,0,0,0,1,0,0,0,19
+1385986,2026-03-02,ROU_Superliga,2025,Unirea Slobozia,Rapid,Unirea Slobozia,FC Rapid Bucuresti,1,0,1,1,0,0,0,0,15
+1385992,2026-03-06,ROU_Superliga,2025,Csikszereda,Farul Constanta,Csikszereda M. Ciuc,Farul Constanta,0,1,0,1,0,0,0,0,13
+1385991,2026-03-07,ROU_Superliga,2025,FC Botosani,Petrolul Ploiesti,FC Botosani,Petrolul,1,1,1,2,0,0,0,0,15
+1385989,2026-03-07,ROU_Superliga,2025,FCSB,Universitatea Cluj,FCSB,U. Cluj,2,2,0,2,0,0,0,0,19
+1385988,2026-03-07,ROU_Superliga,2025,Metaloglobus,Uta Arad,Metaloglobus Bucharest,UTA Arad,1,2,0,0,0,0,0,0,17
+1385990,2026-03-08,ROU_Superliga,2025,Oţelul,AFC Hermannstadt,Otelul,FC Hermannstadt,2,1,1,1,1,2,0,0,21
+1385994,2026-03-08,ROU_Superliga,2025,Arges Pitesti,Unirea Slobozia,FC Arges,Unirea Slobozia,1,0,0,1,0,0,0,0,10
+1385995,2026-03-08,ROU_Superliga,2025,Rapid,Universitatea Craiova,FC Rapid Bucuresti,Univ. Craiova,1,1,1,4,0,0,0,0,17
+1385993,2026-03-09,ROU_Superliga,2025,CFR 1907 Cluj,Dinamo Bucuresti,CFR Cluj,Dinamo Bucuresti,1,2,0,0,0,0,0,0,15
+1530917,2026-03-13,ROU_Superliga,2025,Uta Arad,AFC Hermannstadt,UTA Arad,FC Hermannstadt,1,0,2,1,0,0,0,0,20
+1531620,2026-03-13,ROU_Superliga,2025,Universitatea Craiova,Arges Pitesti,Univ. Craiova,FC Arges,1,1,1,4,0,0,0,0,17
+1530914,2026-03-14,ROU_Superliga,2025,Oţelul,Csikszereda,Otelul,Csikszereda M. Ciuc,1,1,1,3,0,0,0,0,19
+1531621,2026-03-14,ROU_Superliga,2025,Rapid,Dinamo Bucuresti,FC Rapid Bucuresti,Dinamo Bucuresti,2,4,2,3,0,0,0,1,28
+1530916,2026-03-15,ROU_Superliga,2025,Farul Constanta,Petrolul Ploiesti,Farul Constanta,Petrolul,0,1,1,1,0,0,0,0,15
+1530915,2026-03-15,ROU_Superliga,2025,FCSB,Metaloglobus,FCSB,Metaloglobus Bucharest,0,1,0,1,0,0,0,0,11
+1530918,2026-03-16,ROU_Superliga,2025,FC Botosani,Unirea Slobozia,FC Botosani,Unirea Slobozia,0,0,1,2,1,0,0,0,20
+1531622,2026-03-16,ROU_Superliga,2025,Universitatea Cluj,CFR 1907 Cluj,U. Cluj,CFR Cluj,1,3,1,1,0,0,0,0,15
+1531623,2026-03-19,ROU_Superliga,2025,Dinamo Bucuresti,Universitatea Craiova,Dinamo Bucuresti,Univ. Craiova,3,3,1,3,0,0,1,0,21
+1531624,2026-03-20,ROU_Superliga,2025,CFR 1907 Cluj,Rapid,CFR Cluj,FC Rapid Bucuresti,0,3,0,1,0,0,0,0,14
+1531509,2026-03-20,ROU_Superliga,2025,FCSB,Uta Arad,FCSB,UTA Arad,1,3,0,2,0,0,0,0,17
+1531625,2026-03-21,ROU_Superliga,2025,Arges Pitesti,Universitatea Cluj,FC Arges,U. Cluj,0,1,1,1,0,0,0,0,13
+1531510,2026-03-21,ROU_Superliga,2025,Metaloglobus,Petrolul Ploiesti,Metaloglobus Bucharest,Petrolul,0,2,1,3,0,0,0,0,17
+1531507,2026-03-21,ROU_Superliga,2025,Csikszereda,Farul Constanta,Csikszereda M. Ciuc,Farul Constanta,0,1,2,2,0,0,0,0,17
+1531508,2026-03-22,ROU_Superliga,2025,AFC Hermannstadt,FC Botosani,FC Hermannstadt,FC Botosani,1,2,1,1,0,1,0,0,19
+1531511,2026-03-23,ROU_Superliga,2025,Unirea Slobozia,Oţelul,Unirea Slobozia,Otelul,0,1,1,0,0,0,0,0,14
+1531513,2026-04-03,ROU_Superliga,2025,FC Botosani,FCSB,FC Botosani,FCSB,3,2,0,0,0,0,0,1,20
+1531514,2026-04-04,ROU_Superliga,2025,Oţelul,AFC Hermannstadt,Otelul,FC Hermannstadt,0,3,1,3,0,0,0,0,18
+1531626,2026-04-04,ROU_Superliga,2025,Arges Pitesti,Dinamo Bucuresti,FC Arges,Dinamo Bucuresti,0,2,3,2,0,0,0,0,19
+1531516,2026-04-05,ROU_Superliga,2025,Uta Arad,Metaloglobus,UTA Arad,Metaloglobus Bucharest,1,1,1,1,0,0,0,0,20
+1531512,2026-04-05,ROU_Superliga,2025,Farul Constanta,Unirea Slobozia,Farul Constanta,Unirea Slobozia,0,0,1,3,0,0,0,0,15
+1531627,2026-04-05,ROU_Superliga,2025,Rapid,Universitatea Cluj,FC Rapid Bucuresti,U. Cluj,2,1,1,0,0,0,0,0,17
+1531515,2026-04-06,ROU_Superliga,2025,Petrolul Ploiesti,Csikszereda,Petrolul,Csikszereda M. Ciuc,0,4,0,2,0,0,0,0,18
+1531628,2026-04-06,ROU_Superliga,2025,Universitatea Craiova,CFR 1907 Cluj,Univ. Craiova,CFR Cluj,1,2,2,1,0,0,0,0,18
+1531517,2026-04-10,ROU_Superliga,2025,AFC Hermannstadt,Farul Constanta,FC Hermannstadt,Farul Constanta,0,0,0,2,0,0,0,0,11
+1531521,2026-04-11,ROU_Superliga,2025,Uta Arad,FC Botosani,UTA Arad,FC Botosani,0,2,0,2,0,0,0,0,15
+1531518,2026-04-11,ROU_Superliga,2025,FCSB,Oţelul,FCSB,Otelul,0,3,2,0,0,0,0,0,20
+1531629,2026-04-12,ROU_Superliga,2025,CFR 1907 Cluj,Dinamo Bucuresti,CFR Cluj,Dinamo Bucuresti,0,1,0,1,0,0,0,0,12
+1531520,2026-04-12,ROU_Superliga,2025,Unirea Slobozia,Petrolul Ploiesti,Unirea Slobozia,Petrolul,2,2,0,4,1,0,0,0,23
+1531519,2026-04-13,ROU_Superliga,2025,Metaloglobus,Csikszereda,Metaloglobus Bucharest,Csikszereda M. Ciuc,1,2,0,2,0,0,0,0,16
+1531630,2026-04-13,ROU_Superliga,2025,Rapid,Arges Pitesti,FC Rapid Bucuresti,FC Arges,1,1,1,1,0,0,0,0,14
+1531631,2026-04-13,ROU_Superliga,2025,Universitatea Cluj,Universitatea Craiova,U. Cluj,Univ. Craiova,0,1,0,0,0,0,1,0,16
+1531525,2026-04-17,ROU_Superliga,2025,Oţelul,Uta Arad,Otelul,UTA Arad,1,1,1,2,0,0,1,1,19
+1531633,2026-04-17,ROU_Superliga,2025,Arges Pitesti,CFR 1907 Cluj,FC Arges,CFR Cluj,3,0,0,3,0,0,0,0,16
+1531522,2026-04-18,ROU_Superliga,2025,Csikszereda,Unirea Slobozia,Csikszereda M. Ciuc,Unirea Slobozia,0,5,1,2,0,0,0,0,24
+1531632,2026-04-18,ROU_Superliga,2025,Dinamo Bucuresti,Universitatea Cluj,Dinamo Bucuresti,U. Cluj,0,2,0,3,0,0,0,0,17
+1531526,2026-04-19,ROU_Superliga,2025,Petrolul Ploiesti,AFC Hermannstadt,Petrolul,FC Hermannstadt,0,2,1,3,0,0,0,1,20
+1531634,2026-04-19,ROU_Superliga,2025,Universitatea Craiova,Rapid,Univ. Craiova,FC Rapid Bucuresti,0,2,0,1,0,0,0,0,13
+1531524,2026-04-20,ROU_Superliga,2025,FC Botosani,Metaloglobus,FC Botosani,Metaloglobus Bucharest,0,1,0,3,0,0,0,0,19
+1531523,2026-04-20,ROU_Superliga,2025,Farul Constanta,FCSB,Farul Constanta,FCSB,1,3,0,0,0,0,0,0,19
+1531528,2026-04-24,ROU_Superliga,2025,AFC Hermannstadt,Csikszereda,FC Hermannstadt,Csikszereda M. Ciuc,1,1,0,1,0,0,0,0,12
+1531529,2026-04-24,ROU_Superliga,2025,FCSB,Petrolul Ploiesti,FCSB,Petrolul,0,0,0,1,0,0,0,0,15
+1531527,2026-04-25,ROU_Superliga,2025,FC Botosani,Oţelul,FC Botosani,Otelul,1,0,0,1,0,0,0,0,14
+1531635,2026-04-25,ROU_Superliga,2025,CFR 1907 Cluj,Universitatea Cluj,CFR Cluj,U. Cluj,0,1,2,1,0,0,0,0,14
+1531636,2026-04-26,ROU_Superliga,2025,Dinamo Bucuresti,Rapid,Dinamo Bucuresti,FC Rapid Bucuresti,0,4,1,1,0,0,0,0,20
+1531531,2026-04-26,ROU_Superliga,2025,Uta Arad,Farul Constanta,UTA Arad,Farul Constanta,0,1,1,1,0,0,0,0,12
+1531530,2026-04-27,ROU_Superliga,2025,Metaloglobus,Unirea Slobozia,Metaloglobus Bucharest,Unirea Slobozia,0,2,0,0,0,0,0,0,14
+1531637,2026-04-27,ROU_Superliga,2025,Arges Pitesti,Universitatea Craiova,FC Arges,Univ. Craiova,1,3,0,5,0,0,0,0,18
+1531532,2026-05-01,ROU_Superliga,2025,Csikszereda,FCSB,Csikszereda M. Ciuc,FCSB,2,2,1,1,0,0,0,0,15
+1531533,2026-05-02,ROU_Superliga,2025,Farul Constanta,FC Botosani,Farul Constanta,FC Botosani,0,2,0,3,0,0,0,0,17
+1531639,2026-05-02,ROU_Superliga,2025,Universitatea Cluj,Arges Pitesti,U. Cluj,FC Arges,0,2,1,1,0,0,0,0,14
+1531534,2026-05-02,ROU_Superliga,2025,Oţelul,Metaloglobus,Otelul,Metaloglobus Bucharest,0,3,0,2,0,0,0,0,17
+1531535,2026-05-03,ROU_Superliga,2025,Petrolul Ploiesti,Uta Arad,Petrolul,UTA Arad,1,1,2,0,0,0,0,0,17
+1531640,2026-05-03,ROU_Superliga,2025,Universitatea Craiova,Dinamo Bucuresti,Univ. Craiova,Dinamo Bucuresti,0,0,0,2,0,0,0,0,14
+1531536,2026-05-04,ROU_Superliga,2025,Unirea Slobozia,AFC Hermannstadt,Unirea Slobozia,FC Hermannstadt,1,2,1,0,0,0,0,0,19
+1531638,2026-05-04,ROU_Superliga,2025,Rapid,CFR 1907 Cluj,FC Rapid Bucuresti,CFR Cluj,0,1,0,1,0,0,0,0,15
+1531641,2026-05-08,ROU_Superliga,2025,CFR 1907 Cluj,Universitatea Craiova,CFR Cluj,Univ. Craiova,0,1,0,3,0,0,0,0,15
+1531541,2026-05-08,ROU_Superliga,2025,Uta Arad,Csikszereda,UTA Arad,Csikszereda M. Ciuc,0,0,1,2,0,0,0,0,13
+1531540,2026-05-09,ROU_Superliga,2025,Oţelul,Farul Constanta,Otelul,Farul Constanta,1,3,0,4,0,0,0,0,22
+1531643,2026-05-09,ROU_Superliga,2025,Universitatea Cluj,Rapid,U. Cluj,FC Rapid Bucuresti,0,1,1,1,0,0,0,0,13
+1531537,2026-05-10,ROU_Superliga,2025,FC Botosani,Petrolul Ploiesti,FC Botosani,Petrolul,0,2,1,1,0,0,0,1,17
+1531642,2026-05-10,ROU_Superliga,2025,Dinamo Bucuresti,Arges Pitesti,Dinamo Bucuresti,FC Arges,1,1,1,4,0,0,0,0,19
+1531538,2026-05-11,ROU_Superliga,2025,FCSB,Unirea Slobozia,FCSB,Unirea Slobozia,0,2,1,3,0,0,0,0,15
+1531539,2026-05-11,ROU_Superliga,2025,Metaloglobus,AFC Hermannstadt,Metaloglobus Bucharest,FC Hermannstadt,0,1,1,0,0,0,0,0,16
+1531645,2026-05-15,ROU_Superliga,2025,Arges Pitesti,Rapid,FC Arges,FC Rapid Bucuresti,2,3,2,2,0,0,0,0,23
+1531644,2026-05-16,ROU_Superliga,2025,Dinamo Bucuresti,CFR 1907 Cluj,Dinamo Bucuresti,CFR Cluj,0,3,1,1,0,0,0,0,14
+1531542,2026-05-16,ROU_Superliga,2025,Csikszereda,FC Botosani,Csikszereda M. Ciuc,FC Botosani,1,3,2,0,0,0,0,0,18
+1531646,2026-05-17,ROU_Superliga,2025,Universitatea Craiova,Universitatea Cluj,Univ. Craiova,U. Cluj,1,1,5,2,0,0,1,0,25
+1531546,2026-05-18,ROU_Superliga,2025,Unirea Slobozia,Uta Arad,Unirea Slobozia,UTA Arad,2,1,2,2,0,0,0,0,18
+1531545,2026-05-18,ROU_Superliga,2025,Petrolul Ploiesti,Oţelul,Petrolul,Otelul,0,0,3,1,1,0,0,0,22
+1531543,2026-05-18,ROU_Superliga,2025,Farul Constanta,Metaloglobus,Farul Constanta,Metaloglobus Bucharest,0,1,0,4,0,0,0,0,15
+1531544,2026-05-18,ROU_Superliga,2025,AFC Hermannstadt,FCSB,FC Hermannstadt,FCSB,1,1,1,1,0,0,0,0,15
+1531647,2026-05-22,ROU_Superliga,2025,CFR 1907 Cluj,Arges Pitesti,CFR Cluj,FC Arges,0,1,1,4,0,0,0,1,19
+1545544,2026-05-23,ROU_Superliga,2025,Chindia Targoviste,Farul Constanta,Chindia Targoviste,Farul Constanta,2,2,0,3,0,0,0,0,22
+1531649,2026-05-23,ROU_Superliga,2025,Universitatea Cluj,Dinamo Bucuresti,U. Cluj,Dinamo Bucuresti,0,0,0,0,0,0,0,0,12
+1545545,2026-05-24,ROU_Superliga,2025,AFC Hermannstadt,FC Voluntari,FC Hermannstadt,FC Voluntari,1,2,2,2,0,0,0,0,21
+1545546,2026-05-24,ROU_Superliga,2025,FCSB,FC Botosani,FCSB,FC Botosani,1,3,3,1,0,0,0,0,27
+1531648,2026-05-25,ROU_Superliga,2025,Rapid,Universitatea Craiova,FC Rapid Bucuresti,Univ. Craiova,0,0,1,0,0,0,0,0,10
+1546371,2026-05-29,ROU_Superliga,2025,Dinamo Bucuresti,FCSB,Dinamo Bucuresti,FCSB,1,5,2,5,0,0,0,0,28
+1545547,2026-05-31,ROU_Superliga,2025,Farul Constanta,Chindia Targoviste,Farul Constanta,Chindia Targoviste,0,4,0,4,0,0,0,0,19
+1545548,2026-06-01,ROU_Superliga,2025,FC Voluntari,AFC Hermannstadt,FC Voluntari,FC Hermannstadt,1,2,0,2,0,0,0,0,17
