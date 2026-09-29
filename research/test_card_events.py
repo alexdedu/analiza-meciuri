@@ -140,13 +140,67 @@ def test_datele_salvate_se_pot_reciti() -> None:
                  f"cartonasele nu s-au salvat corect: {dict(rand)}")
 
 
+def test_meciul_fara_cronica_nu_trece_drept_meci_fara_cartonase() -> None:
+    """Zero evenimente inseamna "nu stim", nu "nu s-au dat cartonase"."""
+    with tempfile.TemporaryDirectory() as t:
+        tmp = Path(t)
+
+        def fals(base, headers, cale, **params):
+            if cale == "fixtures":
+                return [_fixture(2001)]
+            return []  # API-ul n-are cronica meciului
+
+        with mock.patch.object(colector, "OUT", tmp), \
+             mock.patch.object(colector, "_api", fals), \
+             mock.patch.object(colector, "load_key", lambda: "cheie"), \
+             mock.patch.object(colector, "request_config", lambda k: ("http://x", {})), \
+             mock.patch.object(colector, "LIGI", {"E0": 39}), \
+             mock.patch.object(colector, "SEZOANE", [2026]), \
+             mock.patch.object(colector.time, "sleep", lambda s: None):
+            colector.colecteaza(buget=10, hist=_istoric())
+            tot = colector.incarca()
+            utile = colector.incarca(doar_utile=True)
+
+        verifica(len(tot) == 1, f"randul trebuia salvat, ca sa nu-l recerem: {len(tot)}")
+        verifica(int(tot.iloc[0]["evenimente"]) == 0, "nu s-a notat lipsa cronicii")
+        verifica(len(utile) == 0,
+                 "un meci fara cronica a ajuns in datele folosite de model")
+
+
+def test_completeaza_numele_fara_cereri_noi() -> None:
+    with tempfile.TemporaryDirectory() as t:
+        tmp = Path(t)
+        # Un rand salvat inainte sa existe aliasul potrivit.
+        pd.DataFrame([{
+            "fixture_id": 3001, "date": "2026-09-20", "div": "E0", "season": 2026,
+            "home_api": "Hull City", "away_api": "Chelsea",
+            "home": None, "away": "Chelsea",
+            "hy1": 1, "hy2": 0, "ay1": 0, "ay2": 0,
+            "hr1": 0, "hr2": 0, "ar1": 0, "ar2": 0, "evenimente": 5,
+        }]).to_csv(tmp / "E0_2026.csv", index=False)
+
+        istoric = pd.DataFrame({
+            "div": ["E0"], "date": pd.to_datetime(["2026-09-01"]),
+            "home": ["Hull"], "away": ["Chelsea"],
+        })
+        with mock.patch.object(colector, "OUT", tmp):
+            completate = colector.completeaza_nume(hist=istoric)
+            df = colector.incarca()
+
+        verifica(completate == 1, f"completate {completate}")
+        verifica(df.iloc[0]["home"] == "Hull",
+                 f"numele local nu s-a completat: {df.iloc[0]['home']}")
+
+
 def main() -> int:
     for test in (test_repriza_dupa_minut,
                  test_rosu_si_al_doilea_galben,
                  test_ignora_ce_nu_e_cartonas,
                  test_aduna_si_nu_cere_de_doua_ori,
                  test_bugetul_e_respectat,
-                 test_datele_salvate_se_pot_reciti):
+                 test_datele_salvate_se_pot_reciti,
+                 test_meciul_fara_cronica_nu_trece_drept_meci_fara_cartonase,
+                 test_completeaza_numele_fara_cereri_noi):
         test()
     if esecuri:
         print(f"ESUAT: {len(esecuri)}")

@@ -63,17 +63,28 @@ ALIAS = {
     "Universitatea Cluj": "U. Cluj",
     "FCSB": "FCSB",
     "Petrolul Ploiesti": "Petrolul",
-    "Arges Pitesti": "Arges",
+    # Sursa romaneasca si-a redenumit cluburile intre sezoane, deci pastram
+    # ambele forme; se alege prima care exista in datele campionatului.
+    "Arges Pitesti": ("FC Arges", "Arges"),
     "Otelul Galati": "Otelul",
     "Sepsi OSK": "Sepsi",
     "CFR 1907 Cluj": "CFR Cluj",
-    "Rapid Bucuresti": "Rapid",
-    "Dinamo Bucuresti": "Dinamo",
+    "Rapid": ("FC Rapid Bucuresti", "Rapid"),
+    "Rapid Bucuresti": ("FC Rapid Bucuresti", "Rapid"),
+    "Dinamo Bucuresti": ("Dinamo Bucuresti", "Dinamo"),
     "Ajax": "Ajax",
     "PSV Eindhoven": "PSV Eindhoven",
     "Club Brugge KV": "Club Brugge",
     "Royal Antwerp": "Antwerp",
     "Standard Liege": "Standard",
+    "OH Leuven": ("Oud-Heverlee Leuven", "Leuven"),
+    "Lommel United": ("Lommel SK", "Lommel"),
+    "ADO Den Haag": "Den Haag",
+    "PEC Zwolle": "Zwolle",
+    "Hamburger SV": "Hamburg",
+    "Hull City": "Hull",
+    "Stoke City": "Stoke",
+    "Estac Troyes": "Troyes",
     "Fenerbahce": "Fenerbahce",
     "Galatasaray": "Galatasaray",
     "Besiktas": "Besiktas",
@@ -166,11 +177,21 @@ def build_matcher(nume_locale: list[str]):
             frecventa[t] = frecventa.get(t, 0) + 1
 
     def match(nume_api: str) -> str | None:
-        alias = ALIAS_PLAT.get(_fara_diacritice(nume_api))
-        if alias:
-            return alias if alias in set_local else None
+        # Numele identic are intaietate fata de orice alias. Altfel un alias
+        # invechit ("Dinamo Bucuresti" -> "Dinamo", cum se numea in datele
+        # vechi) blocheaza potrivirea evidenta cu numele de azi.
         if nume_api in set_local:
             return nume_api
+
+        alias = ALIAS_PLAT.get(_fara_diacritice(nume_api))
+        if alias:
+            # Un alias poate avea mai multe forme locale, pentru ca sursa isi
+            # redenumeste cluburile de la un sezon la altul.
+            candidati = (alias,) if isinstance(alias, str) else alias
+            for candidat in candidati:
+                if candidat in set_local:
+                    return candidat
+            return None
 
         tokens = normalize(nume_api)
 

@@ -42,15 +42,23 @@ SEZOANE = [2026, 2025, 2024]
 BUGET_IMPLICIT = 600
 
 COLOANE = ["fixture_id", "date", "div", "season", "home_api", "away_api",
-           "home", "away", "hy1", "hy2", "ay1", "ay2", "hr1", "hr2", "ar1", "ar2"]
+           "home", "away", "hy1", "hy2", "ay1", "ay2", "hr1", "hr2", "ar1", "ar2",
+           # Cate evenimente de orice fel avea meciul. Zero inseamna ca API-ul
+           # n-are cronica meciului, nu ca s-a jucat fara cartonase -- iar
+           # diferenta asta decide daca randul e folosibil sau nu.
+           "evenimente"]
 
 
 def _fisier(div: str, season: int) -> Path:
     return OUT / f"{div}_{season}.csv"
 
 
-def incarca(div: str | None = None) -> pd.DataFrame:
-    """Tot ce s-a adunat pana acum, gata de folosit intr-un model."""
+def incarca(div: str | None = None, doar_utile: bool = False) -> pd.DataFrame:
+    """Tot ce s-a adunat pana acum, gata de folosit intr-un model.
+
+    `doar_utile` scoate meciurile fara cronica in API: acolo zerourile n-ar
+    insemna "fara cartonase", ci "nu stim".
+    """
     if not OUT.exists():
         return pd.DataFrame(columns=COLOANE)
     fisiere = sorted(OUT.glob(f"{div}_*.csv" if div else "*.csv"))
@@ -59,7 +67,45 @@ def incarca(div: str | None = None) -> pd.DataFrame:
         return pd.DataFrame(columns=COLOANE)
     df = pd.concat(bucati, ignore_index=True)
     df["date"] = pd.to_datetime(df["date"])
-    return df.drop_duplicates(subset=["fixture_id"])
+    for col in COLOANE:
+        if col not in df.columns:
+            df[col] = pd.NA
+    df = df.drop_duplicates(subset=["fixture_id"])
+    if doar_utile:
+        df = df[pd.to_numeric(df["evenimente"], errors="coerce").fillna(0) > 0]
+    return df
+
+
+def completeaza_nume(hist: pd.DataFrame | None = None) -> int:
+    """Umple numele locale lipsa, fara nicio cerere noua.
+
+    Se foloseste dupa ce s-au adaugat aliasuri: datele adunate raman pe disc,
+    doar traducerea numelor se reface.
+    """
+    if hist is None:
+        from data_loader import load_all
+        hist = load_all()
+
+    completate = 0
+    for cale in sorted(OUT.glob("*.csv")):
+        df = pd.read_csv(cale)
+        lipsa = df["home"].isna() | df["away"].isna()
+        if not lipsa.any():
+            continue
+        match = _potrivire_locala(hist, str(df["div"].iloc[0]))
+        # O coloana numai cu valori lipsa se citeste ca numerica, si atunci un
+        # nume de echipa nu incape in ea.
+        for parte in ("home", "away"):
+            df[parte] = df[parte].astype("object")
+        for i in df.index[lipsa]:
+            for parte in ("home", "away"):
+                if pd.isna(df.at[i, parte]):
+                    gasit = match(df.at[i, f"{parte}_api"])
+                    if gasit:
+                        df.at[i, parte] = gasit
+                        completate += 1
+        df.to_csv(cale, index=False)
+    return completate
 
 
 def _api(base: str, headers: dict, cale: str, **params) -> list[dict]:
@@ -127,6 +173,12 @@ def colecteaza(buget: int = BUGET_IMPLICIT, hist: pd.DataFrame | None = None) ->
             if cereri >= buget:
                 break
 
+            # Un sezon incheiat si adunat complet nu mai are ce sa ne dea: fara
+            # marcajul asta, fiecare rulare ar cheltui degeaba o cerere pe el.
+            gata = OUT / f"{div}_{season}.complet"
+            if gata.exists():
+                continue
+
             dest = _fisier(div, season)
             existente = set()
             if dest.exists():
@@ -148,6 +200,9 @@ def colecteaza(buget: int = BUGET_IMPLICIT, hist: pd.DataFrame | None = None) ->
             # Cele mai noi intai: daca bugetul se termina, macar avem recentul.
             de_luat.sort(key=lambda f: f["fixture"]["date"], reverse=True)
             if not de_luat:
+                # Sezonul curent mai primeste meciuri; cele trecute, nu.
+                if season < SEZOANE[0]:
+                    gata.write_text("adunat complet\n", encoding="utf-8")
                 continue
             ramase[f"{div} {season}"] = len(de_luat)
 
@@ -178,6 +233,7 @@ def colecteaza(buget: int = BUGET_IMPLICIT, hist: pd.DataFrame | None = None) ->
                     "home": match(gazda_api) or "",
                     "away": match(oaspete_api) or "",
                 }
+                rand["evenimente"] = len(evenimente)
                 rand.update(cartonase_pe_reprize(evenimente, gazda_api))
                 randuri.append(rand)
                 adunate += 1
@@ -194,6 +250,11 @@ def colecteaza(buget: int = BUGET_IMPLICIT, hist: pd.DataFrame | None = None) ->
 
 def main() -> int:
     buget = int(os.environ.get("CARTONASE_BUGET", BUGET_IMPLICIT))
+    # Intai traducerile ramase in urma (gratis), apoi meciurile noi.
+    if OUT.exists():
+        completate = completeaza_nume()
+        if completate:
+            print(f"Nume locale completate fara nicio cerere: {completate}")
     raport = colecteaza(buget)
     total = incarca()
     print(f"Adunate acum: {raport['meciuri']} meciuri ({raport['cereri']} cereri). "
@@ -205,9 +266,16 @@ def main() -> int:
         print(f"Mai sunt de adunat cel putin {de_luat} meciuri "
               f"(~{de_luat // max(buget, 1) + 1} rulari).")
     if not total.empty:
-        fara_nume = int(((total["home"] == "") | (total["away"] == "")).sum())
+        # Numele lipsa se citesc ca NaN, nu ca sir gol: verificam ambele.
+        fara_nume = int((total["home"].isna() | total["away"].isna()
+                         | (total["home"].astype(str) == "")
+                         | (total["away"].astype(str) == "")).sum())
         if fara_nume:
             print(f"Atentie: {fara_nume} meciuri fara nume local potrivit.")
+        fara_cronica = int((pd.to_numeric(total["evenimente"], errors="coerce")
+                            .fillna(-1) == 0).sum())
+        if fara_cronica:
+            print(f"{fara_cronica} meciuri fara cronica in API (nu se folosesc).")
     return 0
 
 
