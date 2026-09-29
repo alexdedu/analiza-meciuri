@@ -127,8 +127,15 @@ def incarca() -> pd.DataFrame:
     df = pd.concat(bucati, ignore_index=True)
     df["date"] = pd.to_datetime(df["date"])
     df = df.dropna(subset=["home", "away", "hg", "ag"])
+    # Amicalele includ si nationale de tineret sau feminine. Filtram la citire,
+    # nu la descarcare, ca sa se curete si fisierele deja salvate.
+    from national_model import echipa_de_seniori
+    df = df[df["home"].map(echipa_de_seniori) & df["away"].map(echipa_de_seniori)]
     df["hg"] = df["hg"].astype(int)
     df["ag"] = df["ag"].astype(int)
+    # API-ul mai marcheaza gresit ca "jucat" si cate un meci din viitor. Un meci
+    # cu data de maine n-are ce cauta in istoric, oricum ar fi etichetat.
+    df = df[df["date"] <= pd.Timestamp.now().normalize()]
     # Acelasi meci poate aparea in doua sezoane la granita de an.
     return df.drop_duplicates(subset=["fixture_id"]).sort_values("date")
 

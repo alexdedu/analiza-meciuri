@@ -358,6 +358,15 @@ def main() -> None:
     except Exception as exc:
         print(f"  nationalele au fost sarite: {str(exc)[:100]}")
 
+    # Cornere si cartonase, doar unde exista datele: campionatele din feedul
+    # principal. Nu intra in recomandari (vezi predict_counts.py).
+    try:
+        from predict_counts import imbogateste
+        n_extra = imbogateste(out, hist)
+        print(f"Cornere si cartonase: {n_extra} meciuri imbogatite")
+    except Exception as exc:
+        print(f"  cornerele si cartonasele au fost sarite: {str(exc)[:90]}")
+
     from recomandari import construieste as construieste_recomandari
     recomandari = construieste_recomandari(out)
 

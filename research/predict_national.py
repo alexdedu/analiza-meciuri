@@ -4,8 +4,8 @@ In pauzele competitionale (de patru-cinci ori pe an, cate zece zile) nu se
 joaca nimic in campionate, dar se joaca Liga Natiunilor si preliminariile.
 Fara sectiunea asta, aplicatia ar fi goala exact in saptamanile alea.
 
-Modelul e masurat, nu presupus: pe 3.339 de meciuri neatinse la antrenare,
-log-loss 0,897 fata de 1,055 cat da ghicitul ratelor de baza, si 58,9%
+Modelul e masurat, nu presupus: pe 3.116 de meciuri neatinse la antrenare,
+log-loss 0,847 fata de 1,057 cat da ghicitul ratelor de baza, si 61,1%
 acuratete (backtest_national.py). Cotele istorice nu exista pentru meciurile
 astea, deci NU se poate spune daca bate piata -- doar ca bate ghicitul.
 """
@@ -20,6 +20,7 @@ import requests
 import national_model
 from api_config import load_key, request_config
 from fetch_national import COMPETITII_ACASA, COMPETITII_TURNEU, incarca
+from national_model import echipa_de_seniori
 
 # Ce afisam: tot ce e competitie oficiala intre nationale, plus amicalele.
 NUME_COMPETITII = {
@@ -32,6 +33,11 @@ NUME_COMPETITII.update({liga_id: nume for liga_id, (_, nume) in COMPETITII_TURNE
 # exotica, fie abia intrata in circuit.
 PRAG_INCREDERE_RIDICATA = 25
 PRAG_INCREDERE_MEDIE = 12
+
+# Sub atatea meciuri in ultimii patru ani nu spunem nimic despre o echipa.
+# Fara pragul asta, o nationala cu doua meciuri primeste forte scoase din
+# zgomot -- asa a aparut un meci cu 12,7 goluri asteptate.
+MINIM_MECIURI = 6
 
 
 def _api(base, headers, path, **params):
@@ -65,6 +71,9 @@ def fixturi_viitoare(base, headers, zile: int) -> list[dict]:
                 continue
             fx = item["fixture"]
             if fx["status"]["short"] not in ("NS", "TBD"):
+                continue
+            if not (echipa_de_seniori(item["teams"]["home"]["name"])
+                    and echipa_de_seniori(item["teams"]["away"]["name"])):
                 continue
             out.append({
                 "fixture_id": fx["id"],
@@ -153,6 +162,10 @@ def construieste_predictii(zile: int) -> list[dict]:
         n_home = national_model.meciuri_jucate(hist, f["home"], azi)
         n_away = national_model.meciuri_jucate(hist, f["away"], azi)
         n_min = min(n_home, n_away)
+        if n_min < MINIM_MECIURI:
+            print(f"    sar peste {f['home']} - {f['away']} "
+                  f"(doar {n_min} meciuri in patru ani)")
+            continue
         confidence = ("ridicata" if n_min >= PRAG_INCREDERE_RIDICATA
                       else "medie" if n_min >= PRAG_INCREDERE_MEDIE else "scazuta")
 

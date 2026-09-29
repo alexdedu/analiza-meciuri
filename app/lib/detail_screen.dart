@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
+import 'counts_card.dart';
 import 'models.dart';
 import 'repository.dart';
 import 'search_card.dart';
@@ -27,6 +28,24 @@ class DetailScreen extends StatelessWidget {
           _OutcomeCard(match: match),
           const SizedBox(height: 12),
           _GoalsCard(match: match),
+          if (match.extraMarkets?.corners != null) ...[
+            const SizedBox(height: 12),
+            CountsCard(
+              market: match.extraMarkets!.corners!,
+              kind: CountsKind.corners,
+              home: match.home,
+              away: match.away,
+            ),
+          ],
+          if (match.extraMarkets?.cards != null) ...[
+            const SizedBox(height: 12),
+            CountsCard(
+              market: match.extraMarkets!.cards!,
+              kind: CountsKind.cards,
+              home: match.home,
+              away: match.away,
+            ),
+          ],
           const SizedBox(height: 12),
           ValueCalculator(match: match, store: store),
           const SizedBox(height: 12),

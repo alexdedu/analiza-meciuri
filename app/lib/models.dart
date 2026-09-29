@@ -81,6 +81,96 @@ enum Confidence {
       };
 }
 
+/// O linie de pariu pe contori: "peste 9.5 cornere" si probabilitatea ei.
+class CountLine {
+  const CountLine({required this.line, required this.over, this.under});
+
+  final double line;
+  final double over;
+
+  /// Lipseste la liniile pe echipa, unde afisam doar "peste".
+  final double? under;
+
+  factory CountLine.fromJson(Map<String, dynamic> json) => CountLine(
+        line: (json['line'] as num).toDouble(),
+        over: (json['over'] as num).toDouble(),
+        under: (json['under'] as num?)?.toDouble(),
+      );
+}
+
+/// Cornere sau cartonase pentru un meci: asteptari si linii.
+class CountsMarket {
+  const CountsMarket({
+    required this.expectedHome,
+    required this.expectedAway,
+    required this.expectedTotal,
+    required this.total,
+    required this.home,
+    required this.away,
+    required this.winner,
+    required this.sample,
+  });
+
+  final double expectedHome;
+  final double expectedAway;
+  final double expectedTotal;
+  final List<CountLine> total;
+  final List<CountLine> home;
+  final List<CountLine> away;
+
+  /// Cine produce mai multe (doar la cornere): p_home, p_draw, p_away.
+  final Map<String, double>? winner;
+
+  /// Cate meciuri au stat la baza fitului.
+  final int sample;
+
+  static List<CountLine> _linii(dynamic brut) =>
+      ((brut as List<dynamic>?) ?? [])
+          .map((e) => CountLine.fromJson(e as Map<String, dynamic>))
+          .toList();
+
+  factory CountsMarket.fromJson(Map<String, dynamic> json) {
+    final asteptat = json['expected'] as Map<String, dynamic>;
+    final castigator = json['winner'] as Map<String, dynamic>?;
+    return CountsMarket(
+      expectedHome: (asteptat['home'] as num).toDouble(),
+      expectedAway: (asteptat['away'] as num).toDouble(),
+      expectedTotal: (asteptat['total'] as num).toDouble(),
+      total: _linii(json['total']),
+      home: _linii(json['home']),
+      away: _linii(json['away']),
+      winner: castigator?.map((k, v) => MapEntry(k, (v as num).toDouble())),
+      sample: (json['sample'] as num?)?.toInt() ?? 0,
+    );
+  }
+}
+
+/// Pietele in plus fata de rezultat si goluri.
+///
+/// Lipsesc la meciurile pentru care sursa nu are datele: Romania, celelalte 18
+/// tari din feedul suplimentar, cupele europene si nationalele.
+class ExtraMarkets {
+  const ExtraMarkets({required this.corners, required this.cards});
+
+  final CountsMarket? corners;
+  final CountsMarket? cards;
+
+  bool get isEmpty => corners == null && cards == null;
+
+  static ExtraMarkets? fromJson(Map<String, dynamic>? json) {
+    if (json == null) return null;
+    final e = ExtraMarkets(
+      corners: json['corners'] == null
+          ? null
+          : CountsMarket.fromJson(json['corners'] as Map<String, dynamic>),
+      cards: json['cards'] == null
+          ? null
+          : CountsMarket.fromJson(json['cards'] as Map<String, dynamic>),
+    );
+    return e.isEmpty ? null : e;
+  }
+}
+
 class MatchPrediction {
   const MatchPrediction({
     required this.id,
@@ -102,6 +192,7 @@ class MatchPrediction {
     required this.awayContext,
     required this.headToHead,
     required this.explanation,
+    this.extraMarkets,
   });
 
   final String id;
@@ -125,6 +216,9 @@ class MatchPrediction {
   final TeamContext awayContext;
   final List<HeadToHead> headToHead;
   final String explanation;
+
+  /// Cornere si cartonase, unde sursa le are.
+  final ExtraMarkets? extraMarkets;
 
   double p(String key) => probabilities[key] ?? 0;
 
@@ -159,6 +253,8 @@ class MatchPrediction {
           .map((e) => HeadToHead.fromJson(e as Map<String, dynamic>))
           .toList(),
       explanation: json['explanation'] as String,
+      extraMarkets:
+          ExtraMarkets.fromJson(json['extra_markets'] as Map<String, dynamic>?),
     );
   }
 }

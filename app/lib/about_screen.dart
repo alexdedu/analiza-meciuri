@@ -80,23 +80,56 @@ class AboutScreen extends StatelessWidget {
                 Text(
                   'O națională nu joacă în niciun campionat, deci forțele ei nu se pot '
                   'deduce din datele de club. Meciurile dintre naționale au model '
-                  'propriu, antrenat pe 8.146 de partide din 2015 încoace: preliminarii, '
-                  'Liga Națiunilor și amicale.\n\n'
+                  'propriu, antrenat pe 7.436 de partide între seniori din 2015 '
+                  'încoace: preliminarii, Liga Națiunilor și amicale.\n\n'
                   'Turneele finale (Mondial, Euro, Cupa Africii) nu intră la antrenament: '
                   'se joacă la o singură țară gazdă, deci "acasă" ar fi o ficțiune care ar '
                   'strica avantajul terenului pentru toată lumea.',
                   style: TextStyle(fontSize: 13, height: 1.5),
                 ),
                 SizedBox(height: 12),
-                _Stat('Meciuri testate', '3.339'),
-                _Stat('Log-loss model', '0.89666'),
-                _Stat('Log-loss ghicit', '1.05524'),
-                _Stat('Acuratete 1X2', '58.9%'),
+                _Stat('Meciuri testate', '3.116'),
+                _Stat('Log-loss model', '0.84703'),
+                _Stat('Log-loss ghicit', '1.05663'),
+                _Stat('Acuratete 1X2', '61.1%'),
                 SizedBox(height: 10),
                 Text(
                   'Pentru naționale nu există cote istorice nicăieri, deci nu s-a putut '
                   'verifica dacă modelul bate piața — doar că bate clar ghicitul ratelor '
                   'de bază. Ia procentele de aici cu o rezervă în plus față de campionate.',
+                  style: TextStyle(
+                      fontSize: 12, height: 1.45, color: AppColors.textSecondary),
+                ),
+              ],
+            ),
+          ),
+          const SizedBox(height: 12),
+          const SectionCard(
+            title: 'Cornere și cartonașe',
+            subtitle: 'Măsurate separat, pentru că modelul le știe inegal.',
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  'Testate pe 16.676 de meciuri neatinse la antrenare. Cifra arată '
+                  'cât câștigă modelul față de media campionatului — zero înseamnă '
+                  'că nu știe nimic în plus:',
+                  style: TextStyle(fontSize: 13, height: 1.5),
+                ),
+                SizedBox(height: 12),
+                _Stat('Cine dă mai multe cornere', '+0.037'),
+                _Stat('Cornere pe echipă', '+0.024'),
+                _Stat('Cartonașe pe meci', '+0.013'),
+                _Stat('Cartonașe pe echipă', '+0.010'),
+                _Stat('Cornere pe meci (total)', '0.000'),
+                SizedBox(height: 10),
+                Text(
+                  'De aceea totalul de cornere apare cu avertisment: acolo media '
+                  'campionatului e la fel de bună ca modelul. Nicio piață dintre '
+                  'astea nu intră în selecțiile automate, pentru că nu există cote '
+                  'istorice cu care să verificăm regula de selecție.\n\n'
+                  'Pe repriza întâi nu se poate: nicio sursă disponibilă nu dă '
+                  'cornerele pe reprize.',
                   style: TextStyle(
                       fontSize: 12, height: 1.45, color: AppColors.textSecondary),
                 ),

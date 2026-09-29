@@ -20,10 +20,20 @@ import pandas as pd
 from dixon_coles import fit_dixon_coles, markets_from_rates
 
 # Ales in backtest_national.py: vezi comentariul de acolo pentru cifre.
-XI_NATIONAL = 0.0008
+XI_NATIONAL = 0.0006
 
 # Sub atatea meciuri in fereastra, fortele unei echipe sunt zgomot curat.
 MINIM_MECIURI = 6
+
+# Feedul de amicale amesteca seniorii cu tineretul si cu echipele feminine.
+# Modelul e antrenat pe seniori masculin; restul nu doar ca n-au istoric, dar
+# il si strica: "Venezuela U17" cu opt meciuri a produs 12,7 goluri asteptate.
+SUFIXE_NESENIORI = (" U15", " U16", " U17", " U18", " U19", " U20", " U21",
+                    " U22", " U23", " W", " Women")
+
+
+def echipa_de_seniori(nume: str) -> bool:
+    return not str(nume).endswith(SUFIXE_NESENIORI)
 
 
 def fit(hist: pd.DataFrame, azi: pd.Timestamp, xi: float = XI_NATIONAL):

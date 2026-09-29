@@ -31,8 +31,13 @@ ODDS = {
     "max_u25": ["MaxC<2.5", "Max<2.5", "BbMx<2.5"],
 }
 
+# Cornere si cartonase: exista doar in feedul principal (cele 12 campionate),
+# nu si in cel suplimentar. Pastram coloanele oricum, goale unde lipsesc, ca
+# modelele sa poata decide singure ce meciuri au date suficiente.
+CONTORI = {"hc": "HC", "ac": "AC", "hy": "HY", "ay": "AY", "hr": "HR", "ar": "AR"}
+
 COLUMNS = ["div", "league_name", "season", "date", "home", "away", "hg", "ag",
-           "hst", "ast", *ODDS]
+           "hst", "ast", *CONTORI, *ODDS]
 
 
 def league_slug(name: str) -> str:
@@ -76,6 +81,9 @@ def _load_core() -> list[pd.DataFrame]:
         # suturi pe poarta: proxy gratuit de xG, prezent doar in acest format
         out["hst"] = pd.to_numeric(df["HST"], errors="coerce") if "HST" in df else None
         out["ast"] = pd.to_numeric(df["AST"], errors="coerce") if "AST" in df else None
+        for tinta, sursa in CONTORI.items():
+            out[tinta] = (pd.to_numeric(df[sursa], errors="coerce")
+                          if sursa in df.columns else pd.NA)
         for target, candidates in ODDS.items():
             col = next((c for c in candidates if c in df.columns), None)
             out[target] = pd.to_numeric(df[col], errors="coerce") if col else pd.NA
@@ -111,6 +119,9 @@ def _load_extra() -> list[pd.DataFrame]:
         # Formatul acesta nu are suturi si nici cote Over/Under.
         out["hst"] = None
         out["ast"] = None
+        # Feedul suplimentar nu are nici suturi, nici cornere, nici cartonase.
+        for tinta in CONTORI:
+            out[tinta] = pd.NA
         for target, candidates in ODDS.items():
             col = next((c for c in candidates if c in df.columns), None)
             out[target] = pd.to_numeric(df[col], errors="coerce") if col else pd.NA
