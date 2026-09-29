@@ -25,6 +25,8 @@ ALIAS = {
     "Nottingham Forest": "Nott'm Forest",
     "Wolverhampton Wanderers": "Wolves",
     "Sheffield Utd": "Sheffield United",
+    "Sheffield Wednesday": "Sheffield Weds",
+    "Oxford United": "Oxford",
     "West Bromwich Albion": "West Brom",
     "Queens Park Rangers": "QPR",
     "Athletic Club": "Ath Bilbao",

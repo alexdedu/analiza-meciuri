@@ -108,6 +108,9 @@ def completeaza_nume(hist: pd.DataFrame | None = None) -> int:
     return completate
 
 
+CARTONASE = ("hy1", "hy2", "ay1", "ay2", "hr1", "hr2", "ar1", "ar2")
+
+
 def _api(base: str, headers: dict, cale: str, **params) -> list[dict]:
     r = requests.get(f"{base}/{cale}", headers=headers, params=params, timeout=40)
     r.raise_for_status()
@@ -150,6 +153,63 @@ def _potrivire_locala(hist: pd.DataFrame, div: str):
     if liga.empty:
         return lambda nume: None
     return build_matcher(sorted(set(liga["home"]) | set(liga["away"])))
+
+
+def repara_evenimente(buget: int = 200, fetch=None) -> dict:
+    """Completeaza numarul de evenimente la randurile adunate inainte de coloana.
+
+    Un rand cu cel putin un cartonas are cronica, evident -- acolo punem cate
+    cartonase am gasit, ca margine de jos. Randurile cu zero cartonase sunt
+    singurele ambigue: ori meciul chiar n-a avut cartonase, ori API-ul n-avea
+    cronica lui. Pe acelea le cerem din nou, altfel n-avem cum sti.
+    """
+    if not OUT.exists():
+        return {"deduse": 0, "recerute": 0}
+
+    if fetch is None:
+        key = load_key()
+        if not key:
+            print("Cheia API lipseste; nu pot verifica meciurile fara cartonase.")
+            return {"deduse": 0, "recerute": 0}
+        base, headers = request_config(key)
+
+        def fetch(fixture_id: int) -> list[dict]:
+            return _api(base, headers, "fixtures/events", fixture=fixture_id)
+
+    deduse = recerute = 0
+    for cale in sorted(OUT.glob("*.csv")):
+        df = pd.read_csv(cale)
+        if "evenimente" not in df.columns:
+            df["evenimente"] = pd.NA
+        lipsa = pd.to_numeric(df["evenimente"], errors="coerce").isna()
+        if not lipsa.any():
+            continue
+
+        total_cartonase = df[list(CARTONASE)].fillna(0).sum(axis=1)
+        df["evenimente"] = df["evenimente"].astype("object")
+
+        for i in df.index[lipsa]:
+            if total_cartonase[i] > 0:
+                df.at[i, "evenimente"] = int(total_cartonase[i])
+                deduse += 1
+            elif recerute < buget:
+                try:
+                    evenimente = fetch(int(df.at[i, "fixture_id"]))
+                except Exception as exc:
+                    print(f"  meciul {df.at[i, 'fixture_id']}: {str(exc)[:60]}")
+                    continue
+                recerute += 1
+                df.at[i, "evenimente"] = len(evenimente)
+                # Daca meciul are totusi cronica, luam si cartonasele de acolo:
+                # zerourile de dinainte puteau fi ale unei cereri esuate.
+                if evenimente:
+                    for cheie, valoare in cartonase_pe_reprize(
+                            evenimente, str(df.at[i, "home_api"])).items():
+                        df.at[i, cheie] = valoare
+                time.sleep(0.12)
+
+        df.to_csv(cale, index=False)
+    return {"deduse": deduse, "recerute": recerute}
 
 
 def colecteaza(buget: int = BUGET_IMPLICIT, hist: pd.DataFrame | None = None) -> dict:
@@ -255,7 +315,12 @@ def main() -> int:
         completate = completeaza_nume()
         if completate:
             print(f"Nume locale completate fara nicio cerere: {completate}")
-    raport = colecteaza(buget)
+        reparate = repara_evenimente()
+        if reparate["deduse"] or reparate["recerute"]:
+            print(f"Cronici completate: {reparate['deduse']} deduse, "
+                  f"{reparate['recerute']} recerute.")
+            buget -= reparate["recerute"]
+    raport = colecteaza(max(buget, 0))
     total = incarca()
     print(f"Adunate acum: {raport['meciuri']} meciuri ({raport['cereri']} cereri). "
           f"Total in istoric: {len(total)} meciuri.")

@@ -1,64 +1,64 @@
-fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,ar1,ar2
-1558581,2026-08-07,B1,2026,Club Brugge KV,Kortrijk,Club Brugge,Kortrijk,0,1,1,0,0,0,0,0
-1558585,2026-08-08,B1,2026,KVC Westerlo,Union St. Gilloise,Westerlo,St. Gilloise,1,0,2,0,0,0,0,0
-1558583,2026-08-08,B1,2026,Standard Liege,Cercle Brugge,Standard,Cercle Brugge,1,0,1,0,0,0,0,0
-1558584,2026-08-08,B1,2026,St. Truiden,Lommel United,St Truiden,,0,1,0,0,0,0,0,0
-1558586,2026-08-09,B1,2026,Gent,KV Mechelen,Gent,Mechelen,0,0,0,1,0,0,0,0
-1558582,2026-08-09,B1,2026,Charleroi,OH Leuven,Charleroi,,1,0,2,0,0,0,1,0
-1558587,2026-08-09,B1,2026,Zulte Waregem,Genk,Waregem,Genk,0,1,1,3,0,0,0,0
-1558588,2026-08-09,B1,2026,Anderlecht,RAAL La Louvière,Anderlecht,RAAL La Louviere,0,2,1,2,0,0,0,1
-1558589,2026-08-09,B1,2026,Antwerp,SK Beveren,Antwerp,Beveren,0,2,2,2,0,0,0,0
-1558590,2026-08-14,B1,2026,Cercle Brugge,St. Truiden,Cercle Brugge,St Truiden,0,0,1,2,0,0,0,0
-1558591,2026-08-15,B1,2026,Union St. Gilloise,Zulte Waregem,St. Gilloise,Waregem,1,1,0,0,0,0,0,0
-1558592,2026-08-15,B1,2026,Kortrijk,Antwerp,Kortrijk,Antwerp,1,0,0,0,0,0,0,0
-1558593,2026-08-15,B1,2026,Genk,KVC Westerlo,Genk,Westerlo,2,1,0,3,0,0,0,0
-1558594,2026-08-15,B1,2026,OH Leuven,Club Brugge KV,,Club Brugge,0,0,0,0,0,0,0,0
-1558598,2026-08-16,B1,2026,Lommel United,Charleroi,,Charleroi,0,1,0,0,0,0,0,0
-1558595,2026-08-16,B1,2026,SK Beveren,Anderlecht,Beveren,Anderlecht,0,0,0,1,0,0,0,0
-1558596,2026-08-16,B1,2026,RAAL La Louvière,Gent,RAAL La Louviere,Gent,0,1,0,0,0,0,0,0
-1558597,2026-08-16,B1,2026,KV Mechelen,Standard Liege,Mechelen,Standard,0,0,1,2,0,0,0,0
-1558599,2026-08-21,B1,2026,Standard Liege,RAAL La Louvière,Standard,RAAL La Louviere,0,1,1,2,0,0,0,1
-1558600,2026-08-22,B1,2026,Zulte Waregem,SK Beveren,Waregem,Beveren,0,0,2,1,0,0,0,0
-1558601,2026-08-22,B1,2026,Charleroi,KV Mechelen,Charleroi,Mechelen,0,0,0,0,0,0,0,0
-1558602,2026-08-22,B1,2026,Antwerp,Genk,Antwerp,Genk,0,0,0,2,0,0,0,0
-1558605,2026-08-23,B1,2026,Lommel United,KVC Westerlo,,Westerlo,0,0,0,1,0,0,0,0
-1558606,2026-08-23,B1,2026,Club Brugge KV,Cercle Brugge,Club Brugge,Cercle Brugge,0,0,0,1,0,0,0,0
-1558608,2026-08-28,B1,2026,Genk,SK Beveren,Genk,Beveren,0,0,1,0,0,0,0,0
-1558609,2026-08-29,B1,2026,RAAL La Louvière,KV Mechelen,RAAL La Louviere,Mechelen,2,0,1,1,0,0,0,0
-1558610,2026-08-29,B1,2026,Kortrijk,Charleroi,Kortrijk,Charleroi,0,1,1,0,0,0,0,0
-1558611,2026-08-29,B1,2026,Cercle Brugge,Lommel United,Cercle Brugge,,1,1,3,0,0,0,0,0
-1558612,2026-08-29,B1,2026,OH Leuven,Standard Liege,,Standard,0,2,0,2,0,0,0,0
-1558614,2026-08-30,B1,2026,Antwerp,St. Truiden,Antwerp,St Truiden,1,0,1,2,0,0,0,0
-1558613,2026-08-30,B1,2026,Gent,Club Brugge KV,Gent,Club Brugge,1,3,0,3,0,1,0,1
-1558615,2026-08-30,B1,2026,Union St. Gilloise,Anderlecht,St. Gilloise,Anderlecht,1,1,1,1,0,0,0,0
-1558616,2026-08-30,B1,2026,KVC Westerlo,Zulte Waregem,Westerlo,Waregem,0,1,0,0,0,0,0,0
-1558607,2026-09-02,B1,2026,St. Truiden,Union St. Gilloise,St Truiden,St. Gilloise,0,3,1,1,0,0,0,0
-1558603,2026-09-03,B1,2026,Gent,OH Leuven,Gent,,0,1,0,2,0,0,0,0
-1558604,2026-09-03,B1,2026,Anderlecht,Kortrijk,Anderlecht,Kortrijk,0,2,0,2,0,0,0,0
-1558617,2026-09-04,B1,2026,Lommel United,Club Brugge KV,,Club Brugge,0,1,1,1,0,0,0,0
-1558618,2026-09-05,B1,2026,Charleroi,Union St. Gilloise,Charleroi,St. Gilloise,1,0,2,0,0,0,0,0
-1558619,2026-09-05,B1,2026,KV Mechelen,KVC Westerlo,Mechelen,Westerlo,0,3,2,0,0,0,0,0
-1558621,2026-09-05,B1,2026,St. Truiden,RAAL La Louvière,St Truiden,RAAL La Louviere,1,0,1,1,0,0,0,0
-1558620,2026-09-05,B1,2026,Standard Liege,Antwerp,Standard,Antwerp,1,0,1,1,0,0,0,0
-1558622,2026-09-06,B1,2026,Cercle Brugge,Gent,Cercle Brugge,Gent,0,1,0,0,0,0,0,0
-1558623,2026-09-06,B1,2026,Kortrijk,Zulte Waregem,Kortrijk,Waregem,0,2,2,3,0,2,0,0
-1558624,2026-09-06,B1,2026,Anderlecht,Genk,Anderlecht,Genk,1,1,0,1,0,0,0,0
-1558625,2026-09-06,B1,2026,SK Beveren,OH Leuven,Beveren,,1,1,0,2,0,0,0,0
-1558626,2026-09-11,B1,2026,KV Mechelen,Anderlecht,Mechelen,Anderlecht,0,1,2,2,0,0,0,0
-1558629,2026-09-12,B1,2026,OH Leuven,Cercle Brugge,,Cercle Brugge,0,3,0,3,0,0,0,0
-1558630,2026-09-12,B1,2026,Union St. Gilloise,Lommel United,St. Gilloise,,1,1,0,0,0,0,0,0
-1558627,2026-09-12,B1,2026,SK Beveren,St. Truiden,Beveren,St Truiden,0,2,0,0,0,0,0,0
-1558628,2026-09-12,B1,2026,KVC Westerlo,Standard Liege,Westerlo,Standard,0,0,0,0,0,0,0,0
-1558631,2026-09-13,B1,2026,Club Brugge KV,Antwerp,Club Brugge,Antwerp,0,3,1,2,0,0,0,0
-1558632,2026-09-13,B1,2026,Genk,Gent,Genk,Gent,0,2,3,2,0,0,0,0
-1558633,2026-09-13,B1,2026,Zulte Waregem,Charleroi,Waregem,Charleroi,0,1,0,3,0,0,0,0
-1558634,2026-09-13,B1,2026,RAAL La Louvière,Kortrijk,RAAL La Louviere,Kortrijk,1,1,0,2,0,0,0,0
-1558635,2026-09-18,B1,2026,Gent,Standard Liege,Gent,Standard,0,1,0,0,0,0,0,0
-1558636,2026-09-19,B1,2026,OH Leuven,RAAL La Louvière,,RAAL La Louviere,0,3,1,1,0,0,0,1
-1558637,2026-09-19,B1,2026,Charleroi,Cercle Brugge,Charleroi,Cercle Brugge,0,2,0,1,0,0,0,0
-1558638,2026-09-19,B1,2026,Anderlecht,Zulte Waregem,Anderlecht,Waregem,1,1,1,0,0,0,0,0
-1558639,2026-09-19,B1,2026,Lommel United,KV Mechelen,,Mechelen,1,1,1,3,0,0,0,0
-1558640,2026-09-20,B1,2026,Antwerp,Union St. Gilloise,Antwerp,St. Gilloise,2,3,1,1,0,1,0,0
-1558641,2026-09-20,B1,2026,St. Truiden,KVC Westerlo,St Truiden,Westerlo,0,1,0,1,0,0,0,0
-1558642,2026-09-20,B1,2026,Club Brugge KV,Genk,Club Brugge,Genk,1,0,0,2,0,0,0,0
-1558643,2026-09-20,B1,2026,Kortrijk,SK Beveren,Kortrijk,Beveren,0,4,0,1,0,0,1,0
+fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,ar1,ar2,evenimente
+1558581,2026-08-07,B1,2026,Club Brugge KV,Kortrijk,Club Brugge,Kortrijk,0,1,1,0,0,0,0,0,2
+1558585,2026-08-08,B1,2026,KVC Westerlo,Union St. Gilloise,Westerlo,St. Gilloise,1,0,2,0,0,0,0,0,3
+1558583,2026-08-08,B1,2026,Standard Liege,Cercle Brugge,Standard,Cercle Brugge,1,0,1,0,0,0,0,0,2
+1558584,2026-08-08,B1,2026,St. Truiden,Lommel United,St Truiden,Lommel SK,0,1,0,0,0,0,0,0,1
+1558586,2026-08-09,B1,2026,Gent,KV Mechelen,Gent,Mechelen,0,0,0,1,0,0,0,0,1
+1558582,2026-08-09,B1,2026,Charleroi,OH Leuven,Charleroi,Oud-Heverlee Leuven,1,0,2,0,0,0,1,0,4
+1558587,2026-08-09,B1,2026,Zulte Waregem,Genk,Waregem,Genk,0,1,1,3,0,0,0,0,5
+1558588,2026-08-09,B1,2026,Anderlecht,RAAL La Louvière,Anderlecht,RAAL La Louviere,0,2,1,2,0,0,0,1,6
+1558589,2026-08-09,B1,2026,Antwerp,SK Beveren,Antwerp,Beveren,0,2,2,2,0,0,0,0,6
+1558590,2026-08-14,B1,2026,Cercle Brugge,St. Truiden,Cercle Brugge,St Truiden,0,0,1,2,0,0,0,0,3
+1558591,2026-08-15,B1,2026,Union St. Gilloise,Zulte Waregem,St. Gilloise,Waregem,1,1,0,0,0,0,0,0,2
+1558592,2026-08-15,B1,2026,Kortrijk,Antwerp,Kortrijk,Antwerp,1,0,0,0,0,0,0,0,1
+1558593,2026-08-15,B1,2026,Genk,KVC Westerlo,Genk,Westerlo,2,1,0,3,0,0,0,0,6
+1558594,2026-08-15,B1,2026,OH Leuven,Club Brugge KV,Oud-Heverlee Leuven,Club Brugge,0,0,0,0,0,0,0,0,13
+1558598,2026-08-16,B1,2026,Lommel United,Charleroi,Lommel SK,Charleroi,0,1,0,0,0,0,0,0,1
+1558595,2026-08-16,B1,2026,SK Beveren,Anderlecht,Beveren,Anderlecht,0,0,0,1,0,0,0,0,1
+1558596,2026-08-16,B1,2026,RAAL La Louvière,Gent,RAAL La Louviere,Gent,0,1,0,0,0,0,0,0,1
+1558597,2026-08-16,B1,2026,KV Mechelen,Standard Liege,Mechelen,Standard,0,0,1,2,0,0,0,0,3
+1558599,2026-08-21,B1,2026,Standard Liege,RAAL La Louvière,Standard,RAAL La Louviere,0,1,1,2,0,0,0,1,5
+1558600,2026-08-22,B1,2026,Zulte Waregem,SK Beveren,Waregem,Beveren,0,0,2,1,0,0,0,0,3
+1558601,2026-08-22,B1,2026,Charleroi,KV Mechelen,Charleroi,Mechelen,0,0,0,0,0,0,0,0,11
+1558602,2026-08-22,B1,2026,Antwerp,Genk,Antwerp,Genk,0,0,0,2,0,0,0,0,2
+1558605,2026-08-23,B1,2026,Lommel United,KVC Westerlo,Lommel SK,Westerlo,0,0,0,1,0,0,0,0,1
+1558606,2026-08-23,B1,2026,Club Brugge KV,Cercle Brugge,Club Brugge,Cercle Brugge,0,0,0,1,0,0,0,0,1
+1558608,2026-08-28,B1,2026,Genk,SK Beveren,Genk,Beveren,0,0,1,0,0,0,0,0,1
+1558609,2026-08-29,B1,2026,RAAL La Louvière,KV Mechelen,RAAL La Louviere,Mechelen,2,0,1,1,0,0,0,0,4
+1558610,2026-08-29,B1,2026,Kortrijk,Charleroi,Kortrijk,Charleroi,0,1,1,0,0,0,0,0,2
+1558611,2026-08-29,B1,2026,Cercle Brugge,Lommel United,Cercle Brugge,Lommel SK,1,1,3,0,0,0,0,0,5
+1558612,2026-08-29,B1,2026,OH Leuven,Standard Liege,Oud-Heverlee Leuven,Standard,0,2,0,2,0,0,0,0,4
+1558614,2026-08-30,B1,2026,Antwerp,St. Truiden,Antwerp,St Truiden,1,0,1,2,0,0,0,0,4
+1558613,2026-08-30,B1,2026,Gent,Club Brugge KV,Gent,Club Brugge,1,3,0,3,0,1,0,1,9
+1558615,2026-08-30,B1,2026,Union St. Gilloise,Anderlecht,St. Gilloise,Anderlecht,1,1,1,1,0,0,0,0,4
+1558616,2026-08-30,B1,2026,KVC Westerlo,Zulte Waregem,Westerlo,Waregem,0,1,0,0,0,0,0,0,1
+1558607,2026-09-02,B1,2026,St. Truiden,Union St. Gilloise,St Truiden,St. Gilloise,0,3,1,1,0,0,0,0,5
+1558603,2026-09-03,B1,2026,Gent,OH Leuven,Gent,Oud-Heverlee Leuven,0,1,0,2,0,0,0,0,3
+1558604,2026-09-03,B1,2026,Anderlecht,Kortrijk,Anderlecht,Kortrijk,0,2,0,2,0,0,0,0,4
+1558617,2026-09-04,B1,2026,Lommel United,Club Brugge KV,Lommel SK,Club Brugge,0,1,1,1,0,0,0,0,3
+1558618,2026-09-05,B1,2026,Charleroi,Union St. Gilloise,Charleroi,St. Gilloise,1,0,2,0,0,0,0,0,3
+1558619,2026-09-05,B1,2026,KV Mechelen,KVC Westerlo,Mechelen,Westerlo,0,3,2,0,0,0,0,0,5
+1558621,2026-09-05,B1,2026,St. Truiden,RAAL La Louvière,St Truiden,RAAL La Louviere,1,0,1,1,0,0,0,0,3
+1558620,2026-09-05,B1,2026,Standard Liege,Antwerp,Standard,Antwerp,1,0,1,1,0,0,0,0,3
+1558622,2026-09-06,B1,2026,Cercle Brugge,Gent,Cercle Brugge,Gent,0,1,0,0,0,0,0,0,1
+1558623,2026-09-06,B1,2026,Kortrijk,Zulte Waregem,Kortrijk,Waregem,0,2,2,3,0,2,0,0,9
+1558624,2026-09-06,B1,2026,Anderlecht,Genk,Anderlecht,Genk,1,1,0,1,0,0,0,0,3
+1558625,2026-09-06,B1,2026,SK Beveren,OH Leuven,Beveren,Oud-Heverlee Leuven,1,1,0,2,0,0,0,0,4
+1558626,2026-09-11,B1,2026,KV Mechelen,Anderlecht,Mechelen,Anderlecht,0,1,2,2,0,0,0,0,5
+1558629,2026-09-12,B1,2026,OH Leuven,Cercle Brugge,Oud-Heverlee Leuven,Cercle Brugge,0,3,0,3,0,0,0,0,6
+1558630,2026-09-12,B1,2026,Union St. Gilloise,Lommel United,St. Gilloise,Lommel SK,1,1,0,0,0,0,0,0,2
+1558627,2026-09-12,B1,2026,SK Beveren,St. Truiden,Beveren,St Truiden,0,2,0,0,0,0,0,0,2
+1558628,2026-09-12,B1,2026,KVC Westerlo,Standard Liege,Westerlo,Standard,0,0,0,0,0,0,0,0,15
+1558631,2026-09-13,B1,2026,Club Brugge KV,Antwerp,Club Brugge,Antwerp,0,3,1,2,0,0,0,0,6
+1558632,2026-09-13,B1,2026,Genk,Gent,Genk,Gent,0,2,3,2,0,0,0,0,7
+1558633,2026-09-13,B1,2026,Zulte Waregem,Charleroi,Waregem,Charleroi,0,1,0,3,0,0,0,0,4
+1558634,2026-09-13,B1,2026,RAAL La Louvière,Kortrijk,RAAL La Louviere,Kortrijk,1,1,0,2,0,0,0,0,4
+1558635,2026-09-18,B1,2026,Gent,Standard Liege,Gent,Standard,0,1,0,0,0,0,0,0,1
+1558636,2026-09-19,B1,2026,OH Leuven,RAAL La Louvière,Oud-Heverlee Leuven,RAAL La Louviere,0,3,1,1,0,0,0,1,6
+1558637,2026-09-19,B1,2026,Charleroi,Cercle Brugge,Charleroi,Cercle Brugge,0,2,0,1,0,0,0,0,3
+1558638,2026-09-19,B1,2026,Anderlecht,Zulte Waregem,Anderlecht,Waregem,1,1,1,0,0,0,0,0,3
+1558639,2026-09-19,B1,2026,Lommel United,KV Mechelen,Lommel SK,Mechelen,1,1,1,3,0,0,0,0,6
+1558640,2026-09-20,B1,2026,Antwerp,Union St. Gilloise,Antwerp,St. Gilloise,2,3,1,1,0,1,0,0,8
+1558641,2026-09-20,B1,2026,St. Truiden,KVC Westerlo,St Truiden,Westerlo,0,1,0,1,0,0,0,0,2
+1558642,2026-09-20,B1,2026,Club Brugge KV,Genk,Club Brugge,Genk,1,0,0,2,0,0,0,0,3
+1558643,2026-09-20,B1,2026,Kortrijk,SK Beveren,Kortrijk,Beveren,0,4,0,1,0,0,1,0,6

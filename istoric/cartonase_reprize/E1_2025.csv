@@ -1,0 +1,558 @@
+fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,ar1,ar2,evenimente
+1386551,2025-08-08,E1,2025,Birmingham,Ipswich,Birmingham,Ipswich,1,1,2,1,0,0,0,0,5
+1386561,2025-08-09,E1,2025,Sheffield Utd,Bristol City,Sheffield United,Bristol City,0,0,0,0,0,0,0,0,12
+1386555,2025-08-09,E1,2025,West Brom,Blackburn,West Brom,Blackburn,0,4,0,0,0,1,0,0,5
+1386557,2025-08-09,E1,2025,Middlesbrough,Swansea,Middlesbrough,Swansea,1,1,2,3,0,0,0,0,7
+1386560,2025-08-09,E1,2025,Norwich,Millwall,Norwich,Millwall,0,1,2,2,0,0,0,0,5
+1386552,2025-08-09,E1,2025,Coventry,Hull City,Coventry,Hull,0,3,0,3,0,0,0,0,6
+1386556,2025-08-09,E1,2025,Stoke City,Derby,Stoke,Derby,0,1,1,1,0,0,0,0,3
+1386554,2025-08-09,E1,2025,Charlton,Watford,Charlton,Watford,0,1,1,1,0,0,0,0,3
+1386558,2025-08-09,E1,2025,QPR,Preston,QPR,Preston,0,0,0,3,0,0,0,0,3
+1386559,2025-08-09,E1,2025,Oxford United,Portsmouth,Oxford,Portsmouth,0,1,1,1,0,0,0,0,3
+1386553,2025-08-09,E1,2025,Southampton,Wrexham,Southampton,Wrexham,1,1,1,1,0,0,0,0,4
+1386562,2025-08-10,E1,2025,Leicester,Sheffield Wednesday,Leicester,Sheffield Weds,0,0,0,2,0,0,0,1,3
+1386571,2025-08-16,E1,2025,Watford,QPR,Watford,QPR,0,1,1,1,0,1,0,0,4
+1386563,2025-08-16,E1,2025,Millwall,Middlesbrough,Millwall,Middlesbrough,3,1,2,3,0,0,0,0,9
+1386567,2025-08-16,E1,2025,Preston,Leicester,Preston,Leicester,0,2,0,0,0,0,0,0,2
+1386569,2025-08-16,E1,2025,Blackburn,Birmingham,Blackburn,Birmingham,0,1,1,1,0,0,0,0,3
+1386566,2025-08-16,E1,2025,Bristol City,Charlton,Bristol City,Charlton,0,0,0,1,0,0,0,0,1
+1386574,2025-08-16,E1,2025,Swansea,Sheffield Utd,Swansea,Sheffield United,1,0,2,1,0,0,0,0,4
+1386568,2025-08-16,E1,2025,Derby,Coventry,Derby,Coventry,1,1,1,4,0,0,0,0,7
+1386565,2025-08-16,E1,2025,Portsmouth,Norwich,Portsmouth,Norwich,0,3,2,1,0,0,0,0,6
+1386564,2025-08-16,E1,2025,Wrexham,West Brom,Wrexham,West Brom,1,1,0,0,0,0,0,0,2
+1386573,2025-08-16,E1,2025,Sheffield Wednesday,Stoke City,Sheffield Weds,Stoke,0,0,1,2,0,0,0,0,3
+1386572,2025-08-17,E1,2025,Ipswich,Southampton,Ipswich,Southampton,2,0,1,1,0,0,0,0,4
+1386570,2025-08-17,E1,2025,Hull City,Oxford United,Hull,Oxford,1,0,1,0,0,0,0,0,2
+1386580,2025-08-22,E1,2025,Derby,Bristol City,Derby,Bristol City,0,3,0,0,0,0,0,0,3
+1386576,2025-08-23,E1,2025,West Brom,Portsmouth,West Brom,Portsmouth,1,1,1,4,0,0,0,0,7
+1386578,2025-08-23,E1,2025,Southampton,Stoke City,Southampton,Stoke,0,1,3,2,0,0,0,1,7
+1386584,2025-08-23,E1,2025,Birmingham,Oxford United,Birmingham,Oxford,0,0,0,0,0,0,0,0,9
+1386581,2025-08-23,E1,2025,Preston,Ipswich,Preston,Ipswich,2,4,1,1,0,0,0,0,8
+1386582,2025-08-23,E1,2025,Sheffield Utd,Millwall,Sheffield United,Millwall,0,3,1,1,0,0,0,0,5
+1386575,2025-08-23,E1,2025,Swansea,Watford,Swansea,Watford,0,3,1,4,0,0,0,0,8
+1386586,2025-08-23,E1,2025,Coventry,QPR,Coventry,QPR,0,1,1,1,0,0,0,0,3
+1386585,2025-08-23,E1,2025,Wrexham,Sheffield Wednesday,Wrexham,Sheffield Weds,0,0,0,0,0,0,0,0,9
+1386579,2025-08-23,E1,2025,Hull City,Blackburn,Hull,Blackburn,2,1,1,2,0,0,0,0,6
+1386577,2025-08-23,E1,2025,Charlton,Leicester,Charlton,Leicester,0,2,0,1,0,0,0,0,3
+1386583,2025-08-23,E1,2025,Norwich,Middlesbrough,Norwich,Middlesbrough,0,0,0,3,0,1,0,0,4
+1386587,2025-08-29,E1,2025,Leicester,Birmingham,Leicester,Birmingham,1,2,0,3,0,0,0,0,6
+1386588,2025-08-30,E1,2025,Millwall,Wrexham,Millwall,Wrexham,0,1,0,3,0,0,0,0,4
+1386596,2025-08-30,E1,2025,Watford,Southampton,Watford,Southampton,0,2,1,4,0,0,0,0,7
+1386591,2025-08-30,E1,2025,Bristol City,Hull City,Bristol City,Hull,0,1,0,1,0,0,0,0,2
+1386597,2025-08-30,E1,2025,Ipswich,Derby,Ipswich,Derby,1,1,1,6,0,0,0,0,9
+1386593,2025-08-30,E1,2025,Blackburn,Norwich,Blackburn,Norwich,0,2,0,0,1,0,0,0,3
+1386590,2025-08-30,E1,2025,Portsmouth,Preston,Portsmouth,Preston,0,1,2,0,0,0,0,0,3
+1386589,2025-08-30,E1,2025,Oxford United,Coventry,Oxford,Coventry,0,1,0,2,0,0,0,0,3
+1386598,2025-08-30,E1,2025,Sheffield Wednesday,Swansea,Sheffield Weds,Swansea,0,0,2,0,0,0,0,0,2
+1386594,2025-08-30,E1,2025,Stoke City,West Brom,Stoke,West Brom,0,1,0,2,0,0,0,0,3
+1386595,2025-08-30,E1,2025,Middlesbrough,Sheffield Utd,Middlesbrough,Sheffield United,0,0,2,1,0,0,0,0,3
+1386592,2025-08-30,E1,2025,QPR,Charlton,QPR,Charlton,1,1,1,1,0,0,0,0,4
+1386603,2025-09-12,E1,2025,Ipswich,Sheffield Utd,Ipswich,Sheffield United,0,0,0,2,0,0,0,0,2
+1386606,2025-09-13,E1,2025,Watford,Blackburn,Watford,Blackburn,0,1,0,2,0,0,0,0,3
+1386599,2025-09-13,E1,2025,Sheffield Wednesday,Bristol City,Sheffield Weds,Bristol City,1,1,0,0,0,0,0,0,2
+1386605,2025-09-13,E1,2025,Stoke City,Birmingham,Stoke,Birmingham,0,3,0,1,0,0,0,0,4
+1386600,2025-09-13,E1,2025,Swansea,Hull City,Swansea,Hull,0,1,0,1,0,0,0,0,2
+1386602,2025-09-13,E1,2025,West Brom,Derby,West Brom,Derby,0,1,0,2,0,0,0,0,3
+1386610,2025-09-13,E1,2025,Wrexham,QPR,Wrexham,QPR,0,1,0,0,0,0,0,0,1
+1386607,2025-09-13,E1,2025,Preston,Middlesbrough,Preston,Middlesbrough,0,1,2,1,0,0,0,0,4
+1386608,2025-09-13,E1,2025,Coventry,Norwich,Coventry,Norwich,1,1,2,4,0,0,0,0,8
+1386601,2025-09-13,E1,2025,Charlton,Millwall,Charlton,Millwall,0,3,0,1,0,1,0,0,5
+1386609,2025-09-13,E1,2025,Oxford United,Leicester,Oxford,Leicester,0,1,1,1,0,0,1,0,4
+1386604,2025-09-14,E1,2025,Southampton,Portsmouth,Southampton,Portsmouth,1,3,1,1,0,0,0,0,6
+1386618,2025-09-19,E1,2025,Middlesbrough,West Brom,Middlesbrough,West Brom,0,0,0,0,0,0,0,0,11
+1386621,2025-09-20,E1,2025,QPR,Stoke City,QPR,Stoke,1,4,1,2,0,0,0,0,8
+1386616,2025-09-20,E1,2025,Birmingham,Swansea,Birmingham,Swansea,4,1,0,4,0,0,0,0,9
+1386615,2025-09-20,E1,2025,Portsmouth,Sheffield Wednesday,Portsmouth,Sheffield Weds,1,0,2,3,0,0,0,0,6
+1386617,2025-09-20,E1,2025,Norwich,Wrexham,Norwich,Wrexham,1,0,1,2,0,0,0,0,4
+1386622,2025-09-20,E1,2025,Derby,Preston,Derby,Preston,0,2,0,2,0,0,0,0,4
+1386619,2025-09-20,E1,2025,Hull City,Southampton,Hull,Southampton,1,4,0,3,0,0,0,0,8
+1386614,2025-09-20,E1,2025,Sheffield Utd,Charlton,Sheffield United,Charlton,1,0,1,2,0,0,0,0,4
+1386611,2025-09-20,E1,2025,Leicester,Coventry,Leicester,Coventry,0,0,0,3,0,0,0,0,3
+1386613,2025-09-21,E1,2025,Bristol City,Oxford United,Bristol City,Oxford,0,4,0,1,0,0,0,0,5
+1386612,2025-09-22,E1,2025,Millwall,Watford,Millwall,Watford,1,0,0,0,0,0,0,0,1
+1386627,2025-09-26,E1,2025,West Brom,Leicester,West Brom,Leicester,0,2,1,4,0,0,0,0,7
+1386632,2025-09-27,E1,2025,Coventry,Birmingham,Coventry,Birmingham,1,0,2,2,0,0,1,0,6
+1386629,2025-09-27,E1,2025,Swansea,Millwall,Swansea,Millwall,1,0,0,2,0,0,0,0,3
+1386634,2025-09-27,E1,2025,Oxford United,Sheffield Utd,Oxford,Sheffield United,0,1,0,1,0,0,0,0,2
+1386628,2025-09-27,E1,2025,Charlton,Blackburn,Charlton,Blackburn,1,3,0,2,0,0,0,0,6
+1386623,2025-09-27,E1,2025,Stoke City,Norwich,Stoke,Norwich,0,0,0,3,0,0,0,0,3
+1386630,2025-09-27,E1,2025,Sheffield Wednesday,QPR,Sheffield Weds,QPR,0,2,1,1,0,0,0,0,4
+1386631,2025-09-27,E1,2025,Preston,Bristol City,Preston,Bristol City,1,3,1,0,0,0,0,0,5
+1386626,2025-09-27,E1,2025,Ipswich,Portsmouth,Ipswich,Portsmouth,0,1,2,0,0,0,0,0,3
+1386625,2025-09-27,E1,2025,Southampton,Middlesbrough,Southampton,Middlesbrough,0,1,1,5,0,0,0,0,7
+1386624,2025-09-27,E1,2025,Watford,Hull City,Watford,Hull,1,0,2,3,0,0,0,0,6
+1386633,2025-09-27,E1,2025,Wrexham,Derby,Wrexham,Derby,1,0,2,3,0,0,0,0,6
+1386642,2025-09-30,E1,2025,Derby,Charlton,Derby,Charlton,0,2,0,0,0,0,0,0,2
+1386635,2025-09-30,E1,2025,Leicester,Wrexham,Leicester,Wrexham,2,1,0,1,0,0,0,0,4
+1386637,2025-09-30,E1,2025,Birmingham,Sheffield Wednesday,Birmingham,Sheffield Weds,1,2,1,1,0,0,0,0,5
+1386636,2025-09-30,E1,2025,Sheffield Utd,Southampton,Sheffield United,Southampton,2,1,1,3,0,0,0,0,7
+1386639,2025-09-30,E1,2025,Hull City,Preston,Hull,Preston,0,0,0,1,0,0,0,0,1
+1386641,2025-09-30,E1,2025,Blackburn,Swansea,Blackburn,Swansea,1,2,0,2,0,0,0,0,5
+1386640,2025-09-30,E1,2025,Middlesbrough,Stoke City,Middlesbrough,Stoke,2,0,0,0,0,0,0,0,2
+1386638,2025-09-30,E1,2025,Bristol City,Ipswich,Bristol City,Ipswich,2,2,0,2,0,0,0,0,6
+1386645,2025-10-01,E1,2025,Portsmouth,Watford,Portsmouth,Watford,1,1,2,3,0,0,0,0,7
+1386644,2025-10-01,E1,2025,Norwich,West Brom,Norwich,West Brom,0,1,1,3,0,0,0,0,5
+1386646,2025-10-01,E1,2025,Millwall,Coventry,Millwall,Coventry,1,1,1,1,0,0,0,0,4
+1386643,2025-10-01,E1,2025,QPR,Oxford United,QPR,Oxford,0,3,0,1,0,0,0,0,4
+1386648,2025-10-03,E1,2025,Wrexham,Birmingham,Wrexham,Birmingham,0,0,0,2,0,0,0,0,2
+1386650,2025-10-04,E1,2025,Preston,Charlton,Preston,Charlton,0,0,1,1,0,0,0,0,2
+1386655,2025-10-04,E1,2025,Watford,Oxford United,Watford,Oxford,1,2,3,1,0,0,0,0,7
+1386647,2025-10-04,E1,2025,Millwall,West Brom,Millwall,West Brom,1,0,2,0,0,0,0,0,3
+1386652,2025-10-04,E1,2025,Derby,Southampton,Derby,Southampton,3,1,1,1,0,0,0,0,6
+1386651,2025-10-04,E1,2025,Bristol City,QPR,Bristol City,QPR,1,4,0,1,0,0,0,0,6
+1386649,2025-10-04,E1,2025,Portsmouth,Middlesbrough,Portsmouth,Middlesbrough,0,2,0,1,0,0,0,0,3
+1386654,2025-10-04,E1,2025,Hull City,Sheffield Utd,Hull,Sheffield United,0,2,0,2,0,0,0,0,4
+1386653,2025-10-04,E1,2025,Blackburn,Stoke City,Blackburn,Stoke,1,0,0,1,0,0,0,0,2
+1386656,2025-10-04,E1,2025,Sheffield Wednesday,Coventry,Sheffield Weds,Coventry,1,0,0,1,0,0,0,0,2
+1386657,2025-10-04,E1,2025,Swansea,Leicester,Swansea,Leicester,0,2,0,1,0,0,0,0,3
+1386658,2025-10-05,E1,2025,Ipswich,Norwich,Ipswich,Norwich,0,1,1,2,0,0,0,0,4
+1386662,2025-10-17,E1,2025,Middlesbrough,Ipswich,Middlesbrough,Ipswich,2,1,0,1,0,0,0,0,4
+1386669,2025-10-18,E1,2025,Leicester,Portsmouth,Leicester,Portsmouth,1,0,0,2,0,0,0,0,3
+1386666,2025-10-18,E1,2025,Birmingham,Hull City,Birmingham,Hull,1,3,3,4,0,1,0,0,12
+1386661,2025-10-18,E1,2025,West Brom,Preston,West Brom,Preston,1,1,0,1,0,0,0,0,3
+1386667,2025-10-18,E1,2025,Sheffield Utd,Watford,Sheffield United,Watford,0,0,0,1,0,0,0,0,1
+1386665,2025-10-18,E1,2025,Norwich,Bristol City,Norwich,Bristol City,1,1,2,1,0,0,0,0,5
+1386660,2025-10-18,E1,2025,Charlton,Sheffield Wednesday,Charlton,Sheffield Weds,1,0,1,1,0,0,0,1,4
+1386670,2025-10-18,E1,2025,Coventry,Blackburn,Coventry,Blackburn,0,0,1,1,0,0,0,0,2
+1386659,2025-10-18,E1,2025,Southampton,Swansea,Southampton,Swansea,0,0,2,2,0,0,0,0,4
+1386664,2025-10-18,E1,2025,QPR,Millwall,QPR,Millwall,0,2,2,2,0,0,0,0,6
+1386668,2025-10-18,E1,2025,Oxford United,Derby,Oxford,Derby,1,3,0,1,0,0,0,0,5
+1386663,2025-10-18,E1,2025,Stoke City,Wrexham,Stoke,Wrexham,0,2,0,0,0,0,0,0,2
+1386678,2025-10-21,E1,2025,Ipswich,Charlton,Ipswich,Charlton,0,0,1,2,0,0,0,0,3
+1386674,2025-10-21,E1,2025,Bristol City,Southampton,Bristol City,Southampton,0,1,0,2,0,0,0,0,3
+1386671,2025-10-21,E1,2025,Millwall,Stoke City,Millwall,Stoke,1,1,1,0,0,0,0,0,3
+1386672,2025-10-21,E1,2025,Portsmouth,Coventry,Portsmouth,Coventry,0,1,0,1,0,0,0,0,2
+1386677,2025-10-21,E1,2025,Hull City,Leicester,Hull,Leicester,0,1,1,1,0,0,0,0,3
+1386676,2025-10-21,E1,2025,Blackburn,Sheffield Utd,Blackburn,Sheffield United,0,1,0,1,0,0,0,0,2
+1386675,2025-10-21,E1,2025,Derby,Norwich,Derby,Norwich,0,2,1,0,0,0,0,0,3
+1386673,2025-10-21,E1,2025,Preston,Birmingham,Preston,Birmingham,1,1,2,3,0,0,0,0,7
+1386682,2025-10-22,E1,2025,Wrexham,Oxford United,Wrexham,Oxford,1,2,0,1,0,1,0,0,5
+1386679,2025-10-22,E1,2025,Swansea,QPR,Swansea,QPR,1,0,2,2,1,0,0,0,6
+1386681,2025-10-22,E1,2025,Watford,West Brom,Watford,West Brom,0,0,1,1,0,0,0,0,2
+1386680,2025-10-22,E1,2025,Sheffield Wednesday,Middlesbrough,Sheffield Weds,Middlesbrough,0,3,0,1,0,0,0,0,4
+1386686,2025-10-24,E1,2025,Preston,Sheffield Utd,Preston,Sheffield United,1,3,1,0,0,0,0,0,5
+1386691,2025-10-25,E1,2025,Derby,QPR,Derby,QPR,0,2,0,2,0,0,0,0,4
+1386683,2025-10-25,E1,2025,Millwall,Leicester,Millwall,Leicester,1,0,0,2,0,0,0,0,3
+1386688,2025-10-25,E1,2025,Hull City,Charlton,Hull,Charlton,1,1,0,1,0,0,0,0,3
+1386689,2025-10-25,E1,2025,Middlesbrough,Wrexham,Middlesbrough,Wrexham,0,0,2,3,0,0,0,0,5
+1386685,2025-10-25,E1,2025,Bristol City,Birmingham,Bristol City,Birmingham,1,1,0,1,0,0,0,0,3
+1386693,2025-10-25,E1,2025,Swansea,Norwich,Swansea,Norwich,1,2,0,1,0,0,0,0,4
+1386692,2025-10-25,E1,2025,Sheffield Wednesday,Oxford United,Sheffield Weds,Oxford,0,0,0,0,0,0,0,0,10
+1386687,2025-10-25,E1,2025,Portsmouth,Stoke City,Portsmouth,Stoke,2,0,0,3,0,0,0,0,5
+1386690,2025-10-25,E1,2025,Blackburn,Southampton,Blackburn,Southampton,3,0,1,0,0,0,0,1,5
+1386694,2025-10-25,E1,2025,Ipswich,West Brom,Ipswich,West Brom,0,1,0,1,0,0,0,0,2
+1386684,2025-10-25,E1,2025,Coventry,Watford,Coventry,Watford,0,3,1,1,0,0,1,0,6
+1386706,2025-10-31,E1,2025,Wrexham,Coventry,Wrexham,Coventry,1,1,0,1,0,0,0,0,3
+1386700,2025-11-01,E1,2025,Watford,Middlesbrough,Watford,Middlesbrough,2,0,0,1,0,0,0,0,3
+1386695,2025-11-01,E1,2025,Southampton,Preston,Southampton,Preston,0,1,1,2,0,0,0,0,4
+1386702,2025-11-01,E1,2025,Birmingham,Portsmouth,Birmingham,Portsmouth,1,0,0,2,0,0,0,0,3
+1386701,2025-11-01,E1,2025,Sheffield Utd,Derby,Sheffield United,Derby,0,2,1,0,0,0,0,0,3
+1386698,2025-11-01,E1,2025,QPR,Ipswich,QPR,Ipswich,1,3,0,0,0,0,0,0,4
+1386697,2025-11-01,E1,2025,Charlton,Swansea,Charlton,Swansea,0,0,0,0,0,0,0,0,10
+1386704,2025-11-01,E1,2025,Oxford United,Millwall,Oxford,Millwall,0,0,0,0,0,0,0,0,13
+1386705,2025-11-01,E1,2025,Leicester,Blackburn,Leicester,Blackburn,0,0,1,0,0,0,0,0,1
+1386696,2025-11-01,E1,2025,West Brom,Sheffield Wednesday,West Brom,Sheffield Weds,0,1,0,1,0,0,0,0,2
+1386703,2025-11-01,E1,2025,Norwich,Hull City,Norwich,Hull,1,0,0,2,0,0,0,0,3
+1386699,2025-11-01,E1,2025,Stoke City,Bristol City,Stoke,Bristol City,2,1,0,0,0,0,0,0,3
+1386709,2025-11-04,E1,2025,Coventry,Sheffield Utd,Coventry,Sheffield United,2,1,1,1,0,0,0,0,5
+1386707,2025-11-04,E1,2025,Leicester,Middlesbrough,Leicester,Middlesbrough,1,5,1,0,0,0,0,1,8
+1386710,2025-11-04,E1,2025,Birmingham,Millwall,Birmingham,Millwall,0,0,0,0,0,0,0,0,14
+1386712,2025-11-04,E1,2025,Derby,Hull City,Derby,Hull,0,1,0,0,0,0,0,0,1
+1386714,2025-11-04,E1,2025,Ipswich,Watford,Ipswich,Watford,0,1,1,1,0,0,0,0,3
+1386713,2025-11-04,E1,2025,Charlton,West Brom,Charlton,West Brom,0,0,0,0,0,0,0,0,9
+1386708,2025-11-04,E1,2025,Oxford United,Stoke City,Oxford,Stoke,1,0,0,3,0,0,0,0,4
+1386711,2025-11-04,E1,2025,Bristol City,Blackburn,Bristol City,Blackburn,0,0,1,2,0,0,0,0,3
+1386715,2025-11-05,E1,2025,Sheffield Wednesday,Norwich,Sheffield Weds,Norwich,0,0,1,3,0,0,0,0,4
+1386716,2025-11-05,E1,2025,QPR,Southampton,QPR,Southampton,1,0,0,3,0,0,0,0,4
+1386718,2025-11-05,E1,2025,Preston,Swansea,Preston,Swansea,0,3,0,1,0,0,0,0,4
+1386717,2025-11-05,E1,2025,Portsmouth,Wrexham,Portsmouth,Wrexham,1,2,1,2,0,0,0,0,6
+1386725,2025-11-07,E1,2025,Watford,Bristol City,Watford,Bristol City,2,0,0,1,0,0,0,0,3
+1386730,2025-11-08,E1,2025,Southampton,Sheffield Wednesday,Southampton,Sheffield Weds,0,2,2,0,0,0,0,0,4
+1386729,2025-11-08,E1,2025,West Brom,Oxford United,West Brom,Oxford,0,0,0,0,0,0,0,0,13
+1386719,2025-11-08,E1,2025,Sheffield Utd,QPR,Sheffield United,QPR,0,0,1,1,0,0,0,0,2
+1386720,2025-11-08,E1,2025,Norwich,Leicester,Norwich,Leicester,0,1,1,0,0,0,0,0,2
+1386726,2025-11-08,E1,2025,Middlesbrough,Birmingham,Middlesbrough,Birmingham,1,0,0,1,0,0,0,0,2
+1386728,2025-11-08,E1,2025,Swansea,Ipswich,Swansea,Ipswich,4,1,1,2,0,0,0,0,8
+1386722,2025-11-08,E1,2025,Wrexham,Charlton,Wrexham,Charlton,1,0,1,3,0,0,0,0,5
+1386721,2025-11-08,E1,2025,Millwall,Preston,Millwall,Preston,1,1,1,1,0,0,0,0,4
+1386727,2025-11-08,E1,2025,Hull City,Portsmouth,Hull,Portsmouth,0,1,0,3,0,0,0,0,4
+1386724,2025-11-08,E1,2025,Blackburn,Derby,Blackburn,Derby,1,0,0,3,0,0,0,0,4
+1386723,2025-11-08,E1,2025,Stoke City,Coventry,Stoke,Coventry,1,2,1,2,0,0,0,0,6
+1386742,2025-11-21,E1,2025,Preston,Blackburn,Preston,Blackburn,0,1,0,0,0,0,0,0,1
+1386736,2025-11-22,E1,2025,Leicester,Stoke City,Leicester,Stoke,2,4,0,2,0,0,0,0,8
+1386739,2025-11-22,E1,2025,Birmingham,Norwich,Birmingham,Norwich,1,0,2,0,0,0,0,0,3
+1386731,2025-11-22,E1,2025,Ipswich,Wrexham,Ipswich,Wrexham,0,2,1,2,0,0,0,0,5
+1386735,2025-11-22,E1,2025,Derby,Watford,Derby,Watford,1,1,0,1,0,0,0,0,3
+1386738,2025-11-22,E1,2025,Oxford United,Middlesbrough,Oxford,Middlesbrough,2,1,1,1,0,0,0,0,5
+1386741,2025-11-22,E1,2025,Portsmouth,Millwall,Portsmouth,Millwall,1,1,1,0,0,0,0,1,4
+1386740,2025-11-22,E1,2025,Bristol City,Swansea,Bristol City,Swansea,0,2,0,0,0,0,0,0,2
+1386732,2025-11-22,E1,2025,Charlton,Southampton,Charlton,Southampton,0,4,0,0,0,0,0,0,4
+1386737,2025-11-22,E1,2025,Coventry,West Brom,Coventry,West Brom,2,0,1,2,0,0,0,1,6
+1386734,2025-11-22,E1,2025,QPR,Hull City,QPR,Hull,0,0,0,1,0,0,0,0,1
+1386733,2025-11-23,E1,2025,Sheffield Wednesday,Sheffield Utd,Sheffield Weds,Sheffield United,2,1,0,0,0,0,0,0,3
+1386747,2025-11-25,E1,2025,Watford,Preston,Watford,Preston,0,2,1,3,0,0,0,0,6
+1386750,2025-11-25,E1,2025,Southampton,Leicester,Southampton,Leicester,0,1,2,0,0,0,1,0,4
+1386746,2025-11-25,E1,2025,Hull City,Ipswich,Hull,Ipswich,1,1,1,1,0,0,0,0,4
+1386749,2025-11-25,E1,2025,Swansea,Derby,Swansea,Derby,0,0,0,2,0,0,0,0,2
+1386754,2025-11-25,E1,2025,Norwich,Oxford United,Norwich,Oxford,0,1,0,0,0,0,0,0,1
+1386745,2025-11-25,E1,2025,Stoke City,Charlton,Stoke,Charlton,0,1,1,0,0,0,0,0,2
+1386748,2025-11-25,E1,2025,Middlesbrough,Coventry,Middlesbrough,Coventry,0,0,0,0,0,0,0,0,14
+1386753,2025-11-26,E1,2025,Wrexham,Bristol City,Wrexham,Bristol City,0,1,0,2,0,0,0,0,3
+1386752,2025-11-26,E1,2025,Blackburn,QPR,Blackburn,QPR,2,1,0,0,0,0,0,0,3
+1386743,2025-11-26,E1,2025,Sheffield Utd,Portsmouth,Sheffield United,Portsmouth,0,0,0,1,0,0,1,0,2
+1386744,2025-11-26,E1,2025,Millwall,Sheffield Wednesday,Millwall,Sheffield Weds,0,0,2,1,0,0,0,0,3
+1386751,2025-11-26,E1,2025,West Brom,Birmingham,West Brom,Birmingham,0,1,2,0,0,0,0,0,3
+1386761,2025-11-28,E1,2025,Oxford United,Ipswich,Oxford,Ipswich,0,0,0,0,0,0,0,0,12
+1386759,2025-11-29,E1,2025,Millwall,Southampton,Millwall,Southampton,0,1,1,1,0,0,0,0,3
+1386765,2025-11-29,E1,2025,West Brom,Swansea,West Brom,Swansea,1,0,0,2,0,0,0,0,3
+1386764,2025-11-29,E1,2025,Middlesbrough,Derby,Middlesbrough,Derby,0,0,1,1,0,0,0,0,2
+1386766,2025-11-29,E1,2025,Sheffield Wednesday,Preston,Sheffield Weds,Preston,0,1,1,0,0,0,0,0,2
+1386755,2025-11-29,E1,2025,Norwich,QPR,Norwich,QPR,0,2,0,2,0,0,0,0,4
+1386758,2025-11-29,E1,2025,Wrexham,Blackburn,Wrexham,Blackburn,0,1,0,3,0,0,0,0,4
+1386757,2025-11-29,E1,2025,Portsmouth,Bristol City,Portsmouth,Bristol City,1,2,0,0,0,0,0,0,3
+1386762,2025-11-29,E1,2025,Coventry,Charlton,Coventry,Charlton,0,1,1,0,0,0,0,0,2
+1386760,2025-11-29,E1,2025,Leicester,Sheffield Utd,Leicester,Sheffield United,0,2,0,1,0,0,0,0,3
+1386763,2025-11-29,E1,2025,Stoke City,Hull City,Stoke,Hull,0,2,0,4,0,0,0,0,6
+1386756,2025-12-01,E1,2025,Birmingham,Watford,Birmingham,Watford,1,2,1,1,0,0,0,0,5
+1386620,2025-12-02,E1,2025,Blackburn,Ipswich,Blackburn,Ipswich,0,1,2,1,0,0,0,0,4
+1386772,2025-12-05,E1,2025,Hull City,Middlesbrough,Hull,Middlesbrough,0,1,0,0,0,0,0,0,1
+1386774,2025-12-06,E1,2025,Derby,Leicester,Derby,Leicester,2,1,1,1,0,0,0,0,5
+1386771,2025-12-06,E1,2025,Watford,Norwich,Watford,Norwich,1,0,1,1,0,0,0,0,3
+1386767,2025-12-06,E1,2025,Swansea,Oxford United,Swansea,Oxford,1,1,2,2,0,0,0,0,6
+1386775,2025-12-06,E1,2025,QPR,West Brom,QPR,West Brom,0,1,1,0,0,0,0,0,2
+1386776,2025-12-06,E1,2025,Sheffield Utd,Stoke City,Sheffield United,Stoke,0,1,1,1,0,0,0,0,3
+1386777,2025-12-06,E1,2025,Preston,Wrexham,Preston,Wrexham,0,1,0,1,0,0,0,0,2
+1386770,2025-12-06,E1,2025,Ipswich,Coventry,Ipswich,Coventry,1,4,2,0,0,0,0,0,7
+1386778,2025-12-06,E1,2025,Bristol City,Millwall,Bristol City,Millwall,0,1,1,4,0,0,0,0,6
+1386769,2025-12-06,E1,2025,Southampton,Birmingham,Southampton,Birmingham,0,1,0,1,0,0,0,0,2
+1386781,2025-12-09,E1,2025,QPR,Birmingham,QPR,Birmingham,1,1,0,1,0,0,0,0,3
+1386783,2025-12-09,E1,2025,Watford,Sheffield Wednesday,Watford,Sheffield Weds,1,0,0,1,0,0,0,0,2
+1386784,2025-12-09,E1,2025,Southampton,West Brom,Southampton,West Brom,0,2,1,1,0,0,0,0,4
+1386782,2025-12-09,E1,2025,Blackburn,Oxford United,Blackburn,Oxford,0,1,1,1,0,0,0,0,3
+1386780,2025-12-09,E1,2025,Sheffield Utd,Norwich,Sheffield United,Norwich,1,1,1,2,0,0,0,0,5
+1386785,2025-12-09,E1,2025,Charlton,Middlesbrough,Charlton,Middlesbrough,2,2,0,1,0,0,0,0,5
+1386779,2025-12-09,E1,2025,Preston,Coventry,Preston,Coventry,1,0,0,0,1,0,0,0,2
+1386786,2025-12-09,E1,2025,Swansea,Portsmouth,Swansea,Portsmouth,2,0,0,3,0,0,0,0,5
+1386789,2025-12-10,E1,2025,Derby,Millwall,Derby,Millwall,2,0,0,3,0,0,0,0,5
+1386787,2025-12-10,E1,2025,Ipswich,Stoke City,Ipswich,Stoke,0,1,0,1,0,0,0,0,2
+1386790,2025-12-10,E1,2025,Bristol City,Leicester,Bristol City,Leicester,1,1,1,2,0,0,0,0,5
+1386788,2025-12-10,E1,2025,Hull City,Wrexham,Hull,Wrexham,0,0,0,1,0,0,0,0,1
+1386801,2025-12-12,E1,2025,West Brom,Sheffield Utd,West Brom,Sheffield United,0,0,0,1,0,0,0,0,1
+1386797,2025-12-13,E1,2025,Millwall,Hull City,Millwall,Hull,0,0,0,3,0,1,0,0,4
+1386796,2025-12-13,E1,2025,Leicester,Ipswich,Leicester,Ipswich,0,1,1,1,0,0,0,0,3
+1386792,2025-12-13,E1,2025,Birmingham,Charlton,Birmingham,Charlton,0,3,0,4,0,0,0,0,7
+1386800,2025-12-13,E1,2025,Middlesbrough,QPR,Middlesbrough,QPR,1,0,0,0,0,0,0,0,1
+1386794,2025-12-13,E1,2025,Coventry,Bristol City,Coventry,Bristol City,0,1,0,3,0,0,0,0,4
+1386798,2025-12-13,E1,2025,Wrexham,Watford,Wrexham,Watford,2,1,1,5,0,0,0,0,9
+1386791,2025-12-13,E1,2025,Norwich,Southampton,Norwich,Southampton,1,1,0,2,0,0,0,0,4
+1386799,2025-12-13,E1,2025,Stoke City,Swansea,Stoke,Swansea,2,1,1,3,0,0,0,0,7
+1386795,2025-12-13,E1,2025,Oxford United,Preston,Oxford,Preston,1,0,0,2,0,0,0,0,3
+1386793,2025-12-13,E1,2025,Portsmouth,Blackburn,Portsmouth,Blackburn,0,2,3,0,0,0,0,0,5
+1386802,2025-12-15,E1,2025,Sheffield Wednesday,Derby,Sheffield Weds,Derby,0,4,0,1,0,0,0,0,5
+1386803,2025-12-19,E1,2025,Swansea,Wrexham,Swansea,Wrexham,1,1,2,0,0,0,0,0,4
+1386814,2025-12-20,E1,2025,Bristol City,Middlesbrough,Bristol City,Middlesbrough,1,1,2,1,0,0,0,0,5
+1386805,2025-12-20,E1,2025,Ipswich,Sheffield Wednesday,Ipswich,Sheffield Weds,0,1,0,1,0,0,0,0,2
+1386812,2025-12-20,E1,2025,Sheffield Utd,Birmingham,Sheffield United,Birmingham,0,1,3,0,0,0,1,0,5
+1386808,2025-12-20,E1,2025,Hull City,West Brom,Hull,West Brom,1,3,1,3,0,0,0,1,9
+1386807,2025-12-20,E1,2025,Watford,Stoke City,Watford,Stoke,0,3,1,2,0,0,0,0,6
+1386811,2025-12-20,E1,2025,QPR,Leicester,QPR,Leicester,0,1,1,1,0,0,0,0,3
+1386804,2025-12-20,E1,2025,Charlton,Oxford United,Charlton,Oxford,0,2,1,0,0,0,0,0,3
+1386806,2025-12-20,E1,2025,Southampton,Coventry,Southampton,Coventry,1,0,1,0,0,0,0,1,3
+1386813,2025-12-20,E1,2025,Preston,Norwich,Preston,Norwich,0,2,1,2,0,0,0,0,5
+1386809,2025-12-20,E1,2025,Blackburn,Millwall,Blackburn,Millwall,1,2,1,2,0,0,0,0,6
+1386810,2025-12-20,E1,2025,Derby,Portsmouth,Derby,Portsmouth,1,0,1,0,0,0,0,0,2
+1386818,2025-12-26,E1,2025,Wrexham,Sheffield Utd,Wrexham,Sheffield United,0,1,0,2,0,0,0,0,3
+1386821,2025-12-26,E1,2025,Leicester,Watford,Leicester,Watford,2,1,0,2,0,0,0,0,5
+1386825,2025-12-26,E1,2025,West Brom,Bristol City,West Brom,Bristol City,0,1,2,1,0,0,0,0,4
+1386824,2025-12-26,E1,2025,Middlesbrough,Blackburn,Middlesbrough,Blackburn,1,1,1,1,0,0,0,0,4
+1386816,2025-12-26,E1,2025,Norwich,Charlton,Norwich,Charlton,0,3,0,2,0,0,0,0,5
+1386823,2025-12-26,E1,2025,Stoke City,Preston,Stoke,Preston,0,4,1,1,0,0,0,0,6
+1386822,2025-12-26,E1,2025,Oxford United,Southampton,Oxford,Southampton,1,1,1,0,0,0,0,0,3
+1386819,2025-12-26,E1,2025,Coventry,Swansea,Coventry,Swansea,0,0,1,1,0,0,0,0,2
+1386817,2025-12-26,E1,2025,Portsmouth,QPR,Portsmouth,QPR,0,1,0,2,0,0,0,0,3
+1386820,2025-12-26,E1,2025,Millwall,Ipswich,Millwall,Ipswich,0,1,0,2,0,0,0,0,3
+1386815,2025-12-26,E1,2025,Birmingham,Derby,Birmingham,Derby,0,3,2,1,0,1,1,0,8
+1386826,2025-12-26,E1,2025,Sheffield Wednesday,Hull City,Sheffield Weds,Hull,0,2,2,2,0,0,0,0,6
+1386832,2025-12-29,E1,2025,Coventry,Ipswich,Coventry,Ipswich,1,0,0,2,0,0,0,0,3
+1386835,2025-12-29,E1,2025,Wrexham,Preston,Wrexham,Preston,0,0,0,0,0,0,0,0,12
+1386836,2025-12-29,E1,2025,Portsmouth,Charlton,Portsmouth,Charlton,0,2,0,2,0,0,0,0,4
+1386831,2025-12-29,E1,2025,Oxford United,Swansea,Oxford,Swansea,1,1,1,3,0,0,0,0,6
+1386829,2025-12-29,E1,2025,Stoke City,Sheffield Utd,Stoke,Sheffield United,0,0,0,1,0,1,0,0,2
+1386838,2025-12-29,E1,2025,Norwich,Watford,Norwich,Watford,0,0,0,1,0,0,0,0,1
+1386837,2025-12-29,E1,2025,Birmingham,Southampton,Birmingham,Southampton,0,1,1,1,0,0,0,0,3
+1386834,2025-12-29,E1,2025,Leicester,Derby,Leicester,Derby,0,1,0,2,0,0,0,0,3
+1386827,2025-12-29,E1,2025,Sheffield Wednesday,Blackburn,Sheffield Weds,Blackburn,0,2,0,3,0,0,0,0,5
+1386828,2025-12-29,E1,2025,West Brom,QPR,West Brom,QPR,0,0,2,0,0,0,0,0,2
+1386830,2025-12-29,E1,2025,Middlesbrough,Hull City,Middlesbrough,Hull,0,1,2,2,0,0,0,0,5
+1386833,2025-12-29,E1,2025,Millwall,Bristol City,Millwall,Bristol City,3,1,0,1,0,0,0,0,5
+1386841,2026-01-01,E1,2025,Sheffield Utd,Leicester,Sheffield United,Leicester,0,1,1,1,0,0,0,0,3
+1386843,2026-01-01,E1,2025,Watford,Birmingham,Watford,Birmingham,1,0,0,2,0,0,0,0,3
+1386848,2026-01-01,E1,2025,Southampton,Millwall,Southampton,Millwall,1,0,1,2,0,0,0,0,4
+1386839,2026-01-01,E1,2025,Bristol City,Portsmouth,Bristol City,Portsmouth,0,0,1,0,0,0,0,0,1
+1386849,2026-01-01,E1,2025,Ipswich,Oxford United,Ipswich,Oxford,0,1,1,3,0,0,0,0,5
+1386842,2026-01-01,E1,2025,Preston,Sheffield Wednesday,Preston,Sheffield Weds,0,2,0,0,0,0,0,0,2
+1386844,2026-01-01,E1,2025,Hull City,Stoke City,Hull,Stoke,2,1,0,2,0,0,0,0,5
+1386847,2026-01-01,E1,2025,Derby,Middlesbrough,Derby,Middlesbrough,0,2,0,2,0,0,0,0,4
+1386846,2026-01-01,E1,2025,QPR,Norwich,QPR,Norwich,0,0,1,2,0,0,0,0,3
+1386840,2026-01-01,E1,2025,Swansea,West Brom,Swansea,West Brom,0,2,4,1,0,0,0,0,7
+1386850,2026-01-01,E1,2025,Charlton,Coventry,Charlton,Coventry,1,2,2,0,0,0,0,0,5
+1386845,2026-01-01,E1,2025,Blackburn,Wrexham,Blackburn,Wrexham,2,2,1,1,0,0,0,0,6
+1386859,2026-01-04,E1,2025,Bristol City,Preston,Bristol City,Preston,0,0,1,1,0,0,0,0,2
+1386862,2026-01-04,E1,2025,Millwall,Swansea,Millwall,Swansea,0,2,0,0,0,0,0,0,2
+1386853,2026-01-04,E1,2025,Blackburn,Charlton,Blackburn,Charlton,0,1,0,4,0,0,0,0,5
+1386852,2026-01-04,E1,2025,QPR,Sheffield Wednesday,QPR,Sheffield Weds,0,0,0,0,0,0,0,0,13
+1386855,2026-01-04,E1,2025,Middlesbrough,Southampton,Middlesbrough,Southampton,0,0,0,3,0,0,0,0,3
+1386860,2026-01-04,E1,2025,Norwich,Stoke City,Norwich,Stoke,0,1,1,1,0,0,0,0,3
+1386858,2026-01-04,E1,2025,Birmingham,Coventry,Birmingham,Coventry,1,2,0,1,0,0,0,1,5
+1386851,2026-01-04,E1,2025,Derby,Wrexham,Derby,Wrexham,0,1,1,1,0,0,0,0,3
+1386861,2026-01-05,E1,2025,Leicester,West Brom,Leicester,West Brom,0,1,0,0,0,0,0,0,1
+1386871,2026-01-16,E1,2025,West Brom,Middlesbrough,West Brom,Middlesbrough,0,2,0,0,0,0,0,0,2
+1386866,2026-01-17,E1,2025,Swansea,Birmingham,Swansea,Birmingham,0,0,0,0,0,0,0,0,8
+1386873,2026-01-17,E1,2025,Southampton,Hull City,Southampton,Hull,0,0,2,0,0,0,0,0,2
+1386870,2026-01-17,E1,2025,Sheffield Wednesday,Portsmouth,Sheffield Weds,Portsmouth,0,0,1,1,0,0,0,0,2
+1386874,2026-01-17,E1,2025,Stoke City,QPR,Stoke,QPR,3,0,1,3,0,0,0,0,7
+1386867,2026-01-17,E1,2025,Preston,Derby,Preston,Derby,0,2,2,3,0,0,0,0,7
+1386863,2026-01-17,E1,2025,Oxford United,Bristol City,Oxford,Bristol City,2,0,1,2,0,0,0,0,5
+1386865,2026-01-17,E1,2025,Coventry,Leicester,Coventry,Leicester,0,1,0,4,0,0,0,0,5
+1386872,2026-01-17,E1,2025,Ipswich,Blackburn,Ipswich,Blackburn,0,0,1,3,0,0,0,0,4
+1386869,2026-01-17,E1,2025,Charlton,Sheffield Utd,Charlton,Sheffield United,1,3,0,1,0,0,2,0,7
+1386864,2026-01-17,E1,2025,Wrexham,Norwich,Wrexham,Norwich,0,0,0,1,0,0,0,0,1
+1386868,2026-01-17,E1,2025,Watford,Millwall,Watford,Millwall,1,3,0,4,0,0,0,0,8
+1386880,2026-01-20,E1,2025,Coventry,Millwall,Coventry,Millwall,1,1,0,1,0,0,0,0,3
+1386882,2026-01-20,E1,2025,Oxford United,QPR,Oxford,QPR,0,1,0,2,0,0,0,0,3
+1386883,2026-01-20,E1,2025,Charlton,Derby,Charlton,Derby,0,0,1,3,0,0,0,1,5
+1386877,2026-01-20,E1,2025,Sheffield Wednesday,Birmingham,Sheffield Weds,Birmingham,1,1,0,1,0,0,0,0,3
+1386876,2026-01-20,E1,2025,West Brom,Norwich,West Brom,Norwich,2,1,0,1,0,0,0,0,4
+1386879,2026-01-20,E1,2025,Preston,Hull City,Preston,Hull,1,1,0,3,0,1,0,0,6
+1386875,2026-01-20,E1,2025,Ipswich,Bristol City,Ipswich,Bristol City,0,1,1,5,0,0,0,0,7
+1386881,2026-01-20,E1,2025,Wrexham,Leicester,Wrexham,Leicester,0,1,0,2,0,0,0,0,3
+1386878,2026-01-20,E1,2025,Swansea,Blackburn,Swansea,Blackburn,0,2,2,1,0,0,0,0,5
+1386886,2026-01-21,E1,2025,Stoke City,Middlesbrough,Stoke,Middlesbrough,1,2,0,1,0,1,0,0,5
+1386884,2026-01-21,E1,2025,Southampton,Sheffield Utd,Southampton,Sheffield United,0,3,0,1,0,0,0,0,4
+1386885,2026-01-21,E1,2025,Watford,Portsmouth,Watford,Portsmouth,0,1,0,1,0,0,0,0,2
+1386889,2026-01-23,E1,2025,Derby,West Brom,Derby,West Brom,0,2,2,1,0,0,0,0,5
+1386892,2026-01-24,E1,2025,Millwall,Charlton,Millwall,Charlton,0,1,1,0,0,0,0,0,2
+1386888,2026-01-24,E1,2025,QPR,Wrexham,QPR,Wrexham,1,2,1,1,0,1,0,0,6
+1386887,2026-01-24,E1,2025,Blackburn,Watford,Blackburn,Watford,0,0,1,1,0,0,0,0,2
+1386891,2026-01-24,E1,2025,Hull City,Swansea,Hull,Swansea,1,2,1,1,0,0,0,0,5
+1386894,2026-01-24,E1,2025,Sheffield Utd,Ipswich,Sheffield United,Ipswich,0,2,2,2,0,1,0,0,7
+1386898,2026-01-24,E1,2025,Bristol City,Sheffield Wednesday,Bristol City,Sheffield Weds,0,0,0,0,0,0,0,0,12
+1386896,2026-01-24,E1,2025,Birmingham,Stoke City,Birmingham,Stoke,0,1,0,1,0,0,0,0,2
+1386893,2026-01-24,E1,2025,Leicester,Oxford United,Leicester,Oxford,0,0,1,2,0,0,0,0,3
+1386890,2026-01-24,E1,2025,Middlesbrough,Preston,Middlesbrough,Preston,0,0,1,1,0,0,0,1,3
+1386895,2026-01-25,E1,2025,Portsmouth,Southampton,Portsmouth,Southampton,0,2,0,1,0,0,0,0,3
+1386897,2026-01-26,E1,2025,Norwich,Coventry,Norwich,Coventry,0,1,1,0,0,0,0,0,2
+1386899,2026-01-30,E1,2025,Bristol City,Derby,Bristol City,Derby,0,1,1,0,0,0,0,0,2
+1386905,2026-01-31,E1,2025,Watford,Swansea,Watford,Swansea,0,1,1,1,0,1,0,0,4
+1386909,2026-01-31,E1,2025,Ipswich,Preston,Ipswich,Preston,0,1,1,1,0,0,0,0,3
+1386902,2026-01-31,E1,2025,Millwall,Sheffield Utd,Millwall,Sheffield United,0,2,0,1,0,0,0,0,3
+1386904,2026-01-31,E1,2025,Middlesbrough,Norwich,Middlesbrough,Norwich,0,2,0,2,0,0,0,0,4
+1386907,2026-01-31,E1,2025,Blackburn,Hull City,Blackburn,Hull,1,1,0,0,0,0,0,0,2
+1386903,2026-01-31,E1,2025,Oxford United,Birmingham,Oxford,Birmingham,2,0,0,2,0,0,0,0,4
+1386908,2026-01-31,E1,2025,Stoke City,Southampton,Stoke,Southampton,0,2,1,2,0,0,0,0,5
+1386910,2026-01-31,E1,2025,Sheffield Wednesday,Wrexham,Sheffield Weds,Wrexham,0,0,0,0,0,0,0,0,8
+1386906,2026-01-31,E1,2025,QPR,Coventry,QPR,Coventry,1,0,0,2,0,0,0,0,3
+1386900,2026-01-31,E1,2025,Portsmouth,West Brom,Portsmouth,West Brom,0,0,2,0,0,0,0,0,2
+1386901,2026-01-31,E1,2025,Leicester,Charlton,Leicester,Charlton,0,0,1,1,1,0,0,0,3
+1386773,2026-02-03,E1,2025,Blackburn,Sheffield Wednesday,Blackburn,Sheffield Weds,2,2,2,0,0,0,0,0,6
+1386854,2026-02-03,E1,2025,Hull City,Watford,Hull,Watford,0,4,2,1,0,0,0,0,7
+1386856,2026-02-03,E1,2025,Sheffield Utd,Oxford United,Sheffield United,Oxford,1,2,1,3,0,0,0,0,7
+1386912,2026-02-06,E1,2025,Charlton,QPR,Charlton,QPR,0,2,1,0,0,0,0,0,3
+1386922,2026-02-07,E1,2025,Birmingham,Leicester,Birmingham,Leicester,0,0,1,1,0,0,1,0,3
+1386920,2026-02-07,E1,2025,Preston,Portsmouth,Preston,Portsmouth,0,3,0,1,0,0,0,0,4
+1386913,2026-02-07,E1,2025,West Brom,Stoke City,West Brom,Stoke,1,0,1,0,0,0,0,0,2
+1386916,2026-02-07,E1,2025,Hull City,Bristol City,Hull,Bristol City,0,2,0,0,0,0,0,0,2
+1386917,2026-02-07,E1,2025,Wrexham,Millwall,Wrexham,Millwall,0,1,0,3,0,0,0,0,4
+1386914,2026-02-07,E1,2025,Southampton,Watford,Southampton,Watford,0,3,0,1,0,0,0,0,4
+1386915,2026-02-07,E1,2025,Derby,Ipswich,Derby,Ipswich,1,2,2,2,0,1,0,0,8
+1386921,2026-02-07,E1,2025,Norwich,Blackburn,Norwich,Blackburn,0,2,0,2,0,0,0,0,4
+1386918,2026-02-07,E1,2025,Coventry,Oxford United,Coventry,Oxford,1,0,2,6,0,0,0,1,10
+1386911,2026-02-08,E1,2025,Swansea,Sheffield Wednesday,Swansea,Sheffield Weds,2,0,0,2,0,0,0,0,4
+1386919,2026-02-09,E1,2025,Sheffield Utd,Middlesbrough,Sheffield United,Middlesbrough,0,3,0,2,0,1,0,0,6
+1386923,2026-02-10,E1,2025,Birmingham,West Brom,Birmingham,West Brom,0,1,2,3,0,0,0,0,6
+1386928,2026-02-10,E1,2025,Oxford United,Norwich,Oxford,Norwich,0,1,0,1,0,0,0,0,2
+1386929,2026-02-10,E1,2025,Leicester,Southampton,Leicester,Southampton,0,0,1,0,0,0,0,0,1
+1386933,2026-02-11,E1,2025,Charlton,Stoke City,Charlton,Stoke,0,2,0,4,0,0,0,0,6
+1386926,2026-02-14,E1,2025,Portsmouth,Sheffield Utd,Portsmouth,Sheffield United,1,0,1,3,0,0,0,0,5
+1386934,2026-02-14,E1,2025,Sheffield Wednesday,Millwall,Sheffield Weds,Millwall,1,2,1,1,0,0,0,0,5
+1386931,2026-02-14,E1,2025,QPR,Blackburn,QPR,Blackburn,1,1,1,2,0,0,0,0,5
+1386930,2026-02-14,E1,2025,Derby,Swansea,Derby,Swansea,1,1,1,1,0,0,0,0,4
+1386925,2026-02-14,E1,2025,Preston,Watford,Preston,Watford,0,1,0,1,0,0,0,0,2
+1386927,2026-02-16,E1,2025,Coventry,Middlesbrough,Coventry,Middlesbrough,1,2,1,1,0,0,0,0,5
+1386768,2026-02-17,E1,2025,Charlton,Portsmouth,Charlton,Portsmouth,5,2,1,1,0,0,0,0,9
+1386924,2026-02-17,E1,2025,Bristol City,Wrexham,Bristol City,Wrexham,1,1,1,2,0,0,0,0,5
+1386938,2026-02-20,E1,2025,Blackburn,Preston,Blackburn,Preston,1,1,0,2,0,0,0,0,4
+1386940,2026-02-21,E1,2025,Watford,Derby,Watford,Derby,0,2,1,1,0,0,0,0,4
+1386936,2026-02-21,E1,2025,Southampton,Charlton,Southampton,Charlton,0,2,0,1,0,0,0,0,3
+1386942,2026-02-21,E1,2025,Millwall,Portsmouth,Millwall,Portsmouth,0,1,1,1,0,0,0,0,3
+1386941,2026-02-21,E1,2025,Middlesbrough,Oxford United,Middlesbrough,Oxford,1,2,0,1,0,0,0,0,4
+1386935,2026-02-21,E1,2025,West Brom,Coventry,West Brom,Coventry,0,0,3,0,0,0,0,0,3
+1386943,2026-02-21,E1,2025,Wrexham,Ipswich,Wrexham,Ipswich,2,3,3,1,0,0,0,0,9
+1386945,2026-02-21,E1,2025,Norwich,Birmingham,Norwich,Birmingham,0,0,1,0,0,0,0,0,1
+1386946,2026-02-21,E1,2025,Swansea,Bristol City,Swansea,Bristol City,1,1,1,3,0,0,0,0,6
+1386937,2026-02-21,E1,2025,Stoke City,Leicester,Stoke,Leicester,0,2,0,1,0,0,0,0,3
+1386939,2026-02-21,E1,2025,Hull City,QPR,Hull,QPR,2,1,1,0,0,0,0,0,4
+1386944,2026-02-22,E1,2025,Sheffield Utd,Sheffield Wednesday,Sheffield United,Sheffield Weds,0,1,2,5,0,1,0,1,10
+1386948,2026-02-24,E1,2025,Wrexham,Portsmouth,Wrexham,Portsmouth,0,0,1,0,0,0,0,0,1
+1386947,2026-02-24,E1,2025,Swansea,Preston,Swansea,Preston,0,2,0,2,0,0,0,0,4
+1386949,2026-02-24,E1,2025,Middlesbrough,Leicester,Middlesbrough,Leicester,1,0,0,1,0,0,0,0,2
+1386955,2026-02-24,E1,2025,Blackburn,Bristol City,Blackburn,Bristol City,2,0,1,1,0,0,0,0,4
+1386951,2026-02-24,E1,2025,Hull City,Derby,Hull,Derby,0,2,1,1,0,0,0,0,4
+1386954,2026-02-24,E1,2025,West Brom,Charlton,West Brom,Charlton,1,1,1,2,0,0,0,0,5
+1386950,2026-02-24,E1,2025,Watford,Ipswich,Watford,Ipswich,2,0,0,3,0,0,0,0,5
+1386953,2026-02-24,E1,2025,Southampton,QPR,Southampton,QPR,1,0,0,0,0,0,0,0,1
+1386956,2026-02-25,E1,2025,Millwall,Birmingham,Millwall,Birmingham,0,1,1,1,0,0,0,1,4
+1386952,2026-02-25,E1,2025,Stoke City,Oxford United,Stoke,Oxford,1,1,0,1,0,0,0,0,3
+1386957,2026-02-25,E1,2025,Norwich,Sheffield Wednesday,Norwich,Sheffield Weds,0,0,0,0,0,0,0,0,12
+1386958,2026-02-25,E1,2025,Sheffield Utd,Coventry,Sheffield United,Coventry,1,2,1,1,0,0,0,0,5
+1386961,2026-02-27,E1,2025,Bristol City,Watford,Bristol City,Watford,1,1,0,3,0,0,0,0,5
+1386960,2026-02-28,E1,2025,Portsmouth,Hull City,Portsmouth,Hull,0,0,0,3,0,0,0,0,3
+1386967,2026-02-28,E1,2025,Derby,Blackburn,Derby,Blackburn,2,1,1,3,0,0,0,0,7
+1386964,2026-02-28,E1,2025,Leicester,Norwich,Leicester,Norwich,0,2,0,2,0,0,0,0,4
+1386965,2026-02-28,E1,2025,Coventry,Stoke City,Coventry,Stoke,0,1,0,1,0,0,0,0,2
+1386963,2026-02-28,E1,2025,Oxford United,West Brom,Oxford,West Brom,0,0,1,1,0,0,0,0,2
+1386969,2026-02-28,E1,2025,Charlton,Wrexham,Charlton,Wrexham,1,1,1,0,0,0,0,0,3
+1386970,2026-02-28,E1,2025,Sheffield Wednesday,Southampton,Sheffield Weds,Southampton,0,0,0,1,0,0,0,0,1
+1386966,2026-02-28,E1,2025,QPR,Sheffield Utd,QPR,Sheffield United,0,2,0,2,0,0,0,0,4
+1386959,2026-02-28,E1,2025,Preston,Millwall,Preston,Millwall,0,3,0,2,0,0,0,0,5
+1386968,2026-02-28,E1,2025,Ipswich,Swansea,Ipswich,Swansea,1,0,0,0,0,0,0,0,1
+1386962,2026-03-02,E1,2025,Birmingham,Middlesbrough,Birmingham,Middlesbrough,0,2,0,4,0,0,0,0,6
+1386932,2026-03-03,E1,2025,Ipswich,Hull City,Ipswich,Hull,0,2,1,3,0,0,0,0,6
+1386981,2026-03-06,E1,2025,Preston,Oxford United,Preston,Oxford,0,1,1,0,0,0,0,0,2
+1386979,2026-03-07,E1,2025,Blackburn,Portsmouth,Blackburn,Portsmouth,0,2,0,0,0,0,0,0,2
+1386976,2026-03-07,E1,2025,Hull City,Millwall,Hull,Millwall,1,1,1,3,0,0,0,0,6
+1386972,2026-03-07,E1,2025,Charlton,Birmingham,Charlton,Birmingham,0,0,1,0,0,0,0,0,1
+1386971,2026-03-07,E1,2025,Swansea,Stoke City,Swansea,Stoke,1,1,3,3,0,0,1,0,9
+1386975,2026-03-07,E1,2025,Derby,Sheffield Wednesday,Derby,Sheffield Weds,1,0,1,0,0,0,0,0,2
+1386982,2026-03-07,E1,2025,Sheffield Utd,West Brom,Sheffield United,West Brom,0,2,0,1,0,0,0,0,3
+1386973,2026-03-07,E1,2025,Ipswich,Leicester,Ipswich,Leicester,1,2,1,2,0,0,0,0,6
+1386980,2026-03-07,E1,2025,Bristol City,Coventry,Bristol City,Coventry,2,2,1,1,0,1,1,0,8
+1386978,2026-03-08,E1,2025,QPR,Middlesbrough,QPR,Middlesbrough,0,0,0,0,0,0,0,0,14
+1386989,2026-03-10,E1,2025,Stoke City,Ipswich,Stoke,Ipswich,0,0,1,3,0,0,0,0,4
+1386988,2026-03-10,E1,2025,Millwall,Derby,Millwall,Derby,0,0,0,3,0,0,0,0,3
+1386987,2026-03-10,E1,2025,Leicester,Bristol City,Leicester,Bristol City,1,1,0,3,0,0,0,0,5
+1386983,2026-03-10,E1,2025,Portsmouth,Swansea,Portsmouth,Swansea,0,1,1,1,0,0,0,0,3
+1386986,2026-03-10,E1,2025,Wrexham,Hull City,Wrexham,Hull,1,2,2,2,0,0,0,0,7
+1386990,2026-03-10,E1,2025,Sheffield Wednesday,Watford,Sheffield Weds,Watford,0,3,1,2,0,0,0,0,6
+1386993,2026-03-11,E1,2025,Oxford United,Blackburn,Oxford,Blackburn,0,0,1,1,0,0,0,0,2
+1386984,2026-03-11,E1,2025,Norwich,Sheffield Utd,Norwich,Sheffield United,1,1,0,2,0,0,0,0,4
+1386992,2026-03-11,E1,2025,Middlesbrough,Charlton,Middlesbrough,Charlton,0,0,2,0,0,0,0,0,2
+1386991,2026-03-11,E1,2025,West Brom,Southampton,West Brom,Southampton,0,2,0,2,0,0,0,0,4
+1386985,2026-03-11,E1,2025,Birmingham,QPR,Birmingham,QPR,2,2,0,0,0,0,0,0,4
+1386994,2026-03-11,E1,2025,Coventry,Preston,Coventry,Preston,0,0,0,0,0,0,0,0,13
+1386996,2026-03-13,E1,2025,Wrexham,Swansea,Wrexham,Swansea,0,0,0,2,0,0,0,0,2
+1387004,2026-03-14,E1,2025,West Brom,Hull City,West Brom,Hull,0,1,0,4,0,0,1,0,6
+1387000,2026-03-14,E1,2025,Birmingham,Sheffield Utd,Birmingham,Sheffield United,1,1,1,3,0,0,1,0,7
+1386997,2026-03-14,E1,2025,Millwall,Blackburn,Millwall,Blackburn,0,0,0,1,0,1,0,0,2
+1387001,2026-03-14,E1,2025,Norwich,Preston,Norwich,Preston,1,0,0,1,0,0,0,0,2
+1386999,2026-03-14,E1,2025,Leicester,QPR,Leicester,QPR,1,0,1,2,0,0,0,0,4
+1387005,2026-03-14,E1,2025,Stoke City,Watford,Stoke,Watford,1,3,0,2,0,0,0,0,6
+1387003,2026-03-14,E1,2025,Middlesbrough,Bristol City,Middlesbrough,Bristol City,0,1,2,3,0,0,0,0,6
+1386998,2026-03-14,E1,2025,Oxford United,Charlton,Oxford,Charlton,1,2,1,3,0,0,0,0,7
+1386995,2026-03-14,E1,2025,Coventry,Southampton,Coventry,Southampton,0,3,0,2,0,0,0,0,5
+1387006,2026-03-14,E1,2025,Sheffield Wednesday,Ipswich,Sheffield Weds,Ipswich,0,3,0,1,0,0,0,0,4
+1387002,2026-03-16,E1,2025,Portsmouth,Derby,Portsmouth,Derby,1,1,1,5,0,0,0,0,8
+1386977,2026-03-17,E1,2025,Watford,Wrexham,Watford,Wrexham,0,2,0,0,0,0,0,0,2
+1386974,2026-03-18,E1,2025,Southampton,Norwich,Southampton,Norwich,0,4,3,1,0,0,0,0,8
+1387017,2026-03-20,E1,2025,Preston,Stoke City,Preston,Stoke,2,0,1,0,0,0,0,0,3
+1387008,2026-03-21,E1,2025,Swansea,Coventry,Swansea,Coventry,2,1,0,1,0,0,0,0,4
+1387009,2026-03-21,E1,2025,Southampton,Oxford United,Southampton,Oxford,0,0,1,2,0,0,0,0,3
+1387018,2026-03-21,E1,2025,Bristol City,West Brom,Bristol City,West Brom,1,0,0,1,0,0,0,0,2
+1387016,2026-03-21,E1,2025,Sheffield Utd,Wrexham,Sheffield United,Wrexham,0,1,0,3,0,0,0,0,4
+1387011,2026-03-21,E1,2025,Watford,Leicester,Watford,Leicester,1,2,2,2,0,0,0,0,7
+1387015,2026-03-21,E1,2025,QPR,Portsmouth,QPR,Portsmouth,2,2,1,1,0,0,0,0,6
+1387007,2026-03-21,E1,2025,Charlton,Norwich,Charlton,Norwich,1,1,0,2,0,0,0,0,4
+1387010,2026-03-21,E1,2025,Ipswich,Millwall,Ipswich,Millwall,0,1,1,1,0,0,0,0,3
+1387014,2026-03-21,E1,2025,Blackburn,Middlesbrough,Blackburn,Middlesbrough,0,0,1,1,0,0,0,0,2
+1387012,2026-03-21,E1,2025,Derby,Birmingham,Derby,Birmingham,0,1,1,3,0,0,0,0,5
+1387013,2026-03-21,E1,2025,Hull City,Sheffield Wednesday,Hull,Sheffield Weds,1,2,0,1,0,0,0,0,4
+1387024,2026-04-03,E1,2025,Coventry,Derby,Coventry,Derby,0,0,1,1,0,0,0,0,2
+1387022,2026-04-03,E1,2025,Leicester,Preston,Leicester,Preston,0,0,2,2,0,0,0,0,4
+1387020,2026-04-03,E1,2025,Birmingham,Blackburn,Birmingham,Blackburn,0,0,1,0,0,0,0,0,1
+1387027,2026-04-03,E1,2025,West Brom,Wrexham,West Brom,Wrexham,0,2,1,0,0,0,0,0,3
+1387021,2026-04-03,E1,2025,Sheffield Utd,Swansea,Sheffield United,Swansea,0,1,1,0,0,0,0,0,2
+1387019,2026-04-03,E1,2025,Norwich,Portsmouth,Norwich,Portsmouth,0,3,3,2,0,0,0,0,8
+1387029,2026-04-03,E1,2025,Stoke City,Sheffield Wednesday,Stoke,Sheffield Weds,1,1,1,0,0,0,0,0,3
+1387030,2026-04-03,E1,2025,Charlton,Bristol City,Charlton,Bristol City,0,2,1,1,0,0,0,0,4
+1387023,2026-04-03,E1,2025,Oxford United,Hull City,Oxford,Hull,0,0,1,0,0,0,0,0,1
+1387026,2026-04-03,E1,2025,Middlesbrough,Millwall,Middlesbrough,Millwall,1,0,1,0,0,0,0,0,2
+1387025,2026-04-03,E1,2025,QPR,Watford,QPR,Watford,2,4,1,3,0,0,0,0,10
+1387042,2026-04-06,E1,2025,Bristol City,Sheffield Utd,Bristol City,Sheffield United,1,0,1,2,0,0,0,0,4
+1387041,2026-04-06,E1,2025,Swansea,Middlesbrough,Swansea,Middlesbrough,0,3,1,2,0,0,0,0,6
+1387033,2026-04-06,E1,2025,Watford,Charlton,Watford,Charlton,1,1,2,0,0,0,0,0,4
+1387032,2026-04-06,E1,2025,Ipswich,Birmingham,Ipswich,Birmingham,0,1,1,0,0,0,0,0,2
+1387035,2026-04-06,E1,2025,Hull City,Coventry,Hull,Coventry,0,1,0,1,0,0,0,0,2
+1387036,2026-04-06,E1,2025,Blackburn,West Brom,Blackburn,West Brom,3,0,0,2,0,0,0,0,5
+1387040,2026-04-06,E1,2025,Portsmouth,Oxford United,Portsmouth,Oxford,0,2,0,3,1,0,0,0,6
+1387038,2026-04-06,E1,2025,Millwall,Norwich,Millwall,Norwich,0,1,1,1,0,0,0,0,3
+1387039,2026-04-06,E1,2025,Preston,QPR,Preston,QPR,0,1,1,2,0,0,0,0,4
+1387034,2026-04-06,E1,2025,Derby,Stoke City,Derby,Stoke,0,2,1,0,0,0,0,0,3
+1387031,2026-04-06,E1,2025,Sheffield Wednesday,Leicester,Sheffield Weds,Leicester,0,0,0,0,0,0,0,0,11
+1387037,2026-04-07,E1,2025,Wrexham,Southampton,Wrexham,Southampton,1,1,0,3,0,0,0,0,5
+1387051,2026-04-10,E1,2025,West Brom,Millwall,West Brom,Millwall,0,1,0,2,0,0,0,0,3
+1387048,2026-04-11,E1,2025,Coventry,Sheffield Wednesday,Coventry,Sheffield Weds,0,0,1,2,0,0,0,0,3
+1387049,2026-04-11,E1,2025,QPR,Bristol City,QPR,Bristol City,1,3,0,2,0,0,0,0,6
+1387043,2026-04-11,E1,2025,Norwich,Ipswich,Norwich,Ipswich,2,3,3,2,0,0,0,0,10
+1387047,2026-04-11,E1,2025,Oxford United,Watford,Oxford,Watford,0,1,0,2,0,0,0,0,3
+1387054,2026-04-11,E1,2025,Charlton,Preston,Charlton,Preston,1,1,0,3,0,0,0,0,5
+1387052,2026-04-11,E1,2025,Stoke City,Blackburn,Stoke,Blackburn,0,5,3,0,0,1,0,0,9
+1387050,2026-04-11,E1,2025,Middlesbrough,Portsmouth,Middlesbrough,Portsmouth,0,1,1,3,0,0,0,0,5
+1387046,2026-04-11,E1,2025,Sheffield Utd,Hull City,Sheffield United,Hull,0,2,0,7,0,0,0,1,10
+1387045,2026-04-11,E1,2025,Leicester,Swansea,Leicester,Swansea,1,1,0,0,0,0,0,0,2
+1387053,2026-04-11,E1,2025,Southampton,Derby,Southampton,Derby,0,1,0,2,0,0,0,0,3
+1387044,2026-04-12,E1,2025,Birmingham,Wrexham,Birmingham,Wrexham,1,0,1,0,0,0,0,0,2
+1387087,2026-04-14,E1,2025,Southampton,Blackburn,Southampton,Blackburn,0,0,2,0,0,0,0,0,2
+1386857,2026-04-14,E1,2025,Portsmouth,Ipswich,Portsmouth,Ipswich,1,1,0,2,0,0,0,0,4
+1387061,2026-04-17,E1,2025,Blackburn,Coventry,Blackburn,Coventry,1,3,0,1,0,0,0,0,5
+1387058,2026-04-18,E1,2025,Watford,Sheffield Utd,Watford,Sheffield United,1,1,0,4,0,0,0,0,6
+1387066,2026-04-18,E1,2025,Bristol City,Norwich,Bristol City,Norwich,0,0,0,2,0,0,0,0,2
+1387064,2026-04-18,E1,2025,Preston,West Brom,Preston,West Brom,0,0,0,0,0,0,0,0,9
+1387055,2026-04-18,E1,2025,Sheffield Wednesday,Charlton,Sheffield Weds,Charlton,0,1,1,1,0,0,0,0,3
+1387060,2026-04-18,E1,2025,Hull City,Birmingham,Hull,Birmingham,1,3,0,4,0,0,0,0,8
+1387062,2026-04-18,E1,2025,Wrexham,Stoke City,Wrexham,Stoke,0,0,0,1,0,0,0,0,1
+1387063,2026-04-18,E1,2025,Millwall,QPR,Millwall,QPR,1,0,2,1,0,0,0,0,4
+1387059,2026-04-18,E1,2025,Derby,Oxford United,Derby,Oxford,1,3,0,1,0,0,0,0,5
+1387065,2026-04-18,E1,2025,Portsmouth,Leicester,Portsmouth,Leicester,0,2,1,2,0,0,0,0,5
+1387056,2026-04-18,E1,2025,Swansea,Southampton,Swansea,Southampton,2,0,2,0,0,0,0,0,4
+1387057,2026-04-19,E1,2025,Ipswich,Middlesbrough,Ipswich,Middlesbrough,0,2,0,4,0,0,0,0,6
+1387073,2026-04-21,E1,2025,Southampton,Bristol City,Southampton,Bristol City,1,2,0,3,0,0,0,0,6
+1387077,2026-04-21,E1,2025,Leicester,Hull City,Leicester,Hull,1,2,1,1,0,0,0,0,5
+1387072,2026-04-21,E1,2025,West Brom,Watford,West Brom,Watford,2,2,2,1,0,0,0,0,7
+1387067,2026-04-21,E1,2025,Norwich,Derby,Norwich,Derby,1,1,1,2,0,0,0,0,5
+1387074,2026-04-21,E1,2025,Stoke City,Millwall,Stoke,Millwall,0,0,2,1,0,0,0,0,3
+1387069,2026-04-21,E1,2025,Coventry,Portsmouth,Coventry,Portsmouth,0,0,1,0,0,0,0,0,1
+1387070,2026-04-21,E1,2025,QPR,Swansea,QPR,Swansea,1,2,0,1,0,0,0,0,4
+1387068,2026-04-21,E1,2025,Oxford United,Wrexham,Oxford,Wrexham,0,2,1,2,0,0,0,0,5
+1387075,2026-04-22,E1,2025,Charlton,Ipswich,Charlton,Ipswich,1,1,0,2,0,0,0,0,4
+1387071,2026-04-22,E1,2025,Middlesbrough,Sheffield Wednesday,Middlesbrough,Sheffield Weds,1,1,0,2,0,0,0,0,4
+1387078,2026-04-22,E1,2025,Sheffield Utd,Blackburn,Sheffield United,Blackburn,1,1,0,4,0,0,0,0,6
+1387076,2026-04-22,E1,2025,Birmingham,Preston,Birmingham,Preston,0,0,1,1,0,0,0,0,2
+1387080,2026-04-24,E1,2025,Leicester,Millwall,Leicester,Millwall,0,1,0,3,0,0,0,0,4
+1387085,2026-04-25,E1,2025,Charlton,Hull City,Charlton,Hull,2,0,1,0,0,0,0,0,3
+1387088,2026-04-25,E1,2025,West Brom,Ipswich,West Brom,Ipswich,0,2,1,2,0,0,0,0,5
+1387084,2026-04-25,E1,2025,Oxford United,Sheffield Wednesday,Oxford,Sheffield Weds,0,1,0,0,0,0,0,0,1
+1387086,2026-04-25,E1,2025,Stoke City,Portsmouth,Stoke,Portsmouth,0,0,0,2,0,0,0,0,2
+1387090,2026-04-25,E1,2025,QPR,Derby,QPR,Derby,0,1,0,3,0,0,0,0,4
+1387082,2026-04-25,E1,2025,Norwich,Swansea,Norwich,Swansea,0,3,2,3,0,0,0,0,8
+1387079,2026-04-25,E1,2025,Sheffield Utd,Preston,Sheffield United,Preston,0,0,2,1,0,0,0,0,3
+1387081,2026-04-25,E1,2025,Birmingham,Bristol City,Birmingham,Bristol City,1,2,0,1,0,0,0,0,4
+1387089,2026-04-25,E1,2025,Middlesbrough,Watford,Middlesbrough,Watford,0,1,0,2,0,0,0,0,3
+1387083,2026-04-26,E1,2025,Coventry,Wrexham,Coventry,Wrexham,1,1,1,1,0,0,0,0,4
+1387028,2026-04-28,E1,2025,Southampton,Ipswich,Southampton,Ipswich,0,0,0,2,0,0,0,0,2
+1387101,2026-05-02,E1,2025,Portsmouth,Birmingham,Portsmouth,Birmingham,1,1,0,2,0,0,0,0,4
+1387092,2026-05-02,E1,2025,Watford,Coventry,Watford,Coventry,1,1,1,0,0,0,0,0,3
+1387099,2026-05-02,E1,2025,Bristol City,Stoke City,Bristol City,Stoke,0,1,1,2,0,0,0,0,4
+1387098,2026-05-02,E1,2025,Wrexham,Middlesbrough,Wrexham,Middlesbrough,0,0,0,0,0,0,0,0,13
+1387097,2026-05-02,E1,2025,Millwall,Oxford United,Millwall,Oxford,1,0,0,0,0,0,0,0,1
+1387102,2026-05-02,E1,2025,Preston,Southampton,Preston,Southampton,2,1,0,1,0,0,0,0,4
+1387095,2026-05-02,E1,2025,Ipswich,QPR,Ipswich,QPR,0,2,0,1,0,0,0,0,3
+1387091,2026-05-02,E1,2025,Blackburn,Leicester,Blackburn,Leicester,0,1,0,1,0,0,0,0,2
+1387094,2026-05-02,E1,2025,Derby,Sheffield Utd,Derby,Sheffield United,2,2,1,2,0,0,0,0,7
+1387096,2026-05-02,E1,2025,Sheffield Wednesday,West Brom,Sheffield Weds,West Brom,1,2,1,1,0,0,0,0,5
+1387100,2026-05-02,E1,2025,Swansea,Charlton,Swansea,Charlton,0,0,0,0,0,0,0,0,14
+1387093,2026-05-02,E1,2025,Hull City,Norwich,Hull,Norwich,1,1,1,1,0,0,0,0,4
+1543786,2026-05-08,E1,2025,Hull City,Millwall,Hull,Millwall,0,0,0,1,0,0,0,0,1
+1543787,2026-05-09,E1,2025,Middlesbrough,Southampton,Middlesbrough,Southampton,0,0,0,2,0,0,0,0,2
+1543788,2026-05-11,E1,2025,Millwall,Hull City,Millwall,Hull,0,1,1,3,0,0,0,0,5
+1543789,2026-05-12,E1,2025,Southampton,Middlesbrough,Southampton,Middlesbrough,1,3,2,2,0,0,0,0,8
+1545715,2026-05-23,E1,2025,Hull City,Middlesbrough,Hull,Middlesbrough,0,1,0,0,0,0,0,0,1

@@ -192,6 +192,70 @@ def test_completeaza_numele_fara_cereri_noi() -> None:
                  f"numele local nu s-a completat: {df.iloc[0]['home']}")
 
 
+def test_repara_cronicile_lipsa() -> None:
+    """Randurile vechi n-au coloana; doar cele cu zero cartonase se recer."""
+    with tempfile.TemporaryDirectory() as t:
+        tmp = Path(t)
+        pd.DataFrame([
+            # Are cartonase: cronica exista, nu are rost sa mai intrebam.
+            {"fixture_id": 10, "date": "2026-09-01", "div": "E0", "season": 2026,
+             "home_api": "Arsenal", "away_api": "Chelsea",
+             "home": "Arsenal", "away": "Chelsea",
+             "hy1": 1, "hy2": 2, "ay1": 0, "ay2": 0,
+             "hr1": 0, "hr2": 0, "ar1": 0, "ar2": 0},
+            # Zero cartonase: ambiguu, se cere din nou.
+            {"fixture_id": 11, "date": "2026-09-02", "div": "E0", "season": 2026,
+             "home_api": "Arsenal", "away_api": "Chelsea",
+             "home": "Arsenal", "away": "Chelsea",
+             "hy1": 0, "hy2": 0, "ay1": 0, "ay2": 0,
+             "hr1": 0, "hr2": 0, "ar1": 0, "ar2": 0},
+        ]).to_csv(tmp / "E0_2026.csv", index=False)
+
+        cerute = []
+
+        def fetch(fixture_id):
+            cerute.append(fixture_id)
+            return [card(70, "Arsenal")]  # avea totusi cronica
+
+        with mock.patch.object(colector, "OUT", tmp), \
+             mock.patch.object(colector.time, "sleep", lambda s: None):
+            raport = colector.repara_evenimente(fetch=fetch)
+            df = colector.incarca().set_index("fixture_id")
+
+        verifica(cerute == [11], f"au fost recerute {cerute}, asteptat doar [11]")
+        verifica(raport["deduse"] == 1 and raport["recerute"] == 1,
+                 f"raport gresit: {raport}")
+        verifica(int(df.at[10, "evenimente"]) == 3,
+                 f"marginea de jos pentru meciul cu cartonase: {df.at[10, 'evenimente']}")
+        verifica(int(df.at[11, "evenimente"]) == 1 and int(df.at[11, "hy2"]) == 1,
+                 "cartonasul gasit la recerere nu a fost salvat")
+
+
+def test_repararea_respecta_bugetul() -> None:
+    with tempfile.TemporaryDirectory() as t:
+        tmp = Path(t)
+        pd.DataFrame([
+            {"fixture_id": 20 + i, "date": "2026-09-01", "div": "E0",
+             "season": 2026, "home_api": "Arsenal", "away_api": "Chelsea",
+             "home": "Arsenal", "away": "Chelsea",
+             "hy1": 0, "hy2": 0, "ay1": 0, "ay2": 0,
+             "hr1": 0, "hr2": 0, "ar1": 0, "ar2": 0}
+            for i in range(5)
+        ]).to_csv(tmp / "E0_2026.csv", index=False)
+
+        cerute = []
+
+        def fetch(fixture_id):
+            cerute.append(fixture_id)
+            return []
+
+        with mock.patch.object(colector, "OUT", tmp), \
+             mock.patch.object(colector.time, "sleep", lambda s: None):
+            colector.repara_evenimente(buget=2, fetch=fetch)
+
+        verifica(len(cerute) == 2, f"{len(cerute)} cereri in loc de doua")
+
+
 def main() -> int:
     for test in (test_repriza_dupa_minut,
                  test_rosu_si_al_doilea_galben,
@@ -200,7 +264,9 @@ def main() -> int:
                  test_bugetul_e_respectat,
                  test_datele_salvate_se_pot_reciti,
                  test_meciul_fara_cronica_nu_trece_drept_meci_fara_cartonase,
-                 test_completeaza_numele_fara_cereri_noi):
+                 test_completeaza_numele_fara_cereri_noi,
+                 test_repara_cronicile_lipsa,
+                 test_repararea_respecta_bugetul):
         test()
     if esecuri:
         print(f"ESUAT: {len(esecuri)}")

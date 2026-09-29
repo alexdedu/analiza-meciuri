@@ -1,78 +1,381 @@
-fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,ar1,ar2
-1379273,2026-03-21,E0,2025,Fulham,Burnley,Fulham,Burnley,0,2,1,1,0,0,0,1
-1379272,2026-03-21,E0,2025,Everton,Chelsea,Everton,Chelsea,0,0,0,2,0,0,0,0
-1379274,2026-03-21,E0,2025,Leeds,Brentford,Leeds,Brentford,2,0,0,0,0,0,0,0
-1379276,2026-03-22,E0,2025,Newcastle,Sunderland,Newcastle,Sunderland,0,1,1,5,0,0,0,0
-1379269,2026-03-22,E0,2025,Aston Villa,West Ham,Aston Villa,West Ham,0,0,1,0,0,0,0,0
-1379277,2026-03-22,E0,2025,Tottenham,Nottingham Forest,Tottenham,Nott'm Forest,0,1,0,2,0,0,0,0
-1379288,2026-04-10,E0,2025,West Ham,Wolves,West Ham,Wolves,1,1,2,0,0,0,0,0
-1379279,2026-04-11,E0,2025,Arsenal,Bournemouth,Arsenal,Bournemouth,0,1,0,3,0,0,0,0
-1379280,2026-04-11,E0,2025,Brentford,Everton,Brentford,Everton,0,0,1,1,0,0,0,0
-1379281,2026-04-11,E0,2025,Burnley,Brighton,Burnley,Brighton,1,1,0,1,0,0,0,0
-1379284,2026-04-11,E0,2025,Liverpool,Fulham,Liverpool,Fulham,0,0,0,0,0,0,0,0
-1379287,2026-04-12,E0,2025,Sunderland,Tottenham,Sunderland,Tottenham,1,2,3,0,0,0,0,0
-1379286,2026-04-12,E0,2025,Nottingham Forest,Aston Villa,Nott'm Forest,Aston Villa,1,1,1,1,0,0,0,0
-1379283,2026-04-12,E0,2025,Crystal Palace,Newcastle,Crystal Palace,Newcastle,0,0,0,3,0,0,0,0
-1379282,2026-04-12,E0,2025,Chelsea,Manchester City,Chelsea,Man City,1,2,1,0,0,0,0,0
-1379285,2026-04-13,E0,2025,Manchester United,Leeds,Man United,Leeds,1,2,1,1,0,1,0,0
-1379296,2026-04-18,E0,2025,Newcastle,Bournemouth,Newcastle,Bournemouth,0,2,0,4,0,0,0,0
-1379291,2026-04-18,E0,2025,Chelsea,Manchester United,Chelsea,Man United,1,0,1,2,0,0,0,0
-1379298,2026-04-18,E0,2025,Tottenham,Brighton,Tottenham,Brighton,1,2,1,0,0,0,0,0
-1379290,2026-04-18,E0,2025,Brentford,Fulham,Brentford,Fulham,0,0,1,0,0,0,0,0
-1379294,2026-04-18,E0,2025,Leeds,Wolves,Leeds,Wolves,0,2,0,1,0,0,0,0
-1379289,2026-04-19,E0,2025,Aston Villa,Sunderland,Aston Villa,Sunderland,0,1,0,3,0,0,0,0
-1379297,2026-04-19,E0,2025,Nottingham Forest,Burnley,Nott'm Forest,Burnley,0,0,0,2,0,0,0,0
-1379293,2026-04-19,E0,2025,Everton,Liverpool,Everton,Liverpool,1,1,0,0,0,0,0,0
-1379295,2026-04-19,E0,2025,Manchester City,Arsenal,Man City,Arsenal,0,2,1,1,0,0,0,0
-1379292,2026-04-20,E0,2025,Crystal Palace,West Ham,Crystal Palace,West Ham,1,1,0,1,0,0,0,0
-1379301,2026-04-21,E0,2025,Brighton,Chelsea,Brighton,Chelsea,0,1,1,0,0,0,0,0
-1379300,2026-04-22,E0,2025,Bournemouth,Leeds,Bournemouth,Leeds,2,1,0,0,0,0,0,0
-1379302,2026-04-22,E0,2025,Burnley,Manchester City,Burnley,Man City,0,0,0,0,0,0,0,0
-1379306,2026-04-24,E0,2025,Sunderland,Nottingham Forest,Sunderland,Nott'm Forest,0,2,0,5,0,0,0,0
-1379303,2026-04-25,E0,2025,Fulham,Aston Villa,Fulham,Aston Villa,0,2,0,2,0,0,0,0
-1379307,2026-04-25,E0,2025,West Ham,Everton,West Ham,Everton,0,3,1,3,0,0,0,0
-1379304,2026-04-25,E0,2025,Liverpool,Crystal Palace,Liverpool,Crystal Palace,0,1,2,1,0,0,0,0
-1379308,2026-04-25,E0,2025,Wolves,Tottenham,Wolves,Tottenham,1,2,0,4,0,0,0,0
-1379299,2026-04-25,E0,2025,Arsenal,Newcastle,Arsenal,Newcastle,0,2,0,2,0,0,0,0
-1379305,2026-04-27,E0,2025,Manchester United,Brentford,Man United,Brentford,1,1,1,3,0,0,0,0
-1379315,2026-05-01,E0,2025,Leeds,Burnley,Leeds,Burnley,2,2,2,1,0,0,0,0
-1379312,2026-05-02,E0,2025,Brentford,West Ham,Brentford,West Ham,0,1,0,3,0,0,0,0
-1379318,2026-05-02,E0,2025,Wolves,Sunderland,Wolves,Sunderland,0,0,1,3,0,0,1,0
-1379309,2026-05-02,E0,2025,Arsenal,Fulham,Arsenal,Fulham,0,0,1,0,0,0,0,0
-1379317,2026-05-02,E0,2025,Newcastle,Brighton,Newcastle,Brighton,0,3,2,1,0,0,0,0
-1379311,2026-05-03,E0,2025,Bournemouth,Crystal Palace,Bournemouth,Crystal Palace,0,0,2,0,0,0,0,0
-1379316,2026-05-03,E0,2025,Manchester United,Liverpool,Man United,Liverpool,0,2,0,2,0,0,0,0
-1379310,2026-05-03,E0,2025,Aston Villa,Tottenham,Aston Villa,Tottenham,0,2,2,3,0,0,0,0
-1379313,2026-05-04,E0,2025,Chelsea,Nottingham Forest,Chelsea,Nott'm Forest,1,2,1,0,0,0,0,0
-1379314,2026-05-04,E0,2025,Everton,Manchester City,Everton,Man City,1,3,0,1,0,0,0,0
-1379322,2026-05-09,E0,2025,Fulham,Bournemouth,Fulham,Bournemouth,0,4,1,1,1,0,1,0
-1379324,2026-05-09,E0,2025,Manchester City,Brentford,Man City,Brentford,1,3,0,2,0,0,0,0
-1379326,2026-05-09,E0,2025,Sunderland,Manchester United,Sunderland,Man United,0,0,0,3,0,0,0,0
-1379323,2026-05-09,E0,2025,Liverpool,Chelsea,Liverpool,Chelsea,0,2,0,4,0,0,0,0
-1379319,2026-05-09,E0,2025,Brighton,Wolves,Brighton,Wolves,1,0,0,2,0,0,0,0
-1379325,2026-05-10,E0,2025,Nottingham Forest,Newcastle,Nott'm Forest,Newcastle,0,2,0,0,0,0,0,0
-1379321,2026-05-10,E0,2025,Crystal Palace,Everton,Crystal Palace,Everton,0,0,2,0,0,0,0,0
-1379320,2026-05-10,E0,2025,Burnley,Aston Villa,Burnley,Aston Villa,0,1,0,1,0,0,0,0
-1379328,2026-05-10,E0,2025,West Ham,Arsenal,West Ham,Arsenal,2,1,0,4,0,0,0,0
-1379327,2026-05-11,E0,2025,Tottenham,Leeds,Tottenham,Leeds,1,2,0,1,0,0,0,0
-1379275,2026-05-13,E0,2025,Manchester City,Crystal Palace,Man City,Crystal Palace,0,0,0,2,0,0,0,0
-1379330,2026-05-15,E0,2025,Aston Villa,Liverpool,Aston Villa,Liverpool,2,1,0,1,0,0,0,0
-1379337,2026-05-17,E0,2025,Newcastle,West Ham,Newcastle,West Ham,0,1,0,3,0,0,0,0
-1379338,2026-05-17,E0,2025,Wolves,Fulham,Wolves,Fulham,0,1,0,0,0,0,0,0
-1379336,2026-05-17,E0,2025,Manchester United,Nottingham Forest,Man United,Nott'm Forest,0,2,0,1,0,0,0,0
-1379332,2026-05-17,E0,2025,Brentford,Crystal Palace,Brentford,Crystal Palace,0,1,0,3,0,0,0,0
-1379335,2026-05-17,E0,2025,Leeds,Brighton,Leeds,Brighton,0,1,0,0,0,0,0,0
-1379334,2026-05-17,E0,2025,Everton,Sunderland,Everton,Sunderland,1,2,0,0,0,0,0,0
-1379329,2026-05-18,E0,2025,Arsenal,Burnley,Arsenal,Burnley,0,1,1,2,0,0,0,0
-1379331,2026-05-19,E0,2025,Bournemouth,Manchester City,Bournemouth,Man City,1,3,0,2,0,0,0,0
-1379333,2026-05-19,E0,2025,Chelsea,Tottenham,Chelsea,Tottenham,0,4,2,1,0,0,0,0
-1379346,2026-05-24,E0,2025,Sunderland,Chelsea,Sunderland,Chelsea,1,4,0,5,0,0,0,1
-1379345,2026-05-24,E0,2025,Nottingham Forest,Bournemouth,Nott'm Forest,Bournemouth,0,1,1,0,0,0,0,0
-1379341,2026-05-24,E0,2025,Crystal Palace,Arsenal,Crystal Palace,Arsenal,0,0,0,1,0,0,0,0
-1379339,2026-05-24,E0,2025,Brighton,Manchester United,Brighton,Man United,0,0,1,0,0,0,0,0
-1379344,2026-05-24,E0,2025,Manchester City,Aston Villa,Man City,Aston Villa,0,1,0,0,0,0,0,0
-1379348,2026-05-24,E0,2025,West Ham,Leeds,West Ham,Leeds,0,0,2,1,0,0,0,0
-1379347,2026-05-24,E0,2025,Tottenham,Everton,Tottenham,Everton,0,3,1,1,0,0,0,0
-1379340,2026-05-24,E0,2025,Burnley,Wolves,Burnley,Wolves,1,1,1,1,0,0,0,0
-1379343,2026-05-24,E0,2025,Liverpool,Brentford,Liverpool,Brentford,0,2,1,2,0,0,0,0
-1379342,2026-05-24,E0,2025,Fulham,Newcastle,Fulham,Newcastle,0,2,0,2,0,0,0,0
+fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,ar1,ar2,evenimente
+1378969,2025-08-15,E0,2025,Liverpool,Bournemouth,Liverpool,Bournemouth,1,0,1,1,0,0,0,0,3
+1378975,2025-08-16,E0,2025,Wolves,Manchester City,Wolves,Man City,0,1,0,2,0,0,0,0,3
+1378974,2025-08-16,E0,2025,Tottenham,Burnley,Tottenham,Burnley,0,0,0,0,0,0,0,0,13
+1378970,2025-08-16,E0,2025,Aston Villa,Newcastle,Aston Villa,Newcastle,0,1,1,0,0,1,0,0,3
+1378973,2025-08-16,E0,2025,Sunderland,West Ham,Sunderland,West Ham,0,0,0,1,0,0,0,0,1
+1378971,2025-08-16,E0,2025,Brighton,Fulham,Brighton,Fulham,0,3,1,2,0,0,0,0,6
+1378972,2025-08-17,E0,2025,Nottingham Forest,Brentford,Nott'm Forest,Brentford,0,1,0,2,0,0,0,0,3
+1378976,2025-08-17,E0,2025,Chelsea,Crystal Palace,Chelsea,Crystal Palace,1,1,2,1,0,0,0,0,5
+1378977,2025-08-17,E0,2025,Manchester United,Arsenal,Man United,Arsenal,0,1,1,3,0,0,0,0,5
+1378978,2025-08-18,E0,2025,Leeds,Everton,Leeds,Everton,0,0,0,2,0,0,0,0,2
+1378988,2025-08-22,E0,2025,West Ham,Chelsea,West Ham,Chelsea,0,0,0,1,0,0,0,0,1
+1378986,2025-08-23,E0,2025,Manchester City,Tottenham,Man City,Tottenham,0,1,1,3,0,0,0,0,5
+1378981,2025-08-23,E0,2025,Brentford,Aston Villa,Brentford,Aston Villa,0,1,0,2,0,0,0,0,3
+1378982,2025-08-23,E0,2025,Burnley,Sunderland,Burnley,Sunderland,0,0,1,0,0,0,0,0,1
+1378980,2025-08-23,E0,2025,Bournemouth,Wolves,Bournemouth,Wolves,0,2,1,3,0,0,0,1,7
+1378979,2025-08-23,E0,2025,Arsenal,Leeds,Arsenal,Leeds,0,0,1,1,0,0,0,0,2
+1378985,2025-08-24,E0,2025,Fulham,Manchester United,Fulham,Man United,0,1,1,0,0,0,0,0,2
+1378983,2025-08-24,E0,2025,Crystal Palace,Nottingham Forest,Crystal Palace,Nott'm Forest,1,2,0,3,0,0,0,0,6
+1378984,2025-08-24,E0,2025,Everton,Brighton,Everton,Brighton,1,3,2,1,0,0,0,0,7
+1378987,2025-08-25,E0,2025,Newcastle,Liverpool,Newcastle,Liverpool,1,1,2,1,1,0,0,0,6
+1378991,2025-08-30,E0,2025,Chelsea,Fulham,Chelsea,Fulham,1,1,0,2,0,0,0,0,4
+1378996,2025-08-30,E0,2025,Sunderland,Brentford,Sunderland,Brentford,0,3,0,2,0,0,0,0,5
+1378997,2025-08-30,E0,2025,Tottenham,Bournemouth,Tottenham,Bournemouth,1,1,1,3,0,0,0,0,6
+1378998,2025-08-30,E0,2025,Wolves,Everton,Wolves,Everton,0,0,1,0,0,0,0,0,1
+1378994,2025-08-30,E0,2025,Manchester United,Burnley,Man United,Burnley,0,1,0,5,0,0,0,0,6
+1378992,2025-08-30,E0,2025,Leeds,Newcastle,Leeds,Newcastle,1,0,1,0,0,0,0,0,2
+1378989,2025-08-31,E0,2025,Aston Villa,Crystal Palace,Aston Villa,Crystal Palace,2,0,1,2,0,0,0,0,5
+1378995,2025-08-31,E0,2025,Nottingham Forest,West Ham,Nott'm Forest,West Ham,0,0,0,0,0,0,0,0,10
+1378990,2025-08-31,E0,2025,Brighton,Manchester City,Brighton,Man City,1,1,0,2,0,0,0,0,4
+1378993,2025-08-31,E0,2025,Liverpool,Arsenal,Liverpool,Arsenal,1,1,0,2,0,0,0,0,4
+1378999,2025-09-13,E0,2025,Arsenal,Nottingham Forest,Arsenal,Nott'm Forest,0,1,0,1,0,0,0,0,2
+1379003,2025-09-13,E0,2025,Crystal Palace,Sunderland,Crystal Palace,Sunderland,1,0,0,1,0,0,0,0,2
+1379004,2025-09-13,E0,2025,Everton,Aston Villa,Everton,Aston Villa,1,2,1,2,0,0,0,0,6
+1379005,2025-09-13,E0,2025,Fulham,Leeds,Fulham,Leeds,0,1,1,1,0,0,0,0,3
+1379000,2025-09-13,E0,2025,Bournemouth,Brighton,Bournemouth,Brighton,3,1,1,3,0,0,0,0,8
+1379007,2025-09-13,E0,2025,Newcastle,Wolves,Newcastle,Wolves,0,1,2,2,0,0,0,0,5
+1379008,2025-09-13,E0,2025,West Ham,Tottenham,West Ham,Tottenham,0,0,0,1,0,1,0,0,2
+1379001,2025-09-13,E0,2025,Brentford,Chelsea,Brentford,Chelsea,1,2,1,1,0,0,0,0,5
+1379002,2025-09-14,E0,2025,Burnley,Liverpool,Burnley,Liverpool,1,1,1,1,0,1,0,0,5
+1379006,2025-09-14,E0,2025,Manchester City,Manchester United,Man City,Man United,0,0,0,0,0,0,0,0,11
+1379014,2025-09-20,E0,2025,Liverpool,Everton,Liverpool,Everton,0,2,1,2,0,0,0,0,5
+1379011,2025-09-20,E0,2025,Brighton,Tottenham,Brighton,Tottenham,0,1,0,2,0,0,0,0,3
+1379017,2025-09-20,E0,2025,West Ham,Crystal Palace,West Ham,Crystal Palace,1,2,1,2,0,0,0,0,6
+1379012,2025-09-20,E0,2025,Burnley,Nottingham Forest,Burnley,Nott'm Forest,1,0,0,1,0,0,0,0,2
+1379018,2025-09-20,E0,2025,Wolves,Leeds,Wolves,Leeds,1,0,1,0,0,0,0,0,2
+1379015,2025-09-20,E0,2025,Manchester United,Chelsea,Man United,Chelsea,2,0,1,4,1,0,1,0,9
+1379013,2025-09-20,E0,2025,Fulham,Brentford,Fulham,Brentford,1,3,0,1,0,0,0,0,5
+1379009,2025-09-21,E0,2025,Arsenal,Manchester City,Arsenal,Man City,0,1,1,1,0,0,0,0,3
+1379010,2025-09-21,E0,2025,Bournemouth,Newcastle,Bournemouth,Newcastle,1,1,0,1,0,0,0,0,3
+1379016,2025-09-21,E0,2025,Sunderland,Aston Villa,Sunderland,Aston Villa,0,2,0,1,1,0,0,0,4
+1379020,2025-09-27,E0,2025,Brentford,Manchester United,Brentford,Man United,0,2,0,2,0,0,0,0,4
+1379024,2025-09-27,E0,2025,Leeds,Bournemouth,Leeds,Bournemouth,0,2,1,1,0,0,0,0,4
+1379022,2025-09-27,E0,2025,Crystal Palace,Liverpool,Crystal Palace,Liverpool,0,1,1,2,0,0,0,0,4
+1379025,2025-09-27,E0,2025,Manchester City,Burnley,Man City,Burnley,0,1,2,1,0,0,0,0,4
+1379021,2025-09-27,E0,2025,Chelsea,Brighton,Chelsea,Brighton,1,2,1,4,0,1,0,0,9
+1379027,2025-09-27,E0,2025,Nottingham Forest,Sunderland,Nott'm Forest,Sunderland,2,2,2,0,0,0,0,0,6
+1379028,2025-09-27,E0,2025,Tottenham,Wolves,Tottenham,Wolves,1,2,2,0,0,0,0,0,5
+1379019,2025-09-28,E0,2025,Aston Villa,Fulham,Aston Villa,Fulham,1,0,3,1,0,0,0,0,5
+1379026,2025-09-28,E0,2025,Newcastle,Arsenal,Newcastle,Arsenal,0,2,0,1,0,0,0,0,3
+1379023,2025-09-29,E0,2025,Everton,West Ham,Everton,West Ham,1,2,1,3,0,0,0,0,7
+1379031,2025-10-03,E0,2025,Bournemouth,Fulham,Bournemouth,Fulham,0,0,0,1,0,0,0,0,1
+1379033,2025-10-04,E0,2025,Chelsea,Liverpool,Chelsea,Liverpool,0,0,1,1,0,0,0,0,2
+1379035,2025-10-04,E0,2025,Leeds,Tottenham,Leeds,Tottenham,0,2,2,1,0,0,0,0,5
+1379029,2025-10-04,E0,2025,Arsenal,West Ham,Arsenal,West Ham,0,0,0,2,0,0,0,0,2
+1379036,2025-10-04,E0,2025,Manchester United,Sunderland,Man United,Sunderland,0,1,2,2,0,0,0,0,5
+1379030,2025-10-05,E0,2025,Aston Villa,Burnley,Aston Villa,Burnley,0,3,1,0,0,0,0,0,4
+1379034,2025-10-05,E0,2025,Everton,Crystal Palace,Everton,Crystal Palace,0,2,0,3,0,0,0,0,5
+1379038,2025-10-05,E0,2025,Wolves,Brighton,Wolves,Brighton,0,2,4,0,0,0,0,0,6
+1379037,2025-10-05,E0,2025,Newcastle,Nottingham Forest,Newcastle,Nott'm Forest,0,0,2,2,0,0,0,0,4
+1379032,2025-10-05,E0,2025,Brentford,Manchester City,Brentford,Man City,1,2,0,2,0,0,0,0,5
+1379040,2025-10-18,E0,2025,Burnley,Leeds,Burnley,Leeds,0,2,0,1,0,0,0,0,3
+1379042,2025-10-18,E0,2025,Fulham,Arsenal,Fulham,Arsenal,0,0,0,0,0,0,0,0,10
+1379044,2025-10-18,E0,2025,Manchester City,Everton,Man City,Everton,0,0,1,1,0,0,0,0,2
+1379046,2025-10-18,E0,2025,Sunderland,Wolves,Sunderland,Wolves,0,0,0,0,0,0,0,0,10
+1379041,2025-10-18,E0,2025,Crystal Palace,Bournemouth,Crystal Palace,Bournemouth,0,1,2,2,0,0,0,0,5
+1379045,2025-10-18,E0,2025,Nottingham Forest,Chelsea,Nott'm Forest,Chelsea,1,1,0,4,0,0,0,1,7
+1379039,2025-10-18,E0,2025,Brighton,Newcastle,Brighton,Newcastle,0,0,0,1,0,0,0,0,1
+1379047,2025-10-19,E0,2025,Tottenham,Aston Villa,Tottenham,Aston Villa,1,1,0,0,0,0,0,0,2
+1379043,2025-10-19,E0,2025,Liverpool,Manchester United,Liverpool,Man United,0,0,0,2,0,0,0,0,2
+1379048,2025-10-20,E0,2025,West Ham,Brentford,West Ham,Brentford,0,1,0,1,0,0,0,0,2
+1379055,2025-10-24,E0,2025,Leeds,West Ham,Leeds,West Ham,0,3,1,2,0,0,0,0,6
+1379052,2025-10-25,E0,2025,Brentford,Liverpool,Brentford,Liverpool,0,3,1,1,0,0,0,0,5
+1379056,2025-10-25,E0,2025,Manchester United,Brighton,Man United,Brighton,0,2,1,1,0,0,0,0,4
+1379053,2025-10-25,E0,2025,Chelsea,Sunderland,Chelsea,Sunderland,0,1,0,1,0,0,0,0,2
+1379057,2025-10-25,E0,2025,Newcastle,Fulham,Newcastle,Fulham,0,0,1,1,0,0,0,0,2
+1379050,2025-10-26,E0,2025,Aston Villa,Manchester City,Aston Villa,Man City,0,1,1,3,0,0,0,0,5
+1379049,2025-10-26,E0,2025,Arsenal,Crystal Palace,Arsenal,Crystal Palace,0,0,0,0,0,0,0,0,11
+1379058,2025-10-26,E0,2025,Wolves,Burnley,Wolves,Burnley,1,0,0,0,0,0,0,0,1
+1379051,2025-10-26,E0,2025,Bournemouth,Nottingham Forest,Bournemouth,Nott'm Forest,1,2,1,0,0,0,0,0,4
+1379054,2025-10-26,E0,2025,Everton,Tottenham,Everton,Tottenham,0,2,0,0,0,0,0,0,2
+1379063,2025-11-01,E0,2025,Liverpool,Aston Villa,Liverpool,Aston Villa,0,2,0,3,0,0,0,0,5
+1379062,2025-11-01,E0,2025,Fulham,Wolves,Fulham,Wolves,0,1,1,2,0,0,1,0,5
+1379067,2025-11-01,E0,2025,Tottenham,Chelsea,Tottenham,Chelsea,1,3,1,1,0,0,0,0,6
+1379059,2025-11-01,E0,2025,Brighton,Leeds,Brighton,Leeds,0,0,0,1,0,0,0,0,1
+1379060,2025-11-01,E0,2025,Burnley,Arsenal,Burnley,Arsenal,1,1,0,1,0,0,0,0,3
+1379061,2025-11-01,E0,2025,Crystal Palace,Brentford,Crystal Palace,Brentford,0,0,1,2,0,0,0,0,3
+1379065,2025-11-01,E0,2025,Nottingham Forest,Manchester United,Nott'm Forest,Man United,0,1,0,1,0,0,0,0,2
+1379068,2025-11-02,E0,2025,West Ham,Newcastle,West Ham,Newcastle,0,1,1,1,0,0,0,0,3
+1379064,2025-11-02,E0,2025,Manchester City,Bournemouth,Man City,Bournemouth,2,0,0,2,0,0,0,0,4
+1379066,2025-11-03,E0,2025,Sunderland,Everton,Sunderland,Everton,2,1,1,1,0,0,0,0,5
+1379078,2025-11-08,E0,2025,West Ham,Burnley,West Ham,Burnley,1,1,0,2,0,0,0,0,4
+1379073,2025-11-08,E0,2025,Everton,Fulham,Everton,Fulham,1,1,2,0,0,0,0,0,4
+1379076,2025-11-08,E0,2025,Sunderland,Arsenal,Sunderland,Arsenal,1,1,1,0,0,0,0,0,3
+1379071,2025-11-08,E0,2025,Chelsea,Wolves,Chelsea,Wolves,0,1,0,2,0,0,0,0,3
+1379077,2025-11-08,E0,2025,Tottenham,Manchester United,Tottenham,Man United,2,3,0,1,0,0,0,0,6
+1379069,2025-11-09,E0,2025,Aston Villa,Bournemouth,Aston Villa,Bournemouth,2,0,2,0,0,0,0,0,4
+1379075,2025-11-09,E0,2025,Nottingham Forest,Leeds,Nott'm Forest,Leeds,2,0,0,1,0,0,0,0,3
+1379070,2025-11-09,E0,2025,Brentford,Newcastle,Brentford,Newcastle,0,2,0,3,0,0,0,1,6
+1379072,2025-11-09,E0,2025,Crystal Palace,Brighton,Crystal Palace,Brighton,0,1,0,4,0,0,0,0,5
+1379074,2025-11-09,E0,2025,Manchester City,Liverpool,Man City,Liverpool,2,0,1,3,0,0,0,0,6
+1379087,2025-11-22,E0,2025,Newcastle,Manchester City,Newcastle,Man City,0,1,1,2,0,0,0,0,4
+1379080,2025-11-22,E0,2025,Bournemouth,West Ham,Bournemouth,West Ham,1,2,1,1,0,0,0,0,5
+1379083,2025-11-22,E0,2025,Fulham,Sunderland,Fulham,Sunderland,0,3,1,2,0,0,0,0,6
+1379081,2025-11-22,E0,2025,Brighton,Brentford,Brighton,Brentford,1,3,1,1,0,0,0,0,6
+1379085,2025-11-22,E0,2025,Liverpool,Nottingham Forest,Liverpool,Nott'm Forest,0,2,0,0,0,0,0,0,2
+1379082,2025-11-22,E0,2025,Burnley,Chelsea,Burnley,Chelsea,0,2,1,2,0,0,0,0,5
+1379088,2025-11-22,E0,2025,Wolves,Crystal Palace,Wolves,Crystal Palace,0,2,1,2,0,0,0,0,5
+1379084,2025-11-23,E0,2025,Leeds,Aston Villa,Leeds,Aston Villa,2,3,0,1,0,0,0,0,6
+1379079,2025-11-23,E0,2025,Arsenal,Tottenham,Arsenal,Tottenham,0,1,1,2,0,0,0,0,4
+1379086,2025-11-24,E0,2025,Manchester United,Everton,Man United,Everton,1,1,0,0,0,0,1,0,3
+1379097,2025-11-29,E0,2025,Tottenham,Fulham,Tottenham,Fulham,1,2,0,2,0,0,0,0,5
+1379093,2025-11-29,E0,2025,Everton,Newcastle,Everton,Newcastle,0,0,0,0,0,0,0,0,15
+1379090,2025-11-29,E0,2025,Brentford,Burnley,Brentford,Burnley,0,0,1,1,0,0,0,0,2
+1379096,2025-11-29,E0,2025,Sunderland,Bournemouth,Sunderland,Bournemouth,1,4,1,4,0,0,0,1,11
+1379094,2025-11-29,E0,2025,Manchester City,Leeds,Man City,Leeds,0,4,0,1,0,0,0,0,5
+1379092,2025-11-30,E0,2025,Crystal Palace,Manchester United,Crystal Palace,Man United,0,3,1,1,0,0,0,0,5
+1379089,2025-11-30,E0,2025,Aston Villa,Wolves,Aston Villa,Wolves,0,0,1,3,0,0,0,0,4
+1379095,2025-11-30,E0,2025,Nottingham Forest,Brighton,Nott'm Forest,Brighton,0,0,1,0,0,0,0,0,1
+1379098,2025-11-30,E0,2025,West Ham,Liverpool,West Ham,Liverpool,0,3,0,0,0,1,0,0,4
+1379091,2025-11-30,E0,2025,Chelsea,Arsenal,Chelsea,Arsenal,1,0,4,2,1,0,0,0,8
+1379103,2025-12-02,E0,2025,Fulham,Manchester City,Fulham,Man City,0,0,0,1,0,0,0,0,1
+1379100,2025-12-02,E0,2025,Bournemouth,Everton,Bournemouth,Everton,1,2,1,2,0,0,0,0,6
+1379107,2025-12-02,E0,2025,Newcastle,Tottenham,Newcastle,Tottenham,0,0,1,2,0,0,0,0,3
+1379105,2025-12-03,E0,2025,Liverpool,Sunderland,Liverpool,Sunderland,0,1,0,1,0,0,0,0,2
+1379104,2025-12-03,E0,2025,Leeds,Chelsea,Leeds,Chelsea,1,0,1,0,0,0,0,0,2
+1379101,2025-12-03,E0,2025,Brighton,Aston Villa,Brighton,Aston Villa,1,1,0,2,0,0,0,0,4
+1379099,2025-12-03,E0,2025,Arsenal,Brentford,Arsenal,Brentford,0,0,0,1,0,0,0,0,1
+1379102,2025-12-03,E0,2025,Burnley,Crystal Palace,Burnley,Crystal Palace,0,0,0,0,0,0,0,0,10
+1379108,2025-12-03,E0,2025,Wolves,Nottingham Forest,Wolves,Nott'm Forest,0,2,1,1,0,0,0,0,4
+1379106,2025-12-04,E0,2025,Manchester United,West Ham,Man United,West Ham,1,1,1,1,0,0,0,0,4
+1379114,2025-12-06,E0,2025,Leeds,Liverpool,Leeds,Liverpool,2,1,1,2,0,0,0,0,6
+1379116,2025-12-06,E0,2025,Newcastle,Burnley,Newcastle,Burnley,0,2,1,1,0,0,1,0,5
+1379110,2025-12-06,E0,2025,Bournemouth,Chelsea,Bournemouth,Chelsea,0,0,0,2,0,0,0,0,2
+1379117,2025-12-06,E0,2025,Tottenham,Brentford,Tottenham,Brentford,1,2,2,2,0,0,0,0,7
+1379115,2025-12-06,E0,2025,Manchester City,Sunderland,Man City,Sunderland,1,0,0,0,0,0,0,1,2
+1379109,2025-12-06,E0,2025,Aston Villa,Arsenal,Aston Villa,Arsenal,0,0,0,2,0,0,0,0,2
+1379112,2025-12-06,E0,2025,Everton,Nottingham Forest,Everton,Nott'm Forest,0,4,2,1,0,0,0,0,7
+1379111,2025-12-07,E0,2025,Brighton,West Ham,Brighton,West Ham,1,1,0,2,0,0,0,0,4
+1379113,2025-12-07,E0,2025,Fulham,Crystal Palace,Fulham,Crystal Palace,0,0,0,0,0,0,0,0,13
+1379118,2025-12-08,E0,2025,Wolves,Manchester United,Wolves,Man United,1,2,1,1,0,0,0,0,5
+1379121,2025-12-13,E0,2025,Burnley,Fulham,Burnley,Fulham,0,1,1,1,0,0,0,0,3
+1379119,2025-12-13,E0,2025,Arsenal,Wolves,Arsenal,Wolves,0,0,0,4,0,0,0,0,4
+1379122,2025-12-13,E0,2025,Chelsea,Everton,Chelsea,Everton,0,1,0,0,0,0,0,0,1
+1379124,2025-12-13,E0,2025,Liverpool,Brighton,Liverpool,Brighton,0,1,1,1,0,0,0,0,3
+1379127,2025-12-14,E0,2025,Sunderland,Newcastle,Sunderland,Newcastle,2,3,0,4,0,0,0,0,9
+1379126,2025-12-14,E0,2025,Nottingham Forest,Tottenham,Nott'm Forest,Tottenham,1,0,1,2,0,0,0,0,4
+1379123,2025-12-14,E0,2025,Crystal Palace,Manchester City,Crystal Palace,Man City,0,2,0,0,0,0,0,0,2
+1379128,2025-12-14,E0,2025,West Ham,Aston Villa,West Ham,Aston Villa,0,1,2,0,0,0,0,0,3
+1379120,2025-12-14,E0,2025,Brentford,Leeds,Brentford,Leeds,0,0,0,0,0,0,0,0,11
+1379125,2025-12-15,E0,2025,Manchester United,Bournemouth,Man United,Bournemouth,1,1,1,2,0,0,0,0,5
+1379137,2025-12-20,E0,2025,Tottenham,Liverpool,Tottenham,Liverpool,0,5,0,3,1,1,0,0,10
+1379134,2025-12-20,E0,2025,Leeds,Crystal Palace,Leeds,Crystal Palace,0,1,2,1,0,0,0,0,4
+1379130,2025-12-20,E0,2025,Bournemouth,Burnley,Bournemouth,Burnley,0,1,1,0,0,0,0,0,2
+1379132,2025-12-20,E0,2025,Everton,Arsenal,Everton,Arsenal,2,0,0,2,0,0,0,0,4
+1379135,2025-12-20,E0,2025,Manchester City,West Ham,Man City,West Ham,1,0,1,0,0,0,0,0,2
+1379131,2025-12-20,E0,2025,Brighton,Sunderland,Brighton,Sunderland,2,0,0,2,0,0,0,0,4
+1379136,2025-12-20,E0,2025,Newcastle,Chelsea,Newcastle,Chelsea,0,3,3,3,0,0,0,0,9
+1379138,2025-12-20,E0,2025,Wolves,Brentford,Wolves,Brentford,2,0,2,2,0,0,0,0,6
+1379129,2025-12-21,E0,2025,Aston Villa,Manchester United,Aston Villa,Man United,0,1,0,2,0,0,0,0,3
+1379133,2025-12-22,E0,2025,Fulham,Nottingham Forest,Fulham,Nott'm Forest,1,4,1,3,0,0,0,0,9
+1379145,2025-12-26,E0,2025,Manchester United,Newcastle,Man United,Newcastle,0,2,0,1,0,0,0,0,3
+1379144,2025-12-27,E0,2025,Liverpool,Wolves,Liverpool,Wolves,0,0,0,1,0,0,0,0,1
+1379139,2025-12-27,E0,2025,Arsenal,Brighton,Arsenal,Brighton,0,2,1,2,0,0,0,0,5
+1379142,2025-12-27,E0,2025,Chelsea,Aston Villa,Chelsea,Aston Villa,0,5,1,2,0,0,0,0,8
+1379148,2025-12-27,E0,2025,West Ham,Fulham,West Ham,Fulham,1,0,0,3,0,0,0,0,4
+1379140,2025-12-27,E0,2025,Brentford,Bournemouth,Brentford,Bournemouth,0,2,0,2,0,0,0,0,4
+1379146,2025-12-27,E0,2025,Nottingham Forest,Manchester City,Nott'm Forest,Man City,1,0,1,1,0,0,0,0,3
+1379141,2025-12-27,E0,2025,Burnley,Everton,Burnley,Everton,0,0,0,2,0,0,0,0,2
+1379147,2025-12-28,E0,2025,Sunderland,Leeds,Sunderland,Leeds,0,1,0,0,0,0,0,0,1
+1379143,2025-12-28,E0,2025,Crystal Palace,Tottenham,Crystal Palace,Tottenham,1,2,2,0,0,0,0,0,5
+1379156,2025-12-30,E0,2025,Nottingham Forest,Everton,Nott'm Forest,Everton,0,1,0,0,0,0,0,0,1
+1379152,2025-12-30,E0,2025,Chelsea,Bournemouth,Chelsea,Bournemouth,1,0,0,1,0,0,0,0,2
+1379158,2025-12-30,E0,2025,West Ham,Brighton,West Ham,Brighton,3,0,3,2,0,0,0,0,8
+1379151,2025-12-30,E0,2025,Burnley,Newcastle,Burnley,Newcastle,2,0,1,0,0,0,0,0,3
+1379149,2025-12-30,E0,2025,Arsenal,Aston Villa,Arsenal,Aston Villa,1,1,1,2,0,0,0,0,5
+1379155,2025-12-30,E0,2025,Manchester United,Wolves,Man United,Wolves,0,0,0,2,0,0,0,0,2
+1379153,2026-01-01,E0,2025,Crystal Palace,Fulham,Crystal Palace,Fulham,0,0,1,4,0,0,0,0,5
+1379154,2026-01-01,E0,2025,Liverpool,Leeds,Liverpool,Leeds,0,0,0,2,0,0,0,0,2
+1379157,2026-01-01,E0,2025,Sunderland,Manchester City,Sunderland,Man City,1,0,0,1,0,0,0,0,2
+1379150,2026-01-01,E0,2025,Brentford,Tottenham,Brentford,Tottenham,0,1,0,2,0,0,0,0,3
+1379159,2026-01-03,E0,2025,Aston Villa,Nottingham Forest,Aston Villa,Nott'm Forest,0,1,0,2,0,0,0,0,3
+1379168,2026-01-03,E0,2025,Wolves,West Ham,Wolves,West Ham,0,1,0,0,0,0,0,0,1
+1379161,2026-01-03,E0,2025,Brighton,Burnley,Brighton,Burnley,0,0,3,1,0,0,0,0,4
+1379160,2026-01-03,E0,2025,Bournemouth,Arsenal,Bournemouth,Arsenal,1,2,0,1,0,0,0,0,4
+1379164,2026-01-04,E0,2025,Leeds,Manchester United,Leeds,Man United,0,0,1,0,0,0,0,0,1
+1379167,2026-01-04,E0,2025,Tottenham,Sunderland,Tottenham,Sunderland,0,2,0,3,0,0,0,0,5
+1379162,2026-01-04,E0,2025,Everton,Brentford,Everton,Brentford,0,0,2,0,0,0,0,0,2
+1379166,2026-01-04,E0,2025,Newcastle,Crystal Palace,Newcastle,Crystal Palace,0,1,1,2,0,0,0,0,4
+1379163,2026-01-04,E0,2025,Fulham,Liverpool,Fulham,Liverpool,0,1,0,1,0,0,0,0,2
+1379165,2026-01-04,E0,2025,Manchester City,Chelsea,Man City,Chelsea,0,3,0,3,0,0,0,0,6
+1379178,2026-01-06,E0,2025,West Ham,Nottingham Forest,West Ham,Nott'm Forest,0,3,0,0,0,0,0,0,3
+1379177,2026-01-07,E0,2025,Newcastle,Leeds,Newcastle,Leeds,3,0,1,1,0,0,0,0,5
+1379172,2026-01-07,E0,2025,Burnley,Manchester United,Burnley,Man United,1,1,0,0,0,0,0,0,2
+1379170,2026-01-07,E0,2025,Bournemouth,Tottenham,Bournemouth,Tottenham,1,2,0,3,0,0,0,0,6
+1379176,2026-01-07,E0,2025,Manchester City,Brighton,Man City,Brighton,0,1,2,4,0,0,0,0,7
+1379174,2026-01-07,E0,2025,Everton,Wolves,Everton,Wolves,0,3,1,2,0,2,0,0,8
+1379173,2026-01-07,E0,2025,Crystal Palace,Aston Villa,Crystal Palace,Aston Villa,0,2,0,0,0,0,0,0,2
+1379171,2026-01-07,E0,2025,Brentford,Sunderland,Brentford,Sunderland,1,1,1,0,0,0,0,0,3
+1379175,2026-01-07,E0,2025,Fulham,Chelsea,Fulham,Chelsea,1,2,3,0,0,0,1,0,7
+1379169,2026-01-08,E0,2025,Arsenal,Liverpool,Arsenal,Liverpool,1,1,0,2,0,0,0,0,4
+1379187,2026-01-17,E0,2025,Tottenham,West Ham,Tottenham,West Ham,3,2,1,2,0,0,0,0,8
+1379181,2026-01-17,E0,2025,Chelsea,Brentford,Chelsea,Brentford,0,3,2,0,0,0,0,0,5
+1379185,2026-01-17,E0,2025,Nottingham Forest,Arsenal,Nott'm Forest,Arsenal,0,1,1,0,0,0,0,0,2
+1379186,2026-01-17,E0,2025,Sunderland,Crystal Palace,Sunderland,Crystal Palace,0,3,2,1,0,0,0,0,6
+1379182,2026-01-17,E0,2025,Leeds,Fulham,Leeds,Fulham,1,0,2,3,0,0,0,0,6
+1379183,2026-01-17,E0,2025,Liverpool,Burnley,Liverpool,Burnley,1,0,1,1,0,0,0,0,3
+1379184,2026-01-17,E0,2025,Manchester United,Manchester City,Man United,Man City,2,0,1,2,0,0,0,0,5
+1379188,2026-01-18,E0,2025,Wolves,Newcastle,Wolves,Newcastle,0,2,0,2,0,0,0,0,4
+1379179,2026-01-18,E0,2025,Aston Villa,Everton,Aston Villa,Everton,0,1,1,1,0,0,0,0,3
+1379180,2026-01-19,E0,2025,Brighton,Bournemouth,Brighton,Bournemouth,0,2,0,3,0,0,0,0,5
+1379198,2026-01-24,E0,2025,West Ham,Sunderland,West Ham,Sunderland,0,2,2,2,0,0,0,0,6
+1379196,2026-01-24,E0,2025,Manchester City,Wolves,Man City,Wolves,0,1,0,3,0,0,0,0,4
+1379192,2026-01-24,E0,2025,Burnley,Tottenham,Burnley,Tottenham,0,1,0,0,0,0,0,0,1
+1379195,2026-01-24,E0,2025,Fulham,Brighton,Fulham,Brighton,0,1,0,1,0,0,0,0,2
+1379190,2026-01-24,E0,2025,Bournemouth,Liverpool,Bournemouth,Liverpool,1,0,0,1,0,0,0,0,2
+1379197,2026-01-25,E0,2025,Newcastle,Aston Villa,Newcastle,Aston Villa,1,0,0,2,0,0,0,0,3
+1379189,2026-01-25,E0,2025,Arsenal,Manchester United,Arsenal,Man United,0,2,0,0,0,0,0,0,2
+1379191,2026-01-25,E0,2025,Brentford,Nottingham Forest,Brentford,Nott'm Forest,0,1,0,0,0,0,0,0,1
+1379193,2026-01-25,E0,2025,Crystal Palace,Chelsea,Crystal Palace,Chelsea,0,4,1,1,0,1,0,0,7
+1379194,2026-01-26,E0,2025,Everton,Leeds,Everton,Leeds,0,0,0,3,0,0,0,0,3
+1379202,2026-01-31,E0,2025,Leeds,Arsenal,Leeds,Arsenal,1,0,0,1,0,0,0,0,2
+1379200,2026-01-31,E0,2025,Brighton,Everton,Brighton,Everton,0,1,0,2,0,0,0,0,3
+1379208,2026-01-31,E0,2025,Wolves,Bournemouth,Wolves,Bournemouth,1,2,0,3,0,0,0,0,6
+1379201,2026-01-31,E0,2025,Chelsea,West Ham,Chelsea,West Ham,0,3,0,2,0,0,0,1,6
+1379203,2026-01-31,E0,2025,Liverpool,Newcastle,Liverpool,Newcastle,0,1,2,1,0,0,0,0,4
+1379199,2026-02-01,E0,2025,Aston Villa,Brentford,Aston Villa,Brentford,0,0,2,1,0,0,1,0,4
+1379205,2026-02-01,E0,2025,Nottingham Forest,Crystal Palace,Nott'm Forest,Crystal Palace,0,1,2,1,1,0,0,0,5
+1379204,2026-02-01,E0,2025,Manchester United,Fulham,Man United,Fulham,0,2,1,0,0,0,0,0,3
+1379207,2026-02-01,E0,2025,Tottenham,Manchester City,Tottenham,Man City,2,1,2,1,0,0,0,0,6
+1379206,2026-02-02,E0,2025,Sunderland,Burnley,Sunderland,Burnley,0,1,1,3,0,0,0,0,5
+1379214,2026-02-06,E0,2025,Leeds,Nottingham Forest,Leeds,Nott'm Forest,0,1,0,1,0,0,0,0,2
+1379217,2026-02-07,E0,2025,Newcastle,Brentford,Newcastle,Brentford,1,1,0,2,0,0,0,0,4
+1379210,2026-02-07,E0,2025,Bournemouth,Aston Villa,Bournemouth,Aston Villa,1,0,1,0,0,0,0,0,2
+1379213,2026-02-07,E0,2025,Fulham,Everton,Fulham,Everton,0,1,1,4,0,0,0,0,6
+1379216,2026-02-07,E0,2025,Manchester United,Tottenham,Man United,Tottenham,1,0,1,1,0,0,1,0,4
+1379209,2026-02-07,E0,2025,Arsenal,Sunderland,Arsenal,Sunderland,1,0,2,0,0,0,0,0,3
+1379212,2026-02-07,E0,2025,Burnley,West Ham,Burnley,West Ham,1,2,1,0,0,0,0,0,4
+1379218,2026-02-07,E0,2025,Wolves,Chelsea,Wolves,Chelsea,1,0,0,1,0,0,0,0,2
+1379211,2026-02-08,E0,2025,Brighton,Crystal Palace,Brighton,Crystal Palace,0,1,1,2,0,0,0,0,4
+1379215,2026-02-08,E0,2025,Liverpool,Manchester City,Liverpool,Man City,0,2,1,3,0,1,0,0,7
+1379228,2026-02-10,E0,2025,West Ham,Manchester United,West Ham,Man United,0,1,0,1,0,0,0,0,2
+1379227,2026-02-10,E0,2025,Tottenham,Newcastle,Tottenham,Newcastle,1,2,0,2,0,0,0,0,5
+1379221,2026-02-10,E0,2025,Chelsea,Leeds,Chelsea,Leeds,2,2,3,1,0,0,0,0,8
+1379223,2026-02-10,E0,2025,Everton,Bournemouth,Everton,Bournemouth,0,1,0,3,0,1,0,0,5
+1379225,2026-02-11,E0,2025,Nottingham Forest,Wolves,Nott'm Forest,Wolves,0,0,0,2,0,0,0,0,2
+1379222,2026-02-11,E0,2025,Crystal Palace,Burnley,Crystal Palace,Burnley,2,0,0,1,0,0,0,0,3
+1379224,2026-02-11,E0,2025,Manchester City,Fulham,Man City,Fulham,1,2,1,0,0,0,0,0,4
+1379226,2026-02-11,E0,2025,Sunderland,Liverpool,Sunderland,Liverpool,1,0,0,0,0,0,0,0,1
+1379219,2026-02-11,E0,2025,Aston Villa,Brighton,Aston Villa,Brighton,1,1,3,0,0,0,0,0,5
+1379220,2026-02-12,E0,2025,Brentford,Arsenal,Brentford,Arsenal,1,2,2,0,0,0,0,0,5
+1379278,2026-02-18,E0,2025,Wolves,Arsenal,Wolves,Arsenal,1,1,0,1,0,0,0,0,3
+1379234,2026-02-21,E0,2025,Manchester City,Newcastle,Man City,Newcastle,1,1,1,4,0,0,0,0,7
+1379238,2026-02-21,E0,2025,West Ham,Bournemouth,West Ham,Bournemouth,1,0,1,0,0,0,0,0,2
+1379230,2026-02-21,E0,2025,Brentford,Brighton,Brentford,Brighton,0,1,1,1,0,0,0,0,3
+1379229,2026-02-21,E0,2025,Aston Villa,Leeds,Aston Villa,Leeds,0,1,0,4,0,0,0,0,5
+1379231,2026-02-21,E0,2025,Chelsea,Burnley,Chelsea,Burnley,1,3,2,0,0,1,0,0,7
+1379236,2026-02-22,E0,2025,Sunderland,Fulham,Sunderland,Fulham,0,1,1,0,0,0,0,0,2
+1379235,2026-02-22,E0,2025,Nottingham Forest,Liverpool,Nott'm Forest,Liverpool,1,1,0,0,0,0,0,0,2
+1379232,2026-02-22,E0,2025,Crystal Palace,Wolves,Crystal Palace,Wolves,3,2,0,3,0,0,0,1,9
+1379237,2026-02-22,E0,2025,Tottenham,Arsenal,Tottenham,Arsenal,1,1,1,0,0,0,0,0,3
+1379233,2026-02-23,E0,2025,Everton,Manchester United,Everton,Man United,0,2,0,3,0,0,0,0,5
+1379248,2026-02-27,E0,2025,Wolves,Aston Villa,Wolves,Aston Villa,1,2,0,3,0,0,0,0,6
+1379244,2026-02-28,E0,2025,Leeds,Manchester City,Leeds,Man City,0,0,0,3,0,0,0,0,3
+1379247,2026-02-28,E0,2025,Newcastle,Everton,Newcastle,Everton,0,2,0,3,0,0,0,0,5
+1379242,2026-02-28,E0,2025,Burnley,Brentford,Burnley,Brentford,0,2,1,1,0,0,0,0,4
+1379240,2026-02-28,E0,2025,Bournemouth,Sunderland,Bournemouth,Sunderland,0,4,1,1,0,0,0,0,6
+1379245,2026-02-28,E0,2025,Liverpool,West Ham,Liverpool,West Ham,0,2,1,1,0,0,0,0,4
+1379241,2026-03-01,E0,2025,Brighton,Nottingham Forest,Brighton,Nott'm Forest,0,3,1,0,0,0,0,0,4
+1379243,2026-03-01,E0,2025,Fulham,Tottenham,Fulham,Tottenham,0,3,0,3,0,0,0,0,6
+1379246,2026-03-01,E0,2025,Manchester United,Crystal Palace,Man United,Crystal Palace,1,1,1,1,0,0,0,1,5
+1379239,2026-03-01,E0,2025,Arsenal,Chelsea,Arsenal,Chelsea,0,1,0,5,0,0,0,1,7
+1379254,2026-03-03,E0,2025,Leeds,Sunderland,Leeds,Sunderland,0,1,1,2,0,0,0,0,4
+1379252,2026-03-03,E0,2025,Everton,Burnley,Everton,Burnley,0,0,0,1,0,0,0,0,1
+1379250,2026-03-03,E0,2025,Bournemouth,Brentford,Bournemouth,Brentford,0,2,0,1,0,0,0,0,3
+1379258,2026-03-03,E0,2025,Wolves,Liverpool,Wolves,Liverpool,0,2,1,0,0,0,0,0,3
+1379256,2026-03-04,E0,2025,Newcastle,Manchester United,Newcastle,Man United,3,1,2,1,1,0,0,0,8
+1379253,2026-03-04,E0,2025,Fulham,West Ham,Fulham,West Ham,0,2,2,2,0,0,0,0,6
+1379251,2026-03-04,E0,2025,Brighton,Arsenal,Brighton,Arsenal,0,4,1,0,0,0,0,0,5
+1379249,2026-03-04,E0,2025,Aston Villa,Chelsea,Aston Villa,Chelsea,1,2,0,2,0,0,0,0,5
+1379255,2026-03-04,E0,2025,Manchester City,Nottingham Forest,Man City,Nott'm Forest,0,0,1,3,0,0,0,0,4
+1379257,2026-03-05,E0,2025,Tottenham,Crystal Palace,Tottenham,Crystal Palace,2,1,1,1,1,0,0,0,6
+1379267,2026-03-14,E0,2025,Sunderland,Brighton,Sunderland,Brighton,0,1,0,2,0,0,0,0,3
+1379261,2026-03-14,E0,2025,Burnley,Bournemouth,Burnley,Bournemouth,0,1,0,0,0,0,0,0,1
+1379262,2026-03-14,E0,2025,Chelsea,Newcastle,Chelsea,Newcastle,2,0,0,2,0,0,0,0,4
+1379259,2026-03-14,E0,2025,Arsenal,Everton,Arsenal,Everton,0,0,0,0,0,0,0,0,11
+1379268,2026-03-14,E0,2025,West Ham,Manchester City,West Ham,Man City,0,2,2,0,0,0,0,0,4
+1379266,2026-03-15,E0,2025,Nottingham Forest,Fulham,Nott'm Forest,Fulham,2,0,1,2,0,0,0,0,5
+1379263,2026-03-15,E0,2025,Crystal Palace,Leeds,Crystal Palace,Leeds,1,1,3,0,0,0,1,0,6
+1379265,2026-03-15,E0,2025,Manchester United,Aston Villa,Man United,Aston Villa,0,3,1,1,0,0,0,0,5
+1379264,2026-03-15,E0,2025,Liverpool,Tottenham,Liverpool,Tottenham,0,0,0,0,0,0,0,0,11
+1379260,2026-03-16,E0,2025,Brentford,Wolves,Brentford,Wolves,0,2,2,2,0,0,0,0,6
+1379270,2026-03-20,E0,2025,Bournemouth,Manchester United,Bournemouth,Man United,0,2,1,1,0,0,0,1,5
+1379272,2026-03-21,E0,2025,Everton,Chelsea,Everton,Chelsea,0,0,0,2,0,0,0,0,2
+1379274,2026-03-21,E0,2025,Leeds,Brentford,Leeds,Brentford,2,0,0,0,0,0,0,0,2
+1379273,2026-03-21,E0,2025,Fulham,Burnley,Fulham,Burnley,0,2,1,1,0,0,0,1,5
+1379271,2026-03-21,E0,2025,Brighton,Liverpool,Brighton,Liverpool,2,3,1,4,0,0,0,0,10
+1379276,2026-03-22,E0,2025,Newcastle,Sunderland,Newcastle,Sunderland,0,1,1,5,0,0,0,0,7
+1379269,2026-03-22,E0,2025,Aston Villa,West Ham,Aston Villa,West Ham,0,0,1,0,0,0,0,0,1
+1379277,2026-03-22,E0,2025,Tottenham,Nottingham Forest,Tottenham,Nott'm Forest,0,1,0,2,0,0,0,0,3
+1379288,2026-04-10,E0,2025,West Ham,Wolves,West Ham,Wolves,1,1,2,0,0,0,0,0,4
+1379279,2026-04-11,E0,2025,Arsenal,Bournemouth,Arsenal,Bournemouth,0,1,0,3,0,0,0,0,4
+1379280,2026-04-11,E0,2025,Brentford,Everton,Brentford,Everton,0,0,1,1,0,0,0,0,2
+1379281,2026-04-11,E0,2025,Burnley,Brighton,Burnley,Brighton,1,1,0,1,0,0,0,0,3
+1379284,2026-04-11,E0,2025,Liverpool,Fulham,Liverpool,Fulham,0,0,0,0,0,0,0,0,12
+1379287,2026-04-12,E0,2025,Sunderland,Tottenham,Sunderland,Tottenham,1,2,3,0,0,0,0,0,6
+1379282,2026-04-12,E0,2025,Chelsea,Manchester City,Chelsea,Man City,1,2,1,0,0,0,0,0,4
+1379286,2026-04-12,E0,2025,Nottingham Forest,Aston Villa,Nott'm Forest,Aston Villa,1,1,1,1,0,0,0,0,4
+1379283,2026-04-12,E0,2025,Crystal Palace,Newcastle,Crystal Palace,Newcastle,0,0,0,3,0,0,0,0,3
+1379285,2026-04-13,E0,2025,Manchester United,Leeds,Man United,Leeds,1,2,1,1,0,1,0,0,6
+1379296,2026-04-18,E0,2025,Newcastle,Bournemouth,Newcastle,Bournemouth,0,2,0,4,0,0,0,0,6
+1379291,2026-04-18,E0,2025,Chelsea,Manchester United,Chelsea,Man United,1,0,1,2,0,0,0,0,4
+1379298,2026-04-18,E0,2025,Tottenham,Brighton,Tottenham,Brighton,1,2,1,0,0,0,0,0,4
+1379290,2026-04-18,E0,2025,Brentford,Fulham,Brentford,Fulham,0,0,1,0,0,0,0,0,1
+1379294,2026-04-18,E0,2025,Leeds,Wolves,Leeds,Wolves,0,2,0,1,0,0,0,0,3
+1379295,2026-04-19,E0,2025,Manchester City,Arsenal,Man City,Arsenal,0,2,1,1,0,0,0,0,4
+1379293,2026-04-19,E0,2025,Everton,Liverpool,Everton,Liverpool,1,1,0,0,0,0,0,0,2
+1379289,2026-04-19,E0,2025,Aston Villa,Sunderland,Aston Villa,Sunderland,0,1,0,3,0,0,0,0,4
+1379297,2026-04-19,E0,2025,Nottingham Forest,Burnley,Nott'm Forest,Burnley,0,0,0,2,0,0,0,0,2
+1379292,2026-04-20,E0,2025,Crystal Palace,West Ham,Crystal Palace,West Ham,1,1,0,1,0,0,0,0,3
+1379301,2026-04-21,E0,2025,Brighton,Chelsea,Brighton,Chelsea,0,1,1,0,0,0,0,0,2
+1379300,2026-04-22,E0,2025,Bournemouth,Leeds,Bournemouth,Leeds,2,1,0,0,0,0,0,0,3
+1379302,2026-04-22,E0,2025,Burnley,Manchester City,Burnley,Man City,0,0,0,0,0,0,0,0,8
+1379306,2026-04-24,E0,2025,Sunderland,Nottingham Forest,Sunderland,Nott'm Forest,0,2,0,5,0,0,0,0,7
+1379299,2026-04-25,E0,2025,Arsenal,Newcastle,Arsenal,Newcastle,0,2,0,2,0,0,0,0,4
+1379307,2026-04-25,E0,2025,West Ham,Everton,West Ham,Everton,0,3,1,3,0,0,0,0,7
+1379304,2026-04-25,E0,2025,Liverpool,Crystal Palace,Liverpool,Crystal Palace,0,1,2,1,0,0,0,0,4
+1379303,2026-04-25,E0,2025,Fulham,Aston Villa,Fulham,Aston Villa,0,2,0,2,0,0,0,0,4
+1379308,2026-04-25,E0,2025,Wolves,Tottenham,Wolves,Tottenham,1,2,0,4,0,0,0,0,7
+1379305,2026-04-27,E0,2025,Manchester United,Brentford,Man United,Brentford,1,1,1,3,0,0,0,0,6
+1379315,2026-05-01,E0,2025,Leeds,Burnley,Leeds,Burnley,2,2,2,1,0,0,0,0,7
+1379317,2026-05-02,E0,2025,Newcastle,Brighton,Newcastle,Brighton,0,3,2,1,0,0,0,0,6
+1379309,2026-05-02,E0,2025,Arsenal,Fulham,Arsenal,Fulham,0,0,1,0,0,0,0,0,1
+1379318,2026-05-02,E0,2025,Wolves,Sunderland,Wolves,Sunderland,0,0,1,3,0,0,1,0,5
+1379312,2026-05-02,E0,2025,Brentford,West Ham,Brentford,West Ham,0,1,0,3,0,0,0,0,4
+1379316,2026-05-03,E0,2025,Manchester United,Liverpool,Man United,Liverpool,0,2,0,2,0,0,0,0,4
+1379311,2026-05-03,E0,2025,Bournemouth,Crystal Palace,Bournemouth,Crystal Palace,0,0,2,0,0,0,0,0,2
+1379310,2026-05-03,E0,2025,Aston Villa,Tottenham,Aston Villa,Tottenham,0,2,2,3,0,0,0,0,7
+1379314,2026-05-04,E0,2025,Everton,Manchester City,Everton,Man City,1,3,0,1,0,0,0,0,5
+1379313,2026-05-04,E0,2025,Chelsea,Nottingham Forest,Chelsea,Nott'm Forest,1,2,1,0,0,0,0,0,4
+1379322,2026-05-09,E0,2025,Fulham,Bournemouth,Fulham,Bournemouth,0,4,1,1,1,0,1,0,8
+1379324,2026-05-09,E0,2025,Manchester City,Brentford,Man City,Brentford,1,3,0,2,0,0,0,0,6
+1379326,2026-05-09,E0,2025,Sunderland,Manchester United,Sunderland,Man United,0,0,0,3,0,0,0,0,3
+1379323,2026-05-09,E0,2025,Liverpool,Chelsea,Liverpool,Chelsea,0,2,0,4,0,0,0,0,6
+1379319,2026-05-09,E0,2025,Brighton,Wolves,Brighton,Wolves,1,0,0,2,0,0,0,0,3
+1379325,2026-05-10,E0,2025,Nottingham Forest,Newcastle,Nott'm Forest,Newcastle,0,2,0,0,0,0,0,0,2
+1379321,2026-05-10,E0,2025,Crystal Palace,Everton,Crystal Palace,Everton,0,0,2,0,0,0,0,0,2
+1379320,2026-05-10,E0,2025,Burnley,Aston Villa,Burnley,Aston Villa,0,1,0,1,0,0,0,0,2
+1379328,2026-05-10,E0,2025,West Ham,Arsenal,West Ham,Arsenal,2,1,0,4,0,0,0,0,7
+1379327,2026-05-11,E0,2025,Tottenham,Leeds,Tottenham,Leeds,1,2,0,1,0,0,0,0,4
+1379275,2026-05-13,E0,2025,Manchester City,Crystal Palace,Man City,Crystal Palace,0,0,0,2,0,0,0,0,2
+1379330,2026-05-15,E0,2025,Aston Villa,Liverpool,Aston Villa,Liverpool,2,1,0,1,0,0,0,0,4
+1379334,2026-05-17,E0,2025,Everton,Sunderland,Everton,Sunderland,1,2,0,0,0,0,0,0,3
+1379335,2026-05-17,E0,2025,Leeds,Brighton,Leeds,Brighton,0,1,0,0,0,0,0,0,1
+1379332,2026-05-17,E0,2025,Brentford,Crystal Palace,Brentford,Crystal Palace,0,1,0,3,0,0,0,0,4
+1379338,2026-05-17,E0,2025,Wolves,Fulham,Wolves,Fulham,0,1,0,0,0,0,0,0,1
+1379337,2026-05-17,E0,2025,Newcastle,West Ham,Newcastle,West Ham,0,1,0,3,0,0,0,0,4
+1379336,2026-05-17,E0,2025,Manchester United,Nottingham Forest,Man United,Nott'm Forest,0,2,0,1,0,0,0,0,3
+1379329,2026-05-18,E0,2025,Arsenal,Burnley,Arsenal,Burnley,0,1,1,2,0,0,0,0,4
+1379331,2026-05-19,E0,2025,Bournemouth,Manchester City,Bournemouth,Man City,1,3,0,2,0,0,0,0,6
+1379333,2026-05-19,E0,2025,Chelsea,Tottenham,Chelsea,Tottenham,0,4,2,1,0,0,0,0,7
+1379340,2026-05-24,E0,2025,Burnley,Wolves,Burnley,Wolves,1,1,1,1,0,0,0,0,4
+1379343,2026-05-24,E0,2025,Liverpool,Brentford,Liverpool,Brentford,0,2,1,2,0,0,0,0,5
+1379346,2026-05-24,E0,2025,Sunderland,Chelsea,Sunderland,Chelsea,1,4,0,5,0,0,0,1,11
+1379345,2026-05-24,E0,2025,Nottingham Forest,Bournemouth,Nott'm Forest,Bournemouth,0,1,1,0,0,0,0,0,2
+1379341,2026-05-24,E0,2025,Crystal Palace,Arsenal,Crystal Palace,Arsenal,0,0,0,1,0,0,0,0,1
+1379339,2026-05-24,E0,2025,Brighton,Manchester United,Brighton,Man United,0,0,1,0,0,0,0,0,1
+1379344,2026-05-24,E0,2025,Manchester City,Aston Villa,Man City,Aston Villa,0,1,0,0,0,0,0,0,1
+1379342,2026-05-24,E0,2025,Fulham,Newcastle,Fulham,Newcastle,0,2,0,2,0,0,0,0,4
+1379348,2026-05-24,E0,2025,West Ham,Leeds,West Ham,Leeds,0,0,2,1,0,0,0,0,3
+1379347,2026-05-24,E0,2025,Tottenham,Everton,Tottenham,Everton,0,3,1,1,0,0,0,0,5

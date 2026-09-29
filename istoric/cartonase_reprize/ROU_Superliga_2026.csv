@@ -1,80 +1,80 @@
-fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,ar1,ar2
-1565186,2026-07-17,ROU_Superliga,2026,FC Voluntari,FC Botosani,FC Voluntari,FC Botosani,0,0,0,0,0,0,0,0
-1565185,2026-07-17,ROU_Superliga,2026,FCSB,Arges Pitesti,FCSB,,2,0,1,0,0,0,0,0
-1565190,2026-07-18,ROU_Superliga,2026,Universitatea Craiova,Uta Arad,Univ. Craiova,UTA Arad,2,1,1,0,0,0,0,0
-1565187,2026-07-18,ROU_Superliga,2026,Oţelul,CFR 1907 Cluj,Otelul,CFR Cluj,0,0,0,1,0,0,0,0
-1565188,2026-07-19,ROU_Superliga,2026,Petrolul Ploiesti,Dinamo Bucuresti,Petrolul,,0,4,2,1,0,0,0,0
-1565189,2026-07-19,ROU_Superliga,2026,Universitatea Cluj,Farul Constanta,U. Cluj,Farul Constanta,0,1,1,2,0,0,0,0
-1565183,2026-07-20,ROU_Superliga,2026,Corvinul Hunedoara,Csikszereda,Corvinul,Csikszereda M. Ciuc,0,0,0,0,0,0,0,0
-1565184,2026-07-20,ROU_Superliga,2026,Rapid,Sepsi OSK Sfantu Gheorghe,,Sepsi Sf. Gheorghe,2,1,1,1,0,0,0,1
-1565198,2026-07-24,ROU_Superliga,2026,Uta Arad,Oţelul,UTA Arad,Otelul,0,2,1,1,0,1,0,0
-1565195,2026-07-24,ROU_Superliga,2026,Arges Pitesti,Petrolul Ploiesti,,Petrolul,1,3,2,4,1,0,0,0
-1565194,2026-07-25,ROU_Superliga,2026,Farul Constanta,Corvinul Hunedoara,Farul Constanta,Corvinul,1,1,1,1,0,0,0,1
-1565193,2026-07-25,ROU_Superliga,2026,Dinamo Bucuresti,Universitatea Craiova,,Univ. Craiova,2,0,0,1,0,0,1,0
-1565197,2026-07-26,ROU_Superliga,2026,Sepsi OSK Sfantu Gheorghe,Universitatea Cluj,Sepsi Sf. Gheorghe,U. Cluj,0,0,2,1,0,0,0,0
-1565192,2026-07-26,ROU_Superliga,2026,Csikszereda,FCSB,Csikszereda M. Ciuc,FCSB,0,3,1,1,0,0,0,0
-1565191,2026-07-27,ROU_Superliga,2026,CFR 1907 Cluj,FC Voluntari,CFR Cluj,FC Voluntari,1,0,0,0,0,0,1,0
-1565196,2026-07-27,ROU_Superliga,2026,FC Botosani,Rapid,FC Botosani,,1,4,2,4,0,0,0,1
-1565200,2026-07-31,ROU_Superliga,2026,Arges Pitesti,Csikszereda,,Csikszereda M. Ciuc,1,1,0,5,0,0,0,0
-1565204,2026-07-31,ROU_Superliga,2026,Oţelul,Dinamo Bucuresti,Otelul,,0,0,1,2,0,0,0,0
-1565206,2026-08-01,ROU_Superliga,2026,Universitatea Craiova,Petrolul Ploiesti,Univ. Craiova,Petrolul,1,0,0,2,0,0,0,0
-1565203,2026-08-01,ROU_Superliga,2026,FC Voluntari,Uta Arad,FC Voluntari,UTA Arad,0,2,0,2,0,0,0,0
-1565201,2026-08-02,ROU_Superliga,2026,Rapid,CFR 1907 Cluj,,CFR Cluj,1,0,0,2,0,0,0,0
-1565199,2026-08-02,ROU_Superliga,2026,Corvinul Hunedoara,Sepsi OSK Sfantu Gheorghe,Corvinul,Sepsi Sf. Gheorghe,0,0,2,1,0,0,0,0
-1565205,2026-08-03,ROU_Superliga,2026,Universitatea Cluj,FC Botosani,U. Cluj,FC Botosani,1,2,1,1,0,0,0,0
-1565202,2026-08-03,ROU_Superliga,2026,FCSB,Farul Constanta,FCSB,Farul Constanta,2,2,1,1,0,0,0,0
-1565214,2026-08-07,ROU_Superliga,2026,Uta Arad,Rapid,UTA Arad,,0,4,1,2,0,0,0,0
-1565209,2026-08-08,ROU_Superliga,2026,Farul Constanta,Csikszereda,Farul Constanta,Csikszereda M. Ciuc,0,1,2,3,0,0,0,0
-1565208,2026-08-08,ROU_Superliga,2026,Dinamo Bucuresti,FC Voluntari,,FC Voluntari,0,1,0,2,0,0,0,0
-1565211,2026-08-09,ROU_Superliga,2026,Petrolul Ploiesti,Oţelul,Petrolul,Otelul,1,2,1,1,0,0,0,1
-1565213,2026-08-09,ROU_Superliga,2026,Universitatea Craiova,Arges Pitesti,Univ. Craiova,,1,2,1,2,0,0,0,0
-1565210,2026-08-10,ROU_Superliga,2026,FC Botosani,Corvinul Hunedoara,FC Botosani,Corvinul,2,0,1,4,0,0,0,1
-1565212,2026-08-10,ROU_Superliga,2026,Sepsi OSK Sfantu Gheorghe,FCSB,Sepsi Sf. Gheorghe,FCSB,0,2,0,3,0,0,0,0
-1565220,2026-08-14,ROU_Superliga,2026,FC Voluntari,Petrolul Ploiesti,FC Voluntari,Petrolul,1,4,1,2,0,0,0,0
-1565217,2026-08-14,ROU_Superliga,2026,Arges Pitesti,Farul Constanta,,Farul Constanta,1,0,1,0,0,0,0,0
-1565216,2026-08-15,ROU_Superliga,2026,Csikszereda,Sepsi OSK Sfantu Gheorghe,Csikszereda M. Ciuc,Sepsi Sf. Gheorghe,0,2,0,2,0,0,0,0
-1565218,2026-08-15,ROU_Superliga,2026,Rapid,Dinamo Bucuresti,,,1,0,1,1,0,0,0,0
-1565221,2026-08-16,ROU_Superliga,2026,Oţelul,Universitatea Craiova,Otelul,Univ. Craiova,0,2,2,4,0,0,1,0
-1565215,2026-08-16,ROU_Superliga,2026,Corvinul Hunedoara,CFR 1907 Cluj,Corvinul,CFR Cluj,0,1,0,0,0,0,0,0
-1565219,2026-08-17,ROU_Superliga,2026,FCSB,FC Botosani,FCSB,FC Botosani,1,1,0,4,0,0,0,0
-1565222,2026-08-17,ROU_Superliga,2026,Universitatea Cluj,Uta Arad,U. Cluj,UTA Arad,1,0,0,2,0,1,0,0
-1565227,2026-08-21,ROU_Superliga,2026,Petrolul Ploiesti,Rapid,Petrolul,,0,0,2,1,0,0,0,0
-1565224,2026-08-22,ROU_Superliga,2026,Dinamo Bucuresti,Universitatea Cluj,,U. Cluj,0,6,2,3,0,1,0,0
-1565230,2026-08-22,ROU_Superliga,2026,Uta Arad,Corvinul Hunedoara,UTA Arad,Corvinul,2,3,0,1,0,0,0,0
-1565229,2026-08-23,ROU_Superliga,2026,Universitatea Craiova,FC Voluntari,Univ. Craiova,FC Voluntari,1,1,0,2,0,0,0,0
-1565223,2026-08-23,ROU_Superliga,2026,CFR 1907 Cluj,FCSB,CFR Cluj,FCSB,1,1,1,1,0,0,0,0
-1565228,2026-08-23,ROU_Superliga,2026,Sepsi OSK Sfantu Gheorghe,Farul Constanta,Sepsi Sf. Gheorghe,Farul Constanta,1,1,1,2,0,0,0,0
-1565225,2026-08-24,ROU_Superliga,2026,FC Botosani,Csikszereda,FC Botosani,Csikszereda M. Ciuc,3,0,0,4,0,0,1,0
-1565226,2026-08-24,ROU_Superliga,2026,Oţelul,Arges Pitesti,Otelul,,0,2,1,1,0,0,0,0
-1565237,2026-08-28,ROU_Superliga,2026,FC Voluntari,Oţelul,FC Voluntari,Otelul,0,1,0,0,0,0,0,0
-1565238,2026-08-28,ROU_Superliga,2026,Universitatea Cluj,Petrolul Ploiesti,U. Cluj,Petrolul,0,2,0,2,0,0,0,0
-1565231,2026-08-29,ROU_Superliga,2026,Corvinul Hunedoara,Dinamo Bucuresti,Corvinul,,1,1,0,3,0,0,0,0
-1565232,2026-08-29,ROU_Superliga,2026,Csikszereda,CFR 1907 Cluj,Csikszereda M. Ciuc,CFR Cluj,1,0,0,2,0,0,0,0
-1565234,2026-08-29,ROU_Superliga,2026,Arges Pitesti,Sepsi OSK Sfantu Gheorghe,,Sepsi Sf. Gheorghe,1,2,0,1,0,0,0,0
-1565233,2026-08-30,ROU_Superliga,2026,Farul Constanta,FC Botosani,Farul Constanta,FC Botosani,2,0,2,3,0,0,0,0
-1565236,2026-08-30,ROU_Superliga,2026,FCSB,Uta Arad,FCSB,UTA Arad,0,0,0,2,0,0,0,0
-1565235,2026-08-31,ROU_Superliga,2026,Rapid,Universitatea Craiova,,Univ. Craiova,0,4,2,1,0,0,0,0
-1565239,2026-09-04,ROU_Superliga,2026,CFR 1907 Cluj,Farul Constanta,CFR Cluj,Farul Constanta,1,0,1,0,0,0,0,0
-1565241,2026-09-05,ROU_Superliga,2026,FC Botosani,Sepsi OSK Sfantu Gheorghe,FC Botosani,Sepsi Sf. Gheorghe,1,0,1,1,0,0,0,0
-1565246,2026-09-05,ROU_Superliga,2026,Uta Arad,Csikszereda,UTA Arad,Csikszereda M. Ciuc,1,0,0,1,0,0,0,0
-1565240,2026-09-05,ROU_Superliga,2026,Dinamo Bucuresti,FCSB,,FCSB,1,4,1,2,0,1,1,0
-1565243,2026-09-06,ROU_Superliga,2026,Oţelul,Rapid,Otelul,,1,2,0,0,0,1,0,0
-1565244,2026-09-06,ROU_Superliga,2026,Petrolul Ploiesti,Corvinul Hunedoara,Petrolul,Corvinul,3,4,3,1,0,0,0,0
-1565242,2026-09-07,ROU_Superliga,2026,FC Voluntari,Arges Pitesti,FC Voluntari,,0,2,1,2,0,0,0,0
-1565245,2026-09-07,ROU_Superliga,2026,Universitatea Craiova,Universitatea Cluj,Univ. Craiova,U. Cluj,0,0,2,0,0,0,0,0
-1565249,2026-09-11,ROU_Superliga,2026,Farul Constanta,Uta Arad,Farul Constanta,UTA Arad,0,0,1,1,0,0,0,0
-1565248,2026-09-11,ROU_Superliga,2026,Csikszereda,Dinamo Bucuresti,Csikszereda M. Ciuc,,0,1,0,1,0,0,0,0
-1565253,2026-09-12,ROU_Superliga,2026,Sepsi OSK Sfantu Gheorghe,CFR 1907 Cluj,Sepsi Sf. Gheorghe,CFR Cluj,0,0,1,0,0,0,0,0
-1565251,2026-09-12,ROU_Superliga,2026,Rapid,FC Voluntari,,FC Voluntari,0,2,1,2,0,0,0,0
-1565250,2026-09-13,ROU_Superliga,2026,Arges Pitesti,FC Botosani,,FC Botosani,0,1,1,3,0,0,0,1
-1565247,2026-09-13,ROU_Superliga,2026,Corvinul Hunedoara,Universitatea Craiova,Corvinul,Univ. Craiova,0,3,0,0,0,0,0,0
-1565252,2026-09-14,ROU_Superliga,2026,FCSB,Petrolul Ploiesti,FCSB,Petrolul,2,1,0,1,0,0,0,0
-1565254,2026-09-14,ROU_Superliga,2026,Universitatea Cluj,Oţelul,U. Cluj,Otelul,0,2,0,4,0,0,0,1
-1565262,2026-09-18,ROU_Superliga,2026,Uta Arad,Sepsi OSK Sfantu Gheorghe,UTA Arad,Sepsi Sf. Gheorghe,0,0,1,1,0,0,0,0
-1565257,2026-09-18,ROU_Superliga,2026,Rapid,Arges Pitesti,,,0,1,1,2,0,0,0,0
-1565255,2026-09-19,ROU_Superliga,2026,CFR 1907 Cluj,FC Botosani,CFR Cluj,FC Botosani,1,0,0,1,0,0,1,0
-1565261,2026-09-19,ROU_Superliga,2026,Universitatea Craiova,FCSB,Univ. Craiova,FCSB,0,0,0,1,0,0,0,0
-1565258,2026-09-20,ROU_Superliga,2026,FC Voluntari,Universitatea Cluj,FC Voluntari,U. Cluj,0,2,0,0,0,0,0,0
-1565256,2026-09-20,ROU_Superliga,2026,Dinamo Bucuresti,Farul Constanta,,Farul Constanta,1,0,0,0,0,0,1,0
-1565259,2026-09-21,ROU_Superliga,2026,Oţelul,Corvinul Hunedoara,Otelul,Corvinul,1,4,2,4,0,0,0,0
-1565260,2026-09-21,ROU_Superliga,2026,Petrolul Ploiesti,Csikszereda,Petrolul,Csikszereda M. Ciuc,0,0,0,1,0,0,0,0
+fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,ar1,ar2,evenimente
+1565186,2026-07-17,ROU_Superliga,2026,FC Voluntari,FC Botosani,FC Voluntari,FC Botosani,0,0,0,0,0,0,0,0,13
+1565185,2026-07-17,ROU_Superliga,2026,FCSB,Arges Pitesti,FCSB,FC Arges,2,0,1,0,0,0,0,0,3
+1565190,2026-07-18,ROU_Superliga,2026,Universitatea Craiova,Uta Arad,Univ. Craiova,UTA Arad,2,1,1,0,0,0,0,0,4
+1565187,2026-07-18,ROU_Superliga,2026,Oţelul,CFR 1907 Cluj,Otelul,CFR Cluj,0,0,0,1,0,0,0,0,1
+1565188,2026-07-19,ROU_Superliga,2026,Petrolul Ploiesti,Dinamo Bucuresti,Petrolul,Dinamo Bucuresti,0,4,2,1,0,0,0,0,7
+1565189,2026-07-19,ROU_Superliga,2026,Universitatea Cluj,Farul Constanta,U. Cluj,Farul Constanta,0,1,1,2,0,0,0,0,4
+1565183,2026-07-20,ROU_Superliga,2026,Corvinul Hunedoara,Csikszereda,Corvinul,Csikszereda M. Ciuc,0,0,0,0,0,0,0,0,13
+1565184,2026-07-20,ROU_Superliga,2026,Rapid,Sepsi OSK Sfantu Gheorghe,FC Rapid Bucuresti,Sepsi Sf. Gheorghe,2,1,1,1,0,0,0,1,6
+1565198,2026-07-24,ROU_Superliga,2026,Uta Arad,Oţelul,UTA Arad,Otelul,0,2,1,1,0,1,0,0,5
+1565195,2026-07-24,ROU_Superliga,2026,Arges Pitesti,Petrolul Ploiesti,FC Arges,Petrolul,1,3,2,4,1,0,0,0,11
+1565194,2026-07-25,ROU_Superliga,2026,Farul Constanta,Corvinul Hunedoara,Farul Constanta,Corvinul,1,1,1,1,0,0,0,1,5
+1565193,2026-07-25,ROU_Superliga,2026,Dinamo Bucuresti,Universitatea Craiova,Dinamo Bucuresti,Univ. Craiova,2,0,0,1,0,0,1,0,4
+1565197,2026-07-26,ROU_Superliga,2026,Sepsi OSK Sfantu Gheorghe,Universitatea Cluj,Sepsi Sf. Gheorghe,U. Cluj,0,0,2,1,0,0,0,0,3
+1565192,2026-07-26,ROU_Superliga,2026,Csikszereda,FCSB,Csikszereda M. Ciuc,FCSB,0,3,1,1,0,0,0,0,5
+1565191,2026-07-27,ROU_Superliga,2026,CFR 1907 Cluj,FC Voluntari,CFR Cluj,FC Voluntari,1,0,0,0,0,0,1,0,2
+1565196,2026-07-27,ROU_Superliga,2026,FC Botosani,Rapid,FC Botosani,FC Rapid Bucuresti,1,4,2,4,0,0,0,1,12
+1565200,2026-07-31,ROU_Superliga,2026,Arges Pitesti,Csikszereda,FC Arges,Csikszereda M. Ciuc,1,1,0,5,0,0,0,0,7
+1565204,2026-07-31,ROU_Superliga,2026,Oţelul,Dinamo Bucuresti,Otelul,Dinamo Bucuresti,0,0,1,2,0,0,0,0,3
+1565206,2026-08-01,ROU_Superliga,2026,Universitatea Craiova,Petrolul Ploiesti,Univ. Craiova,Petrolul,1,0,0,2,0,0,0,0,3
+1565203,2026-08-01,ROU_Superliga,2026,FC Voluntari,Uta Arad,FC Voluntari,UTA Arad,0,2,0,2,0,0,0,0,4
+1565201,2026-08-02,ROU_Superliga,2026,Rapid,CFR 1907 Cluj,FC Rapid Bucuresti,CFR Cluj,1,0,0,2,0,0,0,0,3
+1565199,2026-08-02,ROU_Superliga,2026,Corvinul Hunedoara,Sepsi OSK Sfantu Gheorghe,Corvinul,Sepsi Sf. Gheorghe,0,0,2,1,0,0,0,0,3
+1565205,2026-08-03,ROU_Superliga,2026,Universitatea Cluj,FC Botosani,U. Cluj,FC Botosani,1,2,1,1,0,0,0,0,5
+1565202,2026-08-03,ROU_Superliga,2026,FCSB,Farul Constanta,FCSB,Farul Constanta,2,2,1,1,0,0,0,0,6
+1565214,2026-08-07,ROU_Superliga,2026,Uta Arad,Rapid,UTA Arad,FC Rapid Bucuresti,0,4,1,2,0,0,0,0,7
+1565209,2026-08-08,ROU_Superliga,2026,Farul Constanta,Csikszereda,Farul Constanta,Csikszereda M. Ciuc,0,1,2,3,0,0,0,0,6
+1565208,2026-08-08,ROU_Superliga,2026,Dinamo Bucuresti,FC Voluntari,Dinamo Bucuresti,FC Voluntari,0,1,0,2,0,0,0,0,3
+1565211,2026-08-09,ROU_Superliga,2026,Petrolul Ploiesti,Oţelul,Petrolul,Otelul,1,2,1,1,0,0,0,1,6
+1565213,2026-08-09,ROU_Superliga,2026,Universitatea Craiova,Arges Pitesti,Univ. Craiova,FC Arges,1,2,1,2,0,0,0,0,6
+1565210,2026-08-10,ROU_Superliga,2026,FC Botosani,Corvinul Hunedoara,FC Botosani,Corvinul,2,0,1,4,0,0,0,1,8
+1565212,2026-08-10,ROU_Superliga,2026,Sepsi OSK Sfantu Gheorghe,FCSB,Sepsi Sf. Gheorghe,FCSB,0,2,0,3,0,0,0,0,5
+1565220,2026-08-14,ROU_Superliga,2026,FC Voluntari,Petrolul Ploiesti,FC Voluntari,Petrolul,1,4,1,2,0,0,0,0,8
+1565217,2026-08-14,ROU_Superliga,2026,Arges Pitesti,Farul Constanta,FC Arges,Farul Constanta,1,0,1,0,0,0,0,0,2
+1565216,2026-08-15,ROU_Superliga,2026,Csikszereda,Sepsi OSK Sfantu Gheorghe,Csikszereda M. Ciuc,Sepsi Sf. Gheorghe,0,2,0,2,0,0,0,0,4
+1565218,2026-08-15,ROU_Superliga,2026,Rapid,Dinamo Bucuresti,FC Rapid Bucuresti,Dinamo Bucuresti,1,0,1,1,0,0,0,0,3
+1565221,2026-08-16,ROU_Superliga,2026,Oţelul,Universitatea Craiova,Otelul,Univ. Craiova,0,2,2,4,0,0,1,0,9
+1565215,2026-08-16,ROU_Superliga,2026,Corvinul Hunedoara,CFR 1907 Cluj,Corvinul,CFR Cluj,0,1,0,0,0,0,0,0,1
+1565219,2026-08-17,ROU_Superliga,2026,FCSB,FC Botosani,FCSB,FC Botosani,1,1,0,4,0,0,0,0,6
+1565222,2026-08-17,ROU_Superliga,2026,Universitatea Cluj,Uta Arad,U. Cluj,UTA Arad,1,0,0,2,0,1,0,0,4
+1565227,2026-08-21,ROU_Superliga,2026,Petrolul Ploiesti,Rapid,Petrolul,FC Rapid Bucuresti,0,0,2,1,0,0,0,0,3
+1565224,2026-08-22,ROU_Superliga,2026,Dinamo Bucuresti,Universitatea Cluj,Dinamo Bucuresti,U. Cluj,0,6,2,3,0,1,0,0,12
+1565230,2026-08-22,ROU_Superliga,2026,Uta Arad,Corvinul Hunedoara,UTA Arad,Corvinul,2,3,0,1,0,0,0,0,6
+1565229,2026-08-23,ROU_Superliga,2026,Universitatea Craiova,FC Voluntari,Univ. Craiova,FC Voluntari,1,1,0,2,0,0,0,0,4
+1565223,2026-08-23,ROU_Superliga,2026,CFR 1907 Cluj,FCSB,CFR Cluj,FCSB,1,1,1,1,0,0,0,0,4
+1565228,2026-08-23,ROU_Superliga,2026,Sepsi OSK Sfantu Gheorghe,Farul Constanta,Sepsi Sf. Gheorghe,Farul Constanta,1,1,1,2,0,0,0,0,5
+1565225,2026-08-24,ROU_Superliga,2026,FC Botosani,Csikszereda,FC Botosani,Csikszereda M. Ciuc,3,0,0,4,0,0,1,0,8
+1565226,2026-08-24,ROU_Superliga,2026,Oţelul,Arges Pitesti,Otelul,FC Arges,0,2,1,1,0,0,0,0,4
+1565237,2026-08-28,ROU_Superliga,2026,FC Voluntari,Oţelul,FC Voluntari,Otelul,0,1,0,0,0,0,0,0,1
+1565238,2026-08-28,ROU_Superliga,2026,Universitatea Cluj,Petrolul Ploiesti,U. Cluj,Petrolul,0,2,0,2,0,0,0,0,4
+1565231,2026-08-29,ROU_Superliga,2026,Corvinul Hunedoara,Dinamo Bucuresti,Corvinul,Dinamo Bucuresti,1,1,0,3,0,0,0,0,5
+1565232,2026-08-29,ROU_Superliga,2026,Csikszereda,CFR 1907 Cluj,Csikszereda M. Ciuc,CFR Cluj,1,0,0,2,0,0,0,0,3
+1565234,2026-08-29,ROU_Superliga,2026,Arges Pitesti,Sepsi OSK Sfantu Gheorghe,FC Arges,Sepsi Sf. Gheorghe,1,2,0,1,0,0,0,0,4
+1565233,2026-08-30,ROU_Superliga,2026,Farul Constanta,FC Botosani,Farul Constanta,FC Botosani,2,0,2,3,0,0,0,0,7
+1565236,2026-08-30,ROU_Superliga,2026,FCSB,Uta Arad,FCSB,UTA Arad,0,0,0,2,0,0,0,0,2
+1565235,2026-08-31,ROU_Superliga,2026,Rapid,Universitatea Craiova,FC Rapid Bucuresti,Univ. Craiova,0,4,2,1,0,0,0,0,7
+1565239,2026-09-04,ROU_Superliga,2026,CFR 1907 Cluj,Farul Constanta,CFR Cluj,Farul Constanta,1,0,1,0,0,0,0,0,2
+1565241,2026-09-05,ROU_Superliga,2026,FC Botosani,Sepsi OSK Sfantu Gheorghe,FC Botosani,Sepsi Sf. Gheorghe,1,0,1,1,0,0,0,0,3
+1565246,2026-09-05,ROU_Superliga,2026,Uta Arad,Csikszereda,UTA Arad,Csikszereda M. Ciuc,1,0,0,1,0,0,0,0,2
+1565240,2026-09-05,ROU_Superliga,2026,Dinamo Bucuresti,FCSB,Dinamo Bucuresti,FCSB,1,4,1,2,0,1,1,0,10
+1565243,2026-09-06,ROU_Superliga,2026,Oţelul,Rapid,Otelul,FC Rapid Bucuresti,1,2,0,0,0,1,0,0,4
+1565244,2026-09-06,ROU_Superliga,2026,Petrolul Ploiesti,Corvinul Hunedoara,Petrolul,Corvinul,3,4,3,1,0,0,0,0,11
+1565242,2026-09-07,ROU_Superliga,2026,FC Voluntari,Arges Pitesti,FC Voluntari,FC Arges,0,2,1,2,0,0,0,0,5
+1565245,2026-09-07,ROU_Superliga,2026,Universitatea Craiova,Universitatea Cluj,Univ. Craiova,U. Cluj,0,0,2,0,0,0,0,0,2
+1565249,2026-09-11,ROU_Superliga,2026,Farul Constanta,Uta Arad,Farul Constanta,UTA Arad,0,0,1,1,0,0,0,0,2
+1565248,2026-09-11,ROU_Superliga,2026,Csikszereda,Dinamo Bucuresti,Csikszereda M. Ciuc,Dinamo Bucuresti,0,1,0,1,0,0,0,0,2
+1565253,2026-09-12,ROU_Superliga,2026,Sepsi OSK Sfantu Gheorghe,CFR 1907 Cluj,Sepsi Sf. Gheorghe,CFR Cluj,0,0,1,0,0,0,0,0,1
+1565251,2026-09-12,ROU_Superliga,2026,Rapid,FC Voluntari,FC Rapid Bucuresti,FC Voluntari,0,2,1,2,0,0,0,0,5
+1565250,2026-09-13,ROU_Superliga,2026,Arges Pitesti,FC Botosani,FC Arges,FC Botosani,0,1,1,3,0,0,0,1,6
+1565247,2026-09-13,ROU_Superliga,2026,Corvinul Hunedoara,Universitatea Craiova,Corvinul,Univ. Craiova,0,3,0,0,0,0,0,0,3
+1565252,2026-09-14,ROU_Superliga,2026,FCSB,Petrolul Ploiesti,FCSB,Petrolul,2,1,0,1,0,0,0,0,4
+1565254,2026-09-14,ROU_Superliga,2026,Universitatea Cluj,Oţelul,U. Cluj,Otelul,0,2,0,4,0,0,0,1,7
+1565262,2026-09-18,ROU_Superliga,2026,Uta Arad,Sepsi OSK Sfantu Gheorghe,UTA Arad,Sepsi Sf. Gheorghe,0,0,1,1,0,0,0,0,2
+1565257,2026-09-18,ROU_Superliga,2026,Rapid,Arges Pitesti,FC Rapid Bucuresti,FC Arges,0,1,1,2,0,0,0,0,4
+1565255,2026-09-19,ROU_Superliga,2026,CFR 1907 Cluj,FC Botosani,CFR Cluj,FC Botosani,1,0,0,1,0,0,1,0,3
+1565261,2026-09-19,ROU_Superliga,2026,Universitatea Craiova,FCSB,Univ. Craiova,FCSB,0,0,0,1,0,0,0,0,1
+1565258,2026-09-20,ROU_Superliga,2026,FC Voluntari,Universitatea Cluj,FC Voluntari,U. Cluj,0,2,0,0,0,0,0,0,2
+1565256,2026-09-20,ROU_Superliga,2026,Dinamo Bucuresti,Farul Constanta,Dinamo Bucuresti,Farul Constanta,1,0,0,0,0,0,1,0,2
+1565259,2026-09-21,ROU_Superliga,2026,Oţelul,Corvinul Hunedoara,Otelul,Corvinul,1,4,2,4,0,0,0,0,11
+1565260,2026-09-21,ROU_Superliga,2026,Petrolul Ploiesti,Csikszereda,Petrolul,Csikszereda M. Ciuc,0,0,0,1,0,0,0,0,1

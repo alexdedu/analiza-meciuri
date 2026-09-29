@@ -1,0 +1,381 @@
+fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,ar1,ar2,evenimente
+1377867,2025-08-23,I1,2025,Genoa,Lecce,Genoa,Lecce,0,2,2,1,0,0,0,0,5
+1377870,2025-08-23,I1,2025,AC Milan,Cremonese,Milan,Cremonese,0,1,0,4,0,0,0,0,5
+1377872,2025-08-23,I1,2025,Sassuolo,Napoli,Sassuolo,Napoli,0,3,0,1,0,1,0,0,5
+1377871,2025-08-23,I1,2025,AS Roma,Bologna,Roma,Bologna,0,1,1,0,0,0,0,0,2
+1377869,2025-08-24,I1,2025,Juventus,Parma,Juventus,Parma,1,0,0,2,0,1,0,0,4
+1377866,2025-08-24,I1,2025,Como,Lazio,Como,Lazio,2,0,1,2,0,0,0,0,5
+1377865,2025-08-24,I1,2025,Cagliari,Fiorentina,Cagliari,Fiorentina,2,2,0,2,0,0,0,0,6
+1377864,2025-08-24,I1,2025,Atalanta,Pisa,Atalanta,Pisa,1,1,0,0,0,0,0,0,2
+1377873,2025-08-25,I1,2025,Udinese,Hellas Verona,Udinese,Verona,1,2,0,2,0,0,0,0,5
+1377868,2025-08-25,I1,2025,Inter,Torino,Inter,Torino,0,0,0,0,0,0,0,0,15
+1377875,2025-08-29,I1,2025,Cremonese,Sassuolo,Cremonese,Sassuolo,1,1,1,1,0,0,0,0,4
+1377879,2025-08-29,I1,2025,Lecce,AC Milan,Lecce,Milan,0,1,0,0,0,0,0,0,1
+1377882,2025-08-30,I1,2025,Pisa,AS Roma,Pisa,Roma,1,1,1,0,0,0,0,0,3
+1377880,2025-08-30,I1,2025,Napoli,Cagliari,Napoli,Cagliari,0,2,1,0,0,0,0,0,3
+1377881,2025-08-30,I1,2025,Parma,Atalanta,Parma,Atalanta,0,2,0,2,0,0,0,0,4
+1377874,2025-08-30,I1,2025,Bologna,Como,Bologna,Como,2,2,3,1,0,0,0,0,8
+1377883,2025-08-31,I1,2025,Torino,Fiorentina,Torino,Fiorentina,1,1,1,1,0,0,0,0,4
+1377876,2025-08-31,I1,2025,Genoa,Juventus,Genoa,Juventus,0,1,1,1,0,0,0,0,3
+1377877,2025-08-31,I1,2025,Inter,Udinese,Inter,Udinese,0,1,1,2,0,0,0,0,4
+1377878,2025-08-31,I1,2025,Lazio,Hellas Verona,Lazio,Verona,0,0,0,0,0,0,0,0,14
+1377885,2025-09-13,I1,2025,Cagliari,Parma,Cagliari,Parma,1,2,1,0,0,0,0,0,4
+1377888,2025-09-13,I1,2025,Juventus,Inter,Juventus,Inter,1,1,0,2,0,0,0,0,4
+1377887,2025-09-13,I1,2025,Fiorentina,Napoli,Fiorentina,Napoli,0,0,0,0,0,0,0,0,14
+1377884,2025-09-14,I1,2025,Atalanta,Lecce,Atalanta,Lecce,0,0,0,0,0,0,0,0,15
+1377889,2025-09-14,I1,2025,AC Milan,Bologna,Milan,Bologna,3,0,0,2,0,0,0,0,5
+1377892,2025-09-14,I1,2025,Sassuolo,Lazio,Sassuolo,Lazio,2,4,2,1,0,0,0,0,9
+1377891,2025-09-14,I1,2025,AS Roma,Torino,Roma,Torino,0,2,2,1,0,0,0,0,5
+1377890,2025-09-14,I1,2025,Pisa,Udinese,Pisa,Udinese,1,0,1,1,0,0,0,0,3
+1377893,2025-09-15,I1,2025,Hellas Verona,Cremonese,Verona,Cremonese,2,0,0,1,0,0,0,0,3
+1377886,2025-09-15,I1,2025,Como,Genoa,Como,Genoa,1,1,1,1,0,1,0,0,5
+1377899,2025-09-19,I1,2025,Lecce,Cagliari,Lecce,Cagliari,2,0,1,2,0,0,0,0,5
+1377894,2025-09-20,I1,2025,Bologna,Genoa,Bologna,Genoa,1,0,3,2,0,0,0,0,6
+1377903,2025-09-20,I1,2025,Hellas Verona,Juventus,Verona,Juventus,2,1,2,1,0,0,0,0,6
+1377902,2025-09-20,I1,2025,Udinese,AC Milan,Udinese,Milan,1,1,0,0,0,0,0,0,2
+1377897,2025-09-21,I1,2025,Inter,Sassuolo,Inter,Sassuolo,1,1,0,1,0,0,0,0,3
+1377896,2025-09-21,I1,2025,Fiorentina,Como,Fiorentina,Como,1,3,1,2,0,0,0,0,7
+1377895,2025-09-21,I1,2025,Cremonese,Parma,Cremonese,Parma,0,1,0,0,0,0,0,0,1
+1377898,2025-09-21,I1,2025,Lazio,AS Roma,Lazio,Roma,0,1,0,1,0,2,0,0,4
+1377901,2025-09-21,I1,2025,Torino,Atalanta,Torino,Atalanta,0,0,0,0,0,0,0,0,14
+1377900,2025-09-22,I1,2025,Napoli,Pisa,Napoli,Pisa,0,1,0,2,0,0,0,0,3
+1377905,2025-09-27,I1,2025,Como,Cremonese,Como,Cremonese,2,1,1,3,0,1,0,0,8
+1377907,2025-09-27,I1,2025,Juventus,Atalanta,Juventus,Atalanta,0,0,1,2,0,0,0,1,4
+1377904,2025-09-27,I1,2025,Cagliari,Inter,Cagliari,Inter,0,0,1,1,0,0,0,0,2
+1377913,2025-09-28,I1,2025,Sassuolo,Udinese,Sassuolo,Udinese,0,0,2,1,0,0,0,0,3
+1377911,2025-09-28,I1,2025,Pisa,Fiorentina,Pisa,Fiorentina,0,0,1,0,0,0,0,0,1
+1377912,2025-09-28,I1,2025,AS Roma,Hellas Verona,Roma,Verona,0,0,2,2,0,0,0,0,4
+1377908,2025-09-28,I1,2025,Lecce,Bologna,Lecce,Bologna,0,4,1,1,0,0,0,0,6
+1377909,2025-09-28,I1,2025,AC Milan,Napoli,Milan,Napoli,0,1,0,0,0,1,0,0,2
+1377906,2025-09-29,I1,2025,Genoa,Lazio,Genoa,Lazio,2,3,1,0,0,0,0,0,6
+1377910,2025-09-29,I1,2025,Parma,Torino,Parma,Torino,1,2,1,2,0,0,0,0,6
+1377923,2025-10-03,I1,2025,Hellas Verona,Sassuolo,Verona,Sassuolo,1,1,1,2,0,0,0,0,5
+1377919,2025-10-04,I1,2025,Lazio,Torino,Lazio,Torino,0,3,1,2,0,0,0,0,6
+1377917,2025-10-04,I1,2025,Inter,Cremonese,Inter,Cremonese,0,1,0,1,0,0,0,0,2
+1377914,2025-10-04,I1,2025,Atalanta,Como,Atalanta,Como,0,1,0,3,0,0,0,0,4
+1377921,2025-10-04,I1,2025,Parma,Lecce,Parma,Lecce,0,1,0,2,0,0,0,0,3
+1377922,2025-10-05,I1,2025,Udinese,Cagliari,Udinese,Cagliari,0,1,1,1,0,0,0,0,3
+1377916,2025-10-05,I1,2025,Fiorentina,AS Roma,Fiorentina,Roma,1,1,1,2,0,0,0,0,5
+1377915,2025-10-05,I1,2025,Bologna,Pisa,Bologna,Pisa,0,0,0,1,0,0,1,0,2
+1377920,2025-10-05,I1,2025,Napoli,Genoa,Napoli,Genoa,0,1,2,1,0,0,0,0,4
+1377918,2025-10-05,I1,2025,Juventus,AC Milan,Juventus,Milan,0,2,1,1,0,0,0,0,4
+1377932,2025-10-18,I1,2025,AS Roma,Inter,Roma,Inter,1,3,1,2,0,0,0,0,7
+1377933,2025-10-18,I1,2025,Torino,Napoli,Torino,Napoli,0,1,1,1,0,0,0,0,3
+1377929,2025-10-18,I1,2025,Lecce,Sassuolo,Lecce,Sassuolo,0,2,0,2,0,0,0,0,4
+1377931,2025-10-18,I1,2025,Pisa,Hellas Verona,Pisa,Verona,0,4,0,2,0,0,0,0,6
+1377926,2025-10-19,I1,2025,Como,Juventus,Como,Juventus,3,0,1,0,0,0,0,0,4
+1377928,2025-10-19,I1,2025,Genoa,Parma,Genoa,Parma,1,1,3,2,0,0,1,0,8
+1377925,2025-10-19,I1,2025,Cagliari,Bologna,Cagliari,Bologna,0,1,1,2,0,0,0,0,4
+1377924,2025-10-19,I1,2025,Atalanta,Lazio,Atalanta,Lazio,2,2,0,0,0,0,0,0,4
+1377930,2025-10-19,I1,2025,AC Milan,Fiorentina,Milan,Fiorentina,0,3,0,3,0,0,0,0,6
+1377927,2025-10-20,I1,2025,Cremonese,Udinese,Cremonese,Udinese,2,2,1,1,0,0,0,0,6
+1377937,2025-10-24,I1,2025,AC Milan,Pisa,Milan,Pisa,0,1,1,2,0,0,0,0,4
+1377934,2025-10-25,I1,2025,Cremonese,Atalanta,Cremonese,Atalanta,1,2,0,1,0,0,0,0,4
+1377942,2025-10-25,I1,2025,Udinese,Lecce,Udinese,Lecce,1,1,2,0,0,0,0,0,4
+1377939,2025-10-25,I1,2025,Parma,Como,Parma,Como,0,0,0,1,0,0,0,0,1
+1377938,2025-10-25,I1,2025,Napoli,Inter,Napoli,Inter,2,0,0,1,0,0,0,0,3
+1377941,2025-10-26,I1,2025,Torino,Genoa,Torino,Genoa,1,1,1,1,0,0,0,0,4
+1377943,2025-10-26,I1,2025,Hellas Verona,Cagliari,Verona,Cagliari,1,2,0,4,0,0,0,0,7
+1377940,2025-10-26,I1,2025,Sassuolo,AS Roma,Sassuolo,Roma,2,1,1,1,0,0,0,0,5
+1377935,2025-10-26,I1,2025,Fiorentina,Bologna,Fiorentina,Bologna,1,2,2,3,0,0,0,1,9
+1377936,2025-10-26,I1,2025,Lazio,Juventus,Lazio,Juventus,1,1,1,3,0,0,0,0,6
+1377951,2025-10-28,I1,2025,Lecce,Napoli,Lecce,Napoli,0,2,1,0,0,0,0,0,3
+1377944,2025-10-28,I1,2025,Atalanta,AC Milan,Atalanta,Milan,0,1,1,2,0,0,0,0,4
+1377948,2025-10-29,I1,2025,Genoa,Cremonese,Genoa,Cremonese,1,2,0,1,0,0,0,0,4
+1377945,2025-10-29,I1,2025,Bologna,Torino,Bologna,Torino,0,2,2,1,0,0,0,0,5
+1377950,2025-10-29,I1,2025,Juventus,Udinese,Juventus,Udinese,0,1,2,2,0,0,0,0,5
+1377953,2025-10-29,I1,2025,AS Roma,Parma,Roma,Parma,0,0,2,2,0,0,0,0,4
+1377947,2025-10-29,I1,2025,Como,Hellas Verona,Como,Verona,0,1,2,2,0,0,0,0,5
+1377949,2025-10-29,I1,2025,Inter,Fiorentina,Inter,Fiorentina,0,1,0,2,0,0,0,1,4
+1377946,2025-10-30,I1,2025,Cagliari,Sassuolo,Cagliari,Sassuolo,1,3,1,3,0,0,0,0,8
+1377952,2025-10-30,I1,2025,Pisa,Lazio,Pisa,Lazio,1,1,0,2,0,0,0,0,4
+1377962,2025-11-01,I1,2025,Udinese,Atalanta,Udinese,Atalanta,0,1,0,3,0,0,0,0,4
+1377958,2025-11-01,I1,2025,Napoli,Como,Napoli,Como,1,2,2,0,0,0,0,0,5
+1377954,2025-11-01,I1,2025,Cremonese,Juventus,Cremonese,Juventus,0,1,0,0,0,0,0,0,1
+1377959,2025-11-02,I1,2025,Parma,Bologna,Parma,Bologna,2,2,0,2,1,0,0,0,7
+1377957,2025-11-02,I1,2025,AC Milan,AS Roma,Milan,Roma,0,1,1,4,0,0,0,0,6
+1377961,2025-11-02,I1,2025,Torino,Pisa,Torino,Pisa,1,1,1,0,0,0,0,0,3
+1377955,2025-11-02,I1,2025,Fiorentina,Lecce,Fiorentina,Lecce,2,2,1,0,0,0,0,0,5
+1377963,2025-11-02,I1,2025,Hellas Verona,Inter,Verona,Inter,1,1,0,1,0,0,0,0,3
+1377960,2025-11-03,I1,2025,Sassuolo,Genoa,Sassuolo,Genoa,0,1,2,1,0,0,0,0,4
+1377956,2025-11-03,I1,2025,Lazio,Cagliari,Lazio,Cagliari,0,0,0,2,0,0,0,0,2
+1377972,2025-11-07,I1,2025,Pisa,Cremonese,Pisa,Cremonese,1,3,1,1,0,0,0,0,6
+1377970,2025-11-08,I1,2025,Lecce,Hellas Verona,Lecce,Verona,1,0,2,2,0,0,0,0,5
+1377969,2025-11-08,I1,2025,Juventus,Torino,Juventus,Torino,0,0,0,1,0,0,0,0,1
+1377971,2025-11-08,I1,2025,Parma,AC Milan,Parma,Milan,0,1,0,1,0,0,0,0,2
+1377966,2025-11-08,I1,2025,Como,Cagliari,Como,Cagliari,0,3,0,1,0,0,0,0,4
+1377973,2025-11-09,I1,2025,AS Roma,Udinese,Roma,Udinese,2,0,0,1,0,0,0,0,3
+1377968,2025-11-09,I1,2025,Inter,Lazio,Inter,Lazio,2,1,0,1,0,0,0,0,4
+1377965,2025-11-09,I1,2025,Bologna,Napoli,Bologna,Napoli,0,1,0,3,0,0,0,0,4
+1377964,2025-11-09,I1,2025,Atalanta,Sassuolo,Atalanta,Sassuolo,0,0,1,1,0,0,0,0,2
+1377967,2025-11-09,I1,2025,Genoa,Fiorentina,Genoa,Fiorentina,0,2,2,1,0,0,0,0,5
+1377974,2025-11-22,I1,2025,Cagliari,Genoa,Cagliari,Genoa,1,3,1,2,0,0,0,1,8
+1377976,2025-11-22,I1,2025,Fiorentina,Juventus,Fiorentina,Juventus,2,1,1,2,0,0,0,0,6
+1377979,2025-11-22,I1,2025,Napoli,Atalanta,Napoli,Atalanta,0,1,0,2,0,0,0,0,3
+1377982,2025-11-22,I1,2025,Udinese,Bologna,Udinese,Bologna,0,0,1,0,0,0,0,0,1
+1377977,2025-11-23,I1,2025,Inter,AC Milan,Inter,Milan,0,1,1,1,0,0,0,0,3
+1377983,2025-11-23,I1,2025,Hellas Verona,Parma,Verona,Parma,1,3,2,1,0,0,0,0,7
+1377975,2025-11-23,I1,2025,Cremonese,AS Roma,Cremonese,Roma,1,1,1,1,0,0,0,0,4
+1377978,2025-11-23,I1,2025,Lazio,Lecce,Lazio,Lecce,0,1,0,1,0,0,0,0,2
+1377980,2025-11-24,I1,2025,Sassuolo,Pisa,Sassuolo,Pisa,1,1,1,0,0,0,0,0,3
+1377981,2025-11-24,I1,2025,Torino,Como,Torino,Como,0,0,1,0,0,0,0,0,1
+1377986,2025-11-28,I1,2025,Como,Sassuolo,Como,Sassuolo,0,2,1,0,0,0,0,0,3
+1377987,2025-11-29,I1,2025,Genoa,Hellas Verona,Genoa,Verona,1,0,1,2,0,0,0,0,4
+1377988,2025-11-29,I1,2025,Juventus,Cagliari,Juventus,Cagliari,0,1,1,4,0,0,0,0,6
+1377990,2025-11-29,I1,2025,AC Milan,Lazio,Milan,Lazio,1,2,0,4,0,0,0,0,7
+1377991,2025-11-29,I1,2025,Parma,Udinese,Parma,Udinese,1,0,1,1,0,1,0,0,4
+1377989,2025-11-30,I1,2025,Lecce,Torino,Lecce,Torino,0,2,0,3,0,0,0,0,5
+1377992,2025-11-30,I1,2025,Pisa,Inter,Pisa,Inter,1,1,1,0,0,0,0,0,3
+1377984,2025-11-30,I1,2025,Atalanta,Fiorentina,Atalanta,Fiorentina,0,1,0,3,0,0,0,0,4
+1377993,2025-11-30,I1,2025,AS Roma,Napoli,Roma,Napoli,0,4,0,3,0,0,0,0,7
+1377985,2025-12-01,I1,2025,Bologna,Cremonese,Bologna,Cremonese,0,0,1,1,0,0,0,0,2
+1378003,2025-12-06,I1,2025,Hellas Verona,Atalanta,Verona,Atalanta,1,1,0,1,0,0,0,0,3
+1377996,2025-12-06,I1,2025,Inter,Como,Inter,Como,0,1,2,0,0,0,0,0,3
+1378000,2025-12-06,I1,2025,Sassuolo,Fiorentina,Sassuolo,Fiorentina,2,0,0,3,0,0,0,0,5
+1377995,2025-12-07,I1,2025,Cremonese,Lecce,Cremonese,Lecce,0,1,1,1,0,0,0,0,3
+1377994,2025-12-07,I1,2025,Cagliari,AS Roma,Cagliari,Roma,0,2,0,1,0,0,0,1,4
+1377997,2025-12-07,I1,2025,Lazio,Bologna,Lazio,Bologna,1,2,1,2,0,1,0,0,7
+1377998,2025-12-07,I1,2025,Napoli,Juventus,Napoli,Juventus,1,1,0,1,0,0,0,0,3
+1377999,2025-12-08,I1,2025,Pisa,Parma,Pisa,Parma,0,2,1,1,0,1,0,0,5
+1378002,2025-12-08,I1,2025,Udinese,Genoa,Udinese,Genoa,0,1,0,0,0,0,0,0,1
+1378001,2025-12-08,I1,2025,Torino,AC Milan,Torino,Milan,0,2,1,0,0,0,0,0,3
+1378008,2025-12-12,I1,2025,Lecce,Pisa,Lecce,Pisa,0,2,1,0,0,0,0,0,3
+1378004,2025-12-13,I1,2025,Atalanta,Cagliari,Atalanta,Cagliari,1,0,0,2,0,0,0,0,3
+1378010,2025-12-13,I1,2025,Parma,Lazio,Parma,Lazio,0,2,0,1,0,0,1,1,5
+1378012,2025-12-13,I1,2025,Torino,Cremonese,Torino,Cremonese,0,1,1,1,0,0,0,0,3
+1378005,2025-12-14,I1,2025,Bologna,Juventus,Bologna,Juventus,1,2,1,0,0,1,0,0,5
+1378007,2025-12-14,I1,2025,Genoa,Inter,Genoa,Inter,1,1,0,3,0,0,0,0,5
+1378009,2025-12-14,I1,2025,AC Milan,Sassuolo,Milan,Sassuolo,1,0,1,2,0,0,0,0,4
+1378006,2025-12-14,I1,2025,Fiorentina,Hellas Verona,Fiorentina,Verona,1,0,3,2,0,0,0,0,6
+1378013,2025-12-14,I1,2025,Udinese,Napoli,Udinese,Napoli,1,0,0,0,0,0,0,0,1
+1378011,2025-12-15,I1,2025,AS Roma,Como,Roma,Como,0,3,0,3,0,0,0,0,6
+1378020,2025-12-20,I1,2025,Lazio,Cremonese,Lazio,Cremonese,1,3,1,2,0,0,0,1,8
+1378019,2025-12-20,I1,2025,Juventus,AS Roma,Juventus,Roma,1,1,1,2,0,0,0,0,5
+1378017,2025-12-21,I1,2025,Genoa,Atalanta,Genoa,Atalanta,0,1,0,2,1,0,0,0,4
+1378016,2025-12-21,I1,2025,Fiorentina,Udinese,Fiorentina,Udinese,1,2,1,0,0,0,1,0,5
+1378022,2025-12-21,I1,2025,Sassuolo,Torino,Sassuolo,Torino,2,1,0,1,0,0,0,0,4
+1378014,2025-12-21,I1,2025,Cagliari,Pisa,Cagliari,Pisa,0,3,0,2,0,0,0,0,5
+1378029,2025-12-27,I1,2025,Parma,Fiorentina,Parma,Fiorentina,1,1,1,1,0,0,0,0,4
+1378032,2025-12-27,I1,2025,Torino,Cagliari,Torino,Cagliari,1,2,0,0,0,0,0,0,3
+1378033,2025-12-27,I1,2025,Udinese,Lazio,Udinese,Lazio,1,2,2,2,0,0,0,0,7
+1378030,2025-12-27,I1,2025,Pisa,Juventus,Pisa,Juventus,1,3,0,1,0,0,0,0,5
+1378027,2025-12-27,I1,2025,Lecce,Como,Lecce,Como,1,1,1,3,0,0,0,0,6
+1378028,2025-12-28,I1,2025,AC Milan,Hellas Verona,Milan,Verona,0,0,1,0,0,0,0,0,1
+1378026,2025-12-28,I1,2025,Cremonese,Napoli,Cremonese,Napoli,0,2,2,0,0,0,0,0,4
+1378025,2025-12-28,I1,2025,Bologna,Sassuolo,Bologna,Sassuolo,1,1,1,2,0,0,0,0,5
+1378024,2025-12-28,I1,2025,Atalanta,Inter,Atalanta,Inter,1,1,0,1,0,0,0,0,3
+1378031,2025-12-29,I1,2025,AS Roma,Genoa,Roma,Genoa,0,0,0,1,0,0,0,0,1
+1378035,2026-01-02,I1,2025,Cagliari,AC Milan,Cagliari,Milan,0,2,0,1,0,0,0,0,3
+1378038,2026-01-03,I1,2025,Genoa,Pisa,Genoa,Pisa,1,0,1,2,0,0,0,0,4
+1378042,2026-01-03,I1,2025,Sassuolo,Parma,Sassuolo,Parma,0,2,0,1,0,0,0,0,3
+1378040,2026-01-03,I1,2025,Juventus,Lecce,Juventus,Lecce,0,0,0,3,0,0,0,0,3
+1378034,2026-01-03,I1,2025,Atalanta,AS Roma,Atalanta,Roma,1,0,2,0,0,0,0,0,3
+1378036,2026-01-03,I1,2025,Como,Udinese,Como,Udinese,0,1,1,2,0,0,0,0,4
+1378041,2026-01-04,I1,2025,Lazio,Napoli,Lazio,Napoli,1,4,0,1,0,2,0,1,9
+1378037,2026-01-04,I1,2025,Fiorentina,Cremonese,Fiorentina,Cremonese,1,0,2,0,0,0,0,0,3
+1378043,2026-01-04,I1,2025,Hellas Verona,Torino,Verona,Torino,0,0,0,2,0,0,0,0,2
+1378039,2026-01-04,I1,2025,Inter,Bologna,Inter,Bologna,2,1,0,3,0,0,0,0,6
+1378051,2026-01-06,I1,2025,Pisa,Como,Pisa,Como,1,1,2,0,0,0,0,0,4
+1378047,2026-01-06,I1,2025,Lecce,AS Roma,Lecce,Roma,2,1,0,1,0,0,0,0,4
+1378052,2026-01-06,I1,2025,Sassuolo,Juventus,Sassuolo,Juventus,0,0,0,0,0,0,0,0,13
+1378046,2026-01-07,I1,2025,Lazio,Fiorentina,Lazio,Fiorentina,1,2,2,3,0,0,0,0,8
+1378053,2026-01-07,I1,2025,Torino,Udinese,Torino,Udinese,1,1,0,1,0,0,0,0,3
+1378044,2026-01-07,I1,2025,Bologna,Atalanta,Bologna,Atalanta,0,0,0,0,0,0,0,0,12
+1378049,2026-01-07,I1,2025,Napoli,Hellas Verona,Napoli,Verona,0,0,1,2,0,0,0,0,3
+1378050,2026-01-07,I1,2025,Parma,Inter,Parma,Inter,0,0,1,2,0,0,0,0,3
+1378045,2026-01-08,I1,2025,Cremonese,Cagliari,Cremonese,Cagliari,1,1,1,1,0,0,0,0,4
+1378048,2026-01-08,I1,2025,AC Milan,Genoa,Milan,Genoa,0,4,0,1,0,0,0,0,5
+1378055,2026-01-10,I1,2025,Como,Bologna,Como,Bologna,1,2,0,3,0,0,0,1,7
+1378062,2026-01-10,I1,2025,Udinese,Pisa,Udinese,Pisa,0,1,1,3,0,0,0,0,5
+1378061,2026-01-10,I1,2025,AS Roma,Sassuolo,Roma,Sassuolo,2,0,0,2,0,0,0,0,4
+1378054,2026-01-10,I1,2025,Atalanta,Torino,Atalanta,Torino,0,1,1,1,0,0,0,0,3
+1378060,2026-01-11,I1,2025,Lecce,Parma,Lecce,Parma,1,2,0,1,0,2,0,0,6
+1378063,2026-01-11,I1,2025,Hellas Verona,Lazio,Verona,Lazio,2,0,1,0,0,0,0,0,3
+1378056,2026-01-11,I1,2025,Fiorentina,AC Milan,Fiorentina,Milan,1,1,0,3,0,0,0,0,5
+1378058,2026-01-11,I1,2025,Inter,Napoli,Inter,Napoli,0,0,0,1,0,0,0,0,1
+1378057,2026-01-12,I1,2025,Genoa,Cagliari,Genoa,Cagliari,1,1,2,3,0,0,0,0,7
+1378059,2026-01-12,I1,2025,Juventus,Cremonese,Juventus,Cremonese,0,0,0,1,0,0,0,0,1
+1378021,2026-01-14,I1,2025,Napoli,Parma,Napoli,Parma,0,1,0,3,0,0,0,0,4
+1378018,2026-01-14,I1,2025,Inter,Lecce,Inter,Lecce,1,1,0,1,0,0,0,0,3
+1378023,2026-01-15,I1,2025,Hellas Verona,Bologna,Verona,Bologna,1,0,1,1,0,0,0,0,3
+1378015,2026-01-15,I1,2025,Como,AC Milan,Como,Milan,0,1,0,0,0,0,0,0,1
+1378071,2026-01-16,I1,2025,Pisa,Atalanta,Pisa,Atalanta,0,1,1,1,0,0,0,0,3
+1378073,2026-01-17,I1,2025,Udinese,Inter,Udinese,Inter,0,0,0,1,0,0,0,0,1
+1378069,2026-01-17,I1,2025,Napoli,Sassuolo,Napoli,Sassuolo,0,0,0,2,0,0,0,0,2
+1378065,2026-01-17,I1,2025,Cagliari,Juventus,Cagliari,Juventus,0,0,1,0,0,0,0,0,1
+1378068,2026-01-18,I1,2025,AC Milan,Lecce,Milan,Lecce,1,0,0,1,0,0,0,0,2
+1378072,2026-01-18,I1,2025,Torino,AS Roma,Torino,Roma,1,1,0,1,0,0,0,0,3
+1378070,2026-01-18,I1,2025,Parma,Genoa,Parma,Genoa,3,0,1,1,0,0,0,0,5
+1378064,2026-01-18,I1,2025,Bologna,Fiorentina,Bologna,Fiorentina,1,2,0,0,0,0,0,0,3
+1378066,2026-01-19,I1,2025,Cremonese,Hellas Verona,Cremonese,Verona,2,1,0,0,0,0,0,0,3
+1378067,2026-01-19,I1,2025,Lazio,Como,Lazio,Como,3,1,1,2,0,0,0,0,7
+1378078,2026-01-23,I1,2025,Inter,Pisa,Inter,Pisa,1,1,1,2,0,0,0,0,5
+1378075,2026-01-24,I1,2025,Como,Torino,Como,Torino,0,0,1,0,0,0,0,0,1
+1378076,2026-01-24,I1,2025,Fiorentina,Cagliari,Fiorentina,Cagliari,0,2,0,3,0,0,0,0,5
+1378080,2026-01-24,I1,2025,Lecce,Lazio,Lecce,Lazio,0,2,0,1,0,0,0,0,3
+1378081,2026-01-25,I1,2025,AS Roma,AC Milan,Roma,Milan,0,0,0,4,0,0,0,0,4
+1378079,2026-01-25,I1,2025,Juventus,Napoli,Juventus,Napoli,0,1,1,1,0,0,0,0,3
+1378074,2026-01-25,I1,2025,Atalanta,Parma,Atalanta,Parma,0,1,0,0,0,0,0,0,1
+1378077,2026-01-25,I1,2025,Genoa,Bologna,Genoa,Bologna,0,2,0,2,0,0,0,1,5
+1378082,2026-01-25,I1,2025,Sassuolo,Cremonese,Sassuolo,Cremonese,0,1,1,1,0,0,0,0,3
+1378083,2026-01-26,I1,2025,Hellas Verona,Udinese,Verona,Udinese,0,2,0,0,0,0,0,0,2
+1378088,2026-01-30,I1,2025,Lazio,Genoa,Lazio,Genoa,0,2,0,3,0,0,0,0,5
+1378091,2026-01-31,I1,2025,Pisa,Sassuolo,Pisa,Sassuolo,0,3,2,1,0,0,0,0,6
+1378089,2026-01-31,I1,2025,Napoli,Fiorentina,Napoli,Fiorentina,0,1,1,0,0,0,0,0,2
+1378085,2026-01-31,I1,2025,Cagliari,Hellas Verona,Cagliari,Verona,0,0,1,1,0,0,0,1,3
+1378092,2026-02-01,I1,2025,Torino,Lecce,Torino,Lecce,1,1,0,2,0,0,0,0,4
+1378086,2026-02-01,I1,2025,Como,Atalanta,Como,Atalanta,2,2,1,2,0,0,1,0,8
+1378087,2026-02-01,I1,2025,Cremonese,Inter,Cremonese,Inter,0,3,0,0,0,0,0,0,3
+1378090,2026-02-01,I1,2025,Parma,Juventus,Parma,Juventus,0,1,3,0,0,0,0,0,4
+1378093,2026-02-02,I1,2025,Udinese,AS Roma,Udinese,Roma,2,3,1,3,0,0,0,0,9
+1378084,2026-02-03,I1,2025,Bologna,AC Milan,Bologna,Milan,0,3,0,0,0,0,0,0,3
+1378103,2026-02-06,I1,2025,Hellas Verona,Pisa,Verona,Pisa,0,1,1,1,0,0,0,0,3
+1378097,2026-02-07,I1,2025,Genoa,Napoli,Genoa,Napoli,0,2,1,3,0,0,0,1,7
+1378096,2026-02-07,I1,2025,Fiorentina,Torino,Fiorentina,Torino,1,1,1,4,0,0,0,0,7
+1378095,2026-02-08,I1,2025,Bologna,Parma,Bologna,Parma,0,1,0,3,1,0,0,1,6
+1378099,2026-02-08,I1,2025,Lecce,Udinese,Lecce,Udinese,0,1,0,2,0,0,0,0,3
+1378102,2026-02-08,I1,2025,Sassuolo,Inter,Sassuolo,Inter,0,1,0,1,0,1,0,0,3
+1378098,2026-02-08,I1,2025,Juventus,Lazio,Juventus,Lazio,0,0,1,1,0,0,0,0,2
+1378094,2026-02-09,I1,2025,Atalanta,Cremonese,Atalanta,Cremonese,0,2,0,0,0,0,0,0,2
+1378101,2026-02-09,I1,2025,AS Roma,Cagliari,Roma,Cagliari,0,2,2,2,0,0,0,0,6
+1378111,2026-02-13,I1,2025,Pisa,AC Milan,Pisa,Milan,1,0,0,3,0,0,0,1,5
+1378108,2026-02-14,I1,2025,Lazio,Atalanta,Lazio,Atalanta,0,1,2,2,0,0,0,0,5
+1378105,2026-02-14,I1,2025,Como,Fiorentina,Como,Fiorentina,0,4,0,2,0,1,0,0,7
+1378107,2026-02-14,I1,2025,Inter,Juventus,Inter,Juventus,1,3,2,0,0,0,1,0,7
+1378109,2026-02-15,I1,2025,Napoli,AS Roma,Napoli,Roma,0,1,1,0,0,0,0,0,2
+1378112,2026-02-15,I1,2025,Torino,Bologna,Torino,Bologna,1,2,0,1,0,0,0,0,4
+1378113,2026-02-15,I1,2025,Udinese,Sassuolo,Udinese,Sassuolo,1,2,1,2,0,0,0,0,6
+1378110,2026-02-15,I1,2025,Parma,Hellas Verona,Parma,Verona,2,0,0,1,0,0,1,0,4
+1378106,2026-02-15,I1,2025,Cremonese,Genoa,Cremonese,Genoa,2,0,0,0,0,0,0,0,2
+1378104,2026-02-16,I1,2025,Cagliari,Lecce,Cagliari,Lecce,0,0,0,0,0,0,0,0,10
+1378100,2026-02-18,I1,2025,AC Milan,Como,Milan,Como,0,2,0,3,0,0,0,0,5
+1378123,2026-02-20,I1,2025,Sassuolo,Hellas Verona,Sassuolo,Verona,1,1,1,2,0,0,0,1,6
+1378119,2026-02-21,I1,2025,Juventus,Como,Juventus,Como,0,1,0,0,0,0,0,0,1
+1378116,2026-02-21,I1,2025,Cagliari,Lazio,Cagliari,Lazio,1,2,1,1,0,1,0,0,6
+1378120,2026-02-21,I1,2025,Lecce,Inter,Lecce,Inter,1,0,1,1,0,0,0,0,3
+1378118,2026-02-22,I1,2025,Genoa,Torino,Genoa,Torino,0,0,1,0,0,0,1,0,2
+1378114,2026-02-22,I1,2025,Atalanta,Napoli,Atalanta,Napoli,0,1,1,0,0,0,0,0,2
+1378121,2026-02-22,I1,2025,AC Milan,Parma,Milan,Parma,1,1,0,1,0,0,0,0,3
+1378122,2026-02-22,I1,2025,AS Roma,Cremonese,Roma,Cremonese,0,1,1,0,0,0,0,0,2
+1378117,2026-02-23,I1,2025,Fiorentina,Pisa,Fiorentina,Pisa,0,3,1,2,0,0,0,0,6
+1378115,2026-02-23,I1,2025,Bologna,Udinese,Bologna,Udinese,0,1,0,1,0,0,0,0,2
+1378127,2026-02-27,I1,2025,Parma,Cagliari,Parma,Cagliari,0,2,2,2,0,0,0,0,6
+1378126,2026-02-28,I1,2025,Inter,Genoa,Inter,Genoa,1,1,1,0,0,0,0,0,3
+1378124,2026-02-28,I1,2025,Como,Lecce,Como,Lecce,0,0,0,1,0,0,0,0,1
+1378133,2026-02-28,I1,2025,Hellas Verona,Napoli,Verona,Napoli,1,2,0,4,0,0,0,0,7
+1378125,2026-03-01,I1,2025,Cremonese,AC Milan,Cremonese,Milan,0,2,0,0,0,0,0,0,2
+1378130,2026-03-01,I1,2025,Sassuolo,Atalanta,Sassuolo,Atalanta,1,1,1,1,1,0,0,0,5
+1378131,2026-03-01,I1,2025,Torino,Lazio,Torino,Lazio,1,3,0,1,0,0,0,0,5
+1378129,2026-03-01,I1,2025,AS Roma,Juventus,Roma,Juventus,1,0,0,0,0,0,0,0,1
+1378128,2026-03-02,I1,2025,Pisa,Bologna,Pisa,Bologna,0,0,0,2,0,0,0,0,2
+1378132,2026-03-02,I1,2025,Udinese,Fiorentina,Udinese,Fiorentina,1,0,2,2,0,0,0,0,5
+1378143,2026-03-06,I1,2025,Napoli,Torino,Napoli,Torino,0,0,0,3,0,0,0,0,3
+1378136,2026-03-07,I1,2025,Cagliari,Como,Cagliari,Como,0,3,0,1,0,0,0,0,4
+1378134,2026-03-07,I1,2025,Atalanta,Udinese,Atalanta,Udinese,0,1,1,1,0,0,0,0,3
+1378139,2026-03-07,I1,2025,Juventus,Pisa,Juventus,Pisa,0,1,1,2,0,0,0,0,4
+1378142,2026-03-08,I1,2025,AC Milan,Inter,Milan,Inter,0,2,0,2,0,0,0,0,4
+1378138,2026-03-08,I1,2025,Genoa,AS Roma,Genoa,Roma,1,0,2,1,0,0,0,0,4
+1378141,2026-03-08,I1,2025,Lecce,Cremonese,Lecce,Cremonese,1,0,1,3,0,0,1,0,6
+1378137,2026-03-08,I1,2025,Fiorentina,Parma,Fiorentina,Parma,0,2,0,0,0,0,0,0,2
+1378135,2026-03-08,I1,2025,Bologna,Hellas Verona,Bologna,Verona,1,0,2,0,0,0,0,0,3
+1378140,2026-03-09,I1,2025,Lazio,Sassuolo,Lazio,Sassuolo,0,0,1,3,0,0,0,0,4
+1378151,2026-03-13,I1,2025,Torino,Parma,Torino,Parma,0,1,0,3,0,0,0,0,4
+1378146,2026-03-14,I1,2025,Inter,Atalanta,Inter,Atalanta,1,1,1,1,0,0,0,0,4
+1378148,2026-03-14,I1,2025,Napoli,Lecce,Napoli,Lecce,0,0,1,0,0,0,0,0,1
+1378152,2026-03-14,I1,2025,Udinese,Juventus,Udinese,Juventus,1,2,0,1,0,0,0,0,4
+1378147,2026-03-15,I1,2025,Lazio,AC Milan,Lazio,Milan,0,4,0,1,0,0,0,0,5
+1378144,2026-03-15,I1,2025,Como,AS Roma,Como,Roma,0,2,0,3,0,0,0,1,6
+1378150,2026-03-15,I1,2025,Sassuolo,Bologna,Sassuolo,Bologna,0,1,1,1,0,0,0,0,3
+1378153,2026-03-15,I1,2025,Hellas Verona,Genoa,Verona,Genoa,2,0,0,1,0,0,0,0,3
+1378149,2026-03-15,I1,2025,Pisa,Cagliari,Pisa,Cagliari,0,1,0,4,1,0,0,1,7
+1378145,2026-03-16,I1,2025,Cremonese,Fiorentina,Cremonese,Fiorentina,1,0,0,0,0,0,0,0,1
+1378156,2026-03-20,I1,2025,Cagliari,Napoli,Cagliari,Napoli,1,1,1,1,0,0,0,0,4
+1378159,2026-03-20,I1,2025,Genoa,Udinese,Genoa,Udinese,1,0,1,4,0,0,0,0,6
+1378162,2026-03-21,I1,2025,Parma,Cremonese,Parma,Cremonese,0,3,0,3,0,0,0,0,6
+1378161,2026-03-21,I1,2025,AC Milan,Torino,Milan,Torino,1,2,0,1,0,0,0,0,4
+1378160,2026-03-21,I1,2025,Juventus,Sassuolo,Juventus,Sassuolo,0,1,0,2,0,0,0,0,3
+1378157,2026-03-22,I1,2025,Como,Pisa,Como,Pisa,0,0,1,1,0,0,0,0,2
+1378155,2026-03-22,I1,2025,Bologna,Lazio,Bologna,Lazio,0,1,0,1,0,0,0,0,2
+1378154,2026-03-22,I1,2025,Atalanta,Hellas Verona,Atalanta,Verona,0,1,1,2,0,0,0,0,4
+1378163,2026-03-22,I1,2025,AS Roma,Lecce,Roma,Lecce,0,2,0,2,0,0,0,0,4
+1378158,2026-03-22,I1,2025,Fiorentina,Inter,Fiorentina,Inter,0,3,2,1,0,0,0,0,6
+1378167,2026-04-04,I1,2025,Lazio,Parma,Lazio,Parma,0,1,2,0,0,0,0,0,3
+1378171,2026-04-04,I1,2025,Sassuolo,Cagliari,Sassuolo,Cagliari,0,1,0,0,0,0,0,0,1
+1378173,2026-04-04,I1,2025,Hellas Verona,Fiorentina,Verona,Fiorentina,1,2,0,1,0,1,0,1,6
+1378164,2026-04-05,I1,2025,Cremonese,Bologna,Cremonese,Bologna,1,1,0,3,0,1,0,1,7
+1378170,2026-04-05,I1,2025,Pisa,Torino,Pisa,Torino,1,0,0,0,0,0,0,0,1
+1378165,2026-04-05,I1,2025,Inter,AS Roma,Inter,Roma,0,0,0,1,0,0,0,0,1
+1378172,2026-04-06,I1,2025,Udinese,Como,Udinese,Como,0,2,0,3,0,0,0,0,5
+1378168,2026-04-06,I1,2025,Lecce,Atalanta,Lecce,Atalanta,0,0,0,2,0,0,0,0,2
+1378166,2026-04-06,I1,2025,Juventus,Genoa,Juventus,Genoa,2,2,0,1,0,0,0,0,5
+1378169,2026-04-06,I1,2025,Napoli,AC Milan,Napoli,Milan,1,1,0,0,0,0,0,0,2
+1378182,2026-04-10,I1,2025,AS Roma,Pisa,Roma,Pisa,0,1,1,0,0,0,0,0,2
+1378174,2026-04-11,I1,2025,Atalanta,Juventus,Atalanta,Juventus,0,1,0,3,0,0,0,0,4
+1378183,2026-04-11,I1,2025,Torino,Hellas Verona,Torino,Verona,1,0,1,3,0,0,0,0,5
+1378176,2026-04-11,I1,2025,Cagliari,Cremonese,Cagliari,Cremonese,0,1,1,0,0,0,0,0,2
+1378180,2026-04-11,I1,2025,AC Milan,Udinese,Milan,Udinese,1,0,0,1,0,0,0,0,2
+1378179,2026-04-12,I1,2025,Genoa,Sassuolo,Genoa,Sassuolo,2,0,2,1,1,0,1,0,7
+1378181,2026-04-12,I1,2025,Parma,Napoli,Parma,Napoli,0,1,0,0,0,0,0,0,1
+1378175,2026-04-12,I1,2025,Bologna,Lecce,Bologna,Lecce,0,0,2,0,0,0,0,0,2
+1378177,2026-04-12,I1,2025,Como,Inter,Como,Inter,1,2,0,7,0,0,0,0,10
+1378178,2026-04-13,I1,2025,Fiorentina,Lazio,Fiorentina,Lazio,1,2,0,2,0,0,0,0,5
+1378191,2026-04-17,I1,2025,Sassuolo,Como,Sassuolo,Como,0,3,2,1,0,0,0,0,6
+1378185,2026-04-17,I1,2025,Inter,Cagliari,Inter,Cagliari,0,0,2,0,0,0,0,0,2
+1378190,2026-04-18,I1,2025,AS Roma,Atalanta,Roma,Atalanta,0,1,0,2,0,0,0,0,3
+1378192,2026-04-18,I1,2025,Udinese,Parma,Udinese,Parma,0,2,0,0,0,0,0,0,2
+1378188,2026-04-18,I1,2025,Napoli,Lazio,Napoli,Lazio,1,0,1,2,0,0,0,0,4
+1378184,2026-04-19,I1,2025,Cremonese,Torino,Cremonese,Torino,0,0,0,3,0,0,0,0,3
+1378193,2026-04-19,I1,2025,Hellas Verona,AC Milan,Verona,Milan,1,1,0,0,0,0,0,0,2
+1378189,2026-04-19,I1,2025,Pisa,Genoa,Pisa,Genoa,1,2,0,1,0,0,0,0,4
+1378186,2026-04-19,I1,2025,Juventus,Bologna,Juventus,Bologna,0,1,0,0,0,0,0,0,1
+1378187,2026-04-20,I1,2025,Lecce,Fiorentina,Lecce,Fiorentina,0,2,0,4,0,0,0,0,6
+1378200,2026-04-24,I1,2025,Napoli,Cremonese,Napoli,Cremonese,0,0,0,0,0,0,0,0,14
+1378201,2026-04-25,I1,2025,Parma,Pisa,Parma,Pisa,0,1,2,0,0,0,0,0,3
+1378194,2026-04-25,I1,2025,Bologna,AS Roma,Bologna,Roma,0,0,0,3,0,0,0,0,3
+1378203,2026-04-25,I1,2025,Hellas Verona,Lecce,Verona,Lecce,0,2,1,4,0,0,0,0,7
+1378199,2026-04-26,I1,2025,AC Milan,Juventus,Milan,Juventus,1,1,1,2,0,0,0,0,5
+1378196,2026-04-26,I1,2025,Fiorentina,Sassuolo,Fiorentina,Sassuolo,1,1,0,1,0,0,0,0,3
+1378197,2026-04-26,I1,2025,Genoa,Como,Genoa,Como,0,1,2,1,0,0,0,0,4
+1378202,2026-04-26,I1,2025,Torino,Inter,Torino,Inter,0,1,0,2,0,0,0,0,3
+1378195,2026-04-27,I1,2025,Cagliari,Atalanta,Cagliari,Atalanta,0,0,0,0,0,0,0,0,15
+1378198,2026-04-27,I1,2025,Lazio,Udinese,Lazio,Udinese,1,2,0,1,0,0,0,0,4
+1378210,2026-05-01,I1,2025,Pisa,Lecce,Pisa,Lecce,1,3,0,2,0,0,0,0,6
+1378213,2026-05-02,I1,2025,Udinese,Torino,Udinese,Torino,0,1,0,1,0,0,0,0,2
+1378206,2026-05-02,I1,2025,Como,Napoli,Como,Napoli,0,1,0,1,0,0,0,0,2
+1378204,2026-05-02,I1,2025,Atalanta,Genoa,Atalanta,Genoa,0,2,1,0,0,0,0,0,3
+1378208,2026-05-03,I1,2025,Inter,Parma,Inter,Parma,0,1,0,0,0,0,0,0,1
+1378209,2026-05-03,I1,2025,Juventus,Hellas Verona,Juventus,Verona,1,0,2,2,0,0,0,0,5
+1378205,2026-05-03,I1,2025,Bologna,Cagliari,Bologna,Cagliari,0,2,0,1,0,0,0,0,3
+1378212,2026-05-03,I1,2025,Sassuolo,AC Milan,Sassuolo,Milan,1,3,2,2,0,0,1,0,9
+1378207,2026-05-04,I1,2025,Cremonese,Lazio,Cremonese,Lazio,0,1,1,1,0,0,0,0,3
+1378211,2026-05-04,I1,2025,AS Roma,Fiorentina,Roma,Fiorentina,0,2,1,1,0,0,0,0,4
+1378222,2026-05-08,I1,2025,Torino,Sassuolo,Torino,Sassuolo,0,4,1,1,0,0,0,0,6
+1378214,2026-05-09,I1,2025,Cagliari,Udinese,Cagliari,Udinese,0,1,1,0,0,0,0,0,2
+1378217,2026-05-09,I1,2025,Lazio,Inter,Lazio,Inter,0,2,0,1,0,1,0,0,4
+1378218,2026-05-09,I1,2025,Lecce,Juventus,Lecce,Juventus,0,1,0,1,0,0,0,0,2
+1378221,2026-05-10,I1,2025,Parma,AS Roma,Parma,Roma,0,4,0,0,0,1,0,0,5
+1378219,2026-05-10,I1,2025,AC Milan,Atalanta,Milan,Atalanta,1,2,0,3,0,0,0,0,6
+1378215,2026-05-10,I1,2025,Cremonese,Pisa,Cremonese,Pisa,0,0,2,2,0,0,1,1,6
+1378223,2026-05-10,I1,2025,Hellas Verona,Como,Verona,Como,0,1,0,1,0,0,0,0,2
+1378216,2026-05-10,I1,2025,Fiorentina,Genoa,Fiorentina,Genoa,0,0,0,0,0,0,0,0,9
+1378220,2026-05-11,I1,2025,Napoli,Bologna,Napoli,Bologna,0,1,1,3,0,0,0,0,5
+1378232,2026-05-17,I1,2025,Sassuolo,Lecce,Sassuolo,Lecce,0,1,0,4,0,0,0,0,5
+1378233,2026-05-17,I1,2025,Udinese,Cremonese,Udinese,Cremonese,0,1,0,3,0,0,0,0,4
+1378224,2026-05-17,I1,2025,Atalanta,Bologna,Atalanta,Bologna,0,1,0,1,0,0,0,0,2
+1378228,2026-05-17,I1,2025,Inter,Hellas Verona,Inter,Verona,0,0,0,2,0,0,0,0,2
+1378225,2026-05-17,I1,2025,Cagliari,Torino,Cagliari,Torino,0,1,0,1,0,0,0,0,2
+1378229,2026-05-17,I1,2025,Juventus,Fiorentina,Juventus,Fiorentina,1,0,1,2,0,0,1,0,5
+1378231,2026-05-17,I1,2025,AS Roma,Lazio,Roma,Lazio,1,1,2,1,0,1,0,1,7
+1378230,2026-05-17,I1,2025,Pisa,Napoli,Pisa,Napoli,0,2,0,2,0,0,0,0,4
+1378226,2026-05-17,I1,2025,Como,Parma,Como,Parma,0,2,0,0,0,0,0,0,2
+1378227,2026-05-17,I1,2025,Genoa,AC Milan,Genoa,Milan,0,2,0,3,0,0,0,0,5
+1378236,2026-05-22,I1,2025,Fiorentina,Atalanta,Fiorentina,Atalanta,0,0,0,2,0,0,0,0,2
+1378234,2026-05-23,I1,2025,Bologna,Inter,Bologna,Inter,0,0,1,1,0,0,0,0,2
+1378237,2026-05-23,I1,2025,Lazio,Pisa,Lazio,Pisa,2,0,0,1,0,0,0,0,3
+1378241,2026-05-24,I1,2025,Parma,Sassuolo,Parma,Sassuolo,2,0,2,0,0,0,0,0,4
+1378240,2026-05-24,I1,2025,Napoli,Udinese,Napoli,Udinese,0,0,0,3,0,0,0,1,4
+1378238,2026-05-24,I1,2025,Lecce,Genoa,Lecce,Genoa,1,1,0,0,0,0,0,0,2
+1378235,2026-05-24,I1,2025,Cremonese,Como,Cremonese,Como,1,3,1,1,2,1,0,0,9
+1378243,2026-05-24,I1,2025,Hellas Verona,AS Roma,Verona,Roma,2,1,0,1,0,1,0,0,5
+1378242,2026-05-24,I1,2025,Torino,Juventus,Torino,Juventus,0,1,0,2,0,0,0,0,3
+1378239,2026-05-24,I1,2025,AC Milan,Cagliari,Milan,Cagliari,0,2,1,1,0,0,0,0,4

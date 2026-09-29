@@ -1,0 +1,309 @@
+fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,ar1,ar2,evenimente
+1396240,2025-08-08,P1,2025,Casa Pia,Sporting CP,Casa Pia,Sp Lisbon,3,1,0,1,0,0,0,0,5
+1396245,2025-08-09,P1,2025,Nacional,GIL Vicente,Nacional,Gil Vicente,0,3,1,5,0,0,0,0,9
+1396237,2025-08-09,P1,2025,Arouca,AVS,Arouca,AVS,2,0,0,0,0,0,0,0,2
+1396244,2025-08-10,P1,2025,Moreirense,Alverca,Moreirense,Alverca,1,2,1,0,0,0,0,0,4
+1396242,2025-08-10,P1,2025,Famalicao,Santa Clara,Famalicao,Santa Clara,0,4,0,2,0,0,0,0,6
+1396239,2025-08-10,P1,2025,SC Braga,Tondela,Sp Braga,Tondela,0,1,0,3,0,0,0,0,4
+1396241,2025-08-11,P1,2025,Estoril,Estrela,Estoril,Estrela,3,1,0,1,0,0,0,0,5
+1396243,2025-08-11,P1,2025,FC Porto,Vitória SC,Porto,Guimaraes,0,1,1,2,0,0,0,0,4
+1396246,2025-08-15,P1,2025,AVS,Casa Pia,AVS,Casa Pia,3,1,1,4,0,0,0,0,9
+1396253,2025-08-16,P1,2025,Tondela,Famalicao,Tondela,Famalicao,0,0,1,0,0,0,0,0,1
+1396254,2025-08-16,P1,2025,Vitória SC,Estoril,Guimaraes,Estoril,0,0,3,4,0,0,0,0,7
+1396248,2025-08-16,P1,2025,Estrela,Benfica,Estrela,Benfica,1,2,0,3,0,0,0,0,6
+1396250,2025-08-17,P1,2025,Rio Ave,Nacional,Rio Ave,Nacional,1,1,3,1,0,0,1,0,7
+1396247,2025-08-17,P1,2025,Alverca,SC Braga,Alverca,Sp Braga,1,1,0,1,0,0,0,0,3
+1396252,2025-08-17,P1,2025,Sporting CP,Arouca,Sp Lisbon,Arouca,1,0,0,0,0,0,1,0,2
+1396251,2025-08-17,P1,2025,Santa Clara,Moreirense,Santa Clara,Moreirense,1,3,1,4,0,0,0,0,9
+1396249,2025-08-18,P1,2025,GIL Vicente,FC Porto,Gil Vicente,Porto,1,1,2,2,0,0,0,0,6
+1396262,2025-08-23,P1,2025,Moreirense,Vitória SC,Moreirense,Guimaraes,0,5,1,1,0,0,0,0,7
+1396263,2025-08-23,P1,2025,Nacional,Sporting CP,Nacional,Sp Lisbon,2,1,1,1,1,0,0,0,6
+1396255,2025-08-23,P1,2025,Arouca,Rio Ave,Arouca,Rio Ave,3,0,2,0,0,0,0,0,5
+1396256,2025-08-23,P1,2025,Benfica,Tondela,Benfica,Tondela,1,1,1,1,0,0,0,0,4
+1396257,2025-08-24,P1,2025,SC Braga,AVS,Sp Braga,AVS,0,2,1,2,0,0,0,0,5
+1396261,2025-08-24,P1,2025,FC Porto,Casa Pia,Porto,Casa Pia,1,2,0,1,0,0,0,0,4
+1396260,2025-08-24,P1,2025,Famalicao,GIL Vicente,Famalicao,Gil Vicente,0,3,0,1,0,0,0,0,4
+1396259,2025-08-25,P1,2025,Estrela,Alverca,Estrela,Alverca,2,2,2,3,0,1,0,1,11
+1396267,2025-08-29,P1,2025,GIL Vicente,Moreirense,Gil Vicente,Moreirense,0,1,0,2,0,0,0,0,3
+1396266,2025-08-30,P1,2025,Casa Pia,Nacional,Casa Pia,Nacional,0,2,0,3,0,0,0,0,5
+1396264,2025-08-30,P1,2025,AVS,Famalicao,AVS,Famalicao,0,1,1,4,0,0,0,1,7
+1396272,2025-08-30,P1,2025,Vitória SC,Arouca,Guimaraes,Arouca,0,0,0,8,0,0,0,0,8
+1396270,2025-08-30,P1,2025,Sporting CP,FC Porto,Sp Lisbon,Porto,1,2,4,1,0,0,0,0,8
+1396271,2025-08-31,P1,2025,Tondela,Estoril,Tondela,Estoril,1,0,2,1,0,0,0,0,4
+1396265,2025-08-31,P1,2025,Alverca,Benfica,Alverca,Benfica,1,3,1,5,0,0,0,1,11
+1396269,2025-08-31,P1,2025,Santa Clara,Estrela,Santa Clara,Estrela,2,0,0,2,0,0,0,0,4
+1396268,2025-08-31,P1,2025,Rio Ave,SC Braga,Rio Ave,Sp Braga,1,2,2,0,0,0,0,0,5
+1396258,2025-09-06,P1,2025,Estoril,Santa Clara,Estoril,Santa Clara,1,3,0,1,0,0,0,0,5
+1396273,2025-09-12,P1,2025,Alverca,Tondela,Alverca,Tondela,0,1,0,2,0,0,0,0,3
+1396275,2025-09-12,P1,2025,Benfica,Santa Clara,Benfica,Santa Clara,0,1,1,0,0,0,1,0,3
+1396280,2025-09-13,P1,2025,FC Porto,Nacional,Porto,Nacional,0,2,1,3,0,0,0,0,6
+1396279,2025-09-13,P1,2025,Famalicao,Sporting CP,Famalicao,Sp Lisbon,3,1,2,1,0,0,0,0,7
+1396277,2025-09-13,P1,2025,Estoril,AVS,Estoril,AVS,3,2,1,1,0,0,0,0,7
+1396281,2025-09-13,P1,2025,Moreirense,Rio Ave,Moreirense,Rio Ave,1,0,0,0,0,0,0,0,1
+1396278,2025-09-14,P1,2025,Estrela,Vitória SC,Estrela,Guimaraes,0,2,0,0,0,0,0,0,2
+1396274,2025-09-14,P1,2025,Arouca,Casa Pia,Arouca,Casa Pia,0,2,2,5,0,0,0,0,9
+1396276,2025-09-14,P1,2025,SC Braga,GIL Vicente,Sp Braga,Gil Vicente,1,1,0,3,0,0,0,0,5
+1396286,2025-09-19,P1,2025,Rio Ave,FC Porto,Rio Ave,Porto,2,0,1,0,0,0,0,0,3
+1396282,2025-09-20,P1,2025,AVS,Benfica,AVS,Benfica,1,0,1,0,0,0,0,0,2
+1396290,2025-09-20,P1,2025,Vitória SC,SC Braga,Guimaraes,Sp Braga,0,0,1,4,0,0,0,0,5
+1396287,2025-09-20,P1,2025,Santa Clara,Alverca,Santa Clara,Alverca,1,5,3,1,0,0,0,0,10
+1396285,2025-09-20,P1,2025,Nacional,Arouca,Nacional,Arouca,1,1,0,2,0,1,0,1,6
+1396289,2025-09-21,P1,2025,Tondela,Estrela,Tondela,Estrela,1,3,1,2,1,0,0,0,8
+1396284,2025-09-21,P1,2025,GIL Vicente,Estoril,Gil Vicente,Estoril,0,2,0,2,0,0,0,0,4
+1396283,2025-09-21,P1,2025,Casa Pia,Famalicao,Casa Pia,Famalicao,1,0,0,2,0,0,0,0,3
+1396288,2025-09-22,P1,2025,Sporting CP,Moreirense,Sp Lisbon,Moreirense,1,0,0,1,0,0,0,0,2
+1396238,2025-09-23,P1,2025,Benfica,Rio Ave,Benfica,Rio Ave,1,2,0,3,0,0,0,0,6
+1396293,2025-09-26,P1,2025,Benfica,GIL Vicente,Benfica,Gil Vicente,0,3,0,4,0,0,0,1,8
+1396296,2025-09-27,P1,2025,Estrela,AVS,Estrela,AVS,0,3,0,2,0,1,0,1,7
+1396295,2025-09-27,P1,2025,Estoril,Sporting CP,Estoril,Sp Lisbon,0,4,0,2,0,0,0,0,6
+1396298,2025-09-27,P1,2025,Moreirense,Casa Pia,Moreirense,Casa Pia,3,2,1,3,0,0,0,0,9
+1396299,2025-09-27,P1,2025,Santa Clara,Tondela,Santa Clara,Tondela,0,2,3,4,0,0,0,0,9
+1396291,2025-09-28,P1,2025,Alverca,Vitória SC,Alverca,Guimaraes,2,1,0,0,1,0,0,0,4
+1396294,2025-09-28,P1,2025,SC Braga,Nacional,Sp Braga,Nacional,0,0,1,1,0,0,0,0,2
+1396297,2025-09-28,P1,2025,Famalicao,Rio Ave,Famalicao,Rio Ave,2,2,1,4,0,0,0,0,9
+1396292,2025-09-29,P1,2025,Arouca,FC Porto,Arouca,Porto,2,3,1,2,0,0,0,1,9
+1396302,2025-10-03,P1,2025,Casa Pia,Estoril,Casa Pia,Estoril,1,2,1,2,0,0,0,0,6
+1396300,2025-10-04,P1,2025,AVS,Alverca,AVS,Alverca,2,1,0,2,0,0,0,0,5
+1396308,2025-10-04,P1,2025,Vitória SC,Santa Clara,Guimaraes,Santa Clara,0,0,4,5,0,0,0,0,9
+1396304,2025-10-04,P1,2025,GIL Vicente,Estrela,Gil Vicente,Estrela,0,2,2,1,0,1,0,0,6
+1396305,2025-10-04,P1,2025,Nacional,Moreirense,Nacional,Moreirense,0,1,2,1,0,0,0,1,5
+1396301,2025-10-05,P1,2025,Arouca,Famalicao,Arouca,Famalicao,0,5,0,1,0,1,0,0,7
+1396306,2025-10-05,P1,2025,Rio Ave,Tondela,Rio Ave,Tondela,2,5,0,4,0,1,0,1,13
+1396307,2025-10-05,P1,2025,Sporting CP,SC Braga,Sp Lisbon,Sp Braga,2,2,0,5,0,0,0,0,9
+1396303,2025-10-05,P1,2025,FC Porto,Benfica,Porto,Benfica,0,6,1,1,0,0,0,0,8
+1396309,2025-10-24,P1,2025,Alverca,GIL Vicente,Alverca,Gil Vicente,2,1,2,2,0,0,0,1,8
+1396316,2025-10-25,P1,2025,Santa Clara,AVS,Santa Clara,AVS,0,1,1,0,0,0,0,0,2
+1396313,2025-10-25,P1,2025,Estrela,Rio Ave,Estrela,Rio Ave,1,2,2,4,0,0,0,0,9
+1396310,2025-10-25,P1,2025,Benfica,Arouca,Benfica,Arouca,0,2,1,1,0,0,0,0,4
+1396311,2025-10-26,P1,2025,SC Braga,Casa Pia,Sp Braga,Casa Pia,0,1,1,2,0,0,0,0,4
+1396317,2025-10-26,P1,2025,Tondela,Sporting CP,Tondela,Sp Lisbon,2,1,0,1,0,0,0,0,4
+1396314,2025-10-26,P1,2025,Famalicao,Vitória SC,Famalicao,Guimaraes,1,0,1,1,0,0,0,0,3
+1396312,2025-10-26,P1,2025,Estoril,Nacional,Estoril,Nacional,0,3,2,1,0,0,0,0,6
+1396315,2025-10-27,P1,2025,Moreirense,FC Porto,Moreirense,Porto,2,1,1,0,0,0,0,0,4
+1396325,2025-10-31,P1,2025,Sporting CP,Alverca,Sp Lisbon,Alverca,0,1,1,0,0,0,0,0,2
+1396320,2025-11-01,P1,2025,Casa Pia,Estrela,Casa Pia,Estrela,0,2,0,3,0,0,0,0,5
+1396324,2025-11-01,P1,2025,Rio Ave,Estoril,Rio Ave,Estoril,0,2,1,0,1,0,0,0,4
+1396326,2025-11-01,P1,2025,Vitória SC,Benfica,Guimaraes,Benfica,0,0,4,3,0,0,0,1,8
+1396323,2025-11-01,P1,2025,Nacional,Famalicao,Nacional,Famalicao,2,2,2,4,0,1,0,0,11
+1396318,2025-11-02,P1,2025,AVS,Tondela,AVS,Tondela,1,3,1,3,0,0,0,0,8
+1396319,2025-11-02,P1,2025,Arouca,Moreirense,Arouca,Moreirense,1,2,0,2,0,0,0,0,5
+1396321,2025-11-02,P1,2025,FC Porto,SC Braga,Porto,Sp Braga,1,2,0,3,0,0,0,0,6
+1396322,2025-11-03,P1,2025,GIL Vicente,Santa Clara,Gil Vicente,Santa Clara,0,2,0,3,0,0,0,0,5
+1396331,2025-11-07,P1,2025,Estoril,Arouca,Estoril,Arouca,1,2,0,1,0,0,0,0,4
+1396328,2025-11-08,P1,2025,Alverca,Rio Ave,Alverca,Rio Ave,0,2,0,0,0,0,0,0,2
+1396335,2025-11-08,P1,2025,Tondela,Vitória SC,Tondela,Guimaraes,0,3,0,1,0,0,0,0,4
+1396334,2025-11-08,P1,2025,Santa Clara,Sporting CP,Santa Clara,Sp Lisbon,2,7,2,2,0,2,0,1,16
+1396330,2025-11-09,P1,2025,SC Braga,Moreirense,Sp Braga,Moreirense,0,3,0,2,0,0,0,0,5
+1396329,2025-11-09,P1,2025,Benfica,Casa Pia,Benfica,Casa Pia,0,3,1,1,0,0,0,0,5
+1396332,2025-11-09,P1,2025,Estrela,Nacional,Estrela,Nacional,2,1,1,3,0,0,0,0,7
+1396333,2025-11-09,P1,2025,Famalicao,FC Porto,Famalicao,Porto,1,4,1,1,0,0,0,0,7
+1396327,2025-11-09,P1,2025,AVS,GIL Vicente,AVS,Gil Vicente,0,1,1,4,0,0,0,0,6
+1396344,2025-11-28,P1,2025,Vitória SC,AVS,Guimaraes,AVS,0,0,0,1,0,0,0,0,1
+1396340,2025-11-29,P1,2025,Moreirense,Famalicao,Moreirense,Famalicao,0,4,1,4,0,1,0,0,10
+1396341,2025-11-29,P1,2025,Nacional,Benfica,Nacional,Benfica,0,3,0,2,0,0,0,0,5
+1396339,2025-11-29,P1,2025,GIL Vicente,Tondela,Gil Vicente,Tondela,1,1,0,0,0,0,0,0,2
+1396337,2025-11-29,P1,2025,Casa Pia,Alverca,Casa Pia,Alverca,3,1,0,4,1,0,0,0,9
+1396342,2025-11-30,P1,2025,Rio Ave,Santa Clara,Rio Ave,Santa Clara,0,2,2,1,0,0,0,0,5
+1396343,2025-11-30,P1,2025,Sporting CP,Estrela,Sp Lisbon,Estrela,1,0,0,0,0,0,0,0,1
+1396338,2025-11-30,P1,2025,FC Porto,Estoril,Porto,Estoril,1,0,2,1,0,0,0,0,4
+1396336,2025-12-01,P1,2025,Arouca,SC Braga,Arouca,Sp Braga,3,1,0,0,1,0,0,0,5
+1396347,2025-12-05,P1,2025,Benfica,Sporting CP,Benfica,Sp Lisbon,0,2,2,3,0,1,0,0,8
+1396351,2025-12-06,P1,2025,Santa Clara,Casa Pia,Santa Clara,Casa Pia,3,2,1,3,0,0,0,0,9
+1396345,2025-12-06,P1,2025,AVS,Rio Ave,AVS,Rio Ave,1,5,1,5,0,1,0,0,13
+1396350,2025-12-06,P1,2025,Famalicao,SC Braga,Famalicao,Sp Braga,1,0,2,1,0,0,0,0,4
+1396352,2025-12-07,P1,2025,Tondela,FC Porto,Tondela,Porto,1,1,0,1,0,0,0,0,3
+1396348,2025-12-07,P1,2025,Estoril,Moreirense,Estoril,Moreirense,1,1,1,2,0,0,0,0,5
+1396349,2025-12-07,P1,2025,Estrela,Arouca,Estrela,Arouca,1,0,0,4,0,0,1,1,7
+1396346,2025-12-07,P1,2025,Alverca,Nacional,Alverca,Nacional,0,1,0,1,0,0,0,0,2
+1396353,2025-12-08,P1,2025,Vitória SC,GIL Vicente,Guimaraes,Gil Vicente,0,0,1,8,0,0,0,0,9
+1396361,2025-12-13,P1,2025,Rio Ave,Vitória SC,Rio Ave,Guimaraes,3,1,1,3,1,0,0,0,9
+1396356,2025-12-13,P1,2025,Casa Pia,GIL Vicente,Casa Pia,Gil Vicente,1,2,1,0,0,0,0,0,4
+1396362,2025-12-13,P1,2025,Sporting CP,AVS,Sp Lisbon,AVS,1,0,0,2,0,0,0,0,3
+1396357,2025-12-14,P1,2025,Famalicao,Estoril,Famalicao,Estoril,1,2,1,0,0,0,0,0,4
+1396359,2025-12-14,P1,2025,Moreirense,Benfica,Moreirense,Benfica,2,0,0,0,0,0,0,0,2
+1396354,2025-12-14,P1,2025,Arouca,Alverca,Arouca,Alverca,0,1,2,2,0,0,1,0,6
+1396360,2025-12-15,P1,2025,Nacional,Tondela,Nacional,Tondela,1,4,1,5,1,0,0,1,13
+1396355,2025-12-15,P1,2025,SC Braga,Santa Clara,Sp Braga,Santa Clara,0,1,1,2,0,0,0,0,4
+1396358,2025-12-15,P1,2025,FC Porto,Estrela,Porto,Estrela,0,1,0,5,0,0,0,0,6
+1396371,2025-12-19,P1,2025,Estoril,SC Braga,Estoril,Sp Braga,1,4,0,2,0,0,0,0,7
+1396366,2025-12-20,P1,2025,GIL Vicente,Rio Ave,Gil Vicente,Rio Ave,0,3,0,5,0,0,0,1,9
+1396365,2025-12-20,P1,2025,Estrela,Moreirense,Estrela,Moreirense,1,1,1,0,0,0,0,0,3
+1396363,2025-12-21,P1,2025,AVS,Nacional,AVS,Nacional,0,1,0,0,0,1,0,0,2
+1396368,2025-12-21,P1,2025,Tondela,Casa Pia,Tondela,Casa Pia,1,1,1,2,0,0,0,0,5
+1396367,2025-12-21,P1,2025,Santa Clara,Arouca,Santa Clara,Arouca,0,2,1,1,0,0,0,0,4
+1396364,2025-12-22,P1,2025,Alverca,FC Porto,Alverca,Porto,0,1,0,1,0,0,0,0,2
+1396370,2025-12-22,P1,2025,Benfica,Famalicao,Benfica,Famalicao,0,0,1,0,0,0,0,0,1
+1396369,2025-12-23,P1,2025,Vitória SC,Sporting CP,Guimaraes,Sp Lisbon,0,0,0,8,0,0,0,1,9
+1396375,2025-12-27,P1,2025,Estoril,Alverca,Estoril,Alverca,0,2,0,3,0,0,0,0,5
+1396376,2025-12-27,P1,2025,Famalicao,Estrela,Famalicao,Estrela,1,2,1,4,0,0,0,0,8
+1396380,2025-12-28,P1,2025,Sporting CP,Rio Ave,Sp Lisbon,Rio Ave,1,0,1,0,0,0,0,0,2
+1396374,2025-12-28,P1,2025,Casa Pia,Vitória SC,Casa Pia,Guimaraes,2,2,2,0,0,0,0,0,6
+1396372,2025-12-28,P1,2025,Arouca,GIL Vicente,Arouca,Gil Vicente,0,5,0,2,0,0,0,0,7
+1396373,2025-12-28,P1,2025,SC Braga,Benfica,Sp Braga,Benfica,1,3,1,1,0,1,0,0,7
+1396377,2025-12-29,P1,2025,FC Porto,AVS,Porto,AVS,0,1,0,1,0,0,0,0,2
+1396385,2026-01-02,P1,2025,GIL Vicente,Sporting CP,Gil Vicente,Sp Lisbon,0,4,1,3,0,0,0,1,9
+1396389,2026-01-02,P1,2025,Vitória SC,Nacional,Guimaraes,Nacional,0,0,2,2,0,0,0,0,4
+1396388,2026-01-03,P1,2025,Tondela,Arouca,Tondela,Arouca,1,2,0,1,0,0,0,0,4
+1396383,2026-01-03,P1,2025,Benfica,Estoril,Benfica,Estoril,0,0,0,2,0,0,0,0,2
+1396381,2026-01-03,P1,2025,AVS,Moreirense,AVS,Moreirense,1,4,0,3,0,0,0,0,8
+1396384,2026-01-03,P1,2025,Estrela,SC Braga,Estrela,Sp Braga,1,1,1,0,0,0,0,0,3
+1396386,2026-01-04,P1,2025,Rio Ave,Casa Pia,Rio Ave,Casa Pia,0,0,0,1,0,0,0,0,1
+1396387,2026-01-04,P1,2025,Santa Clara,FC Porto,Santa Clara,Porto,0,2,1,3,0,0,0,0,6
+1396382,2026-01-04,P1,2025,Alverca,Famalicao,Alverca,Famalicao,0,2,0,2,0,0,0,0,4
+1396379,2026-01-11,P1,2025,Nacional,Santa Clara,Nacional,Santa Clara,2,2,1,3,0,0,0,0,8
+1396378,2026-01-11,P1,2025,Moreirense,Tondela,Moreirense,Tondela,1,0,1,0,0,0,0,0,2
+1396396,2026-01-16,P1,2025,Sporting CP,Casa Pia,Sp Lisbon,Casa Pia,0,0,1,1,0,0,0,1,3
+1396393,2026-01-17,P1,2025,GIL Vicente,Nacional,Gil Vicente,Nacional,1,0,0,2,0,0,0,0,3
+1396391,2026-01-17,P1,2025,Alverca,Moreirense,Alverca,Moreirense,0,3,0,1,0,0,0,0,4
+1396390,2026-01-17,P1,2025,AVS,Arouca,AVS,Arouca,1,2,2,4,1,0,0,0,10
+1396394,2026-01-17,P1,2025,Rio Ave,Benfica,Rio Ave,Benfica,0,1,0,2,0,0,0,0,3
+1396398,2026-01-18,P1,2025,Vitória SC,FC Porto,Guimaraes,Porto,0,0,1,5,0,0,0,1,7
+1396395,2026-01-18,P1,2025,Santa Clara,Famalicao,Santa Clara,Famalicao,0,1,0,1,0,0,0,0,2
+1396397,2026-01-18,P1,2025,Tondela,SC Braga,Tondela,Sp Braga,1,1,0,4,0,0,0,1,7
+1396392,2026-01-19,P1,2025,Estrela,Estoril,Estrela,Estoril,0,2,0,2,1,0,0,0,5
+1396402,2026-01-23,P1,2025,Casa Pia,AVS,Casa Pia,AVS,0,3,3,2,0,0,0,0,8
+1396406,2026-01-24,P1,2025,Moreirense,Santa Clara,Moreirense,Santa Clara,2,0,0,2,0,0,0,0,4
+1396399,2026-01-24,P1,2025,Arouca,Sporting CP,Arouca,Sp Lisbon,0,3,0,4,1,0,1,0,9
+1396403,2026-01-24,P1,2025,Estoril,Vitória SC,Estoril,Guimaraes,2,0,2,1,0,0,0,0,5
+1396407,2026-01-25,P1,2025,Nacional,Rio Ave,Nacional,Rio Ave,0,3,0,0,0,0,0,0,3
+1396404,2026-01-25,P1,2025,Famalicao,Tondela,Famalicao,Tondela,0,0,0,1,0,0,0,0,1
+1396400,2026-01-25,P1,2025,Benfica,Estrela,Benfica,Estrela,3,0,2,2,0,0,0,0,7
+1396401,2026-01-25,P1,2025,SC Braga,Alverca,Sp Braga,Alverca,1,1,1,1,0,0,0,0,4
+1396405,2026-01-26,P1,2025,FC Porto,GIL Vicente,Porto,Gil Vicente,1,1,2,0,0,0,0,1,5
+1396416,2026-01-30,P1,2025,Vitória SC,Moreirense,Guimaraes,Moreirense,0,0,2,5,0,0,0,0,7
+1396413,2026-01-31,P1,2025,Santa Clara,Estoril,Santa Clara,Estoril,5,2,1,2,0,0,0,0,10
+1396412,2026-01-31,P1,2025,Rio Ave,Arouca,Rio Ave,Arouca,0,2,1,0,0,0,0,0,3
+1396409,2026-01-31,P1,2025,Alverca,Estrela,Alverca,Estrela,0,1,1,1,0,0,0,0,3
+1396415,2026-02-01,P1,2025,Tondela,Benfica,Tondela,Benfica,3,2,0,0,0,0,0,0,5
+1396414,2026-02-01,P1,2025,Sporting CP,Nacional,Sp Lisbon,Nacional,0,0,1,2,0,0,0,0,3
+1396411,2026-02-01,P1,2025,GIL Vicente,Famalicao,Gil Vicente,Famalicao,1,0,0,1,0,0,1,0,3
+1396408,2026-02-02,P1,2025,AVS,SC Braga,AVS,Sp Braga,0,0,1,0,0,0,0,0,1
+1396410,2026-02-02,P1,2025,Casa Pia,FC Porto,Casa Pia,Porto,1,2,0,2,0,0,0,1,6
+1396421,2026-02-07,P1,2025,Estrela,Santa Clara,Estrela,Santa Clara,1,3,0,1,0,0,0,0,5
+1396424,2026-02-07,P1,2025,Moreirense,GIL Vicente,Moreirense,Gil Vicente,1,2,1,0,1,0,0,0,5
+1396420,2026-02-07,P1,2025,Estoril,Tondela,Estoril,Tondela,0,1,0,0,0,0,0,0,1
+1396417,2026-02-07,P1,2025,Arouca,Vitória SC,Arouca,Guimaraes,0,1,1,3,0,0,0,0,5
+1396425,2026-02-08,P1,2025,Nacional,Casa Pia,Nacional,Casa Pia,0,2,0,3,0,0,0,0,5
+1396419,2026-02-08,P1,2025,SC Braga,Rio Ave,Sp Braga,Rio Ave,0,1,1,0,0,0,0,0,2
+1396418,2026-02-08,P1,2025,Benfica,Alverca,Benfica,Alverca,1,2,2,0,0,0,0,0,5
+1396422,2026-02-09,P1,2025,Famalicao,AVS,Famalicao,AVS,3,0,0,2,0,0,0,0,5
+1396423,2026-02-09,P1,2025,FC Porto,Sporting CP,Porto,Sp Lisbon,2,1,1,4,0,0,0,0,8
+1396431,2026-02-13,P1,2025,Santa Clara,Benfica,Santa Clara,Benfica,1,5,0,2,0,1,0,0,9
+1396433,2026-02-13,P1,2025,Tondela,Alverca,Tondela,Alverca,1,4,3,2,0,0,0,1,11
+1396427,2026-02-14,P1,2025,Casa Pia,Arouca,Casa Pia,Arouca,2,3,1,1,0,0,0,0,7
+1396434,2026-02-14,P1,2025,Vitória SC,Estrela,Guimaraes,Estrela,0,0,3,2,0,0,0,0,5
+1396428,2026-02-14,P1,2025,GIL Vicente,SC Braga,Gil Vicente,Sp Braga,0,2,0,1,0,0,0,0,3
+1396432,2026-02-15,P1,2025,Sporting CP,Famalicao,Sp Lisbon,Famalicao,1,2,0,2,0,0,0,0,5
+1396426,2026-02-15,P1,2025,AVS,Estoril,AVS,Estoril,2,0,0,2,0,0,0,0,4
+1396429,2026-02-15,P1,2025,Nacional,FC Porto,Nacional,Porto,1,3,0,0,0,0,0,0,4
+1396430,2026-02-16,P1,2025,Rio Ave,Moreirense,Rio Ave,Moreirense,1,0,1,2,0,0,0,0,4
+1396440,2026-02-20,P1,2025,Estrela,Tondela,Estrela,Tondela,1,1,1,3,0,1,0,0,7
+1396435,2026-02-21,P1,2025,Alverca,Santa Clara,Alverca,Santa Clara,0,2,2,0,0,0,0,0,4
+1396436,2026-02-21,P1,2025,Arouca,Nacional,Arouca,Nacional,1,4,1,2,0,1,0,1,10
+1396443,2026-02-21,P1,2025,Moreirense,Sporting CP,Moreirense,Sp Lisbon,0,1,1,0,0,0,0,0,2
+1396437,2026-02-21,P1,2025,Benfica,AVS,Benfica,AVS,0,0,0,0,0,0,0,0,13
+1396438,2026-02-21,P1,2025,SC Braga,Vitória SC,Sp Braga,Guimaraes,0,2,1,2,0,0,0,0,5
+1396439,2026-02-22,P1,2025,Estoril,GIL Vicente,Estoril,Gil Vicente,0,0,0,0,0,0,0,0,14
+1396442,2026-02-22,P1,2025,FC Porto,Rio Ave,Porto,Rio Ave,0,2,0,3,0,0,0,0,5
+1396441,2026-02-23,P1,2025,Famalicao,Casa Pia,Famalicao,Casa Pia,2,1,2,0,0,0,0,0,5
+1396446,2026-02-27,P1,2025,FC Porto,Arouca,Porto,Arouca,0,0,0,2,0,0,0,0,2
+1396450,2026-02-27,P1,2025,Sporting CP,Estoril,Sp Lisbon,Estoril,0,2,0,3,0,0,0,0,5
+1396444,2026-02-28,P1,2025,AVS,Estrela,AVS,Estrela,1,2,0,1,0,0,0,0,4
+1396448,2026-02-28,P1,2025,Nacional,SC Braga,Nacional,Sp Braga,1,1,2,1,0,0,0,0,5
+1396452,2026-02-28,P1,2025,Vitória SC,Alverca,Guimaraes,Alverca,0,0,1,2,0,0,0,0,3
+1396449,2026-03-01,P1,2025,Rio Ave,Famalicao,Rio Ave,Famalicao,2,2,1,1,0,0,0,0,6
+1396451,2026-03-01,P1,2025,Tondela,Santa Clara,Tondela,Santa Clara,0,3,1,1,0,0,0,0,5
+1396445,2026-03-01,P1,2025,Casa Pia,Moreirense,Casa Pia,Moreirense,1,1,2,1,0,0,0,0,5
+1396447,2026-03-02,P1,2025,GIL Vicente,Benfica,Gil Vicente,Benfica,0,2,1,2,0,0,0,0,5
+1396458,2026-03-06,P1,2025,Famalicao,Arouca,Famalicao,Arouca,0,1,0,1,0,0,0,0,2
+1396453,2026-03-07,P1,2025,Alverca,AVS,Alverca,AVS,1,0,2,1,0,0,0,0,4
+1396459,2026-03-07,P1,2025,Moreirense,Nacional,Moreirense,Nacional,0,4,0,2,0,0,0,0,6
+1396455,2026-03-07,P1,2025,SC Braga,Sporting CP,Sp Braga,Sp Lisbon,1,2,1,2,0,0,0,0,6
+1396456,2026-03-07,P1,2025,Estoril,Casa Pia,Estoril,Casa Pia,0,2,2,0,0,0,0,0,4
+1396460,2026-03-08,P1,2025,Santa Clara,Vitória SC,Santa Clara,Guimaraes,1,2,1,1,0,0,0,0,5
+1396457,2026-03-08,P1,2025,Estrela,GIL Vicente,Estrela,Gil Vicente,0,1,1,1,0,0,0,0,3
+1396454,2026-03-08,P1,2025,Benfica,FC Porto,Benfica,Porto,1,1,3,3,0,0,0,0,8
+1396461,2026-03-09,P1,2025,Tondela,Rio Ave,Tondela,Rio Ave,0,0,2,3,0,0,0,0,5
+1396470,2026-03-14,P1,2025,Vitória SC,Famalicao,Guimaraes,Famalicao,0,0,1,1,0,0,0,0,2
+1396466,2026-03-14,P1,2025,GIL Vicente,Alverca,Gil Vicente,Alverca,1,2,1,0,0,0,0,0,4
+1396463,2026-03-14,P1,2025,Arouca,Benfica,Arouca,Benfica,2,3,0,6,0,1,0,1,13
+1396462,2026-03-15,P1,2025,AVS,Santa Clara,AVS,Santa Clara,1,1,1,0,0,1,0,0,4
+1396467,2026-03-15,P1,2025,Nacional,Estoril,Nacional,Estoril,0,5,1,2,0,0,0,0,8
+1396468,2026-03-15,P1,2025,Rio Ave,Estrela,Rio Ave,Estrela,2,2,1,1,0,0,0,0,6
+1396465,2026-03-15,P1,2025,FC Porto,Moreirense,Porto,Moreirense,0,1,0,1,0,0,0,0,2
+1396475,2026-03-20,P1,2025,Estrela,Casa Pia,Estrela,Casa Pia,2,1,1,1,0,0,0,0,5
+1396477,2026-03-21,P1,2025,Moreirense,Arouca,Moreirense,Arouca,1,0,1,1,0,0,0,0,3
+1396479,2026-03-21,P1,2025,Tondela,AVS,Tondela,AVS,0,0,2,0,0,0,0,0,2
+1396476,2026-03-21,P1,2025,Famalicao,Nacional,Famalicao,Nacional,1,2,2,1,0,0,0,0,6
+1396478,2026-03-21,P1,2025,Santa Clara,GIL Vicente,Santa Clara,Gil Vicente,1,0,2,0,0,0,0,0,3
+1396472,2026-03-21,P1,2025,Benfica,Vitória SC,Benfica,Guimaraes,0,0,0,1,0,0,0,0,1
+1396474,2026-03-22,P1,2025,Estoril,Rio Ave,Estoril,Rio Ave,1,1,0,3,0,0,0,0,5
+1396471,2026-03-22,P1,2025,Alverca,Sporting CP,Alverca,Sp Lisbon,0,1,1,1,0,0,0,0,3
+1396473,2026-03-22,P1,2025,SC Braga,FC Porto,Sp Braga,Porto,2,2,1,4,0,0,0,0,9
+1396483,2026-04-03,P1,2025,GIL Vicente,AVS,Gil Vicente,AVS,1,1,1,0,0,0,0,0,3
+1396488,2026-04-03,P1,2025,Vitória SC,Tondela,Guimaraes,Tondela,0,0,0,2,0,0,0,0,2
+1396487,2026-04-03,P1,2025,Sporting CP,Santa Clara,Sp Lisbon,Santa Clara,1,3,1,2,0,0,0,0,7
+1396485,2026-04-04,P1,2025,Nacional,Estrela,Nacional,Estrela,1,3,2,1,0,0,0,0,7
+1396486,2026-04-04,P1,2025,Rio Ave,Alverca,Rio Ave,Alverca,0,2,0,1,0,0,0,0,3
+1396484,2026-04-04,P1,2025,Moreirense,SC Braga,Moreirense,Sp Braga,0,0,1,2,0,0,0,0,3
+1396482,2026-04-04,P1,2025,FC Porto,Famalicao,Porto,Famalicao,1,4,2,2,0,0,0,0,9
+1396480,2026-04-06,P1,2025,Arouca,Estoril,Arouca,Estoril,0,3,1,1,0,0,0,0,5
+1396481,2026-04-06,P1,2025,Casa Pia,Benfica,Casa Pia,Benfica,0,1,0,0,0,0,0,0,1
+1396495,2026-04-10,P1,2025,Famalicao,Moreirense,Famalicao,Moreirense,2,3,2,4,0,0,0,0,11
+1396494,2026-04-11,P1,2025,Estrela,Sporting CP,Estrela,Sp Lisbon,1,2,0,1,0,0,0,0,4
+1396496,2026-04-11,P1,2025,Santa Clara,Rio Ave,Santa Clara,Rio Ave,0,2,1,2,0,0,0,0,5
+1396489,2026-04-11,P1,2025,AVS,Vitória SC,AVS,Guimaraes,2,3,1,0,0,0,0,0,6
+1396493,2026-04-12,P1,2025,Estoril,FC Porto,Estoril,Porto,1,2,0,1,0,0,0,0,4
+1396490,2026-04-12,P1,2025,Alverca,Casa Pia,Alverca,Casa Pia,0,0,0,0,0,0,0,0,14
+1396492,2026-04-12,P1,2025,SC Braga,Arouca,Sp Braga,Arouca,0,2,0,2,0,1,0,0,5
+1396491,2026-04-12,P1,2025,Benfica,Nacional,Benfica,Nacional,1,0,0,5,0,0,0,0,6
+1396497,2026-04-13,P1,2025,Tondela,GIL Vicente,Tondela,Gil Vicente,2,3,0,2,0,0,0,0,7
+1396505,2026-04-17,P1,2025,Rio Ave,AVS,Rio Ave,AVS,0,1,0,2,0,0,0,0,3
+1396504,2026-04-18,P1,2025,Nacional,Alverca,Nacional,Alverca,0,2,1,0,0,0,0,0,3
+1396500,2026-04-18,P1,2025,Casa Pia,Santa Clara,Casa Pia,Santa Clara,0,3,0,2,0,0,0,0,5
+1396502,2026-04-18,P1,2025,GIL Vicente,Vitória SC,Gil Vicente,Guimaraes,0,2,0,2,0,0,0,0,4
+1396498,2026-04-19,P1,2025,Arouca,Estrela,Arouca,Estrela,2,3,0,1,0,0,0,0,6
+1396506,2026-04-19,P1,2025,Sporting CP,Benfica,Sp Lisbon,Benfica,1,1,0,1,0,0,0,0,3
+1396499,2026-04-19,P1,2025,SC Braga,Famalicao,Sp Braga,Famalicao,0,2,0,5,0,0,0,0,7
+1396501,2026-04-19,P1,2025,FC Porto,Tondela,Porto,Tondela,2,2,2,4,0,0,0,0,10
+1396503,2026-04-20,P1,2025,Moreirense,Estoril,Moreirense,Estoril,0,0,0,2,0,0,0,0,2
+1396464,2026-04-23,P1,2025,Casa Pia,SC Braga,Casa Pia,Sp Braga,2,0,1,2,0,0,0,0,5
+1396508,2026-04-24,P1,2025,Alverca,Arouca,Alverca,Arouca,0,0,1,5,0,0,0,0,6
+1396515,2026-04-25,P1,2025,Vitória SC,Rio Ave,Guimaraes,Rio Ave,0,0,1,7,0,0,0,0,8
+1396509,2026-04-25,P1,2025,Benfica,Moreirense,Benfica,Moreirense,2,0,1,1,0,0,0,0,4
+1396514,2026-04-25,P1,2025,Tondela,Nacional,Tondela,Nacional,0,2,0,1,0,0,0,0,3
+1396510,2026-04-26,P1,2025,Estoril,Famalicao,Estoril,Famalicao,0,0,0,2,0,0,0,0,2
+1396511,2026-04-26,P1,2025,Estrela,FC Porto,Estrela,Porto,1,2,1,2,0,0,0,0,6
+1396513,2026-04-26,P1,2025,Santa Clara,SC Braga,Santa Clara,Sp Braga,1,3,1,3,0,0,0,0,8
+1396507,2026-04-26,P1,2025,AVS,Sporting CP,AVS,Sp Lisbon,2,1,0,1,0,0,0,0,4
+1396512,2026-04-27,P1,2025,GIL Vicente,Casa Pia,Gil Vicente,Casa Pia,1,4,1,2,0,0,0,0,8
+1396469,2026-04-29,P1,2025,Sporting CP,Tondela,Sp Lisbon,Tondela,1,1,3,0,0,0,0,0,5
+1396519,2026-05-02,P1,2025,Famalicao,Benfica,Famalicao,Benfica,0,2,0,2,0,0,0,1,5
+1396520,2026-05-02,P1,2025,FC Porto,Alverca,Porto,Alverca,1,0,1,3,0,0,0,0,5
+1396522,2026-05-02,P1,2025,Nacional,AVS,Nacional,AVS,1,3,1,1,0,1,0,0,7
+1396516,2026-05-02,P1,2025,Arouca,Santa Clara,Arouca,Santa Clara,2,1,2,1,0,1,0,0,7
+1396521,2026-05-02,P1,2025,Moreirense,Estrela,Moreirense,Estrela,2,2,2,2,0,0,0,0,8
+1396518,2026-05-03,P1,2025,Casa Pia,Tondela,Casa Pia,Tondela,0,8,0,3,0,2,0,0,13
+1396517,2026-05-03,P1,2025,SC Braga,Estoril,Sp Braga,Estoril,2,1,2,1,0,0,0,0,6
+1396523,2026-05-03,P1,2025,Rio Ave,GIL Vicente,Rio Ave,Gil Vicente,0,1,0,2,0,0,0,0,3
+1396524,2026-05-04,P1,2025,Sporting CP,Vitória SC,Sp Lisbon,Guimaraes,0,0,1,1,0,0,0,0,2
+1396525,2026-05-10,P1,2025,AVS,FC Porto,AVS,Porto,0,2,0,2,0,0,0,1,5
+1396526,2026-05-10,P1,2025,Alverca,Estoril,Alverca,Estoril,1,2,1,1,0,0,0,0,5
+1396532,2026-05-11,P1,2025,Tondela,Moreirense,Tondela,Moreirense,0,1,1,2,0,0,0,1,5
+1396527,2026-05-11,P1,2025,Benfica,SC Braga,Benfica,Sp Braga,0,1,0,4,0,0,0,0,5
+1396533,2026-05-11,P1,2025,Vitória SC,Casa Pia,Guimaraes,Casa Pia,0,0,1,2,0,0,0,0,3
+1396528,2026-05-11,P1,2025,Estrela,Famalicao,Estrela,Famalicao,0,3,0,1,0,0,0,0,4
+1396531,2026-05-11,P1,2025,Santa Clara,Nacional,Santa Clara,Nacional,0,1,1,1,0,0,0,0,3
+1396529,2026-05-11,P1,2025,GIL Vicente,Arouca,Gil Vicente,Arouca,1,1,1,0,0,0,0,0,3
+1396530,2026-05-11,P1,2025,Rio Ave,Sporting CP,Rio Ave,Sp Lisbon,2,3,2,0,0,2,0,0,9
+1396540,2026-05-16,P1,2025,Moreirense,AVS,Moreirense,AVS,1,1,2,1,0,0,0,0,5
+1396539,2026-05-16,P1,2025,FC Porto,Santa Clara,Porto,Santa Clara,0,0,0,0,0,0,0,0,11
+1396536,2026-05-16,P1,2025,Casa Pia,Rio Ave,Casa Pia,Rio Ave,0,1,0,0,0,0,0,0,1
+1396534,2026-05-16,P1,2025,Arouca,Tondela,Arouca,Tondela,2,1,1,0,0,0,0,0,4
+1396541,2026-05-16,P1,2025,Nacional,Vitória SC,Nacional,Guimaraes,3,1,2,1,0,0,0,0,7
+1396535,2026-05-16,P1,2025,SC Braga,Estrela,Sp Braga,Estrela,1,0,0,5,0,0,0,1,7
+1396538,2026-05-16,P1,2025,Famalicao,Alverca,Famalicao,Alverca,1,0,1,1,0,0,0,0,3
+1396537,2026-05-16,P1,2025,Estoril,Benfica,Estoril,Benfica,1,2,0,2,0,0,0,0,5
+1396542,2026-05-16,P1,2025,Sporting CP,GIL Vicente,Sp Lisbon,Gil Vicente,0,0,0,1,0,0,0,0,1
+1545403,2026-05-20,P1,2025,Torreense,Casa Pia,,Casa Pia,1,0,2,3,0,0,0,1,7
+1545404,2026-05-28,P1,2025,Casa Pia,Torreense,Casa Pia,,1,2,2,1,0,0,0,0,6
