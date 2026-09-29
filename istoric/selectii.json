@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-09-28T20:48:28+00:00",
+ "actualizat": "2026-09-29T05:50:02+00:00",
  "selectii": [
   {
    "cheie": "P1_20260919_SpLisbon_Arouca|home",
@@ -670,8 +670,10 @@
    "odds": 1.27,
    "band": "70-80%",
    "notat_la": "2026-09-27T10:12:24+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": true,
+   "scor": "0-1",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-09-29T05:50:01+00:00"
   },
   {
    "cheie": "NAT1629000|home",
@@ -686,8 +688,10 @@
    "odds": 1.29,
    "band": "65-70%",
    "notat_la": "2026-09-27T18:40:07+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": true,
+   "scor": "2-1",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-09-29T05:50:01+00:00"
   },
   {
    "cheie": "NAT1545856|under25",
@@ -718,8 +722,10 @@
    "odds": 1.48,
    "band": "65-70%",
    "notat_la": "2026-09-28T17:41:32+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": true,
+   "scor": "0-0",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-09-29T05:50:02+00:00"
   },
   {
    "cheie": "NAT1528914|under25",
@@ -750,6 +756,54 @@
    "odds": 1.49,
    "band": "65-70%",
    "notat_la": "2026-09-28T20:48:27+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "NAT1640511|home",
+   "match_id": "NAT1640511",
+   "date": "2026-10-01",
+   "league_name": "Friendlies",
+   "home": "Argentina",
+   "away": "Bolivia",
+   "market": "home",
+   "market_label": "Victorie Argentina",
+   "probability": 0.9056,
+   "odds": 1.07,
+   "band": "80% sau peste",
+   "notat_la": "2026-09-29T05:50:00+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "NAT1528916|home",
+   "match_id": "NAT1528916",
+   "date": "2026-10-01",
+   "league_name": "UEFA Nations League",
+   "home": "Azerbaijan",
+   "away": "Liechtenstein",
+   "market": "home",
+   "market_label": "Victorie Azerbaijan",
+   "probability": 0.7785,
+   "odds": 1.16,
+   "band": "70-80%",
+   "notat_la": "2026-09-29T05:50:00+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "NAT1528917|home",
+   "match_id": "NAT1528917",
+   "date": "2026-10-01",
+   "league_name": "UEFA Nations League",
+   "home": "Germany",
+   "away": "Serbia",
+   "market": "home",
+   "market_label": "Victorie Germany",
+   "probability": 0.7251,
+   "odds": 1.24,
+   "band": "70-80%",
+   "notat_la": "2026-09-29T05:50:00+00:00",
    "castigat": null,
    "scor": null
   }
