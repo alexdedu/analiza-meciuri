@@ -1,0 +1,74 @@
+fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,ar1,ar2,evenimente
+1216328,2025-04-08,E1,2024,Sheffield Utd,Millwall,Sheffield United,Millwall,0,0,1,0,0,0,0,0,12
+1216325,2025-04-08,E1,2024,Middlesbrough,Leeds,Middlesbrough,Leeds,0,1,0,1,0,0,0,0,11
+1216327,2025-04-08,E1,2024,Preston,Cardiff,Preston,Cardiff,0,0,0,2,0,0,0,0,14
+1216324,2025-04-08,E1,2024,Bristol City,West Brom,Bristol City,West Brom,0,1,0,1,0,0,0,1,16
+1216330,2025-04-08,E1,2024,Watford,Hull City,Watford,Hull,1,2,0,0,0,0,0,0,12
+1216333,2025-04-09,E1,2024,Oxford United,QPR,Oxford,QPR,0,2,0,3,0,0,0,0,21
+1216334,2025-04-09,E1,2024,Swansea,Plymouth,Swansea,Plymouth,0,0,1,1,0,0,0,0,15
+1216331,2025-04-09,E1,2024,Coventry,Portsmouth,Coventry,Portsmouth,0,1,1,2,0,0,0,0,13
+1216335,2025-04-11,E1,2024,Burnley,Norwich,Burnley,Norwich,1,1,0,2,0,0,0,0,16
+1216340,2025-04-12,E1,2024,Millwall,Middlesbrough,Millwall,Middlesbrough,0,1,0,0,0,0,0,0,10
+1216346,2025-04-12,E1,2024,West Brom,Watford,West Brom,Watford,2,2,1,1,0,0,0,0,16
+1216343,2025-04-12,E1,2024,QPR,Bristol City,QPR,Bristol City,1,1,0,1,0,0,0,0,15
+1216344,2025-04-12,E1,2024,Sheffield Wednesday,Oxford United,Sheffield Weds,Oxford,0,1,0,2,0,0,0,0,14
+1216336,2025-04-12,E1,2024,Cardiff,Stoke City,Cardiff,Stoke,0,1,1,2,0,0,0,0,14
+1216342,2025-04-12,E1,2024,Portsmouth,Derby,Portsmouth,Derby,2,3,3,1,0,0,0,0,21
+1216339,2025-04-12,E1,2024,Luton,Blackburn,Luton,Blackburn,0,1,1,4,0,0,0,1,16
+1216338,2025-04-12,E1,2024,Leeds,Preston,Leeds,Preston,0,2,1,0,0,0,0,0,14
+1216341,2025-04-12,E1,2024,Plymouth,Sheffield Utd,Plymouth,Sheffield United,0,1,0,1,0,0,0,0,13
+1216345,2025-04-12,E1,2024,Sunderland,Swansea,Sunderland,Swansea,1,1,1,2,0,0,0,0,16
+1216337,2025-04-14,E1,2024,Hull City,Coventry,Hull,Coventry,0,0,0,1,0,0,0,0,10
+1216353,2025-04-18,E1,2024,Oxford United,Leeds,Oxford,Leeds,1,3,0,2,0,0,0,0,16
+1216355,2025-04-18,E1,2024,Sheffield Utd,Cardiff,Sheffield United,Cardiff,0,1,1,0,0,0,0,0,14
+1216358,2025-04-18,E1,2024,Watford,Burnley,Watford,Burnley,0,7,0,4,0,2,0,0,24
+1216348,2025-04-18,E1,2024,Bristol City,Sunderland,Bristol City,Sunderland,0,1,0,3,0,0,1,0,18
+1216354,2025-04-18,E1,2024,Preston,QPR,Preston,QPR,0,1,0,2,0,0,0,0,13
+1216351,2025-04-18,E1,2024,Middlesbrough,Plymouth,Middlesbrough,Plymouth,0,0,1,1,0,0,0,1,15
+1216352,2025-04-18,E1,2024,Norwich,Portsmouth,Norwich,Portsmouth,0,1,2,1,0,0,0,0,22
+1216356,2025-04-18,E1,2024,Stoke City,Sheffield Wednesday,Stoke,Sheffield Weds,1,1,1,1,0,0,0,0,15
+1216357,2025-04-18,E1,2024,Swansea,Hull City,Swansea,Hull,1,1,2,2,0,0,0,1,17
+1216349,2025-04-18,E1,2024,Coventry,West Brom,Coventry,West Brom,2,1,1,1,0,0,0,1,18
+1216347,2025-04-18,E1,2024,Blackburn,Millwall,Blackburn,Millwall,0,0,1,0,0,0,0,0,15
+1216350,2025-04-18,E1,2024,Derby,Luton,Derby,Luton,1,1,1,1,0,0,0,0,13
+1216369,2025-04-21,E1,2024,Sunderland,Blackburn,Sunderland,Blackburn,0,1,0,2,0,0,0,0,13
+1216363,2025-04-21,E1,2024,Luton,Bristol City,Luton,Bristol City,0,0,1,2,0,0,0,0,14
+1216365,2025-04-21,E1,2024,Plymouth,Coventry,Plymouth,Coventry,1,0,0,1,0,0,0,0,14
+1216366,2025-04-21,E1,2024,Portsmouth,Watford,Portsmouth,Watford,2,2,0,3,0,0,0,1,18
+1216368,2025-04-21,E1,2024,Sheffield Wednesday,Middlesbrough,Sheffield Weds,Middlesbrough,2,1,1,3,0,0,0,0,18
+1216361,2025-04-21,E1,2024,Hull City,Preston,Hull,Preston,0,0,0,3,0,0,0,0,14
+1216359,2025-04-21,E1,2024,Burnley,Sheffield Utd,Burnley,Sheffield United,0,1,2,1,0,0,0,0,16
+1216360,2025-04-21,E1,2024,Cardiff,Oxford United,Cardiff,Oxford,0,1,1,2,0,0,0,0,16
+1216367,2025-04-21,E1,2024,QPR,Swansea,QPR,Swansea,1,0,0,1,0,0,0,0,15
+1216370,2025-04-21,E1,2024,West Brom,Derby,West Brom,Derby,0,1,1,1,0,0,0,0,14
+1216362,2025-04-21,E1,2024,Leeds,Stoke City,Leeds,Stoke,1,0,0,0,0,0,0,0,17
+1216364,2025-04-21,E1,2024,Millwall,Norwich,Millwall,Norwich,0,1,0,3,0,0,0,0,18
+1216382,2025-04-25,E1,2024,Stoke City,Sheffield Utd,Stoke,Sheffield United,1,2,1,1,0,0,0,0,16
+1216375,2025-04-26,E1,2024,Luton,Coventry,Luton,Coventry,0,3,1,4,0,1,1,0,19
+1216372,2025-04-26,E1,2024,Cardiff,West Brom,Cardiff,West Brom,1,0,0,0,0,0,0,0,9
+1216378,2025-04-26,E1,2024,Oxford United,Sunderland,Oxford,Sunderland,2,1,1,0,0,0,0,0,15
+1216381,2025-04-26,E1,2024,Sheffield Wednesday,Portsmouth,Sheffield Weds,Portsmouth,0,1,1,1,0,0,0,0,15
+1216376,2025-04-26,E1,2024,Middlesbrough,Norwich,Middlesbrough,Norwich,1,0,1,1,0,0,0,0,11
+1216371,2025-04-26,E1,2024,Blackburn,Watford,Blackburn,Watford,2,3,3,2,0,0,0,0,22
+1216373,2025-04-26,E1,2024,Hull City,Derby,Hull,Derby,0,1,2,0,0,0,0,0,12
+1216379,2025-04-26,E1,2024,Preston,Plymouth,Preston,Plymouth,2,1,1,1,0,0,0,0,15
+1216377,2025-04-26,E1,2024,Millwall,Swansea,Millwall,Swansea,0,1,1,0,0,0,0,0,10
+1216380,2025-04-26,E1,2024,QPR,Burnley,QPR,Burnley,0,4,2,0,0,0,0,0,21
+1216374,2025-04-28,E1,2024,Leeds,Bristol City,Leeds,Bristol City,0,1,0,0,0,0,0,0,14
+1216389,2025-05-03,E1,2024,Portsmouth,Hull City,Portsmouth,Hull,0,0,2,0,0,0,0,0,13
+1216393,2025-05-03,E1,2024,Watford,Sheffield Wednesday,Watford,Sheffield Weds,0,0,0,1,0,0,0,0,13
+1216384,2025-05-03,E1,2024,Burnley,Millwall,Burnley,Millwall,0,1,0,0,0,0,0,0,13
+1216388,2025-05-03,E1,2024,Plymouth,Leeds,Plymouth,Leeds,1,1,0,2,0,0,0,0,16
+1216394,2025-05-03,E1,2024,West Brom,Luton,West Brom,Luton,0,2,0,2,0,0,0,0,22
+1216390,2025-05-03,E1,2024,Sheffield Utd,Blackburn,Sheffield United,Blackburn,0,2,0,0,0,0,0,0,14
+1216383,2025-05-03,E1,2024,Bristol City,Preston,Bristol City,Preston,0,2,3,1,0,0,0,0,18
+1216387,2025-05-03,E1,2024,Norwich,Cardiff,Norwich,Cardiff,2,1,1,1,0,0,1,0,22
+1216392,2025-05-03,E1,2024,Swansea,Oxford United,Swansea,Oxford,0,0,0,2,0,0,0,0,18
+1216391,2025-05-03,E1,2024,Sunderland,QPR,Sunderland,QPR,1,1,0,3,0,0,0,0,13
+1216385,2025-05-03,E1,2024,Coventry,Middlesbrough,Coventry,Middlesbrough,0,3,1,0,0,0,0,0,15
+1216386,2025-05-03,E1,2024,Derby,Stoke City,Derby,Stoke,0,2,1,0,0,0,0,0,9
+1374041,2025-05-08,E1,2024,Bristol City,Sheffield Utd,Bristol City,Sheffield United,0,0,0,1,1,0,0,0,15
+1374043,2025-05-09,E1,2024,Coventry,Sunderland,Coventry,Sunderland,0,3,1,0,0,0,0,0,12
+1374042,2025-05-12,E1,2024,Sheffield Utd,Bristol City,Sheffield United,Bristol City,0,0,0,1,0,0,0,0,14
+1374044,2025-05-13,E1,2024,Sunderland,Coventry,Sunderland,Coventry,2,4,2,1,0,0,0,0,17
+1375668,2025-05-24,E1,2024,Sheffield Utd,Sunderland,Sheffield United,Sunderland,0,2,0,3,0,0,0,0,20

@@ -1,0 +1,381 @@
+fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,ar1,ar2,evenimente
+1208021,2024-08-16,E0,2024,Manchester United,Fulham,Man United,Fulham,2,0,1,2,0,0,0,0,16
+1208027,2024-08-17,E0,2024,West Ham,Aston Villa,West Ham,Aston Villa,1,0,1,1,0,0,0,0,16
+1208025,2024-08-17,E0,2024,Newcastle,Southampton,Newcastle,Southampton,1,1,2,2,1,0,0,0,16
+1208022,2024-08-17,E0,2024,Ipswich,Liverpool,Ipswich,Liverpool,3,0,0,1,0,0,0,0,15
+1208024,2024-08-17,E0,2024,Everton,Brighton,Everton,Brighton,0,1,1,0,0,1,0,0,16
+1208023,2024-08-17,E0,2024,Arsenal,Wolves,Arsenal,Wolves,0,2,2,0,0,0,0,0,14
+1208026,2024-08-17,E0,2024,Nottingham Forest,Bournemouth,Nott'm Forest,Bournemouth,0,1,1,2,0,0,0,0,17
+1208028,2024-08-18,E0,2024,Brentford,Crystal Palace,Brentford,Crystal Palace,1,0,2,3,0,0,0,0,19
+1208029,2024-08-18,E0,2024,Chelsea,Manchester City,Chelsea,Man City,0,1,0,1,0,0,0,0,9
+1208030,2024-08-19,E0,2024,Leicester,Tottenham,Leicester,Tottenham,0,1,0,1,0,0,0,0,13
+1208033,2024-08-24,E0,2024,Brighton,Manchester United,Brighton,Man United,0,1,0,2,0,0,0,0,17
+1208034,2024-08-24,E0,2024,Crystal Palace,West Ham,Crystal Palace,West Ham,0,1,0,1,0,0,0,0,12
+1208037,2024-08-24,E0,2024,Manchester City,Ipswich,Man City,Ipswich,0,2,1,2,0,0,0,0,21
+1208039,2024-08-24,E0,2024,Tottenham,Everton,Tottenham,Everton,0,0,0,0,0,0,0,0,13
+1208038,2024-08-24,E0,2024,Southampton,Nottingham Forest,Southampton,Nott'm Forest,2,1,0,3,0,0,0,0,17
+1208035,2024-08-24,E0,2024,Fulham,Leicester,Fulham,Leicester,0,2,0,2,0,0,0,0,16
+1208032,2024-08-24,E0,2024,Aston Villa,Arsenal,Aston Villa,Arsenal,0,1,1,2,0,0,0,0,14
+1208040,2024-08-25,E0,2024,Wolves,Chelsea,Wolves,Chelsea,1,1,2,1,0,0,0,0,23
+1208031,2024-08-25,E0,2024,Bournemouth,Newcastle,Bournemouth,Newcastle,1,1,0,2,0,0,0,0,17
+1208036,2024-08-25,E0,2024,Liverpool,Brentford,Liverpool,Brentford,2,0,2,1,0,0,0,0,16
+1208044,2024-08-31,E0,2024,Everton,Bournemouth,Everton,Bournemouth,0,2,0,1,0,0,0,0,15
+1208046,2024-08-31,E0,2024,Leicester,Aston Villa,Leicester,Aston Villa,1,3,2,3,0,0,0,0,22
+1208050,2024-08-31,E0,2024,West Ham,Manchester City,West Ham,Man City,0,3,1,1,0,0,0,0,18
+1208045,2024-08-31,E0,2024,Ipswich,Fulham,Ipswich,Fulham,1,1,0,3,0,0,0,0,16
+1208049,2024-08-31,E0,2024,Nottingham Forest,Wolves,Nott'm Forest,Wolves,1,2,3,1,0,0,0,0,18
+1208042,2024-08-31,E0,2024,Brentford,Southampton,Brentford,Southampton,1,1,1,0,0,0,0,0,15
+1208041,2024-08-31,E0,2024,Arsenal,Brighton,Arsenal,Brighton,2,3,0,2,0,1,0,0,18
+1208047,2024-09-01,E0,2024,Manchester United,Liverpool,Man United,Liverpool,3,1,0,1,0,0,0,0,17
+1208043,2024-09-01,E0,2024,Chelsea,Crystal Palace,Chelsea,Crystal Palace,2,2,1,1,0,0,0,0,14
+1208048,2024-09-01,E0,2024,Newcastle,Tottenham,Newcastle,Tottenham,3,1,1,3,0,0,0,0,19
+1208058,2024-09-14,E0,2024,Southampton,Manchester United,Southampton,Man United,0,1,1,3,0,1,0,0,20
+1208051,2024-09-14,E0,2024,Bournemouth,Chelsea,Bournemouth,Chelsea,3,3,3,5,0,0,0,0,25
+1208055,2024-09-14,E0,2024,Fulham,West Ham,Fulham,West Ham,0,2,0,3,0,0,0,0,17
+1208052,2024-09-14,E0,2024,Aston Villa,Everton,Aston Villa,Everton,0,1,2,2,0,0,0,0,20
+1208057,2024-09-14,E0,2024,Manchester City,Brentford,Man City,Brentford,1,2,0,1,0,0,0,0,16
+1208053,2024-09-14,E0,2024,Brighton,Ipswich,Brighton,Ipswich,0,4,1,2,0,0,0,0,16
+1208054,2024-09-14,E0,2024,Crystal Palace,Leicester,Crystal Palace,Leicester,0,0,0,3,0,0,0,0,15
+1208056,2024-09-14,E0,2024,Liverpool,Nottingham Forest,Liverpool,Nott'm Forest,0,4,2,2,0,0,0,0,19
+1208059,2024-09-15,E0,2024,Tottenham,Arsenal,Tottenham,Arsenal,5,0,2,1,0,0,0,0,15
+1208060,2024-09-15,E0,2024,Wolves,Newcastle,Wolves,Newcastle,0,3,1,2,0,0,0,0,19
+1208063,2024-09-21,E0,2024,Crystal Palace,Manchester United,Crystal Palace,Man United,0,3,1,1,0,0,0,0,12
+1208070,2024-09-21,E0,2024,West Ham,Chelsea,West Ham,Chelsea,0,5,1,1,0,0,0,0,20
+1208061,2024-09-21,E0,2024,Aston Villa,Wolves,Aston Villa,Wolves,1,2,3,3,0,0,0,0,22
+1208069,2024-09-21,E0,2024,Tottenham,Brentford,Tottenham,Brentford,1,2,0,1,0,0,0,0,17
+1208065,2024-09-21,E0,2024,Leicester,Everton,Leicester,Everton,0,1,0,2,0,0,0,0,10
+1208068,2024-09-21,E0,2024,Southampton,Ipswich,Southampton,Ipswich,1,3,0,4,0,0,0,0,20
+1208066,2024-09-21,E0,2024,Liverpool,Bournemouth,Liverpool,Bournemouth,0,1,3,1,0,0,0,0,17
+1208064,2024-09-21,E0,2024,Fulham,Newcastle,Fulham,Newcastle,4,2,0,0,0,0,0,0,20
+1208062,2024-09-22,E0,2024,Brighton,Nottingham Forest,Brighton,Nott'm Forest,2,1,1,5,0,0,0,1,23
+1208067,2024-09-22,E0,2024,Manchester City,Arsenal,Man City,Arsenal,2,1,4,2,0,0,1,0,22
+1208078,2024-09-28,E0,2024,Newcastle,Manchester City,Newcastle,Man City,2,2,0,4,0,0,0,0,16
+1208079,2024-09-28,E0,2024,Nottingham Forest,Fulham,Nott'm Forest,Fulham,1,1,0,4,0,0,0,0,18
+1208073,2024-09-28,E0,2024,Brentford,West Ham,Brentford,West Ham,0,2,1,2,0,0,0,0,14
+1208074,2024-09-28,E0,2024,Chelsea,Brighton,Chelsea,Brighton,2,1,2,0,0,0,0,0,21
+1208075,2024-09-28,E0,2024,Everton,Crystal Palace,Everton,Crystal Palace,0,2,0,0,0,0,0,0,11
+1208072,2024-09-28,E0,2024,Arsenal,Leicester,Arsenal,Leicester,0,2,2,2,0,0,0,0,21
+1208080,2024-09-28,E0,2024,Wolves,Liverpool,Wolves,Liverpool,1,1,2,1,0,0,0,0,14
+1208076,2024-09-29,E0,2024,Ipswich,Aston Villa,Ipswich,Aston Villa,2,2,0,1,0,0,0,0,19
+1208077,2024-09-29,E0,2024,Manchester United,Tottenham,Man United,Tottenham,3,2,1,2,1,0,0,0,22
+1208071,2024-09-30,E0,2024,Bournemouth,Southampton,Bournemouth,Southampton,1,1,1,4,0,0,0,0,20
+1208087,2024-10-05,E0,2024,Everton,Newcastle,Everton,Newcastle,1,0,0,2,0,0,0,0,12
+1208081,2024-10-05,E0,2024,Arsenal,Southampton,Arsenal,Southampton,0,0,3,0,0,0,0,0,16
+1208088,2024-10-05,E0,2024,Leicester,Bournemouth,Leicester,Bournemouth,1,3,0,1,0,0,0,0,15
+1208083,2024-10-05,E0,2024,Brentford,Wolves,Brentford,Wolves,0,2,1,2,0,0,0,0,21
+1208089,2024-10-05,E0,2024,Manchester City,Fulham,Man City,Fulham,0,2,0,1,0,0,0,0,17
+1208086,2024-10-05,E0,2024,Crystal Palace,Liverpool,Crystal Palace,Liverpool,0,4,2,0,0,0,0,0,16
+1208090,2024-10-05,E0,2024,West Ham,Ipswich,West Ham,Ipswich,0,0,1,0,0,0,0,0,16
+1208082,2024-10-06,E0,2024,Aston Villa,Manchester United,Aston Villa,Man United,0,1,3,2,0,0,0,0,14
+1208085,2024-10-06,E0,2024,Chelsea,Nottingham Forest,Chelsea,Nott'm Forest,1,5,1,3,0,0,0,1,23
+1208084,2024-10-06,E0,2024,Brighton,Tottenham,Brighton,Tottenham,1,1,0,2,0,0,0,0,17
+1208095,2024-10-19,E0,2024,Manchester United,Brentford,Man United,Brentford,1,1,0,2,0,0,0,0,15
+1208091,2024-10-19,E0,2024,Bournemouth,Arsenal,Bournemouth,Arsenal,0,1,0,1,0,0,1,0,15
+1208096,2024-10-19,E0,2024,Newcastle,Brighton,Newcastle,Brighton,2,0,1,1,0,0,0,0,15
+1208093,2024-10-19,E0,2024,Ipswich,Everton,Ipswich,Everton,0,1,1,0,0,0,0,0,11
+1208098,2024-10-19,E0,2024,Southampton,Leicester,Southampton,Leicester,4,1,0,3,0,1,0,0,24
+1208099,2024-10-19,E0,2024,Tottenham,West Ham,Tottenham,West Ham,0,1,1,2,0,0,0,1,20
+1208092,2024-10-19,E0,2024,Fulham,Aston Villa,Fulham,Aston Villa,0,3,1,4,0,1,0,1,25
+1208100,2024-10-20,E0,2024,Wolves,Manchester City,Wolves,Man City,3,1,1,0,0,0,0,0,16
+1208094,2024-10-20,E0,2024,Liverpool,Chelsea,Liverpool,Chelsea,1,3,2,1,0,0,0,0,21
+1208097,2024-10-21,E0,2024,Nottingham Forest,Crystal Palace,Nott'm Forest,Crystal Palace,0,2,2,1,0,0,0,0,15
+1208110,2024-10-25,E0,2024,Leicester,Nottingham Forest,Leicester,Nott'm Forest,1,4,1,2,0,0,0,0,20
+1208109,2024-10-26,E0,2024,Everton,Fulham,Everton,Fulham,0,1,0,0,0,0,0,0,12
+1208111,2024-10-26,E0,2024,Manchester City,Southampton,Man City,Southampton,0,1,1,2,0,0,0,0,12
+1208106,2024-10-26,E0,2024,Brighton,Wolves,Brighton,Wolves,0,3,2,1,0,0,0,0,20
+1208104,2024-10-26,E0,2024,Aston Villa,Bournemouth,Aston Villa,Bournemouth,3,4,4,2,0,0,0,0,26
+1208105,2024-10-26,E0,2024,Brentford,Ipswich,Brentford,Ipswich,0,0,1,2,0,0,0,1,20
+1208108,2024-10-27,E0,2024,Crystal Palace,Tottenham,Crystal Palace,Tottenham,2,2,1,3,0,0,0,0,16
+1208107,2024-10-27,E0,2024,Chelsea,Newcastle,Chelsea,Newcastle,1,5,1,2,0,0,0,0,23
+1208112,2024-10-27,E0,2024,West Ham,Manchester United,West Ham,Man United,2,3,0,1,0,0,0,0,18
+1208103,2024-10-27,E0,2024,Arsenal,Liverpool,Arsenal,Liverpool,0,2,1,1,0,0,0,0,16
+1208122,2024-11-02,E0,2024,Wolves,Crystal Palace,Wolves,Crystal Palace,0,1,0,2,0,0,0,0,13
+1208116,2024-11-02,E0,2024,Liverpool,Brighton,Liverpool,Brighton,1,0,0,1,0,0,0,0,15
+1208113,2024-11-02,E0,2024,Bournemouth,Manchester City,Bournemouth,Man City,1,1,0,1,0,0,0,0,12
+1208115,2024-11-02,E0,2024,Ipswich,Leicester,Ipswich,Leicester,2,4,1,1,0,1,0,0,19
+1208120,2024-11-02,E0,2024,Southampton,Everton,Southampton,Everton,0,4,1,1,0,0,0,0,16
+1208119,2024-11-02,E0,2024,Nottingham Forest,West Ham,Nott'm Forest,West Ham,0,1,3,1,0,0,1,0,17
+1208118,2024-11-02,E0,2024,Newcastle,Arsenal,Newcastle,Arsenal,1,3,0,4,0,0,0,0,17
+1208121,2024-11-03,E0,2024,Tottenham,Aston Villa,Tottenham,Aston Villa,0,2,0,0,0,0,0,0,17
+1208117,2024-11-03,E0,2024,Manchester United,Chelsea,Man United,Chelsea,2,4,1,1,0,0,0,0,16
+1208114,2024-11-04,E0,2024,Fulham,Brentford,Fulham,Brentford,0,2,0,1,0,0,0,0,16
+1208126,2024-11-09,E0,2024,Crystal Palace,Fulham,Crystal Palace,Fulham,0,1,0,1,0,1,0,0,16
+1208131,2024-11-09,E0,2024,West Ham,Everton,West Ham,Everton,0,1,0,2,0,0,0,0,9
+1208132,2024-11-09,E0,2024,Wolves,Southampton,Wolves,Southampton,0,1,1,3,0,0,0,0,17
+1208124,2024-11-09,E0,2024,Brighton,Manchester City,Brighton,Man City,2,1,1,2,0,0,0,0,16
+1208127,2024-11-09,E0,2024,Liverpool,Aston Villa,Liverpool,Aston Villa,0,0,2,1,0,0,0,0,14
+1208123,2024-11-09,E0,2024,Brentford,Bournemouth,Brentford,Bournemouth,0,2,1,3,0,0,0,0,20
+1208128,2024-11-10,E0,2024,Manchester United,Leicester,Man United,Leicester,0,0,0,1,0,0,0,0,11
+1208125,2024-11-10,E0,2024,Chelsea,Arsenal,Chelsea,Arsenal,3,1,1,1,0,0,0,0,16
+1208129,2024-11-10,E0,2024,Nottingham Forest,Newcastle,Nott'm Forest,Newcastle,0,1,1,0,0,0,0,0,14
+1208130,2024-11-10,E0,2024,Tottenham,Ipswich,Tottenham,Ipswich,0,1,1,4,0,0,0,0,16
+1208135,2024-11-23,E0,2024,Aston Villa,Crystal Palace,Aston Villa,Crystal Palace,0,3,0,2,0,0,0,0,20
+1208136,2024-11-23,E0,2024,Everton,Brentford,Everton,Brentford,0,0,0,0,0,0,1,0,7
+1208134,2024-11-23,E0,2024,Arsenal,Nottingham Forest,Arsenal,Nott'm Forest,3,0,1,1,0,0,0,0,17
+1208137,2024-11-23,E0,2024,Fulham,Wolves,Fulham,Wolves,1,2,0,0,0,0,0,0,18
+1208133,2024-11-23,E0,2024,Bournemouth,Brighton,Bournemouth,Brighton,1,1,2,2,0,0,0,1,19
+1208140,2024-11-23,E0,2024,Manchester City,Tottenham,Man City,Tottenham,0,4,1,1,0,0,0,0,17
+1208139,2024-11-23,E0,2024,Leicester,Chelsea,Leicester,Chelsea,3,1,1,2,0,0,0,0,20
+1208142,2024-11-24,E0,2024,Southampton,Liverpool,Southampton,Liverpool,1,2,2,2,0,0,0,0,20
+1208138,2024-11-24,E0,2024,Ipswich,Manchester United,Ipswich,Man United,0,0,0,0,0,0,0,0,11
+1208141,2024-11-25,E0,2024,Newcastle,West Ham,Newcastle,West Ham,0,1,0,0,0,0,0,0,13
+1208144,2024-11-29,E0,2024,Brighton,Southampton,Brighton,Southampton,1,1,2,2,0,0,0,0,18
+1208143,2024-11-30,E0,2024,Brentford,Leicester,Brentford,Leicester,0,1,0,1,0,0,0,0,17
+1208146,2024-11-30,E0,2024,Crystal Palace,Newcastle,Crystal Palace,Newcastle,0,3,0,3,0,0,0,0,14
+1208152,2024-11-30,E0,2024,Wolves,Bournemouth,Wolves,Bournemouth,1,4,1,0,0,0,0,0,21
+1208151,2024-11-30,E0,2024,West Ham,Arsenal,West Ham,Arsenal,3,1,1,0,0,0,0,0,22
+1208149,2024-11-30,E0,2024,Nottingham Forest,Ipswich,Nott'm Forest,Ipswich,1,0,2,1,0,0,0,0,15
+1208145,2024-12-01,E0,2024,Chelsea,Aston Villa,Chelsea,Aston Villa,0,2,0,2,0,0,0,0,17
+1208150,2024-12-01,E0,2024,Tottenham,Fulham,Tottenham,Fulham,0,0,0,1,0,0,0,1,14
+1208148,2024-12-01,E0,2024,Manchester United,Everton,Man United,Everton,0,2,1,2,0,0,0,0,19
+1208147,2024-12-01,E0,2024,Liverpool,Manchester City,Liverpool,Man City,1,0,3,0,0,0,0,0,14
+1208159,2024-12-03,E0,2024,Leicester,West Ham,Leicester,West Ham,2,0,1,1,0,0,0,0,20
+1208158,2024-12-03,E0,2024,Ipswich,Crystal Palace,Ipswich,Crystal Palace,1,1,1,3,0,0,0,0,15
+1208160,2024-12-04,E0,2024,Manchester City,Nottingham Forest,Man City,Nott'm Forest,0,2,1,3,0,0,0,0,19
+1208156,2024-12-04,E0,2024,Everton,Wolves,Everton,Wolves,1,1,0,0,0,0,0,0,15
+1208162,2024-12-04,E0,2024,Southampton,Chelsea,Southampton,Chelsea,0,1,0,0,1,0,0,0,17
+1208161,2024-12-04,E0,2024,Newcastle,Liverpool,Newcastle,Liverpool,0,2,3,2,0,0,0,0,20
+1208155,2024-12-04,E0,2024,Aston Villa,Brentford,Aston Villa,Brentford,0,2,1,1,0,0,0,0,17
+1208154,2024-12-04,E0,2024,Arsenal,Manchester United,Arsenal,Man United,0,1,2,1,0,0,0,0,14
+1208157,2024-12-05,E0,2024,Fulham,Brighton,Fulham,Brighton,1,1,0,2,0,0,0,0,18
+1208153,2024-12-05,E0,2024,Bournemouth,Tottenham,Bournemouth,Tottenham,0,2,2,0,0,0,0,0,15
+1208170,2024-12-07,E0,2024,Manchester United,Nottingham Forest,Man United,Nott'm Forest,0,0,1,1,0,0,0,0,16
+1208165,2024-12-07,E0,2024,Crystal Palace,Manchester City,Crystal Palace,Man City,0,1,0,2,0,0,0,1,12
+1208164,2024-12-07,E0,2024,Brentford,Newcastle,Brentford,Newcastle,1,2,0,0,0,0,0,0,18
+1208163,2024-12-07,E0,2024,Aston Villa,Southampton,Aston Villa,Southampton,0,1,0,3,0,0,0,0,13
+1208171,2024-12-08,E0,2024,Tottenham,Chelsea,Tottenham,Chelsea,1,1,1,2,0,0,0,0,22
+1208168,2024-12-08,E0,2024,Ipswich,Bournemouth,Ipswich,Bournemouth,2,0,0,1,0,0,0,0,15
+1208169,2024-12-08,E0,2024,Leicester,Brighton,Leicester,Brighton,0,1,1,1,0,0,0,0,17
+1208167,2024-12-08,E0,2024,Fulham,Arsenal,Fulham,Arsenal,0,4,0,2,0,0,0,0,17
+1208172,2024-12-09,E0,2024,West Ham,Wolves,West Ham,Wolves,1,4,1,3,0,0,0,0,22
+1208174,2024-12-14,E0,2024,Arsenal,Everton,Arsenal,Everton,0,0,0,3,0,0,0,0,10
+1208177,2024-12-14,E0,2024,Liverpool,Fulham,Liverpool,Fulham,1,2,3,1,1,0,0,0,20
+1208182,2024-12-14,E0,2024,Wolves,Ipswich,Wolves,Ipswich,1,1,0,2,0,1,0,0,15
+1208179,2024-12-14,E0,2024,Newcastle,Leicester,Newcastle,Leicester,2,1,1,2,0,0,0,0,20
+1208180,2024-12-14,E0,2024,Nottingham Forest,Aston Villa,Nott'm Forest,Aston Villa,0,0,0,1,0,0,0,0,13
+1208181,2024-12-15,E0,2024,Southampton,Tottenham,Southampton,Tottenham,1,0,1,2,0,0,0,0,17
+1208176,2024-12-15,E0,2024,Chelsea,Brentford,Chelsea,Brentford,0,2,0,2,0,1,0,0,14
+1208175,2024-12-15,E0,2024,Brighton,Crystal Palace,Brighton,Crystal Palace,1,0,1,3,0,0,0,0,19
+1208178,2024-12-15,E0,2024,Manchester City,Manchester United,Man City,Man United,1,0,1,0,0,0,0,0,13
+1208173,2024-12-16,E0,2024,Bournemouth,West Ham,Bournemouth,West Ham,0,0,1,1,0,0,0,0,13
+1208183,2024-12-21,E0,2024,Aston Villa,Manchester City,Aston Villa,Man City,2,1,0,3,0,0,0,0,14
+1208188,2024-12-21,E0,2024,Ipswich,Newcastle,Ipswich,Newcastle,0,2,0,0,0,0,0,0,17
+1208184,2024-12-21,E0,2024,Brentford,Nottingham Forest,Brentford,Nott'm Forest,1,2,1,3,0,0,0,0,18
+1208192,2024-12-21,E0,2024,West Ham,Brighton,West Ham,Brighton,2,0,1,1,0,0,0,0,16
+1208185,2024-12-21,E0,2024,Crystal Palace,Arsenal,Crystal Palace,Arsenal,0,2,2,0,0,0,0,0,20
+1208190,2024-12-22,E0,2024,Manchester United,Bournemouth,Man United,Bournemouth,1,0,1,2,0,0,0,0,15
+1208191,2024-12-22,E0,2024,Tottenham,Liverpool,Tottenham,Liverpool,0,1,1,1,0,0,0,0,19
+1208186,2024-12-22,E0,2024,Everton,Chelsea,Everton,Chelsea,2,2,0,1,0,0,0,0,10
+1208187,2024-12-22,E0,2024,Fulham,Southampton,Fulham,Southampton,0,1,1,2,0,0,0,0,13
+1208189,2024-12-22,E0,2024,Leicester,Wolves,Leicester,Wolves,2,0,0,0,0,0,0,0,15
+1208198,2024-12-26,E0,2024,Manchester City,Everton,Man City,Everton,0,1,1,3,0,0,0,0,14
+1208200,2024-12-26,E0,2024,Nottingham Forest,Tottenham,Nott'm Forest,Tottenham,2,1,0,4,0,0,0,1,19
+1208196,2024-12-26,E0,2024,Chelsea,Fulham,Chelsea,Fulham,0,1,2,1,0,0,0,0,12
+1208201,2024-12-26,E0,2024,Southampton,West Ham,Southampton,West Ham,1,0,0,2,0,0,0,0,17
+1208193,2024-12-26,E0,2024,Bournemouth,Crystal Palace,Bournemouth,Crystal Palace,1,1,1,1,0,0,0,0,11
+1208199,2024-12-26,E0,2024,Newcastle,Aston Villa,Newcastle,Aston Villa,2,0,1,0,0,0,1,0,18
+1208202,2024-12-26,E0,2024,Wolves,Manchester United,Wolves,Man United,1,1,2,2,0,0,0,1,19
+1208197,2024-12-26,E0,2024,Liverpool,Leicester,Liverpool,Leicester,1,2,1,1,0,0,0,0,18
+1208194,2024-12-27,E0,2024,Arsenal,Ipswich,Arsenal,Ipswich,0,1,0,1,0,0,0,0,10
+1208195,2024-12-27,E0,2024,Brighton,Brentford,Brighton,Brentford,0,0,0,2,0,0,0,0,11
+1208205,2024-12-29,E0,2024,Crystal Palace,Southampton,Crystal Palace,Southampton,0,2,0,3,0,0,0,0,16
+1208211,2024-12-29,E0,2024,Tottenham,Wolves,Tottenham,Wolves,0,1,2,0,0,0,0,0,17
+1208206,2024-12-29,E0,2024,Everton,Nottingham Forest,Everton,Nott'm Forest,1,3,0,1,0,0,0,0,16
+1208207,2024-12-29,E0,2024,Fulham,Bournemouth,Fulham,Bournemouth,0,1,2,1,0,0,0,0,17
+1208212,2024-12-29,E0,2024,West Ham,Liverpool,West Ham,Liverpool,0,0,0,0,0,0,0,0,15
+1208209,2024-12-29,E0,2024,Leicester,Manchester City,Leicester,Man City,0,2,0,1,0,0,0,0,11
+1208203,2024-12-30,E0,2024,Aston Villa,Brighton,Aston Villa,Brighton,2,0,1,2,0,0,0,0,20
+1208208,2024-12-30,E0,2024,Ipswich,Chelsea,Ipswich,Chelsea,1,3,0,4,0,0,0,0,20
+1208210,2024-12-30,E0,2024,Manchester United,Newcastle,Man United,Newcastle,0,1,0,1,0,0,0,0,11
+1208204,2025-01-01,E0,2024,Brentford,Arsenal,Brentford,Arsenal,1,0,1,1,0,0,0,0,16
+1208221,2025-01-04,E0,2024,Tottenham,Newcastle,Tottenham,Newcastle,0,1,1,3,0,0,0,0,16
+1208214,2025-01-04,E0,2024,Aston Villa,Leicester,Aston Villa,Leicester,0,0,0,1,0,0,0,0,12
+1208219,2025-01-04,E0,2024,Manchester City,West Ham,Man City,West Ham,1,1,1,0,0,0,0,0,15
+1208215,2025-01-04,E0,2024,Brighton,Arsenal,Brighton,Arsenal,0,2,1,2,0,0,0,0,13
+1208216,2025-01-04,E0,2024,Crystal Palace,Chelsea,Crystal Palace,Chelsea,0,0,0,2,0,0,0,0,8
+1208220,2025-01-04,E0,2024,Southampton,Brentford,Southampton,Brentford,1,1,0,0,0,0,0,0,16
+1208213,2025-01-04,E0,2024,Bournemouth,Everton,Bournemouth,Everton,0,2,1,1,0,0,0,0,13
+1208217,2025-01-05,E0,2024,Fulham,Ipswich,Fulham,Ipswich,0,1,2,3,0,0,0,0,20
+1208218,2025-01-05,E0,2024,Liverpool,Manchester United,Liverpool,Man United,0,2,1,3,0,0,0,0,18
+1208222,2025-01-06,E0,2024,Wolves,Nottingham Forest,Wolves,Nott'm Forest,0,1,2,0,0,0,0,0,15
+1208224,2025-01-14,E0,2024,Brentford,Manchester City,Brentford,Man City,0,0,0,0,0,0,0,0,9
+1208230,2025-01-14,E0,2024,Chelsea,Bournemouth,Chelsea,Bournemouth,1,1,1,2,0,0,0,0,16
+1208229,2025-01-14,E0,2024,West Ham,Fulham,West Ham,Fulham,0,3,1,2,0,0,0,0,19
+1208228,2025-01-14,E0,2024,Nottingham Forest,Liverpool,Nott'm Forest,Liverpool,1,1,0,1,0,0,0,0,13
+1208223,2025-01-15,E0,2024,Arsenal,Tottenham,Arsenal,Tottenham,1,2,1,0,0,0,0,0,14
+1208231,2025-01-15,E0,2024,Newcastle,Wolves,Newcastle,Wolves,0,0,1,1,0,0,0,0,16
+1208227,2025-01-15,E0,2024,Leicester,Crystal Palace,Leicester,Crystal Palace,0,0,0,0,0,0,0,0,11
+1208225,2025-01-15,E0,2024,Everton,Aston Villa,Everton,Aston Villa,0,2,1,0,0,0,0,0,8
+1208226,2025-01-16,E0,2024,Ipswich,Brighton,Ipswich,Brighton,0,2,0,2,0,0,0,0,15
+1208232,2025-01-16,E0,2024,Manchester United,Southampton,Man United,Southampton,0,1,2,1,0,0,0,0,18
+1208240,2025-01-18,E0,2024,Newcastle,Bournemouth,Newcastle,Bournemouth,1,0,2,4,0,0,0,0,20
+1208234,2025-01-18,E0,2024,Brentford,Liverpool,Brentford,Liverpool,0,2,2,1,0,0,0,0,14
+1208242,2025-01-18,E0,2024,West Ham,Crystal Palace,West Ham,Crystal Palace,1,2,0,0,0,1,0,0,15
+1208238,2025-01-18,E0,2024,Leicester,Fulham,Leicester,Fulham,1,2,0,1,0,0,0,0,15
+1208233,2025-01-18,E0,2024,Arsenal,Aston Villa,Arsenal,Aston Villa,0,2,1,2,0,0,0,0,15
+1208239,2025-01-19,E0,2024,Manchester United,Brighton,Man United,Brighton,0,3,2,1,0,0,0,0,20
+1208237,2025-01-19,E0,2024,Ipswich,Manchester City,Ipswich,Man City,0,0,0,1,0,0,0,0,17
+1208241,2025-01-19,E0,2024,Nottingham Forest,Southampton,Nott'm Forest,Southampton,0,0,1,3,0,0,0,0,20
+1208236,2025-01-19,E0,2024,Everton,Tottenham,Everton,Tottenham,1,1,1,0,0,0,0,0,13
+1208235,2025-01-20,E0,2024,Chelsea,Wolves,Chelsea,Wolves,1,3,1,1,0,0,0,0,19
+1208245,2025-01-25,E0,2024,Brighton,Everton,Brighton,Everton,2,2,2,2,0,0,0,0,19
+1208250,2025-01-25,E0,2024,Southampton,Newcastle,Southampton,Newcastle,1,0,0,0,0,0,0,0,16
+1208248,2025-01-25,E0,2024,Liverpool,Ipswich,Liverpool,Ipswich,0,0,0,2,0,0,0,0,17
+1208252,2025-01-25,E0,2024,Wolves,Arsenal,Wolves,Arsenal,1,1,1,0,0,1,1,0,13
+1208243,2025-01-25,E0,2024,Bournemouth,Nottingham Forest,Bournemouth,Nott'm Forest,1,1,2,1,0,0,0,0,19
+1208249,2025-01-25,E0,2024,Manchester City,Chelsea,Man City,Chelsea,1,2,1,1,0,0,0,0,14
+1208244,2025-01-26,E0,2024,Aston Villa,West Ham,Aston Villa,West Ham,1,1,1,2,0,0,0,0,16
+1208247,2025-01-26,E0,2024,Fulham,Manchester United,Fulham,Man United,0,0,0,1,0,0,0,0,12
+1208246,2025-01-26,E0,2024,Crystal Palace,Brentford,Crystal Palace,Brentford,1,1,0,2,0,0,0,0,13
+1208251,2025-01-26,E0,2024,Tottenham,Leicester,Tottenham,Leicester,0,1,0,5,0,0,0,0,17
+1208258,2025-02-01,E0,2024,Ipswich,Southampton,Ipswich,Southampton,0,0,1,2,0,0,0,0,15
+1208257,2025-02-01,E0,2024,Everton,Leicester,Everton,Leicester,0,0,0,0,0,0,0,0,12
+1208253,2025-02-01,E0,2024,Bournemouth,Liverpool,Bournemouth,Liverpool,0,2,0,3,0,0,0,0,13
+1208260,2025-02-01,E0,2024,Newcastle,Fulham,Newcastle,Fulham,2,2,2,2,0,0,0,0,20
+1208262,2025-02-01,E0,2024,Wolves,Aston Villa,Wolves,Aston Villa,1,1,3,0,0,0,0,0,16
+1208261,2025-02-01,E0,2024,Nottingham Forest,Brighton,Nott'm Forest,Brighton,1,0,2,1,0,0,0,0,20
+1208255,2025-02-02,E0,2024,Brentford,Tottenham,Brentford,Tottenham,0,0,1,0,0,0,0,0,9
+1208259,2025-02-02,E0,2024,Manchester United,Crystal Palace,Man United,Crystal Palace,0,3,0,1,0,0,0,0,14
+1208254,2025-02-02,E0,2024,Arsenal,Manchester City,Arsenal,Man City,1,1,0,0,0,0,0,0,14
+1208256,2025-02-03,E0,2024,Chelsea,West Ham,Chelsea,West Ham,0,3,0,1,0,0,0,0,17
+1208166,2025-02-12,E0,2024,Everton,Liverpool,Everton,Liverpool,3,1,2,2,0,1,0,1,23
+1208264,2025-02-14,E0,2024,Brighton,Chelsea,Brighton,Chelsea,0,1,1,1,0,0,0,0,15
+1208267,2025-02-15,E0,2024,Leicester,Arsenal,Leicester,Arsenal,0,2,0,1,0,0,0,0,13
+1208263,2025-02-15,E0,2024,Aston Villa,Ipswich,Aston Villa,Ipswich,0,0,2,3,0,0,1,0,17
+1208269,2025-02-15,E0,2024,Manchester City,Newcastle,Man City,Newcastle,0,0,0,1,0,0,0,0,15
+1208272,2025-02-15,E0,2024,West Ham,Brentford,West Ham,Brentford,1,0,1,0,0,0,0,0,13
+1208270,2025-02-15,E0,2024,Southampton,Bournemouth,Southampton,Bournemouth,1,0,2,1,0,0,0,0,17
+1208266,2025-02-15,E0,2024,Fulham,Nottingham Forest,Fulham,Nott'm Forest,0,0,0,0,0,0,0,0,11
+1208265,2025-02-15,E0,2024,Crystal Palace,Everton,Crystal Palace,Everton,0,0,0,1,0,0,0,0,11
+1208268,2025-02-16,E0,2024,Liverpool,Wolves,Liverpool,Wolves,1,1,2,0,0,0,0,0,17
+1208271,2025-02-16,E0,2024,Tottenham,Manchester United,Tottenham,Man United,0,1,1,1,0,0,0,0,10
+1208305,2025-02-19,E0,2024,Aston Villa,Liverpool,Aston Villa,Liverpool,1,0,0,0,0,0,0,0,14
+1208279,2025-02-21,E0,2024,Leicester,Brentford,Leicester,Brentford,3,1,0,0,0,0,0,0,18
+1208278,2025-02-22,E0,2024,Ipswich,Tottenham,Ipswich,Tottenham,2,0,1,0,0,0,0,0,18
+1208274,2025-02-22,E0,2024,Arsenal,West Ham,Arsenal,West Ham,0,1,0,3,0,1,0,0,14
+1208282,2025-02-22,E0,2024,Southampton,Brighton,Southampton,Brighton,1,1,0,0,0,0,0,0,16
+1208277,2025-02-22,E0,2024,Fulham,Crystal Palace,Fulham,Crystal Palace,1,0,1,2,0,0,0,0,16
+1208273,2025-02-22,E0,2024,Bournemouth,Wolves,Bournemouth,Wolves,1,2,2,1,1,0,0,0,18
+1208275,2025-02-22,E0,2024,Aston Villa,Chelsea,Aston Villa,Chelsea,0,1,0,3,0,0,0,0,15
+1208276,2025-02-22,E0,2024,Everton,Manchester United,Everton,Man United,1,3,0,1,0,0,0,0,16
+1208281,2025-02-23,E0,2024,Newcastle,Nottingham Forest,Newcastle,Nott'm Forest,0,1,1,3,0,0,0,0,18
+1208280,2025-02-23,E0,2024,Manchester City,Liverpool,Man City,Liverpool,0,0,0,0,0,0,0,0,12
+1208288,2025-02-25,E0,2024,Wolves,Fulham,Wolves,Fulham,1,0,1,2,0,0,0,0,15
+1208290,2025-02-25,E0,2024,Chelsea,Southampton,Chelsea,Southampton,0,1,1,1,0,0,0,0,17
+1208289,2025-02-25,E0,2024,Crystal Palace,Aston Villa,Crystal Palace,Aston Villa,2,1,0,1,0,0,0,0,18
+1208284,2025-02-25,E0,2024,Brighton,Bournemouth,Brighton,Bournemouth,0,2,0,1,0,0,0,0,15
+1208285,2025-02-26,E0,2024,Nottingham Forest,Arsenal,Nott'm Forest,Arsenal,1,0,1,0,0,0,0,0,10
+1208283,2025-02-26,E0,2024,Brentford,Everton,Brentford,Everton,0,2,0,1,0,0,0,0,9
+1208286,2025-02-26,E0,2024,Tottenham,Manchester City,Tottenham,Man City,1,2,0,0,0,0,0,0,14
+1208292,2025-02-26,E0,2024,Manchester United,Ipswich,Man United,Ipswich,1,3,2,2,1,0,0,0,24
+1208291,2025-02-26,E0,2024,Liverpool,Newcastle,Liverpool,Newcastle,0,0,0,1,0,0,0,0,13
+1208287,2025-02-27,E0,2024,West Ham,Leicester,West Ham,Leicester,0,0,0,0,0,0,0,0,11
+1208302,2025-03-08,E0,2024,Wolves,Everton,Wolves,Everton,0,2,0,2,0,0,0,0,14
+1208297,2025-03-08,E0,2024,Liverpool,Southampton,Liverpool,Southampton,2,0,0,1,0,0,0,0,20
+1208293,2025-03-08,E0,2024,Brentford,Aston Villa,Brentford,Aston Villa,0,2,1,1,0,0,0,0,12
+1208296,2025-03-08,E0,2024,Crystal Palace,Ipswich,Crystal Palace,Ipswich,0,4,1,2,0,0,0,0,17
+1208299,2025-03-08,E0,2024,Nottingham Forest,Manchester City,Nott'm Forest,Man City,1,2,1,1,0,0,0,0,14
+1208294,2025-03-08,E0,2024,Brighton,Fulham,Brighton,Fulham,0,0,0,2,0,0,0,0,14
+1208295,2025-03-09,E0,2024,Chelsea,Leicester,Chelsea,Leicester,0,1,0,0,0,0,0,0,11
+1208300,2025-03-09,E0,2024,Tottenham,Bournemouth,Tottenham,Bournemouth,2,1,1,2,0,0,0,0,20
+1208298,2025-03-09,E0,2024,Manchester United,Arsenal,Man United,Arsenal,0,0,1,0,0,0,0,0,9
+1208301,2025-03-10,E0,2024,West Ham,Newcastle,West Ham,Newcastle,0,0,0,1,0,0,0,0,10
+1208308,2025-03-15,E0,2024,Ipswich,Nottingham Forest,Ipswich,Nott'm Forest,0,1,0,1,0,0,0,0,18
+1208310,2025-03-15,E0,2024,Manchester City,Brighton,Man City,Brighton,1,1,3,2,0,0,0,0,19
+1208306,2025-03-15,E0,2024,Everton,West Ham,Everton,West Ham,0,1,1,1,0,0,0,0,13
+1208312,2025-03-15,E0,2024,Southampton,Wolves,Southampton,Wolves,0,0,0,0,0,0,0,0,13
+1208303,2025-03-15,E0,2024,Bournemouth,Brentford,Bournemouth,Brentford,0,3,0,0,0,0,0,0,15
+1208309,2025-03-16,E0,2024,Leicester,Manchester United,Leicester,Man United,1,1,0,0,0,0,0,0,15
+1208304,2025-03-16,E0,2024,Arsenal,Chelsea,Arsenal,Chelsea,0,3,1,2,0,0,0,0,14
+1208307,2025-03-16,E0,2024,Fulham,Tottenham,Fulham,Tottenham,0,0,0,0,0,0,0,0,11
+1208316,2025-04-01,E0,2024,Nottingham Forest,Manchester United,Nott'm Forest,Man United,0,1,0,3,0,0,0,0,14
+1208314,2025-04-01,E0,2024,Arsenal,Fulham,Arsenal,Fulham,0,1,0,2,0,0,0,0,14
+1208317,2025-04-01,E0,2024,Wolves,West Ham,Wolves,West Ham,2,2,1,1,0,0,0,0,15
+1208315,2025-04-02,E0,2024,Brighton,Aston Villa,Brighton,Aston Villa,1,1,0,3,0,0,0,0,19
+1208319,2025-04-02,E0,2024,Manchester City,Leicester,Man City,Leicester,0,1,1,3,0,0,0,0,16
+1208321,2025-04-02,E0,2024,Southampton,Crystal Palace,Southampton,Crystal Palace,0,2,1,0,0,0,0,0,15
+1208313,2025-04-02,E0,2024,Bournemouth,Ipswich,Bournemouth,Ipswich,0,1,0,2,0,0,0,0,16
+1208320,2025-04-02,E0,2024,Newcastle,Brentford,Newcastle,Brentford,0,1,0,1,0,0,0,0,12
+1208322,2025-04-02,E0,2024,Liverpool,Everton,Liverpool,Everton,0,2,2,0,0,0,0,0,13
+1208318,2025-04-03,E0,2024,Chelsea,Tottenham,Chelsea,Tottenham,1,4,1,4,0,0,0,0,21
+1208323,2025-04-05,E0,2024,Aston Villa,Nottingham Forest,Aston Villa,Nott'm Forest,0,2,0,2,0,0,0,0,15
+1208332,2025-04-05,E0,2024,West Ham,Bournemouth,West Ham,Bournemouth,0,2,1,1,0,0,0,0,18
+1208325,2025-04-05,E0,2024,Crystal Palace,Brighton,Crystal Palace,Brighton,0,4,1,2,0,2,0,1,24
+1208326,2025-04-05,E0,2024,Everton,Arsenal,Everton,Arsenal,1,2,0,1,0,0,0,0,16
+1208328,2025-04-05,E0,2024,Ipswich,Wolves,Ipswich,Wolves,1,1,0,2,0,0,0,0,16
+1208324,2025-04-06,E0,2024,Brentford,Chelsea,Brentford,Chelsea,0,1,2,1,0,0,0,0,11
+1208331,2025-04-06,E0,2024,Tottenham,Southampton,Tottenham,Southampton,0,1,1,0,0,0,0,0,17
+1208327,2025-04-06,E0,2024,Fulham,Liverpool,Fulham,Liverpool,0,3,0,0,0,0,0,0,18
+1208330,2025-04-06,E0,2024,Manchester United,Manchester City,Man United,Man City,0,3,1,1,0,0,0,0,11
+1208329,2025-04-07,E0,2024,Leicester,Newcastle,Leicester,Newcastle,1,1,0,0,0,0,0,0,14
+1208341,2025-04-12,E0,2024,Southampton,Aston Villa,Southampton,Aston Villa,1,2,0,1,0,0,0,0,19
+1208334,2025-04-12,E0,2024,Arsenal,Brentford,Arsenal,Brentford,0,1,2,1,0,0,0,0,16
+1208340,2025-04-12,E0,2024,Nottingham Forest,Everton,Nott'm Forest,Everton,0,0,2,1,0,0,0,0,9
+1208335,2025-04-12,E0,2024,Brighton,Leicester,Brighton,Leicester,1,1,3,2,0,0,0,0,21
+1208338,2025-04-12,E0,2024,Manchester City,Crystal Palace,Man City,Crystal Palace,1,1,1,2,0,0,0,0,22
+1208336,2025-04-13,E0,2024,Chelsea,Ipswich,Chelsea,Ipswich,0,2,1,1,0,0,0,0,17
+1208337,2025-04-13,E0,2024,Liverpool,West Ham,Liverpool,West Ham,0,0,0,2,0,0,0,0,13
+1208342,2025-04-13,E0,2024,Wolves,Tottenham,Wolves,Tottenham,0,1,1,1,0,0,0,0,18
+1208339,2025-04-13,E0,2024,Newcastle,Manchester United,Newcastle,Man United,0,0,2,0,0,0,0,0,17
+1208333,2025-04-14,E0,2024,Bournemouth,Fulham,Bournemouth,Fulham,1,2,0,2,0,0,0,0,14
+1208311,2025-04-16,E0,2024,Newcastle,Crystal Palace,Newcastle,Crystal Palace,0,2,0,3,0,0,0,0,22
+1208352,2025-04-19,E0,2024,West Ham,Southampton,West Ham,Southampton,1,1,1,0,0,0,0,0,14
+1208343,2025-04-19,E0,2024,Aston Villa,Newcastle,Aston Villa,Newcastle,0,1,2,1,0,0,0,0,19
+1208344,2025-04-19,E0,2024,Brentford,Brighton,Brentford,Brighton,1,2,1,2,0,0,0,1,25
+1208345,2025-04-19,E0,2024,Crystal Palace,Bournemouth,Crystal Palace,Bournemouth,2,3,2,2,1,0,0,0,18
+1208346,2025-04-19,E0,2024,Everton,Manchester City,Everton,Man City,0,4,0,0,0,0,0,0,14
+1208348,2025-04-20,E0,2024,Ipswich,Arsenal,Ipswich,Arsenal,0,0,0,0,1,0,0,0,15
+1208347,2025-04-20,E0,2024,Fulham,Chelsea,Fulham,Chelsea,1,0,1,2,0,0,0,0,16
+1208350,2025-04-20,E0,2024,Manchester United,Wolves,Man United,Wolves,0,2,1,2,0,0,0,0,15
+1208349,2025-04-20,E0,2024,Leicester,Liverpool,Leicester,Liverpool,0,1,0,2,0,0,0,0,13
+1208351,2025-04-21,E0,2024,Tottenham,Nottingham Forest,Tottenham,Nott'm Forest,1,0,0,4,0,0,0,0,19
+1208358,2025-04-22,E0,2024,Manchester City,Aston Villa,Man City,Aston Villa,0,3,1,2,0,0,0,0,17
+1208354,2025-04-23,E0,2024,Arsenal,Crystal Palace,Arsenal,Crystal Palace,1,0,0,1,0,0,0,0,14
+1208362,2025-04-26,E0,2024,Wolves,Leicester,Wolves,Leicester,1,0,0,4,0,0,0,0,20
+1208359,2025-04-26,E0,2024,Newcastle,Ipswich,Newcastle,Ipswich,1,0,3,1,0,0,1,0,19
+1208361,2025-04-26,E0,2024,Southampton,Fulham,Southampton,Fulham,0,1,0,1,0,0,0,0,13
+1208356,2025-04-26,E0,2024,Chelsea,Everton,Chelsea,Everton,0,0,0,0,0,0,0,0,9
+1208355,2025-04-26,E0,2024,Brighton,West Ham,Brighton,West Ham,0,1,1,0,0,0,0,0,13
+1208357,2025-04-27,E0,2024,Liverpool,Tottenham,Liverpool,Tottenham,1,1,0,1,0,0,0,0,19
+1208353,2025-04-27,E0,2024,Bournemouth,Manchester United,Bournemouth,Man United,1,3,0,2,0,1,0,0,19
+1208360,2025-05-01,E0,2024,Nottingham Forest,Brentford,Nott'm Forest,Brentford,2,1,3,2,0,0,0,0,19
+1208371,2025-05-02,E0,2024,Manchester City,Wolves,Man City,Wolves,0,0,0,0,0,0,0,0,11
+1208364,2025-05-03,E0,2024,Aston Villa,Fulham,Aston Villa,Fulham,0,0,1,4,0,0,0,0,16
+1208370,2025-05-03,E0,2024,Leicester,Southampton,Leicester,Southampton,0,1,0,3,0,0,0,0,16
+1208369,2025-05-03,E0,2024,Everton,Ipswich,Everton,Ipswich,1,3,2,2,0,0,0,0,22
+1208363,2025-05-03,E0,2024,Arsenal,Bournemouth,Arsenal,Bournemouth,0,0,0,2,0,0,0,0,13
+1208367,2025-05-04,E0,2024,Chelsea,Liverpool,Chelsea,Liverpool,0,2,0,2,0,0,0,0,16
+1208372,2025-05-04,E0,2024,West Ham,Tottenham,West Ham,Tottenham,1,1,1,1,0,0,0,0,12
+1208365,2025-05-04,E0,2024,Brentford,Manchester United,Brentford,Man United,0,0,1,1,0,0,0,0,19
+1208366,2025-05-04,E0,2024,Brighton,Newcastle,Brighton,Newcastle,1,1,0,1,0,0,0,0,16
+1208368,2025-05-05,E0,2024,Crystal Palace,Nottingham Forest,Crystal Palace,Nott'm Forest,0,3,1,7,0,0,0,0,20
+1208375,2025-05-10,E0,2024,Ipswich,Brentford,Ipswich,Brentford,1,1,1,3,0,0,0,0,14
+1208380,2025-05-10,E0,2024,Southampton,Manchester City,Southampton,Man City,1,1,0,0,0,0,0,0,11
+1208382,2025-05-10,E0,2024,Wolves,Brighton,Wolves,Brighton,1,0,1,0,0,0,0,0,14
+1208374,2025-05-10,E0,2024,Fulham,Everton,Fulham,Everton,0,1,0,0,0,0,0,0,16
+1208373,2025-05-10,E0,2024,Bournemouth,Aston Villa,Bournemouth,Aston Villa,2,2,3,2,0,0,0,1,19
+1208376,2025-05-11,E0,2024,Liverpool,Arsenal,Liverpool,Arsenal,0,1,2,1,0,0,0,1,17
+1208377,2025-05-11,E0,2024,Manchester United,West Ham,Man United,West Ham,0,0,0,1,0,0,0,0,13
+1208379,2025-05-11,E0,2024,Nottingham Forest,Leicester,Nott'm Forest,Leicester,0,3,1,2,0,0,0,0,18
+1208378,2025-05-11,E0,2024,Newcastle,Chelsea,Newcastle,Chelsea,0,4,1,1,0,0,1,0,17
+1208381,2025-05-11,E0,2024,Tottenham,Crystal Palace,Tottenham,Crystal Palace,1,0,0,1,0,0,0,0,13
+1208384,2025-05-16,E0,2024,Aston Villa,Tottenham,Aston Villa,Tottenham,1,0,1,1,0,0,0,0,13
+1208387,2025-05-16,E0,2024,Chelsea,Manchester United,Chelsea,Man United,0,1,1,5,0,0,0,0,16
+1208389,2025-05-18,E0,2024,Everton,Southampton,Everton,Southampton,0,1,0,1,0,0,0,0,14
+1208392,2025-05-18,E0,2024,West Ham,Nottingham Forest,West Ham,Nott'm Forest,1,5,0,3,0,0,0,0,22
+1208385,2025-05-18,E0,2024,Brentford,Fulham,Brentford,Fulham,2,2,1,3,0,0,0,0,23
+1208390,2025-05-18,E0,2024,Leicester,Ipswich,Leicester,Ipswich,0,1,0,0,0,0,0,0,13
+1208383,2025-05-18,E0,2024,Arsenal,Newcastle,Arsenal,Newcastle,0,3,0,3,0,0,0,0,15
+1208386,2025-05-19,E0,2024,Brighton,Liverpool,Brighton,Liverpool,0,1,0,0,0,0,0,0,16
+1208391,2025-05-20,E0,2024,Manchester City,Bournemouth,Man City,Bournemouth,0,1,2,1,0,1,0,1,19
+1208388,2025-05-20,E0,2024,Crystal Palace,Wolves,Crystal Palace,Wolves,0,1,1,1,0,0,0,0,19
+1208399,2025-05-25,E0,2024,Nottingham Forest,Chelsea,Nott'm Forest,Chelsea,1,1,0,2,0,0,0,0,11
+1208395,2025-05-25,E0,2024,Ipswich,West Ham,Ipswich,West Ham,0,1,1,0,0,0,0,0,16
+1208401,2025-05-25,E0,2024,Tottenham,Brighton,Tottenham,Brighton,1,2,0,1,0,0,0,0,19
+1208400,2025-05-25,E0,2024,Southampton,Arsenal,Southampton,Arsenal,0,0,0,0,0,0,0,0,12
+1208396,2025-05-25,E0,2024,Liverpool,Crystal Palace,Liverpool,Crystal Palace,0,2,0,0,0,1,0,0,14
+1208402,2025-05-25,E0,2024,Wolves,Brentford,Wolves,Brentford,1,1,0,1,0,0,0,0,13
+1208394,2025-05-25,E0,2024,Fulham,Manchester City,Fulham,Man City,0,0,0,0,0,0,0,0,11
+1208393,2025-05-25,E0,2024,Bournemouth,Leicester,Bournemouth,Leicester,0,0,2,0,0,0,0,0,14
+1208398,2025-05-25,E0,2024,Newcastle,Everton,Newcastle,Everton,1,0,1,3,0,0,0,0,13
+1208397,2025-05-25,E0,2024,Manchester United,Aston Villa,Man United,Aston Villa,1,1,0,2,0,0,1,0,17
