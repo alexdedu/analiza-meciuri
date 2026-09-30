@@ -363,6 +363,13 @@ def main() -> None:
     try:
         from predict_counts import imbogateste
         n_extra = imbogateste(out, hist)
+        # Nationalele NU primesc cornere si cartonase, desi avem statisticile
+        # adunate si modelul scris (predict_counts_national.py). Motivul e
+        # masurat in backtest_counts_national.py: pe 409 meciuri de verificare,
+        # modelul e mai slab decat media pe absolut toate pietele (-0,01 pana
+        # la -0,50 la log-loss), fiindca o nationala are ~12 meciuri in bazin,
+        # iar din atatea nu ies forte, iese zgomot. Se reia masuratoarea cand
+        # se aduna de doua-trei ori mai multe date.
         print(f"Cornere si cartonase: {n_extra} meciuri imbogatite")
     except Exception as exc:
         print(f"  cornerele si cartonasele au fost sarite: {str(exc)[:90]}")

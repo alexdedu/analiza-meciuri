@@ -49,7 +49,14 @@ class CountsFit:
 def fit_counts(home_idx: np.ndarray, away_idx: np.ndarray,
                home_val: np.ndarray, away_val: np.ndarray,
                weights: np.ndarray, n_teams: int,
-               teams: dict[str, int]) -> CountsFit:
+               teams: dict[str, int], ridge: float = 0.0) -> CountsFit:
+    """`ridge` trage fortele catre medie.
+
+    E necesar cand fiecare echipa are putine meciuri: cu zece observatii pe
+    echipa, fortele estimate liber sunt in mare parte zgomot, iar modelul iese
+    mai increzator decat are dreptul. Zero inseamna fara franare -- bine cand
+    sunt sute de meciuri pe echipa, ca in campionate.
+    """
     hv = home_val.astype(float)
     av = away_val.astype(float)
 
@@ -62,7 +69,8 @@ def fit_counts(home_idx: np.ndarray, away_idx: np.ndarray,
         mu = np.exp(prod[away_idx] + conc[home_idx])
 
         ll = weights * (hv * np.log(lam) - lam + av * np.log(mu) - mu)
-        neg = -ll.sum() + SUM_PENALTY * prod.sum() ** 2
+        neg = (-ll.sum() + SUM_PENALTY * prod.sum() ** 2
+               + ridge * (prod @ prod + conc @ conc))
 
         # Gradient analitic: fara el, optimizarea pe 600 de parametri ar face
         # zeci de mii de evaluari numerice.
@@ -74,7 +82,8 @@ def fit_counts(home_idx: np.ndarray, away_idx: np.ndarray,
         np.add.at(g_prod, away_idx, d_mu)
         np.add.at(g_conc, away_idx, d_lam)
         np.add.at(g_conc, home_idx, d_mu)
-        g_prod += 2.0 * SUM_PENALTY * prod.sum()
+        g_prod += 2.0 * SUM_PENALTY * prod.sum() + 2.0 * ridge * prod
+        g_conc += 2.0 * ridge * conc
         g_gamma = d_lam.sum()
 
         return neg, np.concatenate([g_prod, g_conc, [g_gamma]])

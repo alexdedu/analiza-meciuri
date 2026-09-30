@@ -69,6 +69,7 @@ jobs:
           python test_national.py
           python test_counts.py
           python test_card_events.py
+          python test_counts_national.py
 
       - name: Descarca datele istorice
         working-directory: research
@@ -100,6 +101,16 @@ jobs:
           CARTONASE_BUGET: 500
         run: python fetch_card_events.py
 
+      # Statisticile nationalelor se aduna mai departe, desi modelul lor nu a
+      # trecut inca pragul: cand bazinul va fi de doua-trei ori mai mare, se
+      # reia masuratoarea din backtest_counts_national.py.
+      - name: Aduna statisticile nationalelor
+        working-directory: research
+        continue-on-error: true
+        env:
+          STATISTICI_BUGET: 250
+        run: python fetch_national_stats.py
+
       - name: Estimeaza puterea campionatelor
         working-directory: research
         continue-on-error: true
@@ -129,7 +140,7 @@ jobs:
           # Cartonasele pe reprize costa mii de cereri si zile de adunat: se
           # comit odata cu restul, altfel se pierd cand cade cache-ul.
           git add app/assets/predictions.json istoric/selectii.json \
-                  istoric/cartonase_reprize
+                  istoric/cartonase_reprize istoric/statistici_nationale
           if git diff --cached --quiet; then
             echo "Nicio schimbare."
             exit 0
