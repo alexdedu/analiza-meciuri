@@ -1,3 +1,381 @@
 fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,ar1,ar2,evenimente
-1208827,2025-05-25,SP1,2024,Athletic Club,Barcelona,Ath Bilbao,Barcelona,0,1,0,0,0,0,0,0,15
+1208494,2024-08-15,SP1,2024,Athletic Club,Getafe,Ath Bilbao,Getafe,0,4,1,0,0,0,0,0,15
+1208495,2024-08-15,SP1,2024,Real Betis,Girona,Betis,Girona,1,1,0,0,0,0,0,0,14
+1208497,2024-08-16,SP1,2024,Las Palmas,Sevilla,Las Palmas,Sevilla,0,2,1,1,0,0,0,0,17
+1208501,2024-08-16,SP1,2024,Celta Vigo,Alaves,Celta,Alaves,1,1,1,1,0,0,0,0,19
+1208499,2024-08-17,SP1,2024,Valencia,Barcelona,Valencia,Barcelona,2,0,1,2,0,0,0,0,19
+1208502,2024-08-17,SP1,2024,Osasuna,Leganes,Osasuna,Leganes,0,3,1,1,0,0,0,0,17
+1208496,2024-08-18,SP1,2024,Mallorca,Real Madrid,Mallorca,Real Madrid,1,0,0,0,0,0,0,1,12
+1208500,2024-08-18,SP1,2024,Real Sociedad,Rayo Vallecano,Sociedad,Vallecano,1,1,1,3,0,0,0,0,19
+1208498,2024-08-19,SP1,2024,Villarreal,Atletico Madrid,Villarreal,Ath Madrid,1,0,2,1,0,0,0,0,18
+1212910,2024-08-19,SP1,2024,Valladolid,Espanyol,Valladolid,Espanol,0,2,0,2,0,0,0,0,15
+1208504,2024-08-23,SP1,2024,Celta Vigo,Valencia,Celta,Valencia,1,2,0,0,0,0,0,0,18
+1208507,2024-08-23,SP1,2024,Sevilla,Villarreal,Sevilla,Villarreal,1,2,1,4,0,0,0,0,23
+1208511,2024-08-24,SP1,2024,Osasuna,Mallorca,Osasuna,Mallorca,0,2,0,1,0,0,0,0,13
+1208510,2024-08-24,SP1,2024,Barcelona,Athletic Club,Barcelona,Ath Bilbao,1,3,1,4,0,0,0,0,22
+1208505,2024-08-24,SP1,2024,Getafe,Rayo Vallecano,Getafe,Vallecano,1,0,0,2,0,0,0,0,12
+1212911,2024-08-24,SP1,2024,Espanyol,Real Sociedad,Espanol,Sociedad,0,2,0,2,0,0,0,0,15
+1208503,2024-08-25,SP1,2024,Atletico Madrid,Girona,Ath Madrid,Girona,1,0,2,1,0,0,0,0,16
+1208508,2024-08-25,SP1,2024,Alaves,Real Betis,Alaves,Betis,1,0,1,3,0,1,0,0,16
+1208506,2024-08-25,SP1,2024,Real Madrid,Valladolid,Real Madrid,Valladolid,0,1,1,0,0,0,0,0,14
+1208509,2024-08-25,SP1,2024,Leganes,Las Palmas,Leganes,Las Palmas,1,0,1,0,0,0,0,0,16
+1208518,2024-08-26,SP1,2024,Villarreal,Celta Vigo,Villarreal,Celta,0,4,0,3,0,0,0,0,26
+1208515,2024-08-27,SP1,2024,Mallorca,Sevilla,Mallorca,Sevilla,0,0,0,1,0,0,0,1,12
+1208517,2024-08-27,SP1,2024,Rayo Vallecano,Barcelona,Vallecano,Barcelona,1,2,0,1,0,0,0,0,17
+1208520,2024-08-28,SP1,2024,Valladolid,Leganes,Valladolid,Leganes,0,1,1,4,0,0,0,0,16
+1208512,2024-08-28,SP1,2024,Athletic Club,Valencia,Ath Bilbao,Valencia,0,1,2,1,0,0,0,0,15
+1208519,2024-08-28,SP1,2024,Real Sociedad,Alaves,Sociedad,Alaves,2,2,0,4,1,0,0,0,23
+1212912,2024-08-28,SP1,2024,Atletico Madrid,Espanyol,Ath Madrid,Espanol,0,0,0,2,0,0,0,0,13
+1208516,2024-08-29,SP1,2024,Las Palmas,Real Madrid,Las Palmas,Real Madrid,0,0,1,1,0,0,0,0,14
+1208514,2024-08-29,SP1,2024,Girona,Osasuna,Girona,Osasuna,0,0,0,0,0,0,0,0,14
+1208524,2024-08-31,SP1,2024,Valencia,Villarreal,Valencia,Villarreal,1,2,1,4,0,0,0,1,18
+1208526,2024-08-31,SP1,2024,Leganes,Mallorca,Leganes,Mallorca,0,1,0,3,0,0,0,0,17
+1208522,2024-08-31,SP1,2024,Barcelona,Valladolid,Barcelona,Valladolid,0,0,1,2,0,0,0,0,20
+1208521,2024-08-31,SP1,2024,Athletic Club,Atletico Madrid,Ath Bilbao,Ath Madrid,3,0,0,1,0,0,0,0,15
+1212913,2024-08-31,SP1,2024,Espanyol,Rayo Vallecano,Espanol,Vallecano,0,3,1,1,0,0,0,0,18
+1208528,2024-09-01,SP1,2024,Osasuna,Celta Vigo,Osasuna,Celta,0,2,0,0,0,0,0,1,18
+1208525,2024-09-01,SP1,2024,Alaves,Las Palmas,Alaves,Las Palmas,2,1,0,0,0,0,0,0,17
+1208529,2024-09-01,SP1,2024,Sevilla,Girona,Sevilla,Girona,0,3,0,2,0,0,0,0,17
+1208523,2024-09-01,SP1,2024,Getafe,Real Sociedad,Getafe,Sociedad,1,0,0,1,0,0,0,0,13
+1208527,2024-09-01,SP1,2024,Real Madrid,Real Betis,Real Madrid,Betis,0,2,0,0,0,0,0,0,14
+1208531,2024-09-13,SP1,2024,Real Betis,Leganes,Betis,Leganes,1,0,2,0,0,0,0,0,15
+1208536,2024-09-14,SP1,2024,Sevilla,Getafe,Sevilla,Getafe,0,3,2,2,0,1,0,0,21
+1208538,2024-09-14,SP1,2024,Real Sociedad,Real Madrid,Sociedad,Real Madrid,2,2,0,1,0,0,0,0,16
+1208533,2024-09-14,SP1,2024,Mallorca,Villarreal,Mallorca,Villarreal,2,1,1,2,0,1,0,0,19
+1212914,2024-09-14,SP1,2024,Espanyol,Alaves,Espanol,Alaves,0,2,1,2,0,0,0,0,20
+1208532,2024-09-15,SP1,2024,Celta Vigo,Valladolid,Celta,Valladolid,1,2,2,3,0,0,0,1,24
+1208535,2024-09-15,SP1,2024,Girona,Barcelona,Girona,Barcelona,1,2,0,2,0,0,0,1,22
+1208534,2024-09-15,SP1,2024,Las Palmas,Athletic Club,Las Palmas,Ath Bilbao,1,0,2,0,0,0,0,1,19
+1208530,2024-09-15,SP1,2024,Atletico Madrid,Valencia,Ath Madrid,Valencia,1,0,2,0,0,0,0,0,16
+1208537,2024-09-16,SP1,2024,Rayo Vallecano,Osasuna,Vallecano,Osasuna,0,3,2,0,0,0,0,0,19
+1208550,2024-09-17,SP1,2024,Mallorca,Real Sociedad,Mallorca,Sociedad,0,1,0,1,0,0,0,0,14
+1208513,2024-09-18,SP1,2024,Real Betis,Getafe,Betis,Getafe,2,1,3,2,0,0,0,0,22
+1208552,2024-09-19,SP1,2024,Leganes,Athletic Club,Leganes,Ath Bilbao,1,2,0,0,0,0,0,0,14
+1208542,2024-09-20,SP1,2024,Alaves,Sevilla,Alaves,Sevilla,0,1,2,2,0,0,0,0,19
+1212915,2024-09-21,SP1,2024,Real Madrid,Espanyol,Real Madrid,Espanol,1,3,1,2,0,0,0,0,21
+1208546,2024-09-21,SP1,2024,Valladolid,Real Sociedad,Valladolid,Sociedad,1,3,1,3,0,0,0,0,17
+1208547,2024-09-21,SP1,2024,Osasuna,Las Palmas,Osasuna,Las Palmas,0,2,3,2,0,0,0,0,21
+1208545,2024-09-21,SP1,2024,Valencia,Girona,Valencia,Girona,0,3,2,0,0,0,0,0,17
+1208541,2024-09-22,SP1,2024,Getafe,Leganes,Getafe,Leganes,0,3,1,1,0,0,0,0,16
+1208539,2024-09-22,SP1,2024,Athletic Club,Celta Vigo,Ath Bilbao,Celta,2,1,0,2,0,0,0,0,19
+1208544,2024-09-22,SP1,2024,Villarreal,Barcelona,Villarreal,Barcelona,1,5,0,1,0,0,0,0,26
+1208543,2024-09-22,SP1,2024,Rayo Vallecano,Atletico Madrid,Vallecano,Ath Madrid,0,0,0,0,0,0,0,0,12
+1208540,2024-09-23,SP1,2024,Real Betis,Mallorca,Betis,Mallorca,3,0,1,2,0,0,0,0,20
+1208555,2024-09-24,SP1,2024,Valencia,Osasuna,Valencia,Osasuna,1,1,0,3,0,0,0,0,14
+1208556,2024-09-24,SP1,2024,Real Madrid,Alaves,Real Madrid,Alaves,2,2,0,0,0,0,0,0,19
+1208551,2024-09-24,SP1,2024,Sevilla,Valladolid,Sevilla,Valladolid,1,4,2,2,0,1,0,0,23
+1208549,2024-09-25,SP1,2024,Girona,Rayo Vallecano,Girona,Vallecano,1,2,1,3,0,0,0,0,15
+1208548,2024-09-25,SP1,2024,Barcelona,Getafe,Barcelona,Getafe,0,1,0,1,0,0,0,0,12
+1212916,2024-09-26,SP1,2024,Espanyol,Villarreal,Espanol,Villarreal,1,4,1,2,0,0,0,0,23
+1208554,2024-09-26,SP1,2024,Las Palmas,Real Betis,Las Palmas,Betis,0,4,0,2,0,0,0,0,17
+1208553,2024-09-26,SP1,2024,Celta Vigo,Atletico Madrid,Celta,Ath Madrid,1,1,1,1,0,0,0,0,14
+1208562,2024-09-27,SP1,2024,Valladolid,Mallorca,Valladolid,Mallorca,1,2,1,1,0,0,0,0,18
+1208561,2024-09-28,SP1,2024,Osasuna,Barcelona,Osasuna,Barcelona,0,2,0,2,0,0,0,0,20
+1208560,2024-09-28,SP1,2024,Real Sociedad,Valencia,Sociedad,Valencia,0,0,0,0,0,0,0,0,13
+1208564,2024-09-28,SP1,2024,Getafe,Alaves,Getafe,Alaves,0,3,2,4,0,0,0,0,22
+1208565,2024-09-28,SP1,2024,Rayo Vallecano,Leganes,Vallecano,Leganes,0,2,1,0,0,0,0,0,14
+1208559,2024-09-29,SP1,2024,Celta Vigo,Girona,Celta,Girona,0,1,0,0,0,0,0,0,13
+1208557,2024-09-29,SP1,2024,Athletic Club,Sevilla,Ath Bilbao,Sevilla,0,0,0,3,0,1,0,0,16
+1212917,2024-09-29,SP1,2024,Real Betis,Espanyol,Betis,Espanol,0,2,1,3,0,0,0,0,18
+1208558,2024-09-29,SP1,2024,Atletico Madrid,Real Madrid,Ath Madrid,Real Madrid,0,3,1,0,0,1,0,0,17
+1208563,2024-09-30,SP1,2024,Villarreal,Las Palmas,Villarreal,Las Palmas,0,0,2,2,0,0,0,0,20
+1208569,2024-10-04,SP1,2024,Leganes,Valencia,Leganes,Valencia,1,1,1,1,0,0,0,0,12
+1208567,2024-10-05,SP1,2024,Real Madrid,Villarreal,Real Madrid,Villarreal,0,0,1,0,0,0,0,0,12
+1208573,2024-10-05,SP1,2024,Las Palmas,Celta Vigo,Las Palmas,Celta,1,2,2,6,0,0,0,2,25
+1208566,2024-10-05,SP1,2024,Getafe,Osasuna,Getafe,Osasuna,2,0,1,3,0,0,0,0,17
+1212918,2024-10-05,SP1,2024,Espanyol,Mallorca,Espanol,Mallorca,0,1,0,5,0,0,0,0,18
+1208574,2024-10-05,SP1,2024,Valladolid,Rayo Vallecano,Valladolid,Vallecano,2,2,0,2,0,0,0,0,19
+1208570,2024-10-06,SP1,2024,Girona,Athletic Club,Girona,Ath Bilbao,1,3,1,2,0,0,0,1,26
+1208568,2024-10-06,SP1,2024,Alaves,Barcelona,Alaves,Barcelona,1,1,0,2,0,0,0,0,18
+1208572,2024-10-06,SP1,2024,Sevilla,Real Betis,Sevilla,Betis,1,5,1,2,0,1,0,0,20
+1208571,2024-10-06,SP1,2024,Real Sociedad,Atletico Madrid,Sociedad,Ath Madrid,0,0,0,2,0,0,0,0,10
+1208580,2024-10-18,SP1,2024,Alaves,Valladolid,Alaves,Valladolid,0,6,0,2,0,1,0,0,26
+1212919,2024-10-19,SP1,2024,Athletic Club,Espanyol,Ath Bilbao,Espanol,1,1,0,3,0,0,0,0,20
+1208581,2024-10-19,SP1,2024,Osasuna,Real Betis,Osasuna,Betis,0,2,0,1,0,0,0,1,19
+1208578,2024-10-19,SP1,2024,Girona,Real Sociedad,Girona,Sociedad,1,1,0,1,0,0,0,0,11
+1208577,2024-10-19,SP1,2024,Celta Vigo,Real Madrid,Celta,Real Madrid,0,2,0,1,0,0,0,0,15
+1208576,2024-10-20,SP1,2024,Barcelona,Sevilla,Barcelona,Sevilla,0,1,1,1,0,0,0,0,19
+1208575,2024-10-20,SP1,2024,Atletico Madrid,Leganes,Ath Madrid,Leganes,1,4,0,1,0,0,0,0,21
+1208579,2024-10-20,SP1,2024,Mallorca,Rayo Vallecano,Mallorca,Vallecano,1,0,1,0,0,0,0,0,14
+1208582,2024-10-20,SP1,2024,Villarreal,Getafe,Villarreal,Getafe,1,3,2,1,0,0,0,0,18
+1208583,2024-10-21,SP1,2024,Valencia,Las Palmas,Valencia,Las Palmas,3,0,4,5,0,1,0,0,28
+1212920,2024-10-25,SP1,2024,Espanyol,Sevilla,Espanol,Sevilla,0,2,0,0,0,0,0,0,15
+1208592,2024-10-26,SP1,2024,Rayo Vallecano,Alaves,Vallecano,Alaves,0,2,0,4,1,0,0,0,17
+1208589,2024-10-26,SP1,2024,Las Palmas,Girona,Las Palmas,Girona,1,3,0,5,0,0,1,0,19
+1208587,2024-10-26,SP1,2024,Real Madrid,Barcelona,Real Madrid,Barcelona,0,2,1,4,0,0,0,0,18
+1208591,2024-10-26,SP1,2024,Valladolid,Villarreal,Valladolid,Villarreal,0,4,1,2,0,0,0,0,20
+1208588,2024-10-27,SP1,2024,Leganes,Celta Vigo,Leganes,Celta,0,2,0,2,0,0,0,0,17
+1208584,2024-10-27,SP1,2024,Getafe,Valencia,Getafe,Valencia,1,2,3,4,0,0,0,0,21
+1208586,2024-10-27,SP1,2024,Real Betis,Atletico Madrid,Betis,Ath Madrid,1,2,1,1,0,0,0,0,15
+1208590,2024-10-27,SP1,2024,Real Sociedad,Osasuna,Sociedad,Osasuna,0,3,2,2,0,0,0,0,21
+1208585,2024-10-28,SP1,2024,Mallorca,Athletic Club,Mallorca,Ath Bilbao,5,0,1,0,1,0,0,0,19
+1208598,2024-11-01,SP1,2024,Alaves,Mallorca,Alaves,Mallorca,3,0,0,2,0,0,0,0,15
+1208597,2024-11-02,SP1,2024,Osasuna,Valladolid,Osasuna,Valladolid,0,1,2,3,0,0,0,0,17
+1208596,2024-11-02,SP1,2024,Girona,Leganes,Girona,Leganes,0,2,1,3,0,0,0,0,20
+1208594,2024-11-03,SP1,2024,Atletico Madrid,Las Palmas,Ath Madrid,Las Palmas,0,1,0,1,0,0,0,0,17
+1212921,2024-11-03,SP1,2024,Barcelona,Espanyol,Barcelona,Espanol,0,0,1,2,0,0,0,0,19
+1208601,2024-11-03,SP1,2024,Sevilla,Real Sociedad,Sevilla,Sociedad,1,1,0,1,0,0,0,0,16
+1208593,2024-11-03,SP1,2024,Athletic Club,Real Betis,Ath Bilbao,Betis,0,0,0,0,0,0,0,0,12
+1208595,2024-11-04,SP1,2024,Celta Vigo,Getafe,Celta,Getafe,1,0,1,3,0,0,0,1,16
+1208609,2024-11-08,SP1,2024,Rayo Vallecano,Las Palmas,Vallecano,Las Palmas,1,0,2,1,0,0,0,0,18
+1208604,2024-11-09,SP1,2024,Leganes,Sevilla,Leganes,Sevilla,1,1,0,1,0,0,0,1,12
+1208608,2024-11-09,SP1,2024,Real Madrid,Osasuna,Real Madrid,Osasuna,0,0,0,2,0,0,0,0,16
+1208610,2024-11-09,SP1,2024,Villarreal,Alaves,Villarreal,Alaves,1,0,0,3,0,0,0,0,17
+1208606,2024-11-10,SP1,2024,Mallorca,Atletico Madrid,Mallorca,Ath Madrid,0,1,1,2,0,0,0,0,15
+1208605,2024-11-10,SP1,2024,Valladolid,Athletic Club,Valladolid,Ath Bilbao,1,3,2,2,0,0,0,0,21
+1208603,2024-11-10,SP1,2024,Getafe,Girona,Getafe,Girona,1,2,3,0,0,0,0,0,16
+1208607,2024-11-10,SP1,2024,Real Sociedad,Barcelona,Sociedad,Barcelona,1,2,0,1,0,0,0,0,15
+1208602,2024-11-10,SP1,2024,Real Betis,Celta Vigo,Betis,Celta,1,2,0,0,0,0,0,0,17
+1208612,2024-11-22,SP1,2024,Getafe,Valladolid,Getafe,Valladolid,1,2,0,2,0,0,0,0,15
+1208614,2024-11-23,SP1,2024,Las Palmas,Mallorca,Las Palmas,Mallorca,0,4,1,1,0,0,0,1,23
+1208616,2024-11-23,SP1,2024,Celta Vigo,Barcelona,Celta,Barcelona,1,4,1,4,0,0,0,1,24
+1208619,2024-11-23,SP1,2024,Atletico Madrid,Alaves,Ath Madrid,Alaves,1,2,0,3,0,0,0,0,19
+1208617,2024-11-23,SP1,2024,Valencia,Real Betis,Valencia,Betis,1,3,0,2,0,0,0,0,22
+1212923,2024-11-23,SP1,2024,Girona,Espanyol,Girona,Espanol,0,0,1,2,0,0,0,0,18
+1208618,2024-11-24,SP1,2024,Sevilla,Rayo Vallecano,Sevilla,Vallecano,1,1,4,1,0,0,1,0,19
+1208615,2024-11-24,SP1,2024,Leganes,Real Madrid,Leganes,Real Madrid,0,2,0,0,0,0,0,0,13
+1208611,2024-11-24,SP1,2024,Athletic Club,Real Sociedad,Ath Bilbao,Sociedad,1,2,1,3,0,0,0,0,17
+1208613,2024-11-24,SP1,2024,Osasuna,Villarreal,Osasuna,Villarreal,1,5,4,1,0,0,0,0,26
+1208621,2024-11-29,SP1,2024,Mallorca,Valencia,Mallorca,Valencia,0,1,0,1,0,0,0,0,15
+1208620,2024-11-30,SP1,2024,Barcelona,Las Palmas,Barcelona,Las Palmas,0,0,0,0,0,0,0,0,15
+1208622,2024-11-30,SP1,2024,Alaves,Leganes,Alaves,Leganes,0,1,1,3,0,0,0,0,14
+1212924,2024-11-30,SP1,2024,Espanyol,Celta Vigo,Espanol,Celta,0,2,2,0,0,0,0,0,17
+1208624,2024-11-30,SP1,2024,Valladolid,Atletico Madrid,Valladolid,Ath Madrid,1,0,1,1,0,0,0,0,19
+1208625,2024-12-01,SP1,2024,Real Sociedad,Real Betis,Sociedad,Betis,2,1,1,1,0,0,0,0,18
+1208623,2024-12-01,SP1,2024,Rayo Vallecano,Athletic Club,Vallecano,Ath Bilbao,0,3,0,0,0,0,0,0,16
+1208627,2024-12-01,SP1,2024,Villarreal,Girona,Villarreal,Girona,1,1,3,3,0,0,0,0,22
+1208626,2024-12-01,SP1,2024,Real Madrid,Getafe,Real Madrid,Getafe,1,1,1,5,0,0,0,0,19
+1208628,2024-12-02,SP1,2024,Sevilla,Osasuna,Sevilla,Osasuna,0,1,0,1,0,0,0,0,14
+1208661,2024-12-03,SP1,2024,Mallorca,Barcelona,Mallorca,Barcelona,2,2,2,1,0,0,0,0,23
+1208656,2024-12-04,SP1,2024,Athletic Club,Real Madrid,Ath Bilbao,Real Madrid,0,3,0,3,0,0,0,0,21
+1208631,2024-12-06,SP1,2024,Celta Vigo,Mallorca,Celta,Mallorca,1,0,0,0,0,0,0,1,15
+1208633,2024-12-07,SP1,2024,Las Palmas,Valladolid,Las Palmas,Valladolid,1,3,0,2,0,0,0,0,19
+1208635,2024-12-07,SP1,2024,Real Betis,Barcelona,Betis,Barcelona,1,0,0,2,0,0,0,0,18
+1208636,2024-12-07,SP1,2024,Valencia,Rayo Vallecano,Valencia,Vallecano,0,2,0,2,0,0,0,0,15
+1208632,2024-12-07,SP1,2024,Girona,Real Madrid,Girona,Real Madrid,0,3,1,1,0,0,0,0,16
+1208630,2024-12-08,SP1,2024,Atletico Madrid,Sevilla,Ath Madrid,Sevilla,0,4,0,3,0,0,0,0,24
+1208637,2024-12-08,SP1,2024,Osasuna,Alaves,Osasuna,Alaves,3,2,2,1,0,0,0,0,19
+1208634,2024-12-08,SP1,2024,Leganes,Real Sociedad,Leganes,Sociedad,0,2,1,1,0,0,0,0,13
+1208629,2024-12-08,SP1,2024,Athletic Club,Villarreal,Ath Bilbao,Villarreal,0,2,1,0,0,0,0,0,16
+1212925,2024-12-09,SP1,2024,Getafe,Espanyol,Getafe,Espanol,2,1,1,5,0,0,0,0,17
+1208645,2024-12-13,SP1,2024,Valladolid,Valencia,Valladolid,Valencia,0,4,1,2,0,1,0,0,19
+1212926,2024-12-14,SP1,2024,Espanyol,Osasuna,Espanol,Osasuna,1,2,1,0,0,0,0,0,12
+1208644,2024-12-14,SP1,2024,Mallorca,Girona,Mallorca,Girona,4,1,0,2,1,0,0,0,21
+1208643,2024-12-14,SP1,2024,Sevilla,Celta Vigo,Sevilla,Celta,1,6,1,2,0,0,0,0,21
+1208640,2024-12-14,SP1,2024,Rayo Vallecano,Real Madrid,Vallecano,Real Madrid,3,1,0,2,0,0,0,0,21
+1208639,2024-12-15,SP1,2024,Barcelona,Leganes,Barcelona,Leganes,0,0,0,2,0,0,0,0,12
+1208642,2024-12-15,SP1,2024,Villarreal,Real Betis,Villarreal,Betis,2,3,3,1,0,0,1,0,20
+1208641,2024-12-15,SP1,2024,Alaves,Athletic Club,Alaves,Ath Bilbao,0,2,1,1,0,0,0,0,13
+1208638,2024-12-15,SP1,2024,Atletico Madrid,Getafe,Ath Madrid,Getafe,0,3,0,1,0,0,0,0,15
+1208646,2024-12-15,SP1,2024,Real Sociedad,Las Palmas,Sociedad,Las Palmas,1,1,0,3,0,0,0,0,14
+1212922,2024-12-18,SP1,2024,Espanyol,Valencia,Espanol,Valencia,0,1,0,0,0,0,0,0,12
+1208599,2024-12-18,SP1,2024,Villarreal,Rayo Vallecano,Villarreal,Vallecano,1,3,1,2,1,0,0,0,21
+1208650,2024-12-20,SP1,2024,Girona,Valladolid,Girona,Valladolid,1,2,1,0,0,0,0,0,15
+1208649,2024-12-21,SP1,2024,Getafe,Mallorca,Getafe,Mallorca,2,2,1,2,0,0,0,0,16
+1208648,2024-12-21,SP1,2024,Celta Vigo,Real Sociedad,Celta,Sociedad,0,3,2,3,0,0,0,0,21
+1208653,2024-12-21,SP1,2024,Osasuna,Athletic Club,Osasuna,Ath Bilbao,0,0,0,1,0,0,0,0,15
+1208654,2024-12-21,SP1,2024,Barcelona,Atletico Madrid,Barcelona,Ath Madrid,0,0,1,2,0,0,0,0,14
+1208647,2024-12-22,SP1,2024,Real Betis,Rayo Vallecano,Betis,Vallecano,0,0,2,2,0,0,0,0,16
+1212927,2024-12-22,SP1,2024,Las Palmas,Espanyol,Las Palmas,Espanol,2,2,1,1,0,0,0,0,16
+1208652,2024-12-22,SP1,2024,Leganes,Villarreal,Leganes,Villarreal,0,1,0,2,0,2,0,0,23
+1208655,2024-12-22,SP1,2024,Valencia,Alaves,Valencia,Alaves,0,2,1,0,0,0,0,0,16
+1208651,2024-12-22,SP1,2024,Real Madrid,Sevilla,Real Madrid,Sevilla,0,1,1,1,0,0,0,0,17
+1208600,2025-01-03,SP1,2024,Valencia,Real Madrid,Valencia,Real Madrid,0,2,1,2,0,0,0,1,20
+1208663,2025-01-10,SP1,2024,Rayo Vallecano,Celta Vigo,Vallecano,Celta,2,0,2,1,0,0,0,1,19
+1208660,2025-01-11,SP1,2024,Alaves,Girona,Alaves,Girona,0,1,2,2,0,0,0,0,16
+1208662,2025-01-11,SP1,2024,Valladolid,Real Betis,Valladolid,Betis,1,1,1,3,0,0,0,0,17
+1212928,2025-01-11,SP1,2024,Espanyol,Leganes,Espanol,Leganes,2,0,1,1,0,0,1,0,15
+1208659,2025-01-11,SP1,2024,Sevilla,Valencia,Sevilla,Valencia,0,1,1,1,0,0,0,0,15
+1208664,2025-01-12,SP1,2024,Las Palmas,Getafe,Las Palmas,Getafe,0,2,1,2,0,0,0,0,17
+1208657,2025-01-12,SP1,2024,Atletico Madrid,Osasuna,Ath Madrid,Osasuna,1,1,0,0,0,0,0,0,12
+1208658,2025-01-13,SP1,2024,Real Sociedad,Villarreal,Sociedad,Villarreal,0,4,0,2,0,0,0,0,14
+1212929,2025-01-17,SP1,2024,Espanyol,Valladolid,Espanol,Valladolid,1,1,0,2,0,0,0,0,13
+1208668,2025-01-18,SP1,2024,Leganes,Atletico Madrid,Leganes,Ath Madrid,0,1,1,2,0,0,0,0,16
+1208669,2025-01-18,SP1,2024,Getafe,Barcelona,Getafe,Barcelona,0,3,0,2,0,0,0,0,14
+1208665,2025-01-18,SP1,2024,Girona,Sevilla,Girona,Sevilla,0,0,0,4,0,0,0,0,17
+1208673,2025-01-18,SP1,2024,Real Betis,Alaves,Betis,Alaves,2,2,1,4,0,1,0,0,24
+1208667,2025-01-19,SP1,2024,Celta Vigo,Athletic Club,Celta,Ath Bilbao,1,0,0,0,0,1,0,0,15
+1208672,2025-01-19,SP1,2024,Real Madrid,Las Palmas,Real Madrid,Las Palmas,0,0,1,0,0,0,0,1,21
+1208666,2025-01-19,SP1,2024,Osasuna,Rayo Vallecano,Osasuna,Vallecano,1,2,1,1,0,0,0,0,16
+1208671,2025-01-19,SP1,2024,Valencia,Real Sociedad,Valencia,Sociedad,0,3,1,3,0,0,0,0,16
+1208670,2025-01-20,SP1,2024,Villarreal,Mallorca,Villarreal,Mallorca,0,1,2,1,0,0,0,0,20
+1208677,2025-01-24,SP1,2024,Las Palmas,Osasuna,Las Palmas,Osasuna,2,5,3,5,0,1,0,0,28
+1208679,2025-01-25,SP1,2024,Mallorca,Real Betis,Mallorca,Betis,0,2,1,1,0,1,0,0,15
+1208675,2025-01-25,SP1,2024,Atletico Madrid,Villarreal,Ath Madrid,Villarreal,1,3,1,1,0,0,0,0,17
+1212930,2025-01-25,SP1,2024,Sevilla,Espanyol,Sevilla,Espanol,0,1,1,3,0,0,0,0,16
+1208682,2025-01-25,SP1,2024,Valladolid,Real Madrid,Valladolid,Real Madrid,2,1,1,2,0,1,0,0,19
+1208676,2025-01-26,SP1,2024,Barcelona,Valencia,Barcelona,Valencia,0,0,0,1,0,0,0,0,21
+1208681,2025-01-26,SP1,2024,Rayo Vallecano,Girona,Vallecano,Girona,1,2,0,1,0,0,0,0,17
+1208680,2025-01-26,SP1,2024,Real Sociedad,Getafe,Sociedad,Getafe,1,2,2,4,0,0,0,0,22
+1208674,2025-01-26,SP1,2024,Athletic Club,Leganes,Ath Bilbao,Leganes,1,0,1,0,0,0,0,0,10
+1208678,2025-01-27,SP1,2024,Alaves,Celta Vigo,Alaves,Celta,0,2,1,2,0,0,0,0,16
+1208688,2025-01-31,SP1,2024,Leganes,Rayo Vallecano,Leganes,Vallecano,1,1,0,4,1,0,0,0,20
+1208684,2025-02-01,SP1,2024,Getafe,Sevilla,Getafe,Sevilla,3,1,2,4,0,0,0,0,19
+1208687,2025-02-01,SP1,2024,Villarreal,Valladolid,Villarreal,Valladolid,1,0,1,1,0,0,0,0,17
+1208683,2025-02-01,SP1,2024,Atletico Madrid,Mallorca,Ath Madrid,Mallorca,0,2,0,3,0,0,0,0,17
+1212931,2025-02-01,SP1,2024,Espanyol,Real Madrid,Espanol,Real Madrid,0,2,0,0,0,0,0,0,10
+1208689,2025-02-02,SP1,2024,Real Betis,Athletic Club,Betis,Ath Bilbao,0,3,0,1,0,0,0,0,18
+1208691,2025-02-02,SP1,2024,Barcelona,Alaves,Barcelona,Alaves,3,2,1,1,0,0,0,0,18
+1208690,2025-02-02,SP1,2024,Valencia,Celta Vigo,Valencia,Celta,0,1,0,2,0,0,0,0,16
+1208686,2025-02-02,SP1,2024,Osasuna,Real Sociedad,Osasuna,Sociedad,1,2,1,2,0,0,0,0,20
+1208685,2025-02-03,SP1,2024,Girona,Las Palmas,Girona,Las Palmas,1,1,2,0,0,0,0,0,17
+1208694,2025-02-07,SP1,2024,Rayo Vallecano,Valladolid,Vallecano,Valladolid,1,1,1,1,0,0,0,0,14
+1208699,2025-02-08,SP1,2024,Celta Vigo,Real Betis,Celta,Betis,0,3,1,4,0,0,0,0,23
+1208692,2025-02-08,SP1,2024,Athletic Club,Girona,Ath Bilbao,Girona,0,0,0,4,0,0,0,0,18
+1208695,2025-02-08,SP1,2024,Las Palmas,Villarreal,Las Palmas,Villarreal,3,3,2,1,0,0,0,0,23
+1208697,2025-02-08,SP1,2024,Real Madrid,Atletico Madrid,Real Madrid,Ath Madrid,1,0,1,2,0,0,0,0,15
+1208698,2025-02-09,SP1,2024,Sevilla,Barcelona,Sevilla,Barcelona,2,3,1,1,0,0,0,1,24
+1212932,2025-02-09,SP1,2024,Real Sociedad,Espanyol,Sociedad,Espanol,0,1,1,1,0,0,0,0,16
+1208696,2025-02-09,SP1,2024,Alaves,Getafe,Alaves,Getafe,1,1,2,4,0,0,0,0,15
+1208700,2025-02-09,SP1,2024,Valencia,Leganes,Valencia,Leganes,1,0,1,0,0,0,0,0,14
+1208693,2025-02-10,SP1,2024,Mallorca,Osasuna,Mallorca,Osasuna,0,1,1,3,0,0,0,0,16
+1208705,2025-02-14,SP1,2024,Girona,Getafe,Girona,Getafe,0,2,0,3,0,1,0,0,20
+1208709,2025-02-15,SP1,2024,Leganes,Alaves,Leganes,Alaves,0,4,3,2,0,1,0,0,29
+1208704,2025-02-15,SP1,2024,Osasuna,Real Madrid,Osasuna,Real Madrid,0,3,0,1,0,0,1,0,14
+1208701,2025-02-15,SP1,2024,Atletico Madrid,Celta Vigo,Ath Madrid,Celta,0,3,1,4,1,0,0,0,22
+1208707,2025-02-15,SP1,2024,Villarreal,Valencia,Villarreal,Valencia,0,0,0,5,0,0,0,0,15
+1208708,2025-02-16,SP1,2024,Mallorca,Las Palmas,Mallorca,Las Palmas,0,1,3,1,0,0,0,0,19
+1208703,2025-02-16,SP1,2024,Real Betis,Real Sociedad,Betis,Sociedad,0,0,2,0,0,0,1,1,19
+1208706,2025-02-16,SP1,2024,Valladolid,Sevilla,Valladolid,Sevilla,0,4,1,1,0,0,0,0,19
+1212933,2025-02-16,SP1,2024,Espanyol,Athletic Club,Espanol,Ath Bilbao,0,1,1,0,0,0,0,0,14
+1208702,2025-02-17,SP1,2024,Barcelona,Rayo Vallecano,Barcelona,Vallecano,1,1,2,1,0,0,0,0,17
+1208711,2025-02-21,SP1,2024,Celta Vigo,Osasuna,Celta,Osasuna,1,0,0,0,0,0,0,0,12
+1212934,2025-02-22,SP1,2024,Alaves,Espanyol,Alaves,Espanol,1,1,1,1,0,0,0,0,14
+1208712,2025-02-22,SP1,2024,Rayo Vallecano,Villarreal,Vallecano,Villarreal,0,1,1,3,1,0,0,0,17
+1208713,2025-02-22,SP1,2024,Valencia,Atletico Madrid,Valencia,Ath Madrid,1,0,2,1,0,0,0,0,17
+1208714,2025-02-22,SP1,2024,Las Palmas,Barcelona,Las Palmas,Barcelona,0,1,1,0,0,0,0,0,14
+1208715,2025-02-23,SP1,2024,Getafe,Real Betis,Getafe,Betis,0,3,0,0,0,1,0,1,16
+1208718,2025-02-23,SP1,2024,Real Sociedad,Leganes,Sociedad,Leganes,1,2,1,2,0,0,0,0,19
+1208710,2025-02-23,SP1,2024,Athletic Club,Valladolid,Ath Bilbao,Valladolid,0,2,1,2,0,0,0,1,25
+1208716,2025-02-23,SP1,2024,Real Madrid,Girona,Real Madrid,Girona,0,0,0,2,0,0,0,0,13
+1208717,2025-02-24,SP1,2024,Sevilla,Mallorca,Sevilla,Mallorca,0,1,1,2,0,0,0,0,14
+1208726,2025-02-28,SP1,2024,Valladolid,Las Palmas,Valladolid,Las Palmas,0,2,1,0,0,0,1,0,16
+1208724,2025-03-01,SP1,2024,Girona,Celta Vigo,Girona,Celta,0,0,0,0,0,0,0,0,14
+1208722,2025-03-01,SP1,2024,Rayo Vallecano,Sevilla,Vallecano,Sevilla,0,1,0,0,0,0,0,0,13
+1208720,2025-03-01,SP1,2024,Real Betis,Real Madrid,Betis,Real Madrid,0,3,1,3,0,0,0,0,18
+1208723,2025-03-01,SP1,2024,Atletico Madrid,Athletic Club,Ath Madrid,Ath Bilbao,0,2,1,2,0,0,0,0,16
+1208721,2025-03-02,SP1,2024,Osasuna,Valencia,Osasuna,Valencia,0,2,0,1,0,0,0,0,20
+1208725,2025-03-02,SP1,2024,Leganes,Getafe,Leganes,Getafe,0,1,0,1,0,0,0,0,10
+1208719,2025-03-02,SP1,2024,Barcelona,Real Sociedad,Barcelona,Sociedad,0,0,0,0,0,0,1,0,15
+1208727,2025-03-02,SP1,2024,Mallorca,Alaves,Mallorca,Alaves,0,0,0,2,0,0,0,0,12
+1208733,2025-03-08,SP1,2024,Valencia,Valladolid,Valencia,Valladolid,0,1,1,2,0,0,0,0,18
+1208731,2025-03-08,SP1,2024,Celta Vigo,Leganes,Celta,Leganes,0,3,1,1,0,0,0,0,20
+1208734,2025-03-08,SP1,2024,Alaves,Villarreal,Alaves,Villarreal,0,4,0,1,0,2,0,0,20
+1208735,2025-03-09,SP1,2024,Getafe,Atletico Madrid,Getafe,Ath Madrid,2,4,1,1,0,0,0,1,23
+1208736,2025-03-09,SP1,2024,Real Madrid,Rayo Vallecano,Real Madrid,Vallecano,0,3,0,1,0,0,0,0,16
+1208730,2025-03-09,SP1,2024,Real Betis,Las Palmas,Betis,Las Palmas,1,1,4,4,0,0,0,1,21
+1208728,2025-03-09,SP1,2024,Athletic Club,Mallorca,Ath Bilbao,Mallorca,1,0,0,3,0,0,0,0,15
+1208732,2025-03-09,SP1,2024,Real Sociedad,Sevilla,Sociedad,Sevilla,0,2,0,1,0,0,0,0,13
+1212936,2025-03-10,SP1,2024,Espanyol,Girona,Espanol,Girona,3,0,1,2,0,0,0,0,18
+1208745,2025-03-14,SP1,2024,Las Palmas,Alaves,Las Palmas,Alaves,2,3,2,2,0,0,0,0,22
+1208744,2025-03-15,SP1,2024,Villarreal,Real Madrid,Villarreal,Real Madrid,0,2,1,0,0,0,0,0,15
+1208738,2025-03-15,SP1,2024,Girona,Valencia,Girona,Valencia,1,1,0,1,0,0,0,0,14
+1208742,2025-03-15,SP1,2024,Valladolid,Celta Vigo,Valladolid,Celta,0,3,1,2,0,0,0,0,19
+1212937,2025-03-15,SP1,2024,Mallorca,Espanyol,Mallorca,Espanol,0,0,0,2,0,0,0,0,16
+1208741,2025-03-16,SP1,2024,Leganes,Real Betis,Leganes,Betis,1,1,1,0,0,0,0,0,18
+1208740,2025-03-16,SP1,2024,Sevilla,Athletic Club,Sevilla,Ath Bilbao,3,1,0,2,0,0,0,0,19
+1208739,2025-03-16,SP1,2024,Rayo Vallecano,Real Sociedad,Vallecano,Sociedad,1,2,1,1,0,0,0,0,19
+1208743,2025-03-16,SP1,2024,Osasuna,Getafe,Osasuna,Getafe,2,0,2,2,0,0,0,1,19
+1208737,2025-03-16,SP1,2024,Atletico Madrid,Barcelona,Ath Madrid,Barcelona,1,0,1,2,0,0,0,0,20
+1208729,2025-03-27,SP1,2024,Barcelona,Osasuna,Barcelona,Osasuna,1,0,2,1,0,0,0,0,17
+1208751,2025-03-29,SP1,2024,Real Sociedad,Valladolid,Sociedad,Valladolid,0,2,0,3,0,0,0,0,18
+1212938,2025-03-29,SP1,2024,Espanyol,Atletico Madrid,Espanol,Ath Madrid,1,1,0,1,0,0,0,0,17
+1208752,2025-03-29,SP1,2024,Alaves,Rayo Vallecano,Alaves,Vallecano,1,2,3,2,0,0,0,0,21
+1208754,2025-03-29,SP1,2024,Real Madrid,Leganes,Real Madrid,Leganes,0,1,0,4,0,0,0,0,19
+1208748,2025-03-30,SP1,2024,Real Betis,Sevilla,Betis,Sevilla,1,2,1,2,0,0,0,0,18
+1208746,2025-03-30,SP1,2024,Athletic Club,Osasuna,Ath Bilbao,Osasuna,1,0,1,0,0,0,0,0,12
+1208747,2025-03-30,SP1,2024,Barcelona,Girona,Barcelona,Girona,0,0,1,0,0,0,0,0,16
+1208753,2025-03-30,SP1,2024,Valencia,Mallorca,Valencia,Mallorca,0,4,2,2,0,0,0,0,19
+1208750,2025-03-30,SP1,2024,Getafe,Villarreal,Getafe,Villarreal,1,0,1,3,0,0,0,0,19
+1208749,2025-03-31,SP1,2024,Celta Vigo,Las Palmas,Celta,Las Palmas,1,2,0,0,0,0,0,0,16
+1212939,2025-04-04,SP1,2024,Rayo Vallecano,Espanyol,Vallecano,Espanol,1,1,0,2,0,0,0,0,19
+1208763,2025-04-05,SP1,2024,Girona,Alaves,Girona,Alaves,0,1,0,5,0,0,0,0,14
+1208756,2025-04-05,SP1,2024,Real Madrid,Valencia,Real Madrid,Valencia,0,0,2,2,0,0,0,0,20
+1208761,2025-04-05,SP1,2024,Mallorca,Celta Vigo,Mallorca,Celta,2,1,0,0,0,0,0,0,14
+1208755,2025-04-05,SP1,2024,Barcelona,Real Betis,Barcelona,Betis,0,2,1,0,0,0,0,0,14
+1208757,2025-04-06,SP1,2024,Las Palmas,Real Sociedad,Las Palmas,Sociedad,0,0,1,1,0,0,0,0,17
+1208760,2025-04-06,SP1,2024,Sevilla,Atletico Madrid,Sevilla,Ath Madrid,0,1,0,4,0,0,0,0,18
+1208762,2025-04-06,SP1,2024,Valladolid,Getafe,Valladolid,Getafe,2,1,0,1,1,0,0,0,19
+1208759,2025-04-06,SP1,2024,Villarreal,Athletic Club,Villarreal,Ath Bilbao,0,0,1,0,0,1,0,0,14
+1208758,2025-04-07,SP1,2024,Leganes,Osasuna,Leganes,Osasuna,0,3,1,2,0,0,0,0,16
+1208772,2025-04-11,SP1,2024,Valencia,Sevilla,Valencia,Sevilla,0,3,0,2,0,0,0,0,17
+1208771,2025-04-12,SP1,2024,Real Sociedad,Mallorca,Sociedad,Mallorca,0,3,0,1,0,0,0,0,14
+1208767,2025-04-12,SP1,2024,Getafe,Las Palmas,Getafe,Las Palmas,0,0,0,2,1,0,0,0,18
+1212940,2025-04-12,SP1,2024,Celta Vigo,Espanyol,Celta,Espanol,1,1,1,1,0,0,0,0,16
+1208769,2025-04-12,SP1,2024,Leganes,Barcelona,Leganes,Barcelona,1,1,0,1,0,0,0,0,13
+1208770,2025-04-13,SP1,2024,Osasuna,Girona,Osasuna,Girona,0,2,0,1,0,0,0,0,18
+1208768,2025-04-13,SP1,2024,Alaves,Real Madrid,Alaves,Real Madrid,1,3,0,4,0,1,1,0,23
+1208766,2025-04-13,SP1,2024,Real Betis,Villarreal,Betis,Villarreal,0,0,2,2,0,0,0,0,18
+1208764,2025-04-13,SP1,2024,Athletic Club,Rayo Vallecano,Ath Bilbao,Vallecano,2,2,0,3,0,0,0,0,24
+1208765,2025-04-14,SP1,2024,Atletico Madrid,Valladolid,Ath Madrid,Valladolid,0,1,0,1,0,0,0,0,20
+1212941,2025-04-18,SP1,2024,Espanyol,Getafe,Espanol,Getafe,0,0,1,1,0,0,0,1,15
+1208773,2025-04-19,SP1,2024,Barcelona,Celta Vigo,Barcelona,Celta,0,2,0,2,0,0,0,0,22
+1208776,2025-04-19,SP1,2024,Las Palmas,Atletico Madrid,Las Palmas,Ath Madrid,0,3,0,1,0,0,0,0,15
+1208774,2025-04-19,SP1,2024,Rayo Vallecano,Valencia,Vallecano,Valencia,1,2,0,1,0,0,0,0,15
+1208781,2025-04-19,SP1,2024,Mallorca,Leganes,Mallorca,Leganes,1,1,0,1,0,0,0,0,10
+1208778,2025-04-20,SP1,2024,Valladolid,Osasuna,Valladolid,Osasuna,0,1,0,1,0,0,0,0,17
+1208779,2025-04-20,SP1,2024,Villarreal,Real Sociedad,Villarreal,Sociedad,1,3,0,1,0,0,0,0,20
+1208780,2025-04-20,SP1,2024,Sevilla,Alaves,Sevilla,Alaves,1,1,1,1,0,0,0,0,14
+1208775,2025-04-20,SP1,2024,Real Madrid,Athletic Club,Real Madrid,Ath Bilbao,0,1,0,2,0,0,0,0,14
+1208777,2025-04-21,SP1,2024,Girona,Real Betis,Girona,Betis,0,3,1,1,0,0,0,0,19
+1212942,2025-04-22,SP1,2024,Valencia,Espanyol,Valencia,Espanol,2,0,1,0,0,0,0,0,12
+1208784,2025-04-22,SP1,2024,Barcelona,Mallorca,Barcelona,Mallorca,0,0,1,0,0,0,0,0,12
+1208789,2025-04-23,SP1,2024,Alaves,Real Sociedad,Alaves,Sociedad,1,3,1,4,0,0,0,0,19
+1208787,2025-04-23,SP1,2024,Getafe,Real Madrid,Getafe,Real Madrid,0,3,0,1,0,0,0,0,14
+1208782,2025-04-23,SP1,2024,Athletic Club,Las Palmas,Ath Bilbao,Las Palmas,1,0,1,2,0,0,0,0,14
+1208786,2025-04-23,SP1,2024,Celta Vigo,Villarreal,Celta,Villarreal,1,1,0,1,0,0,1,0,17
+1208788,2025-04-24,SP1,2024,Osasuna,Sevilla,Osasuna,Sevilla,2,2,0,2,0,0,1,0,17
+1208790,2025-04-24,SP1,2024,Leganes,Girona,Leganes,Girona,1,3,0,2,1,0,0,0,19
+1208785,2025-04-24,SP1,2024,Real Betis,Valladolid,Betis,Valladolid,0,1,0,0,0,0,0,0,18
+1208783,2025-04-24,SP1,2024,Atletico Madrid,Rayo Vallecano,Ath Madrid,Vallecano,0,0,0,2,0,0,0,0,15
+1212935,2025-04-27,SP1,2024,Villarreal,Espanyol,Villarreal,Espanol,1,3,0,0,0,0,0,0,16
+1208797,2025-05-02,SP1,2024,Rayo Vallecano,Getafe,Vallecano,Getafe,2,1,0,2,0,0,0,1,15
+1208795,2025-05-03,SP1,2024,Valladolid,Barcelona,Valladolid,Barcelona,2,1,0,2,0,0,0,0,18
+1208792,2025-05-03,SP1,2024,Las Palmas,Valencia,Las Palmas,Valencia,0,1,1,0,0,0,0,0,18
+1208793,2025-05-03,SP1,2024,Alaves,Atletico Madrid,Alaves,Ath Madrid,1,2,2,0,0,0,0,0,14
+1208798,2025-05-03,SP1,2024,Villarreal,Osasuna,Villarreal,Osasuna,0,4,0,1,0,0,0,0,22
+1208799,2025-05-04,SP1,2024,Sevilla,Leganes,Sevilla,Leganes,2,2,1,4,0,0,0,0,22
+1212943,2025-05-04,SP1,2024,Espanyol,Real Betis,Espanol,Betis,1,1,0,0,0,0,0,0,14
+1208794,2025-05-04,SP1,2024,Real Sociedad,Athletic Club,Sociedad,Ath Bilbao,0,1,1,1,0,0,0,0,12
+1208796,2025-05-04,SP1,2024,Real Madrid,Celta Vigo,Real Madrid,Celta,1,1,0,1,0,0,0,0,16
+1208791,2025-05-05,SP1,2024,Girona,Mallorca,Girona,Mallorca,0,0,1,1,0,0,0,0,11
+1208806,2025-05-09,SP1,2024,Las Palmas,Rayo Vallecano,Las Palmas,Vallecano,1,1,1,2,0,0,0,0,16
+1208804,2025-05-10,SP1,2024,Girona,Villarreal,Girona,Villarreal,1,1,2,1,0,0,0,0,16
+1208800,2025-05-10,SP1,2024,Atletico Madrid,Real Sociedad,Ath Madrid,Sociedad,0,0,1,0,0,0,0,0,15
+1208803,2025-05-10,SP1,2024,Celta Vigo,Sevilla,Celta,Sevilla,0,0,0,2,1,0,0,0,19
+1208807,2025-05-10,SP1,2024,Valencia,Getafe,Valencia,Getafe,0,3,3,2,0,0,0,0,23
+1208805,2025-05-10,SP1,2024,Mallorca,Valladolid,Mallorca,Valladolid,1,1,1,0,0,0,0,0,16
+1208801,2025-05-11,SP1,2024,Barcelona,Real Madrid,Barcelona,Real Madrid,1,3,2,1,0,0,0,0,26
+1208808,2025-05-11,SP1,2024,Athletic Club,Alaves,Ath Bilbao,Alaves,1,0,0,1,0,0,0,0,13
+1208802,2025-05-11,SP1,2024,Real Betis,Osasuna,Betis,Osasuna,1,2,2,0,0,0,0,0,17
+1212944,2025-05-11,SP1,2024,Leganes,Espanyol,Leganes,Espanol,0,2,1,1,0,0,0,0,20
+1208814,2025-05-13,SP1,2024,Valladolid,Girona,Valladolid,Girona,0,0,0,0,0,0,0,0,12
+1208813,2025-05-13,SP1,2024,Real Sociedad,Celta Vigo,Sociedad,Celta,0,3,0,1,0,0,0,0,15
+1208816,2025-05-13,SP1,2024,Sevilla,Las Palmas,Sevilla,Las Palmas,1,5,2,4,0,0,0,0,23
+1208809,2025-05-14,SP1,2024,Alaves,Valencia,Alaves,Valencia,0,4,1,2,0,0,0,0,18
+1208817,2025-05-14,SP1,2024,Villarreal,Leganes,Villarreal,Leganes,1,0,1,0,0,0,0,0,15
+1208815,2025-05-14,SP1,2024,Real Madrid,Mallorca,Real Madrid,Mallorca,0,0,1,2,0,0,0,0,13
+1212945,2025-05-15,SP1,2024,Espanyol,Barcelona,Espanol,Barcelona,1,3,1,0,0,1,0,0,18
+1208811,2025-05-15,SP1,2024,Osasuna,Atletico Madrid,Osasuna,Ath Madrid,1,0,1,0,0,0,0,0,16
+1208812,2025-05-15,SP1,2024,Rayo Vallecano,Real Betis,Vallecano,Betis,1,0,1,2,0,0,0,0,18
+1208810,2025-05-15,SP1,2024,Getafe,Athletic Club,Getafe,Ath Bilbao,0,1,0,0,0,0,0,0,13
+1208818,2025-05-18,SP1,2024,Atletico Madrid,Real Betis,Ath Madrid,Betis,0,1,0,1,0,0,0,0,18
+1208821,2025-05-18,SP1,2024,Valencia,Athletic Club,Valencia,Ath Bilbao,1,2,1,0,0,0,0,0,15
+1208826,2025-05-18,SP1,2024,Las Palmas,Leganes,Las Palmas,Leganes,1,1,1,1,0,0,0,0,16
+1208824,2025-05-18,SP1,2024,Sevilla,Real Madrid,Sevilla,Real Madrid,0,0,0,1,1,1,0,0,15
+1208819,2025-05-18,SP1,2024,Barcelona,Villarreal,Barcelona,Villarreal,1,1,0,0,0,0,0,0,17
+1208823,2025-05-18,SP1,2024,Real Sociedad,Girona,Sociedad,Girona,0,1,0,3,0,0,0,0,19
+1208825,2025-05-18,SP1,2024,Valladolid,Alaves,Valladolid,Alaves,0,0,0,2,0,0,0,0,11
+1212946,2025-05-18,SP1,2024,Osasuna,Espanyol,Osasuna,Espanol,0,1,1,0,0,0,0,0,14
+1208822,2025-05-18,SP1,2024,Mallorca,Getafe,Mallorca,Getafe,1,1,0,2,0,0,0,0,16
+1208820,2025-05-18,SP1,2024,Celta Vigo,Rayo Vallecano,Celta,Vallecano,1,1,0,3,0,0,0,0,18
+1208828,2025-05-23,SP1,2024,Real Betis,Valencia,Betis,Valencia,0,1,0,3,0,0,0,0,16
+1208829,2025-05-24,SP1,2024,Real Madrid,Real Sociedad,Real Madrid,Sociedad,0,0,0,0,0,0,0,0,13
+1212947,2025-05-24,SP1,2024,Espanyol,Las Palmas,Espanol,Las Palmas,2,1,1,1,0,0,0,0,17
+1208831,2025-05-24,SP1,2024,Leganes,Valladolid,Leganes,Valladolid,0,0,1,0,0,0,0,0,15
+1208834,2025-05-24,SP1,2024,Rayo Vallecano,Mallorca,Vallecano,Mallorca,1,1,1,1,0,0,0,0,13
+1208833,2025-05-24,SP1,2024,Getafe,Celta Vigo,Getafe,Celta,1,2,0,4,0,1,0,0,23
+1208830,2025-05-24,SP1,2024,Alaves,Osasuna,Alaves,Osasuna,0,2,0,2,0,0,0,0,16
+1208832,2025-05-25,SP1,2024,Girona,Atletico Madrid,Girona,Ath Madrid,0,0,0,0,0,0,0,0,14
 1208835,2025-05-25,SP1,2024,Villarreal,Sevilla,Villarreal,Sevilla,0,0,1,0,0,0,0,0,17
+1208827,2025-05-25,SP1,2024,Athletic Club,Barcelona,Ath Bilbao,Barcelona,0,1,0,0,0,0,0,0,15
