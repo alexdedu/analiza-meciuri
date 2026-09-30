@@ -54,6 +54,13 @@ def construieste(d: pd.DataFrame) -> pd.DataFrame:
         "over": d["max_o25"], "under": d["max_u25"],
         "btts": np.nan, "nobtts": np.nan,
     }, index=d.index)
+    # Cota medie de pe piata: asta apare in aplicatie, nu cea mai buna cota
+    # de la vreo casa anume.
+    cote_medii = pd.DataFrame({
+        "1": d["avg_h"], "X": d["avg_d"], "2": d["avg_a"],
+        "over": d["avg_o25"], "under": d["avg_u25"],
+        "btts": np.nan, "nobtts": np.nan,
+    }, index=d.index)
 
     # Probabilitatea implicita a pietei, pentru masurarea dezacordului.
     o = d[["psc_h", "psc_d", "psc_a"]].to_numpy(float)
@@ -73,6 +80,7 @@ def construieste(d: pd.DataFrame) -> pd.DataFrame:
             "piata": piata_nume,
             "p": p[piata_nume].to_numpy(),
             "cota": cote[piata_nume].to_numpy(),
+            "cota_medie": cote_medii[piata_nume].to_numpy(),
             "p_piata": piata[piata_nume].to_numpy(),
             "castigat": castigat[piata_nume].to_numpy(),
         }))
@@ -121,6 +129,112 @@ def main() -> int:
         for tol in (0.05, 0.08):
             sel = t[(t["p"] >= prag) & (t["dezacord"].abs() <= tol)]
             raport(f"probabilitate >= {prag:.0%} si dezacord <= {tol:.0%}", sel, len(d))
+
+    # Regula 3 alege mereu ce e mai sigur, deci ajunge la cote de 1,05-1,25, la
+    # care un castig nu acopera o pierdere. Intrebarea practica: daca cerem si
+    # o cota minima, ce ramane si cum se comporta?
+    print("\nREGULA 4 — acord cu piata, dar numai peste o cota minima:")
+    for cota_min in (1.30, 1.45, 1.60, 1.80, 2.00):
+        for prag in (0.55, 0.60, 0.65):
+            sel = t[(t["p"] >= prag) & (t["dezacord"].abs() <= 0.05)
+                    & (t["cota"] >= cota_min)]
+            raport(f"cota >= {cota_min:.2f} si probabilitate >= {prag:.0%}", sel, len(d))
+        print()
+
+    # Si cat de mult conteaza acordul cu piata cand cerem cote mari: poate
+    # filtrul care ajuta la cote mici incurca aici.
+    print("REGULA 5 — cota minima, fara filtrul de acord cu piata:")
+    for cota_min in (1.45, 1.60, 1.80):
+        for prag in (0.55, 0.60):
+            sel = t[(t["p"] >= prag) & (t["cota"] >= cota_min)]
+            raport(f"cota >= {cota_min:.2f} si probabilitate >= {prag:.0%}", sel, len(d))
+
+    # Pana aici profitul s-a calculat la cota cea mai buna de pe piata. In
+    # aplicatie apare cota medie, care e mai mica -- deci masuram si asa,
+    # altfel promitem un randament pe care nu-l poti obtine.
+    print("\nACELEASI REGULI, DAR LA COTA MEDIE (cea pe care o vede utilizatorul):")
+    t_medie = t.copy()
+    t_medie["cota"] = t["cota_medie"]
+    for cota_min in (1.45, 1.60, 1.80):
+        for prag in (0.55, 0.60):
+            sel = t_medie[(t_medie["p"] >= prag) & (t_medie["dezacord"].abs() <= 0.05)
+                          & (t_medie["cota"] >= cota_min)]
+            raport(f"cota medie >= {cota_min:.2f} si probabilitate >= {prag:.0%}",
+                   sel, len(d))
+
+    # Ratele pe benzi pentru regula aleasa: ele ajung in aplicatie ca "promis",
+    # deci trebuie masurate exact pe regula care se foloseste.
+    print("\nBENZI pentru regula propusa (cota medie >= 1.45, p >= 60%, acord <= 5%):")
+    sel = t_medie[(t_medie["p"] >= 0.60) & (t_medie["dezacord"].abs() <= 0.05)
+                  & (t_medie["cota"] >= 1.45)]
+    for jos, sus in ((0.60, 0.65), (0.65, 0.70), (0.70, 0.80), (0.80, 1.01)):
+        banda = sel[(sel["p"] >= jos) & (sel["p"] < sus)]
+        if len(banda) < 50:
+            continue
+        profit = np.where(banda["castigat"], banda["cota"] - 1, -1.0)
+        print(f"  {jos:.0%}-{sus:.0%}: {len(banda):6,} selectii, "
+              f"{banda['castigat'].mean():5.1%} reusite, "
+              f"cota medie {banda['cota'].mean():.2f}, ROI {profit.mean():+6.2%}")
+
+    # Banda 65-70% iese mai prost decat 60-65%, ceea ce pare pe dos. Explicatia
+    # probabila: cu cota peste 1,45 si model peste 65%, dezacordul e neaparat
+    # pozitiv -- adica exact tiparul "value bet" masurat deja ca pierzator.
+    print("\nDUPA SEMNUL DEZACORDULUI (cota medie >= 1.45, p >= 60%):")
+    baza = t_medie[(t_medie["p"] >= 0.60) & (t_medie["cota"] >= 1.45)]
+    for eticheta, sel in (
+            ("model sub piata (dezacord negativ)", baza[baza["dezacord"] < 0]),
+            ("model peste piata, pana la +2pp", baza[(baza["dezacord"] >= 0)
+                                                    & (baza["dezacord"] <= 0.02)]),
+            ("model peste piata, +2 pana la +5pp", baza[(baza["dezacord"] > 0.02)
+                                                        & (baza["dezacord"] <= 0.05)]),
+            ("model peste piata, peste +5pp", baza[baza["dezacord"] > 0.05])):
+        raport(eticheta, sel, len(d))
+
+    # Regula care rezulta din toate masuratorile de mai sus: cota utilizabila,
+    # model destul de sigur, si NU mai increzator decat piata cu mai mult de
+    # doua puncte. Partea de sub piata se lasa larga: acolo ratele sunt cele
+    # mai bune.
+    print("\nREGULA PROPUSA (cota >= 1.45, p >= 60%, dezacord intre -10pp si +2pp):")
+    for eticheta, tabel in (("la cota medie", t_medie), ("la cea mai buna cota", t)):
+        sel = tabel[(tabel["p"] >= 0.60) & (tabel["cota"] >= 1.45)
+                    & (tabel["dezacord"] <= 0.02) & (tabel["dezacord"] >= -0.10)]
+        raport(eticheta, sel, len(d))
+
+    # Pragul de +2pp e prea strict in practica: cu 40 de meciuri pe zi nu trece
+    # aproape nimic, fiindca o cota peste 1,45 la un model de 60%+ inseamna
+    # aproape sigur ca modelul e peste piata. Masuram pe niveluri, ca fiecare
+    # selectie sa poarte rata masurata a nivelului ei.
+    print("\n  Pe niveluri de dezacord (cota medie >= 1.45, p >= 60%):")
+    baza2 = t_medie[(t_medie["p"] >= 0.60) & (t_medie["cota"] >= 1.45)
+                    & (t_medie["dezacord"] >= -0.10)]
+    for eticheta, jos, sus in (("model sub piata", -0.10, 0.0),
+                               ("0 .. +2pp", 0.0, 0.02),
+                               ("+2 .. +5pp", 0.02, 0.05)):
+        nivel = baza2[(baza2["dezacord"] >= jos) & (baza2["dezacord"] < sus)]
+        if nivel.empty:
+            continue
+        profit = np.where(nivel["castigat"], nivel["cota"] - 1, -1.0)
+        print(f"    {eticheta:<18} {len(nivel):5,} selectii, "
+              f"{nivel['castigat'].mean():5.1%} reusite, "
+              f"cota medie {nivel['cota'].mean():.2f}, ROI {profit.mean():+6.2%}")
+
+    print("\n  Regula largita (dezacord pana la +5pp):")
+    for eticheta, tabel in (("la cota medie", t_medie), ("la cea mai buna cota", t)):
+        sel = tabel[(tabel["p"] >= 0.60) & (tabel["cota"] >= 1.45)
+                    & (tabel["dezacord"] <= 0.05) & (tabel["dezacord"] >= -0.10)]
+        raport(eticheta, sel, len(d))
+
+    print("\n  Pe benzi (la cota medie):")
+    sel = t_medie[(t_medie["p"] >= 0.60) & (t_medie["cota"] >= 1.45)
+                  & (t_medie["dezacord"] <= 0.02) & (t_medie["dezacord"] >= -0.10)]
+    for jos, sus in ((0.60, 0.65), (0.65, 0.70), (0.70, 1.01)):
+        banda = sel[(sel["p"] >= jos) & (sel["p"] < sus)]
+        if len(banda) < 50:
+            continue
+        profit = np.where(banda["castigat"], banda["cota"] - 1, -1.0)
+        print(f"    {jos:.0%}-{sus:.0%}: {len(banda):5,} selectii, "
+              f"{banda['castigat'].mean():5.1%} reusite, "
+              f"cota medie {banda['cota'].mean():.2f}, ROI {profit.mean():+6.2%}")
 
     print("\nPentru comparatie, cat de des se confirma fiecare piata in general:")
     for piata_nume in ("1", "X", "2", "over", "under", "btts", "nobtts"):

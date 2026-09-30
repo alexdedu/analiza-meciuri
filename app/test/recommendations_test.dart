@@ -10,8 +10,8 @@ Recommendation rec({
   double probability = 0.72,
   double odds = 1.38,
   double marketProbability = 0.70,
-  String band = '70-80%',
-  double hitRate = 0.753,
+  String band = 'sub piață',
+  double hitRate = 0.653,
 }) =>
     Recommendation(
       matchId: matchId,
@@ -45,16 +45,24 @@ void main() {
     expect(find.textContaining('Cotă 1.38'), findsOneWidget);
   });
 
-  testWidgets('arata rata istorica a benzii, nu doar procentul modelului',
+  testWidgets('arata rata istorica a nivelului, nu doar procentul modelului',
       (tester) async {
     await pump(tester, [rec()]);
-    expect(find.textContaining('istoric la 70-80%: 75% reușite'), findsOneWidget);
+    expect(find.textContaining('model sub piață, unde istoric ies 65%'),
+        findsOneWidget);
   });
 
-  testWidgets('spune explicit ca nu sunt pariuri sigure', (tester) async {
+  testWidgets('spune unde iese si unde nu iese randamentul', (tester) async {
     await pump(tester, [rec()]);
-    expect(find.textContaining('Nu sunt pariuri sigure'), findsOneWidget);
-    expect(find.textContaining('31,5%'), findsOneWidget);
+    // Cifra care conteaza: la cota medie randamentul masurat e negativ.
+    expect(find.textContaining('64,3% reușite'), findsOneWidget);
+    expect(find.textContaining('−2,3%'), findsOneWidget);
+  });
+
+  testWidgets('cotele mici nu mai au ce cauta in selectii', (tester) async {
+    // Regula cere cota de cel putin 1.45; textul trebuie sa spuna asta.
+    await pump(tester, [rec()]);
+    expect(find.textContaining('cota trece de 1.45'), findsOneWidget);
   });
 
   testWidgets('lista goala explica de ce, nu ramane muta', (tester) async {

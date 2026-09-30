@@ -8,7 +8,7 @@ from __future__ import annotations
 
 import sys
 
-from recomandari import MAXIM_RECOMANDARI, construieste
+from recomandari import COTA_MINIMA, MAXIM_RECOMANDARI, construieste
 
 esecuri: list[str] = []
 
@@ -84,10 +84,69 @@ def test_un_singur_pariu_per_meci() -> None:
     verifica(len(r) == 1, f"un meci a produs {len(r)} recomandari")
 
 
+def test_respinge_cota_prea_mica() -> None:
+    """Cazul care a pornit schimbarea: 90% sigur, dar cota 1,08."""
+    r = construieste([meci(
+        probs={"p_home": 0.90, "p_draw": 0.07, "p_away": 0.03},
+        cote={"home": 1.08, "draw": 9.00, "away": 20.0},
+    )])
+    verifica(not r, f"a recomandat la cota sub {COTA_MINIMA}")
+
+
+def test_accepta_cand_modelul_e_mai_prudent_decat_piata() -> None:
+    """Acolo ratele masurate sunt cele mai bune, deci partea asta ramane larga."""
+    # Piata da ~69% dupa scoaterea marjei, modelul spune 62%: dezacord -7pp.
+    r = construieste([meci(
+        probs={"p_home": 0.62, "p_draw": 0.22, "p_away": 0.16},
+        cote={"home": 1.40, "draw": 4.50, "away": 7.00},
+    )])
+    verifica(not r, "cota 1,40 trebuia oricum respinsa")
+
+    r = construieste([meci(
+        probs={"p_home": 0.62, "p_draw": 0.22, "p_away": 0.16},
+        cote={"home": 1.50, "draw": 4.20, "away": 6.00},
+    )])
+    verifica(len(r) == 1, "a respins o selectie in care modelul e sub piata")
+
+
+def test_respinge_cand_modelul_se_crede_peste_piata() -> None:
+    """Cu cat modelul depaseste piata, cu atat greseste mai des: 53,5% peste 5pp."""
+    # Piata da ~59%, modelul spune 66%: dezacord +7pp, peste pragul de +2pp.
+    r = construieste([meci(
+        probs={"p_home": 0.66, "p_draw": 0.20, "p_away": 0.14},
+        cote={"home": 1.65, "draw": 3.80, "away": 5.50},
+    )])
+    verifica(not r, "a recomandat desi modelul se crede peste piata cu 7 puncte")
+
+
+def test_rata_promisa_urmeaza_nivelul_de_dezacord() -> None:
+    """Fiecare selectie poarta rata masurata a nivelului ei, nu o medie comuna."""
+    # Model 62%, piata ~66% dupa marja: modelul e sub piata.
+    sub = construieste([meci(
+        probs={"p_home": 0.62, "p_draw": 0.22, "p_away": 0.16},
+        cote={"home": 1.46, "draw": 4.40, "away": 6.20},
+    )])
+    # Model 66%, piata ~62%: modelul e peste piata cu vreo 4 puncte.
+    peste = construieste([meci(
+        probs={"p_home": 0.66, "p_draw": 0.20, "p_away": 0.14},
+        cote={"home": 1.50, "draw": 4.20, "away": 6.00},
+    )])
+
+    verifica(len(sub) == 1 and len(peste) == 1,
+             f"asteptam cate o selectie, am primit {len(sub)} si {len(peste)}")
+    if sub and peste:
+        verifica(sub[0]["band"] == "sub piață", f"nivel gresit: {sub[0]['band']}")
+        verifica(peste[0]["band"] == "peste piață", f"nivel gresit: {peste[0]['band']}")
+        verifica(sub[0]["historical_hit_rate"] > peste[0]["historical_hit_rate"],
+                 "nivelul mai prudent ar trebui sa promita mai mult")
+
+
 def test_ordonare_si_limita() -> None:
+    """Ordinea urmeaza cat platesc selectiile, nu cat de sigure par."""
     meciuri = []
-    for i, p in enumerate([0.62, 0.81, 0.71, 0.66, 0.75, 0.68, 0.63, 0.79]):
-        cota = round(1 / (p / 0.97), 2)  # cota aproape corecta: piata e de acord
+    for i, (p, cota) in enumerate([(0.61, 1.60), (0.64, 1.48), (0.62, 1.85),
+                                   (0.63, 1.50), (0.66, 1.46), (0.61, 1.52),
+                                   (0.62, 1.70), (0.65, 1.47)]):
         rest = (1 - p) / 2
         meciuri.append(meci(
             id_=f"M{i}",
@@ -98,12 +157,15 @@ def test_ordonare_si_limita() -> None:
     r = construieste(meciuri)
     verifica(len(r) == MAXIM_RECOMANDARI,
              f"asteptam {MAXIM_RECOMANDARI} recomandari, am primit {len(r)}")
-    probabilitati = [x["probability"] for x in r]
-    verifica(probabilitati == sorted(probabilitati, reverse=True),
-             "recomandarile nu sunt ordonate descrescator")
+    castiguri = [x["historical_hit_rate"] * x["odds"] for x in r]
+    verifica(castiguri == sorted(castiguri, reverse=True),
+             "recomandarile nu sunt ordonate dupa cat platesc")
     if r:
-        verifica(abs(r[0]["probability"] - 0.81) < 1e-6,
-                 f"prima recomandare ar trebui sa fie cea mai sigura, e {r[0]['probability']}")
+        verifica(r[0]["odds"] >= 1.70,
+                 f"prima recomandare ar trebui sa fie cea mai bine platita, "
+                 f"are cota {r[0]['odds']}")
+    verifica(all(x["odds"] >= COTA_MINIMA for x in r),
+             "a trecut o selectie sub cota minima")
 
 
 def main() -> int:
@@ -113,6 +175,10 @@ def main() -> int:
                  test_respinge_datele_slabe,
                  test_ignora_pietele_fara_cota,
                  test_un_singur_pariu_per_meci,
+                 test_respinge_cota_prea_mica,
+                 test_accepta_cand_modelul_e_mai_prudent_decat_piata,
+                 test_respinge_cand_modelul_se_crede_peste_piata,
+                 test_rata_promisa_urmeaza_nivelul_de_dezacord,
                  test_ordonare_si_limita):
         test()
     if esecuri:

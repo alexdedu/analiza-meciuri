@@ -161,9 +161,11 @@ class _BandRow extends StatelessWidget {
       child: Row(
         children: [
           SizedBox(
-            width: 92,
+            // Etichetele nu mai sunt doar "60-65%", ci si "aproape de piață".
+            width: 118,
             child: Text(band.band,
-                style: const TextStyle(fontSize: 12, color: AppColors.textPrimary)),
+                overflow: TextOverflow.ellipsis,
+                style: const TextStyle(fontSize: 11.5, color: AppColors.textPrimary)),
           ),
           Text('${band.hits}/${band.count}',
               style: const TextStyle(fontSize: 12, color: AppColors.textSecondary)),

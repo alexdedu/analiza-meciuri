@@ -18,7 +18,18 @@ import pandas as pd
 ISTORIC = Path(__file__).parent.parent / "istoric" / "selectii.json"
 
 # Ratele masurate in backtest, pentru comparatie cu realitatea.
+#
+# Benzile de 70% si peste vin de la regula veche, dinainte de cota minima de
+# 1,45: nu se mai produc selectii acolo, dar selectiile notate atunci raman in
+# evidenta si trebuie comparate cu ce li s-a promis lor.
+# Cele doua benzi active sunt masurate pe regula de acum (cota >= 1,45,
+# dezacord intre -10 si +2 puncte).
 ASTEPTARI = {
+    # Nivelurile de acum, dupa cat de departe e modelul de piata.
+    "sub piață": 0.653,
+    "aproape de piață": 0.632,
+    "peste piață": 0.601,
+    # Benzile de probabilitate, folosite pana pe 30 septembrie 2026.
     "80% sau peste": 0.882,
     "70-80%": 0.753,
     "65-70%": 0.666,

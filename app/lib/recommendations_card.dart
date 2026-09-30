@@ -24,8 +24,8 @@ class RecommendationsCard extends StatelessWidget {
 
     return SectionCard(
       title: 'Selecțiile modelului',
-      subtitle: 'Meciurile cele mai previzibile din perioada afișată, '
-          'alese acolo unde modelul e sigur și cotele îi dau dreptate.',
+      subtitle: 'Alese acolo unde modelul e sigur, cota trece de 1.45 și modelul '
+          'nu se crede mai deștept decât piața.',
       child: Column(
         children: [
           for (final r in recommendations)
@@ -35,9 +35,10 @@ class RecommendationsCard extends StatelessWidget {
             ),
           const SizedBox(height: 4),
           const Text(
-            'Nu sunt pariuri sigure. Selecția după avantajul față de cotă — metoda '
-            'intuitivă — a dat 31,5% reușite și randament negativ în backtest, '
-            'așa că modelul nu o folosește.',
+            'Măsurat pe 25.168 de meciuri: 64,3% reușite, cotă medie 1,52. '
+            'Randamentul iese pozitiv doar dacă prinzi cea mai bună cotă de pe '
+            'piață (+2,3%); la cota medie rămâne negativ (−2,3%). Avantajul nu '
+            'vine din model, ci din locul de unde iei cota.',
             style: TextStyle(fontSize: 11, color: AppColors.textSecondary, height: 1.35),
           ),
         ],
@@ -108,8 +109,9 @@ class _Row extends StatelessWidget {
               const SizedBox(height: 6),
               Text(
                 'Cotă ${rec.odds.toStringAsFixed(2)}  ·  piața dă '
-                '${(rec.marketProbability * 100).toStringAsFixed(0)}%  ·  '
-                'istoric la ${rec.band}: ${(rec.historicalHitRate * 100).toStringAsFixed(0)}% reușite',
+                '${(rec.marketProbability * 100).toStringAsFixed(0)}%  ·  model '
+                '${rec.band}, unde istoric ies '
+                '${(rec.historicalHitRate * 100).toStringAsFixed(0)}%',
                 style: const TextStyle(fontSize: 10.5, color: AppColors.textSecondary),
               ),
             ],

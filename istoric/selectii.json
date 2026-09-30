@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-09-30T15:59:18+00:00",
+ "actualizat": "2026-09-30T17:21:59+00:00",
  "selectii": [
   {
    "cheie": "D1_20260919_EinFrankfurt_Freiburg|over25",
@@ -884,6 +884,22 @@
    "odds": 1.59,
    "band": "60-65%",
    "notat_la": "2026-09-30T05:42:32+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "NAT1639973|over25",
+   "match_id": "NAT1639973",
+   "date": "2026-10-02",
+   "league_name": "CONCACAF Nations League",
+   "home": "Dominican Republic",
+   "away": "Haiti",
+   "market": "over25",
+   "market_label": "Peste 2.5 goluri",
+   "probability": 0.624,
+   "odds": 1.59,
+   "band": "peste piață",
+   "notat_la": "2026-09-30T17:21:58+00:00",
    "castigat": null,
    "scor": null
   }
