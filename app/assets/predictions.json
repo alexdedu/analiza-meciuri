@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T17:21:59+00:00",
+ "generated_at": "2026-09-30T17:27:22+00:00",
  "recommendations": [
   {
    "match_id": "NAT1639973",
@@ -740,8 +740,10 @@
   ]
  },
  "model": {
-  "name": "Dixon-Coles + suturi pe poarta",
-  "goals_weight": 0.5,
+  "name": "Dixon-Coles + suturi pe poarta + cornere",
+  "goals_weight": 0.45,
+  "shots_weight": 0.4,
+  "corners_weight": 0.15,
   "xi": 0.003,
   "backtest": {
    "matches_tested": 60539,

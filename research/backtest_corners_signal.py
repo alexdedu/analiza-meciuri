@@ -126,6 +126,23 @@ def log_loss(d: pd.DataFrame, greutati: tuple[float, float, float]) -> dict:
     return {"1x2": float(np.mean(ll_1x2)), "ou": float(np.mean(ll_ou))}
 
 
+def log_loss_pe_meci(d: pd.DataFrame, greutati: tuple[float, float, float]) -> dict:
+    """La fel ca log_loss, dar pastreaza valoarea fiecarui meci in parte."""
+    wg, ws, wc = greutati
+    lam = np.exp(wg * np.log(d["lam_g"]) + ws * np.log(d["lam_s"]) + wc * np.log(d["lam_c"]))
+    mu = np.exp(wg * np.log(d["mu_g"]) + ws * np.log(d["mu_s"]) + wc * np.log(d["mu_c"]))
+
+    ll_1x2, ll_ou = [], []
+    for l, m, r, rez, ou in zip(lam, mu, d["rho"], d["result"], d["over25"]):
+        p = markets_from_rates(float(l), float(m), float(r))
+        vector = np.clip([p["p_home"], p["p_draw"], p["p_away"]], 1e-9, 1)
+        vector = vector / vector.sum()
+        ll_1x2.append(-np.log(vector[int(rez)]))
+        p_over = min(max(p["p_over25"], 1e-9), 1 - 1e-9)
+        ll_ou.append(-np.log(p_over if ou == 1 else 1 - p_over))
+    return {"1x2": np.array(ll_1x2), "ou": np.array(ll_ou)}
+
+
 def main() -> int:
     cale = "out/rates_triple.csv"
     try:
@@ -152,6 +169,18 @@ def main() -> int:
     for nume, g in combinatii:
         r = log_loss(d, g)
         print(f"{nume:<38}{str(g):<20}{r['1x2']:>14.5f}{r['ou']:>12.5f}")
+
+    # O diferenta de 0,0008 la log-loss poate fi la fel de bine zgomot. Testul
+    # pereche spune daca imbunatatirea e constanta de la meci la meci sau doar
+    # media a doua sume apropiate.
+    print("\nTest pereche fata de modelul de acum (0.50, 0.50, 0.00):")
+    baza = log_loss_pe_meci(d, (0.50, 0.50, 0.0))
+    for g in ((0.45, 0.40, 0.15), (0.40, 0.40, 0.20), (0.35, 0.35, 0.30)):
+        nou = log_loss_pe_meci(d, g)
+        for piata in ("1x2", "ou"):
+            dif = baza[piata] - nou[piata]          # pozitiv = mai bun
+            t = dif.mean() / (dif.std(ddof=1) / np.sqrt(len(dif)))
+            print(f"  {str(g):<20} {piata:<4} castig {dif.mean():+.5f}  t={t:+6.2f}")
     return 0
 
 

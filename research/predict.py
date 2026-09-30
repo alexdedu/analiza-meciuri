@@ -24,6 +24,14 @@ from download_data import EXTRA_LEAGUES, LEAGUES, SEASONS, fetch
 
 ALPHA = 0.50  # pondere goluri vs suturi, aleasa pe perioada de validare
 
+# Amestecul de acum, cu cornerele adaugate ca al treilea semn de dominare.
+# Masurat in backtest_corners_signal.py pe 28.827 de meciuri: fata de amestecul
+# goluri+suturi, log-loss-ul scade cu 0,00077 la 1X2 (t = +3,60) si cu 0,00123
+# la peste/sub 2.5 (t = +6,77). Castigul e mic, dar constant de la meci la meci
+# si nu costa nimic: cornerele erau deja in fisierele descarcate.
+# ALPHA ramane pentru campionatele fara cornere (feedul suplimentar).
+W_GOLURI, W_SUTURI, W_CORNERE = 0.45, 0.40, 0.15
+
 # Doar competitiile care apar in aplicatie. Restul raman in model -- ajuta la
 # estimarea puterii campionatelor -- dar nu se afiseaza.
 LIGI_AFISATE = {
@@ -261,11 +269,17 @@ def main() -> None:
         idx = {t: k for k, t in enumerate(teams)}
         fit_g, _ = fit_on(train, today, ("hg", "ag"), XI, {}, teams, idx, len(teams))
         fit_s, _ = fit_on(train, today, ("hst", "ast"), XI, {}, teams, idx, len(teams))
+        fit_c, _ = fit_on(train, today, ("hc", "ac"), XI, {}, teams, idx, len(teams))
         if fit_g is None:
             continue
         shots = train.dropna(subset=["hst", "ast"])
         total_sot = shots["hst"].sum() + shots["ast"].sum() if len(shots) else 0
         conv = float((shots["hg"].sum() + shots["ag"].sum()) / total_sot) if total_sot > 0 else 0.33
+        # Aceeasi aducere pe scara golurilor si pentru cornere.
+        cornere = train.dropna(subset=["hc", "ac"])
+        total_c = cornere["hc"].sum() + cornere["ac"].sum() if len(cornere) else 0
+        conv_c = (float((cornere["hg"].sum() + cornere["ag"].sum()) / total_c)
+                  if total_c > 0 else 0.10)
         atk_rank = {t: r + 1 for r, t in enumerate(
             sorted(teams, key=lambda name: -fit_g.attack[idx[name]]))}
 
@@ -279,8 +293,20 @@ def main() -> None:
             lg, mg = fit_g.rates(home, away)
             if fit_s is not None and home in fit_s.teams and away in fit_s.teams:
                 ls, ms = fit_s.rates(home, away)
-                lam = float(np.exp(ALPHA * np.log(lg) + (1 - ALPHA) * np.log(ls * conv)))
-                mu = float(np.exp(ALPHA * np.log(mg) + (1 - ALPHA) * np.log(ms * conv)))
+                are_cornere = (fit_c is not None and home in fit_c.teams
+                               and away in fit_c.teams)
+                if are_cornere:
+                    lc, mc = fit_c.rates(home, away)
+                    lam = float(np.exp(W_GOLURI * np.log(lg)
+                                       + W_SUTURI * np.log(ls * conv)
+                                       + W_CORNERE * np.log(lc * conv_c)))
+                    mu = float(np.exp(W_GOLURI * np.log(mg)
+                                      + W_SUTURI * np.log(ms * conv)
+                                      + W_CORNERE * np.log(mc * conv_c)))
+                else:
+                    # Feedul suplimentar n-are cornere: ramane amestecul vechi.
+                    lam = float(np.exp(ALPHA * np.log(lg) + (1 - ALPHA) * np.log(ls * conv)))
+                    mu = float(np.exp(ALPHA * np.log(mg) + (1 - ALPHA) * np.log(ms * conv)))
             else:
                 lam, mu = lg, mg
 
@@ -413,8 +439,10 @@ def main() -> None:
         "recommendations": recomandari,
         "track_record": bilant,
         "model": {
-            "name": "Dixon-Coles + suturi pe poarta",
-            "goals_weight": ALPHA,
+            "name": "Dixon-Coles + suturi pe poarta + cornere",
+            "goals_weight": W_GOLURI,
+            "shots_weight": W_SUTURI,
+            "corners_weight": W_CORNERE,
             "xi": XI,
             "backtest": {
                 "matches_tested": 60539,

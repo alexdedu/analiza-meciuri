@@ -148,9 +148,10 @@ class AboutScreen extends StatelessWidget {
                   'distributie Poisson, cu o corectie pentru scorurile mici, unde Poisson '
                   'simplu subestimeaza egalurile.\n\n'
                   'Peste asta, un al doilea model estimeaza aceleasi forte din suturile pe '
-                  'poarta. Suturile sunt de aproximativ zece ori mai numeroase decat golurile, '
-                  'deci masoara mai stabil cat de bine joaca o echipa. Cele doua estimari se '
-                  'combina in parti egale.\n\n'
+                  'poarta, iar un al treilea din cornere. Amandoua sunt mult mai numeroase '
+                  'decat golurile, deci masoara mai stabil cat de bine joaca o echipa. Cele '
+                  'trei estimari se combina in proportie de 45%, 40% si 15% — proportia care '
+                  'a iesit cel mai bine pe 28.827 de meciuri de verificare.\n\n'
                   'Meciurile vechi conteaza mai putin decat cele recente, cu o injumatatire '
                   'a importantei la aproximativ 230 de zile.',
                   style: TextStyle(fontSize: 13, height: 1.5),
