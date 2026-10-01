@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T06:07:11+00:00",
+ "generated_at": "2026-10-01T11:13:56+00:00",
  "recommendations": [
   {
    "match_id": "NAT1639973",
@@ -11,9 +11,9 @@
    "market": "over25",
    "market_label": "Peste 2.5 goluri",
    "probability": 0.6238,
-   "odds": 1.59,
-   "market_probability": 0.5891,
-   "disagreement": 0.0347,
+   "odds": 1.6,
+   "market_probability": 0.5844,
+   "disagreement": 0.0394,
    "band": "peste piață",
    "historical_hit_rate": 0.601
   },
@@ -28,8 +28,8 @@
    "market_label": "Sub 2.5 goluri",
    "probability": 0.6314,
    "odds": 1.58,
-   "market_probability": 0.6,
-   "disagreement": 0.0314,
+   "market_probability": 0.601,
+   "disagreement": 0.0304,
    "band": "peste piață",
    "historical_hit_rate": 0.601
   }
@@ -806,9 +806,9 @@
     }
    ],
    "reference_odds": {
-    "away": 1.04,
-    "draw": 12.26,
-    "home": 39.19,
+    "away": 1.05,
+    "draw": 11.04,
+    "home": 41.06,
     "over25": 1.39,
     "under25": 2.71
    },
@@ -894,10 +894,10 @@
     }
    ],
    "reference_odds": {
-    "home": 1.33,
-    "draw": 4.51,
-    "away": 8.69,
-    "over25": 1.99,
+    "home": 1.36,
+    "draw": 4.37,
+    "away": 8.22,
+    "over25": 1.97,
     "under25": 1.81
    },
    "context": {
@@ -1014,10 +1014,10 @@
    ],
    "reference_odds": {
     "home": 1.12,
-    "draw": 7.64,
-    "away": 20.81,
-    "over25": 1.6,
-    "under25": 2.25
+    "draw": 7.83,
+    "away": 22.08,
+    "over25": 1.66,
+    "under25": 2.16
    },
    "context": {
     "home": {
@@ -1101,11 +1101,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.62,
-    "draw": 3.25,
-    "away": 5.69,
-    "over25": 2.72,
-    "under25": 1.39
+    "home": 1.61,
+    "draw": 3.31,
+    "away": 5.76,
+    "over25": 2.63,
+    "under25": 1.42
    },
    "context": {
     "home": {
@@ -1189,11 +1189,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.21,
-    "draw": 6.55,
-    "away": 12.93,
-    "over25": 1.36,
-    "under25": 3.04
+    "home": 1.2,
+    "draw": 6.87,
+    "away": 13.09,
+    "over25": 1.32,
+    "under25": 3.27
    },
    "context": {
     "home": {
@@ -1284,11 +1284,11 @@
     }
    ],
    "reference_odds": {
-    "home": 3.42,
-    "draw": 3.56,
-    "away": 2.05,
+    "home": 3.47,
+    "draw": 3.64,
+    "away": 2.03,
     "over25": 1.67,
-    "under25": 2.2
+    "under25": 2.21
    },
    "context": {
     "home": {
@@ -1385,9 +1385,9 @@
     }
    ],
    "reference_odds": {
-    "home": 3.5,
-    "draw": 3.62,
-    "away": 2.01,
+    "home": 3.62,
+    "draw": 3.66,
+    "away": 1.97,
     "over25": 1.7,
     "under25": 2.16
    },
@@ -1486,9 +1486,9 @@
     }
    ],
    "reference_odds": {
-    "home": 6.47,
-    "draw": 4.73,
-    "away": 1.44,
+    "home": 6.72,
+    "draw": 4.8,
+    "away": 1.43,
     "over25": 1.53,
     "under25": 2.44
    },
@@ -1575,9 +1575,9 @@
    ],
    "reference_odds": {
     "home": 3.52,
-    "draw": 3.2,
-    "away": 2.14,
-    "over25": 2.2,
+    "draw": 3.22,
+    "away": 2.15,
+    "over25": 2.21,
     "under25": 1.67
    },
    "context": {
@@ -1675,8 +1675,8 @@
     }
    ],
    "reference_odds": {
-    "home": 3.14,
-    "draw": 3.32,
+    "home": 3.16,
+    "draw": 3.34,
     "away": 2.24,
     "over25": 1.92,
     "under25": 1.9
@@ -1776,11 +1776,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.27,
-    "draw": 5.0,
-    "away": 11.44,
-    "over25": 2.04,
-    "under25": 1.75
+    "home": 1.28,
+    "draw": 4.99,
+    "away": 11.8,
+    "over25": 2.09,
+    "under25": 1.72
    },
    "context": {
     "home": {
@@ -1877,11 +1877,11 @@
     }
    ],
    "reference_odds": {
-    "home": 12.86,
-    "draw": 6.02,
-    "away": 1.18,
-    "over25": 1.53,
-    "under25": 2.33
+    "home": 14.08,
+    "draw": 6.65,
+    "away": 1.15,
+    "over25": 1.49,
+    "under25": 2.46
    },
    "context": {
     "home": {
@@ -1965,11 +1965,11 @@
     }
    ],
    "reference_odds": {
-    "home": 8.77,
-    "draw": 5.34,
-    "away": 1.27,
-    "over25": 1.41,
-    "under25": 2.67
+    "home": 9.97,
+    "draw": 5.67,
+    "away": 1.23,
+    "over25": 1.39,
+    "under25": 2.75
    },
    "context": {
     "home": {
@@ -2066,11 +2066,11 @@
     }
    ],
    "reference_odds": {
-    "home": 10.85,
-    "draw": 5.39,
+    "home": 10.9,
+    "draw": 5.41,
     "away": 1.22,
-    "over25": 1.6,
-    "under25": 2.23
+    "over25": 1.59,
+    "under25": 2.24
    },
    "context": {
     "home": {
@@ -2155,10 +2155,10 @@
    ],
    "reference_odds": {
     "home": 1.6,
-    "draw": 3.82,
+    "draw": 3.83,
     "away": 4.83,
-    "over25": 1.83,
-    "under25": 1.91
+    "over25": 1.81,
+    "under25": 1.93
    },
    "context": {
     "home": {
@@ -2349,11 +2349,11 @@
     }
    ],
    "reference_odds": {
-    "home": 29.22,
-    "draw": 9.87,
+    "home": 27.83,
+    "draw": 9.59,
     "away": 1.06,
-    "over25": 1.37,
-    "under25": 2.81
+    "over25": 1.35,
+    "under25": 2.91
    },
    "context": {
     "home": {
@@ -2450,11 +2450,11 @@
     }
    ],
    "reference_odds": {
-    "home": 3.0,
-    "draw": 3.55,
-    "away": 2.12,
-    "over25": 1.59,
-    "under25": 2.28
+    "home": 3.15,
+    "draw": 3.57,
+    "away": 2.02,
+    "over25": 1.6,
+    "under25": 2.25
    },
    "context": {
     "home": {
@@ -2538,11 +2538,11 @@
     }
    ],
    "reference_odds": {
-    "home": 5.94,
-    "draw": 4.18,
-    "away": 1.47,
-    "over25": 1.77,
-    "under25": 2.0
+    "home": 5.74,
+    "draw": 4.11,
+    "away": 1.48,
+    "over25": 1.78,
+    "under25": 1.98
    },
    "context": {
     "home": {
@@ -2639,11 +2639,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.72,
-    "draw": 3.57,
-    "away": 4.44,
-    "over25": 2.22,
-    "under25": 1.65
+    "home": 1.7,
+    "draw": 3.62,
+    "away": 4.56,
+    "over25": 2.16,
+    "under25": 1.68
    },
    "context": {
     "home": {
@@ -2726,7 +2726,13 @@
      "p": 0.0822
     }
    ],
-   "reference_odds": {},
+   "reference_odds": {
+    "home": 1.75,
+    "draw": 3.49,
+    "away": 5.0,
+    "over25": 2.44,
+    "under25": 1.55
+   },
    "context": {
     "home": {
      "form": [
@@ -2816,11 +2822,11 @@
     }
    ],
    "reference_odds": {
-    "home": 2.16,
-    "draw": 4.09,
-    "away": 2.78,
-    "over25": 1.5,
-    "under25": 2.53
+    "home": 2.47,
+    "draw": 3.45,
+    "away": 2.62,
+    "over25": 1.85,
+    "under25": 1.98
    },
    "context": {
     "home": {
@@ -2917,10 +2923,10 @@
     }
    ],
    "reference_odds": {
-    "home": 1.71,
-    "draw": 3.55,
-    "away": 4.94,
-    "over25": 2.09,
+    "home": 1.77,
+    "draw": 3.49,
+    "away": 4.7,
+    "over25": 2.11,
     "under25": 1.73
    },
    "context": {
@@ -3108,7 +3114,7 @@
    "reference_odds": {
     "home": 2.27,
     "draw": 3.2,
-    "away": 3.09,
+    "away": 3.07,
     "over25": 2.1,
     "under25": 1.72
    },
@@ -3318,7 +3324,7 @@
     "draw": 4.93,
     "away": 6.46,
     "over25": 1.44,
-    "under25": 2.67
+    "under25": 2.68
    },
    "context": {
     "home": {
@@ -3421,11 +3427,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.48,
-    "draw": 4.64,
-    "away": 5.59,
-    "over25": 1.43,
-    "under25": 2.73
+    "home": 1.51,
+    "draw": 4.58,
+    "away": 5.45,
+    "over25": 1.44,
+    "under25": 2.72
    },
    "context": {
     "home": {
@@ -3509,9 +3515,9 @@
     }
    ],
    "reference_odds": {
-    "home": 2.08,
+    "home": 2.06,
     "draw": 3.29,
-    "away": 3.48,
+    "away": 3.53,
     "over25": 2.13,
     "under25": 1.71
    },
@@ -3597,10 +3603,10 @@
     }
    ],
    "reference_odds": {
-    "home": 1.89,
-    "draw": 3.27,
-    "away": 4.26,
-    "over25": 2.37,
+    "home": 1.9,
+    "draw": 3.26,
+    "away": 4.19,
+    "over25": 2.38,
     "under25": 1.58
    },
    "context": {
@@ -3693,8 +3699,8 @@
    ],
    "reference_odds": {
     "home": 1.54,
-    "draw": 4.05,
-    "away": 5.74,
+    "draw": 4.06,
+    "away": 5.71,
     "over25": 1.8,
     "under25": 2.02
    },
@@ -3793,11 +3799,11 @@
     }
    ],
    "reference_odds": {
-    "home": 2.96,
+    "home": 2.99,
     "draw": 3.48,
-    "away": 2.24,
-    "over25": 1.75,
-    "under25": 2.08
+    "away": 2.23,
+    "over25": 1.74,
+    "under25": 2.1
    },
    "context": {
     "home": {
@@ -3882,10 +3888,10 @@
    ],
    "reference_odds": {
     "home": 5.76,
-    "draw": 3.62,
+    "draw": 3.65,
     "away": 1.62,
-    "over25": 2.34,
-    "under25": 1.59
+    "over25": 2.28,
+    "under25": 1.61
    },
    "context": {
     "home": {
@@ -3969,11 +3975,11 @@
     }
    ],
    "reference_odds": {
-    "home": 2.98,
+    "home": 3.01,
     "draw": 3.74,
     "away": 2.03,
     "over25": 1.51,
-    "under25": 2.38
+    "under25": 2.36
    },
    "context": {
     "home": {
@@ -4070,11 +4076,11 @@
     }
    ],
    "reference_odds": {
-    "home": 3.85,
-    "draw": 3.45,
-    "away": 1.85,
-    "over25": 1.83,
-    "under25": 1.91
+    "home": 4.28,
+    "draw": 3.48,
+    "away": 1.75,
+    "over25": 1.88,
+    "under25": 1.86
    },
    "context": {
     "home": {
@@ -4170,7 +4176,13 @@
      "p": 0.0791
     }
    ],
-   "reference_odds": {},
+   "reference_odds": {
+    "home": 2.4,
+    "draw": 3.28,
+    "away": 2.74,
+    "over25": 1.89,
+    "under25": 1.86
+   },
    "context": {
     "home": {
      "form": [
@@ -4384,7 +4396,13 @@
      "p": 0.0606
     }
    ],
-   "reference_odds": {},
+   "reference_odds": {
+    "home": 1.95,
+    "draw": 3.36,
+    "away": 3.61,
+    "over25": 1.91,
+    "under25": 1.83
+   },
    "context": {
     "home": {
      "form": [
@@ -4479,7 +4497,13 @@
      "p": 0.0766
     }
    ],
-   "reference_odds": {},
+   "reference_odds": {
+    "home": 3.98,
+    "draw": 3.5,
+    "away": 1.83,
+    "over25": 1.9,
+    "under25": 1.83
+   },
    "context": {
     "home": {
      "form": [
@@ -4561,7 +4585,13 @@
      "p": 0.0794
     }
    ],
-   "reference_odds": {},
+   "reference_odds": {
+    "home": 3.49,
+    "draw": 3.42,
+    "away": 2.01,
+    "over25": 1.91,
+    "under25": 1.85
+   },
    "context": {
     "home": {
      "form": [
@@ -4656,7 +4686,13 @@
      "p": 0.0976
     }
    ],
-   "reference_odds": {},
+   "reference_odds": {
+    "home": 2.72,
+    "draw": 3.2,
+    "away": 2.5,
+    "over25": 2.05,
+    "under25": 1.73
+   },
    "context": {
     "home": {
      "form": [
@@ -4834,9 +4870,9 @@
     }
    ],
    "reference_odds": {
-    "home": 2.4,
-    "draw": 3.14,
-    "away": 2.98,
+    "home": 2.42,
+    "draw": 3.15,
+    "away": 2.96,
     "over25": 2.34,
     "under25": 1.6
    },
@@ -5086,9 +5122,9 @@
     }
    ],
    "reference_odds": {
-    "home": 3.85,
-    "draw": 3.69,
-    "away": 1.87,
+    "home": 3.83,
+    "draw": 3.72,
+    "away": 1.86,
     "over25": 1.73,
     "under25": 2.1
    },
@@ -5288,9 +5324,9 @@
     }
    ],
    "reference_odds": {
-    "home": 1.41,
-    "draw": 4.37,
-    "away": 7.49,
+    "home": 1.42,
+    "draw": 4.34,
+    "away": 7.42,
     "over25": 1.83,
     "under25": 1.97
    },
@@ -5414,6 +5450,183 @@
     "h2h": []
    },
    "explanation": "Estonia e favorita, cu 34% sanse de victorie. Goluri asteptate: 0.97 pentru Estonia, 0.95 pentru Luxembourg. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,466 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Estonia are 34 meciuri in ultimii patru ani, Luxembourg are 39. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+  },
+  {
+   "id": "NAT1643354",
+   "league": "NAT_25",
+   "league_name": "Cupa Golfului",
+   "date": "2026-10-03",
+   "time": "17:30",
+   "home": "Saudi Arabia",
+   "away": "Qatar",
+   "probs": {
+    "p_home": 0.6003,
+    "p_draw": 0.2463,
+    "p_away": 0.1535,
+    "p_over25": 0.4458,
+    "p_btts": 0.4363,
+    "p_under25": 0.5542,
+    "p_no_btts": 0.5637
+   },
+   "expected_goals": {
+    "home": 1.71,
+    "away": 0.74
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 44,
+    "away_matches": 35
+   },
+   "top_scores": [
+    {
+     "score": "1-0",
+     "p": 0.1409
+    },
+    {
+     "score": "2-0",
+     "p": 0.1257
+    },
+    {
+     "score": "1-1",
+     "p": 0.1149
+    },
+    {
+     "score": "2-1",
+     "p": 0.0936
+    },
+    {
+     "score": "0-0",
+     "p": 0.0912
+    }
+   ],
+   "reference_odds": {},
+   "context": {
+    "home": {
+     "form": [
+      "I",
+      "I",
+      "I",
+      "I",
+      "V",
+      "E"
+     ],
+     "goals_for_avg": 0.83,
+     "goals_against_avg": 1.67,
+     "shots_on_target_avg": null,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "I",
+      "E",
+      "V",
+      "I",
+      "I",
+      "E"
+     ],
+     "goals_for_avg": 0.67,
+     "goals_against_avg": 1.33,
+     "shots_on_target_avg": null,
+     "matches_analysed": 6
+    },
+    "h2h": []
+   },
+   "explanation": "Saudi Arabia e favorita, cu 60% sanse de victorie. Goluri asteptate: 1.71 pentru Saudi Arabia, 0.74 pentru Qatar. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,466 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Saudi Arabia are 44 meciuri in ultimii patru ani, Qatar are 35. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+  },
+  {
+   "id": "NAT1643355",
+   "league": "NAT_25",
+   "league_name": "Cupa Golfului",
+   "date": "2026-10-03",
+   "time": "17:30",
+   "home": "United Arab Emirates",
+   "away": "Oman",
+   "probs": {
+    "p_home": 0.4933,
+    "p_draw": 0.3066,
+    "p_away": 0.2001,
+    "p_over25": 0.3168,
+    "p_btts": 0.3704,
+    "p_under25": 0.6832,
+    "p_no_btts": 0.6296
+   },
+   "expected_goals": {
+    "home": 1.27,
+    "away": 0.71
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 32,
+    "away_matches": 34
+   },
+   "top_scores": [
+    {
+     "score": "1-0",
+     "p": 0.1697
+    },
+    {
+     "score": "0-0",
+     "p": 0.1451
+    },
+    {
+     "score": "1-1",
+     "p": 0.1307
+    },
+    {
+     "score": "2-0",
+     "p": 0.112
+    },
+    {
+     "score": "0-1",
+     "p": 0.0913
+    }
+   ],
+   "reference_odds": {},
+   "context": {
+    "home": {
+     "form": [
+      "V",
+      "V",
+      "V",
+      "I",
+      "E",
+      "I"
+     ],
+     "goals_for_avg": 1.5,
+     "goals_against_avg": 1.17,
+     "shots_on_target_avg": null,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "E",
+      "I",
+      "V",
+      "I",
+      "I",
+      "V"
+     ],
+     "goals_for_avg": 1.17,
+     "goals_against_avg": 1.33,
+     "shots_on_target_avg": null,
+     "matches_analysed": 6
+    },
+    "h2h": [
+     {
+      "date": "2025-10-11",
+      "home": "United Arab Emirates",
+      "away": "Oman",
+      "score": "2-1"
+     },
+     {
+      "date": "2024-01-06",
+      "home": "United Arab Emirates",
+      "away": "Oman",
+      "score": "0-1"
+     }
+    ]
+   },
+   "explanation": "United Arab Emirates e favorita, cu 49% sanse de victorie. Goluri asteptate: 1.27 pentru United Arab Emirates, 0.71 pentru Oman. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,466 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. United Arab Emirates are 32 meciuri in ultimii patru ani, Oman are 34. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1610879",
@@ -5548,8 +5761,8 @@
    "reference_odds": {
     "home": 1.07,
     "draw": 10.99,
-    "away": 28.3,
-    "over25": 1.32,
+    "away": 28.41,
+    "over25": 1.31,
     "under25": 3.28
    },
    "context": {
@@ -5648,8 +5861,8 @@
    ],
    "reference_odds": {
     "home": 1.34,
-    "draw": 4.76,
-    "away": 9.38,
+    "draw": 4.78,
+    "away": 9.46,
     "over25": 1.93,
     "under25": 1.87
    },

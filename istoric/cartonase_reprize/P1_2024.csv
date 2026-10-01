@@ -1,0 +1,252 @@
+fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,ar1,ar2,evenimente
+1231790,2024-09-28,P1,2024,Benfica,GIL Vicente,Benfica,Gil Vicente,1,0,2,0,0,0,0,0,19
+1231789,2024-09-29,P1,2024,SC Braga,Rio Ave,Sp Braga,Rio Ave,0,0,0,1,0,0,0,0,16
+1231783,2024-09-29,P1,2024,Famalicao,Nacional,Famalicao,Nacional,1,0,2,2,0,0,0,0,12
+1231785,2024-09-29,P1,2024,FC Porto,Arouca,Porto,Arouca,1,1,3,0,0,0,1,0,20
+1231786,2024-09-29,P1,2024,Santa Clara,Boavista,Santa Clara,Boavista,3,1,1,2,0,0,0,0,16
+1231784,2024-09-30,P1,2024,AVS,Farense,AVS,Farense,2,2,2,1,0,0,0,0,17
+1231794,2024-10-04,P1,2024,Rio Ave,Famalicao,Rio Ave,Famalicao,2,2,1,2,0,0,0,0,19
+1231795,2024-10-05,P1,2024,Moreirense,Santa Clara,Moreirense,Santa Clara,0,0,2,1,0,0,0,0,14
+1231799,2024-10-05,P1,2024,Arouca,AVS,Arouca,AVS,1,2,1,1,0,0,0,0,17
+1231796,2024-10-05,P1,2024,Sporting CP,Casa Pia,Sp Lisbon,Casa Pia,0,1,1,1,0,0,0,0,15
+1231793,2024-10-05,P1,2024,GIL Vicente,Estrela,Gil Vicente,Estrela,0,2,0,1,0,0,0,0,17
+1231792,2024-10-06,P1,2024,Farense,Estoril,Farense,Estoril,2,2,1,2,0,0,0,0,18
+1231797,2024-10-06,P1,2024,Vitória SC,Boavista,Guimaraes,Boavista,0,0,5,4,0,0,0,0,23
+1231800,2024-10-06,P1,2024,FC Porto,SC Braga,Porto,Sp Braga,1,1,1,1,0,0,0,0,18
+1231809,2024-10-25,P1,2024,Casa Pia,Nacional,Casa Pia,Nacional,0,3,0,3,0,0,0,0,16
+1231802,2024-10-25,P1,2024,Santa Clara,GIL Vicente,Santa Clara,Gil Vicente,0,3,1,4,0,0,0,0,22
+1231803,2024-10-26,P1,2024,Estoril,Arouca,Estoril,Arouca,2,2,1,1,0,0,0,0,21
+1231807,2024-10-26,P1,2024,Boavista,Moreirense,Boavista,Moreirense,1,0,1,2,0,0,0,0,13
+1231804,2024-10-26,P1,2024,Famalicao,Sporting CP,Famalicao,Sp Lisbon,0,1,1,0,0,0,0,0,15
+1231806,2024-10-27,P1,2024,Estrela,Vitória SC,Estrela,Guimaraes,1,1,1,2,0,0,0,0,19
+1231805,2024-10-27,P1,2024,SC Braga,Farense,Sp Braga,Farense,0,1,0,2,0,0,0,0,15
+1231808,2024-10-27,P1,2024,Benfica,Rio Ave,Benfica,Rio Ave,1,0,1,0,0,0,0,0,17
+1231801,2024-10-28,P1,2024,AVS,FC Porto,AVS,Porto,1,1,0,1,0,0,0,0,18
+1231812,2024-11-01,P1,2024,Sporting CP,Estrela,Sp Lisbon,Estrela,0,0,3,1,0,0,0,0,22
+1231810,2024-11-02,P1,2024,Rio Ave,Casa Pia,Rio Ave,Casa Pia,1,2,1,2,0,0,0,0,19
+1231815,2024-11-02,P1,2024,Farense,Benfica,Farense,Benfica,0,1,0,0,0,0,0,0,14
+1231814,2024-11-02,P1,2024,GIL Vicente,Boavista,Gil Vicente,Boavista,0,3,1,1,0,0,0,0,16
+1231818,2024-11-03,P1,2024,AVS,Famalicao,AVS,Famalicao,1,3,1,0,0,0,0,0,19
+1231817,2024-11-03,P1,2024,Arouca,SC Braga,Arouca,Sp Braga,3,0,1,1,0,0,0,0,18
+1231816,2024-11-03,P1,2024,Vitória SC,Moreirense,Guimaraes,Moreirense,0,0,0,1,0,0,0,0,12
+1231811,2024-11-03,P1,2024,FC Porto,Estoril,Porto,Estoril,0,0,1,1,0,0,0,0,15
+1231813,2024-11-04,P1,2024,Nacional,Santa Clara,Nacional,Santa Clara,1,3,2,5,0,0,0,0,22
+1231821,2024-11-08,P1,2024,Moreirense,GIL Vicente,Moreirense,Gil Vicente,2,0,2,3,0,0,0,0,22
+1231827,2024-11-09,P1,2024,Boavista,Rio Ave,Boavista,Rio Ave,1,3,3,0,0,1,0,1,20
+1231822,2024-11-09,P1,2024,Estoril,AVS,Estoril,AVS,0,2,0,0,0,0,0,0,10
+1231824,2024-11-09,P1,2024,Casa Pia,Farense,Casa Pia,Farense,1,3,1,2,0,0,0,0,19
+1231820,2024-11-09,P1,2024,Famalicao,Arouca,Famalicao,Arouca,1,4,1,2,0,0,0,0,18
+1231823,2024-11-10,P1,2024,Estrela,Nacional,Estrela,Nacional,0,1,1,0,0,0,0,0,15
+1231819,2024-11-10,P1,2024,Santa Clara,Vitória SC,Santa Clara,Guimaraes,1,4,2,2,0,0,0,1,22
+1231825,2024-11-10,P1,2024,SC Braga,Sporting CP,Sp Braga,Sp Lisbon,2,3,1,3,0,0,0,0,23
+1231826,2024-11-10,P1,2024,Benfica,FC Porto,Benfica,Porto,1,1,1,5,0,0,0,0,22
+1231829,2024-11-29,P1,2024,Farense,Estrela,Farense,Estrela,0,4,2,0,0,0,0,0,16
+1231830,2024-11-30,P1,2024,Rio Ave,Moreirense,Rio Ave,Moreirense,0,3,1,2,0,0,0,0,21
+1231832,2024-11-30,P1,2024,Nacional,Boavista,Nacional,Boavista,1,0,1,1,0,0,0,0,10
+1231831,2024-11-30,P1,2024,Sporting CP,Santa Clara,Sp Lisbon,Santa Clara,0,2,4,4,0,0,0,0,21
+1231836,2024-12-01,P1,2024,Estoril,Famalicao,Estoril,Famalicao,1,1,1,3,0,0,0,0,19
+1231835,2024-12-01,P1,2024,Arouca,Benfica,Arouca,Benfica,2,0,1,2,0,0,0,0,15
+1231833,2024-12-01,P1,2024,AVS,SC Braga,AVS,Sp Braga,1,2,1,0,0,1,0,0,17
+1231828,2024-12-02,P1,2024,FC Porto,Casa Pia,Porto,Casa Pia,0,3,0,0,0,0,0,0,14
+1231834,2024-12-02,P1,2024,Vitória SC,GIL Vicente,Guimaraes,Gil Vicente,0,0,0,3,0,0,0,0,18
+1231841,2024-12-05,P1,2024,Moreirense,Sporting CP,Moreirense,Sp Lisbon,1,2,1,0,0,0,0,0,16
+1231843,2024-12-06,P1,2024,SC Braga,Estoril,Sp Braga,Estoril,0,3,0,5,0,0,0,0,23
+1231842,2024-12-07,P1,2024,GIL Vicente,Nacional,Gil Vicente,Nacional,0,3,2,2,0,0,0,0,17
+1231838,2024-12-07,P1,2024,Santa Clara,Rio Ave,Santa Clara,Rio Ave,0,2,1,3,0,0,0,0,17
+1231844,2024-12-07,P1,2024,Benfica,Vitória SC,Benfica,Guimaraes,1,2,1,0,0,0,0,0,14
+1231837,2024-12-07,P1,2024,Famalicao,FC Porto,Famalicao,Porto,1,1,0,3,0,0,0,0,18
+1231845,2024-12-08,P1,2024,Boavista,Farense,Boavista,Farense,0,3,0,4,0,1,0,1,18
+1231840,2024-12-08,P1,2024,Casa Pia,AVS,Casa Pia,AVS,0,0,1,3,0,0,0,0,15
+1231839,2024-12-09,P1,2024,Estrela,Arouca,Estrela,Arouca,2,2,1,1,0,0,0,0,19
+1231854,2024-12-14,P1,2024,Farense,GIL Vicente,Farense,Gil Vicente,0,3,1,1,0,0,0,1,18
+1231849,2024-12-14,P1,2024,Nacional,Moreirense,Nacional,Moreirense,0,0,1,2,0,0,0,0,14
+1231846,2024-12-14,P1,2024,Sporting CP,Boavista,Sp Lisbon,Boavista,1,2,0,3,0,0,0,0,17
+1231847,2024-12-15,P1,2024,Estoril,Casa Pia,Estoril,Casa Pia,2,1,0,2,0,0,0,0,16
+1231852,2024-12-15,P1,2024,Arouca,Santa Clara,Arouca,Santa Clara,0,2,0,2,0,0,0,0,14
+1231851,2024-12-15,P1,2024,AVS,Benfica,AVS,Benfica,1,1,1,1,0,0,0,0,16
+1231848,2024-12-16,P1,2024,FC Porto,Estrela,Porto,Estrela,0,0,1,2,0,0,0,1,16
+1231853,2024-12-16,P1,2024,SC Braga,Famalicao,Sp Braga,Famalicao,0,0,0,1,0,0,0,0,15
+1231850,2024-12-16,P1,2024,Rio Ave,Vitória SC,Rio Ave,Guimaraes,0,2,0,1,0,0,0,0,18
+1231798,2024-12-19,P1,2024,Nacional,Benfica,Nacional,Benfica,1,1,2,2,0,0,0,0,19
+1231857,2024-12-20,P1,2024,Casa Pia,Arouca,Casa Pia,Arouca,0,2,1,2,0,0,0,0,19
+1231855,2024-12-21,P1,2024,Famalicao,Farense,Famalicao,Farense,1,2,2,4,0,0,0,0,21
+1231858,2024-12-21,P1,2024,Boavista,AVS,Boavista,AVS,0,1,1,1,0,0,0,0,11
+1231859,2024-12-21,P1,2024,Moreirense,FC Porto,Moreirense,Porto,1,2,1,3,0,0,0,0,19
+1231856,2024-12-22,P1,2024,Santa Clara,SC Braga,Santa Clara,Sp Braga,2,1,1,4,1,0,0,0,21
+1231863,2024-12-22,P1,2024,GIL Vicente,Sporting CP,Gil Vicente,Sp Lisbon,1,2,0,1,0,0,0,0,13
+1231861,2024-12-23,P1,2024,Vitória SC,Nacional,Guimaraes,Nacional,0,0,1,1,0,0,0,0,17
+1231862,2024-12-23,P1,2024,Benfica,Estoril,Benfica,Estoril,0,1,1,0,0,0,0,0,14
+1231860,2024-12-23,P1,2024,Estrela,Rio Ave,Estrela,Rio Ave,0,4,0,3,0,0,1,0,18
+1231870,2024-12-27,P1,2024,Arouca,GIL Vicente,Arouca,Gil Vicente,0,0,0,1,0,0,0,0,11
+1231865,2024-12-28,P1,2024,FC Porto,Boavista,Porto,Boavista,3,1,1,1,0,0,0,0,18
+1231868,2024-12-28,P1,2024,AVS,Estrela,AVS,Estrela,1,1,1,1,0,0,0,0,16
+1231872,2024-12-28,P1,2024,Estoril,Moreirense,Estoril,Moreirense,2,0,0,2,0,0,0,0,17
+1231869,2024-12-29,P1,2024,Farense,Vitória SC,Farense,Guimaraes,1,1,1,2,0,0,0,0,19
+1231866,2024-12-29,P1,2024,Rio Ave,Nacional,Rio Ave,Nacional,0,0,0,1,0,0,0,0,15
+1231871,2024-12-29,P1,2024,SC Braga,Casa Pia,Sp Braga,Casa Pia,0,2,1,2,0,0,0,0,18
+1231864,2024-12-29,P1,2024,Sporting CP,Benfica,Sp Lisbon,Benfica,0,2,1,2,0,0,0,0,14
+1231867,2024-12-30,P1,2024,Famalicao,Santa Clara,Famalicao,Santa Clara,1,2,1,2,0,0,0,0,17
+1231879,2025-01-03,P1,2024,Vitória SC,Sporting CP,Guimaraes,Sp Lisbon,0,0,2,7,0,0,0,0,25
+1231877,2025-01-04,P1,2024,Moreirense,AVS,Moreirense,AVS,1,2,1,4,0,0,0,0,21
+1231880,2025-01-04,P1,2024,Benfica,SC Braga,Benfica,Sp Braga,0,4,1,2,0,0,0,0,20
+1231875,2025-01-04,P1,2024,Boavista,Arouca,Boavista,Arouca,2,3,1,6,1,0,0,0,29
+1231874,2025-01-05,P1,2024,Santa Clara,Farense,Santa Clara,Farense,0,3,2,2,0,0,1,0,18
+1231881,2025-01-05,P1,2024,Casa Pia,Famalicao,Casa Pia,Famalicao,2,1,1,2,0,1,0,0,17
+1231876,2025-01-05,P1,2024,Estrela,Estoril,Estrela,Estoril,0,2,0,1,0,0,0,0,19
+1231878,2025-01-06,P1,2024,GIL Vicente,Rio Ave,Gil Vicente,Rio Ave,0,2,2,1,0,0,0,0,17
+1231873,2025-01-12,P1,2024,Nacional,FC Porto,Nacional,Porto,1,2,1,5,0,0,0,0,23
+1231886,2025-01-17,P1,2024,Benfica,Famalicao,Benfica,Famalicao,3,0,0,0,0,0,0,0,16
+1231882,2025-01-18,P1,2024,Rio Ave,Sporting CP,Rio Ave,Sp Lisbon,0,1,0,1,0,0,0,0,15
+1231889,2025-01-18,P1,2024,Vitória SC,Arouca,Guimaraes,Arouca,0,0,1,3,0,0,0,0,17
+1231884,2025-01-18,P1,2024,Santa Clara,Estoril,Santa Clara,Estoril,1,1,0,2,0,0,0,0,19
+1231890,2025-01-19,P1,2024,Nacional,AVS,Nacional,AVS,0,2,1,3,0,0,0,0,23
+1231888,2025-01-19,P1,2024,Moreirense,Farense,Moreirense,Farense,0,2,2,2,0,0,0,0,17
+1231887,2025-01-19,P1,2024,Estrela,SC Braga,Estrela,Sp Braga,0,3,0,1,0,0,0,0,16
+1231883,2025-01-19,P1,2024,GIL Vicente,FC Porto,Gil Vicente,Porto,3,0,2,4,0,0,0,2,27
+1231885,2025-01-20,P1,2024,Boavista,Casa Pia,Boavista,Casa Pia,1,2,1,1,0,1,0,0,24
+1231894,2025-01-24,P1,2024,Arouca,Moreirense,Arouca,Moreirense,2,1,0,0,0,0,0,0,14
+1231897,2025-01-25,P1,2024,Famalicao,Estrela,Famalicao,Estrela,0,1,0,3,0,0,0,0,10
+1231892,2025-01-25,P1,2024,Farense,Rio Ave,Farense,Rio Ave,1,4,1,3,0,0,0,0,21
+1231896,2025-01-25,P1,2024,Casa Pia,Benfica,Casa Pia,Benfica,0,2,0,0,0,0,0,0,17
+1231899,2025-01-25,P1,2024,Sporting CP,Nacional,Sp Lisbon,Nacional,0,1,1,0,0,0,0,0,14
+1231898,2025-01-26,P1,2024,SC Braga,Boavista,Sp Braga,Boavista,0,2,0,0,0,0,0,1,14
+1231895,2025-01-26,P1,2024,FC Porto,Santa Clara,Porto,Santa Clara,3,1,1,5,0,0,0,1,25
+1231891,2025-01-26,P1,2024,Estoril,Vitória SC,Estoril,Guimaraes,3,0,1,2,0,0,0,0,18
+1231893,2025-01-27,P1,2024,AVS,GIL Vicente,AVS,Gil Vicente,1,2,0,1,0,0,0,0,12
+1231901,2025-01-31,P1,2024,Boavista,Famalicao,Boavista,Famalicao,1,2,0,1,0,0,0,0,15
+1231902,2025-02-01,P1,2024,Santa Clara,Casa Pia,Santa Clara,Casa Pia,0,3,0,3,0,0,0,0,18
+1231908,2025-02-01,P1,2024,Nacional,Arouca,Nacional,Arouca,3,3,0,1,0,0,0,1,22
+1231904,2025-02-01,P1,2024,GIL Vicente,Estoril,Gil Vicente,Estoril,0,0,1,0,0,1,0,0,14
+1231900,2025-02-01,P1,2024,Vitória SC,AVS,Guimaraes,AVS,0,0,4,2,0,0,0,1,20
+1231903,2025-02-02,P1,2024,Sporting CP,Farense,Sp Lisbon,Farense,0,1,0,0,0,0,0,0,15
+1231905,2025-02-02,P1,2024,Estrela,Benfica,Estrela,Benfica,1,2,1,1,0,0,0,0,21
+1231906,2025-02-03,P1,2024,Moreirense,SC Braga,Moreirense,Sp Braga,1,1,0,1,0,0,0,0,14
+1231907,2025-02-03,P1,2024,Rio Ave,FC Porto,Rio Ave,Porto,0,1,0,3,0,1,0,0,18
+1231917,2025-02-07,P1,2024,FC Porto,Sporting CP,Porto,Sp Lisbon,1,2,0,4,0,0,0,2,19
+1231913,2025-02-08,P1,2024,AVS,Santa Clara,AVS,Santa Clara,0,2,0,1,0,0,0,0,16
+1231915,2025-02-08,P1,2024,Benfica,Moreirense,Benfica,Moreirense,0,0,1,0,0,0,0,0,17
+1231911,2025-02-08,P1,2024,Famalicao,Vitória SC,Famalicao,Guimaraes,1,2,1,1,0,0,0,0,15
+1231909,2025-02-09,P1,2024,Casa Pia,Estrela,Casa Pia,Estrela,1,3,2,2,0,0,0,0,19
+1231910,2025-02-09,P1,2024,Farense,Nacional,Farense,Nacional,1,0,2,2,1,0,0,1,19
+1231916,2025-02-09,P1,2024,Estoril,Boavista,Estoril,Boavista,1,1,0,1,0,0,0,0,13
+1231914,2025-02-09,P1,2024,SC Braga,GIL Vicente,Sp Braga,Gil Vicente,0,0,0,0,0,0,1,0,13
+1231912,2025-02-10,P1,2024,Arouca,Rio Ave,Arouca,Rio Ave,0,0,0,1,0,0,0,0,13
+1231919,2025-02-14,P1,2024,Boavista,Estrela,Boavista,Estrela,0,2,0,2,0,0,0,0,15
+1231926,2025-02-15,P1,2024,Moreirense,Casa Pia,Moreirense,Casa Pia,0,3,0,1,0,0,0,0,21
+1231922,2025-02-15,P1,2024,Nacional,Estoril,Nacional,Estoril,1,2,2,1,0,0,0,0,19
+1231923,2025-02-15,P1,2024,Santa Clara,Benfica,Santa Clara,Benfica,0,6,0,3,0,1,0,0,21
+1231924,2025-02-15,P1,2024,Sporting CP,Arouca,Sp Lisbon,Arouca,1,2,1,2,0,1,0,0,21
+1231918,2025-02-16,P1,2024,Rio Ave,AVS,Rio Ave,AVS,0,6,0,1,0,0,0,0,18
+1231920,2025-02-16,P1,2024,Farense,FC Porto,Farense,Porto,0,4,0,2,0,1,0,0,18
+1231925,2025-02-16,P1,2024,Vitória SC,SC Braga,Guimaraes,Sp Braga,0,0,3,5,0,0,0,0,17
+1231921,2025-02-17,P1,2024,GIL Vicente,Famalicao,Gil Vicente,Famalicao,0,2,0,2,0,0,0,0,13
+1231932,2025-02-21,P1,2024,SC Braga,Nacional,Sp Braga,Nacional,0,1,0,2,0,0,0,0,12
+1231928,2025-02-22,P1,2024,Estoril,Rio Ave,Estoril,Rio Ave,1,1,0,1,0,0,0,0,15
+1231935,2025-02-22,P1,2024,Benfica,Boavista,Benfica,Boavista,0,0,2,1,0,0,0,1,18
+1231927,2025-02-22,P1,2024,Casa Pia,GIL Vicente,Casa Pia,Gil Vicente,0,1,2,0,0,0,0,0,14
+1231933,2025-02-23,P1,2024,Estrela,Santa Clara,Estrela,Santa Clara,1,2,0,1,0,0,0,0,13
+1231930,2025-02-23,P1,2024,Arouca,Farense,Arouca,Farense,0,3,2,1,0,0,0,0,22
+1231931,2025-02-23,P1,2024,AVS,Sporting CP,AVS,Sp Lisbon,2,3,0,5,0,0,0,1,27
+1231929,2025-02-23,P1,2024,Famalicao,Moreirense,Famalicao,Moreirense,2,1,0,2,0,0,0,0,17
+1231934,2025-02-24,P1,2024,FC Porto,Vitória SC,Porto,Guimaraes,0,2,0,2,0,0,0,0,17
+1231936,2025-03-01,P1,2024,Nacional,Famalicao,Nacional,Famalicao,0,3,1,3,0,0,0,0,18
+1231938,2025-03-01,P1,2024,Arouca,FC Porto,Arouca,Porto,1,1,0,2,0,0,0,0,18
+1231944,2025-03-01,P1,2024,Vitória SC,Casa Pia,Guimaraes,Casa Pia,0,0,4,6,0,0,0,0,22
+1231940,2025-03-02,P1,2024,Boavista,Santa Clara,Boavista,Santa Clara,1,3,0,3,0,0,0,0,18
+1231939,2025-03-02,P1,2024,Moreirense,Estrela,Moreirense,Estrela,0,2,3,1,0,0,0,0,16
+1231937,2025-03-02,P1,2024,Farense,AVS,Farense,AVS,0,2,1,1,0,0,0,0,16
+1231942,2025-03-02,P1,2024,Rio Ave,SC Braga,Rio Ave,Sp Braga,1,1,1,4,0,0,0,0,20
+1231941,2025-03-03,P1,2024,Sporting CP,Estoril,Sp Lisbon,Estoril,1,0,0,1,0,0,0,1,17
+1231946,2025-03-07,P1,2024,Estrela,GIL Vicente,Estrela,Gil Vicente,2,3,1,1,0,0,0,0,19
+1231945,2025-03-08,P1,2024,Estoril,Farense,Estoril,Farense,0,2,1,0,0,0,0,0,15
+1231951,2025-03-08,P1,2024,Benfica,Nacional,Benfica,Nacional,0,0,2,1,0,0,0,0,20
+1231953,2025-03-08,P1,2024,SC Braga,FC Porto,Sp Braga,Porto,0,2,3,1,1,0,0,0,16
+1231952,2025-03-08,P1,2024,AVS,Arouca,AVS,Arouca,1,0,1,0,0,0,0,0,12
+1231948,2025-03-09,P1,2024,Santa Clara,Moreirense,Santa Clara,Moreirense,0,1,0,2,0,0,0,0,14
+1231949,2025-03-09,P1,2024,Casa Pia,Sporting CP,Casa Pia,Sp Lisbon,1,3,1,2,0,0,0,0,22
+1231950,2025-03-09,P1,2024,Boavista,Vitória SC,Boavista,Guimaraes,0,2,1,0,0,0,0,0,14
+1231947,2025-03-10,P1,2024,Famalicao,Rio Ave,Famalicao,Rio Ave,0,1,0,2,0,0,0,0,14
+1231956,2025-03-15,P1,2024,GIL Vicente,Santa Clara,Gil Vicente,Santa Clara,1,1,1,1,0,0,0,0,16
+1231960,2025-03-15,P1,2024,Farense,SC Braga,Farense,Sp Braga,0,2,0,1,0,0,0,0,14
+1231954,2025-03-15,P1,2024,FC Porto,AVS,Porto,AVS,0,3,1,3,0,0,0,1,20
+1231955,2025-03-15,P1,2024,Sporting CP,Famalicao,Sp Lisbon,Famalicao,2,2,1,0,0,1,0,0,18
+1231959,2025-03-16,P1,2024,Vitória SC,Estrela,Guimaraes,Estrela,0,0,1,2,0,0,0,0,15
+1231958,2025-03-16,P1,2024,Moreirense,Boavista,Moreirense,Boavista,1,3,3,3,0,0,0,1,23
+1231962,2025-03-16,P1,2024,Nacional,Casa Pia,Nacional,Casa Pia,1,1,0,1,0,0,0,0,17
+1231957,2025-03-16,P1,2024,Arouca,Estoril,Arouca,Estoril,0,0,0,1,0,0,0,0,14
+1231961,2025-03-16,P1,2024,Rio Ave,Benfica,Rio Ave,Benfica,0,3,0,1,0,1,0,0,20
+1231943,2025-03-28,P1,2024,GIL Vicente,Benfica,Gil Vicente,Benfica,2,2,0,2,0,0,0,0,19
+1231966,2025-03-29,P1,2024,Casa Pia,Rio Ave,Casa Pia,Rio Ave,0,5,0,1,0,0,0,0,20
+1231964,2025-03-29,P1,2024,Estrela,Sporting CP,Estrela,Sp Lisbon,4,3,0,1,1,1,0,0,24
+1231968,2025-03-29,P1,2024,SC Braga,Arouca,Sp Braga,Arouca,0,2,0,2,0,0,0,0,16
+1231970,2025-03-30,P1,2024,Moreirense,Vitória SC,Moreirense,Guimaraes,1,1,0,2,0,0,0,0,17
+1231963,2025-03-30,P1,2024,Estoril,FC Porto,Estoril,Porto,3,1,0,2,0,0,0,0,21
+1231969,2025-03-30,P1,2024,Famalicao,AVS,Famalicao,AVS,1,1,1,1,0,0,0,0,19
+1231965,2025-03-30,P1,2024,Santa Clara,Nacional,Santa Clara,Nacional,1,2,1,2,0,0,0,1,18
+1231967,2025-04-01,P1,2024,Boavista,GIL Vicente,Boavista,Gil Vicente,0,1,0,3,1,0,0,1,19
+1231971,2025-04-02,P1,2024,Benfica,Farense,Benfica,Farense,0,1,0,1,0,0,0,0,16
+1231974,2025-04-04,P1,2024,AVS,Estoril,AVS,Estoril,0,3,0,1,0,0,0,0,17
+1231972,2025-04-05,P1,2024,Arouca,Famalicao,Arouca,Famalicao,1,2,2,3,0,0,0,0,23
+1231975,2025-04-05,P1,2024,Vitória SC,Santa Clara,Guimaraes,Santa Clara,0,0,1,2,0,0,0,0,14
+1231977,2025-04-06,P1,2024,FC Porto,Benfica,Porto,Benfica,1,2,1,0,0,0,0,0,19
+1231973,2025-04-06,P1,2024,GIL Vicente,Moreirense,Gil Vicente,Moreirense,1,2,1,3,0,0,0,0,17
+1231976,2025-04-06,P1,2024,Nacional,Estrela,Nacional,Estrela,1,0,1,1,0,0,0,0,15
+1231979,2025-04-07,P1,2024,Sporting CP,SC Braga,Sp Lisbon,Sp Braga,1,2,2,3,0,0,0,1,19
+1231980,2025-04-07,P1,2024,Farense,Casa Pia,Farense,Casa Pia,2,2,0,2,0,0,0,0,15
+1231978,2025-04-07,P1,2024,Rio Ave,Boavista,Rio Ave,Boavista,0,3,0,2,0,0,0,0,17
+1231988,2025-04-11,P1,2024,GIL Vicente,Vitória SC,Gil Vicente,Guimaraes,0,1,3,3,0,0,0,0,18
+1231987,2025-04-12,P1,2024,Famalicao,Estoril,Famalicao,Estoril,0,3,1,3,0,0,0,0,18
+1231985,2025-04-12,P1,2024,Boavista,Nacional,Boavista,Nacional,0,3,1,3,1,0,0,0,17
+1231983,2025-04-12,P1,2024,Santa Clara,Sporting CP,Santa Clara,Sp Lisbon,3,1,0,2,0,0,0,0,18
+1231984,2025-04-12,P1,2024,Casa Pia,FC Porto,Casa Pia,Porto,1,1,0,2,0,0,0,0,14
+1231981,2025-04-13,P1,2024,Estrela,Farense,Estrela,Farense,1,0,0,0,0,0,0,0,13
+1231989,2025-04-13,P1,2024,SC Braga,AVS,Sp Braga,AVS,2,0,0,2,0,0,0,0,19
+1231986,2025-04-13,P1,2024,Benfica,Arouca,Benfica,Arouca,0,1,1,2,0,0,0,0,20
+1231982,2025-04-13,P1,2024,Moreirense,Rio Ave,Moreirense,Rio Ave,0,3,1,4,0,1,0,0,19
+1231993,2025-04-18,P1,2024,Sporting CP,Moreirense,Sp Lisbon,Moreirense,1,1,0,3,0,0,0,0,19
+1231990,2025-04-18,P1,2024,FC Porto,Famalicao,Porto,Famalicao,2,0,2,1,0,1,0,0,18
+1231994,2025-04-18,P1,2024,Rio Ave,Santa Clara,Rio Ave,Santa Clara,1,1,1,1,0,0,0,0,15
+1231998,2025-04-18,P1,2024,Farense,Boavista,Farense,Boavista,0,0,0,5,0,0,0,0,15
+1231995,2025-04-19,P1,2024,Nacional,GIL Vicente,Nacional,Gil Vicente,0,0,1,2,1,0,0,0,18
+1231991,2025-04-19,P1,2024,Arouca,Estrela,Arouca,Estrela,2,2,2,2,0,0,0,0,20
+1231996,2025-04-19,P1,2024,Estoril,SC Braga,Estoril,Sp Braga,0,1,0,0,0,0,0,0,13
+1231997,2025-04-19,P1,2024,Vitória SC,Benfica,Guimaraes,Benfica,0,0,2,4,0,0,0,0,19
+1231992,2025-04-19,P1,2024,AVS,Casa Pia,AVS,Casa Pia,2,5,1,1,0,0,0,0,21
+1232004,2025-04-25,P1,2024,Famalicao,SC Braga,Famalicao,Sp Braga,1,0,3,1,0,0,0,0,16
+1232006,2025-04-26,P1,2024,Santa Clara,Arouca,Santa Clara,Arouca,2,2,0,5,0,0,1,0,23
+1232005,2025-04-26,P1,2024,GIL Vicente,Farense,Gil Vicente,Farense,0,1,1,1,0,0,0,0,14
+1232000,2025-04-26,P1,2024,Estrela,FC Porto,Estrela,Porto,0,5,1,2,0,0,0,0,21
+1232001,2025-04-27,P1,2024,Moreirense,Nacional,Moreirense,Nacional,0,1,0,0,0,0,0,0,12
+1232003,2025-04-27,P1,2024,Vitória SC,Rio Ave,Guimaraes,Rio Ave,0,0,2,1,0,0,0,0,16
+1232007,2025-04-27,P1,2024,Benfica,AVS,Benfica,AVS,0,1,2,1,0,0,0,0,20
+1232002,2025-04-27,P1,2024,Boavista,Sporting CP,Boavista,Sp Lisbon,1,2,2,2,0,0,0,0,21
+1231999,2025-04-29,P1,2024,Casa Pia,Estoril,Casa Pia,Estoril,2,0,0,1,0,1,1,0,19
+1232011,2025-05-02,P1,2024,FC Porto,Moreirense,Porto,Moreirense,2,1,2,1,0,0,0,0,20
+1232008,2025-05-03,P1,2024,Farense,Famalicao,Farense,Famalicao,3,4,1,2,0,0,0,1,23
+1232014,2025-05-03,P1,2024,Nacional,Vitória SC,Nacional,Guimaraes,1,1,2,1,0,0,0,0,18
+1232012,2025-05-03,P1,2024,SC Braga,Santa Clara,Sp Braga,Santa Clara,0,0,0,6,0,0,0,0,17
+1232015,2025-05-03,P1,2024,Estoril,Benfica,Estoril,Benfica,0,2,1,1,0,0,0,0,15
+1232009,2025-05-04,P1,2024,Arouca,Casa Pia,Arouca,Casa Pia,2,0,1,5,0,1,1,1,20
+1232016,2025-05-04,P1,2024,Sporting CP,GIL Vicente,Sp Lisbon,Gil Vicente,2,1,1,2,0,0,0,0,21
+1232013,2025-05-05,P1,2024,Rio Ave,Estrela,Rio Ave,Estrela,3,1,2,4,0,0,0,0,23
+1232010,2025-05-05,P1,2024,AVS,Boavista,AVS,Boavista,2,2,0,2,0,0,0,0,17
+1232019,2025-05-10,P1,2024,Santa Clara,Famalicao,Santa Clara,Famalicao,5,2,0,2,0,1,1,0,22
+1232018,2025-05-10,P1,2024,Nacional,Rio Ave,Nacional,Rio Ave,0,1,1,3,0,0,0,0,22
+1232017,2025-05-10,P1,2024,Benfica,Sporting CP,Benfica,Sp Lisbon,1,4,1,1,0,0,1,0,20
+1232024,2025-05-10,P1,2024,Casa Pia,SC Braga,Casa Pia,Sp Braga,0,0,0,0,0,0,0,0,12
+1232023,2025-05-10,P1,2024,GIL Vicente,Arouca,Gil Vicente,Arouca,0,1,1,2,0,0,0,0,14
+1232021,2025-05-11,P1,2024,Boavista,FC Porto,Boavista,Porto,1,3,1,1,0,1,0,1,18
+1232022,2025-05-11,P1,2024,Vitória SC,Farense,Guimaraes,Farense,0,0,1,7,0,0,0,0,22
+1232020,2025-05-11,P1,2024,Estrela,AVS,Estrela,AVS,0,0,1,2,0,0,0,0,14
+1232025,2025-05-11,P1,2024,Moreirense,Estoril,Moreirense,Estoril,2,2,1,3,0,0,0,0,21
+1232030,2025-05-16,P1,2024,Famalicao,Casa Pia,Famalicao,Casa Pia,2,0,3,3,0,0,0,0,19
+1232033,2025-05-16,P1,2024,Rio Ave,GIL Vicente,Rio Ave,Gil Vicente,1,0,0,0,0,0,0,0,13
+1232028,2025-05-17,P1,2024,AVS,Moreirense,AVS,Moreirense,1,6,1,2,0,1,0,0,25
+1232027,2025-05-17,P1,2024,Arouca,Boavista,Arouca,Boavista,0,1,1,1,0,0,0,0,18
+1232026,2025-05-17,P1,2024,Farense,Santa Clara,Farense,Santa Clara,1,1,2,3,0,0,0,0,20
+1232034,2025-05-17,P1,2024,Estoril,Estrela,Estoril,Estrela,1,1,1,1,0,0,0,0,18
+1232032,2025-05-17,P1,2024,Sporting CP,Vitória SC,Sp Lisbon,Guimaraes,1,2,3,1,0,0,0,0,19
+1232031,2025-05-17,P1,2024,SC Braga,Benfica,Sp Braga,Benfica,0,4,2,0,0,1,0,0,20
+1232029,2025-05-17,P1,2024,FC Porto,Nacional,Porto,Nacional,1,0,3,4,0,0,0,1,24
+1376468,2025-05-24,P1,2024,AVS,Vizela,AVS,Vizela,0,2,1,3,0,0,0,0,19
+1376469,2025-06-01,P1,2024,Vizela,AVS,Vizela,AVS,0,2,3,1,0,0,0,0,19
