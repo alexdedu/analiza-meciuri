@@ -1,7 +1,212 @@
 fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,ar1,ar2,evenimente
+1220364,2024-07-12,ROU_Superliga,2024,Farul Constanta,Unirea Slobozia,Farul Constanta,Unirea Slobozia,2,0,1,2,0,0,0,0,16
+1220362,2024-07-12,ROU_Superliga,2024,AFC Hermannstadt,Universitatea Craiova,FC Hermannstadt,Univ. Craiova,0,1,1,0,0,0,0,0,11
+1220361,2024-07-13,ROU_Superliga,2024,Uta Arad,Rapid,UTA Arad,FC Rapid Bucuresti,0,3,0,3,0,0,0,0,19
+1220358,2024-07-13,ROU_Superliga,2024,Sepsi OSK Sfantu Gheorghe,Politehnica Iasi,Sepsi Sf. Gheorghe,Poli Iasi,0,0,0,1,0,0,0,0,12
+1220363,2024-07-13,ROU_Superliga,2024,FCSB,Universitatea Cluj,FCSB,U. Cluj,0,2,0,3,0,0,0,0,18
+1220360,2024-07-14,ROU_Superliga,2024,CFR 1907 Cluj,Dinamo Bucuresti,CFR Cluj,Dinamo Bucuresti,0,3,1,1,0,0,0,0,20
+1220359,2024-07-15,ROU_Superliga,2024,Petrolul Ploiesti,SCM Gloria Buzău,Petrolul,,1,1,1,1,0,0,0,0,13
+1220365,2024-07-15,ROU_Superliga,2024,FC Botosani,Oţelul,FC Botosani,Otelul,3,0,1,1,0,0,0,0,20
+1220373,2024-07-19,ROU_Superliga,2024,Politehnica Iasi,FC Botosani,Poli Iasi,FC Botosani,1,0,0,3,0,0,0,0,15
+1220371,2024-07-19,ROU_Superliga,2024,Unirea Slobozia,FCSB,Unirea Slobozia,FCSB,0,3,0,2,0,0,0,0,19
+1220369,2024-07-20,ROU_Superliga,2024,Universitatea Craiova,Uta Arad,Univ. Craiova,UTA Arad,0,0,0,0,0,0,0,0,16
+1220368,2024-07-20,ROU_Superliga,2024,Rapid,CFR 1907 Cluj,FC Rapid Bucuresti,CFR Cluj,0,1,0,0,0,0,0,0,14
+1220370,2024-07-21,ROU_Superliga,2024,Universitatea Cluj,AFC Hermannstadt,U. Cluj,FC Hermannstadt,0,1,0,1,0,0,0,0,17
+1220367,2024-07-21,ROU_Superliga,2024,Dinamo Bucuresti,Petrolul Ploiesti,Dinamo Bucuresti,Petrolul,1,1,1,1,0,0,0,0,19
+1220366,2024-07-22,ROU_Superliga,2024,SCM Gloria Buzău,Sepsi OSK Sfantu Gheorghe,,Sepsi Sf. Gheorghe,2,4,0,2,0,0,0,0,22
+1220372,2024-07-22,ROU_Superliga,2024,Oţelul,Farul Constanta,Otelul,Farul Constanta,0,1,0,0,0,0,0,0,11
+1220378,2024-07-26,ROU_Superliga,2024,AFC Hermannstadt,Unirea Slobozia,FC Hermannstadt,Unirea Slobozia,1,3,1,2,0,0,0,0,18
+1220379,2024-07-26,ROU_Superliga,2024,FCSB,Oţelul,FCSB,Otelul,0,2,0,0,0,0,0,0,14
+1220381,2024-07-27,ROU_Superliga,2024,Politehnica Iasi,SCM Gloria Buzău,Poli Iasi,,1,1,0,5,0,0,0,0,22
+1220374,2024-07-27,ROU_Superliga,2024,Sepsi OSK Sfantu Gheorghe,Dinamo Bucuresti,Sepsi Sf. Gheorghe,Dinamo Bucuresti,1,1,2,1,0,0,0,0,14
+1220380,2024-07-28,ROU_Superliga,2024,Farul Constanta,FC Botosani,Farul Constanta,FC Botosani,1,0,1,3,0,0,0,1,17
+1220376,2024-07-28,ROU_Superliga,2024,CFR 1907 Cluj,Universitatea Craiova,CFR Cluj,Univ. Craiova,3,1,0,4,1,0,0,0,22
+1220375,2024-07-29,ROU_Superliga,2024,Petrolul Ploiesti,Rapid,Petrolul,FC Rapid Bucuresti,2,0,0,0,0,0,0,1,13
+1220377,2024-07-29,ROU_Superliga,2024,Uta Arad,Universitatea Cluj,UTA Arad,U. Cluj,0,0,0,2,0,0,0,0,11
+1220386,2024-08-02,ROU_Superliga,2024,Oţelul,AFC Hermannstadt,Otelul,FC Hermannstadt,0,0,0,2,0,0,0,0,10
+1220388,2024-08-02,ROU_Superliga,2024,Dinamo Bucuresti,SCM Gloria Buzău,Dinamo Bucuresti,,0,1,1,0,0,0,0,0,17
+1220389,2024-08-03,ROU_Superliga,2024,Farul Constanta,Politehnica Iasi,Farul Constanta,Poli Iasi,1,1,1,1,0,0,0,0,16
+1220383,2024-08-04,ROU_Superliga,2024,Universitatea Craiova,Petrolul Ploiesti,Univ. Craiova,Petrolul,2,0,0,2,0,0,0,0,12
+1220504,2024-08-04,ROU_Superliga,2024,CFR 1907 Cluj,Universitatea Cluj,CFR Cluj,U. Cluj,0,0,0,4,0,0,0,0,18
+1220385,2024-08-05,ROU_Superliga,2024,Unirea Slobozia,Uta Arad,Unirea Slobozia,UTA Arad,0,2,2,2,0,0,0,0,17
+1220382,2024-08-05,ROU_Superliga,2024,Rapid,Sepsi OSK Sfantu Gheorghe,FC Rapid Bucuresti,Sepsi Sf. Gheorghe,0,2,0,1,0,0,0,0,17
+1220396,2024-08-09,ROU_Superliga,2024,FCSB,Farul Constanta,FCSB,Farul Constanta,0,1,0,3,0,0,0,0,20
+1220393,2024-08-10,ROU_Superliga,2024,Uta Arad,Oţelul,UTA Arad,Otelul,2,0,2,2,0,0,0,0,18
+1220395,2024-08-10,ROU_Superliga,2024,SCM Gloria Buzău,Rapid,,FC Rapid Bucuresti,1,1,0,0,0,0,0,0,14
+1220394,2024-08-10,ROU_Superliga,2024,AFC Hermannstadt,FC Botosani,FC Hermannstadt,FC Botosani,0,2,1,2,0,0,0,0,19
+1220390,2024-08-11,ROU_Superliga,2024,Sepsi OSK Sfantu Gheorghe,Universitatea Craiova,Sepsi Sf. Gheorghe,Univ. Craiova,1,0,1,4,0,0,0,1,19
+1220392,2024-08-11,ROU_Superliga,2024,CFR 1907 Cluj,Unirea Slobozia,CFR Cluj,Unirea Slobozia,0,2,0,2,0,0,0,0,18
+1220391,2024-08-12,ROU_Superliga,2024,Petrolul Ploiesti,Universitatea Cluj,Petrolul,U. Cluj,0,0,1,1,0,0,0,0,10
+1220397,2024-08-12,ROU_Superliga,2024,Politehnica Iasi,Dinamo Bucuresti,Poli Iasi,Dinamo Bucuresti,1,1,1,2,0,0,0,0,16
+1220402,2024-08-16,ROU_Superliga,2024,Universitatea Craiova,SCM Gloria Buzău,Univ. Craiova,,1,2,1,2,0,0,0,0,22
+1220399,2024-08-16,ROU_Superliga,2024,Unirea Slobozia,Petrolul Ploiesti,Unirea Slobozia,Petrolul,0,1,0,2,0,1,0,0,17
+1220405,2024-08-17,ROU_Superliga,2024,FCSB,Politehnica Iasi,FCSB,Poli Iasi,1,5,1,3,1,0,0,0,23
+1220401,2024-08-17,ROU_Superliga,2024,FC Botosani,Uta Arad,FC Botosani,UTA Arad,1,3,1,2,0,0,0,0,18
+1220404,2024-08-18,ROU_Superliga,2024,Rapid,Dinamo Bucuresti,FC Rapid Bucuresti,Dinamo Bucuresti,3,2,0,4,0,0,0,0,22
+1220403,2024-08-19,ROU_Superliga,2024,Farul Constanta,AFC Hermannstadt,Farul Constanta,FC Hermannstadt,0,1,0,2,0,0,0,0,19
+1220398,2024-08-19,ROU_Superliga,2024,Universitatea Cluj,Sepsi OSK Sfantu Gheorghe,U. Cluj,Sepsi Sf. Gheorghe,0,1,0,1,0,0,0,0,15
+1220413,2024-08-23,ROU_Superliga,2024,Politehnica Iasi,Rapid,Poli Iasi,FC Rapid Bucuresti,0,2,2,2,0,0,0,0,18
+1220407,2024-08-23,ROU_Superliga,2024,Petrolul Ploiesti,Oţelul,Petrolul,Otelul,0,0,1,2,0,0,0,0,11
+1220406,2024-08-24,ROU_Superliga,2024,Sepsi OSK Sfantu Gheorghe,Unirea Slobozia,Sepsi Sf. Gheorghe,Unirea Slobozia,2,2,1,3,0,1,0,0,22
+1220411,2024-08-24,ROU_Superliga,2024,Dinamo Bucuresti,Universitatea Craiova,Dinamo Bucuresti,Univ. Craiova,0,7,0,2,0,2,0,0,24
+1220408,2024-08-25,ROU_Superliga,2024,CFR 1907 Cluj,FC Botosani,CFR Cluj,FC Botosani,1,0,1,1,0,0,0,0,16
+1220412,2024-08-25,ROU_Superliga,2024,AFC Hermannstadt,FCSB,FC Hermannstadt,FCSB,0,0,0,1,0,0,0,0,14
+1220409,2024-08-26,ROU_Superliga,2024,SCM Gloria Buzău,Universitatea Cluj,,U. Cluj,2,1,1,2,0,0,0,0,18
+1220410,2024-08-26,ROU_Superliga,2024,Uta Arad,Farul Constanta,UTA Arad,Farul Constanta,0,3,0,3,0,0,0,0,18
+1220414,2024-08-30,ROU_Superliga,2024,Oţelul,Sepsi OSK Sfantu Gheorghe,Otelul,Sepsi Sf. Gheorghe,0,2,1,1,0,0,0,0,15
+1220421,2024-08-31,ROU_Superliga,2024,AFC Hermannstadt,Politehnica Iasi,FC Hermannstadt,Poli Iasi,0,0,2,0,0,0,0,0,21
+1220420,2024-08-31,ROU_Superliga,2024,Universitatea Craiova,Rapid,Univ. Craiova,FC Rapid Bucuresti,2,2,2,0,0,0,0,0,17
+1220415,2024-09-01,ROU_Superliga,2024,FC Botosani,Petrolul Ploiesti,FC Botosani,Petrolul,1,2,1,2,0,0,0,0,17
+1220417,2024-09-01,ROU_Superliga,2024,Farul Constanta,CFR 1907 Cluj,Farul Constanta,CFR Cluj,2,1,2,0,0,0,0,0,18
+1220419,2024-09-01,ROU_Superliga,2024,FCSB,Uta Arad,FCSB,UTA Arad,0,1,1,0,0,0,0,0,15
+1220418,2024-09-02,ROU_Superliga,2024,Universitatea Cluj,Dinamo Bucuresti,U. Cluj,Dinamo Bucuresti,0,3,0,3,0,0,0,0,15
+1220416,2024-09-02,ROU_Superliga,2024,Unirea Slobozia,SCM Gloria Buzău,Unirea Slobozia,,0,2,0,0,0,0,0,0,14
+1220425,2024-09-13,ROU_Superliga,2024,Dinamo Bucuresti,Unirea Slobozia,Dinamo Bucuresti,Unirea Slobozia,1,1,2,4,0,0,0,0,15
+1220422,2024-09-13,ROU_Superliga,2024,Sepsi OSK Sfantu Gheorghe,FC Botosani,Sepsi Sf. Gheorghe,FC Botosani,2,0,2,2,0,0,0,0,20
+1220423,2024-09-14,ROU_Superliga,2024,SCM Gloria Buzău,Oţelul,,Otelul,0,1,1,2,0,0,0,1,15
+1220424,2024-09-14,ROU_Superliga,2024,Petrolul Ploiesti,Farul Constanta,Petrolul,Farul Constanta,1,0,0,2,0,0,0,0,14
+1220429,2024-09-15,ROU_Superliga,2024,Politehnica Iasi,Universitatea Craiova,Poli Iasi,Univ. Craiova,0,4,0,2,0,0,0,0,19
+1220426,2024-09-15,ROU_Superliga,2024,CFR 1907 Cluj,FCSB,CFR Cluj,FCSB,0,2,1,0,0,0,0,0,17
+1220428,2024-09-16,ROU_Superliga,2024,Uta Arad,AFC Hermannstadt,UTA Arad,FC Hermannstadt,0,1,0,0,0,0,0,0,13
+1220427,2024-09-16,ROU_Superliga,2024,Rapid,Universitatea Cluj,FC Rapid Bucuresti,U. Cluj,1,1,1,1,0,0,0,0,16
+1220431,2024-09-20,ROU_Superliga,2024,FC Botosani,SCM Gloria Buzău,FC Botosani,,1,2,1,1,0,0,0,0,20
+1220432,2024-09-20,ROU_Superliga,2024,Oţelul,Dinamo Bucuresti,Otelul,Dinamo Bucuresti,1,0,0,0,0,0,0,0,14
+1220433,2024-09-21,ROU_Superliga,2024,FCSB,Petrolul Ploiesti,FCSB,Petrolul,3,3,2,2,1,0,0,0,22
+1220435,2024-09-21,ROU_Superliga,2024,AFC Hermannstadt,CFR 1907 Cluj,FC Hermannstadt,CFR Cluj,0,1,0,1,0,0,0,0,8
+1220430,2024-09-22,ROU_Superliga,2024,Farul Constanta,Sepsi OSK Sfantu Gheorghe,Farul Constanta,Sepsi Sf. Gheorghe,3,0,1,1,1,0,0,1,22
+1220436,2024-09-22,ROU_Superliga,2024,Universitatea Cluj,Universitatea Craiova,U. Cluj,Univ. Craiova,0,4,3,0,0,0,0,0,17
+1220437,2024-09-23,ROU_Superliga,2024,Uta Arad,Politehnica Iasi,UTA Arad,Poli Iasi,0,3,1,1,0,0,0,0,13
+1220434,2024-09-23,ROU_Superliga,2024,Unirea Slobozia,Rapid,Unirea Slobozia,FC Rapid Bucuresti,1,0,0,0,0,0,0,0,14
+1220442,2024-09-27,ROU_Superliga,2024,Petrolul Ploiesti,AFC Hermannstadt,Petrolul,FC Hermannstadt,0,0,0,0,0,0,0,0,15
+1220440,2024-09-27,ROU_Superliga,2024,Dinamo Bucuresti,FC Botosani,Dinamo Bucuresti,FC Botosani,1,5,0,1,0,1,0,0,22
+1220441,2024-09-28,ROU_Superliga,2024,Rapid,Oţelul,FC Rapid Bucuresti,Otelul,0,2,0,0,0,0,0,0,10
+1220444,2024-09-28,ROU_Superliga,2024,CFR 1907 Cluj,Uta Arad,CFR Cluj,UTA Arad,1,4,0,1,0,0,0,0,17
+1220445,2024-09-28,ROU_Superliga,2024,Politehnica Iasi,Universitatea Cluj,Poli Iasi,U. Cluj,1,2,0,4,0,0,0,0,17
+1220439,2024-09-29,ROU_Superliga,2024,SCM Gloria Buzău,Farul Constanta,,Farul Constanta,1,4,1,2,0,0,0,0,18
+1220438,2024-09-29,ROU_Superliga,2024,Sepsi OSK Sfantu Gheorghe,FCSB,Sepsi Sf. Gheorghe,FCSB,0,1,0,2,0,0,0,0,14
+1220443,2024-09-30,ROU_Superliga,2024,Universitatea Craiova,Unirea Slobozia,Univ. Craiova,Unirea Slobozia,0,2,1,2,0,0,0,1,19
+1220448,2024-10-04,ROU_Superliga,2024,Farul Constanta,Dinamo Bucuresti,Farul Constanta,Dinamo Bucuresti,0,2,1,3,0,0,0,0,17
+1220451,2024-10-04,ROU_Superliga,2024,Uta Arad,Petrolul Ploiesti,UTA Arad,Petrolul,0,2,1,3,1,0,0,0,20
+1220452,2024-10-05,ROU_Superliga,2024,Unirea Slobozia,Universitatea Cluj,Unirea Slobozia,U. Cluj,1,0,1,2,0,0,0,0,17
+1220453,2024-10-05,ROU_Superliga,2024,CFR 1907 Cluj,Politehnica Iasi,CFR Cluj,Poli Iasi,1,1,0,0,0,1,0,0,15
+1220450,2024-10-05,ROU_Superliga,2024,Oţelul,Universitatea Craiova,Otelul,Univ. Craiova,1,0,0,0,0,0,0,0,11
+1220446,2024-10-06,ROU_Superliga,2024,AFC Hermannstadt,Sepsi OSK Sfantu Gheorghe,FC Hermannstadt,Sepsi Sf. Gheorghe,0,3,1,2,0,0,0,0,21
+1220449,2024-10-06,ROU_Superliga,2024,FC Botosani,Rapid,FC Botosani,FC Rapid Bucuresti,0,5,0,0,0,0,0,0,17
+1220447,2024-10-06,ROU_Superliga,2024,FCSB,SCM Gloria Buzău,FCSB,,0,0,2,0,0,0,0,0,18
+1220455,2024-10-18,ROU_Superliga,2024,SCM Gloria Buzău,AFC Hermannstadt,,FC Hermannstadt,0,3,0,4,0,0,1,1,24
+1220459,2024-10-18,ROU_Superliga,2024,Universitatea Cluj,Oţelul,U. Cluj,Otelul,1,1,0,1,0,0,0,0,16
+1220454,2024-10-19,ROU_Superliga,2024,Sepsi OSK Sfantu Gheorghe,Uta Arad,Sepsi Sf. Gheorghe,UTA Arad,0,0,0,1,0,0,0,0,12
+1220460,2024-10-19,ROU_Superliga,2024,Petrolul Ploiesti,CFR 1907 Cluj,Petrolul,CFR Cluj,0,3,1,1,0,0,0,0,12
+1220458,2024-10-20,ROU_Superliga,2024,Universitatea Craiova,FC Botosani,Univ. Craiova,FC Botosani,0,0,0,2,0,0,0,0,11
+1220456,2024-10-20,ROU_Superliga,2024,Dinamo Bucuresti,FCSB,Dinamo Bucuresti,FCSB,0,1,1,3,0,0,0,0,17
+1220461,2024-10-21,ROU_Superliga,2024,Politehnica Iasi,Unirea Slobozia,Poli Iasi,Unirea Slobozia,0,2,1,0,0,0,0,0,15
+1220457,2024-10-21,ROU_Superliga,2024,Rapid,Farul Constanta,FC Rapid Bucuresti,Farul Constanta,2,3,2,1,0,1,0,1,26
+1220462,2024-10-25,ROU_Superliga,2024,CFR 1907 Cluj,Sepsi OSK Sfantu Gheorghe,CFR Cluj,Sepsi Sf. Gheorghe,0,1,0,2,0,0,0,0,18
+1220469,2024-10-26,ROU_Superliga,2024,Petrolul Ploiesti,Politehnica Iasi,Petrolul,Poli Iasi,2,2,0,2,0,0,1,0,20
+1220463,2024-10-26,ROU_Superliga,2024,Uta Arad,SCM Gloria Buzău,UTA Arad,,1,2,2,0,0,0,0,0,16
+1220464,2024-10-26,ROU_Superliga,2024,AFC Hermannstadt,Dinamo Bucuresti,FC Hermannstadt,Dinamo Bucuresti,1,0,1,1,0,0,0,0,13
+1220468,2024-10-27,ROU_Superliga,2024,Oţelul,Unirea Slobozia,Otelul,Unirea Slobozia,1,1,0,1,0,1,0,0,15
+1220465,2024-10-27,ROU_Superliga,2024,FCSB,Rapid,FCSB,FC Rapid Bucuresti,0,1,0,3,0,0,0,0,11
+1220467,2024-10-28,ROU_Superliga,2024,FC Botosani,Universitatea Cluj,FC Botosani,U. Cluj,1,0,0,2,0,1,0,0,18
+1220466,2024-10-28,ROU_Superliga,2024,Farul Constanta,Universitatea Craiova,Farul Constanta,Univ. Craiova,3,3,1,1,0,1,0,0,24
+1220471,2024-11-01,ROU_Superliga,2024,SCM Gloria Buzău,CFR 1907 Cluj,,CFR Cluj,1,0,2,3,0,0,0,0,15
+1220470,2024-11-02,ROU_Superliga,2024,Sepsi OSK Sfantu Gheorghe,Petrolul Ploiesti,Sepsi Sf. Gheorghe,Petrolul,3,1,2,0,2,0,0,0,15
+1220472,2024-11-02,ROU_Superliga,2024,Dinamo Bucuresti,Uta Arad,Dinamo Bucuresti,UTA Arad,0,1,0,3,0,0,0,0,14
+1220477,2024-11-03,ROU_Superliga,2024,Politehnica Iasi,Oţelul,Poli Iasi,Otelul,0,1,1,1,0,0,1,0,17
+1220475,2024-11-03,ROU_Superliga,2024,Universitatea Cluj,Farul Constanta,U. Cluj,Farul Constanta,0,1,0,3,0,0,0,0,15
+1220474,2024-11-03,ROU_Superliga,2024,Universitatea Craiova,FCSB,Univ. Craiova,FCSB,3,2,2,3,1,0,0,2,28
+1220476,2024-11-04,ROU_Superliga,2024,Unirea Slobozia,FC Botosani,Unirea Slobozia,FC Botosani,1,2,1,0,0,0,0,0,15
+1220473,2024-11-04,ROU_Superliga,2024,Rapid,AFC Hermannstadt,FC Rapid Bucuresti,FC Hermannstadt,1,0,0,1,0,0,0,1,13
+1220480,2024-11-08,ROU_Superliga,2024,Dinamo Bucuresti,CFR 1907 Cluj,Dinamo Bucuresti,CFR Cluj,1,2,1,0,0,0,0,0,15
+1220485,2024-11-08,ROU_Superliga,2024,Oţelul,FC Botosani,Otelul,FC Botosani,1,0,0,2,0,0,0,1,15
+1220481,2024-11-09,ROU_Superliga,2024,Rapid,Uta Arad,FC Rapid Bucuresti,UTA Arad,2,0,1,0,0,0,0,0,15
+1220478,2024-11-09,ROU_Superliga,2024,Politehnica Iasi,Sepsi OSK Sfantu Gheorghe,Poli Iasi,Sepsi Sf. Gheorghe,0,1,1,1,0,0,0,0,10
+1220482,2024-11-09,ROU_Superliga,2024,Universitatea Craiova,AFC Hermannstadt,Univ. Craiova,FC Hermannstadt,0,0,0,0,0,0,0,0,14
+1220483,2024-11-10,ROU_Superliga,2024,Universitatea Cluj,FCSB,U. Cluj,FCSB,1,3,1,3,0,0,0,1,21
+1220484,2024-11-10,ROU_Superliga,2024,Unirea Slobozia,Farul Constanta,Unirea Slobozia,Farul Constanta,1,1,0,1,0,0,0,0,11
+1220479,2024-11-11,ROU_Superliga,2024,SCM Gloria Buzău,Petrolul Ploiesti,,Petrolul,2,0,1,0,0,0,0,0,13
+1220400,2024-11-11,ROU_Superliga,2024,Oţelul,CFR 1907 Cluj,Otelul,CFR Cluj,1,3,0,4,0,0,0,0,17
+1220387,2024-11-21,ROU_Superliga,2024,FC Botosani,FCSB,FC Botosani,FCSB,0,3,1,2,0,0,0,0,15
+1220486,2024-11-22,ROU_Superliga,2024,Sepsi OSK Sfantu Gheorghe,SCM Gloria Buzău,Sepsi Sf. Gheorghe,,0,2,1,0,0,0,0,0,13
+1220492,2024-11-22,ROU_Superliga,2024,Farul Constanta,Oţelul,Farul Constanta,Otelul,2,1,3,0,0,0,0,0,14
+1220490,2024-11-23,ROU_Superliga,2024,AFC Hermannstadt,Universitatea Cluj,FC Hermannstadt,U. Cluj,1,2,2,1,0,0,0,0,16
+1220488,2024-11-23,ROU_Superliga,2024,CFR 1907 Cluj,Rapid,CFR Cluj,FC Rapid Bucuresti,0,0,1,0,0,0,0,0,11
+1220491,2024-11-24,ROU_Superliga,2024,FCSB,Unirea Slobozia,FCSB,Unirea Slobozia,0,1,0,2,0,0,0,0,17
+1220487,2024-11-24,ROU_Superliga,2024,Petrolul Ploiesti,Dinamo Bucuresti,Petrolul,Dinamo Bucuresti,1,0,1,1,0,0,0,0,12
+1220493,2024-11-25,ROU_Superliga,2024,FC Botosani,Politehnica Iasi,FC Botosani,Poli Iasi,1,1,0,0,0,0,0,0,14
+1220489,2024-11-25,ROU_Superliga,2024,Uta Arad,Universitatea Craiova,UTA Arad,Univ. Craiova,1,2,1,1,0,0,0,0,17
+1220500,2024-11-29,ROU_Superliga,2024,FC Botosani,Farul Constanta,FC Botosani,Farul Constanta,1,1,0,0,0,0,0,0,10
+1220495,2024-11-29,ROU_Superliga,2024,Rapid,Petrolul Ploiesti,FC Rapid Bucuresti,Petrolul,0,0,1,3,0,0,0,0,14
+1220494,2024-11-30,ROU_Superliga,2024,Dinamo Bucuresti,Sepsi OSK Sfantu Gheorghe,Dinamo Bucuresti,Sepsi Sf. Gheorghe,1,0,0,2,0,0,0,0,15
+1220498,2024-11-30,ROU_Superliga,2024,Unirea Slobozia,AFC Hermannstadt,Unirea Slobozia,FC Hermannstadt,0,1,1,2,0,0,0,0,15
+1220501,2024-11-30,ROU_Superliga,2024,SCM Gloria Buzău,Politehnica Iasi,,Poli Iasi,0,3,2,3,0,0,0,2,21
+1220496,2024-12-01,ROU_Superliga,2024,Universitatea Craiova,CFR 1907 Cluj,Univ. Craiova,CFR Cluj,2,1,1,3,0,0,0,0,18
+1220497,2024-12-02,ROU_Superliga,2024,Universitatea Cluj,Uta Arad,U. Cluj,UTA Arad,0,3,0,6,0,0,0,0,20
+1220499,2024-12-02,ROU_Superliga,2024,Oţelul,FCSB,Otelul,FCSB,0,2,1,1,0,0,0,0,19
+1220502,2024-12-06,ROU_Superliga,2024,Sepsi OSK Sfantu Gheorghe,Rapid,Sepsi Sf. Gheorghe,FC Rapid Bucuresti,0,1,1,1,0,0,0,0,15
+1220508,2024-12-07,ROU_Superliga,2024,SCM Gloria Buzău,Dinamo Bucuresti,,Dinamo Bucuresti,2,1,0,2,0,0,1,0,15
+1220503,2024-12-07,ROU_Superliga,2024,Petrolul Ploiesti,Universitatea Craiova,Petrolul,Univ. Craiova,1,2,0,2,0,0,0,0,18
+1220507,2024-12-08,ROU_Superliga,2024,FCSB,FC Botosani,FCSB,FC Botosani,0,0,0,3,0,0,0,0,15
+1220505,2024-12-08,ROU_Superliga,2024,Uta Arad,Unirea Slobozia,UTA Arad,Unirea Slobozia,0,2,2,1,0,0,0,0,22
+1220509,2024-12-08,ROU_Superliga,2024,Politehnica Iasi,Farul Constanta,Poli Iasi,Farul Constanta,1,1,0,2,0,0,0,0,17
+1220506,2024-12-09,ROU_Superliga,2024,AFC Hermannstadt,Oţelul,FC Hermannstadt,Otelul,2,2,1,0,0,0,0,0,17
+1220384,2024-12-09,ROU_Superliga,2024,Universitatea Cluj,CFR 1907 Cluj,U. Cluj,CFR Cluj,2,3,2,2,0,0,0,0,25
+1220514,2024-12-13,ROU_Superliga,2024,FC Botosani,AFC Hermannstadt,FC Botosani,FC Hermannstadt,0,2,1,0,0,0,0,0,16
+1220517,2024-12-13,ROU_Superliga,2024,Dinamo Bucuresti,Politehnica Iasi,Dinamo Bucuresti,Poli Iasi,0,0,1,0,0,0,0,0,12
+1220513,2024-12-14,ROU_Superliga,2024,Oţelul,Uta Arad,Otelul,UTA Arad,1,1,0,0,0,0,0,0,12
+1220510,2024-12-14,ROU_Superliga,2024,Universitatea Craiova,Sepsi OSK Sfantu Gheorghe,Univ. Craiova,Sepsi Sf. Gheorghe,0,2,1,0,0,0,0,0,14
+1220511,2024-12-14,ROU_Superliga,2024,Universitatea Cluj,Petrolul Ploiesti,U. Cluj,Petrolul,0,1,2,3,0,0,0,1,20
+1220512,2024-12-15,ROU_Superliga,2024,Unirea Slobozia,CFR 1907 Cluj,Unirea Slobozia,CFR Cluj,0,3,1,2,0,0,0,0,16
+1220516,2024-12-15,ROU_Superliga,2024,Farul Constanta,FCSB,Farul Constanta,FCSB,0,0,0,2,0,0,0,0,15
+1220515,2024-12-16,ROU_Superliga,2024,Rapid,SCM Gloria Buzău,FC Rapid Bucuresti,,0,0,1,3,0,0,0,0,17
+1220518,2024-12-20,ROU_Superliga,2024,Sepsi OSK Sfantu Gheorghe,Universitatea Cluj,Sepsi Sf. Gheorghe,U. Cluj,1,2,0,0,1,0,0,0,14
+1220523,2024-12-21,ROU_Superliga,2024,AFC Hermannstadt,Farul Constanta,FC Hermannstadt,Farul Constanta,1,1,0,3,0,0,0,0,14
+1220522,2024-12-21,ROU_Superliga,2024,SCM Gloria Buzău,Universitatea Craiova,,Univ. Craiova,0,1,0,3,0,0,0,0,14
+1220524,2024-12-22,ROU_Superliga,2024,Dinamo Bucuresti,Rapid,Dinamo Bucuresti,FC Rapid Bucuresti,3,2,2,1,0,1,0,1,17
+1220519,2024-12-22,ROU_Superliga,2024,Petrolul Ploiesti,Unirea Slobozia,Petrolul,Unirea Slobozia,1,1,1,0,0,0,0,0,14
+1220520,2024-12-22,ROU_Superliga,2024,CFR 1907 Cluj,Oţelul,CFR Cluj,Otelul,0,1,0,1,0,0,0,0,17
+1220521,2024-12-23,ROU_Superliga,2024,Uta Arad,FC Botosani,UTA Arad,FC Botosani,0,1,2,3,0,0,0,0,17
+1220525,2024-12-23,ROU_Superliga,2024,Politehnica Iasi,FCSB,Poli Iasi,FCSB,0,1,0,0,0,0,0,0,8
+1220526,2025-01-17,ROU_Superliga,2024,Unirea Slobozia,Sepsi OSK Sfantu Gheorghe,Unirea Slobozia,Sepsi Sf. Gheorghe,0,0,0,1,0,0,0,0,14
+1220532,2025-01-17,ROU_Superliga,2024,FCSB,AFC Hermannstadt,FCSB,FC Hermannstadt,0,3,0,1,0,0,0,0,13
+1220529,2025-01-18,ROU_Superliga,2024,Universitatea Cluj,SCM Gloria Buzău,U. Cluj,,1,0,0,2,0,0,0,0,15
+1220527,2025-01-18,ROU_Superliga,2024,Oţelul,Petrolul Ploiesti,Otelul,Petrolul,0,2,1,0,0,0,0,0,7
+1220528,2025-01-19,ROU_Superliga,2024,FC Botosani,CFR 1907 Cluj,FC Botosani,CFR Cluj,1,1,0,2,0,0,0,0,16
+1220531,2025-01-19,ROU_Superliga,2024,Universitatea Craiova,Dinamo Bucuresti,Univ. Craiova,Dinamo Bucuresti,0,2,1,1,0,0,0,0,13
+1220533,2025-01-20,ROU_Superliga,2024,Rapid,Politehnica Iasi,FC Rapid Bucuresti,Poli Iasi,0,2,2,1,0,0,0,0,15
+1220530,2025-01-20,ROU_Superliga,2024,Farul Constanta,Uta Arad,Farul Constanta,UTA Arad,0,1,1,2,0,1,0,1,18
+1220536,2025-01-24,ROU_Superliga,2024,SCM Gloria Buzău,Unirea Slobozia,,Unirea Slobozia,1,0,0,0,0,0,0,0,12
+1220538,2025-01-24,ROU_Superliga,2024,Dinamo Bucuresti,Universitatea Cluj,Dinamo Bucuresti,U. Cluj,2,0,2,1,0,0,0,0,13
+1220541,2025-01-25,ROU_Superliga,2024,Politehnica Iasi,AFC Hermannstadt,Poli Iasi,FC Hermannstadt,0,1,1,3,0,0,0,0,17
+1220540,2025-01-25,ROU_Superliga,2024,Rapid,Universitatea Craiova,FC Rapid Bucuresti,Univ. Craiova,2,0,1,1,0,0,0,0,13
+1220539,2025-01-26,ROU_Superliga,2024,Uta Arad,FCSB,UTA Arad,FCSB,0,2,0,2,0,0,0,0,15
+1220534,2025-01-26,ROU_Superliga,2024,Sepsi OSK Sfantu Gheorghe,Oţelul,Sepsi Sf. Gheorghe,Otelul,0,0,0,1,0,0,0,0,11
+1220537,2025-01-27,ROU_Superliga,2024,CFR 1907 Cluj,Farul Constanta,CFR Cluj,Farul Constanta,0,0,0,0,0,0,0,0,15
+1220535,2025-01-27,ROU_Superliga,2024,Petrolul Ploiesti,FC Botosani,Petrolul,FC Botosani,2,1,0,0,0,0,0,0,17
+1220548,2025-01-31,ROU_Superliga,2024,AFC Hermannstadt,Uta Arad,FC Hermannstadt,UTA Arad,0,0,1,1,0,0,0,0,10
+1220545,2025-01-31,ROU_Superliga,2024,Unirea Slobozia,Dinamo Bucuresti,Unirea Slobozia,Dinamo Bucuresti,0,0,1,0,0,0,0,0,14
+1220542,2025-02-01,ROU_Superliga,2024,FC Botosani,Sepsi OSK Sfantu Gheorghe,FC Botosani,Sepsi Sf. Gheorghe,2,0,2,1,0,1,0,0,16
+1220543,2025-02-01,ROU_Superliga,2024,Oţelul,SCM Gloria Buzău,Otelul,,2,2,0,1,0,0,0,0,16
+1220547,2025-02-01,ROU_Superliga,2024,Universitatea Cluj,Rapid,U. Cluj,FC Rapid Bucuresti,2,2,1,3,0,0,0,0,18
+1220549,2025-02-02,ROU_Superliga,2024,Universitatea Craiova,Politehnica Iasi,Univ. Craiova,Poli Iasi,1,0,0,1,0,0,0,0,14
+1220546,2025-02-02,ROU_Superliga,2024,FCSB,CFR 1907 Cluj,FCSB,CFR Cluj,0,4,0,2,0,1,0,0,18
+1220544,2025-02-03,ROU_Superliga,2024,Farul Constanta,Petrolul Ploiesti,Farul Constanta,Petrolul,1,3,0,2,0,0,0,0,17
+1220552,2025-02-04,ROU_Superliga,2024,Dinamo Bucuresti,Oţelul,Dinamo Bucuresti,Otelul,0,1,1,1,0,0,0,0,13
+1220551,2025-02-04,ROU_Superliga,2024,SCM Gloria Buzău,FC Botosani,,FC Botosani,0,0,0,0,0,0,0,0,12
+1220554,2025-02-04,ROU_Superliga,2024,Rapid,Unirea Slobozia,FC Rapid Bucuresti,Unirea Slobozia,0,4,0,6,0,0,0,0,22
+1220555,2025-02-05,ROU_Superliga,2024,CFR 1907 Cluj,AFC Hermannstadt,CFR Cluj,FC Hermannstadt,0,1,0,2,0,0,0,0,14
+1220556,2025-02-05,ROU_Superliga,2024,Universitatea Craiova,Universitatea Cluj,Univ. Craiova,U. Cluj,1,5,4,2,0,0,0,1,24
+1220557,2025-02-06,ROU_Superliga,2024,Politehnica Iasi,Uta Arad,Poli Iasi,UTA Arad,2,3,0,0,0,0,0,0,12
+1220550,2025-02-06,ROU_Superliga,2024,Sepsi OSK Sfantu Gheorghe,Farul Constanta,Sepsi Sf. Gheorghe,Farul Constanta,0,1,1,1,0,0,0,0,13
+1220553,2025-02-06,ROU_Superliga,2024,Petrolul Ploiesti,FCSB,Petrolul,FCSB,1,0,0,0,0,0,0,0,7
+1220560,2025-02-07,ROU_Superliga,2024,FC Botosani,Dinamo Bucuresti,FC Botosani,Dinamo Bucuresti,0,0,1,2,0,0,0,0,14
+1220563,2025-02-08,ROU_Superliga,2024,Unirea Slobozia,Universitatea Craiova,Unirea Slobozia,Univ. Craiova,2,0,0,1,0,0,0,0,11
+1220561,2025-02-08,ROU_Superliga,2024,Oţelul,Rapid,Otelul,FC Rapid Bucuresti,0,3,0,2,0,0,0,0,14
 1220558,2025-02-09,ROU_Superliga,2024,FCSB,Sepsi OSK Sfantu Gheorghe,FCSB,Sepsi Sf. Gheorghe,0,1,0,0,0,0,0,0,15
-1220559,2025-02-10,ROU_Superliga,2024,Farul Constanta,SCM Gloria Buzău,Farul Constanta,,2,2,3,0,0,0,0,0,15
+1220565,2025-02-09,ROU_Superliga,2024,Universitatea Cluj,Politehnica Iasi,U. Cluj,Poli Iasi,1,1,0,0,0,0,0,0,15
+1220562,2025-02-09,ROU_Superliga,2024,AFC Hermannstadt,Petrolul Ploiesti,FC Hermannstadt,Petrolul,1,3,0,0,0,0,0,0,15
 1220564,2025-02-10,ROU_Superliga,2024,Uta Arad,CFR 1907 Cluj,UTA Arad,CFR Cluj,0,1,0,0,0,0,0,0,16
+1220559,2025-02-10,ROU_Superliga,2024,Farul Constanta,SCM Gloria Buzău,Farul Constanta,,2,2,3,0,0,0,0,0,15
 1220566,2025-02-14,ROU_Superliga,2024,Sepsi OSK Sfantu Gheorghe,AFC Hermannstadt,Sepsi Sf. Gheorghe,FC Hermannstadt,0,1,1,1,0,0,0,0,18
 1220570,2025-02-14,ROU_Superliga,2024,Universitatea Craiova,Oţelul,Univ. Craiova,Otelul,1,2,2,1,0,0,0,0,15
 1220571,2025-02-15,ROU_Superliga,2024,Petrolul Ploiesti,Uta Arad,Petrolul,UTA Arad,0,1,0,3,0,0,0,0,13
@@ -12,8 +217,8 @@ fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,a
 1220569,2025-02-17,ROU_Superliga,2024,Rapid,FC Botosani,FC Rapid Bucuresti,FC Botosani,0,1,1,3,0,0,0,0,15
 1220575,2025-02-21,ROU_Superliga,2024,AFC Hermannstadt,SCM Gloria Buzău,FC Hermannstadt,,1,0,1,2,0,0,0,0,16
 1220579,2025-02-21,ROU_Superliga,2024,Oţelul,Universitatea Cluj,Otelul,U. Cluj,0,0,0,1,0,0,0,0,9
-1220578,2025-02-22,ROU_Superliga,2024,FC Botosani,Universitatea Craiova,FC Botosani,Univ. Craiova,0,1,0,1,0,0,0,0,15
 1220580,2025-02-22,ROU_Superliga,2024,CFR 1907 Cluj,Petrolul Ploiesti,CFR Cluj,Petrolul,1,0,0,2,0,0,0,0,14
+1220578,2025-02-22,ROU_Superliga,2024,FC Botosani,Universitatea Craiova,FC Botosani,Univ. Craiova,0,1,0,1,0,0,0,0,15
 1220576,2025-02-23,ROU_Superliga,2024,FCSB,Dinamo Bucuresti,FCSB,Dinamo Bucuresti,1,0,1,1,0,0,0,0,16
 1220581,2025-02-23,ROU_Superliga,2024,Unirea Slobozia,Politehnica Iasi,Unirea Slobozia,Poli Iasi,1,0,2,0,0,0,0,0,11
 1220577,2025-02-24,ROU_Superliga,2024,Farul Constanta,Rapid,Farul Constanta,FC Rapid Bucuresti,0,0,0,1,0,0,0,0,16
@@ -26,24 +231,24 @@ fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,a
 1220585,2025-03-02,ROU_Superliga,2024,Rapid,FCSB,FC Rapid Bucuresti,FCSB,2,2,3,3,0,0,1,0,18
 1220583,2025-03-03,ROU_Superliga,2024,SCM Gloria Buzău,Uta Arad,,UTA Arad,1,2,1,2,0,0,0,0,18
 1220584,2025-03-03,ROU_Superliga,2024,Dinamo Bucuresti,AFC Hermannstadt,Dinamo Bucuresti,FC Hermannstadt,2,0,1,2,0,0,0,0,16
-1220597,2025-03-07,ROU_Superliga,2024,Oţelul,Politehnica Iasi,Otelul,Poli Iasi,0,1,0,0,0,1,1,0,16
 1220595,2025-03-07,ROU_Superliga,2024,Farul Constanta,Universitatea Cluj,Farul Constanta,U. Cluj,0,1,1,3,0,0,0,0,13
+1220597,2025-03-07,ROU_Superliga,2024,Oţelul,Politehnica Iasi,Otelul,Poli Iasi,0,1,0,0,0,1,1,0,16
 1220593,2025-03-08,ROU_Superliga,2024,AFC Hermannstadt,Rapid,FC Hermannstadt,FC Rapid Bucuresti,1,0,0,1,0,0,0,0,12
 1220590,2025-03-08,ROU_Superliga,2024,Petrolul Ploiesti,Sepsi OSK Sfantu Gheorghe,Petrolul,Sepsi Sf. Gheorghe,1,0,1,1,0,0,0,0,12
 1220591,2025-03-09,ROU_Superliga,2024,CFR 1907 Cluj,SCM Gloria Buzău,CFR Cluj,,0,0,1,1,0,0,0,0,18
 1220594,2025-03-09,ROU_Superliga,2024,FCSB,Universitatea Craiova,FCSB,Univ. Craiova,1,3,2,3,0,1,0,0,18
 1220596,2025-03-10,ROU_Superliga,2024,FC Botosani,Unirea Slobozia,FC Botosani,Unirea Slobozia,1,2,0,1,0,1,0,0,16
 1220592,2025-03-10,ROU_Superliga,2024,Uta Arad,Dinamo Bucuresti,UTA Arad,Dinamo Bucuresti,0,1,2,0,0,0,0,0,14
-1360164,2025-03-14,ROU_Superliga,2024,Petrolul Ploiesti,FC Botosani,Petrolul,FC Botosani,1,1,2,1,0,0,0,0,17
 1360134,2025-03-14,ROU_Superliga,2024,Universitatea Craiova,Universitatea Cluj,Univ. Craiova,U. Cluj,1,4,0,2,0,0,0,0,20
-1360165,2025-03-15,ROU_Superliga,2024,Farul Constanta,Politehnica Iasi,Farul Constanta,Poli Iasi,0,1,0,0,0,0,0,0,10
+1360164,2025-03-14,ROU_Superliga,2024,Petrolul Ploiesti,FC Botosani,Petrolul,FC Botosani,1,1,2,1,0,0,0,0,17
 1360135,2025-03-15,ROU_Superliga,2024,CFR 1907 Cluj,Dinamo Bucuresti,CFR Cluj,Dinamo Bucuresti,0,2,0,1,0,0,0,0,15
+1360165,2025-03-15,ROU_Superliga,2024,Farul Constanta,Politehnica Iasi,Farul Constanta,Poli Iasi,0,1,0,0,0,0,0,0,10
 1360166,2025-03-16,ROU_Superliga,2024,AFC Hermannstadt,Unirea Slobozia,FC Hermannstadt,Unirea Slobozia,0,0,1,0,0,0,0,0,13
 1360167,2025-03-16,ROU_Superliga,2024,Uta Arad,Oţelul,UTA Arad,Otelul,0,1,1,2,0,0,0,0,16
 1360136,2025-03-16,ROU_Superliga,2024,FCSB,Rapid,FCSB,FC Rapid Bucuresti,1,4,1,4,0,0,0,1,26
 1360168,2025-03-17,ROU_Superliga,2024,Sepsi OSK Sfantu Gheorghe,SCM Gloria Buzău,Sepsi Sf. Gheorghe,,0,0,1,2,0,0,0,0,15
-1360173,2025-03-28,ROU_Superliga,2024,Sepsi OSK Sfantu Gheorghe,AFC Hermannstadt,Sepsi Sf. Gheorghe,FC Hermannstadt,1,1,1,1,0,0,0,0,16
 1360172,2025-03-28,ROU_Superliga,2024,Unirea Slobozia,Petrolul Ploiesti,Unirea Slobozia,Petrolul,3,1,1,2,0,1,0,1,17
+1360173,2025-03-28,ROU_Superliga,2024,Sepsi OSK Sfantu Gheorghe,AFC Hermannstadt,Sepsi Sf. Gheorghe,FC Hermannstadt,1,1,1,1,0,0,0,0,16
 1360139,2025-03-29,ROU_Superliga,2024,Rapid,Universitatea Craiova,FC Rapid Bucuresti,Univ. Craiova,0,3,0,2,1,0,0,0,18
 1360171,2025-03-29,ROU_Superliga,2024,FC Botosani,Farul Constanta,FC Botosani,Farul Constanta,0,4,1,1,0,0,0,0,23
 1360170,2025-03-30,ROU_Superliga,2024,Politehnica Iasi,Uta Arad,Poli Iasi,UTA Arad,0,2,1,2,0,0,0,0,19
@@ -56,8 +261,8 @@ fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,a
 1360140,2025-04-05,ROU_Superliga,2024,FCSB,Universitatea Cluj,FCSB,U. Cluj,0,1,0,2,0,0,0,0,14
 1360174,2025-04-06,ROU_Superliga,2024,AFC Hermannstadt,SCM Gloria Buzău,FC Hermannstadt,,1,1,3,0,0,0,0,0,14
 1360142,2025-04-06,ROU_Superliga,2024,Rapid,Dinamo Bucuresti,FC Rapid Bucuresti,Dinamo Bucuresti,1,3,0,2,0,0,0,0,16
-1360176,2025-04-07,ROU_Superliga,2024,Farul Constanta,Unirea Slobozia,Farul Constanta,Unirea Slobozia,0,0,1,2,0,0,0,0,15
 1360141,2025-04-07,ROU_Superliga,2024,CFR 1907 Cluj,Universitatea Craiova,CFR Cluj,Univ. Craiova,0,4,1,2,0,0,0,1,18
+1360176,2025-04-07,ROU_Superliga,2024,Farul Constanta,Unirea Slobozia,Farul Constanta,Unirea Slobozia,0,0,1,2,0,0,0,0,15
 1360179,2025-04-11,ROU_Superliga,2024,SCM Gloria Buzău,Politehnica Iasi,,Poli Iasi,0,1,0,1,0,0,0,0,12
 1360183,2025-04-11,ROU_Superliga,2024,AFC Hermannstadt,Petrolul Ploiesti,FC Hermannstadt,Petrolul,1,1,1,5,0,0,0,0,16
 1360182,2025-04-12,ROU_Superliga,2024,Sepsi OSK Sfantu Gheorghe,Farul Constanta,Sepsi Sf. Gheorghe,Farul Constanta,1,2,2,1,0,0,0,0,21
@@ -74,10 +279,10 @@ fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,a
 1360188,2025-04-20,ROU_Superliga,2024,Politehnica Iasi,FC Botosani,Poli Iasi,FC Botosani,0,0,0,2,0,0,0,0,15
 1360147,2025-04-21,ROU_Superliga,2024,Dinamo Bucuresti,Universitatea Craiova,Dinamo Bucuresti,Univ. Craiova,0,2,1,0,0,0,0,0,14
 1360184,2025-04-21,ROU_Superliga,2024,Petrolul Ploiesti,SCM Gloria Buzău,Petrolul,,1,1,2,3,0,0,0,0,21
-1360190,2025-04-25,ROU_Superliga,2024,Unirea Slobozia,Politehnica Iasi,Unirea Slobozia,Poli Iasi,0,1,2,4,0,1,0,1,22
 1360191,2025-04-25,ROU_Superliga,2024,Sepsi OSK Sfantu Gheorghe,Oţelul,Sepsi Sf. Gheorghe,Otelul,2,1,0,1,0,0,0,0,17
-1360192,2025-04-26,ROU_Superliga,2024,AFC Hermannstadt,Uta Arad,FC Hermannstadt,UTA Arad,0,0,1,2,0,0,0,0,16
+1360190,2025-04-25,ROU_Superliga,2024,Unirea Slobozia,Politehnica Iasi,Unirea Slobozia,Poli Iasi,0,1,2,4,0,1,0,1,22
 1360151,2025-04-26,ROU_Superliga,2024,Universitatea Cluj,Universitatea Craiova,U. Cluj,Univ. Craiova,2,5,1,3,0,0,0,0,22
+1360192,2025-04-26,ROU_Superliga,2024,AFC Hermannstadt,Uta Arad,FC Hermannstadt,UTA Arad,0,0,1,2,0,0,0,0,16
 1360189,2025-04-27,ROU_Superliga,2024,SCM Gloria Buzău,FC Botosani,,FC Botosani,2,0,0,3,0,0,0,0,17
 1360149,2025-04-27,ROU_Superliga,2024,Rapid,FCSB,FC Rapid Bucuresti,FCSB,2,2,1,2,0,0,0,0,17
 1360193,2025-04-28,ROU_Superliga,2024,Petrolul Ploiesti,Farul Constanta,Petrolul,Farul Constanta,1,1,0,1,0,0,0,0,13
@@ -92,12 +297,12 @@ fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,a
 1360152,2025-05-05,ROU_Superliga,2024,FCSB,Dinamo Bucuresti,FCSB,Dinamo Bucuresti,0,0,2,3,0,0,0,0,16
 1360199,2025-05-09,ROU_Superliga,2024,SCM Gloria Buzău,Unirea Slobozia,,Unirea Slobozia,2,1,0,1,0,0,0,0,15
 1360200,2025-05-09,ROU_Superliga,2024,Sepsi OSK Sfantu Gheorghe,FC Botosani,Sepsi Sf. Gheorghe,FC Botosani,2,0,2,2,0,0,0,0,17
+1360156,2025-05-10,ROU_Superliga,2024,Universitatea Craiova,CFR 1907 Cluj,Univ. Craiova,CFR Cluj,0,1,0,4,0,0,0,0,19
 1360203,2025-05-10,ROU_Superliga,2024,Farul Constanta,Uta Arad,Farul Constanta,UTA Arad,0,2,0,2,0,0,1,0,18
 1360201,2025-05-10,ROU_Superliga,2024,AFC Hermannstadt,Politehnica Iasi,FC Hermannstadt,Poli Iasi,0,1,1,1,0,0,0,0,14
-1360156,2025-05-10,ROU_Superliga,2024,Universitatea Craiova,CFR 1907 Cluj,Univ. Craiova,CFR Cluj,0,1,0,4,0,0,0,0,19
 1360155,2025-05-11,ROU_Superliga,2024,Universitatea Cluj,FCSB,U. Cluj,FCSB,0,0,3,0,0,0,0,0,15
-1360202,2025-05-12,ROU_Superliga,2024,Petrolul Ploiesti,Oţelul,Petrolul,Otelul,0,3,1,2,0,0,0,0,20
 1360157,2025-05-12,ROU_Superliga,2024,Dinamo Bucuresti,Rapid,Dinamo Bucuresti,FC Rapid Bucuresti,0,2,1,2,0,0,0,0,14
+1360202,2025-05-12,ROU_Superliga,2024,Petrolul Ploiesti,Oţelul,Petrolul,Otelul,0,3,1,2,0,0,0,0,20
 1360205,2025-05-16,ROU_Superliga,2024,Oţelul,Farul Constanta,Otelul,Farul Constanta,0,2,1,1,0,0,0,0,14
 1360159,2025-05-16,ROU_Superliga,2024,Dinamo Bucuresti,Universitatea Cluj,Dinamo Bucuresti,U. Cluj,0,1,0,3,0,0,0,1,17
 1360204,2025-05-17,ROU_Superliga,2024,Uta Arad,SCM Gloria Buzău,UTA Arad,,0,1,0,1,0,0,0,0,12

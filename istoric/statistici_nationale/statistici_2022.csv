@@ -1,155 +1,403 @@
 fixture_id,date,competition,home,away,hc,ac,hy,ay,hr,ar,statistici
+852087,2022-03-25,FRIENDLY,Trinidad and Tobago,Barbados,0,0,0,0,0,0,0
+708854,2022-03-25,WCQ_CONCACAF,Panama,Honduras,6,2,1,4,0,0,2
+847814,2022-03-25,FRIENDLY,France,Ivory Coast,0,0,0,0,0,0,0
+824913,2022-03-25,FRIENDLY,Bosnia & Herzegovina,Georgia,0,0,0,0,0,0,0
+847826,2022-03-25,FRIENDLY,andorra,St. Kitts and Nevis,0,0,0,0,0,0,0
+848010,2022-03-26,FRIENDLY,Niger,Libya,0,0,0,0,0,0,0
+848011,2022-03-26,FRIENDLY,Mauritania,Mozambique,0,0,0,0,0,0,0
+821424,2022-03-26,FRIENDLY,Spain,Albania,0,0,0,0,0,0,0
+828608,2022-03-26,FRIENDLY,Qatar,Bulgaria,0,0,0,0,0,0,0
+829111,2022-03-26,FRIENDLY,Gibraltar,Faroe Islands,0,0,0,0,0,0,0
+847836,2022-03-26,FRIENDLY,Bahrain,Burundi,0,0,0,0,0,0,0
+847815,2022-03-26,FRIENDLY,Croatia,Slovenia,0,0,0,0,0,0,0
+826024,2022-03-26,FRIENDLY,England,Switzerland,0,0,0,0,0,0,0
+822698,2022-03-26,FRIENDLY,Finland,Iceland,0,0,0,0,0,0,0
+847835,2022-03-26,FRIENDLY,Singapore,Malaysia,0,0,0,0,0,0,0
+852226,2022-03-26,FRIENDLY,Guinea-Bissau,Angola,0,0,0,0,0,0,0
+825231,2022-03-26,FRIENDLY,Netherlands,Denmark,0,0,0,0,0,0,0
+847827,2022-03-26,FRIENDLY,India,Belarus,0,0,0,0,0,0,0
+821423,2022-03-26,FRIENDLY,Germany,Israel,0,0,0,0,0,0,0
+851314,2022-03-26,FRIENDLY,Sudan,Central African Republic,0,0,0,0,0,0,0
+828605,2022-03-26,FRIENDLY,Rep. Of Ireland,Belgium,0,0,0,0,0,0,0
+847816,2022-03-27,FRIENDLY,Thailand,Suriname,0,0,0,0,0,0,0
+853309,2022-03-27,WCQ_OFC,Solomon Islands,Papua New Guinea,0,0,0,0,0,0,0
+853310,2022-03-27,WCQ_OFC,New Zealand,Tahiti,0,0,0,0,0,0,0
+708859,2022-03-27,WCQ_CONCACAF,El Salvador,Costa Rica,9,3,2,0,0,0,2
+708860,2022-03-27,WCQ_CONCACAF,USA,Panama,3,2,2,3,0,0,2
+708857,2022-03-27,WCQ_CONCACAF,Canada,Jamaica,9,0,0,1,0,0,2
+847828,2022-03-27,FRIENDLY,Guatemala,Haiti,0,0,0,0,0,0,0
+850214,2022-03-27,FRIENDLY,Liberia,Sierra Leone,0,0,0,0,0,0,0
+852240,2022-03-27,AFCONQ,Mauritius,Sao Tome and Principe,0,0,0,0,0,0,0
+853289,2022-03-27,FRIENDLY,Zambia,Benin,0,0,0,0,0,0,0
+849946,2022-03-27,FRIENDLY,Laos,Brunei,0,0,0,0,0,0,0
+852234,2022-03-27,AFCONQ,South Sudan,Djibouti,0,0,0,0,0,0,0
+852236,2022-03-27,AFCONQ,Eswatini,Somalia,0,0,0,0,0,0,0
+852232,2022-03-27,AFCONQ,Lesotho,Seychelles,0,0,0,0,0,0,0
+852089,2022-03-27,FRIENDLY,Guyana,Barbados,0,0,0,0,0,0,0
+708858,2022-03-27,WCQ_CONCACAF,Honduras,Mexico,0,9,3,2,0,0,2
+852088,2022-03-28,FRIENDLY,Belize,Cuba,0,0,0,0,0,0,0
+851151,2022-03-28,FRIENDLY,San Marino,Cape Verde Islands,0,0,0,0,0,0,0
+847829,2022-03-28,FRIENDLY,andorra,Grenada,0,0,0,0,0,0,0
+825232,2022-03-28,FRIENDLY,Montenegro,Greece,0,0,0,0,0,0,0
+828184,2022-03-29,WCQ_AFR,Algeria,Cameroon,13,3,3,3,0,0,2
+828188,2022-03-29,WCQ_AFR,Morocco,Congo DR,2,6,3,3,0,0,2
+853951,2022-03-29,FRIENDLY,Tajikistan,Kyrgyzstan,0,0,0,0,0,0,0
+847837,2022-03-29,FRIENDLY,Bangladesh,Mongolia,0,0,0,0,0,0,0
+849766,2022-03-29,FRIENDLY,Liberia,Burundi,0,0,0,0,0,0,0
+850216,2022-03-29,FRIENDLY,Singapore,Philippines,0,0,0,0,0,0,0
+852227,2022-03-29,FRIENDLY,Congo,Sierra Leone,0,0,0,0,0,0,0
+828606,2022-03-29,FRIENDLY,Croatia,Bulgaria,6,4,3,2,1,1,2
+853287,2022-03-29,WCQ_EUR,Poland,Sweden,8,7,4,2,0,0,2
+810185,2022-03-29,NL,Cyprus,Estonia,3,0,2,2,1,0,2
+810183,2022-03-29,NL,Kazakhstan,Moldova,4,10,3,5,0,0,2
+721259,2022-03-29,WCQ_ASIA,Oman,China,0,7,1,2,0,0,2
+721258,2022-03-29,WCQ_ASIA,Saudi Arabia,Australia,3,5,0,0,0,0,2
+828607,2022-03-29,FRIENDLY,Rep. Of Ireland,Lithuania,10,3,0,2,0,0,2
+721256,2022-03-29,WCQ_ASIA,Syria,Iraq,3,9,1,0,0,0,2
+852621,2022-03-29,FRIENDLY,Austria,Scotland,11,2,0,0,0,0,2
+825235,2022-03-29,FRIENDLY,Northern Ireland,Hungary,3,3,4,3,0,0,2
+825234,2022-03-29,FRIENDLY,Denmark,Serbia,5,9,0,0,0,0,2
+850215,2022-03-29,FRIENDLY,Togo,Benin,0,0,0,0,0,0,0
+853953,2022-03-29,FRIENDLY,Equatorial Guinea,Angola,0,0,0,0,0,0,0
+850211,2022-03-29,FRIENDLY,Tanzania,Sudan,0,0,0,0,0,0,0
+824917,2022-03-29,FRIENDLY,Albania,Georgia,7,1,2,4,0,0,2
+847817,2022-03-29,FRIENDLY,Belgium,Burkina Faso,4,4,0,3,0,0,2
+826025,2022-03-29,FRIENDLY,Switzerland,Kosovo,7,7,0,2,0,0,2
+829112,2022-03-29,FRIENDLY,Liechtenstein,Faroe Islands,2,2,3,2,0,0,2
+821421,2022-03-29,FRIENDLY,Qatar,Slovenia,6,2,0,1,0,0,2
+853288,2022-03-29,WCQ_EUR,Portugal,FYR Macedonia,7,3,1,2,0,0,2
+821425,2022-03-29,FRIENDLY,Israel,Romania,12,3,1,2,0,0,2
+821427,2022-03-29,FRIENDLY,Norway,Armenia,10,2,1,1,0,1,2
+847831,2022-03-29,FRIENDLY,Bahrain,Belarus,2,3,1,1,0,0,2
+852622,2022-03-29,FRIENDLY,Wales,Czechia,2,3,0,0,0,0,2
+847818,2022-03-29,FRIENDLY,France,South Africa,6,0,1,2,0,1,2
+848012,2022-03-29,FRIENDLY,Mauritania,Libya,0,0,0,0,0,0,0
+721255,2022-03-29,WCQ_ASIA,United Arab Emirates,South Korea,0,16,1,2,0,0,2
+853952,2022-03-29,FRIENDLY,Uzbekistan,Uganda,0,0,0,0,0,0,0
+821429,2022-03-29,FRIENDLY,Spain,Iceland,7,1,0,0,0,0,2
+852620,2022-03-29,FRIENDLY,Türkiye,Italy,6,4,1,1,0,0,2
+821428,2022-03-29,FRIENDLY,Finland,Slovakia,5,5,0,3,0,0,2
+721257,2022-03-29,WCQ_ASIA,Japan,Vietnam,6,2,1,1,0,0,2
+827602,2022-03-29,FRIENDLY,England,Ivory Coast,7,2,0,2,0,1,2
+847830,2022-03-29,FRIENDLY,Azerbaijan,Latvia,2,4,3,2,1,1,2
+825233,2022-03-29,FRIENDLY,Netherlands,Germany,6,4,2,1,0,0,2
+828186,2022-03-29,WCQ_AFR,Nigeria,Ghana,6,2,1,4,0,0,2
+828190,2022-03-29,WCQ_AFR,Tunisia,Mali,2,1,1,2,0,0,2
+828182,2022-03-29,WCQ_AFR,Senegal,Egypt,10,2,2,5,0,0,2
+852238,2022-03-29,AFCONQ,Gambia,Chad,0,0,0,0,0,0,0
+721254,2022-03-29,WCQ_ASIA,Iran,Lebanon,5,0,1,2,0,0,2
+824914,2022-03-29,FRIENDLY,Bosnia & Herzegovina,Luxembourg,2,3,1,3,0,0,2
+847832,2022-03-29,FRIENDLY,Malta,Kuwait,4,3,0,2,0,0,2
+293664,2022-03-30,WCQ_SAM,Chile,Uruguay,5,10,2,1,0,0,2
+293661,2022-03-30,WCQ_SAM,Bolivia,Brazil,6,2,2,0,0,0,2
+293662,2022-03-30,WCQ_SAM,Ecuador,Argentina,6,2,5,3,0,0,2
+293663,2022-03-30,WCQ_SAM,Peru,Paraguay,2,2,1,2,0,0,2
+293665,2022-03-30,WCQ_SAM,Venezuela,Colombia,7,5,1,1,0,0,2
+853976,2022-03-30,WCQ_OFC,Solomon Islands,New Zealand,0,0,0,0,0,0,0
+852090,2022-03-30,FRIENDLY,Trinidad and Tobago,Guyana,0,0,0,0,0,0,0
+708863,2022-03-31,WCQ_CONCACAF,Mexico,El Salvador,8,2,1,4,0,0,2
+708862,2022-03-31,WCQ_CONCACAF,Jamaica,Honduras,3,6,4,1,0,0,2
+708861,2022-03-31,WCQ_CONCACAF,Panama,Canada,7,3,6,2,0,0,2
+708864,2022-03-31,WCQ_CONCACAF,Costa Rica,USA,3,12,2,0,0,0,2
+857609,2022-04-24,FRIENDLY,El Salvador,Guatemala,0,0,0,0,0,0,0
+847819,2022-04-28,FRIENDLY,Mexico,Guatemala,0,0,0,0,0,0,0
+861637,2022-05-12,FRIENDLY,Dominica,St. Vincent / Grenadines,0,0,0,0,0,0,0
+862049,2022-05-13,FRIENDLY,Bahamas,Turks and Caicos Islands,0,0,0,0,0,0,0
+862050,2022-05-14,FRIENDLY,Bahamas,Turks and Caicos Islands,0,0,0,0,0,0,0
+861638,2022-05-15,FRIENDLY,Dominica,St. Vincent / Grenadines,0,0,0,0,0,0,0
+862530,2022-05-24,FRIENDLY,Mozambique,Eswatini,0,0,0,0,0,0,0
+862599,2022-05-27,FRIENDLY,Bahrain,Myanmar,0,0,0,0,0,0,0
+861481,2022-05-27,FRIENDLY,Thailand,Turkmenistan,0,0,0,0,0,0,0
+862600,2022-05-27,FRIENDLY,Malaysia,Brunei,0,0,0,0,0,0,0
+863036,2022-05-28,FRIENDLY,Timor-Leste,Nepal,0,0,0,0,0,0,0
+861492,2022-05-28,FRIENDLY,India,Jordan,0,0,0,0,0,0,0
+863035,2022-05-28,FRIENDLY,Ethiopia,Lesotho,0,0,0,0,0,0,0
+861636,2022-05-29,FRIENDLY,United Arab Emirates,Gambia,0,0,0,0,0,0,0
+857896,2022-05-29,FRIENDLY,Mexico,Nigeria,0,0,0,0,0,0,0
+861482,2022-05-31,FRIENDLY,Thailand,Bahrain,0,0,0,0,0,0,0
+863037,2022-05-31,FRIENDLY,Ethiopia,Lesotho,0,0,0,0,0,0,0
+864085,2022-06-01,FRIENDLY,Syria,Tajikistan,0,0,0,0,0,0,0
+859123,2022-06-01,AFCONQ,Ghana,Madagascar,0,0,0,0,0,0,0
+861764,2022-06-01,FRIENDLY,Kuwait,Singapore,0,0,0,0,0,0,0
+859134,2022-06-01,AFCONQ,Libya,Botswana,0,0,0,0,0,0,0
+859124,2022-06-01,AFCONQ,Angola,Central African Republic,0,0,0,0,0,0,0
+863033,2022-06-01,FRIENDLY,Malta,Venezuela,0,0,0,0,0,0,0
+862597,2022-06-01,FRIENDLY,Indonesia,Bangladesh,0,0,0,0,0,0,0
+821430,2022-06-01,FRIENDLY,Italy,Argentina,0,0,0,0,0,0,0
+813707,2022-06-01,WCQ_EUR,Scotland,Ukraine,5,6,2,3,0,0,2
+858424,2022-06-01,FRIENDLY,USA,Morocco,0,0,0,0,0,0,0
+861493,2022-06-01,FRIENDLY,Vietnam,Afghanistan,8,5,0,0,0,0,2
+854582,2022-06-01,NL,Poland,Wales,3,4,1,2,0,0,2
+861483,2022-06-01,FRIENDLY,Australia,Jordan,0,0,0,0,0,0,0
+857611,2022-06-01,FRIENDLY,Malaysia,Hong Kong,5,2,2,1,0,0,2
+854676,2022-06-02,NL,Bulgaria,FYR Macedonia,1,5,2,2,0,0,2
+863038,2022-06-02,FRIENDLY,Cambodia,Timor-Leste,0,0,0,0,0,0,0
+856826,2022-06-02,CONCACAF_NL,Belize,Dominican Republic,0,0,0,0,0,0,0
+861485,2022-06-02,FRIENDLY,South Korea,Brazil,0,0,0,0,0,0,0
+861484,2022-06-02,FRIENDLY,Japan,Paraguay,0,0,0,0,0,0,0
+854578,2022-06-02,NL,Spain,Portugal,5,5,3,5,0,0,2
+854627,2022-06-02,NL,Serbia,Norway,12,0,1,2,0,0,2
+854721,2022-06-02,NL,Estonia,San Marino,4,1,0,2,0,0,2
+854673,2022-06-02,NL,Georgia,Gibraltar,8,0,2,3,0,0,2
+854674,2022-06-02,NL,Northern Ireland,Greece,2,1,2,2,0,0,2
+859138,2022-06-02,AFCONQ,Mozambique,Rwanda,0,0,0,0,0,0,0
+856872,2022-06-02,CONCACAF_NL,Anguilla,Dominica,0,0,0,0,0,0,0
+856800,2022-06-02,CONCACAF_NL,Panama,Costa Rica,0,0,0,0,0,0,0
+856824,2022-06-02,CONCACAF_NL,Barbados,Antigua and Barbuda,0,0,0,0,0,0,0
+854675,2022-06-02,NL,Cyprus,Kosovo,5,5,1,4,0,0,2
+854626,2022-06-02,NL,Israel,Iceland,3,5,1,3,0,0,2
+854628,2022-06-02,NL,Slovenia,Sweden,2,4,2,3,0,0,2
+859133,2022-06-02,AFCONQ,Tunisia,Equatorial Guinea,0,0,0,0,0,0,0
+854577,2022-06-02,NL,Czechia,Switzerland,3,8,2,2,0,0,2
+856825,2022-06-03,CONCACAF_NL,Guadeloupe,Cuba,0,0,0,0,0,0,0
+856876,2022-06-03,CONCACAF_NL,British Virgin Islands,Cayman Islands,0,0,0,0,0,0,0
+854579,2022-06-03,NL,Croatia,Austria,7,4,1,1,0,0,2
+854580,2022-06-03,NL,France,Denmark,2,2,0,1,0,0,2
+854722,2022-06-03,NL,Latvia,Andorra,5,1,0,0,0,0,2
+857608,2022-06-03,FRIENDLY,Mexico,Uruguay,1,4,2,1,0,0,2
+854581,2022-06-03,NL,Belgium,Netherlands,10,4,1,1,0,0,2
+856873,2022-06-03,CONCACAF_NL,Sint Maarten,US Virgin Islands,0,0,0,0,0,0,0
+854713,2022-06-03,NL,Belarus,Slovakia,3,9,1,2,0,0,2
+854723,2022-06-03,NL,Liechtenstein,Moldova,1,4,3,2,0,0,2
+856827,2022-06-03,CONCACAF_NL,French Guyana,Guatemala,0,0,0,0,0,0,0
+863039,2022-06-03,FRIENDLY,Nepal,Oman,0,0,0,0,0,0,0
+854677,2022-06-03,NL,Kazakhstan,Azerbaijan,2,4,3,1,0,0,2
+859117,2022-06-03,AFCONQ,Burkina Faso,Cape Verde Islands,0,0,0,0,0,0,0
+859130,2022-06-03,AFCONQ,Comoros,Lesotho,0,0,0,0,0,0,0
+859118,2022-06-03,AFCONQ,Togo,Eswatini,0,0,0,0,0,0,0
+859129,2022-06-03,AFCONQ,Ivory Coast,Zambia,0,0,0,0,0,0,0
+856874,2022-06-03,CONCACAF_NL,Turks and Caicos Islands,Bonaire,0,0,0,0,0,0,0
+858020,2022-06-03,FRIENDLY,Ecuador,Nigeria,2,11,0,0,0,0,2
+856875,2022-06-03,CONCACAF_NL,Saint Martin,Aruba,0,0,0,0,0,0,0
+856828,2022-06-03,CONCACAF_NL,Bahamas,St. Vincent / Grenadines,0,0,0,0,0,0,0
+856801,2022-06-04,CONCACAF_NL,Curaçao,Honduras,0,0,0,0,0,0,0
+856802,2022-06-04,CONCACAF_NL,Suriname,Jamaica,0,0,0,0,0,0,0
+859127,2022-06-04,AFCONQ,Mali,Congo,0,0,0,0,0,0,0
+859120,2022-06-04,AFCONQ,Namibia,Burundi,0,0,0,0,0,0,0
+854630,2022-06-04,NL,Finland,Bosnia & Herzegovina,5,7,4,2,0,0,2
+859126,2022-06-04,AFCONQ,Niger,Tanzania,0,0,0,0,0,0,0
+859132,2022-06-04,AFCONQ,Mauritania,Sudan,0,0,0,0,0,0,0
+859137,2022-06-04,AFCONQ,Senegal,Benin,0,0,0,0,0,0,0
+859125,2022-06-04,AFCONQ,Algeria,Uganda,0,0,0,0,0,0,0
+859131,2022-06-04,AFCONQ,Congo DR,Gabon,0,0,0,0,0,0,0
+854584,2022-06-04,NL,Italy,Germany,3,3,5,3,0,0,2
+856831,2022-06-04,CONCACAF_NL,Bermuda,Haiti,0,0,0,0,0,0,0
+854637,2022-06-04,NL,Armenia,Rep. Of Ireland,2,6,1,2,0,0,2
+856830,2022-06-04,CONCACAF_NL,Montserrat,Guyana,0,0,0,0,0,0,0
+859128,2022-06-04,AFCONQ,Gambia,South Sudan,0,0,0,0,0,0,0
+854632,2022-06-04,NL,Montenegro,Romania,4,3,2,1,0,0,2
+854680,2022-06-04,NL,Türkiye,Faroe Islands,4,0,2,2,0,0,2
+854679,2022-06-04,NL,Lithuania,Luxembourg,6,10,4,1,0,0,2
+854583,2022-06-04,NL,Hungary,England,3,6,2,2,0,0,2
+856829,2022-06-04,CONCACAF_NL,Nicaragua,Trinidad and Tobago,0,0,0,0,0,0,0
+856834,2022-06-05,CONCACAF_NL,Guatemala,Belize,0,0,0,0,0,0,0
+856832,2022-06-05,CONCACAF_NL,Cuba,Barbados,0,0,0,0,0,0,0
+856833,2022-06-05,CONCACAF_NL,Antigua and Barbuda,Guadeloupe,0,0,0,0,0,0,0
+864476,2022-06-05,WCQ_EUR,Wales,Ukraine,4,7,2,2,0,0,2
+854586,2022-06-05,NL,Portugal,Switzerland,6,5,1,3,0,0,2
+854684,2022-06-05,NL,Bulgaria,Georgia,5,6,2,0,0,0,2
+854683,2022-06-05,NL,Kosovo,Greece,4,5,4,2,2,0,2
+856835,2022-06-05,CONCACAF_NL,Dominican Republic,French Guyana,0,0,0,0,0,0,0
+854585,2022-06-05,NL,Czechia,Spain,3,8,1,1,0,0,2
+856807,2022-06-05,CONCACAF_NL,El Salvador,Grenada,0,0,0,0,0,0,0
+859158,2022-06-05,AFCONQ,Botswana,Tunisia,0,0,0,0,0,0,0
+861486,2022-06-05,FRIENDLY,Saudi Arabia,Colombia,0,0,0,0,0,0,0
+864291,2022-06-05,FRIENDLY,Argentina,Estonia,0,0,0,0,0,0,0
+857897,2022-06-05,FRIENDLY,Mexico,Ecuador,0,0,0,0,0,0,0
+859036,2022-06-05,FRIENDLY,Peru,New Zealand,0,0,0,0,0,0,0
+856804,2022-06-05,CONCACAF_NL,Costa Rica,Martinique,0,0,0,0,0,0,0
+860181,2022-06-05,FRIENDLY,USA,Uruguay,4,4,0,0,0,0,2
+859122,2022-06-05,AFCONQ,Malawi,Ethiopia,0,0,0,0,0,0,0
+854633,2022-06-05,NL,Serbia,Slovenia,4,0,1,1,0,0,2
+859148,2022-06-05,AFCONQ,Central African Republic,Ghana,0,0,0,0,0,0,0
+859121,2022-06-05,AFCONQ,Egypt,Guinea,0,0,0,0,0,0,0
+854681,2022-06-05,NL,Cyprus,Northern Ireland,2,4,1,2,0,0,2
+859147,2022-06-05,AFCONQ,Madagascar,Angola,0,0,0,0,0,0,0
+854682,2022-06-05,NL,Gibraltar,FYR Macedonia,2,5,0,1,0,0,2
+854634,2022-06-05,NL,Sweden,Norway,10,4,5,1,0,0,2
+856877,2022-06-05,CONCACAF_NL,Dominica,Anguilla,0,0,0,0,0,0,0
+854724,2022-06-05,NL,San Marino,Malta,2,4,2,3,0,0,2
+854686,2022-06-06,NL,Slovakia,Kazakhstan,5,4,4,6,0,0,2
+854726,2022-06-06,NL,Andorra,Moldova,2,6,2,4,0,1,2
+860591,2022-06-06,FRIENDLY,Japan,Brazil,0,0,0,0,0,0,0
+856837,2022-06-06,CONCACAF_NL,St. Vincent / Grenadines,Nicaragua,0,0,0,0,0,0,0
+854588,2022-06-06,NL,Croatia,France,4,6,1,1,0,0,2
+854725,2022-06-06,NL,Latvia,Liechtenstein,9,2,1,1,0,0,2
+856878,2022-06-06,CONCACAF_NL,Bonaire,Sint Maarten,0,0,0,0,0,0,0
+859157,2022-06-06,AFCONQ,Equatorial Guinea,Libya,0,0,0,0,0,0,0
+854587,2022-06-06,NL,Austria,Denmark,6,5,0,2,0,0,2
+856879,2022-06-06,CONCACAF_NL,US Virgin Islands,Turks and Caicos Islands,0,0,0,0,0,0,0
+854635,2022-06-06,NL,Iceland,Albania,4,7,1,1,0,0,2
+856880,2022-06-06,CONCACAF_NL,Aruba,Saint Martin,0,0,0,0,0,0,0
+856881,2022-06-06,CONCACAF_NL,Cayman Islands,British Virgin Islands,0,0,0,0,0,0,0
+861487,2022-06-06,FRIENDLY,South Korea,Chile,0,0,0,0,0,0,0
+854685,2022-06-06,NL,Belarus,Azerbaijan,1,5,4,4,0,1,2
 854591,2022-06-07,NL,Germany,England,5,8,1,0,0,0,2
+859141,2022-06-07,AFCONQ,Eswatini,Burkina Faso,0,0,0,0,0,0,0
+854688,2022-06-07,NL,Lithuania,Türkiye,1,6,4,2,0,0,2
+854640,2022-06-07,NL,Finland,Montenegro,7,2,0,1,0,0,2
+854592,2022-06-07,NL,Italy,Hungary,8,6,2,1,0,0,2
+859142,2022-06-07,AFCONQ,Cape Verde Islands,Togo,0,0,0,0,0,0,0
+856803,2022-06-07,CONCACAF_NL,Grenada,El Salvador,0,0,0,0,0,0,0
+859153,2022-06-07,AFCONQ,Zambia,Comoros,0,0,0,0,0,0,0
+854639,2022-06-07,NL,Bosnia & Herzegovina,Romania,9,3,2,1,0,0,2
+859162,2022-06-07,AFCONQ,Rwanda,Senegal,0,0,0,0,0,0,0
+854571,2022-06-07,WCQ_ASIA,United Arab Emirates,Australia,2,5,1,1,0,0,2
+856838,2022-06-07,CONCACAF_NL,Haiti,Montserrat,0,0,0,0,0,0,0
+856836,2022-06-07,CONCACAF_NL,Trinidad and Tobago,Bahamas,0,0,0,0,0,0,0
+856805,2022-06-07,CONCACAF_NL,Honduras,Curaçao,0,0,0,0,0,0,0
+854687,2022-06-07,NL,Faroe Islands,Luxembourg,2,3,2,0,2,0,2
 856839,2022-06-07,CONCACAF_NL,Guyana,Bermuda,0,0,0,0,0,0,0
+844544,2022-06-08,ASIANQ,Kuwait,Indonesia,0,0,0,0,0,0,0
+844552,2022-06-08,ASIANQ,Turkmenistan,Malaysia,0,0,0,0,0,0,0
+844548,2022-06-08,ASIANQ,Thailand,Maldives,0,0,0,0,0,0,0
 859149,2022-06-08,AFCONQ,Uganda,Niger,0,0,0,0,0,0,0
 844550,2022-06-08,ASIANQ,Hong Kong,Afghanistan,0,0,0,0,0,0,0
 859151,2022-06-08,AFCONQ,Congo,Gambia,0,0,0,0,0,0,0
 844551,2022-06-08,ASIANQ,Bahrain,Bangladesh,0,0,0,0,0,0,0
-844552,2022-06-08,ASIANQ,Turkmenistan,Malaysia,0,0,0,0,0,0,0
 862930,2022-06-08,ASIANQ,Tajikistan,Myanmar,0,0,0,0,0,0,0
 859155,2022-06-08,AFCONQ,Gabon,Mauritania,0,0,0,0,0,0,0
 859156,2022-06-08,AFCONQ,Sudan,Congo DR,0,0,0,0,0,0,0
-859161,2022-06-08,AFCONQ,Benin,Mozambique,0,0,0,0,0,0,0
 844549,2022-06-08,ASIANQ,India,Cambodia,0,0,0,0,0,0,0
-844548,2022-06-08,ASIANQ,Thailand,Maldives,0,0,0,0,0,0,0
-862931,2022-06-08,ASIANQ,Kyrgyzstan,Singapore,0,0,0,0,0,0,0
 844545,2022-06-08,ASIANQ,Palestine,Mongolia,0,0,0,0,0,0,0
+859161,2022-06-08,AFCONQ,Benin,Mozambique,0,0,0,0,0,0,0
 854629,2022-06-08,NL,Scotland,Armenia,9,0,1,3,0,0,2
 859150,2022-06-08,AFCONQ,Tanzania,Algeria,0,0,0,0,0,0,0
 844543,2022-06-08,ASIANQ,Jordan,Nepal,0,0,0,0,0,0,0
-856806,2022-06-08,CONCACAF_NL,Jamaica,Suriname,0,0,0,0,0,0,0
 844547,2022-06-08,ASIANQ,Uzbekistan,Sri Lanka,0,0,0,0,0,0,0
 854589,2022-06-08,NL,Belgium,Poland,7,1,1,1,0,0,2
-844544,2022-06-08,ASIANQ,Kuwait,Indonesia,0,0,0,0,0,0,0
 854590,2022-06-08,NL,Wales,Netherlands,4,5,0,1,0,0,2
 844546,2022-06-08,ASIANQ,Philippines,Yemen,0,0,0,0,0,0,0
 854631,2022-06-08,NL,Rep. Of Ireland,Ukraine,6,4,1,1,0,0,2
-859135,2022-06-09,AFCONQ,Morocco,South Africa,0,0,0,0,0,0,0
-859154,2022-06-09,AFCONQ,Lesotho,Ivory Coast,0,0,0,0,0,0,0
-859145,2022-06-09,AFCONQ,Guinea,Malawi,0,0,0,0,0,0,0
-859146,2022-06-09,AFCONQ,Ethiopia,Egypt,0,0,0,0,0,0,0
+856806,2022-06-08,CONCACAF_NL,Jamaica,Suriname,0,0,0,0,0,0,0
+862931,2022-06-08,ASIANQ,Kyrgyzstan,Singapore,0,0,0,0,0,0,0
 856882,2022-06-09,CONCACAF_NL,Aruba,St. Kitts and Nevis,0,0,0,0,0,0,0
-859152,2022-06-09,AFCONQ,South Sudan,Mali,0,0,0,0,0,0,0
-863034,2022-06-09,FRIENDLY,Oman,New Zealand,0,0,0,0,0,0,0
+859154,2022-06-09,AFCONQ,Lesotho,Ivory Coast,0,0,0,0,0,0,0
+854689,2022-06-09,NL,Kosovo,Northern Ireland,2,6,3,2,0,0,2
+859146,2022-06-09,AFCONQ,Ethiopia,Egypt,0,0,0,0,0,0,0
+859145,2022-06-09,AFCONQ,Guinea,Malawi,0,0,0,0,0,0,0
+861763,2022-06-09,FRIENDLY,San Marino,Iceland,0,0,0,0,0,0,0
 861488,2022-06-09,FRIENDLY,Saudi Arabia,Venezuela,0,0,0,0,0,0,0
 856841,2022-06-09,CONCACAF_NL,Barbados,Guadeloupe,0,0,0,0,0,0,0
 859116,2022-06-09,AFCONQ,Guinea-Bissau,Sao Tome and Principe,0,0,0,0,0,0,0
+859152,2022-06-09,AFCONQ,South Sudan,Mali,0,0,0,0,0,0,0
+859135,2022-06-09,AFCONQ,Morocco,South Africa,0,0,0,0,0,0,0
+863034,2022-06-09,FRIENDLY,Oman,New Zealand,0,0,0,0,0,0,0
 856840,2022-06-09,CONCACAF_NL,Antigua and Barbuda,Cuba,0,0,0,0,0,0,0
-854689,2022-06-09,NL,Kosovo,Northern Ireland,2,6,3,2,0,0,2
-859115,2022-06-09,AFCONQ,Nigeria,Sierra Leone,0,0,0,0,0,0,0
-854641,2022-06-09,NL,Norway,Slovenia,9,1,1,2,0,1,2
 854642,2022-06-09,NL,Sweden,Serbia,3,5,2,4,0,0,2
-854690,2022-06-09,NL,Greece,Cyprus,3,2,1,1,0,0,2
-854727,2022-06-09,NL,Malta,Estonia,3,7,1,2,0,0,2
-854692,2022-06-09,NL,FYR Macedonia,Georgia,3,3,3,3,0,0,2
-854691,2022-06-09,NL,Gibraltar,Bulgaria,6,8,4,3,0,0,2
+859115,2022-06-09,AFCONQ,Nigeria,Sierra Leone,0,0,0,0,0,0,0
 854593,2022-06-09,NL,Portugal,Czechia,8,4,4,2,0,0,2
-861763,2022-06-09,FRIENDLY,San Marino,Iceland,0,0,0,0,0,0,0
-854594,2022-06-09,NL,Switzerland,Spain,3,1,4,0,0,0,2
-859144,2022-06-09,AFCONQ,Burundi,Cameroon,0,0,0,0,0,0,0
-856883,2022-06-09,CONCACAF_NL,Dominica,St. Lucia,0,0,0,0,0,0,0
+854641,2022-06-09,NL,Norway,Slovenia,9,1,1,2,0,1,2
 856844,2022-06-09,CONCACAF_NL,Belize,French Guyana,0,0,0,0,0,0,0
+856883,2022-06-09,CONCACAF_NL,Dominica,St. Lucia,0,0,0,0,0,0,0
+854594,2022-06-09,NL,Switzerland,Spain,3,1,4,0,0,0,2
 856884,2022-06-09,CONCACAF_NL,Cayman Islands,Puerto Rico,0,0,0,0,0,0,0
-854595,2022-06-10,NL,Austria,France,3,10,4,0,0,0,2
-856809,2022-06-10,CONCACAF_NL,Canada,Curaçao,0,0,0,0,0,0,0
-854596,2022-06-10,NL,Denmark,Croatia,8,3,2,2,0,0,2
-856842,2022-06-10,CONCACAF_NL,St. Vincent / Grenadines,Trinidad and Tobago,0,0,0,0,0,0,0
-854643,2022-06-10,NL,Albania,Israel,6,5,2,4,0,0,2
-854728,2022-06-10,NL,Andorra,Liechtenstein,8,1,2,3,0,0,2
-856843,2022-06-10,CONCACAF_NL,Bahamas,Nicaragua,0,0,0,0,0,0,0
-856812,2022-06-10,CONCACAF_NL,Panama,Martinique,0,0,0,0,0,0,0
+854691,2022-06-09,NL,Gibraltar,Bulgaria,6,8,4,3,0,0,2
+854727,2022-06-09,NL,Malta,Estonia,3,7,1,2,0,0,2
+854690,2022-06-09,NL,Greece,Cyprus,3,2,1,1,0,0,2
+854692,2022-06-09,NL,FYR Macedonia,Georgia,3,3,3,3,0,0,2
+859144,2022-06-09,AFCONQ,Burundi,Cameroon,0,0,0,0,0,0,0
 861489,2022-06-10,FRIENDLY,South Korea,Paraguay,0,0,0,0,0,0,0
-856845,2022-06-10,CONCACAF_NL,Dominican Republic,Guatemala,0,0,0,0,0,0,0
-854729,2022-06-10,NL,Moldova,Latvia,6,11,1,2,0,0,2
-854693,2022-06-10,NL,Azerbaijan,Slovakia,4,6,2,4,0,0,2
 854694,2022-06-10,NL,Belarus,Kazakhstan,11,4,1,1,0,0,2
+854693,2022-06-10,NL,Azerbaijan,Slovakia,4,6,2,4,0,0,2
+854729,2022-06-10,NL,Moldova,Latvia,6,11,1,2,0,0,2
+856845,2022-06-10,CONCACAF_NL,Dominican Republic,Guatemala,0,0,0,0,0,0,0
+856812,2022-06-10,CONCACAF_NL,Panama,Martinique,0,0,0,0,0,0,0
+856843,2022-06-10,CONCACAF_NL,Bahamas,Nicaragua,0,0,0,0,0,0,0
+854643,2022-06-10,NL,Albania,Israel,6,5,2,4,0,0,2
+856842,2022-06-10,CONCACAF_NL,St. Vincent / Grenadines,Trinidad and Tobago,0,0,0,0,0,0,0
+854596,2022-06-10,NL,Denmark,Croatia,8,3,2,2,0,0,2
+856809,2022-06-10,CONCACAF_NL,Canada,Curaçao,0,0,0,0,0,0,0
+854595,2022-06-10,NL,Austria,France,3,10,4,0,0,0,2
+854728,2022-06-10,NL,Andorra,Liechtenstein,8,1,2,3,0,0,2
 854696,2022-06-11,NL,Luxembourg,Türkiye,4,7,1,0,0,0,2
 844554,2022-06-11,ASIANQ,Indonesia,Jordan,0,0,0,0,0,0,0
+844553,2022-06-11,ASIANQ,Nepal,Kuwait,0,0,0,0,0,0,0
+856886,2022-06-11,CONCACAF_NL,Sint Maarten,Turks and Caicos Islands,0,0,0,0,0,0,0
 844555,2022-06-11,ASIANQ,Mongolia,Philippines,0,0,0,0,0,0,0
+844558,2022-06-11,ASIANQ,Maldives,Uzbekistan,0,0,0,0,0,0,0
+854647,2022-06-11,NL,Ukraine,Armenia,2,1,3,4,0,0,2
+856847,2022-06-11,CONCACAF_NL,Montserrat,Bermuda,0,0,0,0,0,0,0
+844560,2022-06-11,ASIANQ,Afghanistan,India,0,0,0,0,0,0,0
+844557,2022-06-11,ASIANQ,Sri Lanka,Thailand,0,0,0,0,0,0,0
 854645,2022-06-11,NL,Montenegro,Bosnia & Herzegovina,2,6,1,3,0,0,2
+854648,2022-06-11,NL,Romania,Finland,5,3,1,2,0,0,2
+854695,2022-06-11,NL,Faroe Islands,Lithuania,4,3,3,4,0,0,2
+844556,2022-06-11,ASIANQ,Yemen,Palestine,0,0,0,0,0,0,0
 865799,2022-06-11,FRIENDLY,Uruguay,Panama,6,4,2,2,0,0,2
-844559,2022-06-11,ASIANQ,Cambodia,Hong Kong,0,0,0,0,0,0,0
-854600,2022-06-11,NL,Hungary,Germany,3,6,3,1,0,0,2
 844562,2022-06-11,ASIANQ,Malaysia,Bahrain,0,0,0,0,0,0,0
 854598,2022-06-11,NL,Wales,Belgium,6,4,2,2,0,0,2
 854597,2022-06-11,NL,Netherlands,Poland,6,1,3,5,0,0,2
-844556,2022-06-11,ASIANQ,Yemen,Palestine,0,0,0,0,0,0,0
-862933,2022-06-11,ASIANQ,Myanmar,Kyrgyzstan,0,0,0,0,0,0,0
-856886,2022-06-11,CONCACAF_NL,Sint Maarten,Turks and Caicos Islands,0,0,0,0,0,0,0
-854695,2022-06-11,NL,Faroe Islands,Lithuania,4,3,3,4,0,0,2
-844558,2022-06-11,ASIANQ,Maldives,Uzbekistan,0,0,0,0,0,0,0
-856810,2022-06-11,CONCACAF_NL,USA,Grenada,0,0,0,0,0,0,0
-854646,2022-06-11,NL,Rep. Of Ireland,Scotland,6,8,2,1,0,0,2
-856846,2022-06-11,CONCACAF_NL,Guyana,Haiti,0,0,0,0,0,0,0
-844561,2022-06-11,ASIANQ,Bangladesh,Turkmenistan,0,0,0,0,0,0,0
-856885,2022-06-11,CONCACAF_NL,US Virgin Islands,Bonaire,0,0,0,0,0,0,0
-844553,2022-06-11,ASIANQ,Nepal,Kuwait,0,0,0,0,0,0,0
-854648,2022-06-11,NL,Romania,Finland,5,3,1,2,0,0,2
 862932,2022-06-11,ASIANQ,Singapore,Tajikistan,0,0,0,0,0,0,0
-854647,2022-06-11,NL,Ukraine,Armenia,2,1,3,4,0,0,2
-844557,2022-06-11,ASIANQ,Sri Lanka,Thailand,0,0,0,0,0,0,0
-844560,2022-06-11,ASIANQ,Afghanistan,India,0,0,0,0,0,0,0
-856847,2022-06-11,CONCACAF_NL,Montserrat,Bermuda,0,0,0,0,0,0,0
+862933,2022-06-11,ASIANQ,Myanmar,Kyrgyzstan,0,0,0,0,0,0,0
+854600,2022-06-11,NL,Hungary,Germany,3,6,3,1,0,0,2
+856885,2022-06-11,CONCACAF_NL,US Virgin Islands,Bonaire,0,0,0,0,0,0,0
+844561,2022-06-11,ASIANQ,Bangladesh,Turkmenistan,0,0,0,0,0,0,0
+856846,2022-06-11,CONCACAF_NL,Guyana,Haiti,0,0,0,0,0,0,0
+854646,2022-06-11,NL,Rep. Of Ireland,Scotland,6,8,2,1,0,0,2
+856810,2022-06-11,CONCACAF_NL,USA,Grenada,0,0,0,0,0,0,0
+844559,2022-06-11,ASIANQ,Cambodia,Hong Kong,0,0,0,0,0,0,0
 854599,2022-06-11,NL,England,Italy,2,2,2,3,0,0,2
-854649,2022-06-12,NL,Norway,Sweden,4,5,4,3,0,0,2
-856848,2022-06-12,CONCACAF_NL,Guadeloupe,Barbados,0,0,0,0,0,0,0
-854602,2022-06-12,NL,Switzerland,Portugal,0,10,2,2,0,0,2
-854601,2022-06-12,NL,Spain,Czechia,2,5,1,0,0,0,2
-854650,2022-06-12,NL,Slovenia,Serbia,1,2,5,2,0,1,2
-854699,2022-06-12,NL,FYR Macedonia,Gibraltar,7,1,1,3,0,0,2
 854698,2022-06-12,NL,Georgia,Bulgaria,10,0,1,2,0,0,2
-856888,2022-06-12,CONCACAF_NL,St. Lucia,Anguilla,0,0,0,0,0,0,0
-866555,2022-06-12,FRIENDLY,Iran,Algeria,0,0,0,0,0,0,0
-854730,2022-06-12,NL,Malta,San Marino,11,1,0,3,0,0,2
-856808,2022-06-12,CONCACAF_NL,Martinique,Panama,0,0,0,0,0,0,0
 854700,2022-06-12,NL,Greece,Kosovo,6,5,3,1,0,0,2
+854699,2022-06-12,NL,FYR Macedonia,Gibraltar,7,1,1,3,0,0,2
+856848,2022-06-12,CONCACAF_NL,Guadeloupe,Barbados,0,0,0,0,0,0,0
+854601,2022-06-12,NL,Spain,Czechia,2,5,1,0,0,0,2
+854602,2022-06-12,NL,Switzerland,Portugal,0,10,2,2,0,0,2
+854649,2022-06-12,NL,Norway,Sweden,4,5,4,3,0,0,2
+854730,2022-06-12,NL,Malta,San Marino,11,1,0,3,0,0,2
+856888,2022-06-12,CONCACAF_NL,St. Lucia,Anguilla,0,0,0,0,0,0,0
+856887,2022-06-12,CONCACAF_NL,St. Kitts and Nevis,Saint Martin,0,0,0,0,0,0,0
+856811,2022-06-12,CONCACAF_NL,Mexico,Suriname,0,0,0,0,0,0,0
+856889,2022-06-12,CONCACAF_NL,Puerto Rico,British Virgin Islands,0,0,0,0,0,0,0
+854650,2022-06-12,NL,Slovenia,Serbia,1,2,5,2,0,1,2
+861490,2022-06-12,FRIENDLY,Ecuador,Mali,0,0,0,0,0,0,0
 856849,2022-06-12,CONCACAF_NL,Cuba,Antigua and Barbuda,0,0,0,0,0,0,0
 854697,2022-06-12,NL,Northern Ireland,Cyprus,4,0,1,1,0,0,2
-861490,2022-06-12,FRIENDLY,Ecuador,Mali,0,0,0,0,0,0,0
-856887,2022-06-12,CONCACAF_NL,St. Kitts and Nevis,Saint Martin,0,0,0,0,0,0,0
-856889,2022-06-12,CONCACAF_NL,Puerto Rico,British Virgin Islands,0,0,0,0,0,0,0
-856811,2022-06-12,CONCACAF_NL,Mexico,Suriname,0,0,0,0,0,0,0
-859160,2022-06-13,AFCONQ,Liberia,Morocco,0,0,0,0,0,0,0
-854701,2022-06-13,NL,Kazakhstan,Slovakia,0,8,1,4,0,1,2
-854604,2022-06-13,NL,France,Croatia,7,3,3,1,0,0,2
+856808,2022-06-12,CONCACAF_NL,Martinique,Panama,0,0,0,0,0,0,0
+866555,2022-06-12,FRIENDLY,Iran,Algeria,0,0,0,0,0,0,0
 859139,2022-06-13,AFCONQ,Sierra Leone,Guinea-Bissau,0,0,0,0,0,0,0
-854651,2022-06-13,NL,Iceland,Israel,1,7,1,2,0,0,2
-856851,2022-06-13,CONCACAF_NL,Trinidad and Tobago,St. Vincent / Grenadines,0,0,0,0,0,0,0
-854702,2022-06-13,NL,Azerbaijan,Belarus,5,6,1,0,0,0,2
-862598,2022-06-13,FRIENDLY,Albania,Estonia,0,0,0,0,0,0,0
-859140,2022-06-13,AFCONQ,Sao Tome and Principe,Nigeria,0,0,0,0,0,0,0
 854603,2022-06-13,NL,Denmark,Austria,5,4,1,2,0,0,2
+859140,2022-06-13,AFCONQ,Sao Tome and Principe,Nigeria,0,0,0,0,0,0,0
+854702,2022-06-13,NL,Azerbaijan,Belarus,5,6,1,0,0,0,2
+856851,2022-06-13,CONCACAF_NL,Trinidad and Tobago,St. Vincent / Grenadines,0,0,0,0,0,0,0
+854651,2022-06-13,NL,Iceland,Israel,1,7,1,2,0,0,2
+862598,2022-06-13,FRIENDLY,Albania,Estonia,0,0,0,0,0,0,0
+854604,2022-06-13,NL,France,Croatia,7,3,3,1,0,0,2
+854701,2022-06-13,NL,Kazakhstan,Slovakia,0,8,1,4,0,1,2
+859160,2022-06-13,AFCONQ,Liberia,Morocco,0,0,0,0,0,0,0
+854653,2022-06-14,NL,Armenia,Scotland,4,7,5,2,2,0,2
+844572,2022-06-14,ASIANQ,Malaysia,Bangladesh,0,0,0,0,0,0,0
 844564,2022-06-14,ASIANQ,Indonesia,Nepal,0,0,0,0,0,0,0
 854605,2022-06-14,NL,Netherlands,Wales,6,2,2,3,0,0,2
-854655,2022-06-14,NL,Bosnia & Herzegovina,Finland,9,4,2,1,0,0,2
 854731,2022-06-14,NL,Liechtenstein,Latvia,1,7,3,2,0,0,2
 854703,2022-06-14,NL,Luxembourg,Faroe Islands,1,6,1,0,0,0,2
 856814,2022-06-14,CONCACAF_NL,Honduras,Canada,0,0,0,0,0,0,0
-844571,2022-06-14,ASIANQ,Bahrain,Turkmenistan,0,0,0,0,0,0,0
+854606,2022-06-14,NL,Poland,Belgium,6,4,1,0,0,0,2
 844567,2022-06-14,ASIANQ,Uzbekistan,Thailand,0,0,0,0,0,0,0
-854653,2022-06-14,NL,Armenia,Scotland,4,7,5,2,2,0,2
 854732,2022-06-14,NL,Moldova,Andorra,4,1,2,2,0,0,2
 854607,2022-06-14,NL,England,Hungary,6,0,3,2,1,0,2
-854606,2022-06-14,NL,Poland,Belgium,6,4,1,0,0,0,2
-854608,2022-06-14,NL,Germany,Italy,5,4,2,0,0,0,2
 863632,2022-06-14,FRIENDLY,South Korea,Egypt,3,1,1,1,0,0,2
-844572,2022-06-14,ASIANQ,Malaysia,Bangladesh,0,0,0,0,0,0,0
+854608,2022-06-14,NL,Germany,Italy,5,4,2,0,0,0,2
+844571,2022-06-14,ASIANQ,Bahrain,Turkmenistan,0,0,0,0,0,0,0
+854655,2022-06-14,NL,Bosnia & Herzegovina,Finland,9,4,2,1,0,0,2
+844569,2022-06-14,ASIANQ,India,Hong Kong,0,0,0,0,0,0,0
 844566,2022-06-14,ASIANQ,Yemen,Mongolia,0,0,0,0,0,0,0
-862934,2022-06-14,ASIANQ,Myanmar,Singapore,0,0,0,0,0,0,0
+856855,2022-06-14,CONCACAF_NL,Haiti,Guyana,0,0,0,0,0,0,0
 844565,2022-06-14,ASIANQ,Palestine,Philippines,0,0,0,0,0,0,0
 844568,2022-06-14,ASIANQ,Maldives,Sri Lanka,0,0,0,0,0,0,0
-844570,2022-06-14,ASIANQ,Afghanistan,Cambodia,0,0,0,0,0,0,0
 856853,2022-06-14,CONCACAF_NL,Guatemala,Dominican Republic,0,0,0,0,0,0,0
 856850,2022-06-14,CONCACAF_NL,Nicaragua,Bahamas,0,0,0,0,0,0,0
 856891,2022-06-14,CONCACAF_NL,Bonaire,US Virgin Islands,0,0,0,0,0,0,0
-856855,2022-06-14,CONCACAF_NL,Haiti,Guyana,0,0,0,0,0,0,0
-844569,2022-06-14,ASIANQ,India,Hong Kong,0,0,0,0,0,0,0
-862935,2022-06-14,ASIANQ,Kyrgyzstan,Tajikistan,0,0,0,0,0,0,0
+854654,2022-06-14,NL,Ukraine,Rep. Of Ireland,0,2,3,2,0,0,2
+844570,2022-06-14,ASIANQ,Afghanistan,Cambodia,0,0,0,0,0,0,0
 844563,2022-06-14,ASIANQ,Jordan,Kuwait,0,0,0,0,0,0,0
 856890,2022-06-14,CONCACAF_NL,Turks and Caicos Islands,Sint Maarten,0,0,0,0,0,0,0
 854656,2022-06-14,NL,Romania,Montenegro,2,5,4,3,0,0,2
 854704,2022-06-14,NL,Türkiye,Lithuania,12,2,0,4,0,0,2
-854654,2022-06-14,NL,Ukraine,Rep. Of Ireland,0,2,3,2,0,0,2
+862934,2022-06-14,ASIANQ,Myanmar,Singapore,0,0,0,0,0,0,0
+862935,2022-06-14,ASIANQ,Kyrgyzstan,Tajikistan,0,0,0,0,0,0,0
 856813,2022-06-15,CONCACAF_NL,Jamaica,Mexico,0,0,0,0,0,0,0
 856852,2022-06-15,CONCACAF_NL,French Guyana,Belize,0,0,0,0,0,0,0
 856815,2022-06-15,CONCACAF_NL,El Salvador,USA,0,0,0,0,0,0,0
@@ -162,132 +410,132 @@ fixture_id,date,competition,home,away,hc,ac,hy,ay,hr,ar,statistici
 942683,2022-08-23,FRIENDLY,Qatar,Ghana,0,0,0,0,0,0,0
 942684,2022-08-26,FRIENDLY,Qatar,Jamaica,0,0,0,0,0,0,0
 857898,2022-09-01,FRIENDLY,Mexico,Paraguay,0,0,0,0,0,0,0
-942166,2022-09-21,FRIENDLY,San Marino,Seychelles,0,0,0,0,0,0,0
 962284,2022-09-21,FRIENDLY,Brunei,Maldives,0,0,0,0,0,0,0
+942166,2022-09-21,FRIENDLY,San Marino,Seychelles,0,0,0,0,0,0,0
 854638,2022-09-21,NL,Scotland,Ukraine,7,0,0,5,0,0,2
 953174,2022-09-21,FRIENDLY,Hong Kong,Myanmar,0,0,0,0,0,0,0
 942172,2022-09-21,FRIENDLY,Vietnam,Singapore,0,0,0,0,0,0,0
 962285,2022-09-21,FRIENDLY,Libya,Uganda,0,0,0,0,0,0,0
+854705,2022-09-22,NL,Kazakhstan,Belarus,5,7,5,2,1,0,2
+854707,2022-09-22,NL,Türkiye,Luxembourg,6,0,1,1,0,0,2
+854611,2022-09-22,NL,Belgium,Wales,6,4,0,3,0,0,2
 854706,2022-09-22,NL,Lithuania,Faroe Islands,2,4,4,0,0,0,2
 942142,2022-09-22,FRIENDLY,Australia,New Zealand,0,0,0,0,0,0,0
-962413,2022-09-22,FRIENDLY,Comoros,Tunisia,0,0,0,0,0,0,0
+854733,2022-09-22,NL,Liechtenstein,Andorra,0,1,4,3,0,0,2
 854610,2022-09-22,NL,France,Austria,4,1,0,1,0,0,2
-854705,2022-09-22,NL,Kazakhstan,Belarus,5,7,5,2,1,0,2
-854734,2022-09-22,NL,Latvia,Moldova,9,5,1,3,0,0,2
-854611,2022-09-22,NL,Belgium,Wales,6,4,0,3,0,0,2
 854612,2022-09-22,NL,Poland,Netherlands,4,1,1,4,0,0,2
 854708,2022-09-22,NL,Slovakia,Azerbaijan,3,4,2,3,0,0,2
 854609,2022-09-22,NL,Croatia,Denmark,4,2,1,1,0,0,2
 961013,2022-09-22,FRIENDLY,Venezuela,Iceland,0,0,0,0,0,0,0
 948656,2022-09-22,FRIENDLY,Suriname,Nicaragua,0,0,0,0,0,0,0
 945954,2022-09-22,FRIENDLY,Cambodia,Bangladesh,0,0,0,0,0,0,0
-854733,2022-09-22,NL,Liechtenstein,Andorra,0,1,4,3,0,0,2
-854707,2022-09-22,NL,Türkiye,Luxembourg,6,0,1,1,0,0,2
-958777,2022-09-23,FRIENDLY,Egypt,Niger,0,0,0,0,0,0,0
-942145,2022-09-23,FRIENDLY,Paraguay,United Arab Emirates,0,0,0,0,0,0,0
-942148,2022-09-23,FRIENDLY,Japan,USA,0,0,0,0,0,0,0
-942144,2022-09-23,FRIENDLY,Qatar,Canada,0,0,0,0,0,0,0
-945819,2022-09-23,FRIENDLY,Bahrain,Cape Verde Islands,0,0,0,0,0,0,0
+854734,2022-09-22,NL,Latvia,Moldova,9,5,1,3,0,0,2
+962413,2022-09-22,FRIENDLY,Comoros,Tunisia,0,0,0,0,0,0,0
 959548,2022-09-23,FRIENDLY,Congo DR,Burkina Faso,0,0,0,0,0,0,0
-962047,2022-09-23,FRIENDLY,Equatorial Guinea,Rwanda,0,0,0,0,0,0,0
-854659,2022-09-23,NL,Bosnia & Herzegovina,Montenegro,7,3,5,4,0,0,2
-942143,2022-09-23,FRIENDLY,Iran,Uruguay,0,0,0,0,0,0,0
-945950,2022-09-23,FRIENDLY,Cameroon,Uzbekistan,0,0,0,0,0,0,0
-944079,2022-09-23,FRIENDLY,Brazil,Ghana,0,0,0,0,0,0,0
-945951,2022-09-23,FRIENDLY,South Korea,Costa Rica,0,0,0,0,0,0,0
-854710,2022-09-23,NL,Bulgaria,Gibraltar,9,3,0,0,0,0,2
-854735,2022-09-23,NL,Estonia,Malta,5,3,1,1,0,1,2
-854660,2022-09-23,NL,Finland,Romania,3,4,3,2,0,0,2
+945819,2022-09-23,FRIENDLY,Bahrain,Cape Verde Islands,0,0,0,0,0,0,0
 861491,2022-09-23,FRIENDLY,Saudi Arabia,Ecuador,0,0,0,0,0,0,0
+945951,2022-09-23,FRIENDLY,South Korea,Costa Rica,0,0,0,0,0,0,0
+945811,2022-09-23,FRIENDLY,Algeria,Guinea,0,0,0,0,0,0,0
+854710,2022-09-23,NL,Bulgaria,Gibraltar,9,3,0,0,0,0,2
 854613,2022-09-23,NL,Germany,Hungary,2,3,2,1,0,0,2
 854614,2022-09-23,NL,Italy,England,5,4,2,1,0,0,2
 960604,2022-09-23,FRIENDLY,Jordan,Syria,0,0,0,0,0,0,0
-945811,2022-09-23,FRIENDLY,Algeria,Guinea,0,0,0,0,0,0,0
+945950,2022-09-23,FRIENDLY,Cameroon,Uzbekistan,0,0,0,0,0,0,0
 946604,2022-09-23,FRIENDLY,Mali,Zambia,0,0,0,0,0,0,0
 942146,2022-09-23,FRIENDLY,Morocco,Chile,0,0,0,0,0,0,0
 854709,2022-09-23,NL,Georgia,FYR Macedonia,4,9,1,1,0,0,2
 962707,2022-09-23,FRIENDLY,Iraq,Oman,0,0,0,0,0,0,0
+854735,2022-09-23,NL,Estonia,Malta,5,3,1,1,0,1,2
+944079,2022-09-23,FRIENDLY,Brazil,Ghana,0,0,0,0,0,0,0
+942143,2022-09-23,FRIENDLY,Iran,Uruguay,0,0,0,0,0,0,0
+854660,2022-09-23,NL,Finland,Romania,3,4,3,2,0,0,2
+942148,2022-09-23,FRIENDLY,Japan,USA,0,0,0,0,0,0,0
+854659,2022-09-23,NL,Bosnia & Herzegovina,Montenegro,7,3,5,4,0,0,2
+958777,2022-09-23,FRIENDLY,Egypt,Niger,0,0,0,0,0,0,0
+942145,2022-09-23,FRIENDLY,Paraguay,United Arab Emirates,0,0,0,0,0,0,0
+962047,2022-09-23,FRIENDLY,Equatorial Guinea,Rwanda,0,0,0,0,0,0,0
+942144,2022-09-23,FRIENDLY,Qatar,Canada,0,0,0,0,0,0,0
+854711,2022-09-24,NL,Northern Ireland,Kosovo,5,3,0,1,0,0,2
+854663,2022-09-24,NL,Israel,Albania,4,9,2,3,0,0,2
+854615,2022-09-24,NL,Czechia,Portugal,6,5,0,0,0,0,2
+960483,2022-09-24,FRIENDLY,Ivory Coast,Togo,0,0,0,0,0,0,0
+854662,2022-09-24,NL,Slovenia,Norway,6,7,3,2,0,0,2
+953175,2022-09-24,FRIENDLY,Hong Kong,Myanmar,0,0,0,0,0,0,0
 854658,2022-09-24,NL,Scotland,Rep. Of Ireland,9,3,3,5,0,0,2
 854657,2022-09-24,NL,Armenia,Ukraine,2,6,2,2,0,0,2
 962282,2022-09-24,FRIENDLY,Tanzania,Uganda,0,0,0,0,0,0,0
 854664,2022-09-24,NL,Serbia,Sweden,3,1,3,1,0,0,2
-953175,2022-09-24,FRIENDLY,Hong Kong,Myanmar,0,0,0,0,0,0,0
 943105,2022-09-24,FRIENDLY,Laos,Maldives,0,0,0,0,0,0,0
 958852,2022-09-24,FRIENDLY,Kyrgyzstan,Russia,0,0,0,0,0,0,0
-854616,2022-09-24,NL,Spain,Switzerland,9,6,0,2,0,0,2
-942149,2022-09-24,FRIENDLY,Colombia,Guatemala,0,0,0,0,0,0,0
-945812,2022-09-24,FRIENDLY,Bolivia,Senegal,0,0,0,0,0,0,0
 945810,2022-09-24,FRIENDLY,Argentina,Honduras,0,0,0,0,0,0,0
+854616,2022-09-24,NL,Spain,Switzerland,9,6,0,2,0,0,2
+945812,2022-09-24,FRIENDLY,Bolivia,Senegal,0,0,0,0,0,0,0
+854712,2022-09-24,NL,Cyprus,Greece,1,6,1,2,0,0,2
 942167,2022-09-24,FRIENDLY,India,Singapore,0,0,0,0,0,0,0
 959543,2022-09-24,FRIENDLY,Indonesia,Curaçao,0,0,0,0,0,0,0
 961014,2022-09-24,FRIENDLY,South Africa,Sierra Leone,0,0,0,0,0,0,0
 962105,2022-09-24,FRIENDLY,Grenada,St. Vincent / Grenadines,0,0,0,0,0,0,0
-854711,2022-09-24,NL,Northern Ireland,Kosovo,5,3,0,1,0,0,2
-854663,2022-09-24,NL,Israel,Albania,4,9,2,3,0,0,2
-854712,2022-09-24,NL,Cyprus,Greece,1,6,1,2,0,0,2
-854615,2022-09-24,NL,Czechia,Portugal,6,5,0,0,0,0,2
-854662,2022-09-24,NL,Slovenia,Norway,6,7,3,2,0,0,2
-960483,2022-09-24,FRIENDLY,Ivory Coast,Togo,0,0,0,0,0,0,0
-854716,2022-09-25,NL,Luxembourg,Lithuania,5,5,4,4,0,0,2
-854617,2022-09-25,NL,Austria,Croatia,4,5,2,2,0,0,2
+942149,2022-09-24,FRIENDLY,Colombia,Guatemala,0,0,0,0,0,0,0
 854620,2022-09-25,NL,Wales,Poland,5,2,4,3,0,0,2
-854715,2022-09-25,NL,Faroe Islands,Türkiye,1,3,2,1,0,0,2
-854736,2022-09-25,NL,Andorra,Latvia,4,5,2,4,0,0,2
-854619,2022-09-25,NL,Netherlands,Belgium,4,2,2,2,0,0,2
-854737,2022-09-25,NL,Moldova,Liechtenstein,13,1,2,3,0,0,2
-942150,2022-09-25,FRIENDLY,Mexico,Peru,0,0,0,0,0,0,0
-865800,2022-09-25,FRIENDLY,New Zealand,Australia,0,0,0,0,0,0,0
+854617,2022-09-25,NL,Austria,Croatia,4,5,2,2,0,0,2
 961017,2022-09-25,FRIENDLY,Niger,Liberia,0,0,0,0,0,0,0
-854714,2022-09-25,NL,Azerbaijan,Kazakhstan,10,0,3,4,0,1,2
+942150,2022-09-25,FRIENDLY,Mexico,Peru,0,0,0,0,0,0,0
+854715,2022-09-25,NL,Faroe Islands,Türkiye,1,3,2,1,0,0,2
+854716,2022-09-25,NL,Luxembourg,Lithuania,5,5,4,4,0,0,2
+854619,2022-09-25,NL,Netherlands,Belgium,4,2,2,2,0,0,2
 854678,2022-09-25,NL,Slovakia,Belarus,12,1,1,5,0,0,2
+854736,2022-09-25,NL,Andorra,Latvia,4,5,2,4,0,0,2
+865800,2022-09-25,FRIENDLY,New Zealand,Australia,0,0,0,0,0,0,0
+854714,2022-09-25,NL,Azerbaijan,Kazakhstan,10,0,3,4,0,1,2
 854618,2022-09-25,NL,Denmark,France,13,11,2,0,0,0,2
-854667,2022-09-26,NL,Montenegro,Finland,3,8,6,2,1,0,2
+854737,2022-09-25,NL,Moldova,Liechtenstein,13,1,2,3,0,0,2
 854717,2022-09-26,NL,Gibraltar,Georgia,6,7,3,3,0,0,2
-854621,2022-09-26,NL,England,Germany,6,2,0,2,0,0,2
 963022,2022-09-26,FRIENDLY,Jordan,Oman,0,0,0,0,0,0,0
-963021,2022-09-26,FRIENDLY,Syria,Iraq,0,0,0,0,0,0,0
+854668,2022-09-26,NL,Romania,Bosnia & Herzegovina,5,5,0,0,0,0,2
+854622,2022-09-26,NL,Hungary,Italy,6,2,2,1,0,0,2
 854718,2022-09-26,NL,FYR Macedonia,Bulgaria,5,1,3,5,1,0,2
 854738,2022-09-26,NL,San Marino,Estonia,0,9,1,1,0,0,2
-854622,2022-09-26,NL,Hungary,Italy,6,2,2,1,0,0,2
-854668,2022-09-26,NL,Romania,Bosnia & Herzegovina,5,5,0,0,0,0,2
+854621,2022-09-26,NL,England,Germany,6,2,0,2,0,0,2
+963021,2022-09-26,FRIENDLY,Syria,Iraq,0,0,0,0,0,0,0
+854667,2022-09-26,NL,Montenegro,Finland,3,8,6,2,1,0,2
+960603,2022-09-27,FRIENDLY,Senegal,Iran,0,0,0,0,0,0,0
 945952,2022-09-27,FRIENDLY,Uzbekistan,Costa Rica,0,0,0,0,0,0,0
-854666,2022-09-27,NL,Ukraine,Scotland,5,5,4,3,0,0,2
-854671,2022-09-27,NL,Norway,Serbia,9,3,0,2,0,0,2
-942155,2022-09-27,FRIENDLY,Saudi Arabia,USA,3,4,1,1,0,0,2
-946605,2022-09-27,FRIENDLY,Nicaragua,Ghana,0,0,0,0,0,0,0
-854719,2022-09-27,NL,Greece,Northern Ireland,4,1,1,2,0,0,2
-959544,2022-09-27,FRIENDLY,Indonesia,Curaçao,0,0,0,0,0,0,0
-942154,2022-09-27,FRIENDLY,Paraguay,Morocco,0,0,0,0,0,0,0
-944080,2022-09-27,FRIENDLY,Brazil,Tunisia,5,2,2,3,0,1,2
-854624,2022-09-27,NL,Switzerland,Czechia,6,4,2,0,0,0,2
-942156,2022-09-27,FRIENDLY,Qatar,Chile,0,0,0,0,0,0,0
-854623,2022-09-27,NL,Portugal,Spain,5,7,3,2,0,0,2
-945953,2022-09-27,FRIENDLY,South Korea,Cameroon,0,0,0,0,0,0,0
-854720,2022-09-27,NL,Kosovo,Cyprus,11,2,1,1,0,0,2
-945814,2022-09-27,FRIENDLY,Algeria,Nigeria,0,0,0,0,0,0,0
-962283,2022-09-27,FRIENDLY,Libya,Tanzania,0,0,0,0,0,0,0
-854672,2022-09-27,NL,Sweden,Slovenia,12,3,2,3,0,0,2
-959549,2022-09-27,FRIENDLY,Congo DR,Sierra Leone,0,0,0,0,0,0,0
-945813,2022-09-27,FRIENDLY,Bahrain,Panama,0,0,0,0,0,0,0
-961505,2022-09-27,FRIENDLY,South Africa,Botswana,0,0,0,0,0,0,0
 962286,2022-09-27,FRIENDLY,Burkina Faso,Comoros,0,0,0,0,0,0,0
-946606,2022-09-27,FRIENDLY,Malta,Israel,0,0,0,0,0,0,0
 958779,2022-09-27,FRIENDLY,Ivory Coast,Guinea,0,0,0,0,0,0,0
 854669,2022-09-27,NL,Albania,Iceland,14,5,2,0,0,1,2
+854720,2022-09-27,NL,Kosovo,Cyprus,11,2,1,1,0,0,2
+943106,2022-09-27,FRIENDLY,Brunei,Laos,0,0,0,0,0,0,0
+854623,2022-09-27,NL,Portugal,Spain,5,7,3,2,0,0,2
+942156,2022-09-27,FRIENDLY,Qatar,Chile,0,0,0,0,0,0,0
+854624,2022-09-27,NL,Switzerland,Czechia,6,4,2,0,0,0,2
+946605,2022-09-27,FRIENDLY,Nicaragua,Ghana,0,0,0,0,0,0,0
+942154,2022-09-27,FRIENDLY,Paraguay,Morocco,0,0,0,0,0,0,0
+959544,2022-09-27,FRIENDLY,Indonesia,Curaçao,0,0,0,0,0,0,0
+854719,2022-09-27,NL,Greece,Northern Ireland,4,1,1,2,0,0,2
+959549,2022-09-27,FRIENDLY,Congo DR,Sierra Leone,0,0,0,0,0,0,0
+942155,2022-09-27,FRIENDLY,Saudi Arabia,USA,3,4,1,1,0,0,2
+854671,2022-09-27,NL,Norway,Serbia,9,3,0,2,0,0,2
+854666,2022-09-27,NL,Ukraine,Scotland,5,5,4,3,0,0,2
+854672,2022-09-27,NL,Sweden,Slovenia,12,3,2,3,0,0,2
+946606,2022-09-27,FRIENDLY,Malta,Israel,0,0,0,0,0,0,0
+945813,2022-09-27,FRIENDLY,Bahrain,Panama,0,0,0,0,0,0,0
+959545,2022-09-27,FRIENDLY,United Arab Emirates,Venezuela,0,0,0,0,0,0,0
+945814,2022-09-27,FRIENDLY,Algeria,Nigeria,0,0,0,0,0,0,0
+962283,2022-09-27,FRIENDLY,Libya,Tanzania,0,0,0,0,0,0,0
+944080,2022-09-27,FRIENDLY,Brazil,Tunisia,5,2,2,3,0,1,2
+961505,2022-09-27,FRIENDLY,South Africa,Botswana,0,0,0,0,0,0,0
 958778,2022-09-27,FRIENDLY,Egypt,Liberia,0,0,0,0,0,0,0
 961018,2022-09-27,FRIENDLY,Equatorial Guinea,Togo,0,0,0,0,0,0,0
 942157,2022-09-27,FRIENDLY,Japan,Ecuador,3,7,0,2,0,0,2
-959545,2022-09-27,FRIENDLY,United Arab Emirates,Venezuela,0,0,0,0,0,0,0
 942173,2022-09-27,FRIENDLY,Nepal,Bangladesh,0,0,0,0,0,0,0
 854665,2022-09-27,NL,Rep. Of Ireland,Armenia,8,1,1,4,0,2,2
 942168,2022-09-27,FRIENDLY,Vietnam,India,0,0,0,0,0,0,0
-943106,2022-09-27,FRIENDLY,Brunei,Laos,0,0,0,0,0,0,0
 942152,2022-09-27,FRIENDLY,Canada,Uruguay,7,0,2,1,0,0,2
-960603,2022-09-27,FRIENDLY,Senegal,Iran,0,0,0,0,0,0,0
-942153,2022-09-28,FRIENDLY,Honduras,Guatemala,0,0,0,0,0,0,0
-942151,2022-09-28,FRIENDLY,Mexico,Colombia,4,3,1,2,0,0,2
-948279,2022-09-28,FRIENDLY,Argentina,Jamaica,4,0,0,1,0,0,2
+945953,2022-09-27,FRIENDLY,South Korea,Cameroon,0,0,0,0,0,0,0
 958780,2022-09-28,FRIENDLY,El Salvador,Peru,0,0,0,0,0,0,0
+948279,2022-09-28,FRIENDLY,Argentina,Jamaica,4,0,0,1,0,0,2
+942151,2022-09-28,FRIENDLY,Mexico,Colombia,4,3,1,2,0,0,2
+942153,2022-09-28,FRIENDLY,Honduras,Guatemala,0,0,0,0,0,0,0
 962106,2022-10-01,FRIENDLY,St. Vincent / Grenadines,Grenada,0,0,0,0,0,0,0
 963368,2022-10-22,FRIENDLY,Saudi Arabia,FYR Macedonia,0,0,0,0,0,0,0
 964618,2022-10-23,FRIENDLY,Qatar,Guatemala,0,0,0,0,0,0,0
@@ -305,19 +553,18 @@ fixture_id,date,competition,home,away,hc,ac,hy,ay,hr,ar,statistici
 968264,2022-11-11,FRIENDLY,South Korea,Iceland,0,0,0,0,0,0,2
 967962,2022-11-11,FRIENDLY,Bahrain,Canada,2,3,1,1,0,0,2
 965470,2022-11-12,FRIENDLY,Ecuador,Iraq,12,1,1,4,0,0,2
-973239,2022-11-15,FRIENDLY,Venezuela,Panama,0,0,0,0,0,0,0
 970752,2022-11-15,FRIENDLY,Dominican Republic,Cuba,0,0,0,0,0,0,0
-968151,2022-11-16,FRIENDLY,Kosovo,Armenia,4,4,5,3,0,0,2
-961506,2022-11-16,FRIENDLY,Oman,Germany,1,9,0,0,0,0,2
-968266,2022-11-16,FRIENDLY,Gibraltar,Liechtenstein,6,1,2,4,0,1,2
-971941,2022-11-16,FRIENDLY,Algeria,Mali,0,0,0,0,0,0,0
-971145,2022-11-16,FRIENDLY,Ivory Coast,Burundi,0,0,0,0,0,0,0
+973239,2022-11-15,FRIENDLY,Venezuela,Panama,0,0,0,0,0,0,0
 958853,2022-11-16,FRIENDLY,Czechia,Faroe Islands,5,3,0,0,0,0,2
-942161,2022-11-16,FRIENDLY,Mexico,Sweden,1,4,1,0,0,0,2
-962098,2022-11-16,FRIENDLY,Andorra,Austria,0,4,2,0,1,0,2
-962099,2022-11-16,FRIENDLY,Albania,Italy,3,3,3,1,0,0,2
+971145,2022-11-16,FRIENDLY,Ivory Coast,Burundi,0,0,0,0,0,0,0
+971941,2022-11-16,FRIENDLY,Algeria,Mali,0,0,0,0,0,0,0
+961506,2022-11-16,FRIENDLY,Oman,Germany,1,9,0,0,0,0,2
 962103,2022-11-16,FRIENDLY,Moldova,Azerbaijan,6,1,2,0,0,0,2
-953171,2022-11-16,FRIENDLY,Cyprus,Bulgaria,2,8,1,2,0,0,2
+968151,2022-11-16,FRIENDLY,Kosovo,Armenia,4,4,5,3,0,0,2
+962098,2022-11-16,FRIENDLY,Andorra,Austria,0,4,2,0,1,0,2
+968266,2022-11-16,FRIENDLY,Gibraltar,Liechtenstein,6,1,2,4,0,1,2
+962099,2022-11-16,FRIENDLY,Albania,Italy,3,3,3,1,0,0,2
+942161,2022-11-16,FRIENDLY,Mexico,Sweden,1,4,1,0,0,0,2
 966909,2022-11-16,FRIENDLY,St. Lucia,San Marino,0,0,0,0,0,0,0
 965672,2022-11-16,FRIENDLY,Türkiye,Scotland,6,6,2,2,0,0,2
 964619,2022-11-16,FRIENDLY,Poland,Chile,5,5,2,3,0,0,2
@@ -325,65 +572,66 @@ fixture_id,date,competition,home,away,hc,ac,hy,ay,hr,ar,statistici
 970194,2022-11-16,FRIENDLY,Nepal,Pakistan,0,0,0,0,0,0,0
 959546,2022-11-16,FRIENDLY,United Arab Emirates,Argentina,3,6,1,1,0,0,2
 863678,2022-11-16,FRIENDLY,Saudi Arabia,Croatia,8,2,0,0,0,0,2
-962524,2022-11-17,FRIENDLY,Rep. Of Ireland,Norway,6,2,0,0,0,0,2
-967578,2022-11-17,FRIENDLY,Israel,Zambia,3,1,0,0,0,0,2
+953171,2022-11-16,FRIENDLY,Cyprus,Bulgaria,2,8,1,2,0,0,2
 965673,2022-11-17,FRIENDLY,Peru,Paraguay,3,4,3,3,1,1,2
-970751,2022-11-17,FRIENDLY,Morocco,Georgia,7,2,0,0,0,0,2
+967578,2022-11-17,FRIENDLY,Israel,Zambia,3,1,0,0,0,0,2
+962524,2022-11-17,FRIENDLY,Rep. Of Ireland,Norway,6,2,0,0,0,0,2
+942163,2022-11-17,FRIENDLY,Romania,Slovenia,6,6,2,6,0,0,2
+962101,2022-11-17,FRIENDLY,Jordan,Spain,2,2,0,1,0,0,2
+971146,2022-11-17,FRIENDLY,South Africa,Mozambique,0,0,0,0,0,0,0
+968565,2022-11-17,FRIENDLY,Syria,Belarus,2,8,1,2,0,0,2
+973546,2022-11-17,FRIENDLY,Guinea-Bissau,Gabon,0,0,0,0,0,0,0
+959634,2022-11-17,FRIENDLY,Portugal,Nigeria,5,4,1,1,0,0,2
+959633,2022-11-17,FRIENDLY,Japan,Canada,2,8,0,2,0,0,2
+953399,2022-11-17,FRIENDLY,Luxembourg,Hungary,1,9,1,3,0,0,2
+973268,2022-11-17,FRIENDLY,Angola,Botswana,0,0,0,0,0,0,0
+962100,2022-11-17,FRIENDLY,FYR Macedonia,Finland,4,2,1,2,0,0,2
+970021,2022-11-17,FRIENDLY,Tajikistan,Russia,3,6,0,1,0,0,2
+973379,2022-11-17,FRIENDLY,Rwanda,Sudan,0,0,0,0,0,0,0
 968265,2022-11-17,FRIENDLY,Malta,Greece,0,9,3,3,0,1,2
 961132,2022-11-17,FRIENDLY,Montenegro,Slovakia,14,1,3,5,0,1,2
 970023,2022-11-17,FRIENDLY,Nicaragua,El Salvador,6,5,3,3,0,0,2
+970751,2022-11-17,FRIENDLY,Morocco,Georgia,7,2,0,0,0,0,2
 942162,2022-11-17,FRIENDLY,Ghana,Switzerland,2,5,1,1,0,0,2
-962101,2022-11-17,FRIENDLY,Jordan,Spain,2,2,0,1,0,0,2
-942163,2022-11-17,FRIENDLY,Romania,Slovenia,6,6,2,6,0,0,2
-968565,2022-11-17,FRIENDLY,Syria,Belarus,2,8,1,2,0,0,2
-962100,2022-11-17,FRIENDLY,FYR Macedonia,Finland,4,2,1,2,0,0,2
-973268,2022-11-17,FRIENDLY,Angola,Botswana,0,0,0,0,0,0,0
-953399,2022-11-17,FRIENDLY,Luxembourg,Hungary,1,9,1,3,0,0,2
-973379,2022-11-17,FRIENDLY,Rwanda,Sudan,0,0,0,0,0,0,0
-959633,2022-11-17,FRIENDLY,Japan,Canada,2,8,0,2,0,0,2
-970021,2022-11-17,FRIENDLY,Tajikistan,Russia,3,6,0,1,0,0,2
-971146,2022-11-17,FRIENDLY,South Africa,Mozambique,0,0,0,0,0,0,0
-973546,2022-11-17,FRIENDLY,Guinea-Bissau,Gabon,0,0,0,0,0,0,0
-959634,2022-11-17,FRIENDLY,Portugal,Nigeria,5,4,1,1,0,0,2
-970753,2022-11-18,FRIENDLY,Dominican Republic,Cuba,0,0,0,0,0,0,0
+943408,2022-11-18,FRIENDLY,Bahrain,Serbia,0,4,0,0,0,0,2
 958281,2022-11-18,FRIENDLY,Belgium,Egypt,0,0,0,0,0,0,0
 965548,2022-11-18,FRIENDLY,Cameroon,Panama,3,2,0,0,0,0,2
-943408,2022-11-18,FRIENDLY,Bahrain,Serbia,0,4,0,0,0,0,2
-973380,2022-11-19,FRIENDLY,Sudan,Rwanda,0,0,0,0,0,0,0
-967581,2022-11-19,FRIENDLY,Kosovo,Faroe Islands,12,3,0,3,0,0,2
+970753,2022-11-18,FRIENDLY,Dominican Republic,Cuba,0,0,0,0,0,0,0
 965502,2022-11-19,FRIENDLY,Türkiye,Czechia,7,2,0,0,0,0,2
-968152,2022-11-19,FRIENDLY,Albania,Armenia,2,6,1,1,0,0,2
-969023,2022-11-19,FRIENDLY,Sweden,Algeria,4,2,2,2,0,1,2
-966912,2022-11-19,FRIENDLY,Kuwait,Lebanon,0,0,0,0,0,0,0
-971147,2022-11-19,FRIENDLY,Burkina Faso,Ivory Coast,0,0,0,0,0,0,0
-968267,2022-11-19,FRIENDLY,Gibraltar,Andorra,7,2,4,4,0,0,2
 959547,2022-11-19,FRIENDLY,United Arab Emirates,Kazakhstan,3,2,0,3,0,1,2
-967579,2022-11-20,FRIENDLY,Colombia,Paraguay,7,1,2,2,0,0,2
-973547,2022-11-20,FRIENDLY,Guinea-Bissau,Gambia,0,0,0,0,0,0,0
-967580,2022-11-20,FRIENDLY,Slovakia,Chile,5,8,0,2,0,0,2
-967582,2022-11-20,FRIENDLY,Guatemala,Nicaragua,0,0,0,0,0,0,0
-971893,2022-11-20,FRIENDLY,Oman,Belarus,0,0,0,0,0,0,0
-971942,2022-11-20,FRIENDLY,Uzbekistan,Russia,4,7,0,1,0,0,2
-971148,2022-11-20,FRIENDLY,South Africa,Angola,4,5,2,3,0,0,2
-962104,2022-11-20,FRIENDLY,FYR Macedonia,Azerbaijan,3,8,3,2,1,1,2
-965674,2022-11-20,FRIENDLY,Peru,Bolivia,3,1,0,0,0,0,2
-962525,2022-11-20,FRIENDLY,Malta,Rep. Of Ireland,1,6,2,1,0,0,2
-953173,2022-11-20,FRIENDLY,Hungary,Greece,3,2,2,0,0,0,2
-966910,2022-11-20,FRIENDLY,Israel,Cyprus,0,0,0,0,0,0,0
-942164,2022-11-20,FRIENDLY,Moldova,Romania,2,7,1,1,0,0,2
-973240,2022-11-20,FRIENDLY,Syria,Venezuela,5,3,1,1,0,0,2
+968267,2022-11-19,FRIENDLY,Gibraltar,Andorra,7,2,4,4,0,0,2
+971147,2022-11-19,FRIENDLY,Burkina Faso,Ivory Coast,0,0,0,0,0,0,0
+966912,2022-11-19,FRIENDLY,Kuwait,Lebanon,0,0,0,0,0,0,0
+969023,2022-11-19,FRIENDLY,Sweden,Algeria,4,2,2,2,0,1,2
+968152,2022-11-19,FRIENDLY,Albania,Armenia,2,6,1,1,0,0,2
+967581,2022-11-19,FRIENDLY,Kosovo,Faroe Islands,12,3,0,3,0,0,2
+973380,2022-11-19,FRIENDLY,Sudan,Rwanda,0,0,0,0,0,0,0
 942165,2022-11-20,FRIENDLY,Slovenia,Montenegro,0,0,0,0,0,0,0
 953172,2022-11-20,FRIENDLY,Luxembourg,Bulgaria,0,0,0,0,0,0,0
 966911,2022-11-20,FRIENDLY,St. Lucia,San Marino,0,0,0,0,0,0,0
-962414,2022-11-20,FRIENDLY,Norway,Finland,5,5,1,0,0,0,2
+966910,2022-11-20,FRIENDLY,Israel,Cyprus,0,0,0,0,0,0,0
 962102,2022-11-20,FRIENDLY,Austria,Italy,5,12,2,1,0,0,2
+973240,2022-11-20,FRIENDLY,Syria,Venezuela,5,3,1,1,0,0,2
+962414,2022-11-20,FRIENDLY,Norway,Finland,5,5,1,0,0,0,2
+942164,2022-11-20,FRIENDLY,Moldova,Romania,2,7,1,1,0,0,2
+953173,2022-11-20,FRIENDLY,Hungary,Greece,3,2,2,0,0,0,2
+965674,2022-11-20,FRIENDLY,Peru,Bolivia,3,1,0,0,0,0,2
+967582,2022-11-20,FRIENDLY,Guatemala,Nicaragua,0,0,0,0,0,0,0
+962104,2022-11-20,FRIENDLY,FYR Macedonia,Azerbaijan,3,8,3,2,1,1,2
+971942,2022-11-20,FRIENDLY,Uzbekistan,Russia,4,7,0,1,0,0,2
+971893,2022-11-20,FRIENDLY,Oman,Belarus,0,0,0,0,0,0,0
+971148,2022-11-20,FRIENDLY,South Africa,Angola,4,5,2,3,0,0,2
+973547,2022-11-20,FRIENDLY,Guinea-Bissau,Gambia,0,0,0,0,0,0,0
+967579,2022-11-20,FRIENDLY,Colombia,Paraguay,7,1,2,2,0,0,2
+962525,2022-11-20,FRIENDLY,Malta,Rep. Of Ireland,1,6,2,1,0,0,2
+967580,2022-11-20,FRIENDLY,Slovakia,Chile,5,8,0,2,0,0,2
 970024,2022-12-09,FRIENDLY,Malaysia,Cambodia,0,0,0,0,0,0,0
 972953,2022-12-11,FRIENDLY,Thailand,Myanmar,8,1,0,1,0,0,2
+978613,2022-12-14,FRIENDLY,Vietnam,Philippines,8,2,0,0,0,0,2
 971894,2022-12-14,FRIENDLY,Malaysia,Maldives,10,1,2,3,0,0,2
 972954,2022-12-14,FRIENDLY,Thailand,Chinese Taipei,13,3,0,1,0,0,2
-978613,2022-12-14,FRIENDLY,Vietnam,Philippines,8,2,0,0,0,0,2
 972182,2022-12-17,FRIENDLY,Singapore,Maldives,0,0,0,0,0,0,0
 969914,2022-12-23,FRIENDLY,Oman,Syria,0,0,0,0,0,0,0
-969915,2022-12-30,FRIENDLY,Syria,Oman,0,0,0,0,0,0,0
 984410,2022-12-30,FRIENDLY,Iraq,Kuwait,0,0,0,0,0,0,0
 978093,2022-12-30,FRIENDLY,United Arab Emirates,Lebanon,0,0,0,0,0,0,0
+969915,2022-12-30,FRIENDLY,Syria,Oman,0,0,0,0,0,0,0
