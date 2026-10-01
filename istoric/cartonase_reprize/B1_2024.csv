@@ -1,0 +1,316 @@
+fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,ar1,ar2,evenimente
+1213201,2024-07-26,B1,2024,Club Brugge KV,KV Mechelen,Club Brugge,Mechelen,0,1,0,2,0,0,0,0,15
+1213204,2024-07-27,B1,2024,Anderlecht,St. Truiden,Anderlecht,St Truiden,0,0,0,0,0,0,0,0,8
+1213202,2024-07-27,B1,2024,Dender,Union St. Gilloise,Dender,St. Gilloise,0,4,1,1,0,0,0,0,13
+1213203,2024-07-27,B1,2024,Beerschot VA,OH Leuven,Beerschot VA,Oud-Heverlee Leuven,0,0,0,3,0,0,0,0,9
+1213208,2024-07-28,B1,2024,KVC Westerlo,Cercle Brugge,Westerlo,Cercle Brugge,0,0,0,1,0,0,0,0,13
+1213205,2024-07-28,B1,2024,Genk,Standard Liege,Genk,Standard,0,0,2,2,0,0,0,0,11
+1213206,2024-07-28,B1,2024,Kortrijk,Gent,Kortrijk,Gent,1,2,1,1,0,0,0,0,14
+1213207,2024-07-28,B1,2024,Charleroi,Antwerp,Charleroi,Antwerp,1,4,0,2,0,0,0,0,17
+1213209,2024-08-02,B1,2024,Union St. Gilloise,Beerschot VA,St. Gilloise,Beerschot VA,1,1,1,1,0,0,0,0,18
+1213210,2024-08-03,B1,2024,KV Mechelen,KVC Westerlo,Mechelen,Westerlo,1,3,0,4,0,0,0,0,26
+1213211,2024-08-03,B1,2024,OH Leuven,Genk,Oud-Heverlee Leuven,Genk,1,1,2,0,0,0,0,0,18
+1213212,2024-08-03,B1,2024,St. Truiden,Charleroi,St Truiden,Charleroi,1,0,0,1,0,0,0,0,16
+1213213,2024-08-04,B1,2024,Antwerp,Anderlecht,Antwerp,Anderlecht,1,1,0,0,0,0,0,0,13
+1213214,2024-08-04,B1,2024,Cercle Brugge,Kortrijk,Cercle Brugge,Kortrijk,0,2,1,2,0,0,0,0,18
+1213215,2024-08-04,B1,2024,Standard Liege,Club Brugge KV,Standard,Club Brugge,0,0,0,2,0,0,0,0,12
+1213216,2024-08-04,B1,2024,Gent,Dender,Gent,Dender,0,0,0,3,0,0,0,0,14
+1213217,2024-08-09,B1,2024,Standard Liege,KV Mechelen,Standard,Mechelen,0,1,0,1,0,0,0,0,10
+1213218,2024-08-10,B1,2024,Dender,Kortrijk,Dender,Kortrijk,0,0,1,3,0,0,0,1,20
+1213219,2024-08-10,B1,2024,KVC Westerlo,Union St. Gilloise,Westerlo,St. Gilloise,1,4,2,1,0,0,0,0,25
+1213220,2024-08-10,B1,2024,Anderlecht,OH Leuven,Anderlecht,Oud-Heverlee Leuven,2,1,0,2,0,0,0,0,15
+1213224,2024-08-11,B1,2024,Cercle Brugge,Beerschot VA,Cercle Brugge,Beerschot VA,1,1,0,2,0,0,0,0,18
+1213223,2024-08-11,B1,2024,Charleroi,Gent,Charleroi,Gent,1,2,1,0,0,0,0,0,12
+1213221,2024-08-11,B1,2024,Genk,Club Brugge KV,Genk,Club Brugge,1,1,1,1,0,0,0,0,19
+1213222,2024-08-11,B1,2024,Antwerp,St. Truiden,Antwerp,St Truiden,1,0,0,0,0,0,0,0,18
+1213225,2024-08-16,B1,2024,Union St. Gilloise,Charleroi,St. Gilloise,Charleroi,0,1,1,3,0,0,0,0,15
+1213226,2024-08-17,B1,2024,Beerschot VA,Genk,Beerschot VA,Genk,0,0,2,2,0,0,0,1,24
+1213227,2024-08-17,B1,2024,St. Truiden,Dender,St Truiden,Dender,0,1,0,1,0,0,0,0,18
+1213228,2024-08-17,B1,2024,KV Mechelen,Anderlecht,Mechelen,Anderlecht,0,1,1,1,0,0,0,0,15
+1213231,2024-08-18,B1,2024,Kortrijk,Standard Liege,Kortrijk,Standard,0,1,0,1,0,0,1,0,15
+1213232,2024-08-18,B1,2024,Gent,KVC Westerlo,Gent,Westerlo,0,2,1,0,0,0,0,0,18
+1213229,2024-08-18,B1,2024,Club Brugge KV,Antwerp,Club Brugge,Antwerp,0,1,2,2,0,0,0,1,15
+1213230,2024-08-18,B1,2024,OH Leuven,Cercle Brugge,Oud-Heverlee Leuven,Cercle Brugge,1,2,0,2,0,1,0,0,18
+1213235,2024-08-24,B1,2024,KVC Westerlo,OH Leuven,Westerlo,Oud-Heverlee Leuven,0,3,1,1,0,0,0,0,14
+1213236,2024-08-24,B1,2024,Antwerp,KV Mechelen,Antwerp,Mechelen,0,2,1,1,0,0,0,0,13
+1213237,2024-08-25,B1,2024,Dender,Club Brugge KV,Dender,Club Brugge,0,3,0,2,0,0,0,0,18
+1213238,2024-08-25,B1,2024,St. Truiden,Union St. Gilloise,St Truiden,St. Gilloise,1,1,0,3,0,1,0,0,14
+1213239,2024-08-25,B1,2024,Standard Liege,Beerschot VA,Standard,Beerschot VA,0,0,0,2,0,0,0,1,13
+1213240,2024-08-25,B1,2024,Charleroi,Kortrijk,Charleroi,Kortrijk,0,1,0,3,0,0,0,0,14
+1213241,2024-08-30,B1,2024,Genk,KVC Westerlo,Genk,Westerlo,0,1,1,4,0,0,0,0,13
+1213244,2024-08-31,B1,2024,OH Leuven,Standard Liege,Oud-Heverlee Leuven,Standard,2,2,0,4,0,0,0,0,20
+1213243,2024-08-31,B1,2024,Beerschot VA,Dender,Beerschot VA,Dender,0,0,0,5,0,0,0,0,18
+1213242,2024-08-31,B1,2024,KV Mechelen,Charleroi,Mechelen,Charleroi,0,1,3,0,0,0,0,0,22
+1213245,2024-09-01,B1,2024,Club Brugge KV,Cercle Brugge,Club Brugge,Cercle Brugge,0,1,1,0,0,0,0,0,16
+1213246,2024-09-01,B1,2024,Gent,Antwerp,Gent,Antwerp,2,2,0,3,0,0,0,0,20
+1213247,2024-09-01,B1,2024,Union St. Gilloise,Anderlecht,St. Gilloise,Anderlecht,2,1,3,1,0,0,0,0,17
+1213248,2024-09-01,B1,2024,Kortrijk,St. Truiden,Kortrijk,St Truiden,1,0,1,0,0,0,0,0,13
+1213249,2024-09-13,B1,2024,Dender,Standard Liege,Dender,Standard,1,1,0,2,0,0,0,0,15
+1213250,2024-09-14,B1,2024,Cercle Brugge,Genk,Cercle Brugge,Genk,0,0,0,1,0,0,0,0,15
+1213251,2024-09-14,B1,2024,Kortrijk,Club Brugge KV,Kortrijk,Club Brugge,1,2,0,2,0,0,0,0,18
+1213253,2024-09-14,B1,2024,Anderlecht,KVC Westerlo,Anderlecht,Westerlo,0,4,1,4,0,0,0,0,21
+1213256,2024-09-15,B1,2024,Gent,KV Mechelen,Gent,Mechelen,0,2,3,1,0,0,1,0,19
+1213254,2024-09-15,B1,2024,St. Truiden,OH Leuven,St Truiden,Oud-Heverlee Leuven,2,1,0,1,0,0,0,0,16
+1213252,2024-09-15,B1,2024,Antwerp,Union St. Gilloise,Antwerp,St. Gilloise,0,2,1,2,0,0,0,1,21
+1213255,2024-09-15,B1,2024,Charleroi,Beerschot VA,Charleroi,Beerschot VA,0,1,0,0,0,0,0,0,14
+1213233,2024-09-17,B1,2024,Anderlecht,Genk,Anderlecht,Genk,0,1,0,2,0,0,0,0,16
+1213260,2024-09-20,B1,2024,Standard Liege,Union St. Gilloise,Standard,St. Gilloise,0,1,0,1,0,0,0,0,10
+1213261,2024-09-21,B1,2024,Beerschot VA,St. Truiden,Beerschot VA,St Truiden,0,0,1,0,0,0,0,0,13
+1213264,2024-09-21,B1,2024,KVC Westerlo,Antwerp,Westerlo,Antwerp,2,2,0,1,0,0,0,0,17
+1213258,2024-09-21,B1,2024,Anderlecht,Charleroi,Anderlecht,Charleroi,0,4,1,2,0,0,0,0,15
+1213262,2024-09-22,B1,2024,OH Leuven,Kortrijk,Oud-Heverlee Leuven,Kortrijk,2,1,2,2,0,0,0,0,19
+1213257,2024-09-22,B1,2024,Club Brugge KV,Gent,Club Brugge,Gent,1,2,1,4,0,0,0,0,24
+1213263,2024-09-22,B1,2024,KV Mechelen,Cercle Brugge,Mechelen,Cercle Brugge,1,1,2,0,0,0,0,0,16
+1213259,2024-09-22,B1,2024,Genk,Dender,Genk,Dender,0,0,0,2,0,0,0,0,16
+1213234,2024-09-26,B1,2024,Cercle Brugge,Gent,Cercle Brugge,Gent,1,1,3,0,0,0,0,0,18
+1213271,2024-09-27,B1,2024,Charleroi,Club Brugge KV,Charleroi,Club Brugge,2,1,0,1,0,0,0,1,15
+1213266,2024-09-28,B1,2024,Genk,KV Mechelen,Genk,Mechelen,0,2,2,1,0,0,0,0,18
+1213269,2024-09-28,B1,2024,Standard Liege,KVC Westerlo,Standard,Westerlo,0,1,1,6,0,0,0,0,19
+1213272,2024-09-28,B1,2024,Dender,Anderlecht,Dender,Anderlecht,0,3,0,2,0,0,0,0,17
+1213268,2024-09-29,B1,2024,Antwerp,Beerschot VA,Antwerp,Beerschot VA,0,1,1,1,0,0,0,0,13
+1213265,2024-09-29,B1,2024,Union St. Gilloise,Kortrijk,St. Gilloise,Kortrijk,1,1,2,1,0,0,0,0,18
+1213267,2024-09-29,B1,2024,Gent,OH Leuven,Gent,Oud-Heverlee Leuven,1,0,1,1,0,0,0,0,16
+1213270,2024-09-29,B1,2024,Cercle Brugge,St. Truiden,Cercle Brugge,St Truiden,0,1,1,2,0,0,0,0,15
+1213279,2024-10-04,B1,2024,KVC Westerlo,Beerschot VA,Westerlo,Beerschot VA,0,1,2,1,0,0,0,0,15
+1213277,2024-10-05,B1,2024,KV Mechelen,OH Leuven,Mechelen,Oud-Heverlee Leuven,1,0,0,2,0,0,1,0,19
+1213276,2024-10-05,B1,2024,Kortrijk,Genk,Kortrijk,Genk,1,2,1,0,0,0,0,0,15
+1213280,2024-10-05,B1,2024,Dender,Charleroi,Dender,Charleroi,1,1,2,0,0,0,0,0,14
+1213273,2024-10-06,B1,2024,Club Brugge KV,Union St. Gilloise,Club Brugge,St. Gilloise,0,1,2,4,0,0,0,0,17
+1213278,2024-10-06,B1,2024,St. Truiden,Gent,St Truiden,Gent,0,1,0,3,0,0,0,0,14
+1213275,2024-10-06,B1,2024,Antwerp,Cercle Brugge,Antwerp,Cercle Brugge,1,0,1,2,0,0,0,0,17
+1213274,2024-10-06,B1,2024,Anderlecht,Standard Liege,Anderlecht,Standard,0,2,0,1,0,0,0,0,16
+1213284,2024-10-18,B1,2024,Beerschot VA,Anderlecht,Beerschot VA,Anderlecht,0,0,0,4,0,0,0,0,17
+1213285,2024-10-19,B1,2024,Cercle Brugge,Dender,Cercle Brugge,Dender,0,2,2,2,0,0,0,1,17
+1213281,2024-10-19,B1,2024,Union St. Gilloise,Gent,St. Gilloise,Gent,0,2,2,2,0,0,0,0,15
+1213288,2024-10-19,B1,2024,KVC Westerlo,Club Brugge KV,Westerlo,Club Brugge,0,5,1,0,0,1,0,0,18
+1213282,2024-10-20,B1,2024,Genk,St. Truiden,Genk,St Truiden,0,1,0,4,0,0,1,1,23
+1213286,2024-10-20,B1,2024,OH Leuven,Antwerp,Oud-Heverlee Leuven,Antwerp,0,0,0,0,0,0,0,0,10
+1213283,2024-10-20,B1,2024,Standard Liege,Charleroi,Standard,Charleroi,1,1,0,2,0,0,0,0,17
+1213287,2024-10-20,B1,2024,KV Mechelen,Kortrijk,Mechelen,Kortrijk,2,3,1,0,0,0,0,0,18
+1213293,2024-10-25,B1,2024,Kortrijk,Beerschot VA,Kortrijk,Beerschot VA,0,1,1,3,0,0,0,0,16
+1213295,2024-10-26,B1,2024,Charleroi,OH Leuven,Charleroi,Oud-Heverlee Leuven,0,0,1,2,0,0,0,0,15
+1213296,2024-10-26,B1,2024,Dender,KV Mechelen,Dender,Mechelen,0,0,0,0,0,0,0,0,18
+1213294,2024-10-26,B1,2024,St. Truiden,KVC Westerlo,St Truiden,Westerlo,0,2,1,2,0,0,0,0,15
+1213289,2024-10-27,B1,2024,Club Brugge KV,Anderlecht,Club Brugge,Anderlecht,0,0,1,2,0,0,0,0,18
+1213292,2024-10-27,B1,2024,Antwerp,Standard Liege,Antwerp,Standard,1,1,0,2,0,0,0,0,17
+1213291,2024-10-27,B1,2024,Gent,Genk,Gent,Genk,1,1,0,2,0,0,0,0,16
+1213290,2024-10-27,B1,2024,Union St. Gilloise,Cercle Brugge,St. Gilloise,Cercle Brugge,0,2,0,3,0,0,0,0,19
+1213304,2024-11-01,B1,2024,KVC Westerlo,Dender,Westerlo,Dender,0,1,0,2,0,0,0,0,17
+1213303,2024-11-02,B1,2024,KV Mechelen,Union St. Gilloise,Mechelen,St. Gilloise,1,2,2,3,0,0,0,0,19
+1213299,2024-11-02,B1,2024,Standard Liege,St. Truiden,Standard,St Truiden,0,1,1,3,0,0,0,0,18
+1213302,2024-11-02,B1,2024,OH Leuven,Club Brugge KV,Oud-Heverlee Leuven,Club Brugge,2,0,1,1,0,0,0,0,14
+1213301,2024-11-03,B1,2024,Cercle Brugge,Charleroi,Cercle Brugge,Charleroi,1,2,1,2,0,0,0,0,16
+1213297,2024-11-03,B1,2024,Anderlecht,Kortrijk,Anderlecht,Kortrijk,0,0,0,0,0,0,0,0,14
+1213300,2024-11-03,B1,2024,Beerschot VA,Gent,Beerschot VA,Gent,0,0,2,3,0,0,0,0,14
+1213298,2024-11-03,B1,2024,Genk,Antwerp,Genk,Antwerp,1,1,0,2,0,0,0,0,15
+1213310,2024-11-08,B1,2024,St. Truiden,KV Mechelen,St Truiden,Mechelen,0,2,1,1,0,0,0,0,15
+1213307,2024-11-09,B1,2024,Kortrijk,Antwerp,Kortrijk,Antwerp,0,3,0,2,0,0,0,0,16
+1213312,2024-11-09,B1,2024,Dender,OH Leuven,Dender,Oud-Heverlee Leuven,2,4,2,0,0,0,0,0,19
+1213311,2024-11-09,B1,2024,Charleroi,KVC Westerlo,Charleroi,Westerlo,1,1,0,0,0,0,0,0,9
+1213308,2024-11-10,B1,2024,Beerschot VA,Club Brugge KV,Beerschot VA,Club Brugge,0,0,4,0,0,0,0,0,18
+1213306,2024-11-10,B1,2024,Gent,Standard Liege,Gent,Standard,0,0,1,0,0,0,0,0,15
+1213305,2024-11-10,B1,2024,Union St. Gilloise,Genk,St. Gilloise,Genk,0,2,0,4,0,0,0,0,18
+1213309,2024-11-10,B1,2024,Cercle Brugge,Anderlecht,Cercle Brugge,Anderlecht,0,1,1,2,0,1,0,0,21
+1213316,2024-11-22,B1,2024,Antwerp,Dender,Antwerp,Dender,2,1,0,3,0,0,0,0,16
+1213313,2024-11-23,B1,2024,Club Brugge KV,St. Truiden,Club Brugge,St Truiden,0,0,1,0,0,0,0,1,19
+1213317,2024-11-23,B1,2024,Standard Liege,Cercle Brugge,Standard,Cercle Brugge,0,0,2,0,0,0,0,0,11
+1213315,2024-11-23,B1,2024,Genk,Charleroi,Genk,Charleroi,0,1,0,3,0,0,0,0,17
+1213320,2024-11-24,B1,2024,KVC Westerlo,Kortrijk,Westerlo,Kortrijk,2,0,0,0,0,0,0,0,15
+1213314,2024-11-24,B1,2024,Anderlecht,Gent,Anderlecht,Gent,0,0,3,1,0,0,1,1,23
+1213319,2024-11-24,B1,2024,KV Mechelen,Beerschot VA,Mechelen,Beerschot VA,3,1,1,0,0,0,0,0,16
+1213318,2024-11-24,B1,2024,OH Leuven,Union St. Gilloise,Oud-Heverlee Leuven,St. Gilloise,1,1,1,2,0,0,0,1,16
+1213323,2024-11-29,B1,2024,Kortrijk,KV Mechelen,Kortrijk,Mechelen,0,2,0,2,0,0,0,0,17
+1213321,2024-11-30,B1,2024,Club Brugge KV,Dender,Club Brugge,Dender,0,0,0,0,0,0,0,0,15
+1213328,2024-11-30,B1,2024,Charleroi,Standard Liege,Charleroi,Standard,1,0,0,2,0,0,0,0,14
+1213326,2024-12-01,B1,2024,St. Truiden,Genk,St Truiden,Genk,1,1,1,0,0,0,0,0,15
+1213324,2024-12-01,B1,2024,Beerschot VA,Cercle Brugge,Beerschot VA,Cercle Brugge,0,0,2,3,0,0,0,1,23
+1213325,2024-12-01,B1,2024,OH Leuven,Anderlecht,Oud-Heverlee Leuven,Anderlecht,1,1,0,1,0,0,0,0,10
+1213322,2024-12-01,B1,2024,Union St. Gilloise,Antwerp,St. Gilloise,Antwerp,3,2,0,5,0,1,0,0,23
+1213327,2024-12-01,B1,2024,KVC Westerlo,Gent,Westerlo,Gent,1,3,1,2,0,0,0,0,18
+1213331,2024-12-07,B1,2024,Gent,St. Truiden,Gent,St Truiden,2,3,2,1,0,0,0,0,18
+1213333,2024-12-07,B1,2024,Standard Liege,OH Leuven,Standard,Oud-Heverlee Leuven,1,2,1,2,0,0,0,0,15
+1213335,2024-12-07,B1,2024,KV Mechelen,Club Brugge KV,Mechelen,Club Brugge,0,1,0,0,0,0,0,0,15
+1213330,2024-12-07,B1,2024,Genk,Kortrijk,Genk,Kortrijk,3,1,1,2,0,0,0,0,22
+1213332,2024-12-08,B1,2024,Antwerp,Charleroi,Antwerp,Charleroi,1,1,1,1,0,0,0,0,16
+1213334,2024-12-08,B1,2024,Cercle Brugge,Union St. Gilloise,Cercle Brugge,St. Gilloise,2,1,0,2,0,1,0,0,15
+1213329,2024-12-08,B1,2024,Anderlecht,Beerschot VA,Anderlecht,Beerschot VA,0,1,3,4,0,0,0,0,19
+1213336,2024-12-08,B1,2024,Dender,KVC Westerlo,Dender,Westerlo,0,1,0,2,0,0,0,0,10
+1213343,2024-12-13,B1,2024,KV Mechelen,Antwerp,Mechelen,Antwerp,0,1,0,2,0,0,0,0,12
+1213340,2024-12-14,B1,2024,Kortrijk,Dender,Kortrijk,Dender,1,0,1,2,0,0,0,0,17
+1213342,2024-12-14,B1,2024,OH Leuven,Charleroi,Oud-Heverlee Leuven,Charleroi,0,2,1,2,0,0,0,2,16
+1213341,2024-12-14,B1,2024,Beerschot VA,Standard Liege,Beerschot VA,Standard,0,0,1,1,0,0,0,0,7
+1213337,2024-12-15,B1,2024,Club Brugge KV,Genk,Club Brugge,Genk,0,3,1,0,0,0,0,0,16
+1213338,2024-12-15,B1,2024,Union St. Gilloise,KVC Westerlo,St. Gilloise,Westerlo,1,1,3,1,0,0,0,0,18
+1213344,2024-12-15,B1,2024,St. Truiden,Anderlecht,St Truiden,Anderlecht,0,1,0,1,0,0,0,1,13
+1213339,2024-12-15,B1,2024,Gent,Cercle Brugge,Gent,Cercle Brugge,0,1,0,0,0,0,0,0,12
+1213350,2024-12-20,B1,2024,KVC Westerlo,KV Mechelen,Westerlo,Mechelen,1,1,1,0,0,0,0,0,10
+1213351,2024-12-21,B1,2024,Charleroi,St. Truiden,Charleroi,St Truiden,0,1,0,1,0,0,0,0,14
+1213352,2024-12-21,B1,2024,Dender,Antwerp,Dender,Antwerp,0,0,1,0,0,0,0,0,14
+1213348,2024-12-21,B1,2024,Beerschot VA,Kortrijk,Beerschot VA,Kortrijk,0,0,2,3,0,0,0,0,18
+1213349,2024-12-22,B1,2024,Cercle Brugge,OH Leuven,Cercle Brugge,Oud-Heverlee Leuven,2,0,1,1,0,0,0,0,14
+1213346,2024-12-22,B1,2024,Genk,Anderlecht,Genk,Anderlecht,1,0,0,1,0,0,0,0,14
+1213347,2024-12-22,B1,2024,Standard Liege,Gent,Standard,Gent,2,1,0,3,0,0,0,0,15
+1213345,2024-12-22,B1,2024,Union St. Gilloise,Club Brugge KV,St. Gilloise,Club Brugge,0,2,0,2,0,0,0,0,14
+1213356,2024-12-26,B1,2024,Antwerp,Genk,Antwerp,Genk,0,2,0,1,0,0,0,0,15
+1213357,2024-12-26,B1,2024,Kortrijk,Charleroi,Kortrijk,Charleroi,1,0,0,2,0,0,0,0,11
+1213353,2024-12-26,B1,2024,Club Brugge KV,KVC Westerlo,Club Brugge,Westerlo,0,0,0,2,0,0,0,0,21
+1213359,2024-12-26,B1,2024,KV Mechelen,Standard Liege,Mechelen,Standard,2,1,1,1,0,0,0,0,12
+1213355,2024-12-26,B1,2024,Gent,Union St. Gilloise,Gent,St. Gilloise,0,0,0,1,0,0,0,0,14
+1213358,2024-12-27,B1,2024,OH Leuven,Beerschot VA,Oud-Heverlee Leuven,Beerschot VA,1,1,0,1,0,0,0,0,13
+1213354,2024-12-27,B1,2024,Anderlecht,Dender,Anderlecht,Dender,0,0,0,2,0,0,0,0,14
+1213360,2024-12-27,B1,2024,St. Truiden,Cercle Brugge,St Truiden,Cercle Brugge,1,1,0,2,0,0,0,0,13
+1213363,2025-01-10,B1,2024,Standard Liege,Kortrijk,Standard,Kortrijk,0,2,0,3,0,0,0,0,15
+1213367,2025-01-11,B1,2024,Charleroi,Union St. Gilloise,Charleroi,St. Gilloise,1,3,2,1,0,0,0,0,18
+1213366,2025-01-11,B1,2024,KVC Westerlo,St. Truiden,Westerlo,St Truiden,0,2,1,2,0,1,0,0,15
+1213362,2025-01-11,B1,2024,Genk,OH Leuven,Genk,Oud-Heverlee Leuven,0,1,2,3,1,0,0,0,19
+1213364,2025-01-12,B1,2024,Beerschot VA,Antwerp,Beerschot VA,Antwerp,0,0,3,3,0,0,0,0,15
+1213368,2025-01-12,B1,2024,Dender,Gent,Dender,Gent,3,0,1,1,0,0,0,0,12
+1213361,2025-01-12,B1,2024,Anderlecht,Club Brugge KV,Anderlecht,Club Brugge,0,1,0,0,0,0,0,0,14
+1213365,2025-01-12,B1,2024,Cercle Brugge,KV Mechelen,Cercle Brugge,Mechelen,0,0,0,1,0,0,0,0,12
+1213371,2025-01-17,B1,2024,Gent,Charleroi,Gent,Charleroi,1,0,0,1,0,0,0,0,13
+1213376,2025-01-18,B1,2024,Dender,Cercle Brugge,Dender,Cercle Brugge,0,2,0,1,1,0,0,0,14
+1213374,2025-01-18,B1,2024,KV Mechelen,Genk,Mechelen,Genk,2,0,0,1,0,0,0,0,17
+1213369,2025-01-18,B1,2024,Club Brugge KV,Beerschot VA,Club Brugge,Beerschot VA,0,0,0,0,0,0,0,0,15
+1213373,2025-01-19,B1,2024,Kortrijk,Anderlecht,Kortrijk,Anderlecht,0,3,0,2,0,1,0,0,15
+1213370,2025-01-19,B1,2024,Union St. Gilloise,OH Leuven,St. Gilloise,Oud-Heverlee Leuven,0,1,1,3,0,0,0,1,16
+1213375,2025-01-19,B1,2024,St. Truiden,Standard Liege,St Truiden,Standard,1,0,1,2,0,0,0,0,17
+1213372,2025-01-19,B1,2024,Antwerp,KVC Westerlo,Antwerp,Westerlo,0,3,1,4,0,0,0,0,23
+1213382,2025-01-24,B1,2024,St. Truiden,Antwerp,St Truiden,Antwerp,0,2,1,3,0,0,0,1,14
+1213377,2025-01-25,B1,2024,Club Brugge KV,Kortrijk,Club Brugge,Kortrijk,0,2,0,3,0,0,0,0,15
+1213383,2025-01-25,B1,2024,KVC Westerlo,Genk,Westerlo,Genk,0,1,0,3,0,0,0,0,17
+1213384,2025-01-25,B1,2024,Charleroi,Cercle Brugge,Charleroi,Cercle Brugge,1,2,0,1,0,1,0,0,13
+1213379,2025-01-26,B1,2024,Standard Liege,Dender,Standard,Dender,0,1,2,1,0,0,0,0,12
+1213380,2025-01-26,B1,2024,Beerschot VA,Union St. Gilloise,Beerschot VA,St. Gilloise,0,0,1,0,0,0,1,0,18
+1213378,2025-01-26,B1,2024,Anderlecht,KV Mechelen,Anderlecht,Mechelen,0,0,1,1,0,0,0,0,16
+1213381,2025-01-26,B1,2024,OH Leuven,Gent,Oud-Heverlee Leuven,Gent,1,1,0,0,0,0,0,0,11
+1213391,2025-01-31,B1,2024,OH Leuven,KV Mechelen,Oud-Heverlee Leuven,Mechelen,3,1,2,2,1,0,0,0,19
+1213392,2025-02-01,B1,2024,Charleroi,Dender,Charleroi,Dender,0,1,1,0,0,0,2,0,21
+1213390,2025-02-01,B1,2024,Cercle Brugge,Standard Liege,Cercle Brugge,Standard,1,0,0,2,0,0,0,0,15
+1213386,2025-02-01,B1,2024,Genk,Beerschot VA,Genk,Beerschot VA,0,1,0,2,0,0,0,1,12
+1213389,2025-02-02,B1,2024,Kortrijk,KVC Westerlo,Kortrijk,Westerlo,1,3,4,2,0,1,0,1,23
+1213388,2025-02-02,B1,2024,Antwerp,Club Brugge KV,Antwerp,Club Brugge,0,2,0,2,0,0,0,0,15
+1213385,2025-02-02,B1,2024,Union St. Gilloise,St. Truiden,St. Gilloise,St Truiden,2,1,0,5,0,0,0,0,20
+1213387,2025-02-02,B1,2024,Gent,Anderlecht,Gent,Anderlecht,2,2,3,1,0,1,1,0,19
+1213398,2025-02-07,B1,2024,KV Mechelen,Gent,Mechelen,Gent,0,0,1,0,0,0,0,0,15
+1213393,2025-02-08,B1,2024,Club Brugge KV,OH Leuven,Club Brugge,Oud-Heverlee Leuven,0,0,2,0,0,0,0,1,13
+1213400,2025-02-08,B1,2024,Dender,St. Truiden,Dender,St Truiden,0,1,1,2,0,0,0,0,16
+1213395,2025-02-08,B1,2024,Genk,Cercle Brugge,Genk,Cercle Brugge,0,0,0,2,0,0,0,1,18
+1213397,2025-02-09,B1,2024,Beerschot VA,Charleroi,Beerschot VA,Charleroi,0,0,0,3,0,0,0,0,12
+1213399,2025-02-09,B1,2024,KVC Westerlo,Standard Liege,Westerlo,Standard,2,0,1,0,0,0,0,0,19
+1213394,2025-02-09,B1,2024,Anderlecht,Antwerp,Anderlecht,Antwerp,1,0,3,1,0,0,0,0,16
+1213396,2025-02-09,B1,2024,Kortrijk,Union St. Gilloise,Kortrijk,St. Gilloise,1,1,2,0,0,0,0,0,16
+1213404,2025-02-14,B1,2024,Standard Liege,Genk,Standard,Genk,0,1,0,3,0,0,0,1,18
+1213407,2025-02-15,B1,2024,St. Truiden,Club Brugge KV,St Truiden,Club Brugge,0,2,1,1,0,0,0,0,17
+1213406,2025-02-15,B1,2024,OH Leuven,Dender,Oud-Heverlee Leuven,Dender,0,2,0,2,0,0,0,0,17
+1213403,2025-02-15,B1,2024,Antwerp,Kortrijk,Antwerp,Kortrijk,0,0,0,1,0,0,0,0,13
+1213402,2025-02-16,B1,2024,Gent,Beerschot VA,Gent,Beerschot VA,0,0,1,2,0,0,0,1,18
+1213401,2025-02-16,B1,2024,Union St. Gilloise,KV Mechelen,St. Gilloise,Mechelen,0,4,1,0,0,0,0,0,14
+1213408,2025-02-16,B1,2024,Charleroi,Anderlecht,Charleroi,Anderlecht,1,0,2,1,0,0,0,0,12
+1213405,2025-02-16,B1,2024,Cercle Brugge,KVC Westerlo,Cercle Brugge,Westerlo,0,1,2,0,0,0,0,0,16
+1213414,2025-02-21,B1,2024,KV Mechelen,St. Truiden,Mechelen,St Truiden,0,2,2,0,0,0,0,0,16
+1213415,2025-02-22,B1,2024,KVC Westerlo,Charleroi,Westerlo,Charleroi,0,1,0,1,0,0,0,0,14
+1213412,2025-02-22,B1,2024,Antwerp,OH Leuven,Antwerp,Oud-Heverlee Leuven,1,2,2,1,0,0,0,0,20
+1213416,2025-02-22,B1,2024,Dender,Beerschot VA,Dender,Beerschot VA,3,1,0,1,1,0,0,0,14
+1213409,2025-02-23,B1,2024,Club Brugge KV,Standard Liege,Club Brugge,Standard,2,1,1,3,0,1,0,0,22
+1213411,2025-02-23,B1,2024,Genk,Gent,Genk,Gent,1,1,2,0,0,0,0,0,12
+1213410,2025-02-23,B1,2024,Anderlecht,Union St. Gilloise,Anderlecht,St. Gilloise,0,3,1,1,0,0,0,0,16
+1213413,2025-02-23,B1,2024,Kortrijk,Cercle Brugge,Kortrijk,Cercle Brugge,1,3,1,1,0,0,0,0,18
+1213424,2025-02-28,B1,2024,Charleroi,Genk,Charleroi,Genk,1,2,1,0,0,0,0,0,11
+1213417,2025-03-01,B1,2024,Union St. Gilloise,Dender,St. Gilloise,Dender,0,1,0,2,0,0,0,0,19
+1213418,2025-03-01,B1,2024,Gent,Club Brugge KV,Gent,Club Brugge,2,0,1,0,0,0,0,0,13
+1213423,2025-03-01,B1,2024,St. Truiden,Kortrijk,St Truiden,Kortrijk,1,0,1,0,0,0,0,0,18
+1213421,2025-03-01,B1,2024,Cercle Brugge,Antwerp,Cercle Brugge,Antwerp,0,1,0,2,0,1,0,0,11
+1213420,2025-03-02,B1,2024,Beerschot VA,KV Mechelen,Beerschot VA,Mechelen,0,0,2,5,0,0,0,1,20
+1213419,2025-03-02,B1,2024,Standard Liege,Anderlecht,Standard,Anderlecht,0,0,0,3,0,0,0,0,13
+1213422,2025-03-02,B1,2024,OH Leuven,KVC Westerlo,Oud-Heverlee Leuven,Westerlo,1,1,0,1,0,0,0,0,9
+1213429,2025-03-07,B1,2024,St. Truiden,Beerschot VA,St Truiden,Beerschot VA,0,2,1,1,0,0,0,1,18
+1213427,2025-03-08,B1,2024,Kortrijk,OH Leuven,Kortrijk,Oud-Heverlee Leuven,1,0,2,2,0,0,0,1,19
+1213431,2025-03-08,B1,2024,Charleroi,KV Mechelen,Charleroi,Mechelen,0,1,0,2,0,0,0,0,13
+1213432,2025-03-08,B1,2024,Dender,Genk,Dender,Genk,0,1,0,0,0,0,0,0,11
+1213428,2025-03-09,B1,2024,Cercle Brugge,Club Brugge KV,Cercle Brugge,Club Brugge,0,2,2,1,0,0,0,0,19
+1213430,2025-03-09,B1,2024,KVC Westerlo,Anderlecht,Westerlo,Anderlecht,0,1,0,0,0,0,0,0,11
+1213426,2025-03-09,B1,2024,Antwerp,Gent,Antwerp,Gent,0,1,0,0,0,0,0,0,12
+1213425,2025-03-09,B1,2024,Union St. Gilloise,Standard Liege,St. Gilloise,Standard,1,1,0,3,0,0,0,1,18
+1213435,2025-03-15,B1,2024,Genk,Union St. Gilloise,Genk,St. Gilloise,0,1,0,0,0,0,0,0,15
+1213438,2025-03-16,B1,2024,Beerschot VA,KVC Westerlo,Beerschot VA,Westerlo,0,0,1,4,0,0,0,0,17
+1213439,2025-03-16,B1,2024,OH Leuven,St. Truiden,Oud-Heverlee Leuven,St Truiden,2,1,3,3,0,0,0,1,26
+1213440,2025-03-16,B1,2024,KV Mechelen,Dender,Mechelen,Dender,1,0,0,1,0,0,0,0,15
+1213433,2025-03-16,B1,2024,Club Brugge KV,Charleroi,Club Brugge,Charleroi,0,0,0,1,0,0,0,0,17
+1213437,2025-03-16,B1,2024,Standard Liege,Antwerp,Standard,Antwerp,0,1,2,2,0,0,0,0,11
+1213434,2025-03-16,B1,2024,Anderlecht,Cercle Brugge,Anderlecht,Cercle Brugge,1,1,3,2,0,0,0,0,20
+1213436,2025-03-16,B1,2024,Gent,Kortrijk,Gent,Kortrijk,0,1,0,4,0,0,0,1,19
+1361770,2025-03-28,B1,2024,OH Leuven,Charleroi,Oud-Heverlee Leuven,Charleroi,1,3,1,1,0,1,0,0,15
+1361771,2025-03-29,B1,2024,Standard Liege,KV Mechelen,Standard,Mechelen,0,0,0,1,0,0,0,0,14
+1361728,2025-03-29,B1,2024,Union St. Gilloise,Antwerp,St. Gilloise,Antwerp,1,1,2,1,0,0,1,0,24
+1361758,2025-03-29,B1,2024,Beerschot VA,St. Truiden,Beerschot VA,St Truiden,0,0,0,3,0,0,1,0,14
+1361729,2025-03-30,B1,2024,Club Brugge KV,Anderlecht,Club Brugge,Anderlecht,0,0,1,1,0,0,0,0,14
+1361759,2025-03-30,B1,2024,Kortrijk,Cercle Brugge,Kortrijk,Cercle Brugge,0,2,0,3,1,0,0,1,21
+1361730,2025-03-30,B1,2024,Genk,Gent,Genk,Gent,1,0,0,0,0,0,0,0,17
+1361772,2025-03-30,B1,2024,Dender,KVC Westerlo,Dender,Westerlo,0,0,0,3,0,0,0,0,11
+1361773,2025-04-04,B1,2024,KV Mechelen,Dender,Mechelen,Dender,0,0,0,1,0,0,0,0,19
+1361760,2025-04-05,B1,2024,Cercle Brugge,Beerschot VA,Cercle Brugge,Beerschot VA,2,0,0,0,0,0,0,0,13
+1361774,2025-04-05,B1,2024,KVC Westerlo,OH Leuven,Westerlo,Oud-Heverlee Leuven,1,1,0,2,0,0,0,0,16
+1361731,2025-04-05,B1,2024,Gent,Union St. Gilloise,Gent,St. Gilloise,0,1,0,1,0,0,0,0,16
+1361775,2025-04-06,B1,2024,Charleroi,Standard Liege,Charleroi,Standard,0,1,0,1,0,0,0,0,11
+1361732,2025-04-06,B1,2024,Antwerp,Club Brugge KV,Antwerp,Club Brugge,0,2,0,2,0,0,0,0,17
+1361761,2025-04-06,B1,2024,St. Truiden,Kortrijk,St Truiden,Kortrijk,1,2,0,2,0,0,0,0,18
+1361733,2025-04-06,B1,2024,Anderlecht,Genk,Anderlecht,Genk,1,1,0,2,0,0,0,0,17
+1361776,2025-04-11,B1,2024,KVC Westerlo,Charleroi,Westerlo,Charleroi,0,1,0,0,0,0,0,0,11
+1361763,2025-04-12,B1,2024,St. Truiden,Cercle Brugge,St Truiden,Cercle Brugge,1,2,0,1,0,0,0,0,17
+1361734,2025-04-12,B1,2024,Union St. Gilloise,Anderlecht,St. Gilloise,Anderlecht,2,2,0,4,0,0,0,0,20
+1361762,2025-04-12,B1,2024,Kortrijk,Beerschot VA,Kortrijk,Beerschot VA,0,2,0,1,0,0,0,0,17
+1361735,2025-04-13,B1,2024,Antwerp,Gent,Antwerp,Gent,3,0,1,3,0,0,0,0,19
+1361777,2025-04-13,B1,2024,KV Mechelen,OH Leuven,Mechelen,Oud-Heverlee Leuven,0,1,0,0,0,0,0,0,12
+1361736,2025-04-13,B1,2024,Club Brugge KV,Genk,Club Brugge,Genk,1,2,0,4,0,0,0,0,16
+1361778,2025-04-13,B1,2024,Dender,Standard Liege,Dender,Standard,1,0,0,0,0,0,0,0,11
+1361779,2025-04-19,B1,2024,OH Leuven,Dender,Oud-Heverlee Leuven,Dender,0,1,0,1,0,0,0,0,20
+1361780,2025-04-19,B1,2024,Charleroi,KV Mechelen,Charleroi,Mechelen,1,0,0,0,0,0,0,0,14
+1361781,2025-04-19,B1,2024,Standard Liege,KVC Westerlo,Standard,Westerlo,0,1,1,1,0,0,0,0,14
+1361739,2025-04-20,B1,2024,Gent,Club Brugge KV,Gent,Club Brugge,0,2,0,1,0,0,0,0,18
+1361737,2025-04-20,B1,2024,Anderlecht,Antwerp,Anderlecht,Antwerp,1,1,1,1,0,0,0,0,12
+1361738,2025-04-20,B1,2024,Genk,Union St. Gilloise,Genk,St. Gilloise,1,0,2,0,0,0,0,0,15
+1361784,2025-04-22,B1,2024,Dender,Charleroi,Dender,Charleroi,0,3,0,1,0,0,0,0,17
+1361782,2025-04-22,B1,2024,Standard Liege,OH Leuven,Standard,Oud-Heverlee Leuven,1,0,0,3,0,0,0,0,13
+1361783,2025-04-22,B1,2024,KV Mechelen,KVC Westerlo,Mechelen,Westerlo,1,4,1,1,1,0,0,0,23
+1361740,2025-04-23,B1,2024,Antwerp,Genk,Antwerp,Genk,1,2,0,0,0,0,0,0,15
+1361741,2025-04-23,B1,2024,Anderlecht,Gent,Anderlecht,Gent,0,0,1,1,0,0,0,0,17
+1361742,2025-04-24,B1,2024,Club Brugge KV,Union St. Gilloise,Club Brugge,St. Gilloise,0,1,1,2,0,0,0,0,13
+1361764,2025-04-25,B1,2024,Beerschot VA,Kortrijk,Beerschot VA,Kortrijk,0,0,1,1,0,0,0,0,12
+1361786,2025-04-26,B1,2024,KVC Westerlo,KV Mechelen,Westerlo,Mechelen,0,0,0,1,0,0,0,0,16
+1361765,2025-04-26,B1,2024,Cercle Brugge,St. Truiden,Cercle Brugge,St Truiden,0,3,3,5,0,0,1,0,23
+1361787,2025-04-26,B1,2024,Charleroi,Dender,Charleroi,Dender,1,0,2,0,0,0,0,0,18
+1361785,2025-04-26,B1,2024,OH Leuven,Standard Liege,Oud-Heverlee Leuven,Standard,0,2,0,1,0,0,0,0,15
+1361743,2025-04-27,B1,2024,Gent,Anderlecht,Gent,Anderlecht,2,2,1,1,0,1,0,0,18
+1361744,2025-04-27,B1,2024,Genk,Antwerp,Genk,Antwerp,1,0,2,0,0,0,0,0,15
+1361745,2025-04-27,B1,2024,Union St. Gilloise,Club Brugge KV,St. Gilloise,Club Brugge,0,2,2,1,0,0,0,0,11
+1361746,2025-05-01,B1,2024,Antwerp,Anderlecht,Antwerp,Anderlecht,0,2,0,0,0,1,0,0,17
+1361747,2025-05-01,B1,2024,Club Brugge KV,Gent,Club Brugge,Gent,0,0,1,0,0,0,0,0,16
+1361788,2025-05-02,B1,2024,KVC Westerlo,Dender,Westerlo,Dender,0,1,0,0,0,0,0,0,19
+1361789,2025-05-03,B1,2024,OH Leuven,KV Mechelen,Oud-Heverlee Leuven,Mechelen,2,3,0,2,0,0,0,0,19
+1361748,2025-05-03,B1,2024,Union St. Gilloise,Genk,St. Gilloise,Genk,2,3,1,3,0,0,0,1,19
+1361766,2025-05-03,B1,2024,Cercle Brugge,Kortrijk,Cercle Brugge,Kortrijk,1,2,3,2,0,0,0,0,18
+1361790,2025-05-04,B1,2024,Standard Liege,Charleroi,Standard,Charleroi,1,2,2,1,0,0,0,0,14
+1361767,2025-05-04,B1,2024,St. Truiden,Beerschot VA,St Truiden,Beerschot VA,0,0,0,0,0,0,0,0,10
+1361791,2025-05-09,B1,2024,Charleroi,KVC Westerlo,Charleroi,Westerlo,0,2,0,6,0,0,0,1,23
+1361792,2025-05-10,B1,2024,KV Mechelen,Standard Liege,Mechelen,Standard,1,1,1,2,0,0,0,1,15
+1361749,2025-05-10,B1,2024,Anderlecht,Union St. Gilloise,Anderlecht,St. Gilloise,0,2,2,2,0,0,0,0,22
+1361769,2025-05-10,B1,2024,Kortrijk,St. Truiden,Kortrijk,St Truiden,0,0,0,1,0,0,0,0,14
+1361768,2025-05-10,B1,2024,Beerschot VA,Cercle Brugge,Beerschot VA,Cercle Brugge,0,0,1,4,0,0,0,0,21
+1361750,2025-05-11,B1,2024,Gent,Antwerp,Gent,Antwerp,0,2,2,0,0,1,0,0,19
+1361751,2025-05-11,B1,2024,Genk,Club Brugge KV,Genk,Club Brugge,0,2,1,2,1,0,0,0,17
+1361793,2025-05-11,B1,2024,Dender,OH Leuven,Dender,Oud-Heverlee Leuven,0,0,1,1,0,0,0,0,16
+1361794,2025-05-16,B1,2024,OH Leuven,KVC Westerlo,Oud-Heverlee Leuven,Westerlo,1,2,1,0,0,0,0,0,16
+1361795,2025-05-17,B1,2024,Standard Liege,Dender,Standard,Dender,0,0,1,0,0,0,0,0,9
+1361752,2025-05-17,B1,2024,Antwerp,Union St. Gilloise,Antwerp,St. Gilloise,1,0,0,1,0,0,0,0,16
+1375691,2025-05-18,B1,2024,Patro Eisden,Cercle Brugge,,Cercle Brugge,0,3,0,0,0,0,0,0,17
+1361754,2025-05-18,B1,2024,Gent,Genk,Gent,Genk,0,1,0,0,0,0,0,0,17
+1361753,2025-05-18,B1,2024,Anderlecht,Club Brugge KV,Anderlecht,Club Brugge,2,0,2,2,0,0,0,0,20
+1361796,2025-05-18,B1,2024,KV Mechelen,Charleroi,Mechelen,Charleroi,0,1,0,0,0,0,0,0,12
+1375692,2025-05-23,B1,2024,Cercle Brugge,Patro Eisden,Cercle Brugge,,0,1,1,2,0,0,0,0,17
+1361799,2025-05-24,B1,2024,Dender,KV Mechelen,Dender,Mechelen,2,1,0,0,0,0,1,0,16
+1361797,2025-05-24,B1,2024,Charleroi,OH Leuven,Charleroi,Oud-Heverlee Leuven,1,0,0,1,0,0,0,0,15
+1361798,2025-05-24,B1,2024,KVC Westerlo,Standard Liege,Westerlo,Standard,0,2,0,2,0,0,0,0,13
+1361756,2025-05-25,B1,2024,Union St. Gilloise,Gent,St. Gilloise,Gent,0,2,0,0,0,0,0,0,16
+1361757,2025-05-25,B1,2024,Genk,Anderlecht,Genk,Anderlecht,0,0,1,1,0,0,0,0,15
+1361755,2025-05-25,B1,2024,Club Brugge KV,Antwerp,Club Brugge,Antwerp,0,1,0,1,0,0,0,0,14
+1376258,2025-05-29,B1,2024,Antwerp,Charleroi,Antwerp,Charleroi,0,1,0,2,0,0,0,0,13
