@@ -1,11 +1,103 @@
 fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,ar1,ar2,evenimente
+1223975,2024-08-23,D1,2024,Borussia Mönchengladbach,Bayer Leverkusen,M'gladbach,Leverkusen,0,1,0,0,0,0,0,0,17
+1223977,2024-08-24,D1,2024,Borussia Dortmund,Eintracht Frankfurt,Dortmund,Ein Frankfurt,0,0,0,1,0,0,0,0,13
+1223979,2024-08-24,D1,2024,SC Freiburg,VfB Stuttgart,Freiburg,Stuttgart,1,1,0,1,0,0,0,0,17
+1223976,2024-08-24,D1,2024,RB Leipzig,VfL Bochum,RB Leipzig,Bochum,1,0,2,1,0,1,0,0,16
+1223978,2024-08-24,D1,2024,1899 Hoffenheim,Holstein Kiel,Hoffenheim,Holstein Kiel,1,1,1,2,0,0,0,1,21
+1223982,2024-08-24,D1,2024,FSV Mainz 05,Union Berlin,Mainz,Union Berlin,1,0,1,2,0,0,0,0,15
+1223980,2024-08-24,D1,2024,FC Augsburg,Werder Bremen,Augsburg,Werder Bremen,0,3,0,1,0,0,0,0,19
+1223981,2024-08-25,D1,2024,VfL Wolfsburg,Bayern München,Wolfsburg,Bayern Munich,0,2,1,2,0,0,0,0,16
+1223983,2024-08-25,D1,2024,FC St. Pauli,1. FC Heidenheim,St Pauli,Heidenheim,2,0,1,2,0,0,0,0,16
+1223990,2024-08-30,D1,2024,Union Berlin,FC St. Pauli,Union Berlin,St Pauli,0,3,1,0,0,0,0,0,15
+1223992,2024-08-31,D1,2024,Holstein Kiel,VfL Wolfsburg,Holstein Kiel,Wolfsburg,0,4,4,3,0,0,0,0,22
+1223991,2024-08-31,D1,2024,VfL Bochum,Borussia Mönchengladbach,Bochum,M'gladbach,0,1,0,0,0,0,0,0,13
+1223985,2024-08-31,D1,2024,VfB Stuttgart,FSV Mainz 05,Stuttgart,Mainz,1,3,1,1,0,0,0,0,22
+1223987,2024-08-31,D1,2024,Eintracht Frankfurt,1899 Hoffenheim,Ein Frankfurt,Hoffenheim,0,0,1,2,0,0,0,0,17
+1223989,2024-08-31,D1,2024,Werder Bremen,Borussia Dortmund,Werder Bremen,Dortmund,1,1,2,5,0,0,0,1,16
+1223984,2024-08-31,D1,2024,Bayer Leverkusen,RB Leipzig,Leverkusen,RB Leipzig,2,1,0,1,0,0,0,0,19
+1223986,2024-09-01,D1,2024,Bayern München,SC Freiburg,Bayern Munich,Freiburg,1,0,0,0,0,0,0,0,15
+1223988,2024-09-01,D1,2024,1. FC Heidenheim,FC Augsburg,Heidenheim,Augsburg,0,1,1,3,0,0,0,0,20
+1223994,2024-09-13,D1,2024,Borussia Dortmund,1. FC Heidenheim,Dortmund,Heidenheim,0,2,0,2,0,0,0,0,21
+1223993,2024-09-14,D1,2024,RB Leipzig,Union Berlin,RB Leipzig,Union Berlin,0,2,1,2,0,0,0,0,16
+1223995,2024-09-14,D1,2024,1899 Hoffenheim,Bayer Leverkusen,Hoffenheim,Leverkusen,1,1,1,1,0,0,0,0,21
+1224000,2024-09-14,D1,2024,Borussia Mönchengladbach,VfB Stuttgart,M'gladbach,Stuttgart,1,1,1,1,0,0,0,0,18
+1223998,2024-09-14,D1,2024,VfL Wolfsburg,Eintracht Frankfurt,Wolfsburg,Ein Frankfurt,0,1,1,1,0,0,0,0,16
+1223996,2024-09-14,D1,2024,SC Freiburg,VfL Bochum,Freiburg,Bochum,0,0,0,3,0,0,0,0,17
+1224001,2024-09-14,D1,2024,Holstein Kiel,Bayern München,Holstein Kiel,Bayern Munich,0,0,0,1,0,0,0,0,19
+1223999,2024-09-15,D1,2024,FSV Mainz 05,Werder Bremen,Mainz,Werder Bremen,2,1,0,1,0,0,0,1,18
+1223997,2024-09-15,D1,2024,FC Augsburg,FC St. Pauli,Augsburg,St Pauli,1,3,2,1,0,0,0,0,21
+1224007,2024-09-20,D1,2024,FC Augsburg,FSV Mainz 05,Augsburg,Mainz,1,2,3,2,0,1,1,0,26
+1224005,2024-09-21,D1,2024,1. FC Heidenheim,SC Freiburg,Heidenheim,Freiburg,0,1,0,1,0,0,0,0,15
+1224009,2024-09-21,D1,2024,VfL Bochum,Holstein Kiel,Bochum,Holstein Kiel,1,3,0,1,0,0,0,0,18
+1224006,2024-09-21,D1,2024,Werder Bremen,Bayern München,Werder Bremen,Bayern Munich,0,0,1,2,0,0,0,0,18
+1224004,2024-09-21,D1,2024,Eintracht Frankfurt,Borussia Mönchengladbach,Ein Frankfurt,M'gladbach,1,0,1,0,0,0,0,0,13
+1224008,2024-09-21,D1,2024,Union Berlin,1899 Hoffenheim,Union Berlin,Hoffenheim,1,2,0,3,0,0,0,0,19
+1224002,2024-09-22,D1,2024,Bayer Leverkusen,VfL Wolfsburg,Leverkusen,Wolfsburg,2,2,0,5,0,0,0,1,27
+1224003,2024-09-22,D1,2024,VfB Stuttgart,Borussia Dortmund,Stuttgart,Dortmund,1,0,0,3,0,0,0,0,20
+1224010,2024-09-22,D1,2024,FC St. Pauli,RB Leipzig,St Pauli,RB Leipzig,1,1,1,0,0,0,0,0,12
+1224013,2024-09-27,D1,2024,Borussia Dortmund,VfL Bochum,Dortmund,Bochum,0,2,0,0,0,0,0,0,17
+1224011,2024-09-28,D1,2024,Bayern München,Bayer Leverkusen,Bayern Munich,Leverkusen,1,0,1,2,0,0,0,0,14
+1224015,2024-09-28,D1,2024,SC Freiburg,FC St. Pauli,Freiburg,St Pauli,2,1,0,3,0,0,0,0,23
+1224017,2024-09-28,D1,2024,FSV Mainz 05,1. FC Heidenheim,Mainz,Heidenheim,2,2,0,4,1,0,0,1,22
+1224018,2024-09-28,D1,2024,Borussia Mönchengladbach,Union Berlin,M'gladbach,Union Berlin,0,3,0,1,0,0,0,0,14
+1224016,2024-09-28,D1,2024,VfL Wolfsburg,VfB Stuttgart,Wolfsburg,Stuttgart,1,4,1,1,0,0,0,1,23
+1224012,2024-09-28,D1,2024,RB Leipzig,FC Augsburg,RB Leipzig,Augsburg,1,0,0,2,0,0,0,0,18
+1224019,2024-09-29,D1,2024,Holstein Kiel,Eintracht Frankfurt,Holstein Kiel,Ein Frankfurt,0,1,1,2,0,0,0,0,19
+1224014,2024-09-29,D1,2024,1899 Hoffenheim,Werder Bremen,Hoffenheim,Werder Bremen,1,2,1,2,1,0,0,0,24
+1224025,2024-10-04,D1,2024,FC Augsburg,Borussia Mönchengladbach,Augsburg,M'gladbach,0,2,0,4,0,0,0,0,18
+1224024,2024-10-05,D1,2024,Werder Bremen,SC Freiburg,Werder Bremen,Freiburg,0,1,1,0,0,0,0,0,13
+1224028,2024-10-05,D1,2024,FC St. Pauli,FSV Mainz 05,St Pauli,Mainz,0,0,1,2,0,0,0,0,14
+1224020,2024-10-05,D1,2024,Bayer Leverkusen,Holstein Kiel,Leverkusen,Holstein Kiel,0,2,0,2,0,0,0,0,19
+1224026,2024-10-05,D1,2024,Union Berlin,Borussia Dortmund,Union Berlin,Dortmund,2,2,1,3,0,0,0,0,20
+1224027,2024-10-05,D1,2024,VfL Bochum,VfL Wolfsburg,Bochum,Wolfsburg,1,0,1,1,0,0,0,0,19
+1224022,2024-10-06,D1,2024,Eintracht Frankfurt,Bayern München,Ein Frankfurt,Bayern Munich,0,1,1,0,0,0,0,0,18
+1224021,2024-10-06,D1,2024,VfB Stuttgart,1899 Hoffenheim,Stuttgart,Hoffenheim,1,0,1,3,0,0,0,0,19
+1224023,2024-10-06,D1,2024,1. FC Heidenheim,RB Leipzig,Heidenheim,RB Leipzig,1,1,0,2,0,0,0,0,16
+1224031,2024-10-18,D1,2024,Borussia Dortmund,FC St. Pauli,Dortmund,St Pauli,0,2,1,0,0,0,0,0,15
+1224036,2024-10-19,D1,2024,Borussia Mönchengladbach,1. FC Heidenheim,M'gladbach,Heidenheim,1,2,1,2,0,0,0,0,22
+1224030,2024-10-19,D1,2024,Bayern München,VfB Stuttgart,Bayern Munich,Stuttgart,0,0,0,2,0,0,0,0,16
+1224032,2024-10-19,D1,2024,1899 Hoffenheim,VfL Bochum,Hoffenheim,Bochum,0,1,0,1,0,0,0,0,18
+1224029,2024-10-19,D1,2024,Bayer Leverkusen,Eintracht Frankfurt,Leverkusen,Ein Frankfurt,0,2,1,0,0,0,0,0,18
+1224035,2024-10-19,D1,2024,FSV Mainz 05,RB Leipzig,Mainz,RB Leipzig,0,1,0,3,0,0,0,0,15
+1224033,2024-10-19,D1,2024,SC Freiburg,FC Augsburg,Freiburg,Augsburg,1,0,0,1,0,0,0,0,16
+1224037,2024-10-20,D1,2024,Holstein Kiel,Union Berlin,Holstein Kiel,Union Berlin,0,2,0,1,0,0,0,0,15
+1224034,2024-10-20,D1,2024,VfL Wolfsburg,Werder Bremen,Wolfsburg,Werder Bremen,1,0,0,1,0,1,0,0,18
+1224043,2024-10-25,D1,2024,FSV Mainz 05,Borussia Mönchengladbach,Mainz,M'gladbach,0,3,1,1,0,0,0,0,15
+1224041,2024-10-26,D1,2024,Werder Bremen,Bayer Leverkusen,Werder Bremen,Leverkusen,0,1,0,1,0,0,0,0,13
+1224046,2024-10-26,D1,2024,FC St. Pauli,VfL Wolfsburg,St Pauli,Wolfsburg,0,0,0,3,0,0,0,0,9
+1224039,2024-10-26,D1,2024,RB Leipzig,SC Freiburg,RB Leipzig,Freiburg,1,2,1,1,0,0,0,0,19
+1224038,2024-10-26,D1,2024,VfB Stuttgart,Holstein Kiel,Stuttgart,Holstein Kiel,0,3,1,5,0,1,0,1,24
+1224042,2024-10-26,D1,2024,FC Augsburg,Borussia Dortmund,Augsburg,Dortmund,1,2,0,3,0,0,0,1,20
+1224040,2024-10-27,D1,2024,1. FC Heidenheim,1899 Hoffenheim,Heidenheim,Hoffenheim,1,0,1,1,0,0,0,0,11
+1224045,2024-10-27,D1,2024,VfL Bochum,Bayern München,Bochum,Bayern Munich,1,0,1,0,0,0,0,0,17
+1224044,2024-10-27,D1,2024,Union Berlin,Eintracht Frankfurt,Union Berlin,Ein Frankfurt,2,3,1,2,0,0,0,1,23
+1224047,2024-11-01,D1,2024,Bayer Leverkusen,VfB Stuttgart,Leverkusen,Stuttgart,2,1,0,4,0,0,0,0,16
+1224055,2024-11-02,D1,2024,Holstein Kiel,1. FC Heidenheim,Holstein Kiel,Heidenheim,2,2,2,3,0,0,0,0,21
+1224050,2024-11-02,D1,2024,Eintracht Frankfurt,VfL Bochum,Ein Frankfurt,Bochum,0,1,1,1,0,0,0,0,22
+1224051,2024-11-02,D1,2024,1899 Hoffenheim,FC St. Pauli,Hoffenheim,St Pauli,0,0,0,1,0,0,0,0,12
+1224053,2024-11-02,D1,2024,VfL Wolfsburg,FC Augsburg,Wolfsburg,Augsburg,0,1,1,2,0,0,0,0,15
+1224048,2024-11-02,D1,2024,Bayern München,Union Berlin,Bayern Munich,Union Berlin,0,0,1,1,0,0,0,0,15
+1224049,2024-11-02,D1,2024,Borussia Dortmund,RB Leipzig,Dortmund,RB Leipzig,2,1,3,1,0,0,0,0,18
+1224052,2024-11-03,D1,2024,SC Freiburg,FSV Mainz 05,Freiburg,Mainz,0,1,1,1,0,0,0,0,12
+1224054,2024-11-03,D1,2024,Borussia Mönchengladbach,Werder Bremen,M'gladbach,Werder Bremen,0,1,2,2,0,0,0,1,21
+1224062,2024-11-08,D1,2024,Union Berlin,SC Freiburg,Union Berlin,Freiburg,1,1,0,0,0,0,0,0,13
+1224063,2024-11-09,D1,2024,VfL Bochum,Bayer Leverkusen,Bochum,Leverkusen,0,0,0,1,0,0,0,0,11
+1224061,2024-11-09,D1,2024,FSV Mainz 05,Borussia Dortmund,Mainz,Dortmund,2,1,1,0,0,0,1,0,18
+1224059,2024-11-09,D1,2024,Werder Bremen,Holstein Kiel,Werder Bremen,Holstein Kiel,2,1,0,2,0,0,0,0,18
+1224057,2024-11-09,D1,2024,RB Leipzig,Borussia Mönchengladbach,RB Leipzig,M'gladbach,0,2,2,0,0,0,0,0,13
+1224064,2024-11-09,D1,2024,FC St. Pauli,Bayern München,St Pauli,Bayern Munich,0,2,0,2,0,0,0,0,14
+1224060,2024-11-10,D1,2024,FC Augsburg,1899 Hoffenheim,Augsburg,Hoffenheim,0,2,2,1,0,0,0,0,13
+1224056,2024-11-10,D1,2024,VfB Stuttgart,Eintracht Frankfurt,Stuttgart,Ein Frankfurt,0,2,1,2,0,0,0,0,21
+1224058,2024-11-10,D1,2024,1. FC Heidenheim,VfL Wolfsburg,Heidenheim,Wolfsburg,1,0,0,6,0,0,0,0,21
+1224067,2024-11-22,D1,2024,Bayern München,FC Augsburg,Bayern Munich,Augsburg,0,0,0,2,0,0,0,1,18
+1224066,2024-11-23,D1,2024,VfB Stuttgart,VfL Bochum,Stuttgart,Bochum,1,1,1,2,0,0,0,0,17
 1224065,2024-11-23,D1,2024,Bayer Leverkusen,1. FC Heidenheim,Leverkusen,Heidenheim,0,0,0,0,0,0,0,0,16
-1224069,2024-11-23,D1,2024,Eintracht Frankfurt,Werder Bremen,Ein Frankfurt,Werder Bremen,0,2,1,1,0,0,0,0,14
-1224070,2024-11-23,D1,2024,1899 Hoffenheim,RB Leipzig,Hoffenheim,RB Leipzig,0,2,0,1,0,0,0,0,19
-1224068,2024-11-23,D1,2024,Borussia Dortmund,SC Freiburg,Dortmund,Freiburg,0,1,0,2,0,0,0,2,20
 1224071,2024-11-23,D1,2024,VfL Wolfsburg,Union Berlin,Wolfsburg,Union Berlin,1,0,1,1,0,0,0,0,14
-1224072,2024-11-24,D1,2024,Borussia Mönchengladbach,FC St. Pauli,M'gladbach,St Pauli,0,1,0,0,0,0,0,0,12
+1224068,2024-11-23,D1,2024,Borussia Dortmund,SC Freiburg,Dortmund,Freiburg,0,1,0,2,0,0,0,2,20
+1224070,2024-11-23,D1,2024,1899 Hoffenheim,RB Leipzig,Hoffenheim,RB Leipzig,0,2,0,1,0,0,0,0,19
+1224069,2024-11-23,D1,2024,Eintracht Frankfurt,Werder Bremen,Ein Frankfurt,Werder Bremen,0,2,1,1,0,0,0,0,14
 1224073,2024-11-24,D1,2024,Holstein Kiel,FSV Mainz 05,Holstein Kiel,Mainz,0,1,0,0,0,0,0,0,15
+1224072,2024-11-24,D1,2024,Borussia Mönchengladbach,FC St. Pauli,M'gladbach,St Pauli,0,1,0,0,0,0,0,0,12
 1224082,2024-11-29,D1,2024,FC St. Pauli,Holstein Kiel,St Pauli,Holstein Kiel,1,1,4,1,0,0,0,0,21
 1224081,2024-11-30,D1,2024,Union Berlin,Bayer Leverkusen,Union Berlin,Leverkusen,1,3,1,1,0,0,0,0,18
 1224074,2024-11-30,D1,2024,RB Leipzig,VfL Wolfsburg,RB Leipzig,Wolfsburg,1,1,0,1,0,0,0,0,19
@@ -22,16 +114,16 @@ fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,a
 1224085,2024-12-07,D1,2024,Bayern München,1. FC Heidenheim,Bayern Munich,Heidenheim,0,1,0,0,0,0,0,0,17
 1224089,2024-12-07,D1,2024,Borussia Mönchengladbach,Borussia Dortmund,M'gladbach,Dortmund,1,2,0,2,0,1,0,0,17
 1224091,2024-12-07,D1,2024,Holstein Kiel,RB Leipzig,Holstein Kiel,RB Leipzig,1,3,0,3,0,0,0,0,18
-1224088,2024-12-08,D1,2024,VfL Wolfsburg,FSV Mainz 05,Wolfsburg,Mainz,2,1,2,2,0,0,0,0,23
 1224087,2024-12-08,D1,2024,1899 Hoffenheim,SC Freiburg,Hoffenheim,Freiburg,0,1,1,0,0,0,0,0,13
+1224088,2024-12-08,D1,2024,VfL Wolfsburg,FSV Mainz 05,Wolfsburg,Mainz,2,1,2,2,0,0,0,0,23
 1224095,2024-12-13,D1,2024,SC Freiburg,VfL Wolfsburg,Freiburg,Wolfsburg,2,2,0,1,0,0,0,0,21
+1224096,2024-12-14,D1,2024,FC Augsburg,Bayer Leverkusen,Augsburg,Leverkusen,2,1,0,0,0,0,0,0,15
+1224099,2024-12-14,D1,2024,Union Berlin,VfL Bochum,Union Berlin,Bochum,1,1,0,2,0,0,1,0,17
 1224100,2024-12-14,D1,2024,FC St. Pauli,Werder Bremen,St Pauli,Werder Bremen,0,2,3,0,0,0,0,0,15
 1224098,2024-12-14,D1,2024,Borussia Mönchengladbach,Holstein Kiel,M'gladbach,Holstein Kiel,0,1,0,1,0,0,0,0,18
 1224097,2024-12-14,D1,2024,FSV Mainz 05,Bayern München,Mainz,Bayern Munich,0,3,0,2,0,0,0,0,14
-1224099,2024-12-14,D1,2024,Union Berlin,VfL Bochum,Union Berlin,Bochum,1,1,0,2,0,0,1,0,17
-1224096,2024-12-14,D1,2024,FC Augsburg,Bayer Leverkusen,Augsburg,Leverkusen,2,1,0,0,0,0,0,0,15
-1224094,2024-12-15,D1,2024,1. FC Heidenheim,VfB Stuttgart,Heidenheim,Stuttgart,1,3,2,1,0,0,0,0,21
 1224093,2024-12-15,D1,2024,Borussia Dortmund,1899 Hoffenheim,Dortmund,Hoffenheim,2,3,1,1,0,0,0,0,20
+1224094,2024-12-15,D1,2024,1. FC Heidenheim,VfB Stuttgart,Heidenheim,Stuttgart,1,3,2,1,0,0,0,0,21
 1224092,2024-12-15,D1,2024,RB Leipzig,Eintracht Frankfurt,RB Leipzig,Ein Frankfurt,0,1,0,3,0,0,0,0,15
 1224103,2024-12-20,D1,2024,Bayern München,RB Leipzig,Bayern Munich,RB Leipzig,1,4,1,1,0,0,0,0,22
 1224109,2024-12-21,D1,2024,Holstein Kiel,FC Augsburg,Holstein Kiel,Augsburg,0,0,1,3,0,0,0,0,21
@@ -43,59 +135,59 @@ fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,a
 1224108,2024-12-22,D1,2024,VfL Bochum,1. FC Heidenheim,Bochum,Heidenheim,1,1,2,5,0,0,0,0,21
 1224107,2024-12-22,D1,2024,VfL Wolfsburg,Borussia Dortmund,Wolfsburg,Dortmund,0,3,0,2,0,0,0,1,19
 1224111,2025-01-10,D1,2024,Borussia Dortmund,Bayer Leverkusen,Dortmund,Leverkusen,0,1,1,1,0,0,0,0,18
+1224114,2025-01-11,D1,2024,SC Freiburg,Holstein Kiel,Freiburg,Holstein Kiel,0,2,2,1,0,0,0,0,19
+1224116,2025-01-11,D1,2024,FSV Mainz 05,VfL Bochum,Mainz,Bochum,0,0,2,0,0,0,0,0,14
+1224112,2025-01-11,D1,2024,1899 Hoffenheim,VfL Wolfsburg,Hoffenheim,Wolfsburg,0,1,1,1,0,0,0,0,14
+1224117,2025-01-11,D1,2024,Borussia Mönchengladbach,Bayern München,M'gladbach,Bayern Munich,0,3,0,1,0,0,0,0,12
 1224118,2025-01-11,D1,2024,FC St. Pauli,Eintracht Frankfurt,St Pauli,Ein Frankfurt,0,0,1,2,0,0,0,0,12
 1224113,2025-01-11,D1,2024,1. FC Heidenheim,Union Berlin,Heidenheim,Union Berlin,0,0,0,1,0,0,1,0,14
-1224112,2025-01-11,D1,2024,1899 Hoffenheim,VfL Wolfsburg,Hoffenheim,Wolfsburg,0,1,1,1,0,0,0,0,14
-1224116,2025-01-11,D1,2024,FSV Mainz 05,VfL Bochum,Mainz,Bochum,0,0,2,0,0,0,0,0,14
-1224114,2025-01-11,D1,2024,SC Freiburg,Holstein Kiel,Freiburg,Holstein Kiel,0,2,2,1,0,0,0,0,19
-1224117,2025-01-11,D1,2024,Borussia Mönchengladbach,Bayern München,M'gladbach,Bayern Munich,0,3,0,1,0,0,0,0,12
 1224110,2025-01-12,D1,2024,RB Leipzig,Werder Bremen,RB Leipzig,Werder Bremen,0,1,1,0,0,0,0,0,18
 1224115,2025-01-12,D1,2024,FC Augsburg,VfB Stuttgart,Augsburg,Stuttgart,2,3,0,1,0,0,0,0,17
-1224124,2025-01-14,D1,2024,VfL Wolfsburg,Borussia Mönchengladbach,Wolfsburg,M'gladbach,1,0,0,0,0,0,0,0,16
 1224119,2025-01-14,D1,2024,Bayer Leverkusen,FSV Mainz 05,Leverkusen,Mainz,0,2,1,2,0,0,0,0,13
 1224122,2025-01-14,D1,2024,Eintracht Frankfurt,SC Freiburg,Ein Frankfurt,Freiburg,0,1,1,0,0,0,0,0,15
 1224127,2025-01-14,D1,2024,Holstein Kiel,Borussia Dortmund,Holstein Kiel,Dortmund,0,2,1,1,0,1,0,0,20
+1224124,2025-01-14,D1,2024,VfL Wolfsburg,Borussia Mönchengladbach,Wolfsburg,M'gladbach,1,0,0,0,0,0,0,0,16
 1224121,2025-01-15,D1,2024,Bayern München,1899 Hoffenheim,Bayern Munich,Hoffenheim,0,1,0,1,0,0,0,0,18
 1224123,2025-01-15,D1,2024,Werder Bremen,1. FC Heidenheim,Werder Bremen,Heidenheim,1,5,1,2,0,0,0,0,24
-1224126,2025-01-15,D1,2024,VfL Bochum,FC St. Pauli,Bochum,St Pauli,1,0,0,3,0,0,0,1,15
 1224125,2025-01-15,D1,2024,Union Berlin,FC Augsburg,Union Berlin,Augsburg,0,1,1,1,0,0,0,0,15
 1224120,2025-01-15,D1,2024,VfB Stuttgart,RB Leipzig,Stuttgart,RB Leipzig,1,1,3,4,0,0,0,2,23
+1224126,2025-01-15,D1,2024,VfL Bochum,FC St. Pauli,Bochum,St Pauli,1,0,0,3,0,0,0,1,15
 1224131,2025-01-17,D1,2024,Eintracht Frankfurt,Borussia Dortmund,Ein Frankfurt,Dortmund,0,0,0,2,0,0,0,0,13
-1224136,2025-01-18,D1,2024,Holstein Kiel,1899 Hoffenheim,Holstein Kiel,Hoffenheim,0,2,1,0,0,0,0,0,15
-1224132,2025-01-18,D1,2024,1. FC Heidenheim,FC St. Pauli,Heidenheim,St Pauli,0,1,1,1,0,0,0,0,15
 1224135,2025-01-18,D1,2024,VfL Bochum,RB Leipzig,Bochum,RB Leipzig,2,2,0,0,0,0,0,0,16
-1224129,2025-01-18,D1,2024,VfB Stuttgart,SC Freiburg,Stuttgart,Freiburg,2,3,2,1,0,0,0,0,23
-1224130,2025-01-18,D1,2024,Bayern München,VfL Wolfsburg,Bayern Munich,Wolfsburg,0,2,1,2,0,0,0,0,17
+1224136,2025-01-18,D1,2024,Holstein Kiel,1899 Hoffenheim,Holstein Kiel,Hoffenheim,0,2,1,0,0,0,0,0,15
 1224128,2025-01-18,D1,2024,Bayer Leverkusen,Borussia Mönchengladbach,Leverkusen,M'gladbach,0,0,0,2,0,0,0,0,16
+1224130,2025-01-18,D1,2024,Bayern München,VfL Wolfsburg,Bayern Munich,Wolfsburg,0,2,1,2,0,0,0,0,17
+1224129,2025-01-18,D1,2024,VfB Stuttgart,SC Freiburg,Stuttgart,Freiburg,2,3,2,1,0,0,0,0,23
+1224132,2025-01-18,D1,2024,1. FC Heidenheim,FC St. Pauli,Heidenheim,St Pauli,0,1,1,1,0,0,0,0,15
 1224134,2025-01-19,D1,2024,Union Berlin,FSV Mainz 05,Union Berlin,Mainz,1,1,2,0,0,0,0,0,17
 1224133,2025-01-19,D1,2024,Werder Bremen,FC Augsburg,Werder Bremen,Augsburg,1,0,0,2,0,0,0,0,16
 1224142,2025-01-24,D1,2024,VfL Wolfsburg,Holstein Kiel,Wolfsburg,Holstein Kiel,0,2,1,3,0,0,0,0,20
+1224141,2025-01-25,D1,2024,FC Augsburg,1. FC Heidenheim,Augsburg,Heidenheim,0,1,0,0,0,0,0,0,14
 1224144,2025-01-25,D1,2024,Borussia Mönchengladbach,VfL Bochum,M'gladbach,Bochum,1,0,0,3,0,0,0,0,19
 1224140,2025-01-25,D1,2024,SC Freiburg,Bayern München,Freiburg,Bayern Munich,0,4,0,2,0,0,0,0,19
 1224137,2025-01-25,D1,2024,RB Leipzig,Bayer Leverkusen,RB Leipzig,Leverkusen,0,2,2,0,0,0,0,0,17
 1224138,2025-01-25,D1,2024,Borussia Dortmund,Werder Bremen,Dortmund,Werder Bremen,1,0,0,4,1,0,0,0,18
-1224141,2025-01-25,D1,2024,FC Augsburg,1. FC Heidenheim,Augsburg,Heidenheim,0,1,0,0,0,0,0,0,14
 1224143,2025-01-25,D1,2024,FSV Mainz 05,VfB Stuttgart,Mainz,Stuttgart,4,0,0,3,0,0,0,0,18
 1224139,2025-01-26,D1,2024,1899 Hoffenheim,Eintracht Frankfurt,Hoffenheim,Ein Frankfurt,0,3,0,0,0,0,0,0,18
 1224145,2025-01-26,D1,2024,FC St. Pauli,Union Berlin,St Pauli,Union Berlin,0,0,1,2,0,0,0,0,16
 1224151,2025-01-31,D1,2024,Werder Bremen,FSV Mainz 05,Werder Bremen,Mainz,2,6,2,1,0,2,0,0,24
-1224152,2025-02-01,D1,2024,Union Berlin,RB Leipzig,Union Berlin,RB Leipzig,1,2,0,2,0,0,0,0,15
-1224147,2025-02-01,D1,2024,VfB Stuttgart,Borussia Mönchengladbach,Stuttgart,M'gladbach,0,2,1,1,0,0,0,0,18
-1224148,2025-02-01,D1,2024,Bayern München,Holstein Kiel,Bayern Munich,Holstein Kiel,0,1,0,1,0,0,0,0,19
 1224150,2025-02-01,D1,2024,1. FC Heidenheim,Borussia Dortmund,Heidenheim,Dortmund,1,0,1,3,0,0,0,0,18
+1224148,2025-02-01,D1,2024,Bayern München,Holstein Kiel,Bayern Munich,Holstein Kiel,0,1,0,1,0,0,0,0,19
+1224147,2025-02-01,D1,2024,VfB Stuttgart,Borussia Mönchengladbach,Stuttgart,M'gladbach,0,2,1,1,0,0,0,0,18
+1224152,2025-02-01,D1,2024,Union Berlin,RB Leipzig,Union Berlin,RB Leipzig,1,2,0,2,0,0,0,0,15
 1224154,2025-02-01,D1,2024,FC St. Pauli,FC Augsburg,St Pauli,Augsburg,0,1,0,3,0,0,0,0,15
 1224153,2025-02-01,D1,2024,VfL Bochum,SC Freiburg,Bochum,Freiburg,1,2,0,2,0,0,0,0,15
-1224149,2025-02-02,D1,2024,Eintracht Frankfurt,VfL Wolfsburg,Ein Frankfurt,Wolfsburg,0,1,1,2,0,0,0,0,16
 1224146,2025-02-02,D1,2024,Bayer Leverkusen,1899 Hoffenheim,Leverkusen,Hoffenheim,1,3,1,2,0,1,0,0,23
+1224149,2025-02-02,D1,2024,Eintracht Frankfurt,VfL Wolfsburg,Ein Frankfurt,Wolfsburg,0,1,1,2,0,0,0,0,16
 1224155,2025-02-07,D1,2024,Bayern München,Werder Bremen,Bayern Munich,Werder Bremen,0,1,0,3,0,0,0,0,15
 1224158,2025-02-08,D1,2024,1899 Hoffenheim,Union Berlin,Hoffenheim,Union Berlin,2,0,0,1,0,0,0,0,17
 1224157,2025-02-08,D1,2024,Borussia Dortmund,VfB Stuttgart,Dortmund,Stuttgart,1,4,0,2,0,1,0,0,19
+1224159,2025-02-08,D1,2024,SC Freiburg,1. FC Heidenheim,Freiburg,Heidenheim,1,2,1,0,0,0,0,0,15
 1224161,2025-02-08,D1,2024,FSV Mainz 05,FC Augsburg,Mainz,Augsburg,2,1,2,1,0,0,0,0,16
 1224160,2025-02-08,D1,2024,VfL Wolfsburg,Bayer Leverkusen,Wolfsburg,Leverkusen,0,2,2,1,0,0,0,0,16
-1224159,2025-02-08,D1,2024,SC Freiburg,1. FC Heidenheim,Freiburg,Heidenheim,1,2,1,0,0,0,0,0,15
 1224162,2025-02-08,D1,2024,Borussia Mönchengladbach,Eintracht Frankfurt,M'gladbach,Ein Frankfurt,1,2,2,1,0,0,0,0,16
-1224156,2025-02-09,D1,2024,RB Leipzig,FC St. Pauli,RB Leipzig,St Pauli,1,1,1,1,0,1,0,0,16
 1224163,2025-02-09,D1,2024,Holstein Kiel,VfL Bochum,Holstein Kiel,Bochum,0,2,0,2,0,0,0,0,18
+1224156,2025-02-09,D1,2024,RB Leipzig,FC St. Pauli,RB Leipzig,St Pauli,1,1,1,1,0,1,0,0,16
 1224169,2025-02-14,D1,2024,FC Augsburg,RB Leipzig,Augsburg,RB Leipzig,1,1,0,1,0,0,0,0,11
 1224172,2025-02-15,D1,2024,FC St. Pauli,SC Freiburg,St Pauli,Freiburg,0,1,0,0,0,0,0,0,11
 1224170,2025-02-15,D1,2024,Union Berlin,Borussia Mönchengladbach,Union Berlin,M'gladbach,0,0,0,1,0,0,0,0,15
@@ -109,29 +201,29 @@ fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,a
 1224181,2025-02-22,D1,2024,Holstein Kiel,Bayer Leverkusen,Holstein Kiel,Leverkusen,2,2,0,1,0,0,0,0,15
 1224179,2025-02-22,D1,2024,FSV Mainz 05,FC St. Pauli,Mainz,St Pauli,1,2,1,2,0,0,0,0,17
 1224178,2025-02-22,D1,2024,VfL Wolfsburg,VfL Bochum,Wolfsburg,Bochum,0,2,1,2,0,0,0,0,17
-1224180,2025-02-22,D1,2024,Borussia Mönchengladbach,FC Augsburg,M'gladbach,Augsburg,1,2,2,0,1,0,0,0,19
 1224175,2025-02-22,D1,2024,Borussia Dortmund,Union Berlin,Dortmund,Union Berlin,0,2,1,1,0,0,0,0,20
+1224180,2025-02-22,D1,2024,Borussia Mönchengladbach,FC Augsburg,M'gladbach,Augsburg,1,2,2,0,1,0,0,0,19
+1224173,2025-02-23,D1,2024,Bayern München,Eintracht Frankfurt,Bayern Munich,Ein Frankfurt,0,1,0,1,0,0,0,0,16
 1224176,2025-02-23,D1,2024,1899 Hoffenheim,VfB Stuttgart,Hoffenheim,Stuttgart,0,0,0,0,0,0,0,0,8
 1224174,2025-02-23,D1,2024,RB Leipzig,1. FC Heidenheim,RB Leipzig,Heidenheim,2,1,1,2,0,0,0,0,19
-1224173,2025-02-23,D1,2024,Bayern München,Eintracht Frankfurt,Bayern Munich,Ein Frankfurt,0,1,0,1,0,0,0,0,16
 1224182,2025-02-28,D1,2024,VfB Stuttgart,Bayern München,Stuttgart,Bayern Munich,2,3,0,3,0,0,0,0,21
-1224190,2025-03-01,D1,2024,FC St. Pauli,Borussia Dortmund,St Pauli,Dortmund,0,1,1,1,0,0,0,0,14
-1224185,2025-03-01,D1,2024,1. FC Heidenheim,Borussia Mönchengladbach,Heidenheim,M'gladbach,0,2,1,2,0,0,0,0,19
-1224189,2025-03-01,D1,2024,VfL Bochum,1899 Hoffenheim,Bochum,Hoffenheim,0,0,0,1,0,0,0,0,11
-1224183,2025-03-01,D1,2024,RB Leipzig,FSV Mainz 05,RB Leipzig,Mainz,0,1,0,1,0,0,0,0,12
 1224186,2025-03-01,D1,2024,Werder Bremen,VfL Wolfsburg,Werder Bremen,Wolfsburg,0,2,0,0,0,0,0,0,14
+1224183,2025-03-01,D1,2024,RB Leipzig,FSV Mainz 05,RB Leipzig,Mainz,0,1,0,1,0,0,0,0,12
 1224184,2025-03-01,D1,2024,Eintracht Frankfurt,Bayer Leverkusen,Ein Frankfurt,Leverkusen,0,1,0,1,0,0,0,0,17
+1224185,2025-03-01,D1,2024,1. FC Heidenheim,Borussia Mönchengladbach,Heidenheim,M'gladbach,0,2,1,2,0,0,0,0,19
+1224190,2025-03-01,D1,2024,FC St. Pauli,Borussia Dortmund,St Pauli,Dortmund,0,1,1,1,0,0,0,0,14
+1224189,2025-03-01,D1,2024,VfL Bochum,1899 Hoffenheim,Bochum,Hoffenheim,0,0,0,1,0,0,0,0,11
 1224187,2025-03-02,D1,2024,FC Augsburg,SC Freiburg,Augsburg,Freiburg,1,0,0,1,0,0,0,0,9
 1224188,2025-03-02,D1,2024,Union Berlin,Holstein Kiel,Union Berlin,Holstein Kiel,2,2,0,0,0,0,0,0,15
 1224198,2025-03-07,D1,2024,Borussia Mönchengladbach,FSV Mainz 05,M'gladbach,Mainz,0,0,0,1,0,0,0,0,15
+1224199,2025-03-08,D1,2024,Holstein Kiel,VfB Stuttgart,Holstein Kiel,Stuttgart,0,1,1,1,0,0,0,1,18
 1224191,2025-03-08,D1,2024,Bayer Leverkusen,Werder Bremen,Leverkusen,Werder Bremen,1,3,1,3,0,0,0,0,19
 1224193,2025-03-08,D1,2024,Borussia Dortmund,FC Augsburg,Dortmund,Augsburg,0,1,0,4,0,0,0,0,18
 1224197,2025-03-08,D1,2024,VfL Wolfsburg,FC St. Pauli,Wolfsburg,St Pauli,0,1,0,0,0,0,0,0,12
 1224192,2025-03-08,D1,2024,Bayern München,VfL Bochum,Bayern Munich,Bochum,0,0,1,5,1,0,0,0,22
 1224196,2025-03-08,D1,2024,SC Freiburg,RB Leipzig,Freiburg,RB Leipzig,0,0,0,3,0,0,0,0,10
-1224199,2025-03-08,D1,2024,Holstein Kiel,VfB Stuttgart,Holstein Kiel,Stuttgart,0,1,1,1,0,0,0,1,18
-1224194,2025-03-09,D1,2024,Eintracht Frankfurt,Union Berlin,Ein Frankfurt,Union Berlin,0,3,0,0,0,0,0,0,18
 1224195,2025-03-09,D1,2024,1899 Hoffenheim,1. FC Heidenheim,Hoffenheim,Heidenheim,0,2,2,1,0,0,0,0,13
+1224194,2025-03-09,D1,2024,Eintracht Frankfurt,Union Berlin,Ein Frankfurt,Union Berlin,0,3,0,0,0,0,0,0,18
 1224208,2025-03-14,D1,2024,FC St. Pauli,1899 Hoffenheim,St Pauli,Hoffenheim,0,0,0,1,0,0,0,0,11
 1224201,2025-03-15,D1,2024,RB Leipzig,Borussia Dortmund,RB Leipzig,Dortmund,0,3,2,1,0,0,0,0,16
 1224203,2025-03-15,D1,2024,Werder Bremen,Borussia Mönchengladbach,Werder Bremen,M'gladbach,1,0,1,1,0,0,0,1,21
@@ -142,17 +234,17 @@ fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,a
 1224202,2025-03-16,D1,2024,1. FC Heidenheim,Holstein Kiel,Heidenheim,Holstein Kiel,0,1,0,3,0,0,0,0,17
 1224200,2025-03-16,D1,2024,VfB Stuttgart,Bayer Leverkusen,Stuttgart,Leverkusen,1,2,0,2,0,0,0,0,20
 1224209,2025-03-28,D1,2024,Bayer Leverkusen,VfL Bochum,Leverkusen,Bochum,0,0,0,1,0,0,0,0,12
-1224217,2025-03-29,D1,2024,Holstein Kiel,Werder Bremen,Holstein Kiel,Werder Bremen,3,1,0,1,0,0,0,0,18
 1224213,2025-03-29,D1,2024,1899 Hoffenheim,FC Augsburg,Hoffenheim,Augsburg,0,1,1,1,0,0,0,0,14
 1224216,2025-03-29,D1,2024,Borussia Mönchengladbach,RB Leipzig,M'gladbach,RB Leipzig,0,2,1,1,0,0,0,0,15
 1224215,2025-03-29,D1,2024,VfL Wolfsburg,1. FC Heidenheim,Wolfsburg,Heidenheim,0,2,2,2,0,0,0,0,16
 1224210,2025-03-29,D1,2024,Bayern München,FC St. Pauli,Bayern Munich,St Pauli,2,1,0,0,0,0,0,0,17
 1224212,2025-03-29,D1,2024,Eintracht Frankfurt,VfB Stuttgart,Ein Frankfurt,Stuttgart,1,0,1,2,0,0,0,1,16
+1224217,2025-03-29,D1,2024,Holstein Kiel,Werder Bremen,Holstein Kiel,Werder Bremen,3,1,0,1,0,0,0,0,18
 1224211,2025-03-30,D1,2024,Borussia Dortmund,FSV Mainz 05,Dortmund,Mainz,1,1,0,0,0,0,0,0,16
 1224214,2025-03-30,D1,2024,SC Freiburg,Union Berlin,Freiburg,Union Berlin,0,3,0,4,0,0,0,0,20
 1224222,2025-04-04,D1,2024,FC Augsburg,Bayern München,Augsburg,Bayern Munich,2,2,0,0,0,1,0,0,18
-1224219,2025-04-05,D1,2024,1. FC Heidenheim,Bayer Leverkusen,Heidenheim,Leverkusen,1,0,0,0,0,0,0,0,11
 1224225,2025-04-05,D1,2024,VfL Bochum,VfB Stuttgart,Bochum,Stuttgart,0,1,0,1,0,0,0,0,16
+1224219,2025-04-05,D1,2024,1. FC Heidenheim,Bayer Leverkusen,Heidenheim,Leverkusen,1,0,0,0,0,0,0,0,11
 1224218,2025-04-05,D1,2024,RB Leipzig,1899 Hoffenheim,RB Leipzig,Hoffenheim,0,0,1,2,0,0,1,0,18
 1224223,2025-04-05,D1,2024,FSV Mainz 05,Holstein Kiel,Mainz,Holstein Kiel,1,2,1,3,0,0,0,0,17
 1224221,2025-04-05,D1,2024,SC Freiburg,Borussia Dortmund,Freiburg,Dortmund,0,1,0,0,0,0,0,0,16
@@ -160,20 +252,20 @@ fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,a
 1224226,2025-04-06,D1,2024,FC St. Pauli,Borussia Mönchengladbach,St Pauli,M'gladbach,0,0,0,2,0,0,0,0,14
 1224224,2025-04-06,D1,2024,Union Berlin,VfL Wolfsburg,Union Berlin,Wolfsburg,0,0,0,1,0,0,0,0,9
 1224232,2025-04-11,D1,2024,VfL Wolfsburg,RB Leipzig,Wolfsburg,RB Leipzig,1,1,2,1,0,0,0,0,20
+1224231,2025-04-12,D1,2024,1899 Hoffenheim,FSV Mainz 05,Hoffenheim,Mainz,2,2,0,2,0,0,0,1,16
+1224234,2025-04-12,D1,2024,VfL Bochum,FC Augsburg,Bochum,Augsburg,1,1,0,1,0,0,0,1,16
+1224227,2025-04-12,D1,2024,Bayer Leverkusen,Union Berlin,Leverkusen,Union Berlin,0,2,0,1,0,0,0,0,13
+1224235,2025-04-12,D1,2024,Holstein Kiel,FC St. Pauli,Holstein Kiel,St Pauli,0,3,1,3,0,0,0,0,19
 1224229,2025-04-12,D1,2024,Bayern München,Borussia Dortmund,Bayern Munich,Dortmund,0,0,0,0,0,0,0,0,12
 1224233,2025-04-12,D1,2024,Borussia Mönchengladbach,SC Freiburg,M'gladbach,Freiburg,0,0,0,1,0,0,0,0,14
-1224227,2025-04-12,D1,2024,Bayer Leverkusen,Union Berlin,Leverkusen,Union Berlin,0,2,0,1,0,0,0,0,13
-1224234,2025-04-12,D1,2024,VfL Bochum,FC Augsburg,Bochum,Augsburg,1,1,0,1,0,0,0,1,16
-1224231,2025-04-12,D1,2024,1899 Hoffenheim,FSV Mainz 05,Hoffenheim,Mainz,2,2,0,2,0,0,0,1,16
-1224235,2025-04-12,D1,2024,Holstein Kiel,FC St. Pauli,Holstein Kiel,St Pauli,0,3,1,3,0,0,0,0,19
-1224228,2025-04-13,D1,2024,VfB Stuttgart,Werder Bremen,Stuttgart,Werder Bremen,1,2,2,0,0,1,0,0,18
 1224230,2025-04-13,D1,2024,Eintracht Frankfurt,1. FC Heidenheim,Ein Frankfurt,Heidenheim,1,0,1,0,0,0,0,0,15
-1224238,2025-04-19,D1,2024,1. FC Heidenheim,Bayern München,Heidenheim,Bayern Munich,3,0,0,1,0,0,0,0,18
-1224236,2025-04-19,D1,2024,RB Leipzig,Holstein Kiel,RB Leipzig,Holstein Kiel,1,0,1,1,0,0,0,0,15
+1224228,2025-04-13,D1,2024,VfB Stuttgart,Werder Bremen,Stuttgart,Werder Bremen,1,2,2,0,0,1,0,0,18
 1224242,2025-04-19,D1,2024,FSV Mainz 05,VfL Wolfsburg,Mainz,Wolfsburg,0,2,0,3,0,0,0,0,18
-1224239,2025-04-19,D1,2024,Werder Bremen,VfL Bochum,Werder Bremen,Bochum,1,2,1,3,0,0,0,1,20
-1224240,2025-04-19,D1,2024,SC Freiburg,1899 Hoffenheim,Freiburg,Hoffenheim,0,3,1,1,0,0,0,0,20
 1224243,2025-04-19,D1,2024,Union Berlin,VfB Stuttgart,Union Berlin,Stuttgart,0,0,1,1,0,0,0,0,17
+1224236,2025-04-19,D1,2024,RB Leipzig,Holstein Kiel,RB Leipzig,Holstein Kiel,1,0,1,1,0,0,0,0,15
+1224239,2025-04-19,D1,2024,Werder Bremen,VfL Bochum,Werder Bremen,Bochum,1,2,1,3,0,0,0,1,20
+1224238,2025-04-19,D1,2024,1. FC Heidenheim,Bayern München,Heidenheim,Bayern Munich,3,0,0,1,0,0,0,0,18
+1224240,2025-04-19,D1,2024,SC Freiburg,1899 Hoffenheim,Freiburg,Hoffenheim,0,3,1,1,0,0,0,0,20
 1224244,2025-04-20,D1,2024,FC St. Pauli,Bayer Leverkusen,St Pauli,Leverkusen,0,1,0,4,0,0,0,0,15
 1224241,2025-04-20,D1,2024,FC Augsburg,Eintracht Frankfurt,Augsburg,Ein Frankfurt,0,2,0,1,0,0,0,0,10
 1224237,2025-04-20,D1,2024,Borussia Dortmund,Borussia Mönchengladbach,Dortmund,M'gladbach,0,1,1,1,0,0,0,0,19
@@ -181,8 +273,8 @@ fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,a
 1224253,2025-04-26,D1,2024,Holstein Kiel,Borussia Mönchengladbach,Holstein Kiel,M'gladbach,0,2,1,0,0,0,0,0,20
 1224245,2025-04-26,D1,2024,Bayer Leverkusen,FC Augsburg,Leverkusen,Augsburg,0,0,0,1,0,0,0,0,14
 1224249,2025-04-26,D1,2024,1899 Hoffenheim,Borussia Dortmund,Hoffenheim,Dortmund,0,5,1,0,0,0,0,0,22
-1224251,2025-04-26,D1,2024,VfL Wolfsburg,SC Freiburg,Wolfsburg,Freiburg,2,1,0,1,1,0,0,0,18
 1224247,2025-04-26,D1,2024,Bayern München,FSV Mainz 05,Bayern Munich,Mainz,1,1,1,1,0,0,0,0,18
+1224251,2025-04-26,D1,2024,VfL Wolfsburg,SC Freiburg,Wolfsburg,Freiburg,2,1,0,1,1,0,0,0,18
 1224248,2025-04-26,D1,2024,Eintracht Frankfurt,RB Leipzig,Ein Frankfurt,RB Leipzig,0,1,1,1,0,0,0,1,18
 1224252,2025-04-27,D1,2024,VfL Bochum,Union Berlin,Bochum,Union Berlin,1,2,2,0,0,0,0,0,18
 1224250,2025-04-27,D1,2024,Werder Bremen,FC St. Pauli,Werder Bremen,St Pauli,0,2,0,3,0,0,0,1,16
@@ -196,22 +288,22 @@ fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,a
 1224257,2025-05-04,D1,2024,SC Freiburg,Bayer Leverkusen,Freiburg,Leverkusen,1,0,0,2,0,0,0,0,15
 1224259,2025-05-04,D1,2024,FSV Mainz 05,Eintracht Frankfurt,Mainz,Ein Frankfurt,0,1,0,0,0,0,0,0,12
 1224268,2025-05-09,D1,2024,VfL Wolfsburg,1899 Hoffenheim,Wolfsburg,Hoffenheim,0,0,1,1,0,0,0,0,14
+1224267,2025-05-10,D1,2024,Werder Bremen,RB Leipzig,Werder Bremen,RB Leipzig,1,0,2,1,0,0,0,0,12
 1224271,2025-05-10,D1,2024,Holstein Kiel,SC Freiburg,Holstein Kiel,Freiburg,0,1,0,0,0,0,0,0,13
 1224269,2025-05-10,D1,2024,Union Berlin,1. FC Heidenheim,Union Berlin,Heidenheim,1,1,0,0,0,0,0,0,16
 1224270,2025-05-10,D1,2024,VfL Bochum,FSV Mainz 05,Bochum,Mainz,1,2,0,0,0,0,0,0,18
-1224267,2025-05-10,D1,2024,Werder Bremen,RB Leipzig,Werder Bremen,RB Leipzig,1,0,2,1,0,0,0,0,12
 1224265,2025-05-10,D1,2024,Bayern München,Borussia Mönchengladbach,Bayern Munich,M'gladbach,0,1,0,1,0,0,0,0,14
 1224264,2025-05-11,D1,2024,VfB Stuttgart,FC Augsburg,Stuttgart,Augsburg,1,0,0,1,0,0,1,0,17
 1224263,2025-05-11,D1,2024,Bayer Leverkusen,Borussia Dortmund,Leverkusen,Dortmund,0,0,2,0,0,0,0,0,19
 1224266,2025-05-11,D1,2024,Eintracht Frankfurt,FC St. Pauli,Ein Frankfurt,St Pauli,0,2,0,2,0,0,0,0,16
-1224280,2025-05-17,D1,2024,FC St. Pauli,VfL Bochum,St Pauli,Bochum,0,0,0,0,0,0,0,0,12
-1224275,2025-05-17,D1,2024,1. FC Heidenheim,Werder Bremen,Heidenheim,Werder Bremen,1,2,0,2,0,0,0,0,20
-1224272,2025-05-17,D1,2024,RB Leipzig,VfB Stuttgart,RB Leipzig,Stuttgart,1,0,0,0,0,0,0,0,15
-1224277,2025-05-17,D1,2024,FC Augsburg,Union Berlin,Augsburg,Union Berlin,0,0,0,0,0,0,0,0,13
-1224274,2025-05-17,D1,2024,1899 Hoffenheim,Bayern München,Hoffenheim,Bayern Munich,0,0,0,0,0,0,0,0,14
-1224273,2025-05-17,D1,2024,Borussia Dortmund,Holstein Kiel,Dortmund,Holstein Kiel,0,3,0,1,0,0,1,0,18
-1224278,2025-05-17,D1,2024,FSV Mainz 05,Bayer Leverkusen,Mainz,Leverkusen,1,1,2,4,0,0,0,0,25
-1224279,2025-05-17,D1,2024,Borussia Mönchengladbach,VfL Wolfsburg,M'gladbach,Wolfsburg,0,0,0,0,0,0,0,0,10
 1224276,2025-05-17,D1,2024,SC Freiburg,Eintracht Frankfurt,Freiburg,Ein Frankfurt,0,2,1,3,0,0,0,0,19
+1224279,2025-05-17,D1,2024,Borussia Mönchengladbach,VfL Wolfsburg,M'gladbach,Wolfsburg,0,0,0,0,0,0,0,0,10
+1224278,2025-05-17,D1,2024,FSV Mainz 05,Bayer Leverkusen,Mainz,Leverkusen,1,1,2,4,0,0,0,0,25
+1224273,2025-05-17,D1,2024,Borussia Dortmund,Holstein Kiel,Dortmund,Holstein Kiel,0,3,0,1,0,0,1,0,18
+1224275,2025-05-17,D1,2024,1. FC Heidenheim,Werder Bremen,Heidenheim,Werder Bremen,1,2,0,2,0,0,0,0,20
+1224277,2025-05-17,D1,2024,FC Augsburg,Union Berlin,Augsburg,Union Berlin,0,0,0,0,0,0,0,0,13
+1224272,2025-05-17,D1,2024,RB Leipzig,VfB Stuttgart,RB Leipzig,Stuttgart,1,0,0,0,0,0,0,0,15
+1224280,2025-05-17,D1,2024,FC St. Pauli,VfL Bochum,St Pauli,Bochum,0,0,0,0,0,0,0,0,12
+1224274,2025-05-17,D1,2024,1899 Hoffenheim,Bayern München,Hoffenheim,Bayern Munich,0,0,0,0,0,0,0,0,14
 1375862,2025-05-22,D1,2024,1. FC Heidenheim,SV Elversberg,Heidenheim,Elversberg,1,0,0,0,0,0,0,0,14
 1375863,2025-05-26,D1,2024,SV Elversberg,1. FC Heidenheim,Elversberg,Heidenheim,0,1,1,2,0,0,0,0,17

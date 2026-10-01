@@ -1,0 +1,87 @@
+fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,ar1,ar2,evenimente
+1213679,2025-03-29,N1,2024,NEC Nijmegen,AZ Alkmaar,Nijmegen,AZ Alkmaar,2,1,2,1,0,0,0,0,21
+1213681,2025-03-29,N1,2024,PEC Zwolle,Waalwijk,Zwolle,Waalwijk,0,1,0,2,0,0,0,1,15
+1213678,2025-03-30,N1,2024,Heracles,Twente,Heracles,Twente,4,1,1,1,0,0,0,0,20
+1213676,2025-03-30,N1,2024,Feyenoord,GO Ahead Eagles,Feyenoord,Go Ahead Eagles,1,0,0,0,0,0,0,0,14
+1213675,2025-03-30,N1,2024,Utrecht,Heerenveen,Utrecht,Heerenveen,1,0,1,0,0,0,0,0,12
+1213682,2025-03-30,N1,2024,PSV Eindhoven,Ajax,PSV Eindhoven,Ajax,0,0,1,2,0,0,0,0,14
+1213657,2025-04-01,N1,2024,AZ Alkmaar,Waalwijk,AZ Alkmaar,Waalwijk,0,0,1,2,0,0,0,0,15
+1213659,2025-04-02,N1,2024,Feyenoord,Groningen,Feyenoord,Groningen,0,0,1,1,0,0,0,0,18
+1213691,2025-04-04,N1,2024,Heerenveen,Willem II,Heerenveen,Willem II,0,0,0,1,0,0,0,0,14
+1213686,2025-04-05,N1,2024,AZ Alkmaar,Feyenoord,AZ Alkmaar,Feyenoord,0,3,0,2,0,0,0,0,15
+1213688,2025-04-05,N1,2024,Twente,Fortuna Sittard,Twente,For Sittard,1,0,1,2,0,0,0,0,16
+1213687,2025-04-05,N1,2024,Groningen,PSV Eindhoven,Groningen,PSV Eindhoven,0,2,0,2,0,0,0,0,17
+1213685,2025-04-05,N1,2024,Almere City FC,PEC Zwolle,Almere City,Zwolle,1,1,0,2,0,0,0,0,17
+1213684,2025-04-06,N1,2024,Ajax,NAC Breda,Ajax,NAC Breda,0,1,1,4,0,0,0,0,19
+1213692,2025-04-06,N1,2024,Sparta Rotterdam,NEC Nijmegen,Sparta Rotterdam,Nijmegen,0,0,1,3,0,0,0,1,17
+1213689,2025-04-06,N1,2024,GO Ahead Eagles,Utrecht,Go Ahead Eagles,Utrecht,0,1,0,4,0,0,0,0,14
+1213690,2025-04-06,N1,2024,Waalwijk,Heracles,Waalwijk,Heracles,0,1,0,1,0,0,0,0,11
+1213696,2025-04-11,N1,2024,NEC Nijmegen,Waalwijk,Nijmegen,Waalwijk,0,2,0,0,0,0,0,0,13
+1213694,2025-04-12,N1,2024,Fortuna Sittard,Feyenoord,For Sittard,Feyenoord,0,2,1,0,0,1,0,0,16
+1213700,2025-04-12,N1,2024,Sparta Rotterdam,Heerenveen,Sparta Rotterdam,Heerenveen,0,1,2,0,0,0,0,0,17
+1213699,2025-04-12,N1,2024,PSV Eindhoven,Almere City FC,PSV Eindhoven,Almere City,0,0,0,0,0,0,0,0,15
+1213697,2025-04-12,N1,2024,NAC Breda,GO Ahead Eagles,NAC Breda,Go Ahead Eagles,1,1,0,3,0,0,0,0,13
+1213701,2025-04-13,N1,2024,Willem II,Ajax,Willem II,Ajax,1,0,0,0,0,0,0,0,14
+1213695,2025-04-13,N1,2024,Heracles,AZ Alkmaar,Heracles,AZ Alkmaar,1,1,0,1,0,0,0,0,14
+1213693,2025-04-13,N1,2024,Utrecht,Groningen,Utrecht,Groningen,1,0,2,0,0,0,0,0,17
+1213698,2025-04-13,N1,2024,PEC Zwolle,Twente,Zwolle,Twente,2,0,2,0,0,0,0,0,16
+1213712,2025-04-19,N1,2024,Heerenveen,Almere City FC,Heerenveen,Almere City,0,1,0,1,0,1,0,0,15
+1213711,2025-04-20,N1,2024,Utrecht,Ajax,Utrecht,Ajax,1,0,1,2,0,0,0,0,19
+1213705,2025-04-23,N1,2024,Groningen,Heracles,Groningen,Heracles,0,0,0,5,0,0,0,0,17
+1213704,2025-04-24,N1,2024,AZ Alkmaar,NAC Breda,AZ Alkmaar,NAC Breda,0,0,1,2,0,0,0,0,15
+1213706,2025-04-24,N1,2024,Twente,PSV Eindhoven,Twente,PSV Eindhoven,2,0,2,1,0,0,0,0,16
+1213709,2025-04-25,N1,2024,Waalwijk,Utrecht,Waalwijk,Utrecht,0,1,1,1,0,0,0,0,15
+1213707,2025-04-25,N1,2024,Feyenoord,PEC Zwolle,Feyenoord,Zwolle,0,1,0,1,0,0,0,0,16
+1213703,2025-04-27,N1,2024,Almere City FC,GO Ahead Eagles,Almere City,Go Ahead Eagles,2,0,0,1,0,0,0,0,13
+1213710,2025-04-27,N1,2024,Heerenveen,NEC Nijmegen,Heerenveen,Nijmegen,0,1,0,4,0,0,0,0,16
+1213708,2025-04-27,N1,2024,Fortuna Sittard,Willem II,For Sittard,Willem II,0,0,0,0,0,0,0,0,11
+1213702,2025-04-27,N1,2024,Ajax,Sparta Rotterdam,Ajax,Sparta Rotterdam,0,1,2,0,0,0,0,0,14
+1213719,2025-05-03,N1,2024,NEC Nijmegen,Willem II,Nijmegen,Willem II,1,1,0,2,0,0,0,1,15
+1213715,2025-05-03,N1,2024,Heracles,Feyenoord,Heracles,Feyenoord,1,1,0,1,0,1,0,0,18
+1213718,2025-05-03,N1,2024,Groningen,Waalwijk,Groningen,Waalwijk,0,0,1,0,0,0,0,0,18
+1213716,2025-05-03,N1,2024,PSV Eindhoven,Fortuna Sittard,PSV Eindhoven,For Sittard,0,0,0,2,0,0,0,0,17
+1213717,2025-05-04,N1,2024,NAC Breda,PEC Zwolle,NAC Breda,Zwolle,2,1,1,0,0,0,0,0,18
+1213714,2025-05-04,N1,2024,Sparta Rotterdam,Twente,Sparta Rotterdam,Twente,0,0,0,0,0,0,0,0,9
+1213713,2025-05-04,N1,2024,GO Ahead Eagles,AZ Alkmaar,Go Ahead Eagles,AZ Alkmaar,0,2,1,2,0,0,0,1,20
+1213728,2025-05-09,N1,2024,Willem II,Heracles,Willem II,Heracles,0,1,0,1,0,0,0,0,13
+1213721,2025-05-10,N1,2024,Almere City FC,Sparta Rotterdam,Almere City,Sparta Rotterdam,0,0,0,1,0,0,0,0,13
+1213727,2025-05-10,N1,2024,Waalwijk,Heerenveen,Waalwijk,Heerenveen,0,2,1,0,0,0,0,1,17
+1213725,2025-05-10,N1,2024,Fortuna Sittard,NAC Breda,For Sittard,NAC Breda,0,1,1,1,0,0,0,0,15
+1213726,2025-05-11,N1,2024,PEC Zwolle,GO Ahead Eagles,Zwolle,Go Ahead Eagles,0,2,0,2,0,0,0,0,14
+1213723,2025-05-11,N1,2024,Twente,Utrecht,Twente,Utrecht,0,0,1,1,0,0,0,0,14
+1213724,2025-05-11,N1,2024,Feyenoord,PSV Eindhoven,Feyenoord,PSV Eindhoven,1,1,1,2,0,1,0,0,20
+1213722,2025-05-11,N1,2024,AZ Alkmaar,Groningen,AZ Alkmaar,Groningen,1,0,1,1,0,0,0,0,16
+1213720,2025-05-11,N1,2024,Ajax,NEC Nijmegen,Ajax,Nijmegen,1,2,3,1,0,0,0,0,20
+1375152,2025-05-12,N1,2024,Den Bosch,Cambuur,,Cambuur,0,3,2,3,0,0,0,0,18
+1375156,2025-05-13,N1,2024,De Graafschap,Dordrecht,Graafschap,Dordrecht,2,1,1,0,0,0,0,0,11
+1375154,2025-05-13,N1,2024,Telstar,ADO Den Haag,Telstar,Den Haag,0,1,1,1,0,0,0,0,14
+1213731,2025-05-14,N1,2024,Twente,AZ Alkmaar,Twente,AZ Alkmaar,0,1,0,2,0,0,0,0,16
+1213735,2025-05-14,N1,2024,NEC Nijmegen,NAC Breda,Nijmegen,NAC Breda,0,0,0,0,0,0,0,0,12
+1213734,2025-05-14,N1,2024,GO Ahead Eagles,Heerenveen,Go Ahead Eagles,Heerenveen,1,0,0,0,0,0,0,0,7
+1213733,2025-05-14,N1,2024,Feyenoord,Waalwijk,Feyenoord,Waalwijk,0,0,0,0,0,0,0,0,12
+1213732,2025-05-14,N1,2024,Utrecht,Sparta Rotterdam,Utrecht,Sparta Rotterdam,0,1,0,0,0,0,0,0,10
+1213730,2025-05-14,N1,2024,Groningen,Ajax,Groningen,Ajax,0,5,0,3,0,1,0,0,22
+1213736,2025-05-14,N1,2024,PSV Eindhoven,Heracles,PSV Eindhoven,Heracles,0,0,0,0,0,0,0,0,14
+1213737,2025-05-14,N1,2024,Willem II,PEC Zwolle,Willem II,Zwolle,1,1,2,0,0,0,0,0,14
+1213729,2025-05-14,N1,2024,Almere City FC,Fortuna Sittard,Almere City,For Sittard,0,1,0,1,0,0,0,0,14
+1375153,2025-05-16,N1,2024,Cambuur,Den Bosch,Cambuur,,0,4,1,7,0,0,0,0,25
+1375157,2025-05-17,N1,2024,Dordrecht,De Graafschap,Dordrecht,Graafschap,0,0,0,0,0,0,0,0,11
+1375155,2025-05-17,N1,2024,ADO Den Haag,Telstar,Den Haag,Telstar,0,1,1,3,0,0,0,0,14
+1213738,2025-05-18,N1,2024,Ajax,Twente,Ajax,Twente,0,0,1,1,0,0,0,0,15
+1213739,2025-05-18,N1,2024,AZ Alkmaar,Almere City FC,AZ Alkmaar,Almere City,0,0,1,0,0,0,0,0,13
+1213742,2025-05-18,N1,2024,NAC Breda,Willem II,NAC Breda,Willem II,1,1,0,0,0,0,0,0,13
+1213743,2025-05-18,N1,2024,PEC Zwolle,Groningen,Zwolle,Groningen,0,2,0,1,0,0,0,0,14
+1213741,2025-05-18,N1,2024,Heracles,NEC Nijmegen,Heracles,Nijmegen,0,0,0,1,0,0,0,0,13
+1213745,2025-05-18,N1,2024,Heerenveen,Feyenoord,Heerenveen,Feyenoord,0,1,0,2,0,0,0,0,17
+1213744,2025-05-18,N1,2024,Waalwijk,GO Ahead Eagles,Waalwijk,Go Ahead Eagles,0,1,0,1,0,0,0,0,19
+1213746,2025-05-18,N1,2024,Sparta Rotterdam,PSV Eindhoven,Sparta Rotterdam,PSV Eindhoven,1,0,1,1,0,0,0,0,14
+1213740,2025-05-18,N1,2024,Fortuna Sittard,Utrecht,For Sittard,Utrecht,0,2,0,0,0,0,0,0,12
+1375804,2025-05-20,N1,2024,Den Bosch,Telstar,,Telstar,0,0,0,1,0,0,0,0,11
+1375841,2025-05-21,N1,2024,Dordrecht,Willem II,Dordrecht,Willem II,0,1,1,3,0,0,0,0,14
+1375839,2025-05-22,N1,2024,AZ Alkmaar,Heerenveen,AZ Alkmaar,Heerenveen,1,0,0,2,0,0,0,0,18
+1375840,2025-05-22,N1,2024,Twente,NEC Nijmegen,Twente,Nijmegen,0,1,0,2,1,0,0,0,20
+1375803,2025-05-23,N1,2024,Telstar,Den Bosch,Telstar,,0,1,0,0,0,0,0,0,15
+1375842,2025-05-24,N1,2024,Willem II,Dordrecht,Willem II,Dordrecht,0,2,0,0,0,0,0,0,30
+1376257,2025-05-25,N1,2024,AZ Alkmaar,Twente,AZ Alkmaar,Twente,1,1,1,2,0,0,0,0,19
+1376436,2025-05-29,N1,2024,Telstar,Willem II,Telstar,Willem II,1,0,0,2,0,0,0,0,15
+1376437,2025-06-01,N1,2024,Willem II,Telstar,Willem II,Telstar,0,2,1,1,0,0,0,0,16

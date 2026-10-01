@@ -1,0 +1,309 @@
+fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,ar1,ar2,evenimente
+1213754,2024-08-16,F1,2024,Le Havre,Paris Saint Germain,Le Havre,Paris SG,2,1,0,0,0,0,0,0,17
+1213751,2024-08-17,F1,2024,Monaco,Saint Etienne,Monaco,St Etienne,0,1,0,1,0,0,0,0,15
+1213747,2024-08-17,F1,2024,Stade Brestois 29,Marseille,Brest,Marseille,3,1,1,0,0,0,0,0,22
+1213752,2024-08-17,F1,2024,Reims,Lille,Reims,Lille,0,2,0,2,1,0,0,0,17
+1213755,2024-08-18,F1,2024,Rennes,Lyon,Rennes,Lyon,1,1,1,0,0,0,0,0,16
+1213750,2024-08-18,F1,2024,Angers,Lens,Angers,Lens,0,1,0,0,0,0,0,0,12
+1213753,2024-08-18,F1,2024,Auxerre,Nice,Auxerre,Nice,0,0,0,0,0,0,0,0,10
+1213749,2024-08-18,F1,2024,Toulouse,Nantes,Toulouse,Nantes,1,0,1,2,0,0,0,0,13
+1213748,2024-08-18,F1,2024,Montpellier,Strasbourg,Montpellier,Strasbourg,1,3,1,2,0,0,0,0,16
+1213756,2024-08-23,F1,2024,Paris Saint Germain,Montpellier,Paris SG,Montpellier,0,1,2,2,0,0,0,0,20
+1213763,2024-08-24,F1,2024,Lyon,Monaco,Lyon,Monaco,0,2,1,2,0,0,0,1,18
+1213760,2024-08-24,F1,2024,Lille,Angers,Lille,Angers,1,0,1,1,0,0,0,0,15
+1213759,2024-08-24,F1,2024,Saint Etienne,Le Havre,St Etienne,Le Havre,2,1,2,1,0,0,0,0,18
+1213762,2024-08-25,F1,2024,Lens,Stade Brestois 29,Lens,Brest,1,1,1,2,0,1,0,0,17
+1213757,2024-08-25,F1,2024,Strasbourg,Rennes,Strasbourg,Rennes,0,2,2,2,0,0,0,0,19
+1213761,2024-08-25,F1,2024,Nice,Toulouse,Nice,Toulouse,1,3,0,2,0,0,0,0,17
+1213758,2024-08-25,F1,2024,Nantes,Auxerre,Nantes,Auxerre,0,2,1,0,0,0,0,1,14
+1213764,2024-08-25,F1,2024,Marseille,Reims,Marseille,Reims,0,1,0,1,0,0,0,0,12
+1213766,2024-08-30,F1,2024,Lyon,Strasbourg,Lyon,Strasbourg,1,2,1,1,0,0,0,0,22
+1213767,2024-08-31,F1,2024,Stade Brestois 29,Saint Etienne,Brest,St Etienne,0,0,1,4,0,0,0,0,20
+1213768,2024-08-31,F1,2024,Montpellier,Nantes,Montpellier,Nantes,0,2,0,2,0,0,0,0,18
+1213773,2024-08-31,F1,2024,Toulouse,Marseille,Toulouse,Marseille,1,3,1,1,1,0,0,0,21
+1213772,2024-09-01,F1,2024,Reims,Rennes,Reims,Rennes,1,1,0,1,0,0,0,0,16
+1213765,2024-09-01,F1,2024,Lille,Paris Saint Germain,Lille,Paris SG,1,2,1,1,0,0,0,0,19
+1213769,2024-09-01,F1,2024,Angers,Nice,Angers,Nice,4,2,2,2,0,0,0,1,26
+1213770,2024-09-01,F1,2024,Monaco,Lens,Monaco,Lens,0,1,3,1,0,0,0,0,19
+1213771,2024-09-01,F1,2024,Le Havre,Auxerre,Le Havre,Auxerre,0,1,4,1,0,0,1,0,20
+1213780,2024-09-13,F1,2024,Saint Etienne,Lille,St Etienne,Lille,0,1,0,1,0,0,0,0,12
+1213781,2024-09-14,F1,2024,Marseille,Nice,Marseille,Nice,1,4,1,1,0,1,0,0,20
+1213774,2024-09-14,F1,2024,Auxerre,Monaco,Auxerre,Monaco,3,0,0,0,0,0,0,0,17
+1213782,2024-09-14,F1,2024,Paris Saint Germain,Stade Brestois 29,Paris SG,Brest,2,0,1,2,0,0,0,0,19
+1213776,2024-09-15,F1,2024,Lens,Lyon,Lens,Lyon,0,0,0,0,0,0,0,0,9
+1213777,2024-09-15,F1,2024,Nantes,Reims,Nantes,Reims,1,2,0,1,0,0,0,0,15
+1213779,2024-09-15,F1,2024,Strasbourg,Angers,Strasbourg,Angers,2,2,0,1,0,0,0,0,14
+1213775,2024-09-15,F1,2024,Rennes,Montpellier,Rennes,Montpellier,1,0,1,2,0,0,0,0,17
+1213778,2024-09-15,F1,2024,Toulouse,Le Havre,Toulouse,Le Havre,0,1,0,1,0,0,0,0,14
+1213784,2024-09-20,F1,2024,Nice,Saint Etienne,Nice,St Etienne,0,0,1,0,0,0,0,0,20
+1213789,2024-09-21,F1,2024,Lille,Strasbourg,Lille,Strasbourg,0,2,1,1,0,0,0,0,21
+1213790,2024-09-21,F1,2024,Rennes,Lens,Rennes,Lens,1,1,1,3,0,0,0,0,18
+1213785,2024-09-21,F1,2024,Reims,Paris Saint Germain,Reims,Paris SG,1,1,1,0,0,0,0,0,14
+1213783,2024-09-22,F1,2024,Lyon,Marseille,Lyon,Marseille,1,3,2,1,0,0,1,0,25
+1213787,2024-09-22,F1,2024,Angers,Nantes,Angers,Nantes,1,0,1,3,0,0,0,0,18
+1213788,2024-09-22,F1,2024,Montpellier,Auxerre,Montpellier,Auxerre,1,2,0,4,0,0,0,0,22
+1213791,2024-09-22,F1,2024,Monaco,Le Havre,Monaco,Le Havre,1,0,2,1,0,0,0,0,19
+1213786,2024-09-22,F1,2024,Stade Brestois 29,Toulouse,Brest,Toulouse,1,0,1,0,0,0,0,0,17
+1213793,2024-09-27,F1,2024,Paris Saint Germain,Rennes,Paris SG,Rennes,0,1,2,1,0,0,0,0,19
+1213794,2024-09-27,F1,2024,Auxerre,Stade Brestois 29,Auxerre,Brest,1,1,0,0,0,0,0,0,15
+1213795,2024-09-28,F1,2024,Lens,Nice,Lens,Nice,0,3,1,1,0,1,0,0,17
+1213797,2024-09-28,F1,2024,Le Havre,Lille,Le Havre,Lille,1,1,0,1,0,0,0,0,16
+1213799,2024-09-28,F1,2024,Monaco,Montpellier,Monaco,Montpellier,0,4,2,1,0,0,0,1,19
+1213798,2024-09-29,F1,2024,Toulouse,Lyon,Toulouse,Lyon,0,2,1,1,0,0,0,0,17
+1213796,2024-09-29,F1,2024,Nantes,Saint Etienne,Nantes,St Etienne,0,2,0,2,0,1,0,0,18
+1213792,2024-09-29,F1,2024,Strasbourg,Marseille,Strasbourg,Marseille,0,2,0,1,0,0,0,0,13
+1213800,2024-09-29,F1,2024,Angers,Reims,Angers,Reims,0,0,2,1,0,0,0,0,17
+1213806,2024-10-04,F1,2024,Marseille,Angers,Marseille,Angers,4,0,0,0,1,0,1,0,19
+1213804,2024-10-05,F1,2024,Saint Etienne,Auxerre,St Etienne,Auxerre,0,3,1,0,0,0,0,0,18
+1213803,2024-10-05,F1,2024,Lille,Toulouse,Lille,Toulouse,2,1,1,1,0,0,0,0,19
+1213807,2024-10-05,F1,2024,Rennes,Monaco,Rennes,Monaco,1,1,1,3,0,0,0,0,19
+1213809,2024-10-06,F1,2024,Reims,Montpellier,Reims,Montpellier,0,3,2,3,0,0,0,0,23
+1213802,2024-10-06,F1,2024,Nice,Paris Saint Germain,Nice,Paris SG,0,1,2,0,0,0,0,0,13
+1213808,2024-10-06,F1,2024,Strasbourg,Lens,Strasbourg,Lens,2,0,2,2,0,0,0,0,17
+1213801,2024-10-06,F1,2024,Lyon,Nantes,Lyon,Nantes,0,1,0,2,0,0,0,0,15
+1213805,2024-10-06,F1,2024,Stade Brestois 29,Le Havre,Brest,Le Havre,2,2,0,0,0,1,0,1,19
+1213815,2024-10-18,F1,2024,Monaco,Lille,Monaco,Lille,1,0,3,2,0,1,0,0,16
+1213817,2024-10-19,F1,2024,Stade Brestois 29,Rennes,Brest,Rennes,0,2,1,1,0,0,0,0,15
+1213816,2024-10-19,F1,2024,Saint Etienne,Lens,St Etienne,Lens,0,1,1,1,0,0,0,0,15
+1213818,2024-10-19,F1,2024,Paris Saint Germain,Strasbourg,Paris SG,Strasbourg,0,2,1,1,0,0,0,0,20
+1213812,2024-10-20,F1,2024,Le Havre,Lyon,Le Havre,Lyon,3,0,2,2,0,0,0,0,21
+1213810,2024-10-20,F1,2024,Auxerre,Reims,Auxerre,Reims,1,1,1,2,0,0,0,0,18
+1213811,2024-10-20,F1,2024,Toulouse,Angers,Toulouse,Angers,1,1,2,2,0,0,0,0,16
+1213813,2024-10-20,F1,2024,Nantes,Nice,Nantes,Nice,2,0,0,1,0,0,0,0,13
+1213814,2024-10-20,F1,2024,Montpellier,Marseille,Montpellier,Marseille,1,0,1,2,0,1,0,0,20
+1213825,2024-10-25,F1,2024,Rennes,Le Havre,Rennes,Le Havre,1,1,1,3,0,0,0,1,16
+1213826,2024-10-26,F1,2024,Angers,Saint Etienne,Angers,St Etienne,1,0,2,1,0,0,0,0,20
+1213827,2024-10-26,F1,2024,Reims,Stade Brestois 29,Reims,Brest,0,3,1,1,0,0,0,0,19
+1213820,2024-10-26,F1,2024,Lens,Lille,Lens,Lille,2,2,1,4,0,0,0,0,21
+1213821,2024-10-27,F1,2024,Marseille,Paris Saint Germain,Marseille,Paris SG,1,0,0,0,1,0,0,0,13
+1213823,2024-10-27,F1,2024,Montpellier,Toulouse,Montpellier,Toulouse,1,0,0,2,0,1,0,0,19
+1213824,2024-10-27,F1,2024,Strasbourg,Nantes,Strasbourg,Nantes,1,1,0,3,0,0,0,0,20
+1213819,2024-10-27,F1,2024,Nice,Monaco,Nice,Monaco,1,1,4,1,0,0,1,0,20
+1213822,2024-10-27,F1,2024,Lyon,Auxerre,Lyon,Auxerre,0,0,2,2,0,0,0,0,18
+1213830,2024-11-01,F1,2024,Monaco,Angers,Monaco,Angers,1,0,0,1,0,0,0,0,10
+1213833,2024-11-01,F1,2024,Lille,Lyon,Lille,Lyon,1,2,1,0,0,0,0,0,14
+1213836,2024-11-02,F1,2024,Paris Saint Germain,Lens,Paris SG,Lens,0,1,1,3,0,0,0,1,16
+1213835,2024-11-02,F1,2024,Stade Brestois 29,Nice,Brest,Nice,0,0,0,2,0,0,0,0,14
+1213834,2024-11-02,F1,2024,Saint Etienne,Strasbourg,St Etienne,Strasbourg,1,1,1,0,0,0,0,0,13
+1213829,2024-11-03,F1,2024,Toulouse,Reims,Toulouse,Reims,0,0,0,3,0,0,0,0,11
+1213828,2024-11-03,F1,2024,Auxerre,Rennes,Auxerre,Rennes,0,0,1,1,0,0,0,0,18
+1213832,2024-11-03,F1,2024,Nantes,Marseille,Nantes,Marseille,0,1,0,1,0,0,0,0,15
+1213831,2024-11-03,F1,2024,Le Havre,Montpellier,Le Havre,Montpellier,1,1,1,0,0,0,0,0,11
+1213837,2024-11-08,F1,2024,Marseille,Auxerre,Marseille,Auxerre,0,3,0,2,0,0,0,0,17
+1213841,2024-11-09,F1,2024,Strasbourg,Monaco,Strasbourg,Monaco,1,4,2,0,0,0,0,0,19
+1213842,2024-11-09,F1,2024,Lens,Nantes,Lens,Nantes,2,0,0,0,0,0,0,0,18
+1213845,2024-11-09,F1,2024,Angers,Paris Saint Germain,Angers,Paris SG,0,0,1,2,0,0,0,0,19
+1213839,2024-11-10,F1,2024,Montpellier,Stade Brestois 29,Montpellier,Brest,1,4,1,0,0,0,0,0,21
+1213838,2024-11-10,F1,2024,Lyon,Saint Etienne,Lyon,St Etienne,1,2,2,0,0,0,0,0,17
+1213843,2024-11-10,F1,2024,Rennes,Toulouse,Rennes,Toulouse,3,0,0,1,0,0,0,0,15
+1213844,2024-11-10,F1,2024,Nice,Lille,Nice,Lille,1,1,0,2,0,0,0,0,16
+1213840,2024-11-10,F1,2024,Le Havre,Reims,Le Havre,Reims,1,0,3,1,0,0,0,0,18
+1213852,2024-11-22,F1,2024,Monaco,Stade Brestois 29,Monaco,Brest,0,2,1,1,0,0,0,0,18
+1213846,2024-11-22,F1,2024,Paris Saint Germain,Toulouse,Paris SG,Toulouse,1,0,1,1,0,0,0,0,16
+1213847,2024-11-23,F1,2024,Lens,Marseille,Lens,Marseille,1,2,1,2,0,0,0,0,19
+1213849,2024-11-23,F1,2024,Saint Etienne,Montpellier,St Etienne,Montpellier,0,3,3,2,0,0,0,0,20
+1213854,2024-11-23,F1,2024,Reims,Lyon,Reims,Lyon,0,2,0,0,0,0,0,0,11
+1213850,2024-11-24,F1,2024,Lille,Rennes,Lille,Rennes,1,2,1,1,0,0,0,0,15
+1213853,2024-11-24,F1,2024,Auxerre,Angers,Auxerre,Angers,1,3,1,0,0,0,0,0,13
+1213851,2024-11-24,F1,2024,Nantes,Le Havre,Nantes,Le Havre,0,2,0,1,0,0,0,0,14
+1213848,2024-11-24,F1,2024,Nice,Strasbourg,Nice,Strasbourg,1,1,0,0,0,0,0,0,12
+1213855,2024-11-29,F1,2024,Reims,Lens,Reims,Lens,1,0,1,1,0,0,0,0,15
+1213856,2024-11-30,F1,2024,Rennes,Saint Etienne,Rennes,St Etienne,0,0,0,1,0,0,1,0,18
+1213859,2024-11-30,F1,2024,Stade Brestois 29,Strasbourg,Brest,Strasbourg,3,0,1,1,0,0,0,0,19
+1213861,2024-11-30,F1,2024,Paris Saint Germain,Nantes,Paris SG,Nantes,0,0,0,0,0,0,0,0,10
+1213863,2024-12-01,F1,2024,Lyon,Nice,Lyon,Nice,0,1,0,2,0,0,0,0,21
+1213862,2024-12-01,F1,2024,Marseille,Monaco,Marseille,Monaco,0,0,0,1,0,0,0,0,12
+1213857,2024-12-01,F1,2024,Le Havre,Angers,Le Havre,Angers,0,2,0,0,0,0,0,0,12
+1213860,2024-12-01,F1,2024,Montpellier,Lille,Montpellier,Lille,2,2,1,4,0,1,1,0,27
+1213858,2024-12-01,F1,2024,Toulouse,Auxerre,Toulouse,Auxerre,0,0,0,0,0,0,0,0,12
+1213868,2024-12-06,F1,2024,Lille,Stade Brestois 29,Lille,Brest,0,1,1,0,0,0,0,0,16
+1213865,2024-12-06,F1,2024,Auxerre,Paris Saint Germain,Auxerre,Paris SG,0,2,0,1,0,0,0,0,10
+1213872,2024-12-07,F1,2024,Monaco,Toulouse,Monaco,Toulouse,0,2,1,1,0,0,0,0,16
+1213864,2024-12-07,F1,2024,Nice,Le Havre,Nice,Le Havre,0,3,0,2,0,0,0,0,17
+1213867,2024-12-07,F1,2024,Angers,Lyon,Angers,Lyon,0,0,1,1,0,0,0,0,16
+1213866,2024-12-08,F1,2024,Saint Etienne,Marseille,St Etienne,Marseille,0,1,0,1,0,0,0,0,15
+1213870,2024-12-08,F1,2024,Strasbourg,Reims,Strasbourg,Reims,1,0,1,1,0,0,0,0,8
+1213869,2024-12-08,F1,2024,Lens,Montpellier,Lens,Montpellier,0,2,1,2,0,0,0,0,16
+1213871,2024-12-08,F1,2024,Nantes,Rennes,Nantes,Rennes,0,1,1,0,0,0,1,0,12
+1213877,2024-12-13,F1,2024,Toulouse,Saint Etienne,Toulouse,St Etienne,1,2,1,3,0,0,0,0,20
+1213880,2024-12-14,F1,2024,Marseille,Lille,Marseille,Lille,0,1,0,3,0,1,0,0,16
+1213876,2024-12-14,F1,2024,Auxerre,Lens,Auxerre,Lens,1,2,0,1,0,0,0,0,18
+1213875,2024-12-14,F1,2024,Reims,Monaco,Reims,Monaco,0,1,1,2,0,0,0,0,13
+1213873,2024-12-15,F1,2024,Rennes,Angers,Rennes,Angers,1,2,0,1,0,0,0,0,15
+1213881,2024-12-15,F1,2024,Paris Saint Germain,Lyon,Paris SG,Lyon,2,0,2,1,0,0,0,0,18
+1213874,2024-12-15,F1,2024,Le Havre,Strasbourg,Le Havre,Strasbourg,0,0,0,1,0,0,0,0,13
+1213878,2024-12-15,F1,2024,Montpellier,Nice,Montpellier,Nice,0,1,1,1,0,0,0,0,16
+1213879,2024-12-15,F1,2024,Stade Brestois 29,Nantes,Brest,Nantes,1,2,0,3,0,0,0,0,20
+1213882,2024-12-18,F1,2024,Monaco,Paris Saint Germain,Monaco,Paris SG,2,0,0,0,0,0,0,0,15
+1213890,2025-01-03,F1,2024,Nice,Rennes,Nice,Rennes,1,2,1,2,0,1,0,0,19
+1213885,2025-01-04,F1,2024,Saint Etienne,Reims,St Etienne,Reims,0,2,0,1,0,0,0,0,16
+1213887,2025-01-04,F1,2024,Lille,Nantes,Lille,Nantes,0,1,0,2,0,0,0,0,14
+1213883,2025-01-04,F1,2024,Lyon,Montpellier,Lyon,Montpellier,0,1,0,2,0,0,0,0,15
+1213886,2025-01-05,F1,2024,Angers,Stade Brestois 29,Angers,Brest,2,0,1,0,0,0,0,0,15
+1213888,2025-01-05,F1,2024,Marseille,Le Havre,Marseille,Le Havre,1,0,0,0,0,0,0,0,16
+1213884,2025-01-05,F1,2024,Lens,Toulouse,Lens,Toulouse,2,3,1,1,0,1,0,0,20
+1213889,2025-01-05,F1,2024,Strasbourg,Auxerre,Strasbourg,Auxerre,1,0,1,1,0,0,0,0,17
+1213892,2025-01-10,F1,2024,Nantes,Monaco,Nantes,Monaco,0,3,0,0,0,0,0,0,11
+1213893,2025-01-10,F1,2024,Auxerre,Lille,Auxerre,Lille,0,0,2,2,0,1,0,0,17
+1213897,2025-01-11,F1,2024,Stade Brestois 29,Lyon,Brest,Lyon,0,1,0,2,0,0,0,0,16
+1213894,2025-01-11,F1,2024,Reims,Nice,Reims,Nice,1,3,1,1,0,0,0,0,23
+1213899,2025-01-11,F1,2024,Rennes,Marseille,Rennes,Marseille,0,2,0,2,0,0,0,0,17
+1213895,2025-01-12,F1,2024,Le Havre,Lens,Le Havre,Lens,1,1,1,1,0,0,0,0,13
+1213891,2025-01-12,F1,2024,Toulouse,Strasbourg,Toulouse,Strasbourg,1,0,1,3,0,0,0,0,18
+1213896,2025-01-12,F1,2024,Montpellier,Angers,Montpellier,Angers,2,4,0,2,0,2,0,0,25
+1213898,2025-01-12,F1,2024,Paris Saint Germain,Saint Etienne,Paris SG,St Etienne,0,1,0,2,0,0,0,0,15
+1213905,2025-01-17,F1,2024,Montpellier,Monaco,Montpellier,Monaco,0,1,0,2,0,0,0,0,16
+1213902,2025-01-17,F1,2024,Lille,Nice,Lille,Nice,1,0,1,2,0,0,0,0,16
+1213908,2025-01-18,F1,2024,Rennes,Stade Brestois 29,Rennes,Brest,1,1,1,2,0,0,0,0,14
+1213901,2025-01-18,F1,2024,Lens,Paris Saint Germain,Lens,Paris SG,1,1,1,1,0,0,0,0,15
+1213903,2025-01-18,F1,2024,Lyon,Toulouse,Lyon,Toulouse,0,1,0,0,0,0,0,0,9
+1213904,2025-01-19,F1,2024,Saint Etienne,Nantes,St Etienne,Nantes,2,0,1,0,0,0,0,0,14
+1213906,2025-01-19,F1,2024,Reims,Le Havre,Reims,Le Havre,1,1,1,1,0,0,0,0,14
+1213907,2025-01-19,F1,2024,Angers,Auxerre,Angers,Auxerre,1,1,0,1,0,0,1,0,16
+1213900,2025-01-19,F1,2024,Marseille,Strasbourg,Marseille,Strasbourg,0,3,3,0,0,0,0,0,14
+1213914,2025-01-24,F1,2024,Auxerre,Saint Etienne,Auxerre,St Etienne,0,2,0,0,0,0,0,0,11
+1213911,2025-01-25,F1,2024,Monaco,Rennes,Monaco,Rennes,0,3,0,3,0,0,0,0,19
+1213909,2025-01-25,F1,2024,Strasbourg,Lille,Strasbourg,Lille,2,2,1,1,0,0,0,0,19
+1213916,2025-01-25,F1,2024,Paris Saint Germain,Reims,Paris SG,Reims,1,1,1,1,0,0,0,0,15
+1213917,2025-01-26,F1,2024,Nice,Marseille,Nice,Marseille,0,1,1,0,0,0,0,0,12
+1213910,2025-01-26,F1,2024,Nantes,Lyon,Nantes,Lyon,1,2,0,1,0,0,0,0,14
+1213915,2025-01-26,F1,2024,Lens,Angers,Lens,Angers,0,1,0,1,0,0,0,0,13
+1213913,2025-01-26,F1,2024,Le Havre,Stade Brestois 29,Le Havre,Brest,2,0,2,1,0,0,0,0,16
+1213912,2025-01-26,F1,2024,Toulouse,Montpellier,Toulouse,Montpellier,0,1,2,0,0,0,0,0,16
+1213920,2025-01-31,F1,2024,Montpellier,Lens,Montpellier,Lens,1,3,2,1,0,0,0,0,20
+1213919,2025-02-01,F1,2024,Stade Brestois 29,Paris Saint Germain,Brest,Paris SG,1,0,0,0,0,0,0,0,17
+1213926,2025-02-01,F1,2024,Monaco,Auxerre,Monaco,Auxerre,1,1,1,1,0,0,0,0,20
+1213921,2025-02-01,F1,2024,Lille,Saint Etienne,Lille,St Etienne,0,1,0,1,0,0,0,1,20
+1213918,2025-02-02,F1,2024,Marseille,Lyon,Marseille,Lyon,1,3,0,1,0,0,0,0,17
+1213923,2025-02-02,F1,2024,Angers,Le Havre,Angers,Le Havre,1,1,2,2,1,0,1,0,21
+1213925,2025-02-02,F1,2024,Rennes,Strasbourg,Rennes,Strasbourg,1,2,0,3,0,0,0,0,13
+1213924,2025-02-02,F1,2024,Toulouse,Nice,Toulouse,Nice,0,2,0,2,0,0,0,0,16
+1213922,2025-02-02,F1,2024,Reims,Nantes,Reims,Nantes,0,4,0,3,0,1,0,0,21
+1213928,2025-02-07,F1,2024,Nantes,Stade Brestois 29,Nantes,Brest,0,3,1,1,0,0,0,0,16
+1213932,2025-02-07,F1,2024,Paris Saint Germain,Monaco,Paris SG,Monaco,1,0,0,0,0,0,0,0,14
+1213935,2025-02-08,F1,2024,Nice,Lens,Nice,Lens,1,0,2,2,0,0,0,1,18
+1213930,2025-02-08,F1,2024,Lille,Le Havre,Lille,Le Havre,0,2,0,1,0,0,0,0,16
+1213931,2025-02-08,F1,2024,Saint Etienne,Rennes,St Etienne,Rennes,0,1,3,2,0,0,0,0,17
+1213934,2025-02-09,F1,2024,Angers,Marseille,Angers,Marseille,0,1,1,1,0,0,0,0,14
+1213929,2025-02-09,F1,2024,Strasbourg,Montpellier,Strasbourg,Montpellier,0,1,1,3,0,0,0,0,16
+1213933,2025-02-09,F1,2024,Lyon,Reims,Lyon,Reims,1,1,1,1,0,0,0,1,19
+1213927,2025-02-09,F1,2024,Auxerre,Toulouse,Auxerre,Toulouse,0,1,0,1,0,0,0,0,15
+1213940,2025-02-14,F1,2024,Stade Brestois 29,Auxerre,Brest,Auxerre,1,1,1,1,0,0,0,0,19
+1213937,2025-02-15,F1,2024,Marseille,Saint Etienne,Marseille,St Etienne,0,1,1,0,0,0,0,0,18
+1213944,2025-02-15,F1,2024,Monaco,Nantes,Monaco,Nantes,0,1,1,0,0,0,1,0,21
+1213936,2025-02-15,F1,2024,Toulouse,Paris Saint Germain,Toulouse,Paris SG,1,1,0,0,0,0,0,0,13
+1213941,2025-02-16,F1,2024,Rennes,Lille,Rennes,Lille,1,1,1,0,0,1,0,0,19
+1213942,2025-02-16,F1,2024,Reims,Angers,Reims,Angers,2,0,0,1,0,0,0,0,13
+1213939,2025-02-16,F1,2024,Lens,Strasbourg,Lens,Strasbourg,1,3,0,2,0,1,0,0,17
+1213938,2025-02-16,F1,2024,Montpellier,Lyon,Montpellier,Lyon,2,1,0,1,0,0,0,0,19
+1213943,2025-02-16,F1,2024,Le Havre,Nice,Le Havre,Nice,1,1,1,1,0,0,0,1,18
+1213945,2025-02-21,F1,2024,Rennes,Reims,Rennes,Reims,1,0,0,2,0,0,1,1,14
+1213947,2025-02-22,F1,2024,Lille,Monaco,Lille,Monaco,0,4,1,1,0,0,0,0,16
+1213950,2025-02-22,F1,2024,Saint Etienne,Angers,St Etienne,Angers,2,1,0,0,0,0,0,0,18
+1213951,2025-02-22,F1,2024,Auxerre,Marseille,Auxerre,Marseille,0,1,1,2,0,0,0,1,20
+1213949,2025-02-23,F1,2024,Nantes,Lens,Nantes,Lens,0,2,2,2,0,0,0,1,22
+1213946,2025-02-23,F1,2024,Le Havre,Toulouse,Le Havre,Toulouse,0,0,0,2,0,1,0,0,20
+1213948,2025-02-23,F1,2024,Strasbourg,Stade Brestois 29,Strasbourg,Brest,2,1,1,0,0,0,0,0,13
+1213953,2025-02-23,F1,2024,Lyon,Paris Saint Germain,Lyon,Paris SG,0,1,1,0,0,0,0,0,15
+1213952,2025-02-23,F1,2024,Nice,Montpellier,Nice,Montpellier,0,1,0,1,0,0,0,0,14
+1213961,2025-02-28,F1,2024,Monaco,Reims,Monaco,Reims,0,0,0,0,0,0,0,0,10
+1213958,2025-03-01,F1,2024,Saint Etienne,Nice,St Etienne,Nice,1,1,1,0,0,0,0,0,16
+1213959,2025-03-01,F1,2024,Lens,Le Havre,Lens,Le Havre,1,1,1,1,0,0,0,0,21
+1213954,2025-03-01,F1,2024,Paris Saint Germain,Lille,Paris SG,Lille,0,0,1,1,0,0,0,0,17
+1213962,2025-03-02,F1,2024,Angers,Toulouse,Angers,Toulouse,1,2,1,2,0,0,0,0,21
+1213955,2025-03-02,F1,2024,Marseille,Nantes,Marseille,Nantes,1,0,0,2,0,0,0,0,16
+1213957,2025-03-02,F1,2024,Montpellier,Rennes,Montpellier,Rennes,2,0,1,0,0,0,0,0,19
+1213956,2025-03-02,F1,2024,Lyon,Stade Brestois 29,Lyon,Brest,2,0,0,1,0,0,0,0,13
+1213960,2025-03-02,F1,2024,Auxerre,Strasbourg,Auxerre,Strasbourg,0,1,1,2,0,0,0,1,15
+1213966,2025-03-07,F1,2024,Toulouse,Monaco,Toulouse,Monaco,1,0,1,2,0,0,0,0,12
+1213970,2025-03-08,F1,2024,Rennes,Paris Saint Germain,Rennes,Paris SG,1,1,2,1,0,0,0,0,20
+1213969,2025-03-08,F1,2024,Lille,Montpellier,Lille,Montpellier,1,1,1,2,0,0,0,0,16
+1213971,2025-03-08,F1,2024,Marseille,Lens,Marseille,Lens,0,3,0,1,0,0,0,0,12
+1213968,2025-03-09,F1,2024,Stade Brestois 29,Angers,Brest,Angers,1,0,0,1,0,0,0,0,11
+1213963,2025-03-09,F1,2024,Le Havre,Saint Etienne,Le Havre,St Etienne,2,0,1,2,0,0,0,0,18
+1213964,2025-03-09,F1,2024,Reims,Auxerre,Reims,Auxerre,0,1,1,0,0,0,0,0,13
+1213965,2025-03-09,F1,2024,Nantes,Strasbourg,Nantes,Strasbourg,1,0,1,0,0,0,0,0,13
+1213967,2025-03-09,F1,2024,Nice,Lyon,Nice,Lyon,0,1,1,1,0,0,0,0,15
+1213973,2025-03-14,F1,2024,Nice,Auxerre,Nice,Auxerre,0,1,1,2,0,1,0,0,17
+1213979,2025-03-15,F1,2024,Nantes,Lille,Nantes,Lille,1,1,0,3,0,1,0,0,16
+1213980,2025-03-15,F1,2024,Angers,Monaco,Angers,Monaco,0,1,1,1,0,0,0,0,15
+1213977,2025-03-15,F1,2024,Lens,Rennes,Lens,Rennes,0,1,1,0,0,0,0,0,11
+1213972,2025-03-16,F1,2024,Paris Saint Germain,Marseille,Paris SG,Marseille,1,0,0,0,0,0,0,0,14
+1213974,2025-03-16,F1,2024,Montpellier,Saint Etienne,Montpellier,St Etienne,1,0,3,0,0,0,1,0,10
+1213975,2025-03-16,F1,2024,Stade Brestois 29,Reims,Brest,Reims,0,1,2,1,0,1,0,0,12
+1213978,2025-03-16,F1,2024,Strasbourg,Toulouse,Strasbourg,Toulouse,0,0,2,0,0,0,0,0,13
+1213976,2025-03-16,F1,2024,Lyon,Le Havre,Lyon,Le Havre,1,1,0,3,0,0,0,0,22
+1213984,2025-03-28,F1,2024,Strasbourg,Lyon,Strasbourg,Lyon,0,2,0,2,0,0,0,0,18
+1213987,2025-03-29,F1,2024,Reims,Marseille,Reims,Marseille,0,0,0,0,0,0,0,0,12
+1213986,2025-03-29,F1,2024,Saint Etienne,Paris Saint Germain,St Etienne,Paris SG,1,1,0,0,0,0,0,0,20
+1213989,2025-03-29,F1,2024,Monaco,Nice,Monaco,Nice,1,1,1,3,0,0,0,1,21
+1213985,2025-03-30,F1,2024,Toulouse,Stade Brestois 29,Toulouse,Brest,0,0,2,3,0,0,0,0,19
+1213983,2025-03-30,F1,2024,Le Havre,Nantes,Le Havre,Nantes,1,0,0,2,0,0,0,0,16
+1213982,2025-03-30,F1,2024,Auxerre,Montpellier,Auxerre,Montpellier,2,1,0,1,0,0,0,0,15
+1213981,2025-03-30,F1,2024,Angers,Rennes,Angers,Rennes,1,0,0,0,0,0,0,0,16
+1213988,2025-03-30,F1,2024,Lille,Lens,Lille,Lens,0,1,1,2,0,0,0,0,15
+1213991,2025-04-04,F1,2024,Nice,Nantes,Nice,Nantes,1,0,0,1,0,0,0,0,15
+1213996,2025-04-05,F1,2024,Paris Saint Germain,Angers,Paris SG,Angers,0,0,3,0,0,0,0,0,14
+1213992,2025-04-05,F1,2024,Stade Brestois 29,Monaco,Brest,Monaco,2,1,1,1,0,0,0,0,17
+1213994,2025-04-05,F1,2024,Lyon,Lille,Lyon,Lille,2,1,0,2,0,0,0,0,18
+1213993,2025-04-06,F1,2024,Montpellier,Le Havre,Montpellier,Le Havre,0,1,0,1,0,1,0,0,16
+1213990,2025-04-06,F1,2024,Marseille,Toulouse,Marseille,Toulouse,1,1,1,2,0,0,0,0,19
+1213998,2025-04-06,F1,2024,Rennes,Auxerre,Rennes,Auxerre,0,0,0,0,0,0,0,0,10
+1213997,2025-04-06,F1,2024,Reims,Strasbourg,Reims,Strasbourg,1,1,0,2,0,1,0,1,14
+1213995,2025-04-06,F1,2024,Lens,Saint Etienne,Lens,St Etienne,2,1,1,1,0,0,0,0,17
+1214006,2025-04-11,F1,2024,Lens,Reims,Lens,Reims,0,1,0,0,0,0,0,0,15
+1213999,2025-04-12,F1,2024,Toulouse,Lille,Toulouse,Lille,0,1,0,2,0,0,0,0,14
+1214003,2025-04-12,F1,2024,Strasbourg,Nice,Strasbourg,Nice,0,1,0,2,0,0,0,0,17
+1214007,2025-04-12,F1,2024,Monaco,Marseille,Monaco,Marseille,1,1,0,1,0,0,0,0,16
+1214004,2025-04-13,F1,2024,Saint Etienne,Stade Brestois 29,St Etienne,Brest,1,1,0,4,0,0,0,0,17
+1214000,2025-04-13,F1,2024,Le Havre,Rennes,Le Havre,Rennes,1,1,2,1,0,0,0,0,21
+1214005,2025-04-13,F1,2024,Angers,Montpellier,Angers,Montpellier,0,0,2,0,0,0,0,0,13
+1214001,2025-04-13,F1,2024,Auxerre,Lyon,Auxerre,Lyon,1,2,0,1,0,0,0,0,17
+1214016,2025-04-18,F1,2024,Rennes,Nantes,Rennes,Nantes,2,1,4,1,0,0,0,1,22
+1214013,2025-04-19,F1,2024,Marseille,Montpellier,Marseille,Montpellier,1,1,0,2,0,0,0,0,18
+1214012,2025-04-19,F1,2024,Paris Saint Germain,Le Havre,Paris SG,Le Havre,0,0,0,0,0,0,0,0,13
+1214015,2025-04-19,F1,2024,Monaco,Strasbourg,Monaco,Strasbourg,2,1,2,1,0,0,0,0,16
+1214011,2025-04-20,F1,2024,Lille,Auxerre,Lille,Auxerre,1,0,0,2,0,0,0,0,17
+1214010,2025-04-20,F1,2024,Stade Brestois 29,Lens,Brest,Lens,0,0,0,0,1,0,0,0,15
+1214014,2025-04-20,F1,2024,Reims,Toulouse,Reims,Toulouse,0,1,0,0,0,0,1,0,11
+1214009,2025-04-20,F1,2024,Nice,Angers,Nice,Angers,0,1,0,1,0,0,0,0,13
+1214008,2025-04-20,F1,2024,Saint Etienne,Lyon,St Etienne,Lyon,1,2,2,2,0,0,0,0,20
+1214002,2025-04-22,F1,2024,Nantes,Paris Saint Germain,Nantes,Paris SG,0,2,0,0,0,0,0,0,12
+1214023,2025-04-25,F1,2024,Paris Saint Germain,Nice,Paris SG,Nice,1,2,1,0,0,0,0,0,18
+1214017,2025-04-26,F1,2024,Le Havre,Monaco,Le Havre,Monaco,1,0,0,0,0,0,0,0,13
+1214025,2025-04-26,F1,2024,Lyon,Rennes,Lyon,Rennes,0,0,0,0,0,0,0,0,15
+1214018,2025-04-26,F1,2024,Strasbourg,Saint Etienne,Strasbourg,St Etienne,1,0,0,0,0,0,0,0,12
+1214022,2025-04-27,F1,2024,Angers,Lille,Angers,Lille,0,1,1,4,0,0,0,1,19
+1214021,2025-04-27,F1,2024,Lens,Auxerre,Lens,Auxerre,1,3,1,3,0,1,0,0,23
+1214019,2025-04-27,F1,2024,Nantes,Toulouse,Nantes,Toulouse,1,1,1,2,0,0,1,0,14
+1214020,2025-04-27,F1,2024,Montpellier,Reims,Montpellier,Reims,2,1,1,2,0,0,0,0,15
+1214024,2025-04-27,F1,2024,Marseille,Stade Brestois 29,Marseille,Brest,1,0,1,3,0,0,0,0,21
+1214028,2025-05-02,F1,2024,Nice,Reims,Nice,Reims,2,0,0,2,0,0,0,0,15
+1214030,2025-05-03,F1,2024,Saint Etienne,Monaco,St Etienne,Monaco,0,0,0,0,0,0,0,0,14
+1214033,2025-05-03,F1,2024,Strasbourg,Paris Saint Germain,Strasbourg,Paris SG,0,1,0,2,0,0,0,0,14
+1214032,2025-05-03,F1,2024,Toulouse,Rennes,Toulouse,Rennes,1,1,1,1,0,0,0,0,15
+1214031,2025-05-04,F1,2024,Nantes,Angers,Nantes,Angers,1,1,2,1,0,0,0,0,14
+1214034,2025-05-04,F1,2024,Auxerre,Le Havre,Auxerre,Le Havre,1,1,0,1,0,0,0,0,16
+1214029,2025-05-04,F1,2024,Stade Brestois 29,Montpellier,Brest,Montpellier,0,1,1,1,0,0,0,0,13
+1214026,2025-05-04,F1,2024,Lyon,Lens,Lyon,Lens,2,0,0,3,0,0,0,0,14
+1214027,2025-05-04,F1,2024,Lille,Marseille,Lille,Marseille,0,2,1,1,0,0,0,0,13
+1214043,2025-05-10,F1,2024,Monaco,Lyon,Monaco,Lyon,0,2,2,2,0,0,0,0,16
+1214037,2025-05-10,F1,2024,Angers,Strasbourg,Angers,Strasbourg,0,2,1,1,0,0,0,0,16
+1214040,2025-05-10,F1,2024,Montpellier,Paris Saint Germain,Montpellier,Paris SG,1,0,1,0,0,0,0,0,14
+1214035,2025-05-10,F1,2024,Reims,Saint Etienne,Reims,St Etienne,0,1,0,0,0,0,0,0,12
+1214042,2025-05-10,F1,2024,Stade Brestois 29,Lille,Brest,Lille,0,1,1,0,0,0,0,0,13
+1214041,2025-05-10,F1,2024,Toulouse,Lens,Toulouse,Lens,0,2,0,5,0,0,0,0,15
+1214036,2025-05-10,F1,2024,Auxerre,Nantes,Auxerre,Nantes,0,3,0,1,0,0,0,0,16
+1214038,2025-05-10,F1,2024,Le Havre,Marseille,Le Havre,Marseille,0,2,0,2,0,0,0,0,15
+1214039,2025-05-10,F1,2024,Rennes,Nice,Rennes,Nice,0,1,1,0,0,0,0,0,16
+1214047,2025-05-17,F1,2024,Saint Etienne,Toulouse,St Etienne,Toulouse,1,2,0,2,0,0,0,0,18
+1214051,2025-05-17,F1,2024,Lens,Monaco,Lens,Monaco,1,0,1,0,0,0,0,1,18
+1214049,2025-05-17,F1,2024,Strasbourg,Le Havre,Strasbourg,Le Havre,0,3,0,0,0,1,0,0,20
+1214052,2025-05-17,F1,2024,Paris Saint Germain,Auxerre,Paris SG,Auxerre,0,1,1,1,0,0,0,0,18
+1214046,2025-05-17,F1,2024,Nice,Stade Brestois 29,Nice,Brest,0,0,2,3,0,0,0,0,21
+1214050,2025-05-17,F1,2024,Nantes,Montpellier,Nantes,Montpellier,0,3,0,1,0,0,0,0,16
+1214044,2025-05-17,F1,2024,Marseille,Rennes,Marseille,Rennes,1,2,2,1,0,0,0,0,24
+1214045,2025-05-17,F1,2024,Lyon,Angers,Lyon,Angers,1,0,1,2,0,0,0,0,16
+1214048,2025-05-17,F1,2024,Lille,Reims,Lille,Reims,0,0,0,1,0,0,0,0,12
+1375858,2025-05-21,F1,2024,Metz,Reims,Metz,Reims,0,1,1,2,0,0,0,0,15
+1375859,2025-05-29,F1,2024,Reims,Metz,Reims,Metz,1,2,0,2,0,0,0,0,20
