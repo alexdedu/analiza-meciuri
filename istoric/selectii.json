@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-01T19:51:29+00:00",
+ "actualizat": "2026-10-02T05:48:44+00:00",
  "selectii": [
   {
    "cheie": "D1_20260919_EinFrankfurt_Freiburg|over25",
@@ -788,8 +788,10 @@
    "odds": 1.07,
    "band": "80% sau peste",
    "notat_la": "2026-09-29T05:50:00+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": true,
+   "scor": "4-0",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-10-02T05:48:43+00:00"
   },
   {
    "cheie": "NAT1528916|home",
@@ -804,8 +806,10 @@
    "odds": 1.16,
    "band": "70-80%",
    "notat_la": "2026-09-29T05:50:00+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": false,
+   "scor": "0-0",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-10-02T05:48:43+00:00"
   },
   {
    "cheie": "NAT1528917|home",
@@ -820,8 +824,10 @@
    "odds": 1.24,
    "band": "70-80%",
    "notat_la": "2026-09-29T05:50:00+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": true,
+   "scor": "2-0",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-10-02T05:48:44+00:00"
   },
   {
    "cheie": "NAT1545607|home",
@@ -836,8 +842,10 @@
    "odds": 1.28,
    "band": "70-80%",
    "notat_la": "2026-09-29T15:54:18+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": false,
+   "scor": "1-1",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-10-02T05:48:44+00:00"
   },
   {
    "cheie": "NAT1640512|home",
@@ -852,8 +860,10 @@
    "odds": 1.34,
    "band": "65-70%",
    "notat_la": "2026-09-30T05:42:32+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": true,
+   "scor": "4-1",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-10-02T05:48:44+00:00"
   },
   {
    "cheie": "NAT1528917|over25",
@@ -868,8 +878,10 @@
    "odds": 1.4,
    "band": "65-70%",
    "notat_la": "2026-09-30T05:42:32+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": false,
+   "scor": "2-0",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-10-02T05:48:44+00:00"
   },
   {
    "cheie": "NAT1528927|under25",
@@ -900,6 +912,22 @@
    "odds": 1.59,
    "band": "peste piață",
    "notat_la": "2026-09-30T17:21:58+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "NAT1528941|over25",
+   "match_id": "NAT1528941",
+   "date": "2026-10-04",
+   "league_name": "UEFA Nations League",
+   "home": "Portugal",
+   "away": "Norway",
+   "market": "over25",
+   "market_label": "Peste 2.5 goluri",
+   "probability": 0.6148,
+   "odds": 1.46,
+   "band": "sub piață",
+   "notat_la": "2026-10-02T05:48:42+00:00",
    "castigat": null,
    "scor": null
   }
