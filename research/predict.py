@@ -121,8 +121,41 @@ def get_fixtures() -> pd.DataFrame:
 
     fx = fx[fx["div"].isin(LIGI_AFISATE)]
     azi = pd.Timestamp(datetime.now().date())
-    fx = fx[(fx["date"] >= azi) & (fx["date"] < azi + pd.Timedelta(days=ZILE_AFISATE))]
-    return fx
+
+    # Feedul tine doar vreo saptamana inainte si se publica de cateva ori pe
+    # saptamana. Pentru campionatele care n-au nimic in el, intrebam API-ul:
+    # programul exista acolo cu luni inainte.
+    lipsesc = [div for div in sorted(LIGI_AFISATE)
+               if fx[(fx["div"] == div) & (fx["date"] >= azi)].empty]
+    if lipsesc:
+        try:
+            from fixturi_api import ZILE_CERUTE, fixturi_lipsa
+            from data_loader import load_all
+            completare = fixturi_lipsa(lipsesc, load_all(), ZILE_CERUTE)
+            if not completare.empty:
+                completare["date"] = pd.to_datetime(completare["Date"],
+                                                    format="%d/%m/%Y")
+                for col in fx.columns:
+                    if col not in completare.columns:
+                        completare[col] = pd.NA
+                fx = pd.concat([fx, completare[fx.columns]], ignore_index=True)
+                print(f"  {len(completare)} meciuri luate de la API pentru "
+                      f"{', '.join(lipsesc)}")
+        except Exception as exc:
+            print(f"  (completarea de la API a esuat: {str(exc)[:70]})")
+
+    viitoare = fx[fx["date"] >= azi]
+    fereastra = viitoare[viitoare["date"] < azi + pd.Timedelta(days=ZILE_AFISATE)]
+
+    # Daca in urmatoarele trei zile nu se joaca nimic in campionate, aratam
+    # urmatoarea etapa in loc de o lista goala. Regula de trei zile ramane,
+    # doar ca se masoara de la prima zi cu meciuri.
+    if fereastra.empty and not viitoare.empty:
+        prima = viitoare["date"].min()
+        fereastra = viitoare[viitoare["date"] < prima + pd.Timedelta(days=ZILE_AFISATE)]
+        print(f"  nimic in trei zile; arat etapa care incepe pe {prima.date()} "
+              f"({len(fereastra)} meciuri)")
+    return fereastra
 
 
 def team_context(hist: pd.DataFrame, team: str, n: int = 6) -> dict:

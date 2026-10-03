@@ -10,6 +10,7 @@ actualizarii din 17 septembrie 2026.
 from __future__ import annotations
 
 import json
+from datetime import datetime, timedelta
 import sys
 import tempfile
 from pathlib import Path
@@ -131,6 +132,51 @@ def test_pauza_confirmata_inlocuieste_meciurile_vechi() -> None:
                  "aplicatia nu afla cand se reiau meciurile")
 
 
+def test_feedul_gol_se_completeaza_de_la_api() -> None:
+    """Feedul tine o saptamana inainte; programul exista la API cu luni inainte."""
+    import fixturi_api
+    import pandas as pd
+
+    gol = pd.DataFrame(columns=["Div", "Date", "Time", "HomeTeam", "AwayTeam"])
+    peste_cinci_zile = (datetime.now() + timedelta(days=5)).strftime("%d/%m/%Y")
+    de_la_api = pd.DataFrame([{
+        "div": "E0", "Date": peste_cinci_zile, "Time": "17:00",
+        "home": "Arsenal", "away": "Chelsea", "fixture_id": 1,
+        "AvgH": 1.80, "AvgD": 3.60, "AvgA": 4.20,
+    }])
+
+    with mock.patch.object(predict, "_download_csv", return_value=gol), \
+         mock.patch.object(fixturi_api, "fixturi_lipsa", return_value=de_la_api):
+        fx = predict.get_fixtures()
+
+    verifica(len(fx) == 1, f"meciul de la API nu a ajuns in lista ({len(fx)})")
+    verifica(not fx.empty and fx.iloc[0]["home"] == "Arsenal",
+             "numele echipei s-a pierdut pe drum")
+
+
+def test_fereastra_se_muta_pe_prima_zi_cu_meciuri() -> None:
+    """In pauza, trei zile goale nu trebuie sa insemne o lista goala."""
+    import fixturi_api
+    import pandas as pd
+
+    gol = pd.DataFrame(columns=["Div", "Date", "Time", "HomeTeam", "AwayTeam"])
+    zile = [(datetime.now() + timedelta(days=d)).strftime("%d/%m/%Y")
+            for d in (6, 7, 8, 12)]
+    de_la_api = pd.DataFrame([
+        {"div": "E0", "Date": zi, "Time": "17:00", "home": f"Echipa{i}",
+         "away": f"Adversar{i}", "fixture_id": i}
+        for i, zi in enumerate(zile)
+    ])
+
+    with mock.patch.object(predict, "_download_csv", return_value=gol), \
+         mock.patch.object(fixturi_api, "fixturi_lipsa", return_value=de_la_api):
+        fx = predict.get_fixtures()
+
+    # Fereastra de trei zile se masoara de la prima zi cu meciuri (ziua 6),
+    # deci intra zilele 6, 7 si 8, dar nu si a douasprezecea.
+    verifica(len(fx) == 3, f"asteptam trei meciuri in fereastra, am primit {len(fx)}")
+
+
 def _istoric_minimal():
     import pandas as pd
     return pd.DataFrame({
@@ -145,6 +191,8 @@ def main() -> int:
     test_descarcare_reusita_inlocuieste()
     test_zero_meciuri_pastreaza_predictiile_existente()
     test_pauza_confirmata_inlocuieste_meciurile_vechi()
+    test_feedul_gol_se_completeaza_de_la_api()
+    test_fereastra_se_muta_pe_prima_zi_cu_meciuri()
 
     if esecuri:
         print(f"ESUAT: {len(esecuri)} verificari")
