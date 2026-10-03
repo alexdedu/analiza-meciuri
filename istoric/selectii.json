@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-02T19:31:55+00:00",
+ "actualizat": "2026-10-03T05:24:58+00:00",
  "selectii": [
   {
    "cheie": "D1_20260919_EinFrankfurt_Freiburg|over25",
@@ -896,8 +896,10 @@
    "odds": 1.59,
    "band": "60-65%",
    "notat_la": "2026-09-30T05:42:32+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": false,
+   "scor": "0-3",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-10-03T05:24:58+00:00"
   },
   {
    "cheie": "NAT1639973|over25",
@@ -912,8 +914,10 @@
    "odds": 1.59,
    "band": "peste piață",
    "notat_la": "2026-09-30T17:21:58+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": true,
+   "scor": "1-4",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-10-03T05:24:58+00:00"
   },
   {
    "cheie": "NAT1528941|over25",
@@ -928,6 +932,22 @@
    "odds": 1.46,
    "band": "sub piață",
    "notat_la": "2026-10-02T05:48:42+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "NAT1528945|over25",
+   "match_id": "NAT1528945",
+   "date": "2026-10-05",
+   "league_name": "UEFA Nations League",
+   "home": "Italy",
+   "away": "Türkiye",
+   "market": "over25",
+   "market_label": "Peste 2.5 goluri",
+   "probability": 0.6072,
+   "odds": 1.49,
+   "band": "sub piață",
+   "notat_la": "2026-10-03T05:24:56+00:00",
    "castigat": null,
    "scor": null
   }
