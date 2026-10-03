@@ -2,11 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
 import 'about_screen.dart';
-import 'count_picks_card.dart';
 import 'detail_screen.dart';
 import 'formatting.dart';
 import 'models.dart';
-import 'recommendations_card.dart';
+import 'picks_card.dart';
 import 'repository.dart';
 import 'search_screen.dart';
 import 'theme.dart';
@@ -139,23 +138,13 @@ class _MatchList extends StatelessWidget {
         SliverToBoxAdapter(
           child: Padding(
             padding: const EdgeInsets.fromLTRB(16, 0, 16, 14),
-            child: RecommendationsCard(
-              recommendations: bundle.recommendations,
+            child: PicksCard(
+              matches: bundle.recommendedMatches,
+              countsRecord: bundle.trackRecord?.counts,
               onTap: (matchId) => _deschideMeci(context, matchId),
             ),
           ),
         ),
-        if (bundle.countPicks.isNotEmpty)
-          SliverToBoxAdapter(
-            child: Padding(
-              padding: const EdgeInsets.fromLTRB(16, 0, 16, 14),
-              child: CountPicksCard(
-                picks: bundle.countPicks,
-                record: bundle.trackRecord?.counts,
-                onTap: (matchId) => _deschideMeci(context, matchId),
-              ),
-            ),
-          ),
         if (bundle.trackRecord != null)
           SliverToBoxAdapter(
             child: Padding(
@@ -497,12 +486,10 @@ class _MatchCard extends StatelessWidget {
               const SizedBox(height: 10),
               Text('${match.home}  –  ${match.away}',
                   style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w600)),
-              const SizedBox(height: 4),
-              Text(
-                'Goluri asteptate  ${match.expectedGoalsHome.toStringAsFixed(2)} – '
-                '${match.expectedGoalsAway.toStringAsFixed(2)}',
-                style: const TextStyle(fontSize: 11.5, color: AppColors.textSecondary),
-              ),
+              const SizedBox(height: 7),
+              // Cifrele care conteaza, direct in lista: altfel ar trebui
+              // deschis fiecare meci ca sa se vada ce are de oferit.
+              _Cifre(match: match),
               const SizedBox(height: 12),
               ProbabilityBar(
                 home: match.p('p_home'),
@@ -526,6 +513,68 @@ class _MatchCard extends StatelessWidget {
   }
 
   static String _pct(double v) => '${(v * 100).toStringAsFixed(0)}%';
+}
+
+/// Golurile, cornerele si cartonasele asteptate, pe un singur rand.
+///
+/// Cornerele si cartonasele lipsesc la meciurile pentru care sursa nu le are
+/// (Romania, cupele, nationalele) -- acolo raman doar golurile.
+class _Cifre extends StatelessWidget {
+  const _Cifre({required this.match});
+
+  final MatchPrediction match;
+
+  @override
+  Widget build(BuildContext context) {
+    final cornere = match.extraMarkets?.corners;
+    final cartonase = match.extraMarkets?.cards;
+
+    return Wrap(
+      spacing: 14,
+      runSpacing: 4,
+      children: [
+        _Cifra(
+          eticheta: 'goluri',
+          valoare: '${match.expectedGoalsHome.toStringAsFixed(1)}–'
+              '${match.expectedGoalsAway.toStringAsFixed(1)}',
+        ),
+        if (cornere != null)
+          _Cifra(
+            eticheta: 'cornere',
+            valoare: '${cornere.expectedHome.toStringAsFixed(1)}–'
+                '${cornere.expectedAway.toStringAsFixed(1)}',
+          ),
+        if (cartonase != null)
+          _Cifra(
+            eticheta: 'cartonașe',
+            valoare: cartonase.expectedTotal.toStringAsFixed(1),
+          ),
+      ],
+    );
+  }
+}
+
+class _Cifra extends StatelessWidget {
+  const _Cifra({required this.eticheta, required this.valoare});
+
+  final String eticheta;
+  final String valoare;
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        Text('$eticheta ',
+            style: const TextStyle(fontSize: 11, color: AppColors.textSecondary)),
+        Text(valoare,
+            style: const TextStyle(
+                fontSize: 11.5,
+                fontWeight: FontWeight.w700,
+                color: AppColors.textPrimary)),
+      ],
+    );
+  }
 }
 
 class _Legend extends StatelessWidget {

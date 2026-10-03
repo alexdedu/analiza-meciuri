@@ -423,12 +423,8 @@ def main() -> None:
     try:
         from predict_counts import imbogateste, selectii as selectii_contori_fn
         n_extra = imbogateste(out, hist)
-        selectii_contori = selectii_contori_fn(out)
-        if selectii_contori:
-            print(f"Selectii pe cornere si cartonase: {len(selectii_contori)}")
-            for s in selectii_contori:
-                print(f"  {s['home']} - {s['away']}: {s['market_label']} "
-                      f"({s['probability']:.0%})")
+        # Toti candidatii: gruparea pe meciuri alege mai departe.
+        selectii_contori = selectii_contori_fn(out, toate=True)
         # Nationalele NU primesc cornere si cartonase, desi avem statisticile
         # adunate si modelul scris (predict_counts_national.py). Motivul e
         # masurat in backtest_counts_national.py: pe 409 meciuri de verificare,
@@ -441,14 +437,31 @@ def main() -> None:
         print(f"  cornerele si cartonasele au fost sarite: {str(exc)[:90]}")
 
     from recomandari import construieste as construieste_recomandari
-    recomandari = construieste_recomandari(out)
+    from recomandari import grupeaza_pe_meci
+
+    # Gruparea e cea care ajunge in aplicatie: un meci, cu toate pietele lui
+    # intr-un loc, ca alegerea sa fie a utilizatorului. Lista plata ramane,
+    # fiindca din ea se noteaza selectiile in evidenta.
+    toate_cu_cota = construieste_recomandari(out, toate=True)
+    meciuri_recomandate = grupeaza_pe_meci(toate_cu_cota, selectii_contori)
+
+    # Ce s-a afisat efectiv, ca sa notam in evidenta exact atat.
+    afisate = {(m["match_id"], p["market"])
+               for m in meciuri_recomandate for p in m["picks"]}
+    # Lista plata isi pastreaza forma veche, cu toate campurile ei: versiunile
+    # mai vechi ale aplicatiei o citesc si ar cadea fara ele.
+    recomandari = [c for c in toate_cu_cota
+                   if (c["match_id"], c["market"]) in afisate]
+    de_notat = recomandari + [c for c in selectii_contori
+                              if (c["match_id"], c["market"]) in afisate]
 
     # Fisa de rezultate: notam selectiile de azi si verificam ce s-a intamplat
     # cu cele mai vechi. Daca ceva pica aici, predictiile de azi tot se scriu.
     import scorecard
     try:
-        selectii = scorecard.adauga(scorecard.incarca(),
-                                    recomandari + selectii_contori)
+        # Doar ce se afiseaza se si noteaza: evidenta trebuie sa raspunda la
+        # "ce s-a intamplat cu selectiile pe care le-am vazut".
+        selectii = scorecard.adauga(scorecard.incarca(), de_notat)
         # Arhivele football-data publica scorurile cu una-doua zile intarziere.
         # Pentru verificarea selectiilor luam scorul de la API-Football, care il
         # are in aceeasi seara; fara cheie, `rezolvator` intoarce None si
@@ -470,17 +483,26 @@ def main() -> None:
     except Exception as exc:
         print(f"  fisa de rezultate a esuat: {str(exc)[:90]}")
         bilant = None
-    print(f"\nRecomandari automate: {len(recomandari)}")
-    for r in recomandari:
-        print(f"  {r['home']} - {r['away']}: {r['market_label']} "
-              f"({r['probability']:.0%}, cota {r['odds']})")
+    print(f"\nMeciuri recomandate: {len(meciuri_recomandate)} "
+          f"({len(de_notat)} selectii in total)")
+    for m in meciuri_recomandate:
+        print(f"  {m['home']} - {m['away']}")
+        for p in m["picks"]:
+            cota = (f"cota {p['odds']}" if p.get("odds")
+                    else f"cota corecta {p['fair_odds']}")
+            print(f"     [{p['family']}] {p['market_label']}: "
+                  f"{p['probability']:.0%}, {cota}")
 
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        # Un meci, cu toate pietele lui la un loc: rezultat, goluri, cornere,
+        # cartonase. Lista plata ramane pentru compatibilitate cu versiunile
+        # mai vechi ale aplicatiei.
+        "recommended_matches": meciuri_recomandate,
         "recommendations": recomandari,
-        # Separate de celelalte, fiindca sunt de alt fel: pentru ele nu exista
-        # cote, deci nu se pot verifica fata de piata si nu au randament.
-        "count_picks": selectii_contori,
+        # Tot pentru versiunile mai vechi, care au o sectiune separata.
+        "count_picks": [c for c in selectii_contori
+                        if (c["match_id"], c["market"]) in afisate][:4],
         "track_record": bilant,
         "model": {
             "name": "Dixon-Coles + suturi pe poarta + cornere",

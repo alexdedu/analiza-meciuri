@@ -168,6 +168,53 @@ def test_ordonare_si_limita() -> None:
              "a trecut o selectie sub cota minima")
 
 
+def test_gruparea_aduna_pietele_aceluiasi_meci() -> None:
+    from recomandari import grupeaza_pe_meci
+
+    cu_cota = [
+        {"match_id": "M1", "league_name": "Test", "date": "2026-10-10",
+         "time": "17:00", "home": "Gazda", "away": "Oaspete", "market": "home",
+         "market_label": "Victorie Gazda", "probability": 0.62, "odds": 1.60,
+         "band": "sub piață", "historical_hit_rate": 0.653},
+        {"match_id": "M1", "league_name": "Test", "date": "2026-10-10",
+         "time": "17:00", "home": "Gazda", "away": "Oaspete", "market": "over25",
+         "market_label": "Peste 2.5 goluri", "probability": 0.61, "odds": 1.50,
+         "band": "sub piață", "historical_hit_rate": 0.653},
+    ]
+    contori = [
+        {"match_id": "M1", "league_name": "Test", "date": "2026-10-10",
+         "time": "17:00", "home": "Gazda", "away": "Oaspete",
+         "market": "corners_home_over_4.5",
+         "market_label": "Gazda peste 4.5 cornere", "probability": 0.66,
+         "fair_odds": 1.52, "historical_hit_rate": 0.642},
+    ]
+
+    meciuri = grupeaza_pe_meci(cu_cota, contori)
+    verifica(len(meciuri) == 1, f"asteptam un meci, am primit {len(meciuri)}")
+    familii = [p["family"] for p in meciuri[0]["picks"]]
+    verifica(familii == ["1x2", "goluri", "cornere"],
+             f"familiile sau ordinea lor sunt gresite: {familii}")
+
+
+def test_meciurile_cu_cota_adevarata_sunt_primele() -> None:
+    """Cota corecta e calculata din propriul procent; nu intra la intrecere."""
+    from recomandari import grupeaza_pe_meci
+
+    doar_cornere = {"match_id": "M2", "league_name": "Test", "date": "2026-10-10",
+                    "time": "17:00", "home": "A", "away": "B",
+                    "market": "corners_home_over_3.5",
+                    "market_label": "A peste 3.5 cornere", "probability": 0.70,
+                    "fair_odds": 1.43, "historical_hit_rate": 0.665}
+    cu_cota = {"match_id": "M3", "league_name": "Test", "date": "2026-10-10",
+               "time": "17:00", "home": "C", "away": "D", "market": "home",
+               "market_label": "Victorie C", "probability": 0.60, "odds": 1.55,
+               "band": "sub piață", "historical_hit_rate": 0.653}
+
+    meciuri = grupeaza_pe_meci([cu_cota], [doar_cornere])
+    verifica(meciuri[0]["match_id"] == "M3",
+             f"primul meci ar trebui sa fie cel cu cota: {meciuri[0]['match_id']}")
+
+
 def main() -> int:
     for test in (test_alege_cand_modelul_e_sigur_si_piata_de_acord,
                  test_respinge_probabilitate_mica,
@@ -179,7 +226,9 @@ def main() -> int:
                  test_accepta_cand_modelul_e_mai_prudent_decat_piata,
                  test_respinge_cand_modelul_se_crede_peste_piata,
                  test_rata_promisa_urmeaza_nivelul_de_dezacord,
-                 test_ordonare_si_limita):
+                 test_ordonare_si_limita,
+                 test_gruparea_aduna_pietele_aceluiasi_meci,
+                 test_meciurile_cu_cota_adevarata_sunt_primele):
         test()
     if esecuri:
         print(f"ESUAT: {len(esecuri)}")

@@ -274,8 +274,11 @@ def _candidat(m: dict, cheie: str, eticheta: str, p: float) -> dict | None:
     }
 
 
-def selectii(meciuri: list[dict]) -> list[dict]:
-    """Ce ar alege modelul pe cornere si cartonase, dintre pietele verificate."""
+def selectii(meciuri: list[dict], toate: bool = False) -> list[dict]:
+    """Ce ar alege modelul pe cornere si cartonase, dintre pietele verificate.
+
+    `toate=True` intoarce toti candidatii, pentru gruparea pe meciuri.
+    """
     candidati = []
 
     for m in meciuri:
@@ -311,6 +314,8 @@ def selectii(meciuri: list[dict]) -> list[dict]:
     # Cele mai sigure intai, si cel mult una per meci: altfel un singur meci
     # dezechilibrat ar umple lista cu variatiuni ale aceluiasi pariu.
     candidati.sort(key=lambda c: -c["probability"])
+    if toate:
+        return candidati
     vazute: set[str] = set()
     alese = []
     for c in candidati:

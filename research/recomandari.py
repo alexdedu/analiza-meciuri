@@ -91,8 +91,13 @@ def _fara_marja(cote: dict, chei: list[str]) -> dict:
     return {k: v / total for k, v in zip(chei, invers)}
 
 
-def construieste(meciuri: list[dict]) -> list[dict]:
-    """Recomandarile, ordonate de la cea mai sigura la cea mai putin sigura."""
+def construieste(meciuri: list[dict], toate: bool = False) -> list[dict]:
+    """Recomandarile, ordonate de la cea mai bine platita la cea mai slaba.
+
+    `toate=True` intoarce toti candidatii, fara limita si fara regula "una
+    per meci": asa are de unde alege gruparea pe meciuri, care arata deodata
+    si rezultatul, si golurile.
+    """
     candidati = []
 
     for m in meciuri:
@@ -139,6 +144,8 @@ def construieste(meciuri: list[dict]) -> list[dict]:
     # cu aceeasi rata masurata: la 64% reusite, o cota de 1,70 valoreaza mult
     # mai mult decat una de 1,46.
     candidati.sort(key=lambda c: -(c["historical_hit_rate"] * c["odds"]))
+    if toate:
+        return candidati
     alese = candidati[:MAXIM_RECOMANDARI]
 
     # Un singur meci nu trebuie sa ocupe toata lista cu trei piete ale lui.
@@ -152,3 +159,92 @@ def construieste(meciuri: list[dict]) -> list[dict]:
         if len(filtrate) >= MAXIM_RECOMANDARI:
             break
     return filtrate
+
+
+# Gruparea pe meci ----------------------------------------------------------
+#
+# Lista plata a selectiilor raspundea la intrebarea "ce sa pariez", dar nu si
+# la "ce optiuni am la meciul asta". Gruparea le arata pe toate patru -- cine
+# castiga, cate goluri, cate cornere, cate cartonase -- ca alegerea sa fie a
+# utilizatorului, nu a unei ordonari dintr-un fisier.
+
+FAMILII = {
+    "home": "1x2", "draw": "1x2", "away": "1x2",
+    "over25": "goluri", "under25": "goluri",
+}
+
+ORDINE_FAMILII = ["1x2", "goluri", "cornere", "cartonașe"]
+MAXIM_MECIURI = 6
+MAXIM_PE_MECI = 3
+
+
+def _familie(market: str) -> str:
+    if market.startswith("corners"):
+        return "cornere"
+    if market.startswith("cards"):
+        return "cartonașe"
+    return FAMILII.get(market, "1x2")
+
+
+def _valoare(pick: dict) -> float:
+    """Cat promite o selectie: rata masurata inmultita cu cota (sau cea corecta)."""
+    cota = pick.get("odds") or pick.get("fair_odds") or 1.0
+    return float(pick.get("historical_hit_rate", 0.0)) * float(cota)
+
+
+def _cheie_ordine(meci: dict) -> tuple[int, float]:
+    """Meciurile cu cote adevarate intai, apoi cele cu cornere si cartonase."""
+    cu_cota = [p for p in meci["picks"] if p.get("odds")]
+    if cu_cota:
+        return (0, -max(_valoare(p) for p in cu_cota))
+    return (1, -max(p["probability"] for p in meci["picks"]))
+
+
+def grupeaza_pe_meci(cu_cota: list[dict], contori: list[dict]) -> list[dict]:
+    """Selectiile, adunate pe meci, cu cel mult una per tip de piata."""
+    pe_meci: dict[str, dict] = {}
+
+    for pick in list(cu_cota) + list(contori):
+        meci = pe_meci.setdefault(pick["match_id"], {
+            "match_id": pick["match_id"],
+            "league_name": pick["league_name"],
+            "date": pick["date"],
+            "time": pick.get("time", ""),
+            "home": pick["home"],
+            "away": pick["away"],
+            "picks": {},
+        })
+        familie = _familie(pick["market"])
+        intrare = {
+            "family": familie,
+            "market": pick["market"],
+            "market_label": pick["market_label"],
+            "probability": pick["probability"],
+            "odds": pick.get("odds"),
+            "fair_odds": pick.get("fair_odds") or round(1 / pick["probability"], 2),
+            "historical_hit_rate": pick["historical_hit_rate"],
+            "band": pick.get("band", ""),
+        }
+        # Daca o familie are doua selectii la acelasi meci, o pastram pe cea
+        # care promite mai mult.
+        existent = meci["picks"].get(familie)
+        if existent is None or _valoare(intrare) > _valoare(existent):
+            meci["picks"][familie] = intrare
+
+    meciuri = []
+    for meci in pe_meci.values():
+        picks = sorted(meci["picks"].values(),
+                       key=lambda p: ORDINE_FAMILII.index(p["family"]))
+        meci["picks"] = picks[:MAXIM_PE_MECI]
+        meci["best"] = max(_valoare(p) for p in meci["picks"])
+        meciuri.append(meci)
+
+    # Intai meciurile cu selectii pe piete care au cota adevarata: acolo
+    # modelul a trecut si filtrul de acord cu piata, deci selectia e verificata
+    # de doua ori. Abia apoi cele care au numai cornere si cartonase, unde
+    # "cota corecta" e calculata din propriul nostru procent -- a le pune la
+    # intrecere dupa aceeasi masura ar fi o comparatie masluita.
+    meciuri.sort(key=_cheie_ordine)
+    for meci in meciuri:
+        meci.pop("best", None)
+    return meciuri[:MAXIM_MECIURI]

@@ -360,6 +360,81 @@ class CountPick {
       );
 }
 
+/// O opțiune de pariu la un meci: rezultat, goluri, cornere sau cartonașe.
+class MatchPick {
+  const MatchPick({
+    required this.family,
+    required this.market,
+    required this.marketLabel,
+    required this.probability,
+    required this.odds,
+    required this.fairOdds,
+    required this.historicalHitRate,
+    required this.band,
+  });
+
+  /// "1x2", "goluri", "cornere", "cartonașe".
+  final String family;
+  final String market;
+  final String marketLabel;
+  final double probability;
+
+  /// Cota reala de pe piata. Lipseste la cornere si cartonase, unde nicio
+  /// sursa nu publica cote.
+  final double? odds;
+
+  /// Cota la care pariul ar fi corect, calculata din probabilitate.
+  final double fairOdds;
+  final double historicalHitRate;
+  final String band;
+
+  bool get hasOdds => odds != null;
+
+  factory MatchPick.fromJson(Map<String, dynamic> json) => MatchPick(
+        family: json['family'] as String,
+        market: json['market'] as String,
+        marketLabel: json['market_label'] as String,
+        probability: (json['probability'] as num).toDouble(),
+        odds: (json['odds'] as num?)?.toDouble(),
+        fairOdds: (json['fair_odds'] as num).toDouble(),
+        historicalHitRate: (json['historical_hit_rate'] as num).toDouble(),
+        band: (json['band'] as String?) ?? '',
+      );
+}
+
+/// Un meci recomandat, cu toate opțiunile lui la un loc.
+class RecommendedMatch {
+  const RecommendedMatch({
+    required this.matchId,
+    required this.leagueName,
+    required this.date,
+    required this.time,
+    required this.home,
+    required this.away,
+    required this.picks,
+  });
+
+  final String matchId;
+  final String leagueName;
+  final String date;
+  final String time;
+  final String home;
+  final String away;
+  final List<MatchPick> picks;
+
+  factory RecommendedMatch.fromJson(Map<String, dynamic> json) => RecommendedMatch(
+        matchId: json['match_id'] as String,
+        leagueName: json['league_name'] as String,
+        date: json['date'] as String,
+        time: (json['time'] as String?) ?? '',
+        home: json['home'] as String,
+        away: json['away'] as String,
+        picks: ((json['picks'] as List<dynamic>?) ?? [])
+            .map((e) => MatchPick.fromJson(e as Map<String, dynamic>))
+            .toList(),
+      );
+}
+
 /// Bilantul selectiilor fara cota, tinut separat de cel cu randament.
 class CountsRecord {
   const CountsRecord({
@@ -605,6 +680,7 @@ class PredictionBundle {
     required this.trackRecord,
     required this.nextRound,
     required this.countPicks,
+    required this.recommendedMatches,
   });
 
   final DateTime generatedAt;
@@ -621,6 +697,9 @@ class PredictionBundle {
 
   /// Selectiile pe cornere si cartonase, fara cota.
   final List<CountPick> countPicks;
+
+  /// Meciurile recomandate, fiecare cu opțiunile lui pe toate piețele.
+  final List<RecommendedMatch> recommendedMatches;
 
   factory PredictionBundle.fromJson(Map<String, dynamic> json) {
     final model = json['model'] as Map<String, dynamic>;
@@ -641,6 +720,9 @@ class PredictionBundle {
       nextRound: NextRound.fromJson(json['next_round'] as Map<String, dynamic>?),
       countPicks: ((json['count_picks'] as List<dynamic>?) ?? [])
           .map((e) => CountPick.fromJson(e as Map<String, dynamic>))
+          .toList(),
+      recommendedMatches: ((json['recommended_matches'] as List<dynamic>?) ?? [])
+          .map((e) => RecommendedMatch.fromJson(e as Map<String, dynamic>))
           .toList(),
     );
   }
