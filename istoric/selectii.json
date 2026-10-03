@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-03T09:45:16+00:00",
+ "actualizat": "2026-10-03T10:04:31+00:00",
  "selectii": [
   {
    "cheie": "D1_20260919_EinFrankfurt_Freiburg|over25",
@@ -1332,6 +1332,22 @@
    "odds": null,
    "band": "cornere/cartonașe",
    "notat_la": "2026-10-03T09:41:26+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "F1_20261010_ParisSG_LeMans|cards_total_over_2.5",
+   "match_id": "F1_20261010_ParisSG_LeMans",
+   "date": "2026-10-10",
+   "league_name": "Ligue 1",
+   "home": "Paris SG",
+   "away": "Le Mans",
+   "market": "cards_total_over_2.5",
+   "market_label": "peste 2.5 cartonașe în meci",
+   "probability": 0.6935,
+   "odds": null,
+   "band": "cornere/cartonașe",
+   "notat_la": "2026-10-03T10:04:30+00:00",
    "castigat": null,
    "scor": null
   }
