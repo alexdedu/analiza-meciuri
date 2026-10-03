@@ -139,14 +139,52 @@ def distributii(lam: float, mu: float) -> dict[str, np.ndarray]:
     return {"home": ph, "away": pa, "total": total}
 
 
+def calibreaza(p: float | np.ndarray, baza: float, gamma: float):
+    """Trage probabilitatea catre rata de baza, cu factorul `gamma`.
+
+    Chiar si cu binomiala negativa, modelul ramane prea increzator la cornere
+    si cartonase: promite 80% si livreaza 75%. Corectia e un singur numar per
+    piata, invatat din predictiile trecute, si readuce promisiunea pe realitate.
+    gamma = 1 inseamna fara corectie.
+    """
+    return np.clip(baza + gamma * (np.asarray(p) - baza), 1e-6, 1 - 1e-6)
+
+
+def fit_calibrare(p: np.ndarray, rezultate: np.ndarray) -> tuple[float, float]:
+    """Rata de baza si factorul care potrivesc cel mai bine promisiunea cu realitatea."""
+    baza = float(np.mean(rezultate))
+
+    def neg(gamma: float) -> float:
+        q = calibreaza(p, baza, gamma)
+        return -float(np.sum(rezultate * np.log(q) + (1 - rezultate) * np.log(1 - q)))
+
+    rezultat = minimize_scalar(neg, bounds=(0.2, 1.3), method="bounded")
+    return baza, float(rezultat.x)
+
+
 def peste(dist: np.ndarray, linie: float) -> float:
     """Probabilitatea ca valoarea sa treaca de linie (linii cu .5, fara egal)."""
     k = np.arange(len(dist))
     return float(dist[k > linie].sum() / dist.sum())
 
 
-def cine_mai_multe(lam: float, mu: float) -> dict[str, float]:
-    """Cine produce mai multe: gazda, egalitate, oaspete."""
+def cine_mai_multe(lam: float, mu: float, k_home: float | None = None,
+                   k_away: float | None = None) -> dict[str, float]:
+    """Cine produce mai multe: gazda, egalitate, oaspete.
+
+    Cu dispersiile date, foloseste binomiala negativa. Fara ele ramane pe
+    Poisson, care iese prea increzator: masurat, promitea 82% si livra 74%.
+    """
+    if k_home is not None and k_away is not None:
+        ph = nb_pmf(lam, k_home, maxim=MAX_CONTOR)
+        pa = nb_pmf(mu, k_away, maxim=MAX_CONTOR)
+        ph, pa = ph / ph.sum(), pa / pa.sum()
+        m = np.outer(ph, pa)
+        m /= m.sum()
+        gazda = float(np.tril(m, -1).sum())
+        egal = float(np.trace(m))
+        return {"home": gazda, "draw": egal, "away": 1.0 - gazda - egal}
+
     ph, pa = _poisson_pmf(lam), _poisson_pmf(mu)
     m = np.outer(ph, pa)
     m /= m.sum()

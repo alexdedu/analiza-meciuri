@@ -50,6 +50,7 @@ TrackRecord record(List<SelectionRecord> selections,
       bands: const [],
       since: '2026-09-18',
       selections: selections,
+      counts: null,
     );
 
 Future<void> pump(WidgetTester tester, TrackRecord r) async {

@@ -148,6 +148,64 @@ def test_meciurile_fara_istoric_local_se_verifica_dupa_id() -> None:
         verifica(cerute == [f"{prefix}555"], f"{prefix}: identificator gresit {cerute}")
 
 
+def istoric_cu_contori(randuri) -> pd.DataFrame:
+    """Ca `istoric`, dar cu cornere si cartonase."""
+    return pd.DataFrame([
+        {"date": pd.Timestamp(d), "home": h, "away": a, "hg": hg, "ag": ag,
+         "hc": hc, "ac": ac, "hy": hy, "ay": ay, "hr": 0, "ar": 0}
+        for d, h, a, hg, ag, hc, ac, hy, ay in randuri
+    ])
+
+
+def test_verdictul_pe_cornere_si_cartonase() -> None:
+    contori = {"hc": 7, "ac": 3, "cy": 2, "ca": 3}
+    cazuri = [
+        ("corners_more_home", True),
+        ("corners_home_over_4.5", True),
+        ("corners_home_over_7.5", False),
+        ("corners_away_over_3.5", False),
+        ("cards_total_over_4.5", True),
+        ("cards_total_under_4.5", False),
+        ("cards_total_under_5.5", True),   # 5 cartonase in total
+        ("cards_home_over_1.5", True),
+        ("cards_away_over_3.5", False),
+    ]
+    for market, asteptat in cazuri:
+        obtinut = scorecard._verdict_contori(market, contori)
+        verifica(obtinut == asteptat,
+                 f"{market}: asteptat {asteptat}, obtinut {obtinut}")
+
+
+def test_fara_date_de_cornere_nu_inventam_verdict() -> None:
+    """Romania n-are cornere in arhiva: acolo selectia ramane in asteptare."""
+    verifica(scorecard._verdict_contori(
+        "corners_more_home", {"hc": None, "ac": None, "cy": 2, "ca": 1}) is None,
+        "a dat verdict desi lipsesc cornerele")
+
+
+def test_selectiile_fara_cota_se_tin_deoparte() -> None:
+    ieri = (datetime.now() - timedelta(days=1)).date().isoformat()
+    sel = scorecard.adauga([], [
+        recomandare(match_id="A", data=ieri, cota=2.00),
+        {"match_id": "B", "market": "corners_more_home",
+         "market_label": "Gazda — mai multe cornere", "league_name": "Test",
+         "date": ieri, "home": "Gazda", "away": "Oaspete",
+         "probability": 0.66, "historical_hit_rate": 0.649},
+    ])
+    sel, _ = scorecard.rezolva(sel, istoric_cu_contori(
+        [(ieri, "Gazda", "Oaspete", 2, 0, 8, 2, 1, 1)]))
+    r = scorecard.rezumat(sel)
+
+    verifica(r["resolved"] == 1 and r["hits"] == 1,
+             f"bilantul cu cota: {r['resolved']} rezolvate, {r['hits']} reusite")
+    # 2.00 - 1 = +1.00; selectia pe cornere nu are cota, deci nu intra la profit.
+    verifica(abs(r["profit_units"] - 1.00) < 1e-9, f"profit: {r['profit_units']}")
+    verifica(r["counts"]["resolved"] == 1 and r["counts"]["hits"] == 1,
+             f"bilantul pe cornere: {r['counts']}")
+    cornere = next(s for s in sel if s["match_id"] == "B")
+    verifica(cornere["scor"] == "8-2 cornere", f"eticheta: {cornere['scor']}")
+
+
 def test_scorul_extern_completeaza_ce_lipseste_din_istoric() -> None:
     ieri = (datetime.now() - timedelta(days=1)).date().isoformat()
     sel = scorecard.adauga([], [recomandare(data=ieri)])
@@ -208,6 +266,9 @@ def main() -> int:
                  test_bilant_gol_nu_arunca,
                  test_banda_compara_cu_asteptarea_din_backtest,
                  test_meciurile_fara_istoric_local_se_verifica_dupa_id,
+                 test_verdictul_pe_cornere_si_cartonase,
+                 test_fara_date_de_cornere_nu_inventam_verdict,
+                 test_selectiile_fara_cota_se_tin_deoparte,
                  test_scorul_extern_completeaza_ce_lipseste_din_istoric,
                  test_istoricul_are_intaietate_in_fata_apiului,
                  test_istoricul_pentru_aplicatie,

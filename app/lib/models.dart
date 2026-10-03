@@ -314,6 +314,85 @@ class Recommendation {
       );
 }
 
+/// O selecție pe cornere sau cartonașe.
+///
+/// Se tine separat de celelalte pentru ca nu are cota: pentru pietele astea
+/// nicio sursa nu publica cote, deci nu se poate vorbi de randament, doar de
+/// cat de des se adeveresc.
+class CountPick {
+  const CountPick({
+    required this.matchId,
+    required this.leagueName,
+    required this.date,
+    required this.time,
+    required this.home,
+    required this.away,
+    required this.marketLabel,
+    required this.probability,
+    required this.fairOdds,
+    required this.historicalHitRate,
+  });
+
+  final String matchId;
+  final String leagueName;
+  final String date;
+  final String time;
+  final String home;
+  final String away;
+  final String marketLabel;
+  final double probability;
+
+  /// Cota la care pariul ar fi corect: peste ea are sens, sub ea nu.
+  final double fairOdds;
+  final double historicalHitRate;
+
+  factory CountPick.fromJson(Map<String, dynamic> json) => CountPick(
+        matchId: json['match_id'] as String,
+        leagueName: json['league_name'] as String,
+        date: json['date'] as String,
+        time: (json['time'] as String?) ?? '',
+        home: json['home'] as String,
+        away: json['away'] as String,
+        marketLabel: json['market_label'] as String,
+        probability: (json['probability'] as num).toDouble(),
+        fairOdds: (json['fair_odds'] as num).toDouble(),
+        historicalHitRate: (json['historical_hit_rate'] as num).toDouble(),
+      );
+}
+
+/// Bilantul selectiilor fara cota, tinut separat de cel cu randament.
+class CountsRecord {
+  const CountsRecord({
+    required this.total,
+    required this.resolved,
+    required this.pending,
+    required this.hits,
+    required this.hitRate,
+    required this.expected,
+  });
+
+  final int total;
+  final int resolved;
+  final int pending;
+  final int hits;
+  final double? hitRate;
+  final double expected;
+
+  static CountsRecord? fromJson(Map<String, dynamic>? json) {
+    if (json == null) return null;
+    final total = (json['total'] as num?)?.toInt() ?? 0;
+    if (total == 0) return null;
+    return CountsRecord(
+      total: total,
+      resolved: (json['resolved'] as num?)?.toInt() ?? 0,
+      pending: (json['pending'] as num?)?.toInt() ?? 0,
+      hits: (json['hits'] as num?)?.toInt() ?? 0,
+      hitRate: (json['hit_rate'] as num?)?.toDouble(),
+      expected: (json['expected'] as num?)?.toDouble() ?? 0.65,
+    );
+  }
+}
+
 /// Cum s-a descurcat o banda de probabilitate in realitate, fata de backtest.
 class BandRecord {
   const BandRecord({
@@ -367,7 +446,9 @@ class SelectionRecord {
   final String away;
   final String marketLabel;
   final double probability;
-  final double odds;
+
+  /// Lipseste la cornere si cartonase: pentru ele nu exista cote nicaieri.
+  final double? odds;
   final String band;
 
   /// Null cat timp meciul nu s-a jucat sau scorul inca nu a ajuns in date.
@@ -377,7 +458,9 @@ class SelectionRecord {
   bool get isPending => won == null;
 
   /// Castig sau pierdere la o miza de o unitate, la cota din momentul notarii.
-  double? get profitUnits => won == null ? null : (won! ? odds - 1 : -1.0);
+  /// Null si cand pariul n-a avut cota, nu doar cand meciul nu s-a jucat.
+  double? get profitUnits =>
+      (won == null || odds == null) ? null : (won! ? odds! - 1 : -1.0);
 
   factory SelectionRecord.fromJson(Map<String, dynamic> json) => SelectionRecord(
         matchId: json['match_id'] as String,
@@ -387,7 +470,9 @@ class SelectionRecord {
         away: json['away'] as String,
         marketLabel: json['market_label'] as String,
         probability: (json['probability'] as num).toDouble(),
-        odds: (json['odds'] as num).toDouble(),
+        // Selectiile pe cornere si cartonase n-au cota: pentru pietele alea
+        // nicio sursa nu publica una.
+        odds: (json['odds'] as num?)?.toDouble(),
         band: (json['band'] as String?) ?? '',
         won: json['won'] as bool?,
         score: json['score'] as String?,
@@ -409,6 +494,7 @@ class TrackRecord {
     required this.bands,
     required this.since,
     required this.selections,
+    required this.counts,
   });
 
   final int total;
@@ -427,6 +513,9 @@ class TrackRecord {
   /// inainte de aparitia ecranului de istoric.
   final List<SelectionRecord> selections;
 
+  /// Bilantul separat al selectiilor pe cornere si cartonase.
+  final CountsRecord? counts;
+
   bool get hasResults => resolved > 0 && hitRate != null;
 
   factory TrackRecord.fromJson(Map<String, dynamic> json) => TrackRecord(
@@ -444,6 +533,7 @@ class TrackRecord {
         selections: ((json['selections'] as List<dynamic>?) ?? [])
             .map((e) => SelectionRecord.fromJson(e as Map<String, dynamic>))
             .toList(),
+        counts: CountsRecord.fromJson(json['counts'] as Map<String, dynamic>?),
       );
 }
 
@@ -514,6 +604,7 @@ class PredictionBundle {
     required this.recommendations,
     required this.trackRecord,
     required this.nextRound,
+    required this.countPicks,
   });
 
   final DateTime generatedAt;
@@ -527,6 +618,9 @@ class PredictionBundle {
 
   /// Prezent doar cand nu sunt meciuri in fereastra afisata.
   final NextRound? nextRound;
+
+  /// Selectiile pe cornere si cartonase, fara cota.
+  final List<CountPick> countPicks;
 
   factory PredictionBundle.fromJson(Map<String, dynamic> json) {
     final model = json['model'] as Map<String, dynamic>;
@@ -545,6 +639,9 @@ class PredictionBundle {
           ? null
           : TrackRecord.fromJson(json['track_record'] as Map<String, dynamic>),
       nextRound: NextRound.fromJson(json['next_round'] as Map<String, dynamic>?),
+      countPicks: ((json['count_picks'] as List<dynamic>?) ?? [])
+          .map((e) => CountPick.fromJson(e as Map<String, dynamic>))
+          .toList(),
     );
   }
 }

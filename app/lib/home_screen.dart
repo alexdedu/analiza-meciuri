@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
 import 'about_screen.dart';
+import 'count_picks_card.dart';
 import 'detail_screen.dart';
 import 'formatting.dart';
 import 'models.dart';
@@ -144,6 +145,17 @@ class _MatchList extends StatelessWidget {
             ),
           ),
         ),
+        if (bundle.countPicks.isNotEmpty)
+          SliverToBoxAdapter(
+            child: Padding(
+              padding: const EdgeInsets.fromLTRB(16, 0, 16, 14),
+              child: CountPicksCard(
+                picks: bundle.countPicks,
+                record: bundle.trackRecord?.counts,
+                onTap: (matchId) => _deschideMeci(context, matchId),
+              ),
+            ),
+          ),
         if (bundle.trackRecord != null)
           SliverToBoxAdapter(
             child: Padding(

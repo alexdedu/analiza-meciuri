@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-03T06:05:35+00:00",
+ "generated_at": "2026-10-03T06:58:51+00:00",
  "recommendations": [
   {
    "match_id": "NAT1528941",
@@ -82,10 +82,64 @@
    "historical_hit_rate": 0.601
   }
  ],
+ "count_picks": [
+  {
+   "match_id": "SP1_20261010_Vallecano_AthBilbao",
+   "league_name": "La Liga",
+   "date": "2026-10-10",
+   "time": "12:00",
+   "home": "Vallecano",
+   "away": "Ath Bilbao",
+   "market": "corners_home_over_3.5",
+   "market_label": "Vallecano peste 3.5 cornere",
+   "probability": 0.6996,
+   "fair_odds": 1.43,
+   "historical_hit_rate": 0.665
+  },
+  {
+   "match_id": "D1_20261010_Paderborn_Stuttgart",
+   "league_name": "Bundesliga",
+   "date": "2026-10-10",
+   "time": "13:30",
+   "home": "Paderborn",
+   "away": "Stuttgart",
+   "market": "cards_total_under_4.5",
+   "market_label": "sub 4.5 cartonașe în meci",
+   "probability": 0.6983,
+   "fair_odds": 1.43,
+   "historical_hit_rate": 0.642
+  },
+  {
+   "match_id": "D1_20261009_Dortmund_WerderBremen",
+   "league_name": "Bundesliga",
+   "date": "2026-10-09",
+   "time": "18:30",
+   "home": "Dortmund",
+   "away": "Werder Bremen",
+   "market": "corners_more_home",
+   "market_label": "Dortmund — mai multe cornere",
+   "probability": 0.6969,
+   "fair_odds": 1.43,
+   "historical_hit_rate": 0.649
+  },
+  {
+   "match_id": "SP1_20261010_Alaves_AthMadrid",
+   "league_name": "La Liga",
+   "date": "2026-10-10",
+   "time": "14:15",
+   "home": "Alaves",
+   "away": "Ath Madrid",
+   "market": "corners_away_over_3.5",
+   "market_label": "Ath Madrid peste 3.5 cornere",
+   "probability": 0.6966,
+   "fair_odds": 1.44,
+   "historical_hit_rate": 0.649
+  }
+ ],
  "track_record": {
-  "total": 56,
+  "total": 57,
   "resolved": 51,
-  "pending": 5,
+  "pending": 6,
   "hits": 33,
   "hit_rate": 0.6471,
   "profit_units": -7.04,
@@ -128,7 +182,54 @@
    }
   ],
   "since": "2026-09-19",
+  "counts": {
+   "total": 4,
+   "resolved": 0,
+   "pending": 4,
+   "hits": 0,
+   "hit_rate": null,
+   "expected": 0.65
+  },
   "selections": [
+   {
+    "match_id": "SP1_20261010_Vallecano_AthBilbao",
+    "date": "2026-10-10",
+    "league_name": "La Liga",
+    "home": "Vallecano",
+    "away": "Ath Bilbao",
+    "market_label": "Vallecano peste 3.5 cornere",
+    "probability": 0.6996,
+    "odds": null,
+    "band": "cornere/cartonașe",
+    "won": null,
+    "score": null
+   },
+   {
+    "match_id": "D1_20261010_Paderborn_Stuttgart",
+    "date": "2026-10-10",
+    "league_name": "Bundesliga",
+    "home": "Paderborn",
+    "away": "Stuttgart",
+    "market_label": "sub 4.5 cartonașe în meci",
+    "probability": 0.6983,
+    "odds": null,
+    "band": "cornere/cartonașe",
+    "won": null,
+    "score": null
+   },
+   {
+    "match_id": "SP1_20261010_Alaves_AthMadrid",
+    "date": "2026-10-10",
+    "league_name": "La Liga",
+    "home": "Alaves",
+    "away": "Ath Madrid",
+    "market_label": "Ath Madrid peste 3.5 cornere",
+    "probability": 0.6966,
+    "odds": null,
+    "band": "cornere/cartonașe",
+    "won": null,
+    "score": null
+   },
    {
     "match_id": "D1_20261010_Mainz_Leverkusen",
     "date": "2026-10-10",
@@ -139,6 +240,19 @@
     "probability": 0.6066,
     "odds": 1.46,
     "band": "sub piață",
+    "won": null,
+    "score": null
+   },
+   {
+    "match_id": "D1_20261009_Dortmund_WerderBremen",
+    "date": "2026-10-09",
+    "league_name": "Bundesliga",
+    "home": "Dortmund",
+    "away": "Werder Bremen",
+    "market_label": "Dortmund — mai multe cornere",
+    "probability": 0.6969,
+    "odds": null,
+    "band": "cornere/cartonașe",
     "won": null,
     "score": null
    },
@@ -162,7 +276,7 @@
     "home": "Italy",
     "away": "Türkiye",
     "market_label": "Peste 2.5 goluri",
-    "probability": 0.6084,
+    "probability": 0.6072,
     "odds": 1.49,
     "band": "sub piață",
     "won": null,
@@ -178,6 +292,19 @@
     "probability": 0.6246,
     "odds": 1.62,
     "band": "peste piață",
+    "won": null,
+    "score": null
+   },
+   {
+    "match_id": "NAT1528941",
+    "date": "2026-10-04",
+    "league_name": "UEFA Nations League",
+    "home": "Portugal",
+    "away": "Norway",
+    "market_label": "Peste 2.5 goluri",
+    "probability": 0.6148,
+    "odds": 1.46,
+    "band": "sub piață",
     "won": null,
     "score": null
    },
@@ -6255,57 +6382,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.3838,
-       "under": 0.6162
+       "over": 0.5038,
+       "under": 0.4962
       },
       {
        "line": 9.5,
-       "over": 0.2679,
-       "under": 0.7321
+       "over": 0.3825,
+       "under": 0.6175
       },
       {
        "line": 10.5,
-       "over": 0.1761,
-       "under": 0.8239
+       "over": 0.284,
+       "under": 0.716
       },
       {
        "line": 11.5,
-       "over": 0.1093,
-       "under": 0.8907
+       "over": 0.1968,
+       "under": 0.8032
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.4343
+       "over": 0.4775
       },
       {
        "line": 4.5,
-       "over": 0.2496
+       "over": 0.3151
       },
       {
        "line": 5.5,
-       "over": 0.1253
+       "over": 0.197
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.6503
+       "over": 0.6037
       },
       {
        "line": 4.5,
-       "over": 0.4596
+       "over": 0.4422
       },
       {
        "line": 5.5,
-       "over": 0.2897
+       "over": 0.3053
       }
      ],
      "winner": {
-      "home": 0.2829,
-      "draw": 0.1351,
-      "away": 0.582
+      "home": 0.3489,
+      "away": 0.5269,
+      "draw": 0.1242
      },
      "sample": 917
     },
@@ -6318,43 +6445,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.7655,
-       "under": 0.2345
+       "over": 0.8083,
+       "under": 0.1917
       },
       {
        "line": 3.5,
-       "over": 0.5916,
-       "under": 0.4084
+       "over": 0.6589,
+       "under": 0.3411
       },
       {
        "line": 4.5,
-       "over": 0.417,
-       "under": 0.583
+       "over": 0.4896,
+       "under": 0.5104
       },
       {
        "line": 5.5,
-       "over": 0.2699,
-       "under": 0.7301
+       "over": 0.3396,
+       "under": 0.6604
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.6476
+       "over": 0.6689
       },
       {
        "line": 2.5,
-       "over": 0.3797
+       "over": 0.415
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.6096
+       "over": 0.6555
       },
       {
        "line": 2.5,
-       "over": 0.3391
+       "over": 0.4008
       }
      ],
      "sample": 917
@@ -6365,19 +6492,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -6511,57 +6638,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.7721,
-       "under": 0.2279
+       "over": 0.7298,
+       "under": 0.2702
       },
       {
        "line": 9.5,
-       "over": 0.668,
-       "under": 0.332
+       "over": 0.6094,
+       "under": 0.3906
       },
       {
        "line": 10.5,
-       "over": 0.5534,
-       "under": 0.4466
+       "over": 0.4994,
+       "under": 0.5006
       },
       {
        "line": 11.5,
-       "over": 0.438,
-       "under": 0.562
+       "over": 0.3884,
+       "under": 0.6116
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.9504
+       "over": 0.8792
       },
       {
        "line": 4.5,
-       "over": 0.8861
+       "over": 0.7904
       },
       {
        "line": 5.5,
-       "over": 0.7862
+       "over": 0.6806
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.4384
+       "over": 0.4633
       },
       {
        "line": 4.5,
-       "over": 0.2531
+       "over": 0.3085
       },
       {
        "line": 5.5,
-       "over": 0.1276
+       "over": 0.1902
       }
      ],
      "winner": {
-      "home": 0.8812,
-      "draw": 0.0515,
-      "away": 0.0673
+      "home": 0.7854,
+      "away": 0.1577,
+      "draw": 0.0569
      },
      "sample": 920
     },
@@ -6574,43 +6701,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.4701,
-       "under": 0.5299
+       "over": 0.5378,
+       "under": 0.4622
       },
       {
        "line": 3.5,
-       "over": 0.2709,
-       "under": 0.7291
+       "over": 0.3295,
+       "under": 0.6705
       },
       {
        "line": 4.5,
-       "over": 0.1383,
-       "under": 0.8617
+       "over": 0.1866,
+       "under": 0.8134
       },
       {
        "line": 5.5,
-       "over": 0.0637,
-       "under": 0.9363
+       "over": 0.0974,
+       "under": 0.9026
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.2983
+       "over": 0.3386
       },
       {
        "line": 2.5,
-       "over": 0.0981
+       "over": 0.1327
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.4457
+       "over": 0.4825
       },
       {
        "line": 2.5,
-       "over": 0.1938
+       "over": 0.2199
       }
      ],
      "sample": 920
@@ -6621,19 +6748,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -6767,57 +6894,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.5612,
-       "under": 0.4388
+       "over": 0.5964,
+       "under": 0.4036
       },
       {
        "line": 9.5,
-       "over": 0.4347,
-       "under": 0.5653
+       "over": 0.4843,
+       "under": 0.5157
       },
       {
        "line": 10.5,
-       "over": 0.3187,
-       "under": 0.6813
+       "over": 0.3672,
+       "under": 0.6328
       },
       {
        "line": 11.5,
-       "over": 0.2213,
-       "under": 0.7787
+       "over": 0.267,
+       "under": 0.733
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.8395
+       "over": 0.7845
       },
       {
        "line": 4.5,
-       "over": 0.7011
+       "over": 0.6467
       },
       {
        "line": 5.5,
-       "over": 0.5379
+       "over": 0.5046
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.4144
+       "over": 0.4427
       },
       {
        "line": 4.5,
-       "over": 0.2331
+       "over": 0.2785
       },
       {
        "line": 5.5,
-       "over": 0.1143
+       "over": 0.1609
       }
      ],
      "winner": {
-      "home": 0.7591,
-      "draw": 0.0932,
-      "away": 0.1477
+      "home": 0.6969,
+      "away": 0.2108,
+      "draw": 0.0923
      },
      "sample": 899
     },
@@ -6830,43 +6957,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.7099,
-       "under": 0.2901
+       "over": 0.7286,
+       "under": 0.2714
       },
       {
        "line": 3.5,
-       "over": 0.5198,
-       "under": 0.4802
+       "over": 0.5479,
+       "under": 0.4521
       },
       {
        "line": 4.5,
-       "over": 0.3441,
-       "under": 0.6559
+       "over": 0.3657,
+       "under": 0.6343
       },
       {
        "line": 5.5,
-       "over": 0.2079,
-       "under": 0.7921
+       "over": 0.2256,
+       "under": 0.7744
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.5551
+       "over": 0.551
       },
       {
        "line": 2.5,
-       "over": 0.2858
+       "over": 0.299
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.5912
+       "over": 0.6072
       },
       {
        "line": 2.5,
-       "over": 0.3205
+       "over": 0.3454
       }
      ],
      "sample": 899
@@ -6877,19 +7004,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -6992,57 +7119,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.6241,
-       "under": 0.3759
+       "over": 0.643,
+       "under": 0.357
       },
       {
        "line": 9.5,
-       "over": 0.4996,
-       "under": 0.5004
+       "over": 0.5156,
+       "under": 0.4844
       },
       {
        "line": 10.5,
-       "over": 0.3796,
-       "under": 0.6204
+       "over": 0.4079,
+       "under": 0.5921
       },
       {
        "line": 11.5,
-       "over": 0.2736,
-       "under": 0.7264
+       "over": 0.2871,
+       "under": 0.7129
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.9035
+       "over": 0.8391
       },
       {
        "line": 4.5,
-       "over": 0.8017
+       "over": 0.7206
       },
       {
        "line": 5.5,
-       "over": 0.6645
+       "over": 0.5853
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.3422
+       "over": 0.4002
       },
       {
        "line": 4.5,
-       "over": 0.1769
+       "over": 0.2494
       },
       {
        "line": 5.5,
-       "over": 0.0793
+       "over": 0.1424
       }
      ],
      "winner": {
-      "home": 0.858,
-      "draw": 0.0628,
-      "away": 0.0792
+      "home": 0.7716,
+      "away": 0.1602,
+      "draw": 0.0682
      },
      "sample": 925
     },
@@ -7055,43 +7182,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.3796,
-       "under": 0.6204
+       "over": 0.5629,
+       "under": 0.4371
       },
       {
        "line": 3.5,
-       "over": 0.1905,
-       "under": 0.8095
+       "over": 0.3858,
+       "under": 0.6142
       },
       {
        "line": 4.5,
-       "over": 0.0826,
-       "under": 0.9174
+       "over": 0.2411,
+       "under": 0.7589
       },
       {
        "line": 5.5,
-       "over": 0.0317,
-       "under": 0.9683
+       "over": 0.1369,
+       "under": 0.8631
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.4415
+       "over": 0.4806
       },
       {
        "line": 2.5,
-       "over": 0.1906
+       "over": 0.2239
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.1629
+       "over": 0.3776
       },
       {
        "line": 2.5,
-       "over": 0.0367
+       "over": 0.1776
       }
      ],
      "sample": 925
@@ -7102,19 +7229,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -7248,57 +7375,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.7554,
-       "under": 0.2446
-      },
-      {
-       "line": 9.5,
        "over": 0.6554,
        "under": 0.3446
       },
       {
+       "line": 9.5,
+       "over": 0.5459,
+       "under": 0.4541
+      },
+      {
        "line": 10.5,
-       "over": 0.5477,
-       "under": 0.4523
+       "over": 0.4357,
+       "under": 0.5643
       },
       {
        "line": 11.5,
-       "over": 0.4405,
-       "under": 0.5595
+       "over": 0.3325,
+       "under": 0.6675
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.9155
+       "over": 0.822
       },
       {
        "line": 4.5,
-       "over": 0.8223
+       "over": 0.7083
       },
       {
        "line": 5.5,
-       "over": 0.6927
+       "over": 0.5848
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.6118
+       "over": 0.5728
       },
       {
        "line": 4.5,
-       "over": 0.4178
+       "over": 0.4096
       },
       {
        "line": 5.5,
-       "over": 0.2533
+       "over": 0.2738
       }
      ],
      "winner": {
-      "home": 0.7462,
-      "draw": 0.0878,
-      "away": 0.166
+      "home": 0.6699,
+      "away": 0.2469,
+      "draw": 0.0832
      },
      "sample": 900
     },
@@ -7311,43 +7438,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.8419,
-       "under": 0.1581
+       "over": 0.805,
+       "under": 0.195
       },
       {
        "line": 3.5,
-       "over": 0.6821,
-       "under": 0.3179
+       "over": 0.625,
+       "under": 0.375
       },
       {
        "line": 4.5,
-       "over": 0.4966,
-       "under": 0.5034
+       "over": 0.4331,
+       "under": 0.5669
       },
       {
        "line": 5.5,
-       "over": 0.3242,
-       "under": 0.6758
+       "over": 0.2554,
+       "under": 0.7446
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.7394
+       "over": 0.6649
       },
       {
        "line": 2.5,
-       "over": 0.4904
+       "over": 0.3961
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.5995
+       "over": 0.619
       },
       {
        "line": 2.5,
-       "over": 0.3289
+       "over": 0.3386
       }
      ],
      "sample": 900
@@ -7358,19 +7485,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -7473,57 +7600,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.8152,
-       "under": 0.1848
+       "over": 0.7391,
+       "under": 0.2609
       },
       {
        "line": 9.5,
-       "over": 0.7245,
-       "under": 0.2755
+       "over": 0.6322,
+       "under": 0.3678
       },
       {
        "line": 10.5,
-       "over": 0.6204,
-       "under": 0.3796
+       "over": 0.5237,
+       "under": 0.4763
       },
       {
        "line": 11.5,
-       "over": 0.5107,
-       "under": 0.4893
+       "over": 0.4215,
+       "under": 0.5785
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.9411
+       "over": 0.8615
       },
       {
        "line": 4.5,
-       "over": 0.8684
+       "over": 0.7637
       },
       {
        "line": 5.5,
-       "over": 0.7593
+       "over": 0.6487
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.6237
+       "over": 0.5968
       },
       {
        "line": 4.5,
-       "over": 0.4304
+       "over": 0.4284
       },
       {
        "line": 5.5,
-       "over": 0.2641
+       "over": 0.2836
       }
      ],
      "winner": {
-      "home": 0.7854,
-      "draw": 0.0769,
-      "away": 0.1377
+      "home": 0.7013,
+      "away": 0.222,
+      "draw": 0.0767
      },
      "sample": 1637
     },
@@ -7536,43 +7663,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.6719,
-       "under": 0.3281
+       "over": 0.7091,
+       "under": 0.2909
       },
       {
        "line": 3.5,
-       "over": 0.4575,
-       "under": 0.5425
+       "over": 0.5009,
+       "under": 0.4991
       },
       {
        "line": 4.5,
-       "over": 0.2716,
-       "under": 0.7284
+       "over": 0.3132,
+       "under": 0.6868
       },
       {
        "line": 5.5,
-       "over": 0.1419,
-       "under": 0.8581
+       "over": 0.1722,
+       "under": 0.8278
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.5619
+       "over": 0.5463
       },
       {
        "line": 2.5,
-       "over": 0.2921
+       "over": 0.2733
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.473
+       "over": 0.5499
       },
       {
        "line": 2.5,
-       "over": 0.215
+       "over": 0.2759
       }
      ],
      "sample": 1637
@@ -7583,19 +7710,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -7729,57 +7856,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.7003,
-       "under": 0.2997
+       "over": 0.6376,
+       "under": 0.3624
       },
       {
        "line": 9.5,
-       "over": 0.5851,
-       "under": 0.4149
+       "over": 0.5205,
+       "under": 0.4795
       },
       {
        "line": 10.5,
-       "over": 0.4667,
-       "under": 0.5333
+       "over": 0.4075,
+       "under": 0.5925
       },
       {
        "line": 11.5,
-       "over": 0.355,
-       "under": 0.645
+       "over": 0.3035,
+       "under": 0.6965
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.8905
+       "over": 0.8017
       },
       {
        "line": 4.5,
-       "over": 0.7802
+       "over": 0.6796
       },
       {
        "line": 5.5,
-       "over": 0.636
+       "over": 0.5483
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.5438
+       "over": 0.5339
       },
       {
        "line": 4.5,
-       "over": 0.3487
+       "over": 0.3585
       },
       {
        "line": 5.5,
-       "over": 0.1972
+       "over": 0.2252
       }
      ],
      "winner": {
-      "home": 0.7479,
-      "draw": 0.0904,
-      "away": 0.1617
+      "home": 0.6732,
+      "away": 0.2382,
+      "draw": 0.0886
      },
      "sample": 1130
     },
@@ -7792,43 +7919,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.7366,
-       "under": 0.2634
+       "over": 0.7744,
+       "under": 0.2256
       },
       {
        "line": 3.5,
-       "over": 0.5501,
-       "under": 0.4499
+       "over": 0.6056,
+       "under": 0.3944
       },
       {
        "line": 4.5,
-       "over": 0.371,
-       "under": 0.629
+       "over": 0.4328,
+       "under": 0.5672
       },
       {
        "line": 5.5,
-       "over": 0.2276,
-       "under": 0.7724
+       "over": 0.2848,
+       "under": 0.7152
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.5221
+       "over": 0.585
       },
       {
        "line": 2.5,
-       "over": 0.256
+       "over": 0.3194
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.6579
+       "over": 0.6701
       },
       {
        "line": 2.5,
-       "over": 0.3912
+       "over": 0.4056
       }
      ],
      "sample": 1130
@@ -7839,19 +7966,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -7985,57 +8112,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.3868,
-       "under": 0.6132
+       "over": 0.5051,
+       "under": 0.4949
       },
       {
        "line": 9.5,
-       "over": 0.2706,
-       "under": 0.7294
+       "over": 0.3836,
+       "under": 0.6164
       },
       {
        "line": 10.5,
-       "over": 0.1783,
-       "under": 0.8217
+       "over": 0.2849,
+       "under": 0.7151
       },
       {
        "line": 11.5,
-       "over": 0.1108,
-       "under": 0.8892
+       "over": 0.1975,
+       "under": 0.8025
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.5058
+       "over": 0.5274
       },
       {
        "line": 4.5,
-       "over": 0.3127
+       "over": 0.3604
       },
       {
        "line": 5.5,
-       "over": 0.1699
+       "over": 0.2317
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.5946
+       "over": 0.5656
       },
       {
        "line": 4.5,
-       "over": 0.3997
+       "over": 0.4021
       },
       {
        "line": 5.5,
-       "over": 0.2381
+       "over": 0.2693
       }
      ],
      "winner": {
-      "home": 0.3661,
-      "draw": 0.1432,
-      "away": 0.4907
+      "home": 0.408,
+      "away": 0.4628,
+      "draw": 0.1292
      },
      "sample": 917
     },
@@ -8048,43 +8175,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.8578,
-       "under": 0.1422
+       "over": 0.8517,
+       "under": 0.1483
       },
       {
        "line": 3.5,
-       "over": 0.7249,
-       "under": 0.2751
+       "over": 0.7216,
+       "under": 0.2784
       },
       {
        "line": 4.5,
-       "over": 0.5689,
-       "under": 0.4311
+       "over": 0.561,
+       "under": 0.439
       },
       {
        "line": 5.5,
-       "over": 0.4152,
-       "under": 0.5848
+       "over": 0.4078,
+       "under": 0.5922
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.7334
+       "over": 0.7169
       },
       {
        "line": 2.5,
-       "over": 0.4826
+       "over": 0.4725
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.7336
+       "over": 0.7234
       },
       {
        "line": 2.5,
-       "over": 0.4828
+       "over": 0.4788
       }
      ],
      "sample": 917
@@ -8095,19 +8222,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -8241,57 +8368,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.5656,
-       "under": 0.4344
+       "over": 0.6376,
+       "under": 0.3624
       },
       {
        "line": 9.5,
-       "over": 0.4386,
-       "under": 0.5614
+       "over": 0.5215,
+       "under": 0.4785
       },
       {
        "line": 10.5,
-       "over": 0.3219,
-       "under": 0.6781
+       "over": 0.4082,
+       "under": 0.5918
       },
       {
        "line": 11.5,
-       "over": 0.2237,
-       "under": 0.7763
+       "over": 0.2901,
+       "under": 0.7099
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.8896
+       "over": 0.8215
       },
       {
        "line": 4.5,
-       "over": 0.7786
+       "over": 0.7012
       },
       {
        "line": 5.5,
-       "over": 0.6339
+       "over": 0.5717
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.2826
+       "over": 0.3592
       },
       {
        "line": 4.5,
-       "over": 0.1349
+       "over": 0.2192
       },
       {
        "line": 5.5,
-       "over": 0.0555
+       "over": 0.1324
       }
      ],
      "winner": {
-      "home": 0.8684,
-      "draw": 0.0607,
-      "away": 0.0709
+      "home": 0.7752,
+      "away": 0.1586,
+      "draw": 0.0662
      },
      "sample": 1120
     },
@@ -8304,43 +8431,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.6425,
-       "under": 0.3575
+       "over": 0.7032,
+       "under": 0.2968
       },
       {
        "line": 3.5,
-       "over": 0.4251,
-       "under": 0.5749
+       "over": 0.5107,
+       "under": 0.4893
       },
       {
        "line": 4.5,
-       "over": 0.2447,
-       "under": 0.7553
+       "over": 0.326,
+       "under": 0.674
       },
       {
        "line": 5.5,
-       "over": 0.1238,
-       "under": 0.8762
+       "over": 0.1803,
+       "under": 0.8197
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.3934
+       "over": 0.4662
       },
       {
        "line": 2.5,
-       "over": 0.1563
+       "over": 0.2106
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.5864
+       "over": 0.6219
       },
       {
        "line": 2.5,
-       "over": 0.3157
+       "over": 0.3485
       }
      ],
      "sample": 1120
@@ -8351,19 +8478,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -8497,57 +8624,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.6001,
-       "under": 0.3999
+       "over": 0.6466,
+       "under": 0.3534
       },
       {
        "line": 9.5,
-       "over": 0.4762,
-       "under": 0.5238
+       "over": 0.5254,
+       "under": 0.4746
       },
       {
        "line": 10.5,
-       "over": 0.359,
-       "under": 0.641
+       "over": 0.4113,
+       "under": 0.5887
       },
       {
        "line": 11.5,
-       "over": 0.2571,
-       "under": 0.7429
+       "over": 0.3125,
+       "under": 0.6875
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.7333
+       "over": 0.7002
       },
       {
        "line": 4.5,
-       "over": 0.5575
+       "over": 0.5489
       },
       {
        "line": 5.5,
-       "over": 0.382
+       "over": 0.4038
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.6615
+       "over": 0.6232
       },
       {
        "line": 4.5,
-       "over": 0.4722
+       "over": 0.4569
       },
       {
        "line": 5.5,
-       "over": 0.301
+       "over": 0.3096
       }
      ],
      "winner": {
-      "home": 0.4943,
-      "draw": 0.1298,
-      "away": 0.3759
+      "home": 0.505,
+      "away": 0.3808,
+      "draw": 0.1142
      },
      "sample": 1637
     },
@@ -8560,43 +8687,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.662,
-       "under": 0.338
+       "over": 0.7045,
+       "under": 0.2955
       },
       {
        "line": 3.5,
-       "over": 0.4461,
-       "under": 0.5539
+       "over": 0.4956,
+       "under": 0.5044
       },
       {
        "line": 4.5,
-       "over": 0.2618,
-       "under": 0.7382
+       "over": 0.3086,
+       "under": 0.6914
       },
       {
        "line": 5.5,
-       "over": 0.135,
-       "under": 0.865
+       "over": 0.169,
+       "under": 0.831
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.452
+       "over": 0.4849
       },
       {
        "line": 2.5,
-       "over": 0.1986
+       "over": 0.221
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.5651
+       "over": 0.6014
       },
       {
        "line": 2.5,
-       "over": 0.2952
+       "over": 0.3207
       }
      ],
      "sample": 1637
@@ -8607,19 +8734,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -8753,57 +8880,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.5723,
-       "under": 0.4277
+       "over": 0.6347,
+       "under": 0.3653
       },
       {
        "line": 9.5,
-       "over": 0.4474,
-       "under": 0.5526
+       "over": 0.5131,
+       "under": 0.4869
       },
       {
        "line": 10.5,
-       "over": 0.3317,
-       "under": 0.6683
+       "over": 0.3996,
+       "under": 0.6004
       },
       {
        "line": 11.5,
-       "over": 0.2335,
-       "under": 0.7665
+       "over": 0.3023,
+       "under": 0.6977
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.6982
+       "over": 0.6758
       },
       {
        "line": 4.5,
-       "over": 0.5147
+       "over": 0.5208
       },
       {
        "line": 5.5,
-       "over": 0.3404
+       "over": 0.3762
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.6624
+       "over": 0.6238
       },
       {
        "line": 4.5,
-       "over": 0.4732
+       "over": 0.4576
       },
       {
        "line": 5.5,
-       "over": 0.3018
+       "over": 0.3102
       }
      ],
      "winner": {
-      "home": 0.4625,
-      "draw": 0.1325,
-      "away": 0.405
+      "home": 0.4834,
+      "away": 0.3999,
+      "draw": 0.1167
      },
      "sample": 1637
     },
@@ -8816,43 +8943,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.7551,
-       "under": 0.2449
+       "over": 0.7483,
+       "under": 0.2517
       },
       {
        "line": 3.5,
-       "over": 0.5601,
-       "under": 0.4399
+       "over": 0.5492,
+       "under": 0.4508
       },
       {
        "line": 4.5,
-       "over": 0.3674,
-       "under": 0.6326
+       "over": 0.3582,
+       "under": 0.6418
       },
       {
        "line": 5.5,
-       "over": 0.214,
-       "under": 0.786
+       "over": 0.2061,
+       "under": 0.7939
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.5082
+       "over": 0.5164
       },
       {
        "line": 2.5,
-       "over": 0.244
+       "over": 0.2464
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.6636
+       "over": 0.6564
       },
       {
        "line": 2.5,
-       "over": 0.3976
+       "over": 0.3779
       }
      ],
      "sample": 1637
@@ -8863,19 +8990,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -9009,57 +9136,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.5929,
-       "under": 0.4071
+       "over": 0.6435,
+       "under": 0.3565
       },
       {
        "line": 9.5,
-       "over": 0.4687,
-       "under": 0.5313
+       "over": 0.5222,
+       "under": 0.4778
       },
       {
        "line": 10.5,
-       "over": 0.3519,
-       "under": 0.6481
+       "over": 0.4083,
+       "under": 0.5917
       },
       {
        "line": 11.5,
-       "over": 0.2509,
-       "under": 0.7491
+       "over": 0.3098,
+       "under": 0.6902
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.6631
+       "over": 0.6516
       },
       {
        "line": 4.5,
-       "over": 0.474
+       "over": 0.4938
       },
       {
        "line": 5.5,
-       "over": 0.3026
+       "over": 0.3506
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.7233
+       "over": 0.6667
       },
       {
        "line": 4.5,
-       "over": 0.545
+       "over": 0.5062
       },
       {
        "line": 5.5,
-       "over": 0.3697
+       "over": 0.3568
       }
      ],
      "winner": {
-      "home": 0.3854,
-      "draw": 0.1306,
-      "away": 0.484
+      "home": 0.4312,
+      "away": 0.454,
+      "draw": 0.1148
      },
      "sample": 1637
     },
@@ -9072,43 +9199,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.6935,
-       "under": 0.3065
+       "over": 0.7193,
+       "under": 0.2807
       },
       {
        "line": 3.5,
-       "over": 0.4829,
-       "under": 0.5171
+       "over": 0.5128,
+       "under": 0.4872
       },
       {
        "line": 4.5,
-       "over": 0.2942,
-       "under": 0.7058
+       "over": 0.3238,
+       "under": 0.6762
       },
       {
        "line": 5.5,
-       "over": 0.158,
-       "under": 0.842
+       "over": 0.1798,
+       "under": 0.8202
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.5939
+       "over": 0.5643
       },
       {
        "line": 2.5,
-       "over": 0.3233
+       "over": 0.2907
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.4746
+       "over": 0.5508
       },
       {
        "line": 2.5,
-       "over": 0.2163
+       "over": 0.2766
       }
      ],
      "sample": 1637
@@ -9119,19 +9246,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -9265,57 +9392,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.7318,
-       "under": 0.2682
+       "over": 0.6511,
+       "under": 0.3489
       },
       {
        "line": 9.5,
-       "over": 0.6217,
-       "under": 0.3783
+       "over": 0.5362,
+       "under": 0.4638
       },
       {
        "line": 10.5,
-       "over": 0.5052,
-       "under": 0.4948
+       "over": 0.424,
+       "under": 0.576
       },
       {
        "line": 11.5,
-       "over": 0.3921,
-       "under": 0.6079
+       "over": 0.3194,
+       "under": 0.6806
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.7534
+       "over": 0.6996
       },
       {
        "line": 4.5,
-       "over": 0.5828
+       "over": 0.5482
       },
       {
        "line": 5.5,
-       "over": 0.4077
+       "over": 0.4036
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.8108
+       "over": 0.7256
       },
       {
        "line": 4.5,
-       "over": 0.6599
+       "over": 0.5745
       },
       {
        "line": 5.5,
-       "over": 0.4904
+       "over": 0.4311
       }
      ],
      "winner": {
-      "home": 0.3817,
-      "draw": 0.1219,
-      "away": 0.4964
+      "home": 0.4258,
+      "away": 0.4688,
+      "draw": 0.1054
      },
      "sample": 1130
     },
@@ -9328,43 +9455,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.8012,
-       "under": 0.1988
+       "over": 0.8048,
+       "under": 0.1952
       },
       {
        "line": 3.5,
-       "over": 0.6373,
-       "under": 0.3627
+       "over": 0.6466,
+       "under": 0.3534
       },
       {
        "line": 4.5,
-       "over": 0.4628,
-       "under": 0.5372
+       "over": 0.4759,
+       "under": 0.5241
       },
       {
        "line": 5.5,
-       "over": 0.3081,
-       "under": 0.6919
+       "over": 0.3226,
+       "under": 0.6774
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.6724
+       "over": 0.669
       },
       {
        "line": 2.5,
-       "over": 0.4077
+       "over": 0.4042
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.6478
+       "over": 0.6645
       },
       {
        "line": 2.5,
-       "over": 0.3799
+       "over": 0.3994
       }
      ],
      "sample": 1130
@@ -9375,19 +9502,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -9521,57 +9648,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.4411,
-       "under": 0.5589
+       "over": 0.5098,
+       "under": 0.4902
       },
       {
        "line": 9.5,
-       "over": 0.3234,
-       "under": 0.6766
+       "over": 0.3966,
+       "under": 0.6034
       },
       {
        "line": 10.5,
-       "over": 0.2249,
-       "under": 0.7751
+       "over": 0.2921,
+       "under": 0.7079
       },
       {
        "line": 11.5,
-       "over": 0.1486,
-       "under": 0.8514
+       "over": 0.1998,
+       "under": 0.8002
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.5954
+       "over": 0.587
       },
       {
        "line": 4.5,
-       "over": 0.4005
+       "over": 0.4249
       },
       {
        "line": 5.5,
-       "over": 0.2388
+       "over": 0.2918
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.5882
+       "over": 0.5521
       },
       {
        "line": 4.5,
-       "over": 0.3932
+       "over": 0.389
       },
       {
        "line": 5.5,
-       "over": 0.2327
+       "over": 0.2557
       }
      ],
      "winner": {
-      "home": 0.4347,
-      "draw": 0.141,
-      "away": 0.4243
+      "home": 0.462,
+      "away": 0.4139,
+      "draw": 0.1241
      },
      "sample": 1120
     },
@@ -9584,43 +9711,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.8502,
-       "under": 0.1498
+       "over": 0.808,
+       "under": 0.192
       },
       {
        "line": 3.5,
-       "over": 0.6973,
-       "under": 0.3027
+       "over": 0.6353,
+       "under": 0.3647
       },
       {
        "line": 4.5,
-       "over": 0.5173,
-       "under": 0.4827
+       "over": 0.4504,
+       "under": 0.5496
       },
       {
        "line": 5.5,
-       "over": 0.3463,
-       "under": 0.6537
+       "over": 0.2848,
+       "under": 0.7152
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.5777
+       "over": 0.5719
       },
       {
        "line": 2.5,
-       "over": 0.3073
+       "over": 0.2974
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.7756
+       "over": 0.7238
       },
       {
        "line": 2.5,
-       "over": 0.5399
+       "over": 0.4639
       }
      ],
      "sample": 1120
@@ -9631,19 +9758,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -9777,57 +9904,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.6138,
-       "under": 0.3862
+       "over": 0.619,
+       "under": 0.381
       },
       {
        "line": 9.5,
-       "over": 0.4893,
-       "under": 0.5107
+       "over": 0.5078,
+       "under": 0.4922
       },
       {
        "line": 10.5,
-       "over": 0.3703,
-       "under": 0.6297
+       "over": 0.3894,
+       "under": 0.6106
       },
       {
        "line": 11.5,
-       "over": 0.266,
-       "under": 0.734
+       "over": 0.2862,
+       "under": 0.7138
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.641
+       "over": 0.6398
       },
       {
        "line": 4.5,
-       "over": 0.4493
+       "over": 0.4725
       },
       {
        "line": 5.5,
-       "over": 0.2805
+       "over": 0.3277
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.763
+       "over": 0.6897
       },
       {
        "line": 4.5,
-       "over": 0.5953
+       "over": 0.5324
       },
       {
        "line": 5.5,
-       "over": 0.4206
+       "over": 0.3829
       }
      ],
      "winner": {
-      "home": 0.3355,
-      "draw": 0.1264,
-      "away": 0.5381
+      "home": 0.3977,
+      "away": 0.4883,
+      "draw": 0.114
      },
      "sample": 899
     },
@@ -9840,43 +9967,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.844,
-       "under": 0.156
+       "over": 0.7917,
+       "under": 0.2083
       },
       {
        "line": 3.5,
-       "over": 0.7033,
-       "under": 0.2967
+       "over": 0.6341,
+       "under": 0.3659
       },
       {
        "line": 4.5,
-       "over": 0.5423,
-       "under": 0.4577
+       "over": 0.4588,
+       "under": 0.5412
       },
       {
        "line": 5.5,
-       "over": 0.3877,
-       "under": 0.6123
+       "over": 0.3101,
+       "under": 0.6899
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.7384
+       "over": 0.6514
       },
       {
        "line": 2.5,
-       "over": 0.4892
+       "over": 0.4098
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.6914
+       "over": 0.6632
       },
       {
        "line": 2.5,
-       "over": 0.4301
+       "over": 0.4066
       }
      ],
      "sample": 899
@@ -9887,19 +10014,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -10033,57 +10160,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.7206,
-       "under": 0.2794
+       "over": 0.6649,
+       "under": 0.3351
       },
       {
        "line": 9.5,
-       "over": 0.6081,
-       "under": 0.3919
+       "over": 0.5588,
+       "under": 0.4412
       },
       {
        "line": 10.5,
-       "over": 0.4902,
-       "under": 0.5098
+       "over": 0.4409,
+       "under": 0.5591
       },
       {
        "line": 11.5,
-       "over": 0.377,
-       "under": 0.623
+       "over": 0.3339,
+       "under": 0.6661
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.9326
+       "over": 0.8609
       },
       {
        "line": 4.5,
-       "over": 0.8527
+       "over": 0.7572
       },
       {
        "line": 5.5,
-       "over": 0.736
+       "over": 0.6393
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.4231
+       "over": 0.4489
       },
       {
        "line": 4.5,
-       "over": 0.2403
+       "over": 0.2838
       },
       {
        "line": 5.5,
-       "over": 0.119
+       "over": 0.1647
       }
      ],
      "winner": {
-      "home": 0.861,
-      "draw": 0.0593,
-      "away": 0.0797
+      "home": 0.7721,
+      "away": 0.1629,
+      "draw": 0.065
      },
      "sample": 899
     },
@@ -10096,43 +10223,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.8181,
-       "under": 0.1819
+       "over": 0.7795,
+       "under": 0.2205
       },
       {
        "line": 3.5,
-       "over": 0.6647,
-       "under": 0.3353
+       "over": 0.616,
+       "under": 0.384
       },
       {
        "line": 4.5,
-       "over": 0.497,
-       "under": 0.503
+       "over": 0.4376,
+       "under": 0.5624
       },
       {
        "line": 5.5,
-       "over": 0.3432,
-       "under": 0.6568
+       "over": 0.2893,
+       "under": 0.7107
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.7689
+       "over": 0.6682
       },
       {
        "line": 2.5,
-       "over": 0.5305
+       "over": 0.4321
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.5784
+       "over": 0.6001
       },
       {
        "line": 2.5,
-       "over": 0.308
+       "over": 0.3384
       }
      ],
      "sample": 899
@@ -10143,19 +10270,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -10289,57 +10416,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.6538,
-       "under": 0.3462
+       "over": 0.6362,
+       "under": 0.3638
       },
       {
        "line": 9.5,
-       "over": 0.5325,
-       "under": 0.4675
+       "over": 0.5263,
+       "under": 0.4737
       },
       {
        "line": 10.5,
-       "over": 0.4126,
-       "under": 0.5874
+       "over": 0.4076,
+       "under": 0.5924
       },
       {
        "line": 11.5,
-       "over": 0.304,
-       "under": 0.696
+       "over": 0.3026,
+       "under": 0.6974
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.4472
+       "over": 0.5027
       },
       {
        "line": 4.5,
-       "over": 0.2605
+       "over": 0.3384
       },
       {
        "line": 5.5,
-       "over": 0.1327
+       "over": 0.2171
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.8908
+       "over": 0.7872
       },
       {
        "line": 4.5,
-       "over": 0.7807
+       "over": 0.6619
       },
       {
        "line": 5.5,
-       "over": 0.6366
+       "over": 0.528
       }
      ],
      "winner": {
-      "home": 0.1222,
-      "draw": 0.0798,
-      "away": 0.7979
+      "home": 0.2386,
+      "away": 0.68,
+      "draw": 0.0814
      },
      "sample": 899
     },
@@ -10352,43 +10479,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.6209,
-       "under": 0.3791
+       "over": 0.6868,
+       "under": 0.3132
       },
       {
        "line": 3.5,
-       "over": 0.4167,
-       "under": 0.5833
+       "over": 0.4995,
+       "under": 0.5005
       },
       {
        "line": 4.5,
-       "over": 0.2501,
-       "under": 0.7499
+       "over": 0.3215,
+       "under": 0.6785
       },
       {
        "line": 5.5,
-       "over": 0.136,
-       "under": 0.864
+       "over": 0.1918,
+       "under": 0.8082
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.5761
+       "over": 0.5625
       },
       {
        "line": 2.5,
-       "over": 0.3058
+       "over": 0.3099
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.4013
+       "over": 0.5011
       },
       {
        "line": 2.5,
-       "over": 0.1617
+       "over": 0.2566
       }
      ],
      "sample": 899
@@ -10399,19 +10526,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -10512,57 +10639,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.7851,
-       "under": 0.2149
+       "over": 0.6926,
+       "under": 0.3074
       },
       {
        "line": 9.5,
-       "over": 0.6854,
-       "under": 0.3146
+       "over": 0.5921,
+       "under": 0.4079
       },
       {
        "line": 10.5,
-       "over": 0.5744,
-       "under": 0.4256
+       "over": 0.4772,
+       "under": 0.5228
       },
       {
        "line": 11.5,
-       "over": 0.4611,
-       "under": 0.5389
+       "over": 0.3701,
+       "under": 0.6299
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.9531
+       "over": 0.88
       },
       {
        "line": 4.5,
-       "over": 0.8914
+       "over": 0.788
       },
       {
        "line": 5.5,
-       "over": 0.7945
+       "over": 0.6808
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.4651
+       "over": 0.4786
       },
       {
        "line": 4.5,
-       "over": 0.276
+       "over": 0.3099
       },
       {
        "line": 5.5,
-       "over": 0.1434
+       "over": 0.1841
       }
      ],
      "winner": {
-      "home": 0.8765,
-      "draw": 0.0527,
-      "away": 0.0709
+      "home": 0.7831,
+      "away": 0.1578,
+      "draw": 0.0591
      },
      "sample": 899
     },
@@ -10575,43 +10702,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.6865,
-       "under": 0.3135
+       "over": 0.7176,
+       "under": 0.2824
       },
       {
        "line": 3.5,
-       "over": 0.4915,
-       "under": 0.5085
+       "over": 0.5346,
+       "under": 0.4654
       },
       {
        "line": 4.5,
-       "over": 0.3171,
-       "under": 0.6829
+       "over": 0.353,
+       "under": 0.647
       },
       {
        "line": 5.5,
-       "over": 0.1863,
-       "under": 0.8137
+       "over": 0.2155,
+       "under": 0.7845
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.5315
+       "over": 0.5381
       },
       {
        "line": 2.5,
-       "over": 0.2643
+       "over": 0.2872
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.5711
+       "over": 0.596
       },
       {
        "line": 2.5,
-       "over": 0.3009
+       "over": 0.3345
       }
      ],
      "sample": 899
@@ -10622,19 +10749,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -10750,57 +10877,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.7657,
-       "under": 0.2343
+       "over": 0.6843,
+       "under": 0.3157
       },
       {
        "line": 9.5,
-       "over": 0.6617,
-       "under": 0.3383
+       "over": 0.5819,
+       "under": 0.4181
       },
       {
        "line": 10.5,
-       "over": 0.548,
-       "under": 0.452
+       "over": 0.4658,
+       "under": 0.5342
       },
       {
        "line": 11.5,
-       "over": 0.4342,
-       "under": 0.5658
+       "over": 0.3585,
+       "under": 0.6415
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.6397
+       "over": 0.6389
       },
       {
        "line": 4.5,
-       "over": 0.4479
+       "over": 0.4715
       },
       {
        "line": 5.5,
-       "over": 0.2792
+       "over": 0.3267
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.9027
+       "over": 0.797
       },
       {
        "line": 4.5,
-       "over": 0.8003
+       "over": 0.6762
       },
       {
        "line": 5.5,
-       "over": 0.6626
+       "over": 0.5455
       }
      ],
      "winner": {
-      "home": 0.1959,
-      "draw": 0.0957,
-      "away": 0.7084
+      "home": 0.2991,
+      "away": 0.6106,
+      "draw": 0.0903
      },
      "sample": 899
     },
@@ -10813,43 +10940,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.5724,
-       "under": 0.4276
+       "over": 0.664,
+       "under": 0.336
       },
       {
        "line": 3.5,
-       "over": 0.3657,
-       "under": 0.6343
+       "over": 0.4755,
+       "under": 0.5245
       },
       {
        "line": 4.5,
-       "over": 0.2078,
-       "under": 0.7922
+       "over": 0.3017,
+       "under": 0.6983
       },
       {
        "line": 5.5,
-       "over": 0.1066,
-       "under": 0.8934
+       "over": 0.178,
+       "under": 0.822
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.4681
+       "over": 0.5034
       },
       {
        "line": 2.5,
-       "over": 0.2111
+       "over": 0.2578
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.4376
+       "over": 0.5214
       },
       {
        "line": 2.5,
-       "over": 0.1878
+       "over": 0.2712
       }
      ],
      "sample": 899
@@ -10860,19 +10987,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -11000,57 +11127,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.7532,
-       "under": 0.2468
+       "over": 0.6985,
+       "under": 0.3015
       },
       {
        "line": 9.5,
-       "over": 0.6458,
-       "under": 0.3542
+       "over": 0.5784,
+       "under": 0.4216
       },
       {
        "line": 10.5,
-       "over": 0.5299,
-       "under": 0.4701
+       "over": 0.4725,
+       "under": 0.5275
       },
       {
        "line": 11.5,
-       "over": 0.4152,
-       "under": 0.5848
+       "over": 0.348,
+       "under": 0.652
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.8079
+       "over": 0.764
       },
       {
        "line": 4.5,
-       "over": 0.6557
+       "over": 0.6168
       },
       {
        "line": 5.5,
-       "over": 0.4858
+       "over": 0.4646
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.7827
+       "over": 0.7092
       },
       {
        "line": 4.5,
-       "over": 0.6213
+       "over": 0.5592
       },
       {
        "line": 5.5,
-       "over": 0.4481
+       "over": 0.4094
       }
      ],
      "winner": {
-      "home": 0.4653,
-      "draw": 0.1217,
-      "away": 0.413
+      "home": 0.4904,
+      "away": 0.4032,
+      "draw": 0.1064
      },
      "sample": 925
     },
@@ -11063,43 +11190,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.8323,
-       "under": 0.1677
+       "over": 0.7756,
+       "under": 0.2244
       },
       {
        "line": 3.5,
-       "over": 0.6802,
-       "under": 0.3198
+       "over": 0.6159,
+       "under": 0.3841
       },
       {
        "line": 4.5,
-       "over": 0.509,
-       "under": 0.491
+       "over": 0.4415,
+       "under": 0.5585
       },
       {
        "line": 5.5,
-       "over": 0.3494,
-       "under": 0.6506
+       "over": 0.2863,
+       "under": 0.7137
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.6239
+       "over": 0.5826
       },
       {
        "line": 2.5,
-       "over": 0.3541
+       "over": 0.3153
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.7465
+       "over": 0.7039
       },
       {
        "line": 2.5,
-       "over": 0.4999
+       "over": 0.4367
       }
      ],
      "sample": 925
@@ -11110,19 +11237,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -11256,57 +11383,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.7777,
-       "under": 0.2223
+       "over": 0.7288,
+       "under": 0.2712
       },
       {
        "line": 9.5,
-       "over": 0.6758,
-       "under": 0.3242
+       "over": 0.6234,
+       "under": 0.3766
       },
       {
        "line": 10.5,
-       "over": 0.5631,
-       "under": 0.4369
+       "over": 0.5119,
+       "under": 0.4881
       },
       {
        "line": 11.5,
-       "over": 0.4489,
-       "under": 0.5511
+       "over": 0.3869,
+       "under": 0.6131
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.9045
+       "over": 0.8339
       },
       {
        "line": 4.5,
-       "over": 0.8034
+       "over": 0.7194
       },
       {
        "line": 5.5,
-       "over": 0.6668
+       "over": 0.5941
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.6566
+       "over": 0.6109
       },
       {
        "line": 4.5,
-       "over": 0.4666
+       "over": 0.4489
       },
       {
        "line": 5.5,
-       "over": 0.2959
+       "over": 0.3145
       }
      ],
      "winner": {
-      "home": 0.7002,
-      "draw": 0.0967,
-      "away": 0.2032
+      "home": 0.6461,
+      "away": 0.266,
+      "draw": 0.0879
      },
      "sample": 1120
     },
@@ -11319,43 +11446,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.9108,
-       "under": 0.0892
+       "over": 0.8293,
+       "under": 0.1707
       },
       {
        "line": 3.5,
-       "over": 0.7996,
-       "under": 0.2004
+       "over": 0.6867,
+       "under": 0.3133
       },
       {
        "line": 4.5,
-       "over": 0.6481,
-       "under": 0.3519
+       "over": 0.5157,
+       "under": 0.4843
       },
       {
        "line": 5.5,
-       "over": 0.4815,
-       "under": 0.5185
+       "over": 0.3484,
+       "under": 0.6516
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.6797
+       "over": 0.6262
       },
       {
        "line": 2.5,
-       "over": 0.4162
+       "over": 0.3559
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.8326
+       "over": 0.7596
       },
       {
        "line": 2.5,
-       "over": 0.6262
+       "over": 0.5219
       }
      ],
      "sample": 1120
@@ -11366,19 +11493,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -11494,57 +11621,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.6681,
-       "under": 0.3319
+       "over": 0.6817,
+       "under": 0.3183
       },
       {
        "line": 9.5,
-       "over": 0.5478,
-       "under": 0.4522
+       "over": 0.5684,
+       "under": 0.4316
       },
       {
        "line": 10.5,
-       "over": 0.4275,
-       "under": 0.5725
+       "over": 0.4535,
+       "under": 0.5465
       },
       {
        "line": 11.5,
-       "over": 0.3172,
-       "under": 0.6828
+       "over": 0.3303,
+       "under": 0.6697
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.5911
+       "over": 0.6015
       },
       {
        "line": 4.5,
-       "over": 0.3962
+       "over": 0.4337
       },
       {
        "line": 5.5,
-       "over": 0.2352
+       "over": 0.2961
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.8452
+       "over": 0.7423
       },
       {
        "line": 4.5,
-       "over": 0.7095
+       "over": 0.6048
       },
       {
        "line": 5.5,
-       "over": 0.5478
+       "over": 0.474
       }
      ],
      "winner": {
-      "home": 0.2295,
-      "draw": 0.1085,
-      "away": 0.662
+      "home": 0.3272,
+      "away": 0.5726,
+      "draw": 0.1002
      },
      "sample": 1120
     },
@@ -11557,43 +11684,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.6927,
-       "under": 0.3073
+       "over": 0.7268,
+       "under": 0.2732
       },
       {
        "line": 3.5,
-       "over": 0.4828,
-       "under": 0.5172
+       "over": 0.5378,
+       "under": 0.4622
       },
       {
        "line": 4.5,
-       "over": 0.2949,
-       "under": 0.7051
+       "over": 0.3496,
+       "under": 0.6504
       },
       {
        "line": 5.5,
-       "over": 0.1591,
-       "under": 0.8409
+       "over": 0.1969,
+       "under": 0.8031
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.4646
+       "over": 0.506
       },
       {
        "line": 2.5,
-       "over": 0.2084
+       "over": 0.2397
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.6027
+       "over": 0.6311
       },
       {
        "line": 2.5,
-       "over": 0.3321
+       "over": 0.3577
       }
      ],
      "sample": 1120
@@ -11604,19 +11731,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -11750,57 +11877,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.7053,
-       "under": 0.2947
+       "over": 0.6977,
+       "under": 0.3023
       },
       {
        "line": 9.5,
-       "over": 0.5899,
-       "under": 0.4101
+       "over": 0.5865,
+       "under": 0.4135
       },
       {
        "line": 10.5,
-       "over": 0.4706,
-       "under": 0.5294
+       "over": 0.4721,
+       "under": 0.5279
       },
       {
        "line": 11.5,
-       "over": 0.3576,
-       "under": 0.6424
+       "over": 0.3477,
+       "under": 0.6523
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.8749
+       "over": 0.8097
       },
       {
        "line": 4.5,
-       "over": 0.7551
+       "over": 0.6842
       },
       {
        "line": 5.5,
-       "over": 0.6038
+       "over": 0.5512
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.5917
+       "over": 0.5679
       },
       {
        "line": 4.5,
-       "over": 0.3968
+       "over": 0.4035
       },
       {
        "line": 5.5,
-       "over": 0.2357
+       "over": 0.2735
       }
      ],
      "winner": {
-      "home": 0.6989,
-      "draw": 0.1003,
-      "away": 0.2008
+      "home": 0.6465,
+      "away": 0.2616,
+      "draw": 0.0919
      },
      "sample": 1120
     },
@@ -11813,43 +11940,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.7627,
-       "under": 0.2373
+       "over": 0.7598,
+       "under": 0.2402
       },
       {
        "line": 3.5,
-       "over": 0.5712,
-       "under": 0.4288
+       "over": 0.5794,
+       "under": 0.4206
       },
       {
        "line": 4.5,
-       "over": 0.3794,
-       "under": 0.6206
+       "over": 0.3894,
+       "under": 0.6106
       },
       {
        "line": 5.5,
-       "over": 0.2244,
-       "under": 0.7756
+       "over": 0.2275,
+       "under": 0.7725
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.4696
+       "over": 0.5087
       },
       {
        "line": 2.5,
-       "over": 0.2123
+       "over": 0.2419
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.7044
+       "over": 0.6879
       },
       {
        "line": 2.5,
-       "over": 0.4459
+       "over": 0.4212
       }
      ],
      "sample": 1120
@@ -11860,19 +11987,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -11988,57 +12115,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.4869,
-       "under": 0.5131
+       "over": 0.6038,
+       "under": 0.3962
       },
       {
        "line": 9.5,
-       "over": 0.3608,
-       "under": 0.6392
+       "over": 0.488,
+       "under": 0.512
       },
       {
        "line": 10.5,
-       "over": 0.2521,
-       "under": 0.7479
+       "over": 0.3781,
+       "under": 0.6219
       },
       {
        "line": 11.5,
-       "over": 0.1663,
-       "under": 0.8337
+       "over": 0.2654,
+       "under": 0.7346
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.5598
+       "over": 0.5793
       },
       {
        "line": 4.5,
-       "over": 0.3645
+       "over": 0.4113
       },
       {
        "line": 5.5,
-       "over": 0.2095
+       "over": 0.2771
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.6787
+       "over": 0.6257
       },
       {
        "line": 4.5,
-       "over": 0.4918
+       "over": 0.465
       },
       {
        "line": 5.5,
-       "over": 0.3189
+       "over": 0.3297
       }
      ],
      "winner": {
-      "home": 0.3445,
-      "draw": 0.135,
-      "away": 0.5205
+      "home": 0.4049,
+      "away": 0.4744,
+      "draw": 0.1207
      },
      "sample": 1120
     },
@@ -12051,43 +12178,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.8231,
-       "under": 0.1769
+       "over": 0.7881,
+       "under": 0.2119
       },
       {
        "line": 3.5,
-       "over": 0.6562,
-       "under": 0.3438
+       "over": 0.6193,
+       "under": 0.3807
       },
       {
        "line": 4.5,
-       "over": 0.4701,
-       "under": 0.5299
+       "over": 0.432,
+       "under": 0.568
       },
       {
        "line": 5.5,
-       "over": 0.3025,
-       "under": 0.6975
+       "over": 0.2643,
+       "under": 0.7357
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.6602
+       "over": 0.6152
       },
       {
        "line": 2.5,
-       "over": 0.3937
+       "over": 0.3434
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.66
+       "over": 0.6631
       },
       {
        "line": 2.5,
-       "over": 0.3936
+       "over": 0.392
       }
      ],
      "sample": 1120
@@ -12098,19 +12225,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -12238,57 +12365,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.5254,
-       "under": 0.4746
+       "over": 0.6145,
+       "under": 0.3855
       },
       {
        "line": 9.5,
-       "over": 0.4,
-       "under": 0.6
+       "over": 0.4927,
+       "under": 0.5073
       },
       {
        "line": 10.5,
-       "over": 0.2882,
-       "under": 0.7118
+       "over": 0.3809,
+       "under": 0.6191
       },
       {
        "line": 11.5,
-       "over": 0.1968,
-       "under": 0.8032
+       "over": 0.2866,
+       "under": 0.7134
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.5992
+       "over": 0.608
       },
       {
        "line": 4.5,
-       "over": 0.4046
+       "over": 0.4474
       },
       {
        "line": 5.5,
-       "over": 0.2422
+       "over": 0.3086
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.6949
+       "over": 0.6466
       },
       {
        "line": 4.5,
-       "over": 0.5108
+       "over": 0.483
       },
       {
        "line": 5.5,
-       "over": 0.3366
+       "over": 0.3343
       }
      ],
      "winner": {
-      "home": 0.3601,
-      "draw": 0.1335,
-      "away": 0.5064
+      "home": 0.4131,
+      "away": 0.4684,
+      "draw": 0.1185
      },
      "sample": 1637
     },
@@ -12301,43 +12428,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.8843,
-       "under": 0.1157
+       "over": 0.809,
+       "under": 0.191
       },
       {
        "line": 3.5,
-       "over": 0.7524,
-       "under": 0.2476
+       "over": 0.6395,
+       "under": 0.3605
       },
       {
        "line": 4.5,
-       "over": 0.5845,
-       "under": 0.4155
+       "over": 0.4602,
+       "under": 0.5398
       },
       {
        "line": 5.5,
-       "over": 0.4125,
-       "under": 0.5875
+       "over": 0.2994,
+       "under": 0.7006
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.6726
+       "over": 0.6082
       },
       {
        "line": 2.5,
-       "over": 0.4079
+       "over": 0.338
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.7773
+       "over": 0.72
       },
       {
        "line": 2.5,
-       "over": 0.5424
+       "over": 0.4588
       }
      ],
      "sample": 1637
@@ -12348,19 +12475,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -12494,57 +12621,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.7534,
-       "under": 0.2466
+       "over": 0.7126,
+       "under": 0.2874
       },
       {
        "line": 9.5,
-       "over": 0.6482,
-       "under": 0.3518
+       "over": 0.5994,
+       "under": 0.4006
       },
       {
        "line": 10.5,
-       "over": 0.5347,
-       "under": 0.4653
+       "over": 0.4869,
+       "under": 0.5131
       },
       {
        "line": 11.5,
-       "over": 0.4222,
-       "under": 0.5778
+       "over": 0.3835,
+       "under": 0.6165
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.8158
+       "over": 0.7594
       },
       {
        "line": 4.5,
-       "over": 0.6669
+       "over": 0.6213
       },
       {
        "line": 5.5,
-       "over": 0.4984
+       "over": 0.4793
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.7811
+       "over": 0.7083
       },
       {
        "line": 4.5,
-       "over": 0.6192
+       "over": 0.5563
       },
       {
        "line": 5.5,
-       "over": 0.4458
+       "over": 0.4079
       }
      ],
      "winner": {
-      "home": 0.4758,
-      "draw": 0.1212,
-      "away": 0.403
+      "home": 0.4929,
+      "away": 0.403,
+      "draw": 0.1041
      },
      "sample": 1637
     },
@@ -12557,43 +12684,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.6301,
-       "under": 0.3699
+       "over": 0.6895,
+       "under": 0.3105
       },
       {
        "line": 3.5,
-       "over": 0.4107,
-       "under": 0.5893
+       "over": 0.4789,
+       "under": 0.5211
       },
       {
        "line": 4.5,
-       "over": 0.2321,
-       "under": 0.7679
+       "over": 0.2946,
+       "under": 0.7054
       },
       {
        "line": 5.5,
-       "over": 0.1149,
-       "under": 0.8851
+       "over": 0.1596,
+       "under": 0.8404
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.5597
+       "over": 0.5451
       },
       {
        "line": 2.5,
-       "over": 0.2901
+       "over": 0.2722
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.4031
+       "over": 0.5108
       },
       {
        "line": 2.5,
-       "over": 0.163
+       "over": 0.2468
       }
      ],
      "sample": 1637
@@ -12604,19 +12731,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -12719,57 +12846,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.9208,
-       "under": 0.0792
+       "over": 0.7845,
+       "under": 0.2155
       },
       {
        "line": 9.5,
-       "over": 0.8684,
-       "under": 0.1316
+       "over": 0.6941,
+       "under": 0.3059
       },
       {
        "line": 10.5,
-       "over": 0.7991,
-       "under": 0.2009
+       "over": 0.6006,
+       "under": 0.3994
       },
       {
        "line": 11.5,
-       "over": 0.7147,
-       "under": 0.2853
+       "over": 0.5093,
+       "under": 0.4907
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.9898
+       "over": 0.919
       },
       {
        "line": 4.5,
-       "over": 0.971
+       "over": 0.8587
       },
       {
        "line": 5.5,
-       "over": 0.9335
+       "over": 0.7826
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.5475
+       "over": 0.5439
       },
       {
        "line": 4.5,
-       "over": 0.3523
+       "over": 0.3745
       },
       {
        "line": 5.5,
-       "over": 0.2
+       "over": 0.2372
       }
      ],
      "winner": {
-      "home": 0.9382,
-      "draw": 0.0277,
-      "away": 0.0341
+      "home": 0.8209,
+      "away": 0.139,
+      "draw": 0.0401
      },
      "sample": 1637
     },
@@ -12782,43 +12909,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.8116,
-       "under": 0.1884
+       "over": 0.7748,
+       "under": 0.2252
       },
       {
        "line": 3.5,
-       "over": 0.6384,
-       "under": 0.3616
+       "over": 0.5859,
+       "under": 0.4141
       },
       {
        "line": 4.5,
-       "over": 0.4493,
-       "under": 0.5507
+       "over": 0.3967,
+       "under": 0.6033
       },
       {
        "line": 5.5,
-       "over": 0.2831,
-       "under": 0.7169
+       "over": 0.2386,
+       "under": 0.7614
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.3146
+       "over": 0.4081
       },
       {
        "line": 2.5,
-       "over": 0.1072
+       "over": 0.1698
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.8379
+       "over": 0.7539
       },
       {
        "line": 2.5,
-       "over": 0.6349
+       "over": 0.5104
       }
      ],
      "sample": 1637
@@ -12829,19 +12956,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -12975,57 +13102,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.6843,
-       "under": 0.3157
+       "over": 0.6828,
+       "under": 0.3172
       },
       {
        "line": 9.5,
-       "over": 0.5679,
-       "under": 0.4321
+       "over": 0.5649,
+       "under": 0.4351
       },
       {
        "line": 10.5,
-       "over": 0.4498,
-       "under": 0.5502
+       "over": 0.4504,
+       "under": 0.5496
       },
       {
        "line": 11.5,
-       "over": 0.3397,
-       "under": 0.6603
+       "over": 0.348,
+       "under": 0.652
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.753
+       "over": 0.7141
       },
       {
        "line": 4.5,
-       "over": 0.5823
+       "over": 0.5653
       },
       {
        "line": 5.5,
-       "over": 0.4072
+       "over": 0.4203
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.755
+       "over": 0.6893
       },
       {
        "line": 4.5,
-       "over": 0.5849
+       "over": 0.5331
       },
       {
        "line": 5.5,
-       "over": 0.4098
+       "over": 0.3839
       }
      ],
      "winner": {
-      "home": 0.4352,
-      "draw": 0.126,
-      "away": 0.4388
+      "home": 0.4656,
+      "away": 0.4252,
+      "draw": 0.1092
      },
      "sample": 1637
     },
@@ -13038,43 +13165,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.7686,
-       "under": 0.2314
+       "over": 0.7546,
+       "under": 0.2454
       },
       {
        "line": 3.5,
-       "over": 0.5782,
-       "under": 0.4218
+       "over": 0.5576,
+       "under": 0.4424
       },
       {
        "line": 4.5,
-       "over": 0.3856,
-       "under": 0.6144
+       "over": 0.3667,
+       "under": 0.6333
       },
       {
        "line": 5.5,
-       "over": 0.2287,
-       "under": 0.7713
+       "over": 0.213,
+       "under": 0.787
       }
      ],
      "home": [
-      {
-       "line": 1.5,
-       "over": 0.6254
-      },
-      {
-       "line": 2.5,
-       "over": 0.3556
-      }
-     ],
-     "away": [
       {
        "line": 1.5,
        "over": 0.5818
       },
       {
        "line": 2.5,
-       "over": 0.3112
+       "over": 0.3088
+      }
+     ],
+     "away": [
+      {
+       "line": 1.5,
+       "over": 0.6107
+      },
+      {
+       "line": 2.5,
+       "over": 0.3297
       }
      ],
      "sample": 1637
@@ -13085,19 +13212,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -13213,57 +13340,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.6111,
-       "under": 0.3889
+       "over": 0.6514,
+       "under": 0.3486
       },
       {
        "line": 9.5,
-       "over": 0.4879,
-       "under": 0.5121
+       "over": 0.5305,
+       "under": 0.4695
       },
       {
        "line": 10.5,
-       "over": 0.3702,
-       "under": 0.6298
+       "over": 0.4162,
+       "under": 0.5838
       },
       {
        "line": 11.5,
-       "over": 0.267,
-       "under": 0.733
+       "over": 0.3168,
+       "under": 0.6832
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.7722
+       "over": 0.7277
       },
       {
        "line": 4.5,
-       "over": 0.6073
+       "over": 0.5818
       },
       {
        "line": 5.5,
-       "over": 0.4331
+       "over": 0.4373
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.6275
+       "over": 0.5995
       },
       {
        "line": 4.5,
-       "over": 0.4346
+       "over": 0.4312
       },
       {
        "line": 5.5,
-       "over": 0.2677
+       "over": 0.2862
       }
      ],
      "winner": {
-      "home": 0.5571,
-      "draw": 0.1248,
-      "away": 0.3181
+      "home": 0.5473,
+      "away": 0.3418,
+      "draw": 0.1109
      },
      "sample": 1637
     },
@@ -13276,43 +13403,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.6795,
-       "under": 0.3205
+       "over": 0.7127,
+       "under": 0.2873
       },
       {
        "line": 3.5,
-       "over": 0.4663,
-       "under": 0.5337
+       "over": 0.5051,
+       "under": 0.4949
       },
       {
        "line": 4.5,
-       "over": 0.2794,
-       "under": 0.7206
+       "over": 0.3168,
+       "under": 0.6832
       },
       {
        "line": 5.5,
-       "over": 0.1474,
-       "under": 0.8526
+       "over": 0.1748,
+       "under": 0.8252
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.4946
+       "over": 0.5087
       },
       {
        "line": 2.5,
-       "over": 0.2326
+       "over": 0.24
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.5544
+       "over": 0.5954
       },
       {
        "line": 2.5,
-       "over": 0.2851
+       "over": 0.3151
       }
      ],
      "sample": 1637
@@ -13323,19 +13450,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -13451,57 +13578,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.609,
-       "under": 0.391
+       "over": 0.6505,
+       "under": 0.3495
       },
       {
        "line": 9.5,
-       "over": 0.4856,
-       "under": 0.5144
+       "over": 0.5295,
+       "under": 0.4705
       },
       {
        "line": 10.5,
-       "over": 0.368,
-       "under": 0.632
+       "over": 0.4152,
+       "under": 0.5848
       },
       {
        "line": 11.5,
-       "over": 0.2651,
-       "under": 0.7349
+       "over": 0.316,
+       "under": 0.684
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.7954
+       "over": 0.7444
       },
       {
        "line": 4.5,
-       "over": 0.6385
+       "over": 0.6024
       },
       {
        "line": 5.5,
-       "over": 0.4667
+       "over": 0.459
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.5884
+       "over": 0.5723
       },
       {
        "line": 4.5,
-       "over": 0.3934
+       "over": 0.4029
       },
       {
        "line": 5.5,
-       "over": 0.2329
+       "over": 0.2613
       }
      ],
      "winner": {
-      "home": 0.6085,
-      "draw": 0.1192,
-      "away": 0.2723
+      "home": 0.5821,
+      "away": 0.3102,
+      "draw": 0.1077
      },
      "sample": 1637
     },
@@ -13514,43 +13641,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.6601,
-       "under": 0.3399
+       "over": 0.7036,
+       "under": 0.2964
       },
       {
        "line": 3.5,
-       "over": 0.444,
-       "under": 0.556
+       "over": 0.4946,
+       "under": 0.5054
       },
       {
        "line": 4.5,
-       "over": 0.26,
-       "under": 0.74
+       "over": 0.3077,
+       "under": 0.6923
       },
       {
        "line": 5.5,
-       "over": 0.1338,
-       "under": 0.8662
+       "over": 0.1684,
+       "under": 0.8316
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.5882
+       "over": 0.5611
       },
       {
        "line": 2.5,
-       "over": 0.3176
+       "over": 0.2875
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.4209
+       "over": 0.5208
       },
       {
        "line": 2.5,
-       "over": 0.1755
+       "over": 0.2538
       }
      ],
      "sample": 1637
@@ -13561,19 +13688,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -13707,57 +13834,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.7382,
-       "under": 0.2618
+       "over": 0.706,
+       "under": 0.294
       },
       {
        "line": 9.5,
-       "over": 0.6301,
-       "under": 0.3699
+       "over": 0.5916,
+       "under": 0.4084
       },
       {
        "line": 10.5,
-       "over": 0.5151,
-       "under": 0.4849
+       "over": 0.4784,
+       "under": 0.5216
       },
       {
        "line": 11.5,
-       "over": 0.4027,
-       "under": 0.5973
+       "over": 0.3751,
+       "under": 0.6249
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.818
+       "over": 0.761
       },
       {
        "line": 4.5,
-       "over": 0.67
+       "over": 0.6234
       },
       {
        "line": 5.5,
-       "over": 0.5018
+       "over": 0.4816
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.7567
+       "over": 0.6906
       },
       {
        "line": 4.5,
-       "over": 0.5871
+       "over": 0.5346
       },
       {
        "line": 5.5,
-       "over": 0.4121
+       "over": 0.3854
       }
      ],
      "winner": {
-      "home": 0.5016,
-      "draw": 0.1212,
-      "away": 0.3772
+      "home": 0.5099,
+      "away": 0.3854,
+      "draw": 0.1047
      },
      "sample": 1637
     },
@@ -13770,43 +13897,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.5749,
-       "under": 0.4251
+       "over": 0.6636,
+       "under": 0.3364
       },
       {
        "line": 3.5,
-       "over": 0.3531,
-       "under": 0.6469
+       "over": 0.4519,
+       "under": 0.5481
       },
       {
        "line": 4.5,
-       "over": 0.1867,
-       "under": 0.8133
+       "over": 0.2733,
+       "under": 0.7267
       },
       {
        "line": 5.5,
-       "over": 0.0861,
-       "under": 0.9139
+       "over": 0.146,
+       "under": 0.854
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.5205
+       "over": 0.5232
       },
       {
        "line": 2.5,
-       "over": 0.2546
+       "over": 0.2523
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.3579
+       "over": 0.4855
       },
       {
        "line": 2.5,
-       "over": 0.1331
+       "over": 0.23
       }
      ],
      "sample": 1637
@@ -13817,19 +13944,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -13963,57 +14090,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.6451,
-       "under": 0.3549
+       "over": 0.6138,
+       "under": 0.3862
       },
       {
        "line": 9.5,
-       "over": 0.5236,
-       "under": 0.4764
+       "over": 0.494,
+       "under": 0.506
       },
       {
        "line": 10.5,
-       "over": 0.4043,
-       "under": 0.5957
+       "over": 0.3807,
+       "under": 0.6193
       },
       {
        "line": 11.5,
-       "over": 0.2969,
-       "under": 0.7031
+       "over": 0.2785,
+       "under": 0.7215
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.6771
+       "over": 0.6469
       },
       {
        "line": 4.5,
-       "over": 0.4899
+       "over": 0.4877
       },
       {
        "line": 5.5,
-       "over": 0.3172
+       "over": 0.3442
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.7718
+       "over": 0.6966
       },
       {
        "line": 4.5,
-       "over": 0.6068
+       "over": 0.5377
       },
       {
        "line": 5.5,
-       "over": 0.4326
+       "over": 0.3919
       }
      ],
      "winner": {
-      "home": 0.3549,
-      "draw": 0.1259,
-      "away": 0.5192
+      "home": 0.4067,
+      "away": 0.483,
+      "draw": 0.1103
      },
      "sample": 1130
     },
@@ -14026,43 +14153,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.8013,
-       "under": 0.1987
+       "over": 0.8049,
+       "under": 0.1951
       },
       {
        "line": 3.5,
-       "over": 0.6374,
-       "under": 0.3626
+       "over": 0.6467,
+       "under": 0.3533
       },
       {
        "line": 4.5,
-       "over": 0.463,
-       "under": 0.537
+       "over": 0.476,
+       "under": 0.524
       },
       {
        "line": 5.5,
-       "over": 0.3083,
-       "under": 0.6917
+       "over": 0.3226,
+       "under": 0.6774
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.6201
+       "over": 0.6397
       },
       {
        "line": 2.5,
-       "over": 0.35
+       "over": 0.372
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.6972
+       "over": 0.6919
       },
       {
        "line": 2.5,
-       "over": 0.4371
+       "over": 0.431
       }
      ],
      "sample": 1130
@@ -14073,19 +14200,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -14219,57 +14346,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.8571,
-       "under": 0.1429
+       "over": 0.7663,
+       "under": 0.2337
       },
       {
        "line": 9.5,
-       "over": 0.7769,
-       "under": 0.2231
+       "over": 0.6562,
+       "under": 0.3438
       },
       {
        "line": 10.5,
-       "over": 0.6798,
-       "under": 0.3202
+       "over": 0.5538,
+       "under": 0.4462
       },
       {
        "line": 11.5,
-       "over": 0.5722,
-       "under": 0.4278
+       "over": 0.4461,
+       "under": 0.5539
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.9439
+       "over": 0.8731
       },
       {
        "line": 4.5,
-       "over": 0.8737
+       "over": 0.7805
       },
       {
        "line": 5.5,
-       "over": 0.7673
+       "over": 0.6669
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.7008
+       "over": 0.6372
       },
       {
        "line": 4.5,
-       "over": 0.5177
+       "over": 0.4832
       },
       {
        "line": 5.5,
-       "over": 0.3433
+       "over": 0.3418
       }
      ],
      "winner": {
-      "home": 0.7454,
-      "draw": 0.0841,
-      "away": 0.1705
+      "home": 0.6803,
+      "away": 0.242,
+      "draw": 0.0777
      },
      "sample": 920
     },
@@ -14282,43 +14409,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.5413,
-       "under": 0.4587
+       "over": 0.5713,
+       "under": 0.4287
       },
       {
        "line": 3.5,
-       "over": 0.3374,
-       "under": 0.6626
+       "over": 0.3608,
+       "under": 0.6392
       },
       {
        "line": 4.5,
-       "over": 0.1875,
-       "under": 0.8125
+       "over": 0.2097,
+       "under": 0.7903
       },
       {
        "line": 5.5,
-       "over": 0.0944,
-       "under": 0.9056
+       "over": 0.1118,
+       "under": 0.8882
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.4062
+       "over": 0.3984
       },
       {
        "line": 2.5,
-       "over": 0.1651
+       "over": 0.1702
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.4534
+       "over": 0.4868
       },
       {
        "line": 2.5,
-       "over": 0.1997
+       "over": 0.2231
       }
      ],
      "sample": 920
@@ -14329,19 +14456,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -14469,57 +14596,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.5839,
-       "under": 0.4161
+       "over": 0.5899,
+       "under": 0.4101
       },
       {
        "line": 9.5,
-       "over": 0.4597,
-       "under": 0.5403
+       "over": 0.465,
+       "under": 0.535
       },
       {
        "line": 10.5,
-       "over": 0.3437,
-       "under": 0.6563
+       "over": 0.356,
+       "under": 0.644
       },
       {
        "line": 11.5,
-       "over": 0.2441,
-       "under": 0.7559
+       "over": 0.2548,
+       "under": 0.7452
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.6722
+       "over": 0.6434
       },
       {
        "line": 4.5,
-       "over": 0.4843
+       "over": 0.479
       },
       {
        "line": 5.5,
-       "over": 0.312
+       "over": 0.3345
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.7046
+       "over": 0.641
       },
       {
        "line": 4.5,
-       "over": 0.5223
+       "over": 0.4837
       },
       {
        "line": 5.5,
-       "over": 0.3477
+       "over": 0.3446
       }
      ],
      "winner": {
-      "home": 0.4077,
-      "draw": 0.1318,
-      "away": 0.4604
+      "home": 0.4389,
+      "away": 0.4452,
+      "draw": 0.1159
      },
      "sample": 917
     },
@@ -14532,43 +14659,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.8781,
-       "under": 0.1219
+       "over": 0.8612,
+       "under": 0.1388
       },
       {
        "line": 3.5,
-       "over": 0.7574,
-       "under": 0.2426
+       "over": 0.7369,
+       "under": 0.2631
       },
       {
        "line": 4.5,
-       "over": 0.6098,
-       "under": 0.3902
+       "over": 0.5802,
+       "under": 0.4198
       },
       {
        "line": 5.5,
-       "over": 0.4582,
-       "under": 0.5418
+       "over": 0.4281,
+       "under": 0.5719
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.762
+       "over": 0.7329
       },
       {
        "line": 2.5,
-       "over": 0.521
+       "over": 0.4939
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.7577
+       "over": 0.7366
       },
       {
        "line": 2.5,
-       "over": 0.515
+       "over": 0.4962
       }
      ],
      "sample": 917
@@ -14579,19 +14706,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -14725,57 +14852,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.5561,
-       "under": 0.4439
+       "over": 0.5697,
+       "under": 0.4303
       },
       {
        "line": 9.5,
-       "over": 0.4357,
-       "under": 0.5643
+       "over": 0.4514,
+       "under": 0.5486
       },
       {
        "line": 10.5,
-       "over": 0.3253,
-       "under": 0.6747
+       "over": 0.34,
+       "under": 0.66
       },
       {
        "line": 11.5,
-       "over": 0.2318,
-       "under": 0.7682
+       "over": 0.2428,
+       "under": 0.7572
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.8384
+       "over": 0.76
       },
       {
        "line": 4.5,
-       "over": 0.6996
+       "over": 0.6225
       },
       {
        "line": 5.5,
-       "over": 0.536
+       "over": 0.4836
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.4213
+       "over": 0.4447
       },
       {
        "line": 4.5,
-       "over": 0.2388
+       "over": 0.2874
       },
       {
        "line": 5.5,
-       "over": 0.118
+       "over": 0.1737
       }
      ],
      "winner": {
-      "home": 0.7544,
-      "draw": 0.0942,
-      "away": 0.1514
+      "home": 0.68,
+      "away": 0.2281,
+      "draw": 0.0919
      },
      "sample": 900
     },
@@ -14788,43 +14915,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.8172,
-       "under": 0.1828
+       "over": 0.7934,
+       "under": 0.2066
       },
       {
        "line": 3.5,
-       "over": 0.6447,
-       "under": 0.3553
+       "over": 0.6075,
+       "under": 0.3925
       },
       {
        "line": 4.5,
-       "over": 0.4543,
-       "under": 0.5457
+       "over": 0.4131,
+       "under": 0.5869
       },
       {
        "line": 5.5,
-       "over": 0.2857,
-       "under": 0.7143
+       "over": 0.2373,
+       "under": 0.7627
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.6525
+       "over": 0.6163
       },
       {
        "line": 2.5,
-       "over": 0.3851
+       "over": 0.3373
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.6457
+       "over": 0.6448
       },
       {
        "line": 2.5,
-       "over": 0.3776
+       "over": 0.3659
       }
      ],
      "sample": 900
@@ -14835,19 +14962,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -14981,57 +15108,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.7051,
-       "under": 0.2949
+       "over": 0.6233,
+       "under": 0.3767
       },
       {
        "line": 9.5,
-       "over": 0.5962,
-       "under": 0.4038
+       "over": 0.5139,
+       "under": 0.4861
       },
       {
        "line": 10.5,
-       "over": 0.484,
-       "under": 0.516
+       "over": 0.4035,
+       "under": 0.5965
       },
       {
        "line": 11.5,
-       "over": 0.3769,
-       "under": 0.6231
+       "over": 0.298,
+       "under": 0.702
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.957
+       "over": 0.8579
       },
       {
        "line": 4.5,
-       "over": 0.899
+       "over": 0.766
       },
       {
        "line": 5.5,
-       "over": 0.8067
+       "over": 0.6636
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.2685
+       "over": 0.3321
       },
       {
        "line": 4.5,
-       "over": 0.1255
+       "over": 0.1973
       },
       {
        "line": 5.5,
-       "over": 0.0506
+       "over": 0.1116
       }
      ],
      "winner": {
-      "home": 0.9381,
-      "draw": 0.0313,
-      "away": 0.0306
+      "home": 0.8223,
+      "away": 0.1331,
+      "draw": 0.0446
      },
      "sample": 1120
     },
@@ -15044,43 +15171,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.6365,
-       "under": 0.3635
+       "over": 0.7075,
+       "under": 0.2925
       },
       {
        "line": 3.5,
-       "over": 0.4182,
-       "under": 0.5818
+       "over": 0.5041,
+       "under": 0.4959
       },
       {
        "line": 4.5,
-       "over": 0.2387,
-       "under": 0.7613
+       "over": 0.3195,
+       "under": 0.6805
       },
       {
        "line": 5.5,
-       "over": 0.1197,
-       "under": 0.8803
+       "over": 0.1783,
+       "under": 0.8217
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.4594
+       "over": 0.5058
       },
       {
        "line": 2.5,
-       "over": 0.2043
+       "over": 0.2398
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.5208
+       "over": 0.5814
       },
       {
        "line": 2.5,
-       "over": 0.2549
+       "over": 0.3047
       }
      ],
      "sample": 1120
@@ -15091,19 +15218,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -15213,57 +15340,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.6331,
-       "under": 0.3669
+       "over": 0.6469,
+       "under": 0.3531
       },
       {
        "line": 9.5,
-       "over": 0.5093,
-       "under": 0.4907
+       "over": 0.5197,
+       "under": 0.4803
       },
       {
        "line": 10.5,
-       "over": 0.389,
-       "under": 0.611
+       "over": 0.4119,
+       "under": 0.5881
       },
       {
        "line": 11.5,
-       "over": 0.282,
-       "under": 0.718
+       "over": 0.2907,
+       "under": 0.7093
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.5558
+       "over": 0.5829
       },
       {
        "line": 4.5,
-       "over": 0.3605
+       "over": 0.4117
       },
       {
        "line": 5.5,
-       "over": 0.2064
+       "over": 0.2685
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.8323
+       "over": 0.746
       },
       {
        "line": 4.5,
-       "over": 0.6906
+       "over": 0.6062
       },
       {
        "line": 5.5,
-       "over": 0.5255
+       "over": 0.4604
       }
      ],
      "winner": {
-      "home": 0.2213,
-      "draw": 0.1089,
-      "away": 0.6699
+      "home": 0.3176,
+      "away": 0.5804,
+      "draw": 0.102
      },
      "sample": 925
     },
@@ -15276,43 +15403,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.627,
-       "under": 0.373
+       "over": 0.6792,
+       "under": 0.3208
       },
       {
        "line": 3.5,
-       "over": 0.4182,
-       "under": 0.5818
+       "over": 0.4928,
+       "under": 0.5072
       },
       {
        "line": 4.5,
-       "over": 0.247,
-       "under": 0.753
+       "over": 0.3184,
+       "under": 0.6816
       },
       {
        "line": 5.5,
-       "over": 0.1309,
-       "under": 0.8691
+       "over": 0.1836,
+       "under": 0.8164
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.5982
+       "over": 0.5683
       },
       {
        "line": 2.5,
-       "over": 0.3276
+       "over": 0.3005
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.3723
+       "over": 0.4947
       },
       {
        "line": 2.5,
-       "over": 0.1423
+       "over": 0.2368
       }
      ],
      "sample": 925
@@ -15323,19 +15450,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -15469,57 +15596,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.6548,
-       "under": 0.3452
+       "over": 0.6366,
+       "under": 0.3634
       },
       {
        "line": 9.5,
-       "over": 0.5337,
-       "under": 0.4663
+       "over": 0.5268,
+       "under": 0.4732
       },
       {
        "line": 10.5,
-       "over": 0.4138,
-       "under": 0.5862
+       "over": 0.4081,
+       "under": 0.5919
       },
       {
        "line": 11.5,
-       "over": 0.3051,
-       "under": 0.6949
+       "over": 0.303,
+       "under": 0.697
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.841
+       "over": 0.7857
       },
       {
        "line": 4.5,
-       "over": 0.7034
+       "over": 0.6482
       },
       {
        "line": 5.5,
-       "over": 0.5405
+       "over": 0.5063
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.5781
+       "over": 0.5582
       },
       {
        "line": 4.5,
-       "over": 0.3828
+       "over": 0.3859
       },
       {
        "line": 5.5,
-       "over": 0.2242
+       "over": 0.2452
       }
      ],
      "winner": {
-      "home": 0.6656,
-      "draw": 0.1085,
-      "away": 0.2259
+      "home": 0.628,
+      "away": 0.2708,
+      "draw": 0.1012
      },
      "sample": 899
     },
@@ -15532,43 +15659,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.6072,
-       "under": 0.3928
+       "over": 0.6804,
+       "under": 0.3196
       },
       {
        "line": 3.5,
-       "over": 0.402,
-       "under": 0.598
+       "over": 0.4925,
+       "under": 0.5075
       },
       {
        "line": 4.5,
-       "over": 0.2376,
-       "under": 0.7624
+       "over": 0.3156,
+       "under": 0.6844
       },
       {
        "line": 5.5,
-       "over": 0.1271,
-       "under": 0.8729
+       "over": 0.1877,
+       "under": 0.8123
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.4346
+       "over": 0.4851
       },
       {
        "line": 2.5,
-       "over": 0.1855
+       "over": 0.2437
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.5265
+       "over": 0.5711
       },
       {
        "line": 2.5,
-       "over": 0.2599
+       "over": 0.3116
       }
      ],
      "sample": 899
@@ -15579,19 +15706,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -15725,57 +15852,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.7637,
-       "under": 0.2363
+       "over": 0.7228,
+       "under": 0.2772
       },
       {
        "line": 9.5,
-       "over": 0.6588,
-       "under": 0.3412
+       "over": 0.6161,
+       "under": 0.3839
       },
       {
        "line": 10.5,
-       "over": 0.5443,
-       "under": 0.4557
+       "over": 0.5038,
+       "under": 0.4962
       },
       {
        "line": 11.5,
-       "over": 0.4299,
-       "under": 0.5701
+       "over": 0.3787,
+       "under": 0.6213
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.8123
+       "over": 0.7612
       },
       {
        "line": 4.5,
-       "over": 0.6619
+       "over": 0.6184
       },
       {
        "line": 5.5,
-       "over": 0.4927
+       "over": 0.4761
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.793
+       "over": 0.7042
       },
       {
        "line": 4.5,
-       "over": 0.6352
+       "over": 0.5566
       },
       {
        "line": 5.5,
-       "over": 0.4631
+       "over": 0.4215
       }
      ],
      "winner": {
-      "home": 0.46,
-      "draw": 0.1211,
-      "away": 0.4189
+      "home": 0.4861,
+      "away": 0.4107,
+      "draw": 0.1032
      },
      "sample": 1120
     },
@@ -15788,43 +15915,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.8131,
-       "under": 0.1869
+       "over": 0.7835,
+       "under": 0.2165
       },
       {
        "line": 3.5,
-       "over": 0.6415,
-       "under": 0.3585
+       "over": 0.6124,
+       "under": 0.3876
       },
       {
        "line": 4.5,
-       "over": 0.4537,
-       "under": 0.5463
+       "over": 0.4243,
+       "under": 0.5757
       },
       {
        "line": 5.5,
-       "over": 0.2878,
-       "under": 0.7122
+       "over": 0.2574,
+       "under": 0.7426
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.5334
+       "over": 0.5444
       },
       {
        "line": 2.5,
-       "over": 0.266
+       "over": 0.272
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.7416
+       "over": 0.7087
       },
       {
        "line": 2.5,
-       "over": 0.4933
+       "over": 0.4477
       }
      ],
      "sample": 1120
@@ -15835,19 +15962,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -15981,57 +16108,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.6826,
-       "under": 0.3174
+       "over": 0.63,
+       "under": 0.37
       },
       {
        "line": 9.5,
-       "over": 0.5651,
-       "under": 0.4349
+       "over": 0.5118,
+       "under": 0.4882
       },
       {
        "line": 10.5,
-       "over": 0.446,
-       "under": 0.554
+       "over": 0.3986,
+       "under": 0.6014
       },
       {
        "line": 11.5,
-       "over": 0.3354,
-       "under": 0.6646
+       "over": 0.295,
+       "under": 0.705
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.9353
+       "over": 0.8407
       },
       {
        "line": 4.5,
-       "over": 0.8576
+       "over": 0.7359
       },
       {
        "line": 5.5,
-       "over": 0.7433
+       "over": 0.6178
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.3263
+       "over": 0.3785
       },
       {
        "line": 4.5,
-       "over": 0.1652
+       "over": 0.2233
       },
       {
        "line": 5.5,
-       "over": 0.0725
+       "over": 0.126
       }
      ],
      "winner": {
-      "home": 0.8981,
-      "draw": 0.0475,
-      "away": 0.0544
+      "home": 0.7893,
+      "away": 0.1517,
+      "draw": 0.059
      },
      "sample": 1130
     },
@@ -16044,43 +16171,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.8419,
-       "under": 0.1581
+       "over": 0.8239,
+       "under": 0.1761
       },
       {
        "line": 3.5,
-       "over": 0.697,
-       "under": 0.303
+       "over": 0.6747,
+       "under": 0.3253
       },
       {
        "line": 4.5,
-       "over": 0.5314,
-       "under": 0.4686
+       "over": 0.5082,
+       "under": 0.4918
       },
       {
        "line": 5.5,
-       "over": 0.3737,
-       "under": 0.6263
+       "over": 0.3534,
+       "under": 0.6466
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.5229
+       "over": 0.5854
       },
       {
        "line": 2.5,
-       "over": 0.2567
+       "over": 0.3198
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.8269
+       "over": 0.7641
       },
       {
        "line": 2.5,
-       "over": 0.6171
+       "over": 0.5305
       }
      ],
      "sample": 1130
@@ -16091,19 +16218,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -16237,57 +16364,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.6318,
-       "under": 0.3682
+       "over": 0.6694,
+       "under": 0.3306
       },
       {
        "line": 9.5,
-       "over": 0.507,
-       "under": 0.493
+       "over": 0.5402,
+       "under": 0.4598
       },
       {
        "line": 10.5,
-       "over": 0.3859,
-       "under": 0.6141
+       "over": 0.4274,
+       "under": 0.5726
       },
       {
        "line": 11.5,
-       "over": 0.2785,
-       "under": 0.7215
+       "over": 0.3199,
+       "under": 0.6801
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.8472
+       "over": 0.7925
       },
       {
        "line": 4.5,
-       "over": 0.7125
+       "over": 0.6605
       },
       {
        "line": 5.5,
-       "over": 0.5514
+       "over": 0.5173
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.5189
+       "over": 0.5167
       },
       {
        "line": 4.5,
-       "over": 0.325
+       "over": 0.3579
       },
       {
        "line": 5.5,
-       "over": 0.179
+       "over": 0.2294
       }
      ],
      "winner": {
-      "home": 0.709,
-      "draw": 0.1017,
-      "away": 0.1893
+      "home": 0.659,
+      "away": 0.2466,
+      "draw": 0.0944
      },
      "sample": 920
     },
@@ -16300,43 +16427,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.5462,
-       "under": 0.4538
+       "over": 0.5736,
+       "under": 0.4264
       },
       {
        "line": 3.5,
-       "over": 0.3422,
-       "under": 0.6578
+       "over": 0.3631,
+       "under": 0.6369
       },
       {
        "line": 4.5,
-       "over": 0.1913,
-       "under": 0.8087
+       "over": 0.2115,
+       "under": 0.7885
       },
       {
        "line": 5.5,
-       "over": 0.0969,
-       "under": 0.9031
+       "over": 0.113,
+       "under": 0.887
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.3473
+       "over": 0.3658
       },
       {
        "line": 2.5,
-       "over": 0.1265
+       "over": 0.1487
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.5142
+       "over": 0.5206
       },
       {
        "line": 2.5,
-       "over": 0.2491
+       "over": 0.2507
       }
      ],
      "sample": 920
@@ -16347,19 +16474,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -16487,57 +16614,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.3222,
-       "under": 0.6778
+       "over": 0.4773,
+       "under": 0.5227
       },
       {
        "line": 9.5,
-       "over": 0.2152,
-       "under": 0.7848
+       "over": 0.3598,
+       "under": 0.6402
       },
       {
        "line": 10.5,
-       "over": 0.135,
-       "under": 0.865
+       "over": 0.2663,
+       "under": 0.7337
       },
       {
        "line": 11.5,
-       "over": 0.0798,
-       "under": 0.9202
+       "over": 0.1841,
+       "under": 0.8159
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.2128
+       "over": 0.3172
       },
       {
        "line": 4.5,
-       "over": 0.0908
+       "over": 0.1928
       },
       {
        "line": 5.5,
-       "over": 0.0333
+       "over": 0.1176
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.7348
+       "over": 0.6621
       },
       {
        "line": 4.5,
-       "over": 0.5593
+       "over": 0.5081
       },
       {
        "line": 5.5,
-       "over": 0.3838
+       "over": 0.3686
       }
      ],
      "winner": {
-      "home": 0.1181,
-      "draw": 0.0952,
-      "away": 0.7867
+      "home": 0.2219,
+      "away": 0.6796,
+      "draw": 0.0985
      },
      "sample": 917
     },
@@ -16550,43 +16677,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.7616,
-       "under": 0.2384
+       "over": 0.8065,
+       "under": 0.1935
       },
       {
        "line": 3.5,
-       "over": 0.5864,
-       "under": 0.4136
+       "over": 0.6565,
+       "under": 0.3435
       },
       {
        "line": 4.5,
-       "over": 0.4116,
-       "under": 0.5884
+       "over": 0.4871,
+       "under": 0.5129
       },
       {
        "line": 5.5,
-       "over": 0.2651,
-       "under": 0.7349
+       "over": 0.3373,
+       "under": 0.6627
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.6292
+       "over": 0.6586
       },
       {
        "line": 2.5,
-       "over": 0.3597
+       "over": 0.4039
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.6206
+       "over": 0.6616
       },
       {
        "line": 2.5,
-       "over": 0.3506
+       "over": 0.4071
       }
      ],
      "sample": 917
@@ -16597,19 +16724,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -17609,57 +17736,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.6675,
-       "under": 0.3325
+       "over": 0.6848,
+       "under": 0.3152
       },
       {
        "line": 9.5,
-       "over": 0.5461,
-       "under": 0.4539
+       "over": 0.557,
+       "under": 0.443
       },
       {
        "line": 10.5,
-       "over": 0.4247,
-       "under": 0.5753
+       "over": 0.4441,
+       "under": 0.5559
       },
       {
        "line": 11.5,
-       "over": 0.3136,
-       "under": 0.6864
+       "over": 0.335,
+       "under": 0.665
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.4633
+       "over": 0.5137
       },
       {
        "line": 4.5,
-       "over": 0.2745
+       "over": 0.3508
       },
       {
        "line": 5.5,
-       "over": 0.1423
+       "over": 0.2252
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.8925
+       "over": 0.7757
       },
       {
        "line": 4.5,
-       "over": 0.7834
+       "over": 0.6554
       },
       {
        "line": 5.5,
-       "over": 0.6403
+       "over": 0.5266
       }
      ],
      "winner": {
-      "home": 0.1268,
-      "draw": 0.081,
-      "away": 0.7922
+      "home": 0.2523,
+      "away": 0.6637,
+      "draw": 0.084
      },
      "sample": 920
     },
@@ -17672,43 +17799,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.6177,
-       "under": 0.3823
+       "over": 0.6072,
+       "under": 0.3928
       },
       {
        "line": 3.5,
-       "over": 0.4162,
-       "under": 0.5838
+       "over": 0.3978,
+       "under": 0.6022
       },
       {
        "line": 4.5,
-       "over": 0.2521,
-       "under": 0.7479
+       "over": 0.24,
+       "under": 0.76
       },
       {
        "line": 5.5,
-       "over": 0.139,
-       "under": 0.861
+       "over": 0.1327,
+       "under": 0.8673
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.5948
+       "over": 0.5027
       },
       {
        "line": 2.5,
-       "over": 0.3242
+       "over": 0.2585
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.3785
+       "over": 0.4451
       },
       {
        "line": 2.5,
-       "over": 0.1464
+       "over": 0.1933
       }
      ],
      "sample": 920
@@ -17719,19 +17846,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -17859,57 +17986,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.6714,
-       "under": 0.3286
+       "over": 0.6634,
+       "under": 0.3366
       },
       {
        "line": 9.5,
-       "over": 0.5513,
-       "under": 0.4487
+       "over": 0.5378,
+       "under": 0.4622
       },
       {
        "line": 10.5,
-       "over": 0.4307,
-       "under": 0.5693
+       "over": 0.4299,
+       "under": 0.5701
       },
       {
        "line": 11.5,
-       "over": 0.32,
-       "under": 0.68
+       "over": 0.3071,
+       "under": 0.6929
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.8234
+       "over": 0.7757
       },
       {
        "line": 4.5,
-       "over": 0.6777
+       "over": 0.6321
       },
       {
        "line": 5.5,
-       "over": 0.5106
+       "over": 0.4814
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.6373
+       "over": 0.6063
       },
       {
        "line": 4.5,
-       "over": 0.4452
+       "over": 0.4403
       },
       {
        "line": 5.5,
-       "over": 0.2769
+       "over": 0.2931
       }
      ],
      "winner": {
-      "home": 0.6047,
-      "draw": 0.1166,
-      "away": 0.2787
+      "home": 0.5858,
+      "away": 0.3088,
+      "draw": 0.1054
      },
      "sample": 925
     },
@@ -17922,43 +18049,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.6282,
-       "under": 0.3718
+       "over": 0.6797,
+       "under": 0.3203
       },
       {
        "line": 3.5,
-       "over": 0.4194,
-       "under": 0.5806
+       "over": 0.4933,
+       "under": 0.5067
       },
       {
        "line": 4.5,
-       "over": 0.2481,
-       "under": 0.7519
+       "over": 0.3189,
+       "under": 0.6811
       },
       {
        "line": 5.5,
-       "over": 0.1317,
-       "under": 0.8683
+       "over": 0.1839,
+       "under": 0.8161
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.3041
+       "over": 0.4038
       },
       {
        "line": 2.5,
-       "over": 0.1013
+       "over": 0.1739
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.648
+       "over": 0.6489
       },
       {
        "line": 2.5,
-       "over": 0.3801
+       "over": 0.3697
       }
      ],
      "sample": 925
@@ -17969,19 +18096,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -18109,57 +18236,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.5534,
-       "under": 0.4466
+       "over": 0.6126,
+       "under": 0.3874
       },
       {
        "line": 9.5,
-       "over": 0.426,
-       "under": 0.574
+       "over": 0.4839,
+       "under": 0.5161
       },
       {
        "line": 10.5,
-       "over": 0.3101,
-       "under": 0.6899
+       "over": 0.378,
+       "under": 0.622
       },
       {
        "line": 11.5,
-       "over": 0.2135,
-       "under": 0.7865
+       "over": 0.2613,
+       "under": 0.7387
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.798
+       "over": 0.7566
       },
       {
        "line": 4.5,
-       "over": 0.6421
+       "over": 0.6073
       },
       {
        "line": 5.5,
-       "over": 0.4707
+       "over": 0.4544
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.4865
+       "over": 0.5017
       },
       {
        "line": 4.5,
-       "over": 0.2951
+       "over": 0.3362
       },
       {
        "line": 5.5,
-       "over": 0.157
+       "over": 0.2052
       }
      ],
      "winner": {
-      "home": 0.677,
-      "draw": 0.1113,
-      "away": 0.2118
+      "home": 0.6376,
+      "away": 0.2579,
+      "draw": 0.1045
      },
      "sample": 925
     },
@@ -18172,43 +18299,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.7537,
-       "under": 0.2463
+       "over": 0.7387,
+       "under": 0.2613
       },
       {
        "line": 3.5,
-       "over": 0.57,
-       "under": 0.43
+       "over": 0.5641,
+       "under": 0.4359
       },
       {
        "line": 4.5,
-       "over": 0.3887,
-       "under": 0.6113
+       "over": 0.385,
+       "under": 0.615
       },
       {
        "line": 5.5,
-       "over": 0.2406,
-       "under": 0.7594
+       "over": 0.2351,
+       "under": 0.7649
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.4222
+       "over": 0.4699
       },
       {
        "line": 2.5,
-       "over": 0.1765
+       "over": 0.216
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.7436
+       "over": 0.7023
       },
       {
        "line": 2.5,
-       "over": 0.496
+       "over": 0.4345
       }
      ],
      "sample": 925
@@ -18219,19 +18346,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -18333,57 +18460,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.7614,
-       "under": 0.2386
+       "over": 0.658,
+       "under": 0.342
       },
       {
        "line": 9.5,
-       "over": 0.6626,
-       "under": 0.3374
+       "over": 0.549,
+       "under": 0.451
       },
       {
        "line": 10.5,
-       "over": 0.5557,
-       "under": 0.4443
+       "over": 0.4391,
+       "under": 0.5609
       },
       {
        "line": 11.5,
-       "over": 0.4486,
-       "under": 0.5514
+       "over": 0.336,
+       "under": 0.664
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.9882
+       "over": 0.9
       },
       {
        "line": 4.5,
-       "over": 0.9672
+       "over": 0.8335
       },
       {
        "line": 5.5,
-       "over": 0.9259
+       "over": 0.7561
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.0586
+       "over": 0.1755
       },
       {
        "line": 4.5,
-       "over": 0.016
+       "over": 0.1054
       },
       {
        "line": 5.5,
-       "over": 0.0037
+       "over": 0.0651
       }
      ],
      "winner": {
-      "home": 0.9947,
-      "draw": 0.0035,
-      "away": 0.0018
+      "home": 0.8921,
+      "away": 0.097,
+      "draw": 0.0109
      },
      "sample": 900
     },
@@ -18396,43 +18523,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.6049,
-       "under": 0.3951
+       "over": 0.6936,
+       "under": 0.3064
       },
       {
        "line": 3.5,
-       "over": 0.3821,
-       "under": 0.6179
+       "over": 0.4841,
+       "under": 0.5159
       },
       {
        "line": 4.5,
-       "over": 0.2078,
-       "under": 0.7922
+       "over": 0.2973,
+       "under": 0.7027
       },
       {
        "line": 5.5,
-       "over": 0.0984,
-       "under": 0.9016
+       "over": 0.1493,
+       "under": 0.8507
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.4216
+       "over": 0.4873
       },
       {
        "line": 2.5,
-       "over": 0.1761
+       "over": 0.2204
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.5044
+       "over": 0.5658
       },
       {
        "line": 2.5,
-       "over": 0.2408
+       "over": 0.2894
       }
      ],
      "sample": 900
@@ -18443,19 +18570,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -18589,57 +18716,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.5572,
-       "under": 0.4428
+       "over": 0.5702,
+       "under": 0.4298
       },
       {
        "line": 9.5,
-       "over": 0.4368,
-       "under": 0.5632
+       "over": 0.4519,
+       "under": 0.5481
       },
       {
        "line": 10.5,
-       "over": 0.3264,
-       "under": 0.6736
+       "over": 0.3405,
+       "under": 0.6595
       },
       {
        "line": 11.5,
-       "over": 0.2327,
-       "under": 0.7673
+       "over": 0.2432,
+       "under": 0.7568
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.8003
+       "over": 0.7317
       },
       {
        "line": 4.5,
-       "over": 0.6452
+       "over": 0.5861
       },
       {
        "line": 5.5,
-       "over": 0.474
+       "over": 0.4437
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.503
+       "over": 0.4999
       },
       {
        "line": 4.5,
-       "over": 0.3102
+       "over": 0.3373
       },
       {
        "line": 5.5,
-       "over": 0.168
+       "over": 0.2124
       }
      ],
      "winner": {
-      "home": 0.669,
-      "draw": 0.1122,
-      "away": 0.2189
+      "home": 0.6202,
+      "away": 0.2767,
+      "draw": 0.1031
      },
      "sample": 900
     },
@@ -18652,43 +18779,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.7622,
-       "under": 0.2378
+       "over": 0.7675,
+       "under": 0.2325
       },
       {
        "line": 3.5,
-       "over": 0.5678,
-       "under": 0.4322
+       "over": 0.5713,
+       "under": 0.4287
       },
       {
        "line": 4.5,
-       "over": 0.3732,
-       "under": 0.6268
+       "over": 0.375,
+       "under": 0.625
       },
       {
        "line": 5.5,
-       "over": 0.2171,
-       "under": 0.7829
+       "over": 0.2051,
+       "under": 0.7949
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.5733
+       "over": 0.572
       },
       {
        "line": 2.5,
-       "over": 0.303
+       "over": 0.2914
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.6166
+       "over": 0.6285
       },
       {
        "line": 2.5,
-       "over": 0.3464
+       "over": 0.3485
       }
      ],
      "sample": 900
@@ -18699,19 +18826,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -18827,57 +18954,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.4368,
-       "under": 0.5632
+       "over": 0.5184,
+       "under": 0.4816
       },
       {
        "line": 9.5,
-       "over": 0.3197,
-       "under": 0.6803
+       "over": 0.4016,
+       "under": 0.5984
       },
       {
        "line": 10.5,
-       "over": 0.222,
-       "under": 0.778
+       "over": 0.2956,
+       "under": 0.7044
       },
       {
        "line": 11.5,
-       "over": 0.1465,
-       "under": 0.8535
+       "over": 0.2061,
+       "under": 0.7939
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.5716
+       "over": 0.5727
       },
       {
        "line": 4.5,
-       "over": 0.3763
+       "over": 0.4071
       },
       {
        "line": 5.5,
-       "over": 0.219
+       "over": 0.2717
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.6054
+       "over": 0.5685
       },
       {
        "line": 4.5,
-       "over": 0.4111
+       "over": 0.4051
       },
       {
        "line": 5.5,
-       "over": 0.2476
+       "over": 0.2699
       }
      ],
      "winner": {
-      "home": 0.4051,
-      "draw": 0.1411,
-      "away": 0.4539
+      "home": 0.4423,
+      "away": 0.4333,
+      "draw": 0.1244
      },
      "sample": 900
     },
@@ -18890,43 +19017,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.7042,
-       "under": 0.2958
+       "over": 0.7403,
+       "under": 0.2597
       },
       {
        "line": 3.5,
-       "over": 0.4939,
-       "under": 0.5061
+       "over": 0.5366,
+       "under": 0.4634
       },
       {
        "line": 4.5,
-       "over": 0.3025,
-       "under": 0.6975
+       "over": 0.3418,
+       "under": 0.6582
       },
       {
        "line": 5.5,
-       "over": 0.1629,
-       "under": 0.8371
+       "over": 0.1796,
+       "under": 0.8204
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.3086
+       "over": 0.4241
       },
       {
        "line": 2.5,
-       "over": 0.1038
+       "over": 0.18
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.7177
+       "over": 0.685
       },
       {
        "line": 2.5,
-       "over": 0.4625
+       "over": 0.4133
       }
      ],
      "sample": 900
@@ -18937,19 +19064,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -19083,57 +19210,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.554,
-       "under": 0.446
+       "over": 0.5688,
+       "under": 0.4312
       },
       {
        "line": 9.5,
-       "over": 0.4335,
-       "under": 0.5665
+       "over": 0.4505,
+       "under": 0.5495
       },
       {
        "line": 10.5,
-       "over": 0.3233,
-       "under": 0.6767
+       "over": 0.3392,
+       "under": 0.6608
       },
       {
        "line": 11.5,
-       "over": 0.23,
-       "under": 0.77
+       "over": 0.242,
+       "under": 0.758
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.7052
+       "over": 0.6643
       },
       {
        "line": 4.5,
-       "over": 0.5231
+       "over": 0.5053
       },
       {
        "line": 5.5,
-       "over": 0.3484
+       "over": 0.3613
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.6371
+       "over": 0.5897
       },
       {
        "line": 4.5,
-       "over": 0.445
+       "over": 0.4275
       },
       {
        "line": 5.5,
-       "over": 0.2767
+       "over": 0.29
       }
      ],
      "winner": {
-      "home": 0.4877,
-      "draw": 0.1324,
-      "away": 0.3799
+      "home": 0.4986,
+      "away": 0.3862,
+      "draw": 0.1152
      },
      "sample": 900
     },
@@ -19146,43 +19273,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.6022,
-       "under": 0.3978
+       "over": 0.6923,
+       "under": 0.3077
       },
       {
        "line": 3.5,
-       "over": 0.3793,
-       "under": 0.6207
+       "over": 0.4827,
+       "under": 0.5173
       },
       {
        "line": 4.5,
-       "over": 0.2056,
-       "under": 0.7944
+       "over": 0.2963,
+       "under": 0.7037
       },
       {
        "line": 5.5,
-       "over": 0.097,
-       "under": 0.903
+       "over": 0.1487,
+       "under": 0.8513
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.4533
+       "over": 0.505
       },
       {
        "line": 2.5,
-       "over": 0.1996
+       "over": 0.2336
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.4704
+       "over": 0.5468
       },
       {
        "line": 2.5,
-       "over": 0.2129
+       "over": 0.2738
       }
      ],
      "sample": 900
@@ -19193,19 +19320,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -19339,57 +19466,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.8608,
-       "under": 0.1392
+       "over": 0.6903,
+       "under": 0.3097
       },
       {
        "line": 9.5,
-       "over": 0.788,
-       "under": 0.212
+       "over": 0.5963,
+       "under": 0.4037
       },
       {
        "line": 10.5,
-       "over": 0.7006,
-       "under": 0.2994
+       "over": 0.4967,
+       "under": 0.5033
       },
       {
        "line": 11.5,
-       "over": 0.6036,
-       "under": 0.3964
+       "over": 0.3954,
+       "under": 0.6046
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.9759
+       "over": 0.8798
       },
       {
        "line": 4.5,
-       "over": 0.9387
+       "over": 0.8014
       },
       {
        "line": 5.5,
-       "over": 0.873
+       "over": 0.7126
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.5603
+       "over": 0.5333
       },
       {
        "line": 4.5,
-       "over": 0.3649
+       "over": 0.3701
       },
       {
        "line": 5.5,
-       "over": 0.2099
+       "over": 0.2394
       }
      ],
      "winner": {
-      "home": 0.8919,
-      "draw": 0.0451,
-      "away": 0.063
+      "home": 0.7743,
+      "away": 0.1715,
+      "draw": 0.0542
      },
      "sample": 1120
     },
@@ -19402,43 +19529,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.7038,
-       "under": 0.2962
+       "over": 0.7391,
+       "under": 0.2609
       },
       {
        "line": 3.5,
-       "over": 0.4959,
-       "under": 0.5041
+       "over": 0.5406,
+       "under": 0.4594
       },
       {
        "line": 4.5,
-       "over": 0.3065,
-       "under": 0.6935
+       "over": 0.3513,
+       "under": 0.6487
       },
       {
        "line": 5.5,
-       "over": 0.1675,
-       "under": 0.8325
+       "over": 0.2008,
+       "under": 0.7992
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.4838
+       "over": 0.5194
       },
       {
        "line": 2.5,
-       "over": 0.2237
+       "over": 0.2507
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.6035
+       "over": 0.6276
       },
       {
        "line": 2.5,
-       "over": 0.3329
+       "over": 0.3483
       }
      ],
      "sample": 1120
@@ -19449,19 +19576,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -19595,57 +19722,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.5712,
-       "under": 0.4288
+       "over": 0.6434,
+       "under": 0.3566
       },
       {
        "line": 9.5,
-       "over": 0.4433,
-       "under": 0.5567
+       "over": 0.5128,
+       "under": 0.4872
       },
       {
        "line": 10.5,
-       "over": 0.3253,
-       "under": 0.6747
+       "over": 0.4013,
+       "under": 0.5987
       },
       {
        "line": 11.5,
-       "over": 0.2257,
-       "under": 0.7743
+       "over": 0.2972,
+       "under": 0.7028
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.7644
+       "over": 0.7301
       },
       {
        "line": 4.5,
-       "over": 0.5971
+       "over": 0.5794
       },
       {
        "line": 5.5,
-       "over": 0.4225
+       "over": 0.4289
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.5706
+       "over": 0.5508
       },
       {
        "line": 4.5,
-       "over": 0.3752
+       "over": 0.3912
       },
       {
        "line": 5.5,
-       "over": 0.2181
+       "over": 0.2575
       }
      ],
      "winner": {
-      "home": 0.5898,
-      "draw": 0.1237,
-      "away": 0.2866
+      "home": 0.5768,
+      "away": 0.313,
+      "draw": 0.1102
      },
      "sample": 920
     },
@@ -19658,43 +19785,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.7141,
-       "under": 0.2859
+       "over": 0.6525,
+       "under": 0.3475
       },
       {
        "line": 3.5,
-       "over": 0.5282,
-       "under": 0.4718
+       "over": 0.4505,
+       "under": 0.5495
       },
       {
        "line": 4.5,
-       "over": 0.3552,
-       "under": 0.6448
+       "over": 0.2885,
+       "under": 0.7115
       },
       {
        "line": 5.5,
-       "over": 0.2192,
-       "under": 0.7808
+       "over": 0.1704,
+       "under": 0.8296
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.526
+       "over": 0.4647
       },
       {
        "line": 2.5,
-       "over": 0.2594
+       "over": 0.2227
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.6333
+       "over": 0.5869
       },
       {
        "line": 2.5,
-       "over": 0.3641
+       "over": 0.3147
       }
      ],
      "sample": 920
@@ -19705,19 +19832,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -19851,57 +19978,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.7072,
-       "under": 0.2928
+       "over": 0.6406,
+       "under": 0.3594
       },
       {
        "line": 9.5,
-       "over": 0.5931,
-       "under": 0.4069
+       "over": 0.5239,
+       "under": 0.4761
       },
       {
        "line": 10.5,
-       "over": 0.475,
-       "under": 0.525
+       "over": 0.4111,
+       "under": 0.5889
       },
       {
        "line": 11.5,
-       "over": 0.3629,
-       "under": 0.6371
+       "over": 0.3069,
+       "under": 0.6931
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.9209
+       "over": 0.8276
       },
       {
        "line": 4.5,
-       "over": 0.8317
+       "over": 0.7165
       },
       {
        "line": 5.5,
-       "over": 0.7058
+       "over": 0.5932
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.4501
+       "over": 0.4676
       },
       {
        "line": 4.5,
-       "over": 0.263
+       "over": 0.2967
       },
       {
        "line": 5.5,
-       "over": 0.1344
+       "over": 0.1769
       }
      ],
      "winner": {
-      "home": 0.8344,
-      "draw": 0.0678,
-      "away": 0.0978
+      "home": 0.737,
+      "away": 0.1894,
+      "draw": 0.0736
      },
      "sample": 1130
     },
@@ -19914,43 +20041,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.7762,
-       "under": 0.2238
+       "over": 0.793,
+       "under": 0.207
       },
       {
        "line": 3.5,
-       "over": 0.6024,
-       "under": 0.3976
+       "over": 0.6302,
+       "under": 0.3698
       },
       {
        "line": 4.5,
-       "over": 0.425,
-       "under": 0.575
+       "over": 0.4582,
+       "under": 0.5418
       },
       {
        "line": 5.5,
-       "over": 0.2739,
-       "under": 0.7261
+       "over": 0.3065,
+       "under": 0.6935
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.5213
+       "over": 0.5845
       },
       {
        "line": 2.5,
-       "over": 0.2553
+       "over": 0.3191
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.7245
+       "over": 0.707
       },
       {
        "line": 2.5,
-       "over": 0.4711
+       "over": 0.4498
       }
      ],
      "sample": 1130
@@ -19961,19 +20088,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }
@@ -20070,57 +20197,57 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.3792,
-       "under": 0.6208
+       "over": 0.5018,
+       "under": 0.4982
       },
       {
        "line": 9.5,
-       "over": 0.2639,
-       "under": 0.7361
+       "over": 0.3808,
+       "under": 0.6192
       },
       {
        "line": 10.5,
-       "over": 0.1729,
-       "under": 0.8271
+       "over": 0.2826,
+       "under": 0.7174
       },
       {
        "line": 11.5,
-       "over": 0.1069,
-       "under": 0.8931
+       "over": 0.1958,
+       "under": 0.8042
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.4517
+       "over": 0.4897
       },
       {
        "line": 4.5,
-       "over": 0.2644
+       "over": 0.3258
       },
       {
        "line": 5.5,
-       "over": 0.1354
+       "over": 0.205
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.6305
+       "over": 0.5901
       },
       {
        "line": 4.5,
-       "over": 0.4378
+       "over": 0.4277
       },
       {
        "line": 5.5,
-       "over": 0.2704
+       "over": 0.2921
       }
      ],
      "winner": {
-      "home": 0.3066,
-      "draw": 0.1386,
-      "away": 0.5549
+      "home": 0.3658,
+      "away": 0.5076,
+      "draw": 0.1266
      },
      "sample": 917
     },
@@ -20133,43 +20260,43 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.7429,
-       "under": 0.2571
+       "over": 0.7977,
+       "under": 0.2023
       },
       {
        "line": 3.5,
-       "over": 0.5618,
-       "under": 0.4382
+       "over": 0.645,
+       "under": 0.355
       },
       {
        "line": 4.5,
-       "over": 0.3862,
-       "under": 0.6138
+       "over": 0.4751,
+       "under": 0.5249
       },
       {
        "line": 5.5,
-       "over": 0.2432,
-       "under": 0.7568
+       "over": 0.327,
+       "under": 0.673
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.6236
+       "over": 0.6555
       },
       {
        "line": 2.5,
-       "over": 0.3538
+       "over": 0.4006
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.5878
+       "over": 0.6436
       },
       {
        "line": 2.5,
-       "over": 0.3172
+       "over": 0.3888
       }
      ],
      "sample": 917
@@ -20180,19 +20307,19 @@
       "label": "cat media campionatului"
      },
      "corners_team": {
-      "gain": 0.024,
+      "gain": 0.037,
       "label": "informativ"
      },
      "corners_winner": {
-      "gain": 0.037,
+      "gain": 0.052,
       "label": "cel mai informativ"
      },
      "cards_total": {
-      "gain": 0.013,
+      "gain": 0.022,
       "label": "slab informativ"
      },
      "cards_team": {
-      "gain": 0.01,
+      "gain": 0.016,
       "label": "slab informativ"
      }
     }

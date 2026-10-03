@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-03T06:07:46+00:00",
+ "actualizat": "2026-10-03T06:58:51+00:00",
  "selectii": [
   {
    "cheie": "D1_20260919_EinFrankfurt_Freiburg|over25",
@@ -1012,6 +1012,70 @@
    "odds": 1.46,
    "band": "sub piață",
    "notat_la": "2026-10-03T06:05:35+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "SP1_20261010_Vallecano_AthBilbao|corners_home_over_3.5",
+   "match_id": "SP1_20261010_Vallecano_AthBilbao",
+   "date": "2026-10-10",
+   "league_name": "La Liga",
+   "home": "Vallecano",
+   "away": "Ath Bilbao",
+   "market": "corners_home_over_3.5",
+   "market_label": "Vallecano peste 3.5 cornere",
+   "probability": 0.6996,
+   "odds": null,
+   "band": "cornere/cartonașe",
+   "notat_la": "2026-10-03T06:58:50+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "D1_20261010_Paderborn_Stuttgart|cards_total_under_4.5",
+   "match_id": "D1_20261010_Paderborn_Stuttgart",
+   "date": "2026-10-10",
+   "league_name": "Bundesliga",
+   "home": "Paderborn",
+   "away": "Stuttgart",
+   "market": "cards_total_under_4.5",
+   "market_label": "sub 4.5 cartonașe în meci",
+   "probability": 0.6983,
+   "odds": null,
+   "band": "cornere/cartonașe",
+   "notat_la": "2026-10-03T06:58:50+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "D1_20261009_Dortmund_WerderBremen|corners_more_home",
+   "match_id": "D1_20261009_Dortmund_WerderBremen",
+   "date": "2026-10-09",
+   "league_name": "Bundesliga",
+   "home": "Dortmund",
+   "away": "Werder Bremen",
+   "market": "corners_more_home",
+   "market_label": "Dortmund — mai multe cornere",
+   "probability": 0.6969,
+   "odds": null,
+   "band": "cornere/cartonașe",
+   "notat_la": "2026-10-03T06:58:50+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "SP1_20261010_Alaves_AthMadrid|corners_away_over_3.5",
+   "match_id": "SP1_20261010_Alaves_AthMadrid",
+   "date": "2026-10-10",
+   "league_name": "La Liga",
+   "home": "Alaves",
+   "away": "Ath Madrid",
+   "market": "corners_away_over_3.5",
+   "market_label": "Ath Madrid peste 3.5 cornere",
+   "probability": 0.6966,
+   "odds": null,
+   "band": "cornere/cartonașe",
+   "notat_la": "2026-10-03T06:58:50+00:00",
    "castigat": null,
    "scor": null
   }

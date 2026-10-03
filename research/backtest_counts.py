@@ -45,10 +45,13 @@ class Masura:
         self.nume = nume
         self.p: list[float] = []
         self.s: list[bool] = []
+        # Probabilitatile brute, inainte de calibrare, pentru comparatie.
+        self.p_brut: list[float] = []
 
-    def adauga(self, p: float, s: bool) -> None:
+    def adauga(self, p: float, s: bool, p_brut: float | None = None) -> None:
         self.p.append(float(p))
         self.s.append(bool(s))
+        self.p_brut.append(float(p_brut if p_brut is not None else p))
 
     def raport(self) -> dict | None:
         if len(self.p) < 200:
@@ -75,8 +78,30 @@ def evalueaza(df: pd.DataFrame, coloane: tuple[str, str], etichete: dict) -> dic
     """Mers inainte in timp pe un singur campionat."""
     masuri: dict[str, Masura] = {}
 
+    # Calibrarea se invata din predictiile deja verificate, deci nu foloseste
+    # niciodata viitorul: pana se aduna destule, se merge necalibrat.
+    istoric_cal: dict[str, list[tuple[float, bool]]] = {}
+    calibrari: dict[str, tuple[float, float]] = {}
+    MINIM_CALIBRARE = 400
+
     def masura(nume: str) -> Masura:
         return masuri.setdefault(nume, Masura(nume))
+
+    def pune(nume: str, p: float, s: bool) -> None:
+        """Noteaza o predictie, calibrata cu ce s-a invatat pana acum."""
+        baza_gamma = calibrari.get(nume)
+        p_cal = (float(counts_model.calibreaza(p, *baza_gamma))
+                 if baza_gamma else p)
+        masura(nume).adauga(p_cal, s, p_brut=p)
+        istoric_cal.setdefault(nume, []).append((p, s))
+
+    def reinvata_calibrarea() -> None:
+        for nume, perechi in istoric_cal.items():
+            if len(perechi) < MINIM_CALIBRARE:
+                continue
+            p = np.array([x for x, _ in perechi])
+            s = np.array([float(y) for _, y in perechi])
+            calibrari[nume] = counts_model.fit_calibrare(p, s)
 
     df = df.dropna(subset=list(coloane)).sort_values("date").reset_index(drop=True)
     if len(df) < MINIM_MECIURI:
@@ -103,30 +128,100 @@ def evalueaza(df: pd.DataFrame, coloane: tuple[str, str], etichete: dict) -> dic
             train[coloane[1]].to_numpy(dtype=float),
             np.exp(-XI * varste), len(echipe), idx)
 
+        # Dispersia, invatata doar din trecut, separat pentru fiecare parte.
+        # Poisson presupune ca varianta e egala cu media, ceea ce la cornere nu
+        # e adevarat: unele meciuri "se aprind". De aici venea increderea
+        # umflata a modelului.
+        medii_t, obs_t, medii_h, obs_h, medii_a, obs_a = [], [], [], [], [], []
+        for r in train.itertuples(index=False):
+            rate = fit.rates(r.home, r.away)
+            if rate is None:
+                continue
+            h_obs = float(getattr(r, coloane[0]))
+            a_obs = float(getattr(r, coloane[1]))
+            medii_t.append(rate[0] + rate[1])
+            obs_t.append(h_obs + a_obs)
+            medii_h.append(rate[0])
+            obs_h.append(h_obs)
+            medii_a.append(rate[1])
+            obs_a.append(a_obs)
+        if len(medii_t) < 200:
+            continue
+        k_total = counts_model.fit_dispersie(np.array(medii_t), np.array(obs_t))
+        k_home = counts_model.fit_dispersie(np.array(medii_h), np.array(obs_h))
+        k_away = counts_model.fit_dispersie(np.array(medii_a), np.array(obs_a))
+
         for r in test.itertuples(index=False):
             rate = fit.rates(r.home, r.away)
             if rate is None:
                 continue
             lam, mu = rate
-            d = counts_model.distributii(lam, mu)
+            d = {"total": counts_model.nb_pmf(lam + mu, k_total),
+                 "home": counts_model.nb_pmf(lam, k_home),
+                 "away": counts_model.nb_pmf(mu, k_away)}
             h = float(getattr(r, coloane[0]))
             a = float(getattr(r, coloane[1]))
 
             for linie in etichete["total"]:
-                masura(f"total peste {linie}").adauga(
-                    counts_model.peste(d["total"], linie), h + a > linie)
+                p_peste = counts_model.peste(d["total"], linie)
+                pune(f"total peste {linie}", p_peste, h + a > linie)
+                # Partea de "sub" se masoara separat: calibrarea verificata la
+                # 60-70% pentru "peste" nu spune nimic despre 60-70% la "sub",
+                # care e cu totul alta zona a distributiei.
+                pune(f"total sub {linie}", 1 - p_peste, h + a < linie)
             for linie in etichete.get("echipa", []):
-                masura(f"gazda peste {linie}").adauga(
-                    counts_model.peste(d["home"], linie), h > linie)
-                masura(f"oaspete peste {linie}").adauga(
-                    counts_model.peste(d["away"], linie), a > linie)
+                pune(f"gazda peste {linie}",
+                     counts_model.peste(d["home"], linie), h > linie)
+                pune(f"oaspete peste {linie}",
+                     counts_model.peste(d["away"], linie), a > linie)
 
             if etichete.get("cine"):
-                c = counts_model.cine_mai_multe(lam, mu)
-                masura("mai multe gazda").adauga(c["home"], h > a)
-                masura("mai multe oaspete").adauga(c["away"], a > h)
+                c = counts_model.cine_mai_multe(lam, mu, k_home, k_away)
+                pune("mai multe gazda", c["home"], h > a)
+                pune("mai multe oaspete", c["away"], a > h)
 
+        reinvata_calibrarea()
+
+    masuri["__calibrari__"] = calibrari  # type: ignore[assignment]
     return masuri
+
+
+PRAGURI_SELECTIE = (0.60, 0.65, 0.70, 0.75)
+
+# Banda din care se aleg efectiv selectiile: destul de probabil ca sa merite,
+# destul de incert ca sa plateasca ceva (cota corecta intre 1,43 si 1,67).
+BANDA_SELECTIE = (0.60, 0.70)
+
+
+def raport_selectie(acumulat: dict[str, Masura]) -> None:
+    """Cum s-ar comporta o selectie facuta doar pe increderea modelului.
+
+    Pentru cornere si cartonase nu exista cote nicaieri -- nici istorice, nici
+    pentru meciurile viitoare -- deci filtrul de acord cu piata, care face
+    selectiile de la 1X2 sa tina, nu se poate aplica aici. Ramane intrebarea
+    goala: cand modelul spune 70%, se intampla in 70% din cazuri?
+    """
+    print(f"\n{'piata':<22}{'prag':>6}{'n':>7}{'promis':>9}{'realizat':>10}{'eroare':>9}")
+    for nume, m in acumulat.items():
+        if len(m.p) < 200:
+            continue
+        p = np.array(m.p)
+        s = np.array(m.s, dtype=float)
+        for prag in PRAGURI_SELECTIE:
+            alese = p >= prag
+            if alese.sum() < 100:
+                continue
+            promis = p[alese].mean()
+            realizat = s[alese].mean()
+            print(f"{nume:<22}{prag:>6.0%}{int(alese.sum()):>7}"
+                  f"{promis:>9.1%}{realizat:>10.1%}{realizat - promis:>+9.1%}")
+
+        jos, sus = BANDA_SELECTIE
+        in_banda = (p >= jos) & (p <= sus)
+        if in_banda.sum() >= 100:
+            print(f"{nume:<22}{'banda':>6}{int(in_banda.sum()):>7}"
+                  f"{p[in_banda].mean():>9.1%}{s[in_banda].mean():>10.1%}"
+                  f"{s[in_banda].mean() - p[in_banda].mean():>+9.1%}")
 
 
 def main() -> int:
@@ -151,15 +246,20 @@ def main() -> int:
 
     for nume, (coloane, etichete) in piete.items():
         acumulat: dict[str, Masura] = {}
+        gamma_pe_liga: dict[str, list[tuple[float, float]]] = {}
         ligi = 0
         for div, liga in df.groupby("div", sort=True):
             if liga[list(coloane)].notna().sum().min() < MINIM_MECIURI:
                 continue
             ligi += 1
-            for cheie, m in evalueaza(liga, coloane, etichete).items():
+            rezultat = evalueaza(liga, coloane, etichete)
+            for cheie, valoare in rezultat.pop("__calibrari__", {}).items():
+                gamma_pe_liga.setdefault(cheie, []).append(valoare)
+            for cheie, m in rezultat.items():
                 tinta = acumulat.setdefault(cheie, Masura(cheie))
                 tinta.p.extend(m.p)
                 tinta.s.extend(m.s)
+                tinta.p_brut.extend(m.p_brut)
 
         print(f"\n=== {nume} ({ligi} campionate)")
         print(f"{'piata':<22}{'n':>7}{'real':>8}{'log-loss':>10}"
@@ -170,6 +270,17 @@ def main() -> int:
                 print(f"{r['piata']:<22}{r['n']:>7}{r['rata_reala']:>8.1%}"
                       f"{r['log_loss']:>10.5f}{r['log_loss_baza']:>9.5f}"
                       f"{r['castig']:>+9.5f}{r['ece']:>11.4f}")
+
+        print(f"\n--- {nume}: cum s-ar comporta o selectie pe incredere")
+        raport_selectie(acumulat)
+
+        # Factorii invatati, ca sa poata fi dusi in productie ca numere fixe.
+        print(f"\n--- {nume}: calibrarea invatata (mediana pe campionate)")
+        for cheie, valori in sorted(gamma_pe_liga.items()):
+            baze = np.median([b for b, _ in valori])
+            gamma = np.median([g for _, g in valori])
+            print(f"    {cheie:<22} baza {baze:.3f}  gamma {gamma:.3f}  "
+                  f"({len(valori)} campionate)")
 
     print(f"\nDurata: {time.time() - t0:.0f}s")
     return 0

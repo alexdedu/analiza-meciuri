@@ -419,9 +419,16 @@ def main() -> None:
 
     # Cornere si cartonase, doar unde exista datele: campionatele din feedul
     # principal. Nu intra in recomandari (vezi predict_counts.py).
+    selectii_contori = []
     try:
-        from predict_counts import imbogateste
+        from predict_counts import imbogateste, selectii as selectii_contori_fn
         n_extra = imbogateste(out, hist)
+        selectii_contori = selectii_contori_fn(out)
+        if selectii_contori:
+            print(f"Selectii pe cornere si cartonase: {len(selectii_contori)}")
+            for s in selectii_contori:
+                print(f"  {s['home']} - {s['away']}: {s['market_label']} "
+                      f"({s['probability']:.0%})")
         # Nationalele NU primesc cornere si cartonase, desi avem statisticile
         # adunate si modelul scris (predict_counts_national.py). Motivul e
         # masurat in backtest_counts_national.py: pe 409 meciuri de verificare,
@@ -440,7 +447,8 @@ def main() -> None:
     # cu cele mai vechi. Daca ceva pica aici, predictiile de azi tot se scriu.
     import scorecard
     try:
-        selectii = scorecard.adauga(scorecard.incarca(), recomandari)
+        selectii = scorecard.adauga(scorecard.incarca(),
+                                    recomandari + selectii_contori)
         # Arhivele football-data publica scorurile cu una-doua zile intarziere.
         # Pentru verificarea selectiilor luam scorul de la API-Football, care il
         # are in aceeasi seara; fara cheie, `rezolvator` intoarce None si
@@ -470,6 +478,9 @@ def main() -> None:
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "recommendations": recomandari,
+        # Separate de celelalte, fiindca sunt de alt fel: pentru ele nu exista
+        # cote, deci nu se pot verifica fata de piata si nu au randament.
+        "count_picks": selectii_contori,
         "track_record": bilant,
         "model": {
             "name": "Dixon-Coles + suturi pe poarta + cornere",

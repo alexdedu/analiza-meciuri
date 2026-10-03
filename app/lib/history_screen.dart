@@ -320,7 +320,8 @@ class _Linie extends StatelessWidget {
                 const SizedBox(height: 3),
                 Text(
                   '${s.marketLabel} · ${(s.probability * 100).toStringAsFixed(0)}%'
-                  ' · cotă ${s.odds.toStringAsFixed(2)}',
+                  // Cornerele si cartonasele n-au cota de aratat.
+                  '${s.odds == null ? '' : ' · cotă ${s.odds!.toStringAsFixed(2)}'}',
                   style: const TextStyle(
                       fontSize: 11.5, color: AppColors.textSecondary),
                 ),

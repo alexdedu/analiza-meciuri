@@ -24,6 +24,7 @@ TrackRecord record({
       bands: bands,
       since: '2026-09-18',
       selections: selections,
+      counts: null,
     );
 
 SelectionRecord selectie({
