@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-03T18:18:25+00:00",
+ "actualizat": "2026-10-04T06:01:59+00:00",
  "selectii": [
   {
    "cheie": "D1_20260919_EinFrankfurt_Freiburg|over25",
@@ -932,8 +932,10 @@
    "odds": 1.58,
    "band": "peste piață",
    "notat_la": "2026-10-03T06:03:04+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": false,
+   "scor": "0-0",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-10-04T06:01:59+00:00"
   },
   {
    "cheie": "NAT1528941|over25",
@@ -1380,6 +1382,88 @@
    "odds": 1.45,
    "band": "peste piață",
    "notat_la": "2026-10-03T14:22:01+00:00",
+   "castigat": true,
+   "scor": "1-0",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-10-04T06:01:59+00:00"
+  },
+  {
+   "cheie": "E0_20261010_Chelsea_Bournemouth|over25",
+   "match_id": "E0_20261010_Chelsea_Bournemouth",
+   "date": "2026-10-10",
+   "league_name": "Premier League",
+   "home": "Chelsea",
+   "away": "Bournemouth",
+   "market": "over25",
+   "market_label": "Peste 2.5 goluri",
+   "probability": 0.6181,
+   "odds": 1.46,
+   "band": "sub piață",
+   "notat_la": "2026-10-04T06:01:57+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "P1_20261010_CasaPia_SantaClara|under25",
+   "match_id": "P1_20261010_CasaPia_SantaClara",
+   "date": "2026-10-10",
+   "league_name": "Primeira Liga",
+   "home": "Casa Pia",
+   "away": "Santa Clara",
+   "market": "under25",
+   "market_label": "Sub 2.5 goluri",
+   "probability": 0.6599,
+   "odds": 1.53,
+   "band": "peste piață",
+   "notat_la": "2026-10-04T06:01:57+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "P1_20261010_CasaPia_SantaClara|corners_home_over_3.5",
+   "match_id": "P1_20261010_CasaPia_SantaClara",
+   "date": "2026-10-10",
+   "league_name": "Primeira Liga",
+   "home": "Casa Pia",
+   "away": "Santa Clara",
+   "market": "corners_home_over_3.5",
+   "market_label": "Casa Pia peste 3.5 cornere",
+   "probability": 0.6433,
+   "odds": null,
+   "band": "cornere/cartonașe",
+   "notat_la": "2026-10-04T06:01:57+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "E0_20261010_Chelsea_Bournemouth|cards_home_over_1.5",
+   "match_id": "E0_20261010_Chelsea_Bournemouth",
+   "date": "2026-10-10",
+   "league_name": "Premier League",
+   "home": "Chelsea",
+   "away": "Bournemouth",
+   "market": "cards_home_over_1.5",
+   "market_label": "Chelsea peste 1.5 cartonașe",
+   "probability": 0.6262,
+   "odds": null,
+   "band": "cornere/cartonașe",
+   "notat_la": "2026-10-04T06:01:57+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "E0_20261010_Chelsea_Bournemouth|corners_away_over_3.5",
+   "match_id": "E0_20261010_Chelsea_Bournemouth",
+   "date": "2026-10-10",
+   "league_name": "Premier League",
+   "home": "Chelsea",
+   "away": "Bournemouth",
+   "market": "corners_away_over_3.5",
+   "market_label": "Bournemouth peste 3.5 cornere",
+   "probability": 0.6109,
+   "odds": null,
+   "band": "cornere/cartonașe",
+   "notat_la": "2026-10-04T06:01:57+00:00",
    "castigat": null,
    "scor": null
   }
