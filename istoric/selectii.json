@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-04T10:46:10+00:00",
+ "actualizat": "2026-10-04T14:49:54+00:00",
  "selectii": [
   {
    "cheie": "D1_20260919_EinFrankfurt_Freiburg|over25",
@@ -1464,6 +1464,22 @@
    "odds": null,
    "band": "cornere/cartonașe",
    "notat_la": "2026-10-04T06:01:57+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "NAT1528947|under25",
+   "match_id": "NAT1528947",
+   "date": "2026-10-05",
+   "league_name": "UEFA Nations League",
+   "home": "Northern Ireland",
+   "away": "Georgia",
+   "market": "under25",
+   "market_label": "Sub 2.5 goluri",
+   "probability": 0.6586,
+   "odds": 1.53,
+   "band": "peste piață",
+   "notat_la": "2026-10-04T14:49:53+00:00",
    "castigat": null,
    "scor": null
   }
