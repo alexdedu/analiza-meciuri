@@ -9,6 +9,7 @@ import 'picks_card.dart';
 import 'repository.dart';
 import 'search_screen.dart';
 import 'theme.dart';
+import 'ticket.dart';
 import 'track_record_card.dart';
 import 'widgets.dart';
 
@@ -135,6 +136,22 @@ class _MatchList extends StatelessWidget {
             child: _HonestyBanner(result: result),
           ),
         ),
+        if (bundle.ticket != null)
+          SliverToBoxAdapter(
+            child: Padding(
+              padding: const EdgeInsets.fromLTRB(16, 0, 16, 14),
+              child: TicketCard(
+                ticket: bundle.ticket!,
+                onOpen: () => Navigator.of(context).push(MaterialPageRoute(
+                  builder: (_) => TicketScreen(
+                    ticket: bundle.ticket!,
+                    record: bundle.ticketRecord,
+                    onOpenMatch: _deschideMeci,
+                  ),
+                )),
+              ),
+            ),
+          ),
         SliverToBoxAdapter(
           child: Padding(
             padding: const EdgeInsets.fromLTRB(16, 0, 16, 14),
@@ -206,7 +223,14 @@ class _MatchList extends StatelessWidget {
   /// Din recomandare se ajunge la meciul din care a venit.
   void _deschideMeci(BuildContext context, String matchId) {
     final meci = bundle.matches.where((m) => m.id == matchId).firstOrNull;
-    if (meci == null) return;
+    if (meci == null) {
+      // Biletul zilei ramane neschimbat toata ziua, deci poate trimite catre
+      // un meci deja jucat, care a iesit din lista.
+      ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
+        content: Text('Meciul s-a jucat și nu mai e în listă.'),
+      ));
+      return;
+    }
     Navigator.of(context).push(
       MaterialPageRoute(builder: (_) => DetailScreen(match: meci, store: store)),
     );

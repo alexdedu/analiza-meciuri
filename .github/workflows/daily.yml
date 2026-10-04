@@ -70,6 +70,7 @@ jobs:
           python test_counts.py
           python test_card_events.py
           python test_counts_national.py
+          python test_bilet.py
 
       - name: Descarca datele istorice
         working-directory: research
@@ -139,7 +140,7 @@ jobs:
           # mai poate reconstitui.
           # Cartonasele pe reprize costa mii de cereri si zile de adunat: se
           # comit odata cu restul, altfel se pierd cand cade cache-ul.
-          git add app/assets/predictions.json istoric/selectii.json \
+          git add app/assets/predictions.json istoric/selectii.json istoric/bilete.json \
                   istoric/cartonase_reprize istoric/statistici_nationale
           if git diff --cached --quiet; then
             echo "Nicio schimbare."

@@ -483,6 +483,29 @@ def main() -> None:
     except Exception as exc:
         print(f"  fisa de rezultate a esuat: {str(exc)[:90]}")
         bilant = None
+        selectii = []
+
+    # Biletul zilei: facut o data pe zi din selectiile afisate, apoi neatins.
+    # Se verifica din verdictele picioarelor lui, deja notate mai sus.
+    bilet_azi, bilant_bilete = None, None
+    try:
+        import bilet
+        bilete, bilet_azi = bilet.biletul_zilei(bilet.incarca(),
+                                                bilet.construieste(meciuri_recomandate))
+        bilete = bilet.rezolva(bilete, selectii)
+        bilet.salveaza(bilete)
+        bilant_bilete = bilet.rezumat(bilete)
+        if bilet_azi:
+            print(f"\nBiletul zilei: {len(bilet_azi['legs'])} selectii, "
+                  f"cota {bilet_azi['combined_odds']}"
+                  f"{' (estimata)' if bilet_azi['odds_estimated'] else ''}, "
+                  f"sansa {bilet_azi['combined_probability']:.0%}")
+            for p in bilet_azi["legs"]:
+                print(f"  {p['home']} - {p['away']}: {p['market_label']} "
+                      f"({p['probability']:.0%})")
+    except Exception as exc:
+        print(f"  biletul zilei a esuat: {str(exc)[:90]}")
+
     print(f"\nMeciuri recomandate: {len(meciuri_recomandate)} "
           f"({len(de_notat)} selectii in total)")
     for m in meciuri_recomandate:
@@ -499,6 +522,8 @@ def main() -> None:
         # cartonase. Lista plata ramane pentru compatibilitate cu versiunile
         # mai vechi ale aplicatiei.
         "recommended_matches": meciuri_recomandate,
+        "ticket_of_the_day": bilet_azi,
+        "ticket_record": bilant_bilete,
         "recommendations": recomandari,
         # Tot pentru versiunile mai vechi, care au o sectiune separata.
         "count_picks": [c for c in selectii_contori

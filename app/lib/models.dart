@@ -435,6 +435,128 @@ class RecommendedMatch {
       );
 }
 
+/// Un picior al biletului zilei.
+class TicketLeg {
+  const TicketLeg({
+    required this.matchId,
+    required this.leagueName,
+    required this.date,
+    required this.time,
+    required this.home,
+    required this.away,
+    required this.family,
+    required this.marketLabel,
+    required this.probability,
+    required this.odds,
+    required this.fairOdds,
+    required this.historicalHitRate,
+    required this.won,
+  });
+
+  final String matchId;
+  final String leagueName;
+  final String date;
+  final String time;
+  final String home;
+  final String away;
+  final String family;
+  final String marketLabel;
+  final double probability;
+  final double? odds;
+  final double fairOdds;
+  final double historicalHitRate;
+
+  /// Null cat timp meciul nu s-a jucat.
+  final bool? won;
+
+  factory TicketLeg.fromJson(Map<String, dynamic> json) => TicketLeg(
+        matchId: json['match_id'] as String,
+        leagueName: json['league_name'] as String,
+        date: json['date'] as String,
+        time: (json['time'] as String?) ?? '',
+        home: json['home'] as String,
+        away: json['away'] as String,
+        family: json['family'] as String,
+        marketLabel: json['market_label'] as String,
+        probability: (json['probability'] as num).toDouble(),
+        odds: (json['odds'] as num?)?.toDouble(),
+        fairOdds: (json['fair_odds'] as num).toDouble(),
+        historicalHitRate: (json['historical_hit_rate'] as num).toDouble(),
+        won: json['won'] as bool?,
+      );
+}
+
+/// Biletul zilei: câteva selecții, din meciuri diferite, într-un singur pariu.
+class Ticket {
+  const Ticket({
+    required this.date,
+    required this.legs,
+    required this.combinedProbability,
+    required this.expectedHitRate,
+    required this.combinedOdds,
+    required this.oddsEstimated,
+    required this.won,
+  });
+
+  final String date;
+  final List<TicketLeg> legs;
+
+  /// Produsul sanselor date de model.
+  final double combinedProbability;
+
+  /// Produsul ratelor masurate istoric pentru fiecare picior.
+  final double expectedHitRate;
+  final double combinedOdds;
+
+  /// Adevarat cand macar un picior n-are cota reala (cornere, cartonase).
+  final bool oddsEstimated;
+  final bool? won;
+
+  static Ticket? fromJson(Map<String, dynamic>? json) {
+    if (json == null) return null;
+    final legs = ((json['legs'] as List<dynamic>?) ?? [])
+        .map((e) => TicketLeg.fromJson(e as Map<String, dynamic>))
+        .toList();
+    if (legs.isEmpty) return null;
+    return Ticket(
+      date: json['date'] as String,
+      legs: legs,
+      combinedProbability: (json['combined_probability'] as num).toDouble(),
+      expectedHitRate: (json['expected_hit_rate'] as num).toDouble(),
+      combinedOdds: (json['combined_odds'] as num).toDouble(),
+      oddsEstimated: (json['odds_estimated'] as bool?) ?? false,
+      won: json['castigat'] as bool?,
+    );
+  }
+}
+
+/// Cate bilete ale zilei au iesit pana acum.
+class TicketRecord {
+  const TicketRecord({
+    required this.total,
+    required this.resolved,
+    required this.won,
+    required this.expected,
+  });
+
+  final int total;
+  final int resolved;
+  final int won;
+
+  /// Cat ar fi trebuit sa iasa, in medie, dupa ratele masurate.
+  final double? expected;
+
+  static TicketRecord? fromJson(Map<String, dynamic>? json) {
+    if (json == null) return null;
+    return TicketRecord(
+      total: (json['total'] as num?)?.toInt() ?? 0,
+      resolved: (json['resolved'] as num?)?.toInt() ?? 0,
+      won: (json['won'] as num?)?.toInt() ?? 0,
+      expected: (json['expected'] as num?)?.toDouble(),
+    );
+  }
+}
+
 /// Bilantul selectiilor fara cota, tinut separat de cel cu randament.
 class CountsRecord {
   const CountsRecord({
@@ -681,6 +803,8 @@ class PredictionBundle {
     required this.nextRound,
     required this.countPicks,
     required this.recommendedMatches,
+    required this.ticket,
+    required this.ticketRecord,
   });
 
   final DateTime generatedAt;
@@ -700,6 +824,10 @@ class PredictionBundle {
 
   /// Meciurile recomandate, fiecare cu opțiunile lui pe toate piețele.
   final List<RecommendedMatch> recommendedMatches;
+
+  /// Biletul zilei; lipseste cand nu sunt destule selectii pentru unul.
+  final Ticket? ticket;
+  final TicketRecord? ticketRecord;
 
   factory PredictionBundle.fromJson(Map<String, dynamic> json) {
     final model = json['model'] as Map<String, dynamic>;
@@ -724,6 +852,9 @@ class PredictionBundle {
       recommendedMatches: ((json['recommended_matches'] as List<dynamic>?) ?? [])
           .map((e) => RecommendedMatch.fromJson(e as Map<String, dynamic>))
           .toList(),
+      ticket: Ticket.fromJson(json['ticket_of_the_day'] as Map<String, dynamic>?),
+      ticketRecord:
+          TicketRecord.fromJson(json['ticket_record'] as Map<String, dynamic>?),
     );
   }
 }
