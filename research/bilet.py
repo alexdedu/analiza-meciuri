@@ -1,107 +1,203 @@
 """Biletul zilei: cateva selectii combinate intr-un singur pariu.
 
-Picioarele vin numai din selectiile deja afisate -- adica din cele care au
-trecut filtrele masurate. Biletul nu inventeaza nimic nou, doar alege.
+Picioarele vin numai din selectii care au trecut filtrele masurate -- biletul
+nu inventeaza nimic nou, doar alege si combina.
 
-Doua lucruri trebuie spuse deschis, pentru ca schimba cifrele:
+Regulile, cu motivul fiecareia:
 
-1. Sansele se inmultesc. Patru selectii de cate 64% fac impreuna ~17%: un
-   bilet castigator din sase. Asta nu e un defect al modelului, e aritmetica
-   oricarui bilet combinat, si apare scrisa in aplicatie.
-2. Marja casei se inmulteste si ea. O selectie care la cota medie pierde 2,3%
-   pe termen lung pierde, pusa de patru ori intr-un bilet, in jur de 9%.
+- Doar meciuri din urmatoarele trei zile (azi, maine, poimaine). La meciurile
+  mai indepartate casele n-au inca piete pe cornere si cartonase, iar un bilet
+  care nu se poate juca nu e bilet.
+- Cota totala de cel putin 10. Picioarele se aleg ca sa ajunga acolo cu sansa
+  cea mai mare: dupa rata masurata inmultita cu cota, nu dupa increderea
+  modelului. Asa se ajunge la 10 cu cat mai putine si mai sigure picioare.
+- La cornere si cartonase cota reala nu exista in nicio sursa, deci folosim cota
+  corecta scazuta cu o marja tipica de casa (7%). Pragul de 10 se verifica pe
+  cota asta prudenta, ca biletul real sa nu iasa sub 10.
+- Picioarele sunt mereu din meciuri diferite: doua piete ale aceluiasi meci nu
+  sunt independente, iar inmultirea sanselor lor ar minti.
+- Cel mult trei picioare din acelasi tip de piata, ca biletul sa ramana
+  amestecat: rezultat, goluri, cornere, cartonase.
 
-Picioarele sunt mereu din meciuri diferite: doua piete ale aceluiasi meci
-(peste 2.5 goluri si peste 9.5 cornere, de exemplu) nu sunt independente, iar
-inmultirea probabilitatilor lor ar minti.
+Ce trebuie spus deschis: la cota 10, sansa unui bilet e in jur de 10%. Un bilet
+castigator din zece, pe termen lung. Asta e aritmetica oricarui bilet de cota
+10, nu un defect al modelului, si apare scrisa in aplicatie.
 
-Biletul unei zile, odata facut, nu se mai schimba la rularile urmatoare: un
-"bilet al zilei" care se rescrie de patru ori pe zi n-ar mai fi al zilei.
+Biletul unei zile, odata facut, nu se mai schimba la rularile urmatoare -- doar
+daca s-au schimbat regulile, si atunci e marcat ca atare.
 """
 from __future__ import annotations
 
 import json
-from datetime import datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 ISTORIC = Path(__file__).parent.parent / "istoric" / "bilete.json"
 
-MAXIM_PICIOARE = 4
-MINIM_PICIOARE = 2
+# Versiunea regulilor. Un bilet facut azi cu alte reguli se reface.
+REGULI = "3-zile-cota-10"
+
+ZILE = 3                 # azi, maine, poimaine
+COTA_MINIMA = 10.0
+MARJA_CASA = 0.07        # cat scade, tipic, cota unei case fata de cea corecta
+MAXIM_PICIOARE = 8
+MAXIM_PE_FAMILIE = 3
 ORDINE_FAMILII = ["1x2", "goluri", "cornere", "cartonașe"]
 
 
-def construieste(meciuri_recomandate: list[dict]) -> dict | None:
-    """Biletul, din meciurile deja recomandate. None daca nu sunt destule."""
-    # Cel mai probabil picior al fiecarui meci, pe fiecare familie.
-    candidati = []
-    for m in meciuri_recomandate:
-        for p in m["picks"]:
-            candidati.append({
-                "match_id": m["match_id"], "league_name": m["league_name"],
-                "date": m["date"], "time": m.get("time", ""),
-                "home": m["home"], "away": m["away"],
-                "family": p["family"], "market": p["market"],
-                "market_label": p["market_label"],
-                "probability": p["probability"],
-                "odds": p.get("odds"),
-                "fair_odds": p.get("fair_odds") or round(1 / p["probability"], 2),
-                "historical_hit_rate": p["historical_hit_rate"],
-            })
-    candidati.sort(key=lambda c: -c["probability"])
+def _familie(market: str) -> str:
+    if market.startswith("corners"):
+        return "cornere"
+    if market.startswith("cards"):
+        return "cartonașe"
+    if market in ("over25", "under25"):
+        return "goluri"
+    return "1x2"
 
+
+def _cota_efectiva(p: dict) -> float:
+    """Cota reala, sau cea corecta scazuta cu marja casei cand reala lipseste."""
+    if p.get("odds"):
+        return float(p["odds"])
+    corecta = p.get("fair_odds") or 1 / float(p["probability"])
+    return float(corecta) * (1 - MARJA_CASA)
+
+
+def _alege(eligibili: list[dict], limita_familie: bool) -> tuple[list[dict], float]:
+    """Picioarele, in ordinea valorii, pana la cota minima."""
     picioare: list[dict] = []
-    meciuri_folosite: set[str] = set()
-
-    # Intai cate un picior din fiecare tip de piata, ca biletul sa fie
-    # amestecat -- rezultat, goluri, cornere, cartonase -- cand se poate.
-    for familie in ORDINE_FAMILII:
-        for c in candidati:
-            if c["family"] == familie and c["match_id"] not in meciuri_folosite:
-                picioare.append(c)
-                meciuri_folosite.add(c["match_id"])
-                break
-
-    # Apoi completam cu cele mai probabile ramase, tot din meciuri diferite.
-    for c in candidati:
-        if len(picioare) >= MAXIM_PICIOARE:
+    meciuri: set[str] = set()
+    pe_familie: dict[str, int] = {}
+    cota = 1.0
+    for p in eligibili:
+        if cota >= COTA_MINIMA or len(picioare) >= MAXIM_PICIOARE:
             break
-        if c["match_id"] not in meciuri_folosite:
-            picioare.append(c)
-            meciuri_folosite.add(c["match_id"])
+        if p["match_id"] in meciuri:
+            continue
+        if limita_familie and pe_familie.get(p["family"], 0) >= MAXIM_PE_FAMILIE:
+            continue
+        picioare.append(p)
+        meciuri.add(p["match_id"])
+        pe_familie[p["family"]] = pe_familie.get(p["family"], 0) + 1
+        cota *= p["estimated_odds"]
+    return picioare, cota
 
-    picioare = picioare[:MAXIM_PICIOARE]
-    if len(picioare) < MINIM_PICIOARE:
-        return None
+
+def construieste(candidati: list[dict], azi: date | None = None) -> dict | None:
+    """Biletul, din toate selectiile care trec filtrele. None daca nu se poate.
+
+    `candidati` sunt selectiile plate: cele cu cota (rezultat, goluri) si cele
+    pe cornere si cartonase, fiecare cu meciul ei.
+    """
+    azi = azi or datetime.now().date()
+    pana = azi + timedelta(days=ZILE - 1)
+
+    eligibili = []
+    for c in candidati:
+        zi = date.fromisoformat(c["date"])
+        if not (azi <= zi <= pana):
+            continue  # prea departe: casele n-au inca toate pietele
+        cota = _cota_efectiva(c)
+        if cota <= 1.0:
+            continue
+        eligibili.append({
+            "match_id": c["match_id"], "league_name": c["league_name"],
+            "date": c["date"], "time": c.get("time", ""),
+            "home": c["home"], "away": c["away"],
+            "family": _familie(c["market"]), "market": c["market"],
+            "market_label": c["market_label"],
+            "probability": c["probability"],
+            "odds": c.get("odds"),
+            "fair_odds": c.get("fair_odds") or round(1 / c["probability"], 2),
+            "estimated_odds": round(cota, 2),
+            "historical_hit_rate": c["historical_hit_rate"],
+        })
+
+    # Ce valoreaza un picior: cat iese istoric, inmultit cu cat plateste. La o
+    # cota tinta data, biletul cu valoarea cea mai mare e cel cu sansa cea mai
+    # mare de a iesi.
+    eligibili.sort(key=lambda p: -(p["historical_hit_rate"] * p["estimated_odds"]))
+
+    picioare, cota = _alege(eligibili, limita_familie=True)
+    if cota < COTA_MINIMA:
+        # Amestecul e de dorit, dar nu cu pretul biletului: daca limita pe
+        # tip de piata il impiedica sa ajunga la 10, renuntam la ea.
+        picioare, cota = _alege(eligibili, limita_familie=False)
+    if cota < COTA_MINIMA:
+        return None  # nu sunt destule selectii apropiate pentru cota 10
 
     # Ordinea afisata: dupa ora de inceput, cum le-ar urmari cineva.
     picioare.sort(key=lambda p: (p["date"], p["time"]))
 
     probabilitate = 1.0
     istoric = 1.0
-    cota = 1.0
-    estimata = False
     for p in picioare:
         probabilitate *= p["probability"]
         istoric *= p["historical_hit_rate"]
-        if p["odds"]:
-            cota *= p["odds"]
-        else:
-            # Pentru cornere si cartonase nu exista cote: folosim cota
-            # corecta, si spunem ca e estimata.
-            cota *= p["fair_odds"]
-            estimata = True
 
     return {
-        "date": datetime.now().date().isoformat(),
+        "date": azi.isoformat(),
+        "rules": REGULI,
         "legs": picioare,
         "combined_probability": round(probabilitate, 4),
         # Cat ar iesi un astfel de bilet dupa ratele masurate ale fiecarui
         # picior -- reperul cinstit, nu procentul modelului.
         "expected_hit_rate": round(istoric, 4),
         "combined_odds": round(cota, 2),
-        "odds_estimated": estimata,
+        "odds_estimated": any(p["odds"] is None for p in picioare),
     }
+
+
+def de_ce_lipseste(candidati: list[dict], azi: date | None = None) -> dict:
+    """Cand nu iese bilet: cat s-ar putea atinge cu ce exista acum.
+
+    In pauzele competitionale, in urmatoarele trei zile se joaca doar
+    nationale, iar selectiile care trec filtrele sunt putine. Aplicatia trebuie
+    sa spuna asta cu cifre, nu sa ascunda pur si simplu biletul.
+    """
+    azi = azi or datetime.now().date()
+    pana = azi + timedelta(days=ZILE - 1)
+    cea_mai_buna: dict[str, float] = {}
+    for c in candidati:
+        zi = date.fromisoformat(c["date"])
+        if not (azi <= zi <= pana):
+            continue
+        cota = _cota_efectiva(c)
+        cea_mai_buna[c["match_id"]] = max(cea_mai_buna.get(c["match_id"], 1.0), cota)
+
+    cota_maxima = 1.0
+    for cota in sorted(cea_mai_buna.values(), reverse=True)[:MAXIM_PICIOARE]:
+        cota_maxima *= cota
+
+    # Prima zi in care ar intra in fereastra meciuri cu selectii destule.
+    viitoare = sorted({c["date"] for c in candidati
+                       if date.fromisoformat(c["date"]) > pana})
+    return {
+        "max_odds": round(cota_maxima, 2),
+        "legs_available": len(cea_mai_buna),
+        "min_odds": COTA_MINIMA,
+        "days": ZILE,
+        # Ziua din care biletul ar putea include urmatoarea etapa.
+        "next_possible": ((date.fromisoformat(viitoare[0]) - timedelta(days=ZILE - 1))
+                          .isoformat() if viitoare else None),
+    }
+
+
+def biletul_zilei(bilete: list[dict], nou: dict | None) -> tuple[list[dict], dict | None]:
+    """Biletul de azi: cel deja facut, daca exista si e dupa regulile de acum."""
+    azi = datetime.now().date().isoformat()
+    de_azi = [b for b in bilete if b["date"] == azi]
+    actual = next((b for b in de_azi if b.get("rules") == REGULI), None)
+    if actual:
+        return bilete, actual
+    # Facute azi dupa reguli vechi: le inlocuim, dar nu le stergem din evidenta
+    # pe tacute -- raman, marcate ca inlocuite, si nu mai intra in bilant.
+    for b in de_azi:
+        b["inlocuit"] = True
+    if nou is None:
+        return bilete, None
+    nou = dict(nou, castigat=None)
+    return bilete + [nou], nou
 
 
 def _cheie(picior: dict) -> str:
@@ -125,18 +221,6 @@ def salveaza(bilete: list[dict]) -> None:
     }, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
-def biletul_zilei(bilete: list[dict], nou: dict | None) -> tuple[list[dict], dict | None]:
-    """Biletul de azi: cel deja facut, daca exista, altfel cel nou."""
-    azi = datetime.now().date().isoformat()
-    existent = next((b for b in bilete if b["date"] == azi), None)
-    if existent:
-        return bilete, existent
-    if nou is None:
-        return bilete, None
-    nou = dict(nou, castigat=None)
-    return bilete + [nou], nou
-
-
 def rezolva(bilete: list[dict], selectii: list[dict]) -> list[dict]:
     """Completeaza verdictul biletelor din verdictele picioarelor lor.
 
@@ -158,6 +242,9 @@ def rezolva(bilete: list[dict], selectii: list[dict]) -> list[dict]:
 
 
 def rezumat(bilete: list[dict]) -> dict:
+    # Un bilet inlocuit in aceeasi zi nu mai e "biletul zilei": altfel ziua
+    # ar fi numarata de doua ori.
+    bilete = [b for b in bilete if not b.get("inlocuit")]
     rezolvate = [b for b in bilete if b.get("castigat") is not None]
     castigate = [b for b in rezolvate if b["castigat"]]
     return {

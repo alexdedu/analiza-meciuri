@@ -530,6 +530,37 @@ class Ticket {
   }
 }
 
+/// De ce nu exista bilet azi: cat s-ar putea atinge si de cand se poate.
+class TicketUnavailable {
+  const TicketUnavailable({
+    required this.maxOdds,
+    required this.legsAvailable,
+    required this.minOdds,
+    required this.days,
+    required this.nextPossible,
+  });
+
+  final double maxOdds;
+  final int legsAvailable;
+  final double minOdds;
+  final int days;
+
+  /// Prima zi in care biletul ar putea include urmatoarea etapa.
+  final DateTime? nextPossible;
+
+  static TicketUnavailable? fromJson(Map<String, dynamic>? json) {
+    if (json == null) return null;
+    final urmatoarea = json['next_possible'] as String?;
+    return TicketUnavailable(
+      maxOdds: (json['max_odds'] as num).toDouble(),
+      legsAvailable: (json['legs_available'] as num).toInt(),
+      minOdds: (json['min_odds'] as num).toDouble(),
+      days: (json['days'] as num).toInt(),
+      nextPossible: urmatoarea == null ? null : DateTime.parse(urmatoarea),
+    );
+  }
+}
+
 /// Cate bilete ale zilei au iesit pana acum.
 class TicketRecord {
   const TicketRecord({
@@ -805,6 +836,7 @@ class PredictionBundle {
     required this.recommendedMatches,
     required this.ticket,
     required this.ticketRecord,
+    required this.ticketUnavailable,
   });
 
   final DateTime generatedAt;
@@ -828,6 +860,9 @@ class PredictionBundle {
   /// Biletul zilei; lipseste cand nu sunt destule selectii pentru unul.
   final Ticket? ticket;
   final TicketRecord? ticketRecord;
+
+  /// Prezent cand azi nu iese niciun bilet care sa respecte regulile.
+  final TicketUnavailable? ticketUnavailable;
 
   factory PredictionBundle.fromJson(Map<String, dynamic> json) {
     final model = json['model'] as Map<String, dynamic>;
@@ -855,6 +890,8 @@ class PredictionBundle {
       ticket: Ticket.fromJson(json['ticket_of_the_day'] as Map<String, dynamic>?),
       ticketRecord:
           TicketRecord.fromJson(json['ticket_record'] as Map<String, dynamic>?),
+      ticketUnavailable: TicketUnavailable.fromJson(
+          json['ticket_unavailable'] as Map<String, dynamic>?),
     );
   }
 }

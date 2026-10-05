@@ -455,6 +455,26 @@ def main() -> None:
     de_notat = recomandari + [c for c in selectii_contori
                               if (c["match_id"], c["market"]) in afisate]
 
+    # Biletul zilei se alege din TOATE selectiile care trec filtrele, nu doar
+    # din cele sase meciuri afisate: ca sa ajunga la cota 10 doar cu meciuri
+    # din urmatoarele trei zile, are nevoie de mai multe variante. Picioarele
+    # lui se noteaza in evidenta, ca biletul sa se poata verifica.
+    import bilet
+    bilet_nou, fara_bilet = None, None
+    try:
+        for c in toate_cu_cota:
+            c.setdefault("fair_odds", round(1 / c["probability"], 2))
+        bilet_nou = bilet.construieste(toate_cu_cota + selectii_contori)
+        if bilet_nou is None:
+            fara_bilet = bilet.de_ce_lipseste(toate_cu_cota + selectii_contori)
+    except Exception as exc:
+        print(f"  biletul zilei nu s-a putut construi: {str(exc)[:90]}")
+    bilete, bilet_azi = bilet.biletul_zilei(bilet.incarca(), bilet_nou)
+    if bilet_azi:
+        deja = {(c["match_id"], c["market"]) for c in de_notat}
+        de_notat += [p for p in bilet_azi["legs"]
+                     if (p["match_id"], p["market"]) not in deja]
+
     # Fisa de rezultate: notam selectiile de azi si verificam ce s-a intamplat
     # cu cele mai vechi. Daca ceva pica aici, predictiile de azi tot se scriu.
     import scorecard
@@ -485,13 +505,10 @@ def main() -> None:
         bilant = None
         selectii = []
 
-    # Biletul zilei: facut o data pe zi din selectiile afisate, apoi neatins.
-    # Se verifica din verdictele picioarelor lui, deja notate mai sus.
-    bilet_azi, bilant_bilete = None, None
+    # Biletul zilei, construit mai sus, se verifica din verdictele picioarelor
+    # lui, deja notate in evidenta.
+    bilant_bilete = None
     try:
-        import bilet
-        bilete, bilet_azi = bilet.biletul_zilei(bilet.incarca(),
-                                                bilet.construieste(meciuri_recomandate))
         bilete = bilet.rezolva(bilete, selectii)
         bilet.salveaza(bilete)
         bilant_bilete = bilet.rezumat(bilete)
@@ -501,8 +518,12 @@ def main() -> None:
                   f"{' (estimata)' if bilet_azi['odds_estimated'] else ''}, "
                   f"sansa {bilet_azi['combined_probability']:.0%}")
             for p in bilet_azi["legs"]:
-                print(f"  {p['home']} - {p['away']}: {p['market_label']} "
-                      f"({p['probability']:.0%})")
+                print(f"  {p['date']} {p['home']} - {p['away']}: "
+                      f"{p['market_label']} ({p['probability']:.0%}, "
+                      f"cota {p.get('estimated_odds')})")
+        else:
+            print("\nBiletul zilei: nu sunt destule selectii in urmatoarele "
+                  f"{bilet.ZILE} zile pentru cota {bilet.COTA_MINIMA:.0f}")
     except Exception as exc:
         print(f"  biletul zilei a esuat: {str(exc)[:90]}")
 
@@ -523,6 +544,8 @@ def main() -> None:
         # mai vechi ale aplicatiei.
         "recommended_matches": meciuri_recomandate,
         "ticket_of_the_day": bilet_azi,
+        # Cand nu iese bilet: cat s-ar putea atinge si de cand se poate.
+        "ticket_unavailable": None if bilet_azi else fara_bilet,
         "ticket_record": bilant_bilete,
         "recommendations": recomandari,
         # Tot pentru versiunile mai vechi, care au o sectiune separata.

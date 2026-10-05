@@ -136,6 +136,13 @@ class _MatchList extends StatelessWidget {
             child: _HonestyBanner(result: result),
           ),
         ),
+        if (bundle.ticket == null && bundle.ticketUnavailable != null)
+          SliverToBoxAdapter(
+            child: Padding(
+              padding: const EdgeInsets.fromLTRB(16, 0, 16, 14),
+              child: TicketUnavailableCard(info: bundle.ticketUnavailable!),
+            ),
+          ),
         if (bundle.ticket != null)
           SliverToBoxAdapter(
             child: Padding(

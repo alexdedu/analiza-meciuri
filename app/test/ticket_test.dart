@@ -121,6 +121,25 @@ void main() {
     expect(find.textContaining('1 câștigate din 4'), findsOneWidget);
   });
 
+  testWidgets('cand nu iese bilet, spune de ce si de cand se poate',
+      (tester) async {
+    await tester.pumpWidget(MaterialApp(
+      home: Scaffold(
+        body: TicketUnavailableCard(
+          info: TicketUnavailable(
+            maxOdds: 5.27,
+            legsAvailable: 4,
+            minOdds: 10,
+            days: 3,
+            nextPossible: DateTime(2026, 10, 7),
+          ),
+        ),
+      ),
+    ));
+    expect(find.textContaining('cel mult la 5.27'), findsOneWidget);
+    expect(find.textContaining('Primul bilet posibil: 07.10'), findsOneWidget);
+  });
+
   test('un bilet fara picioare nu se transforma in obiect', () {
     expect(Ticket.fromJson(null), isNull);
     expect(Ticket.fromJson(const {'legs': []}), isNull);

@@ -383,3 +383,69 @@ class _Picior extends StatelessWidget {
     );
   }
 }
+
+/// Ce apare in locul biletului cand azi nu se poate face unul.
+///
+/// Nu ascundem cardul: un loc gol ar arata ca o defectiune. Spunem cat s-ar
+/// putea atinge cu selectiile de acum si de cand se poate un bilet adevarat.
+class TicketUnavailableCard extends StatelessWidget {
+  const TicketUnavailableCard({super.key, required this.info});
+
+  final TicketUnavailable info;
+
+  @override
+  Widget build(BuildContext context) {
+    final urmatoarea = info.nextPossible;
+    return Container(
+      padding: const EdgeInsets.fromLTRB(16, 14, 16, 14),
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(16),
+        color: AppColors.surface,
+        border: Border.all(color: AppColors.border),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const Row(
+            children: [
+              Icon(Icons.confirmation_number_outlined,
+                  size: 18, color: AppColors.textSecondary),
+              SizedBox(width: 8),
+              Text('Biletul zilei',
+                  style: TextStyle(
+                      fontSize: 15,
+                      fontWeight: FontWeight.w800,
+                      color: AppColors.textPrimary)),
+            ],
+          ),
+          const SizedBox(height: 10),
+          Text(
+            'Azi nu iese un bilet de cotă ${info.minOdds.toStringAsFixed(0)} doar '
+            'din meciuri din următoarele ${info.days} zile. Cu selecțiile care '
+            'trec filtrele (${info.legsAvailable}) s-ar ajunge cel mult la '
+            '${info.maxOdds.toStringAsFixed(2)}.',
+            style: const TextStyle(fontSize: 12.5, height: 1.45),
+          ),
+          if (urmatoarea != null) ...[
+            const SizedBox(height: 8),
+            Text(
+              'Primul bilet posibil: ${urmatoarea.day.toString().padLeft(2, '0')}.'
+              '${urmatoarea.month.toString().padLeft(2, '0')}, când intră în '
+              'fereastră etapa de campionat.',
+              style: const TextStyle(
+                  fontSize: 12,
+                  fontWeight: FontWeight.w600,
+                  color: AppColors.highlight),
+            ),
+          ],
+          const SizedBox(height: 8),
+          const Text(
+            'În pauza competițională se joacă doar naționale, iar pentru ele nu '
+            'există selecții pe cornere și cartonașe.',
+            style: TextStyle(fontSize: 11, color: AppColors.textSecondary, height: 1.35),
+          ),
+        ],
+      ),
+    );
+  }
+}
