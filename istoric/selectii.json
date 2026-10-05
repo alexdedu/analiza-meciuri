@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-05T11:51:43+00:00",
+ "actualizat": "2026-10-05T18:31:25+00:00",
  "selectii": [
   {
    "cheie": "D1_20260919_EinFrankfurt_Freiburg|over25",
@@ -1500,6 +1500,22 @@
    "odds": null,
    "band": "cornere/cartonașe",
    "notat_la": "2026-10-03T09:38:20+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "NAT1528950|over25",
+   "match_id": "NAT1528950",
+   "date": "2026-10-05",
+   "league_name": "UEFA Nations League",
+   "home": "Montenegro",
+   "away": "Armenia",
+   "market": "over25",
+   "market_label": "Peste 2.5 goluri",
+   "probability": 0.6053,
+   "odds": 1.64,
+   "band": "peste piață",
+   "notat_la": "2026-10-05T18:31:24+00:00",
    "castigat": null,
    "scor": null
   }

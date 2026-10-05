@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T11:51:43+00:00",
+ "generated_at": "2026-10-05T18:31:25+00:00",
  "recommended_matches": [
   {
    "match_id": "NAT1528945",
@@ -13,12 +13,12 @@
      "family": "goluri",
      "market": "over25",
      "market_label": "Peste 2.5 goluri",
-     "probability": 0.6073,
-     "odds": 1.53,
+     "probability": 0.6077,
+     "odds": 1.52,
      "fair_odds": 1.65,
      "historical_hit_rate": 0.653,
      "band": "sub piață",
-     "odds_movement": 0.0
+     "odds_movement": 0.0066
     }
    ]
   },
@@ -31,14 +31,14 @@
    "away": "Armenia",
    "picks": [
     {
-     "family": "1x2",
-     "market": "home",
-     "market_label": "Victorie Montenegro",
-     "probability": 0.615,
-     "odds": 1.52,
-     "fair_odds": 1.63,
-     "historical_hit_rate": 0.653,
-     "band": "sub piață",
+     "family": "goluri",
+     "market": "over25",
+     "market_label": "Peste 2.5 goluri",
+     "probability": 0.6053,
+     "odds": 1.64,
+     "fair_odds": 1.65,
+     "historical_hit_rate": 0.601,
+     "band": "peste piață",
      "odds_movement": 0.0
     }
    ]
@@ -130,27 +130,6 @@
    ]
   },
   {
-   "match_id": "NAT1528947",
-   "league_name": "UEFA Nations League",
-   "date": "2026-10-05",
-   "time": "18:45",
-   "home": "Northern Ireland",
-   "away": "Georgia",
-   "picks": [
-    {
-     "family": "goluri",
-     "market": "under25",
-     "market_label": "Sub 2.5 goluri",
-     "probability": 0.6584,
-     "odds": 1.48,
-     "fair_odds": 1.52,
-     "historical_hit_rate": 0.632,
-     "band": "aproape de piață",
-     "odds_movement": 0.0
-    }
-   ]
-  },
-  {
    "match_id": "NAT1528951",
    "league_name": "UEFA Nations League",
    "date": "2026-10-06",
@@ -162,20 +141,52 @@
      "family": "goluri",
      "market": "under25",
      "market_label": "Sub 2.5 goluri",
-     "probability": 0.6617,
-     "odds": 1.54,
+     "probability": 0.6612,
+     "odds": 1.52,
      "fair_odds": 1.51,
      "historical_hit_rate": 0.601,
      "band": "peste piață",
-     "odds_movement": 0.0
+     "odds_movement": 0.0132
+    }
+   ]
+  },
+  {
+   "match_id": "SP1_20261010_Vallecano_AthBilbao",
+   "league_name": "La Liga",
+   "date": "2026-10-10",
+   "time": "12:00",
+   "home": "Vallecano",
+   "away": "Ath Bilbao",
+   "picks": [
+    {
+     "family": "cornere",
+     "market": "corners_home_over_3.5",
+     "market_label": "Vallecano peste 3.5 cornere",
+     "probability": 0.6997,
+     "odds": null,
+     "fair_odds": 1.43,
+     "historical_hit_rate": 0.665,
+     "band": "",
+     "odds_movement": null
+    },
+    {
+     "family": "cartonașe",
+     "market": "cards_away_over_1.5",
+     "market_label": "Ath Bilbao peste 1.5 cartonașe",
+     "probability": 0.6645,
+     "odds": null,
+     "fair_odds": 1.5,
+     "historical_hit_rate": 0.666,
+     "band": "",
+     "odds_movement": null
     }
    ]
   }
  ],
  "ticket_of_the_day": null,
  "ticket_unavailable": {
-  "max_odds": 5.3,
-  "legs_available": 4,
+  "max_odds": 3.79,
+  "legs_available": 3,
   "min_odds": 10.0,
   "days": 3,
   "next_possible": "2026-10-07"
@@ -196,14 +207,14 @@
    "away": "Türkiye",
    "market": "over25",
    "market_label": "Peste 2.5 goluri",
-   "probability": 0.6073,
-   "odds": 1.53,
-   "market_probability": 0.6136,
-   "disagreement": -0.0063,
+   "probability": 0.6077,
+   "odds": 1.52,
+   "market_probability": 0.6171,
+   "disagreement": -0.0094,
    "band": "sub piață",
    "historical_hit_rate": 0.653,
    "odds_first": 1.53,
-   "odds_movement": 0.0,
+   "odds_movement": 0.0066,
    "fair_odds": 1.65
   },
   {
@@ -213,17 +224,17 @@
    "time": "18:45",
    "home": "Montenegro",
    "away": "Armenia",
-   "market": "home",
-   "market_label": "Victorie Montenegro",
-   "probability": 0.615,
-   "odds": 1.52,
-   "market_probability": 0.6155,
-   "disagreement": -0.0005,
-   "band": "sub piață",
-   "historical_hit_rate": 0.653,
-   "odds_first": 1.52,
+   "market": "over25",
+   "market_label": "Peste 2.5 goluri",
+   "probability": 0.6053,
+   "odds": 1.64,
+   "market_probability": 0.5762,
+   "disagreement": 0.0291,
+   "band": "peste piață",
+   "historical_hit_rate": 0.601,
+   "odds_first": 1.64,
    "odds_movement": 0.0,
-   "fair_odds": 1.63
+   "fair_odds": 1.65
   },
   {
    "match_id": "P1_20261009_Moreirense_GilVicente",
@@ -264,25 +275,6 @@
    "fair_odds": 1.62
   },
   {
-   "match_id": "NAT1528947",
-   "league_name": "UEFA Nations League",
-   "date": "2026-10-05",
-   "time": "18:45",
-   "home": "Northern Ireland",
-   "away": "Georgia",
-   "market": "under25",
-   "market_label": "Sub 2.5 goluri",
-   "probability": 0.6584,
-   "odds": 1.48,
-   "market_probability": 0.6408,
-   "disagreement": 0.0176,
-   "band": "aproape de piață",
-   "historical_hit_rate": 0.632,
-   "odds_first": 1.48,
-   "odds_movement": 0.0,
-   "fair_odds": 1.52
-  },
-  {
    "match_id": "NAT1528951",
    "league_name": "UEFA Nations League",
    "date": "2026-10-06",
@@ -291,18 +283,44 @@
    "away": "Faroe Islands",
    "market": "under25",
    "market_label": "Sub 2.5 goluri",
-   "probability": 0.6617,
-   "odds": 1.54,
-   "market_probability": 0.615,
-   "disagreement": 0.0467,
+   "probability": 0.6612,
+   "odds": 1.52,
+   "market_probability": 0.62,
+   "disagreement": 0.0412,
    "band": "peste piață",
    "historical_hit_rate": 0.601,
    "odds_first": 1.54,
-   "odds_movement": 0.0,
+   "odds_movement": 0.0132,
    "fair_odds": 1.51
   }
  ],
  "count_picks": [
+  {
+   "match_id": "SP1_20261010_Vallecano_AthBilbao",
+   "league_name": "La Liga",
+   "date": "2026-10-10",
+   "time": "12:00",
+   "home": "Vallecano",
+   "away": "Ath Bilbao",
+   "market": "corners_home_over_3.5",
+   "market_label": "Vallecano peste 3.5 cornere",
+   "probability": 0.6997,
+   "fair_odds": 1.43,
+   "historical_hit_rate": 0.665
+  },
+  {
+   "match_id": "SP1_20261010_Vallecano_AthBilbao",
+   "league_name": "La Liga",
+   "date": "2026-10-10",
+   "time": "12:00",
+   "home": "Vallecano",
+   "away": "Ath Bilbao",
+   "market": "cards_away_over_1.5",
+   "market_label": "Ath Bilbao peste 1.5 cartonașe",
+   "probability": 0.6645,
+   "fair_odds": 1.5,
+   "historical_hit_rate": 0.666
+  },
   {
    "match_id": "P1_20261009_Moreirense_GilVicente",
    "league_name": "Primeira Liga",
@@ -328,38 +346,12 @@
    "probability": 0.6261,
    "fair_odds": 1.6,
    "historical_hit_rate": 0.649
-  },
-  {
-   "match_id": "E0_20261010_Chelsea_Bournemouth",
-   "league_name": "Premier League",
-   "date": "2026-10-10",
-   "time": "14:00",
-   "home": "Chelsea",
-   "away": "Bournemouth",
-   "market": "corners_away_over_3.5",
-   "market_label": "Bournemouth peste 3.5 cornere",
-   "probability": 0.6108,
-   "fair_odds": 1.64,
-   "historical_hit_rate": 0.649
-  },
-  {
-   "match_id": "P1_20261009_Moreirense_GilVicente",
-   "league_name": "Primeira Liga",
-   "date": "2026-10-09",
-   "time": "17:45",
-   "home": "Moreirense",
-   "away": "Gil Vicente",
-   "market": "corners_away_over_3.5",
-   "market_label": "Gil Vicente peste 3.5 cornere",
-   "probability": 0.6037,
-   "fair_odds": 1.66,
-   "historical_hit_rate": 0.649
   }
  ],
  "track_record": {
-  "total": 63,
+  "total": 64,
   "resolved": 55,
-  "pending": 8,
+  "pending": 9,
   "hits": 36,
   "hit_rate": 0.6545,
   "profit_units": -6.51,
@@ -791,6 +783,19 @@
     "market_label": "Sub 2.5 goluri",
     "probability": 0.6617,
     "odds": 1.54,
+    "band": "peste piață",
+    "won": null,
+    "score": null
+   },
+   {
+    "match_id": "NAT1528950",
+    "date": "2026-10-05",
+    "league_name": "UEFA Nations League",
+    "home": "Montenegro",
+    "away": "Armenia",
+    "market_label": "Peste 2.5 goluri",
+    "probability": 0.6053,
+    "odds": 1.64,
     "band": "peste piață",
     "won": null,
     "score": null
@@ -1444,19 +1449,6 @@
     "band": "70-80%",
     "won": true,
     "score": "1-0"
-   },
-   {
-    "match_id": "P1_20260920_SantaClara_SpBraga",
-    "date": "2026-09-20",
-    "league_name": "Primeira Liga",
-    "home": "Santa Clara",
-    "away": "Sp Braga",
-    "market_label": "Sub 2.5 goluri",
-    "probability": 0.625,
-    "odds": 1.51,
-    "band": "60-65%",
-    "won": true,
-    "score": "0-0"
    }
   ]
  },
@@ -1479,303 +1471,6 @@
  },
  "matches": [
   {
-   "id": "NAT1640078",
-   "league": "NAT_10",
-   "league_name": "Friendlies",
-   "date": "2026-10-05",
-   "time": "13:00",
-   "home": "Uganda",
-   "away": "Congo DR",
-   "probs": {
-    "p_home": 0.2802,
-    "p_draw": 0.3481,
-    "p_away": 0.3717,
-    "p_over25": 0.2543,
-    "p_btts": 0.3429,
-    "p_under25": 0.7457,
-    "p_no_btts": 0.6571
-   },
-   "expected_goals": {
-    "home": 0.79,
-    "away": 0.95
-   },
-   "confidence": "ridicata",
-   "sample": {
-    "home_matches": 37,
-    "away_matches": 37
-   },
-   "top_scores": [
-    {
-     "score": "0-0",
-     "p": 0.1822
-    },
-    {
-     "score": "0-1",
-     "p": 0.1597
-    },
-    {
-     "score": "1-1",
-     "p": 0.139
-    },
-    {
-     "score": "1-0",
-     "p": 0.1307
-    },
-    {
-     "score": "0-2",
-     "p": 0.0797
-    }
-   ],
-   "reference_odds": {
-    "home": 4.37,
-    "draw": 3.46,
-    "away": 1.78,
-    "over25": 2.21,
-    "under25": 1.63
-   },
-   "context": {
-    "home": {
-     "form": [
-      "I",
-      "V",
-      "I",
-      "E",
-      "V",
-      "V"
-     ],
-     "goals_for_avg": 1.17,
-     "goals_against_avg": 1.33,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "V",
-      "E",
-      "I",
-      "V",
-      "V",
-      "I"
-     ],
-     "goals_for_avg": 1.17,
-     "goals_against_avg": 0.83,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "h2h": [
-     {
-      "date": "2026-10-02",
-      "home": "Congo DR",
-      "away": "Uganda",
-      "score": "0-2"
-     },
-     {
-      "date": "2023-06-14",
-      "home": "Congo DR",
-      "away": "Uganda",
-      "score": "1-0"
-     }
-    ]
-   },
-   "explanation": "Congo DR e favorita, cu 37% sanse de victorie. Goluri asteptate: 0.79 pentru Uganda, 0.95 pentru Congo DR. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Uganda are 37 meciuri in ultimii patru ani, Congo DR are 37. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
-  },
-  {
-   "id": "NAT1638602",
-   "league": "NAT_10",
-   "league_name": "Friendlies",
-   "date": "2026-10-05",
-   "time": "15:00",
-   "home": "Mauritius",
-   "away": "Sri Lanka",
-   "probs": {
-    "p_home": 0.5904,
-    "p_draw": 0.2827,
-    "p_away": 0.1269,
-    "p_over25": 0.3043,
-    "p_btts": 0.3089,
-    "p_under25": 0.6957,
-    "p_no_btts": 0.6911
-   },
-   "expected_goals": {
-    "home": 1.42,
-    "away": 0.51
-   },
-   "confidence": "medie",
-   "sample": {
-    "home_matches": 21,
-    "away_matches": 25
-   },
-   "top_scores": [
-    {
-     "score": "1-0",
-     "p": 0.2002
-    },
-    {
-     "score": "0-0",
-     "p": 0.151
-    },
-    {
-     "score": "2-0",
-     "p": 0.1462
-    },
-    {
-     "score": "1-1",
-     "p": 0.111
-    },
-    {
-     "score": "2-1",
-     "p": 0.0746
-    }
-   ],
-   "reference_odds": {
-    "home": 1.92,
-    "draw": 3.71,
-    "away": 3.78,
-    "over25": 1.87,
-    "under25": 1.94
-   },
-   "context": {
-    "home": {
-     "form": [
-      "I",
-      "I",
-      "E",
-      "E",
-      "E",
-      "V"
-     ],
-     "goals_for_avg": 0.67,
-     "goals_against_avg": 0.83,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "I",
-      "V",
-      "V",
-      "V",
-      "V",
-      "I"
-     ],
-     "goals_for_avg": 2.0,
-     "goals_against_avg": 1.5,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "h2h": [
-     {
-      "date": "2026-10-02",
-      "home": "Mauritius",
-      "away": "Sri Lanka",
-      "score": "3-0"
-     }
-    ]
-   },
-   "explanation": "Mauritius e favorita, cu 59% sanse de victorie. Goluri asteptate: 1.42 pentru Mauritius, 0.51 pentru Sri Lanka. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Mauritius are 21 meciuri in ultimii patru ani, Sri Lanka are 25. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
-  },
-  {
-   "id": "NAT1545611",
-   "league": "NAT_5",
-   "league_name": "UEFA Nations League",
-   "date": "2026-10-05",
-   "time": "16:00",
-   "home": "Cyprus",
-   "away": "Latvia",
-   "probs": {
-    "p_home": 0.4657,
-    "p_draw": 0.2998,
-    "p_away": 0.2345,
-    "p_over25": 0.362,
-    "p_btts": 0.4213,
-    "p_under25": 0.638,
-    "p_no_btts": 0.5787
-   },
-   "expected_goals": {
-    "home": 1.3,
-    "away": 0.84
-   },
-   "confidence": "ridicata",
-   "sample": {
-    "home_matches": 39,
-    "away_matches": 33
-   },
-   "top_scores": [
-    {
-     "score": "1-0",
-     "p": 0.1455
-    },
-    {
-     "score": "1-1",
-     "p": 0.1356
-    },
-    {
-     "score": "0-0",
-     "p": 0.1244
-    },
-    {
-     "score": "2-0",
-     "p": 0.0993
-    },
-    {
-     "score": "0-1",
-     "p": 0.0917
-    }
-   ],
-   "reference_odds": {
-    "home": 1.59,
-    "draw": 3.79,
-    "away": 5.77,
-    "over25": 2.07,
-    "under25": 1.74
-   },
-   "context": {
-    "home": {
-     "form": [
-      "V",
-      "E",
-      "V",
-      "I",
-      "E",
-      "V"
-     ],
-     "goals_for_avg": 1.5,
-     "goals_against_avg": 0.83,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "I",
-      "V",
-      "V",
-      "I",
-      "E",
-      "I"
-     ],
-     "goals_for_avg": 0.67,
-     "goals_against_avg": 1.0,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "h2h": [
-     {
-      "date": "2026-09-28",
-      "home": "Latvia",
-      "away": "Cyprus",
-      "score": "0-0"
-     },
-     {
-      "date": "2024-03-21",
-      "home": "Cyprus",
-      "away": "Latvia",
-      "score": "1-1"
-     }
-    ]
-   },
-   "explanation": "Cyprus e favorita, cu 47% sanse de victorie. Goluri asteptate: 1.30 pentru Cyprus, 0.84 pentru Latvia. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Cyprus are 39 meciuri in ultimii patru ani, Latvia are 33. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
-  },
-  {
    "id": "NAT1528944",
    "league": "NAT_5",
    "league_name": "UEFA Nations League",
@@ -1784,13 +1479,13 @@
    "home": "France",
    "away": "Belgium",
    "probs": {
-    "p_home": 0.5106,
-    "p_draw": 0.2497,
-    "p_away": 0.2397,
-    "p_over25": 0.5426,
-    "p_btts": 0.5605,
-    "p_under25": 0.4574,
-    "p_no_btts": 0.4395
+    "p_home": 0.5111,
+    "p_draw": 0.2491,
+    "p_away": 0.2398,
+    "p_over25": 0.5438,
+    "p_btts": 0.5613,
+    "p_under25": 0.4562,
+    "p_no_btts": 0.4387
    },
    "expected_goals": {
     "home": 1.73,
@@ -1804,7 +1499,7 @@
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1182
+     "p": 0.1179
     },
     {
      "score": "2-1",
@@ -1812,23 +1507,23 @@
     },
     {
      "score": "1-0",
-     "p": 0.0939
+     "p": 0.0937
     },
     {
      "score": "2-0",
-     "p": 0.0866
+     "p": 0.0865
     },
     {
      "score": "0-0",
-     "p": 0.064
+     "p": 0.0635
     }
    ],
    "reference_odds": {
     "home": 1.47,
-    "draw": 4.7,
-    "away": 6.06,
-    "over25": 1.48,
-    "under25": 2.57
+    "draw": 4.58,
+    "away": 6.24,
+    "over25": 1.53,
+    "under25": 2.4
    },
    "context": {
     "home": {
@@ -1886,7 +1581,7 @@
      }
     ]
    },
-   "explanation": "France e favorita, cu 51% sanse de victorie. Goluri asteptate: 1.73 pentru France, 1.12 pentru Belgium. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. France are 37 meciuri in ultimii patru ani, Belgium are 38. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "France e favorita, cu 51% sanse de victorie. Goluri asteptate: 1.73 pentru France, 1.12 pentru Belgium. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. France are 37 meciuri in ultimii patru ani, Belgium are 38. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1528945",
@@ -1897,16 +1592,16 @@
    "home": "Italy",
    "away": "Türkiye",
    "probs": {
-    "p_home": 0.6096,
-    "p_draw": 0.2149,
-    "p_away": 0.1755,
-    "p_over25": 0.6073,
-    "p_btts": 0.5737,
-    "p_under25": 0.3927,
-    "p_no_btts": 0.4263
+    "p_home": 0.6113,
+    "p_draw": 0.2142,
+    "p_away": 0.1746,
+    "p_over25": 0.6077,
+    "p_btts": 0.5731,
+    "p_under25": 0.3923,
+    "p_no_btts": 0.4269
    },
    "expected_goals": {
-    "home": 2.09,
+    "home": 2.1,
     "away": 1.04
    },
    "confidence": "ridicata",
@@ -1917,7 +1612,7 @@
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1
+     "p": 0.0997
     },
     {
      "score": "2-1",
@@ -1925,23 +1620,23 @@
     },
     {
      "score": "2-0",
-     "p": 0.095
+     "p": 0.0952
     },
     {
      "score": "1-0",
-     "p": 0.0855
+     "p": 0.0856
     },
     {
      "score": "3-1",
-     "p": 0.0693
+     "p": 0.0694
     }
    ],
    "reference_odds": {
-    "home": 1.4,
-    "draw": 5.01,
-    "away": 7.13,
-    "over25": 1.53,
-    "under25": 2.43
+    "home": 1.38,
+    "draw": 5.07,
+    "away": 7.53,
+    "over25": 1.52,
+    "under25": 2.45
    },
    "context": {
     "home": {
@@ -1993,7 +1688,7 @@
      }
     ]
    },
-   "explanation": "Italy e favorita, cu 61% sanse de victorie. Goluri asteptate: 2.09 pentru Italy, 1.04 pentru Türkiye. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Italy are 39 meciuri in ultimii patru ani, Türkiye are 39. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Italy e favorita, cu 61% sanse de victorie. Goluri asteptate: 2.10 pentru Italy, 1.04 pentru Türkiye. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Italy are 39 meciuri in ultimii patru ani, Türkiye are 39. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1528946",
@@ -2004,13 +1699,13 @@
    "home": "Ukraine",
    "away": "Hungary",
    "probs": {
-    "p_home": 0.4533,
-    "p_draw": 0.2865,
-    "p_away": 0.2603,
-    "p_over25": 0.4201,
-    "p_btts": 0.475,
-    "p_under25": 0.5799,
-    "p_no_btts": 0.525
+    "p_home": 0.4537,
+    "p_draw": 0.286,
+    "p_away": 0.2604,
+    "p_over25": 0.4206,
+    "p_btts": 0.4752,
+    "p_under25": 0.5794,
+    "p_no_btts": 0.5248
    },
    "expected_goals": {
     "home": 1.38,
@@ -2024,7 +1719,7 @@
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1348
+     "p": 0.1346
     },
     {
      "score": "1-0",
@@ -2032,7 +1727,7 @@
     },
     {
      "score": "0-0",
-     "p": 0.1014
+     "p": 0.101
     },
     {
      "score": "2-0",
@@ -2044,11 +1739,11 @@
     }
    ],
    "reference_odds": {
-    "home": 2.57,
-    "draw": 3.06,
-    "away": 2.91,
-    "over25": 2.35,
-    "under25": 1.6
+    "home": 2.67,
+    "draw": 2.96,
+    "away": 2.85,
+    "over25": 2.46,
+    "under25": 1.54
    },
    "context": {
     "home": {
@@ -2088,7 +1783,7 @@
      }
     ]
    },
-   "explanation": "Ukraine e favorita, cu 45% sanse de victorie. Goluri asteptate: 1.38 pentru Ukraine, 0.98 pentru Hungary. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Ukraine are 37 meciuri in ultimii patru ani, Hungary are 39. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Ukraine e favorita, cu 45% sanse de victorie. Goluri asteptate: 1.38 pentru Ukraine, 0.98 pentru Hungary. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Ukraine are 37 meciuri in ultimii patru ani, Hungary are 39. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1528947",
@@ -2099,13 +1794,13 @@
    "home": "Northern Ireland",
    "away": "Georgia",
    "probs": {
-    "p_home": 0.4014,
-    "p_draw": 0.3144,
+    "p_home": 0.4016,
+    "p_draw": 0.3141,
     "p_away": 0.2842,
-    "p_over25": 0.3416,
-    "p_btts": 0.418,
-    "p_under25": 0.6584,
-    "p_no_btts": 0.582
+    "p_over25": 0.3415,
+    "p_btts": 0.4177,
+    "p_under25": 0.6585,
+    "p_no_btts": 0.5823
    },
    "expected_goals": {
     "home": 1.15,
@@ -2119,19 +1814,19 @@
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1409
+     "p": 0.1407
     },
     {
      "score": "1-0",
-     "p": 0.1378
+     "p": 0.138
     },
     {
      "score": "0-0",
-     "p": 0.1339
+     "p": 0.1337
     },
     {
      "score": "0-1",
-     "p": 0.109
+     "p": 0.1092
     },
     {
      "score": "2-0",
@@ -2139,11 +1834,11 @@
     }
    ],
    "reference_odds": {
-    "home": 2.44,
-    "draw": 2.96,
-    "away": 3.19,
-    "over25": 2.64,
-    "under25": 1.48
+    "home": 2.39,
+    "draw": 2.93,
+    "away": 3.32,
+    "over25": 2.79,
+    "under25": 1.43
    },
    "context": {
     "home": {
@@ -2183,7 +1878,7 @@
      }
     ]
    },
-   "explanation": "Northern Ireland e favorita, cu 40% sanse de victorie. Goluri asteptate: 1.15 pentru Northern Ireland, 0.92 pentru Georgia. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Northern Ireland are 37 meciuri in ultimii patru ani, Georgia are 37. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Northern Ireland e favorita, cu 40% sanse de victorie. Goluri asteptate: 1.15 pentru Northern Ireland, 0.92 pentru Georgia. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Northern Ireland are 37 meciuri in ultimii patru ani, Georgia are 37. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1528948",
@@ -2194,13 +1889,13 @@
    "home": "Bosnia & Herzegovina",
    "away": "Poland",
    "probs": {
-    "p_home": 0.2845,
-    "p_draw": 0.2749,
-    "p_away": 0.4406,
-    "p_over25": 0.4744,
-    "p_btts": 0.5227,
-    "p_under25": 0.5256,
-    "p_no_btts": 0.4773
+    "p_home": 0.2852,
+    "p_draw": 0.2751,
+    "p_away": 0.4397,
+    "p_over25": 0.4728,
+    "p_btts": 0.5215,
+    "p_under25": 0.5272,
+    "p_no_btts": 0.4785
    },
    "expected_goals": {
     "home": 1.12,
@@ -2218,27 +1913,27 @@
     },
     {
      "score": "0-1",
-     "p": 0.1041
+     "p": 0.1046
     },
     {
      "score": "1-2",
-     "p": 0.0902
+     "p": 0.09
     },
     {
      "score": "0-0",
-     "p": 0.0833
+     "p": 0.0836
     },
     {
      "score": "0-2",
-     "p": 0.0806
+     "p": 0.0805
     }
    ],
    "reference_odds": {
-    "home": 2.95,
-    "draw": 3.4,
-    "away": 2.34,
-    "over25": 1.89,
-    "under25": 1.93
+    "home": 2.81,
+    "draw": 3.25,
+    "away": 2.52,
+    "over25": 2.0,
+    "under25": 1.81
    },
    "context": {
     "home": {
@@ -2290,7 +1985,7 @@
      }
     ]
    },
-   "explanation": "Poland e favorita, cu 44% sanse de victorie. Goluri asteptate: 1.12 pentru Bosnia & Herzegovina, 1.45 pentru Poland. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Bosnia & Herzegovina are 36 meciuri in ultimii patru ani, Poland are 38. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Poland e favorita, cu 44% sanse de victorie. Goluri asteptate: 1.12 pentru Bosnia & Herzegovina, 1.45 pentru Poland. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Bosnia & Herzegovina are 36 meciuri in ultimii patru ani, Poland are 38. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1528949",
@@ -2301,13 +1996,13 @@
    "home": "Romania",
    "away": "Sweden",
    "probs": {
-    "p_home": 0.2981,
-    "p_draw": 0.2466,
-    "p_away": 0.4553,
+    "p_home": 0.2986,
+    "p_draw": 0.2463,
+    "p_away": 0.4551,
     "p_over25": 0.5969,
-    "p_btts": 0.6179,
+    "p_btts": 0.6178,
     "p_under25": 0.4031,
-    "p_no_btts": 0.3821
+    "p_no_btts": 0.3822
    },
    "expected_goals": {
     "home": 1.36,
@@ -2321,7 +2016,7 @@
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.113
+     "p": 0.1129
     },
     {
      "score": "1-2",
@@ -2333,7 +2028,7 @@
     },
     {
      "score": "0-1",
-     "p": 0.0726
+     "p": 0.0727
     },
     {
      "score": "0-2",
@@ -2341,11 +2036,11 @@
     }
    ],
    "reference_odds": {
-    "home": 4.09,
-    "draw": 3.97,
-    "away": 1.78,
-    "over25": 1.61,
-    "under25": 2.34
+    "home": 4.78,
+    "draw": 4.15,
+    "away": 1.65,
+    "over25": 1.54,
+    "under25": 2.38
    },
    "context": {
     "home": {
@@ -2391,7 +2086,7 @@
      }
     ]
    },
-   "explanation": "Sweden e favorita, cu 46% sanse de victorie. Goluri asteptate: 1.36 pentru Romania, 1.73 pentru Sweden. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Romania are 39 meciuri in ultimii patru ani, Sweden are 42. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Sweden e favorita, cu 46% sanse de victorie. Goluri asteptate: 1.36 pentru Romania, 1.73 pentru Sweden. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Romania are 39 meciuri in ultimii patru ani, Sweden are 42. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1528950",
@@ -2402,17 +2097,17 @@
    "home": "Montenegro",
    "away": "Armenia",
    "probs": {
-    "p_home": 0.615,
-    "p_draw": 0.2132,
-    "p_away": 0.1718,
-    "p_over25": 0.6085,
-    "p_btts": 0.5718,
-    "p_under25": 0.3915,
-    "p_no_btts": 0.4282
+    "p_home": 0.6136,
+    "p_draw": 0.2139,
+    "p_away": 0.1725,
+    "p_over25": 0.6053,
+    "p_btts": 0.5697,
+    "p_under25": 0.3947,
+    "p_no_btts": 0.4303
    },
    "expected_goals": {
-    "home": 2.11,
-    "away": 1.04
+    "home": 2.1,
+    "away": 1.03
    },
    "confidence": "ridicata",
    "sample": {
@@ -2422,31 +2117,31 @@
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.0992
+     "p": 0.0997
     },
     {
      "score": "2-1",
-     "p": 0.0992
+     "p": 0.0993
     },
     {
      "score": "2-0",
-     "p": 0.0959
+     "p": 0.0963
     },
     {
      "score": "1-0",
-     "p": 0.0857
+     "p": 0.0866
     },
     {
      "score": "3-1",
-     "p": 0.0698
+     "p": 0.0695
     }
    ],
    "reference_odds": {
-    "home": 1.52,
-    "draw": 4.24,
-    "away": 5.71,
-    "over25": 1.71,
-    "under25": 2.11
+    "home": 1.41,
+    "draw": 4.7,
+    "away": 6.82,
+    "over25": 1.64,
+    "under25": 2.23
    },
    "context": {
     "home": {
@@ -2510,7 +2205,7 @@
      }
     ]
    },
-   "explanation": "Montenegro e favorita, cu 62% sanse de victorie. Goluri asteptate: 2.11 pentru Montenegro, 1.04 pentru Armenia. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Montenegro are 39 meciuri in ultimii patru ani, Armenia are 38. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Montenegro e favorita, cu 61% sanse de victorie. Goluri asteptate: 2.10 pentru Montenegro, 1.03 pentru Armenia. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Montenegro are 39 meciuri in ultimii patru ani, Armenia are 38. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1610880",
@@ -2521,17 +2216,17 @@
    "home": "Liechtenstein",
    "away": "Gibraltar",
    "probs": {
-    "p_home": 0.2286,
-    "p_draw": 0.4328,
-    "p_away": 0.3386,
-    "p_over25": 0.1162,
-    "p_btts": 0.2003,
-    "p_under25": 0.8838,
-    "p_no_btts": 0.7997
+    "p_home": 0.2276,
+    "p_draw": 0.4347,
+    "p_away": 0.3377,
+    "p_over25": 0.1138,
+    "p_btts": 0.1974,
+    "p_under25": 0.8862,
+    "p_no_btts": 0.8026
    },
    "expected_goals": {
     "home": 0.5,
-    "away": 0.68
+    "away": 0.67
    },
    "confidence": "ridicata",
    "sample": {
@@ -2541,31 +2236,31 @@
    "top_scores": [
     {
      "score": "0-0",
-     "p": 0.3131
+     "p": 0.3163
     },
     {
      "score": "0-1",
-     "p": 0.202
+     "p": 0.2027
     },
     {
      "score": "1-0",
-     "p": 0.149
+     "p": 0.1492
     },
     {
      "score": "1-1",
-     "p": 0.1105
+     "p": 0.1094
     },
     {
      "score": "0-2",
-     "p": 0.0703
+     "p": 0.0699
     }
    ],
    "reference_odds": {
-    "home": 2.67,
-    "draw": 2.81,
-    "away": 2.83,
-    "over25": 3.07,
-    "under25": 1.33
+    "home": 3.01,
+    "draw": 2.79,
+    "away": 2.54,
+    "over25": 3.14,
+    "under25": 1.31
    },
    "context": {
     "home": {
@@ -2629,7 +2324,7 @@
      }
     ]
    },
-   "explanation": "Gibraltar e favorita, cu 34% sanse de victorie. Goluri asteptate: 0.50 pentru Liechtenstein, 0.68 pentru Gibraltar. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Liechtenstein are 36 meciuri in ultimii patru ani, Gibraltar are 39. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Gibraltar e favorita, cu 34% sanse de victorie. Goluri asteptate: 0.50 pentru Liechtenstein, 0.67 pentru Gibraltar. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Liechtenstein are 36 meciuri in ultimii patru ani, Gibraltar are 39. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1639992",
@@ -2640,13 +2335,13 @@
    "home": "Guadeloupe",
    "away": "St. Lucia",
    "probs": {
-    "p_home": 0.7061,
-    "p_draw": 0.2102,
-    "p_away": 0.0837,
-    "p_over25": 0.4264,
-    "p_btts": 0.3364,
-    "p_under25": 0.5736,
-    "p_no_btts": 0.6636
+    "p_home": 0.7054,
+    "p_draw": 0.2105,
+    "p_away": 0.0841,
+    "p_over25": 0.4251,
+    "p_btts": 0.3358,
+    "p_under25": 0.5749,
+    "p_no_btts": 0.6642
    },
    "expected_goals": {
     "home": 1.89,
@@ -2660,7 +2355,7 @@
    "top_scores": [
     {
      "score": "1-0",
-     "p": 0.1692
+     "p": 0.1698
     },
     {
      "score": "2-0",
@@ -2668,11 +2363,11 @@
     },
     {
      "score": "3-0",
-     "p": 0.1036
+     "p": 0.1033
     },
     {
      "score": "0-0",
-     "p": 0.0968
+     "p": 0.0972
     },
     {
      "score": "1-1",
@@ -2680,11 +2375,11 @@
     }
    ],
    "reference_odds": {
-    "home": 3.5,
-    "draw": 3.73,
-    "away": 1.84,
-    "over25": 1.62,
-    "under25": 2.19
+    "home": 4.4,
+    "draw": 4.08,
+    "away": 1.6,
+    "over25": 1.58,
+    "under25": 2.26
    },
    "context": {
     "home": {
@@ -2730,7 +2425,7 @@
      }
     ]
    },
-   "explanation": "Guadeloupe e favorita, cu 71% sanse de victorie. Goluri asteptate: 1.89 pentru Guadeloupe, 0.50 pentru St. Lucia. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Guadeloupe are 14 meciuri in ultimii patru ani, St. Lucia are 20. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Guadeloupe e favorita, cu 71% sanse de victorie. Goluri asteptate: 1.89 pentru Guadeloupe, 0.50 pentru St. Lucia. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Guadeloupe are 14 meciuri in ultimii patru ani, St. Lucia are 20. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1639993",
@@ -2741,16 +2436,16 @@
    "home": "Cuba",
    "away": "St. Kitts and Nevis",
    "probs": {
-    "p_home": 0.7064,
-    "p_draw": 0.1858,
-    "p_away": 0.1078,
-    "p_over25": 0.5869,
-    "p_btts": 0.489,
-    "p_under25": 0.4131,
-    "p_no_btts": 0.511
+    "p_home": 0.7072,
+    "p_draw": 0.1848,
+    "p_away": 0.108,
+    "p_over25": 0.5901,
+    "p_btts": 0.4913,
+    "p_under25": 0.4099,
+    "p_no_btts": 0.5087
    },
    "expected_goals": {
-    "home": 2.27,
+    "home": 2.28,
     "away": 0.78
    },
    "confidence": "ridicata",
@@ -2761,11 +2456,11 @@
    "top_scores": [
     {
      "score": "2-0",
-     "p": 0.1224
+     "p": 0.1217
     },
     {
      "score": "1-0",
-     "p": 0.1033
+     "p": 0.1023
     },
     {
      "score": "2-1",
@@ -2773,19 +2468,19 @@
     },
     {
      "score": "3-0",
-     "p": 0.0925
+     "p": 0.0924
     },
     {
      "score": "1-1",
-     "p": 0.0885
+     "p": 0.088
     }
    ],
    "reference_odds": {
-    "home": 1.74,
-    "draw": 3.92,
-    "away": 3.74,
-    "over25": 1.49,
-    "under25": 2.4
+    "home": 1.65,
+    "draw": 4.07,
+    "away": 4.11,
+    "over25": 1.48,
+    "under25": 2.45
    },
    "context": {
     "home": {
@@ -2831,7 +2526,7 @@
      }
     ]
    },
-   "explanation": "Cuba e favorita, cu 71% sanse de victorie. Goluri asteptate: 2.27 pentru Cuba, 0.78 pentru St. Kitts and Nevis. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Cuba are 25 meciuri in ultimii patru ani, St. Kitts and Nevis are 26. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Cuba e favorita, cu 71% sanse de victorie. Goluri asteptate: 2.28 pentru Cuba, 0.78 pentru St. Kitts and Nevis. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Cuba are 25 meciuri in ultimii patru ani, St. Kitts and Nevis are 26. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1639994",
@@ -2842,17 +2537,17 @@
    "home": "Martinique",
    "away": "El Salvador",
    "probs": {
-    "p_home": 0.272,
-    "p_draw": 0.394,
-    "p_away": 0.3339,
-    "p_over25": 0.1688,
-    "p_btts": 0.2611,
-    "p_under25": 0.8312,
-    "p_no_btts": 0.7389
+    "p_home": 0.2746,
+    "p_draw": 0.3965,
+    "p_away": 0.3289,
+    "p_over25": 0.1649,
+    "p_btts": 0.2572,
+    "p_under25": 0.8351,
+    "p_no_btts": 0.7428
    },
    "expected_goals": {
     "home": 0.65,
-    "away": 0.76
+    "away": 0.74
    },
    "confidence": "scazuta",
    "sample": {
@@ -2862,31 +2557,31 @@
    "top_scores": [
     {
      "score": "0-0",
-     "p": 0.251
+     "p": 0.2547
     },
     {
      "score": "0-1",
-     "p": 0.1781
+     "p": 0.1777
     },
     {
      "score": "1-0",
-     "p": 0.1529
+     "p": 0.1553
     },
     {
      "score": "1-1",
-     "p": 0.1273
+     "p": 0.1265
     },
     {
      "score": "0-2",
-     "p": 0.0699
+     "p": 0.0683
     }
    ],
    "reference_odds": {
-    "home": 2.41,
-    "draw": 3.35,
-    "away": 2.66,
-    "over25": 1.83,
-    "under25": 1.93
+    "home": 2.4,
+    "draw": 3.34,
+    "away": 2.69,
+    "over25": 1.84,
+    "under25": 1.92
    },
    "context": {
     "home": {
@@ -2932,7 +2627,7 @@
      }
     ]
    },
-   "explanation": "El Salvador e favorita, cu 33% sanse de victorie. Goluri asteptate: 0.65 pentru Martinique, 0.76 pentru El Salvador. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Martinique are 11 meciuri in ultimii patru ani, El Salvador are 39. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "El Salvador e favorita, cu 33% sanse de victorie. Goluri asteptate: 0.65 pentru Martinique, 0.74 pentru El Salvador. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Martinique are 11 meciuri in ultimii patru ani, El Salvador are 39. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1639995",
@@ -2943,13 +2638,13 @@
    "home": "Bermuda",
    "away": "Barbados",
    "probs": {
-    "p_home": 0.669,
-    "p_draw": 0.1766,
-    "p_away": 0.1544,
-    "p_over25": 0.7391,
-    "p_btts": 0.6593,
-    "p_under25": 0.2609,
-    "p_no_btts": 0.3407
+    "p_home": 0.668,
+    "p_draw": 0.177,
+    "p_away": 0.155,
+    "p_over25": 0.7377,
+    "p_btts": 0.6585,
+    "p_under25": 0.2623,
+    "p_no_btts": 0.3415
    },
    "expected_goals": {
     "home": 2.62,
@@ -2963,7 +2658,7 @@
    "top_scores": [
     {
      "score": "2-1",
-     "p": 0.0898
+     "p": 0.09
     },
     {
      "score": "3-1",
@@ -2971,11 +2666,11 @@
     },
     {
      "score": "2-0",
-     "p": 0.0732
+     "p": 0.0734
     },
     {
      "score": "1-1",
-     "p": 0.0723
+     "p": 0.0725
     },
     {
      "score": "3-0",
@@ -2983,11 +2678,11 @@
     }
    ],
    "reference_odds": {
-    "home": 3.73,
-    "draw": 4.07,
-    "away": 1.71,
-    "over25": 1.37,
-    "under25": 2.83
+    "home": 4.39,
+    "draw": 4.37,
+    "away": 1.56,
+    "over25": 1.36,
+    "under25": 2.85
    },
    "context": {
     "home": {
@@ -3033,7 +2728,7 @@
      }
     ]
    },
-   "explanation": "Bermuda e favorita, cu 67% sanse de victorie. Goluri asteptate: 2.62 pentru Bermuda, 1.23 pentru Barbados. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Bermuda are 28 meciuri in ultimii patru ani, Barbados are 23. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Bermuda e favorita, cu 67% sanse de victorie. Goluri asteptate: 2.62 pentru Bermuda, 1.23 pentru Barbados. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Bermuda are 28 meciuri in ultimii patru ani, Barbados are 23. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1639996",
@@ -3044,17 +2739,17 @@
    "home": "Grenada",
    "away": "Bonaire",
    "probs": {
-    "p_home": 0.7674,
-    "p_draw": 0.1616,
-    "p_away": 0.0711,
-    "p_over25": 0.5718,
-    "p_btts": 0.4124,
-    "p_under25": 0.4282,
-    "p_no_btts": 0.5876
+    "p_home": 0.7671,
+    "p_draw": 0.1611,
+    "p_away": 0.0718,
+    "p_over25": 0.5755,
+    "p_btts": 0.4164,
+    "p_under25": 0.4245,
+    "p_no_btts": 0.5836
    },
    "expected_goals": {
-    "home": 2.38,
-    "away": 0.6
+    "home": 2.39,
+    "away": 0.61
    },
    "confidence": "medie",
    "sample": {
@@ -3064,31 +2759,31 @@
    "top_scores": [
     {
      "score": "2-0",
-     "p": 0.1442
+     "p": 0.1429
     },
     {
      "score": "1-0",
-     "p": 0.1171
+     "p": 0.1157
     },
     {
      "score": "3-0",
-     "p": 0.1144
+     "p": 0.1138
     },
     {
      "score": "2-1",
-     "p": 0.0862
+     "p": 0.0865
     },
     {
      "score": "1-1",
-     "p": 0.0764
+     "p": 0.0763
     }
    ],
    "reference_odds": {
-    "home": 1.42,
-    "draw": 4.21,
-    "away": 6.19,
-    "over25": 1.68,
-    "under25": 2.08
+    "home": 1.37,
+    "draw": 4.3,
+    "away": 6.88,
+    "over25": 1.75,
+    "under25": 1.97
    },
    "context": {
     "home": {
@@ -3121,7 +2816,7 @@
     },
     "h2h": []
    },
-   "explanation": "Grenada e favorita, cu 77% sanse de victorie. Goluri asteptate: 2.38 pentru Grenada, 0.60 pentru Bonaire. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Grenada are 28 meciuri in ultimii patru ani, Bonaire are 14. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Grenada e favorita, cu 77% sanse de victorie. Goluri asteptate: 2.39 pentru Grenada, 0.61 pentru Bonaire. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Grenada are 28 meciuri in ultimii patru ani, Bonaire are 14. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1639997",
@@ -3132,17 +2827,17 @@
    "home": "Guatemala",
    "away": "Suriname",
    "probs": {
-    "p_home": 0.4685,
+    "p_home": 0.4691,
     "p_draw": 0.2862,
-    "p_away": 0.2452,
-    "p_over25": 0.4117,
-    "p_btts": 0.4638,
-    "p_under25": 0.5883,
-    "p_no_btts": 0.5362
+    "p_away": 0.2447,
+    "p_over25": 0.41,
+    "p_btts": 0.4621,
+    "p_under25": 0.59,
+    "p_no_btts": 0.5379
    },
    "expected_goals": {
     "home": 1.39,
-    "away": 0.94
+    "away": 0.93
    },
    "confidence": "medie",
    "sample": {
@@ -3152,31 +2847,31 @@
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.134
+     "p": 0.1338
     },
     {
      "score": "1-0",
-     "p": 0.1287
+     "p": 0.1295
     },
     {
      "score": "0-0",
-     "p": 0.1044
+     "p": 0.1048
     },
     {
      "score": "2-0",
-     "p": 0.0946
+     "p": 0.0949
     },
     {
      "score": "2-1",
-     "p": 0.0885
+     "p": 0.0884
     }
    ],
    "reference_odds": {
-    "home": 2.26,
-    "draw": 3.29,
-    "away": 2.91,
-    "over25": 1.91,
-    "under25": 1.84
+    "home": 2.11,
+    "draw": 3.32,
+    "away": 3.14,
+    "over25": 1.89,
+    "under25": 1.86
    },
    "context": {
     "home": {
@@ -3222,7 +2917,7 @@
      }
     ]
    },
-   "explanation": "Guatemala e favorita, cu 47% sanse de victorie. Goluri asteptate: 1.39 pentru Guatemala, 0.94 pentru Suriname. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Guatemala are 43 meciuri in ultimii patru ani, Suriname are 22. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Guatemala e favorita, cu 47% sanse de victorie. Goluri asteptate: 1.39 pentru Guatemala, 0.93 pentru Suriname. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Guatemala are 43 meciuri in ultimii patru ani, Suriname are 22. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1639998",
@@ -3233,13 +2928,13 @@
    "home": "Honduras",
    "away": "Jamaica",
    "probs": {
-    "p_home": 0.3913,
-    "p_draw": 0.3394,
-    "p_away": 0.2693,
-    "p_over25": 0.2719,
-    "p_btts": 0.3566,
-    "p_under25": 0.7281,
-    "p_no_btts": 0.6434
+    "p_home": 0.3927,
+    "p_draw": 0.3388,
+    "p_away": 0.2684,
+    "p_over25": 0.2722,
+    "p_btts": 0.3565,
+    "p_under25": 0.7278,
+    "p_no_btts": 0.6435
    },
    "expected_goals": {
     "home": 1.02,
@@ -3253,30 +2948,30 @@
    "top_scores": [
     {
      "score": "0-0",
-     "p": 0.1711
+     "p": 0.1707
     },
     {
      "score": "1-0",
-     "p": 0.1592
+     "p": 0.1597
     },
     {
      "score": "1-1",
-     "p": 0.1393
+     "p": 0.139
     },
     {
      "score": "0-1",
-     "p": 0.1225
+     "p": 0.1223
     },
     {
      "score": "2-0",
-     "p": 0.0846
+     "p": 0.085
     }
    ],
    "reference_odds": {
-    "home": 2.01,
+    "home": 2.02,
     "draw": 3.18,
-    "away": 3.56,
-    "over25": 2.19,
+    "away": 3.55,
+    "over25": 2.2,
     "under25": 1.63
    },
    "context": {
@@ -3341,7 +3036,7 @@
      }
     ]
    },
-   "explanation": "Honduras e favorita, cu 39% sanse de victorie. Goluri asteptate: 1.02 pentru Honduras, 0.79 pentru Jamaica. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Honduras are 35 meciuri in ultimii patru ani, Jamaica are 42. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Honduras e favorita, cu 39% sanse de victorie. Goluri asteptate: 1.02 pentru Honduras, 0.79 pentru Jamaica. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Honduras are 35 meciuri in ultimii patru ani, Jamaica are 42. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1629005",
@@ -3352,13 +3047,13 @@
    "home": "South Korea",
    "away": "Uzbekistan",
    "probs": {
-    "p_home": 0.5343,
-    "p_draw": 0.272,
-    "p_away": 0.1937,
-    "p_over25": 0.4144,
-    "p_btts": 0.4425,
-    "p_under25": 0.5856,
-    "p_no_btts": 0.5575
+    "p_home": 0.5344,
+    "p_draw": 0.2718,
+    "p_away": 0.1938,
+    "p_over25": 0.4143,
+    "p_btts": 0.4422,
+    "p_under25": 0.5857,
+    "p_no_btts": 0.5578
    },
    "expected_goals": {
     "home": 1.52,
@@ -3372,11 +3067,11 @@
    "top_scores": [
     {
      "score": "1-0",
-     "p": 0.1404
+     "p": 0.1406
     },
     {
      "score": "1-1",
-     "p": 0.1263
+     "p": 0.1262
     },
     {
      "score": "2-0",
@@ -3384,14 +3079,20 @@
     },
     {
      "score": "0-0",
-     "p": 0.103
+     "p": 0.1029
     },
     {
      "score": "2-1",
      "p": 0.0913
     }
    ],
-   "reference_odds": {},
+   "reference_odds": {
+    "home": 1.64,
+    "draw": 3.75,
+    "away": 4.76,
+    "over25": 1.91,
+    "under25": 1.87
+   },
    "context": {
     "home": {
      "form": [
@@ -3442,7 +3143,7 @@
      }
     ]
    },
-   "explanation": "South Korea e favorita, cu 53% sanse de victorie. Goluri asteptate: 1.52 pentru South Korea, 0.81 pentru Uzbekistan. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. South Korea are 39 meciuri in ultimii patru ani, Uzbekistan are 37. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "South Korea e favorita, cu 53% sanse de victorie. Goluri asteptate: 1.52 pentru South Korea, 0.81 pentru Uzbekistan. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. South Korea are 39 meciuri in ultimii patru ani, Uzbekistan are 37. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1638603",
@@ -3453,17 +3154,17 @@
    "home": "China",
    "away": "Tajikistan",
    "probs": {
-    "p_home": 0.472,
+    "p_home": 0.4698,
     "p_draw": 0.2903,
-    "p_away": 0.2377,
-    "p_over25": 0.3933,
-    "p_btts": 0.4469,
-    "p_under25": 0.6067,
-    "p_no_btts": 0.5531
+    "p_away": 0.2399,
+    "p_over25": 0.3937,
+    "p_btts": 0.4478,
+    "p_under25": 0.6063,
+    "p_no_btts": 0.5522
    },
    "expected_goals": {
-    "home": 1.37,
-    "away": 0.89
+    "home": 1.36,
+    "away": 0.9
    },
    "confidence": "ridicata",
    "sample": {
@@ -3473,7 +3174,7 @@
    "top_scores": [
     {
      "score": "1-0",
-     "p": 0.1357
+     "p": 0.1353
     },
     {
      "score": "1-1",
@@ -3481,18 +3182,24 @@
     },
     {
      "score": "0-0",
-     "p": 0.1114
+     "p": 0.1111
     },
     {
      "score": "2-0",
-     "p": 0.0976
+     "p": 0.0969
     },
     {
      "score": "2-1",
-     "p": 0.0871
+     "p": 0.087
     }
    ],
-   "reference_odds": {},
+   "reference_odds": {
+    "home": 1.6,
+    "draw": 3.71,
+    "away": 5.32,
+    "over25": 2.08,
+    "under25": 1.72
+   },
    "context": {
     "home": {
      "form": [
@@ -3531,7 +3238,7 @@
      }
     ]
    },
-   "explanation": "China e favorita, cu 47% sanse de victorie. Goluri asteptate: 1.37 pentru China, 0.89 pentru Tajikistan. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. China are 32 meciuri in ultimii patru ani, Tajikistan are 28. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "China e favorita, cu 47% sanse de victorie. Goluri asteptate: 1.36 pentru China, 0.90 pentru Tajikistan. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. China are 32 meciuri in ultimii patru ani, Tajikistan are 28. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1528951",
@@ -3542,16 +3249,16 @@
    "home": "Kazakhstan",
    "away": "Faroe Islands",
    "probs": {
-    "p_home": 0.375,
-    "p_draw": 0.3175,
-    "p_away": 0.3075,
-    "p_over25": 0.3383,
-    "p_btts": 0.4183,
-    "p_under25": 0.6617,
-    "p_no_btts": 0.5817
+    "p_home": 0.3761,
+    "p_draw": 0.3169,
+    "p_away": 0.307,
+    "p_over25": 0.3388,
+    "p_btts": 0.4185,
+    "p_under25": 0.6612,
+    "p_no_btts": 0.5815
    },
    "expected_goals": {
-    "home": 1.09,
+    "home": 1.1,
     "away": 0.96
    },
    "confidence": "ridicata",
@@ -3562,31 +3269,31 @@
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1421
+     "p": 0.1419
     },
     {
      "score": "0-0",
-     "p": 0.1355
+     "p": 0.1351
     },
     {
      "score": "1-0",
-     "p": 0.1325
+     "p": 0.1327
     },
     {
      "score": "0-1",
-     "p": 0.1158
+     "p": 0.1157
     },
     {
      "score": "2-0",
-     "p": 0.0765
+     "p": 0.0767
     }
    ],
    "reference_odds": {
-    "home": 2.37,
-    "draw": 3.0,
-    "away": 3.13,
-    "over25": 2.46,
-    "under25": 1.54
+    "home": 2.34,
+    "draw": 2.99,
+    "away": 3.21,
+    "over25": 2.48,
+    "under25": 1.52
    },
    "context": {
     "home": {
@@ -3632,7 +3339,7 @@
      }
     ]
    },
-   "explanation": "Kazakhstan e favorita, cu 38% sanse de victorie. Goluri asteptate: 1.09 pentru Kazakhstan, 0.96 pentru Faroe Islands. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Kazakhstan are 40 meciuri in ultimii patru ani, Faroe Islands are 34. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Kazakhstan e favorita, cu 38% sanse de victorie. Goluri asteptate: 1.10 pentru Kazakhstan, 0.96 pentru Faroe Islands. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Kazakhstan are 40 meciuri in ultimii patru ani, Faroe Islands are 34. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1638604",
@@ -3643,17 +3350,17 @@
    "home": "India",
    "away": "Uruguay",
    "probs": {
-    "p_home": 0.0096,
-    "p_draw": 0.0562,
-    "p_away": 0.9342,
-    "p_over25": 0.7021,
-    "p_btts": 0.2123,
-    "p_under25": 0.2979,
-    "p_no_btts": 0.7877
+    "p_home": 0.01,
+    "p_draw": 0.058,
+    "p_away": 0.932,
+    "p_over25": 0.6959,
+    "p_btts": 0.2129,
+    "p_under25": 0.3041,
+    "p_no_btts": 0.7871
    },
    "expected_goals": {
     "home": 0.25,
-    "away": 3.38
+    "away": 3.35
    },
    "confidence": "ridicata",
    "sample": {
@@ -3663,31 +3370,31 @@
    "top_scores": [
     {
      "score": "0-3",
-     "p": 0.1713
+     "p": 0.1718
     },
     {
      "score": "0-2",
-     "p": 0.1519
+     "p": 0.154
     },
     {
      "score": "0-4",
-     "p": 0.1449
+     "p": 0.1437
     },
     {
      "score": "0-5",
-     "p": 0.098
+     "p": 0.0962
     },
     {
      "score": "0-1",
-     "p": 0.0886
+     "p": 0.0908
     }
    ],
    "reference_odds": {
-    "home": 53.5,
-    "draw": 17.54,
-    "away": 1.03,
-    "over25": 1.15,
-    "under25": 4.81
+    "home": 54.0,
+    "draw": 19.92,
+    "away": 1.02,
+    "over25": 1.19,
+    "under25": 4.16
    },
    "context": {
     "home": {
@@ -3720,7 +3427,7 @@
     },
     "h2h": []
    },
-   "explanation": "Uruguay e favorita, cu 93% sanse de victorie. Goluri asteptate: 0.25 pentru India, 3.38 pentru Uruguay. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. India are 31 meciuri in ultimii patru ani, Uruguay are 35. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Uruguay e favorita, cu 93% sanse de victorie. Goluri asteptate: 0.25 pentru India, 3.35 pentru Uruguay. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. India are 31 meciuri in ultimii patru ani, Uruguay are 35. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1640080",
@@ -3731,17 +3438,17 @@
    "home": "Russia",
    "away": "Nigeria",
    "probs": {
-    "p_home": 0.6746,
-    "p_draw": 0.21,
-    "p_away": 0.1155,
-    "p_over25": 0.5073,
-    "p_btts": 0.4412,
-    "p_under25": 0.4927,
-    "p_no_btts": 0.5588
+    "p_home": 0.6715,
+    "p_draw": 0.2111,
+    "p_away": 0.1175,
+    "p_over25": 0.5065,
+    "p_btts": 0.4428,
+    "p_under25": 0.4935,
+    "p_no_btts": 0.5572
    },
    "expected_goals": {
-    "home": 2.0,
-    "away": 0.7
+    "home": 1.99,
+    "away": 0.71
    },
    "confidence": "ridicata",
    "sample": {
@@ -3751,23 +3458,23 @@
    "top_scores": [
     {
      "score": "2-0",
-     "p": 0.1343
+     "p": 0.1335
     },
     {
      "score": "1-0",
-     "p": 0.1289
+     "p": 0.1288
     },
     {
      "score": "1-1",
-     "p": 0.0992
+     "p": 0.0998
     },
     {
      "score": "2-1",
-     "p": 0.0941
+     "p": 0.0944
     },
     {
      "score": "3-0",
-     "p": 0.0896
+     "p": 0.0887
     }
    ],
    "reference_odds": {
@@ -3815,7 +3522,7 @@
      }
     ]
    },
-   "explanation": "Russia e favorita, cu 67% sanse de victorie. Goluri asteptate: 2.00 pentru Russia, 0.70 pentru Nigeria. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Russia are 30 meciuri in ultimii patru ani, Nigeria are 40. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Russia e favorita, cu 67% sanse de victorie. Goluri asteptate: 1.99 pentru Russia, 0.71 pentru Nigeria. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Russia are 30 meciuri in ultimii patru ani, Nigeria are 40. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1640081",
@@ -3826,17 +3533,17 @@
    "home": "Jordan",
    "away": "Venezuela",
    "probs": {
-    "p_home": 0.2292,
-    "p_draw": 0.2724,
-    "p_away": 0.4984,
-    "p_over25": 0.4471,
-    "p_btts": 0.4848,
-    "p_under25": 0.5529,
-    "p_no_btts": 0.5152
+    "p_home": 0.2328,
+    "p_draw": 0.2733,
+    "p_away": 0.4938,
+    "p_over25": 0.4456,
+    "p_btts": 0.4849,
+    "p_under25": 0.5544,
+    "p_no_btts": 0.5151
    },
    "expected_goals": {
     "home": 0.95,
-    "away": 1.52
+    "away": 1.5
    },
    "confidence": "ridicata",
    "sample": {
@@ -3846,26 +3553,32 @@
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.129
+     "p": 0.1294
     },
     {
      "score": "0-1",
-     "p": 0.1222
+     "p": 0.1221
     },
     {
      "score": "0-2",
-     "p": 0.0978
+     "p": 0.0969
     },
     {
      "score": "1-2",
-     "p": 0.0927
+     "p": 0.0924
     },
     {
      "score": "0-0",
-     "p": 0.0918
+     "p": 0.0922
     }
    ],
-   "reference_odds": {},
+   "reference_odds": {
+    "home": 2.25,
+    "draw": 3.21,
+    "away": 3.13,
+    "over25": 2.3,
+    "under25": 1.61
+   },
    "context": {
     "home": {
      "form": [
@@ -3897,7 +3610,7 @@
     },
     "h2h": []
    },
-   "explanation": "Venezuela e favorita, cu 50% sanse de victorie. Goluri asteptate: 0.95 pentru Jordan, 1.52 pentru Venezuela. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Jordan are 43 meciuri in ultimii patru ani, Venezuela are 35. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Venezuela e favorita, cu 49% sanse de victorie. Goluri asteptate: 0.95 pentru Jordan, 1.50 pentru Venezuela. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Jordan are 43 meciuri in ultimii patru ani, Venezuela are 35. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1640082",
@@ -3908,16 +3621,16 @@
    "home": "Algeria",
    "away": "Niger",
    "probs": {
-    "p_home": 0.8778,
-    "p_draw": 0.0897,
-    "p_away": 0.0325,
-    "p_over25": 0.7292,
-    "p_btts": 0.4101,
-    "p_under25": 0.2708,
-    "p_no_btts": 0.5899
+    "p_home": 0.876,
+    "p_draw": 0.0908,
+    "p_away": 0.0331,
+    "p_over25": 0.7263,
+    "p_btts": 0.4104,
+    "p_under25": 0.2737,
+    "p_no_btts": 0.5896
    },
    "expected_goals": {
-    "home": 3.24,
+    "home": 3.22,
     "away": 0.55
    },
    "confidence": "ridicata",
@@ -3932,22 +3645,28 @@
     },
     {
      "score": "2-0",
-     "p": 0.1185
+     "p": 0.1192
     },
     {
      "score": "4-0",
-     "p": 0.1034
+     "p": 0.1029
     },
     {
      "score": "1-0",
-     "p": 0.071
+     "p": 0.0719
     },
     {
      "score": "3-1",
-     "p": 0.0707
+     "p": 0.0708
     }
    ],
-   "reference_odds": {},
+   "reference_odds": {
+    "home": 1.22,
+    "draw": 5.69,
+    "away": 12.31,
+    "over25": 1.59,
+    "under25": 2.34
+   },
    "context": {
     "home": {
      "form": [
@@ -4004,7 +3723,7 @@
      }
     ]
    },
-   "explanation": "Algeria e favorita, cu 88% sanse de victorie. Goluri asteptate: 3.24 pentru Algeria, 0.55 pentru Niger. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Algeria are 39 meciuri in ultimii patru ani, Niger are 34. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Algeria e favorita, cu 88% sanse de victorie. Goluri asteptate: 3.22 pentru Algeria, 0.55 pentru Niger. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Algeria are 39 meciuri in ultimii patru ani, Niger are 34. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1644165",
@@ -4015,13 +3734,13 @@
    "home": "Saudi Arabia",
    "away": "United Arab Emirates",
    "probs": {
-    "p_home": 0.4225,
-    "p_draw": 0.3235,
-    "p_away": 0.2539,
-    "p_over25": 0.3059,
-    "p_btts": 0.3821,
-    "p_under25": 0.6941,
-    "p_no_btts": 0.6179
+    "p_home": 0.4212,
+    "p_draw": 0.3232,
+    "p_away": 0.2556,
+    "p_over25": 0.3066,
+    "p_btts": 0.3829,
+    "p_under25": 0.6934,
+    "p_no_btts": 0.6171
    },
    "expected_goals": {
     "home": 1.13,
@@ -4035,11 +3754,11 @@
    "top_scores": [
     {
      "score": "1-0",
-     "p": 0.1555
+     "p": 0.155
     },
     {
      "score": "0-0",
-     "p": 0.1516
+     "p": 0.151
     },
     {
      "score": "1-1",
@@ -4047,14 +3766,20 @@
     },
     {
      "score": "0-1",
-     "p": 0.1094
+     "p": 0.1098
     },
     {
      "score": "2-0",
-     "p": 0.0917
+     "p": 0.0913
     }
    ],
-   "reference_odds": {},
+   "reference_odds": {
+    "home": 2.13,
+    "draw": 2.96,
+    "away": 3.38,
+    "over25": 2.49,
+    "under25": 1.46
+   },
    "context": {
     "home": {
      "form": [
@@ -4117,7 +3842,7 @@
      }
     ]
    },
-   "explanation": "Saudi Arabia e favorita, cu 42% sanse de victorie. Goluri asteptate: 1.13 pentru Saudi Arabia, 0.81 pentru United Arab Emirates. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Saudi Arabia are 44 meciuri in ultimii patru ani, United Arab Emirates are 32. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Saudi Arabia e favorita, cu 42% sanse de victorie. Goluri asteptate: 1.13 pentru Saudi Arabia, 0.81 pentru United Arab Emirates. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Saudi Arabia are 44 meciuri in ultimii patru ani, United Arab Emirates are 32. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1528952",
@@ -4128,17 +3853,17 @@
    "home": "Croatia",
    "away": "Spain",
    "probs": {
-    "p_home": 0.1972,
-    "p_draw": 0.2284,
-    "p_away": 0.5744,
-    "p_over25": 0.5826,
-    "p_btts": 0.5696,
-    "p_under25": 0.4174,
-    "p_no_btts": 0.4304
+    "p_home": 0.1958,
+    "p_draw": 0.2266,
+    "p_away": 0.5776,
+    "p_over25": 0.5871,
+    "p_btts": 0.5718,
+    "p_under25": 0.4129,
+    "p_no_btts": 0.4282
    },
    "expected_goals": {
     "home": 1.07,
-    "away": 1.96
+    "away": 1.97
    },
    "confidence": "ridicata",
    "sample": {
@@ -4148,7 +3873,7 @@
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1071
+     "p": 0.1061
     },
     {
      "score": "1-2",
@@ -4156,23 +3881,23 @@
     },
     {
      "score": "0-2",
-     "p": 0.0929
+     "p": 0.0926
     },
     {
      "score": "0-1",
-     "p": 0.0893
+     "p": 0.0884
     },
     {
      "score": "1-3",
-     "p": 0.0648
+     "p": 0.0653
     }
    ],
    "reference_odds": {
-    "home": 9.34,
-    "draw": 5.87,
-    "away": 1.27,
+    "home": 9.36,
+    "draw": 5.96,
+    "away": 1.26,
     "over25": 1.44,
-    "under25": 2.67
+    "under25": 2.68
    },
    "context": {
     "home": {
@@ -4230,7 +3955,7 @@
      }
     ]
    },
-   "explanation": "Spain e favorita, cu 57% sanse de victorie. Goluri asteptate: 1.07 pentru Croatia, 1.96 pentru Spain. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Croatia are 38 meciuri in ultimii patru ani, Spain are 38. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Spain e favorita, cu 58% sanse de victorie. Goluri asteptate: 1.07 pentru Croatia, 1.97 pentru Spain. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Croatia are 38 meciuri in ultimii patru ani, Spain are 38. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1528953",
@@ -4241,13 +3966,13 @@
    "home": "England",
    "away": "Czechia",
    "probs": {
-    "p_home": 0.7755,
-    "p_draw": 0.1582,
-    "p_away": 0.0663,
-    "p_over25": 0.5673,
-    "p_btts": 0.3979,
-    "p_under25": 0.4327,
-    "p_no_btts": 0.6021
+    "p_home": 0.7766,
+    "p_draw": 0.1574,
+    "p_away": 0.066,
+    "p_over25": 0.5684,
+    "p_btts": 0.3977,
+    "p_under25": 0.4316,
+    "p_no_btts": 0.6023
    },
    "expected_goals": {
     "home": 2.39,
@@ -4265,27 +3990,27 @@
     },
     {
      "score": "1-0",
-     "p": 0.1202
+     "p": 0.1199
     },
     {
      "score": "3-0",
-     "p": 0.118
+     "p": 0.1183
     },
     {
      "score": "2-1",
-     "p": 0.0843
+     "p": 0.0842
     },
     {
      "score": "1-1",
-     "p": 0.0745
+     "p": 0.0741
     }
    ],
    "reference_odds": {
-    "home": 1.12,
-    "draw": 8.38,
-    "away": 19.12,
-    "over25": 1.35,
-    "under25": 3.04
+    "home": 1.11,
+    "draw": 8.65,
+    "away": 20.73,
+    "over25": 1.36,
+    "under25": 3.06
    },
    "context": {
     "home": {
@@ -4325,7 +4050,7 @@
      }
     ]
    },
-   "explanation": "England e favorita, cu 78% sanse de victorie. Goluri asteptate: 2.39 pentru England, 0.57 pentru Czechia. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. England are 37 meciuri in ultimii patru ani, Czechia are 39. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "England e favorita, cu 78% sanse de victorie. Goluri asteptate: 2.39 pentru England, 0.57 pentru Czechia. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. England are 37 meciuri in ultimii patru ani, Czechia are 39. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1528954",
@@ -4336,16 +4061,16 @@
    "home": "Albania",
    "away": "San Marino",
    "probs": {
-    "p_home": 0.9422,
-    "p_draw": 0.0521,
+    "p_home": 0.9432,
+    "p_draw": 0.0511,
     "p_away": 0.0057,
-    "p_over25": 0.6661,
-    "p_btts": 0.1347,
-    "p_under25": 0.3339,
-    "p_no_btts": 0.8653
+    "p_over25": 0.6712,
+    "p_btts": 0.1365,
+    "p_under25": 0.3288,
+    "p_no_btts": 0.8635
    },
    "expected_goals": {
-    "home": 3.28,
+    "home": 3.31,
     "away": 0.15
    },
    "confidence": "ridicata",
@@ -4356,31 +4081,31 @@
    "top_scores": [
     {
      "score": "3-0",
-     "p": 0.1906
+     "p": 0.1898
     },
     {
      "score": "2-0",
-     "p": 0.1743
+     "p": 0.1722
     },
     {
      "score": "4-0",
-     "p": 0.1564
-    },
-    {
-     "score": "1-0",
-     "p": 0.1053
+     "p": 0.1569
     },
     {
      "score": "5-0",
-     "p": 0.1027
+     "p": 0.1038
+    },
+    {
+     "score": "1-0",
+     "p": 0.1033
     }
    ],
    "reference_odds": {
     "home": 1.03,
-    "draw": 16.32,
-    "away": 53.57,
+    "draw": 17.18,
+    "away": 42.14,
     "over25": 1.16,
-    "under25": 4.63
+    "under25": 4.61
    },
    "context": {
     "home": {
@@ -4432,7 +4157,7 @@
      }
     ]
    },
-   "explanation": "Albania e favorita, cu 94% sanse de victorie. Goluri asteptate: 3.28 pentru Albania, 0.15 pentru San Marino. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Albania are 40 meciuri in ultimii patru ani, San Marino are 39. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Albania e favorita, cu 94% sanse de victorie. Goluri asteptate: 3.31 pentru Albania, 0.15 pentru San Marino. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Albania are 40 meciuri in ultimii patru ani, San Marino are 39. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1528955",
@@ -4443,17 +4168,17 @@
    "home": "Belarus",
    "away": "Finland",
    "probs": {
-    "p_home": 0.301,
-    "p_draw": 0.2841,
-    "p_away": 0.4148,
-    "p_over25": 0.4468,
-    "p_btts": 0.5045,
-    "p_under25": 0.5532,
-    "p_no_btts": 0.4955
+    "p_home": 0.2996,
+    "p_draw": 0.2833,
+    "p_away": 0.417,
+    "p_over25": 0.448,
+    "p_btts": 0.505,
+    "p_under25": 0.552,
+    "p_no_btts": 0.495
    },
    "expected_goals": {
     "home": 1.11,
-    "away": 1.35
+    "away": 1.36
    },
    "confidence": "ridicata",
    "sample": {
@@ -4463,31 +4188,31 @@
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.135
+     "p": 0.1347
     },
     {
      "score": "0-1",
-     "p": 0.1079
+     "p": 0.1081
     },
     {
      "score": "0-0",
-     "p": 0.0922
+     "p": 0.0916
     },
     {
      "score": "1-0",
-     "p": 0.0877
+     "p": 0.0873
     },
     {
      "score": "1-2",
-     "p": 0.0864
+     "p": 0.0867
     }
    ],
    "reference_odds": {
-    "home": 3.72,
-    "draw": 3.32,
-    "away": 2.0,
-    "over25": 2.25,
-    "under25": 1.63
+    "home": 3.88,
+    "draw": 3.29,
+    "away": 1.95,
+    "over25": 2.29,
+    "under25": 1.61
    },
    "context": {
     "home": {
@@ -4533,7 +4258,7 @@
      }
     ]
    },
-   "explanation": "Finland e favorita, cu 41% sanse de victorie. Goluri asteptate: 1.11 pentru Belarus, 1.35 pentru Finland. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Belarus are 39 meciuri in ultimii patru ani, Finland are 39. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Finland e favorita, cu 42% sanse de victorie. Goluri asteptate: 1.11 pentru Belarus, 1.36 pentru Finland. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Belarus are 39 meciuri in ultimii patru ani, Finland are 39. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1528956",
@@ -4544,16 +4269,16 @@
    "home": "Moldova",
    "away": "Slovakia",
    "probs": {
-    "p_home": 0.1193,
-    "p_draw": 0.2187,
-    "p_away": 0.662,
-    "p_over25": 0.4833,
-    "p_btts": 0.4287,
-    "p_under25": 0.5167,
-    "p_no_btts": 0.5713
+    "p_home": 0.1192,
+    "p_draw": 0.2183,
+    "p_away": 0.6626,
+    "p_over25": 0.4832,
+    "p_btts": 0.4282,
+    "p_under25": 0.5168,
+    "p_no_btts": 0.5718
    },
    "expected_goals": {
-    "home": 0.69,
+    "home": 0.68,
     "away": 1.92
    },
    "confidence": "ridicata",
@@ -4564,15 +4289,15 @@
    "top_scores": [
     {
      "score": "0-1",
-     "p": 0.1364
+     "p": 0.1366
     },
     {
      "score": "0-2",
-     "p": 0.1362
+     "p": 0.1364
     },
     {
      "score": "1-1",
-     "p": 0.1025
+     "p": 0.1023
     },
     {
      "score": "1-2",
@@ -4580,14 +4305,14 @@
     },
     {
      "score": "0-3",
-     "p": 0.0872
+     "p": 0.0874
     }
    ],
    "reference_odds": {
-    "home": 7.44,
-    "draw": 4.49,
-    "away": 1.39,
-    "over25": 1.77,
+    "home": 7.35,
+    "draw": 4.47,
+    "away": 1.4,
+    "over25": 1.78,
     "under25": 2.04
    },
    "context": {
@@ -4628,7 +4353,7 @@
      }
     ]
    },
-   "explanation": "Slovakia e favorita, cu 66% sanse de victorie. Goluri asteptate: 0.69 pentru Moldova, 1.92 pentru Slovakia. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Moldova are 39 meciuri in ultimii patru ani, Slovakia are 39. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Slovakia e favorita, cu 66% sanse de victorie. Goluri asteptate: 0.68 pentru Moldova, 1.92 pentru Slovakia. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Moldova are 39 meciuri in ultimii patru ani, Slovakia are 39. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1528957",
@@ -4639,13 +4364,13 @@
    "home": "Estonia",
    "away": "Iceland",
    "probs": {
-    "p_home": 0.2034,
-    "p_draw": 0.2556,
-    "p_away": 0.5411,
-    "p_over25": 0.4828,
-    "p_btts": 0.4991,
-    "p_under25": 0.5172,
-    "p_no_btts": 0.5009
+    "p_home": 0.2037,
+    "p_draw": 0.2555,
+    "p_away": 0.5408,
+    "p_over25": 0.4822,
+    "p_btts": 0.4986,
+    "p_under25": 0.5178,
+    "p_no_btts": 0.5014
    },
    "expected_goals": {
     "home": 0.93,
@@ -4659,19 +4384,19 @@
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1217
+     "p": 0.1216
     },
     {
      "score": "0-1",
-     "p": 0.1172
+     "p": 0.1175
     },
     {
      "score": "0-2",
-     "p": 0.1033
+     "p": 0.1032
     },
     {
      "score": "1-2",
-     "p": 0.0964
+     "p": 0.0963
     },
     {
      "score": "0-0",
@@ -4679,11 +4404,11 @@
     }
    ],
    "reference_odds": {
-    "home": 5.16,
-    "draw": 3.82,
-    "away": 1.61,
-    "over25": 1.9,
-    "under25": 1.88
+    "home": 5.47,
+    "draw": 3.91,
+    "away": 1.57,
+    "over25": 1.91,
+    "under25": 1.89
    },
    "context": {
     "home": {
@@ -4729,7 +4454,7 @@
      }
     ]
    },
-   "explanation": "Iceland e favorita, cu 54% sanse de victorie. Goluri asteptate: 0.93 pentru Estonia, 1.67 pentru Iceland. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Estonia are 35 meciuri in ultimii patru ani, Iceland are 44. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Iceland e favorita, cu 54% sanse de victorie. Goluri asteptate: 0.93 pentru Estonia, 1.67 pentru Iceland. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Estonia are 35 meciuri in ultimii patru ani, Iceland are 44. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1545612",
@@ -4741,16 +4466,16 @@
    "away": "Bulgaria",
    "probs": {
     "p_home": 0.4234,
-    "p_draw": 0.3238,
-    "p_away": 0.2528,
-    "p_over25": 0.3048,
+    "p_draw": 0.3234,
+    "p_away": 0.2532,
+    "p_over25": 0.305,
     "p_btts": 0.3809,
-    "p_under25": 0.6952,
+    "p_under25": 0.695,
     "p_no_btts": 0.6191
    },
    "expected_goals": {
     "home": 1.13,
-    "away": 0.8
+    "away": 0.81
    },
    "confidence": "ridicata",
    "sample": {
@@ -4764,27 +4489,27 @@
     },
     {
      "score": "0-0",
-     "p": 0.1522
+     "p": 0.1519
     },
     {
      "score": "1-1",
-     "p": 0.1387
+     "p": 0.1385
     },
     {
      "score": "0-1",
-     "p": 0.1093
+     "p": 0.1095
     },
     {
      "score": "2-0",
-     "p": 0.0921
+     "p": 0.092
     }
    ],
    "reference_odds": {
-    "home": 2.02,
-    "draw": 3.24,
-    "away": 3.63,
-    "over25": 2.39,
-    "under25": 1.56
+    "home": 2.11,
+    "draw": 3.17,
+    "away": 3.46,
+    "over25": 2.45,
+    "under25": 1.54
    },
    "context": {
     "home": {
@@ -4848,7 +4573,7 @@
      }
     ]
    },
-   "explanation": "Luxembourg e favorita, cu 42% sanse de victorie. Goluri asteptate: 1.13 pentru Luxembourg, 0.80 pentru Bulgaria. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Luxembourg are 40 meciuri in ultimii patru ani, Bulgaria are 37. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Luxembourg e favorita, cu 42% sanse de victorie. Goluri asteptate: 1.13 pentru Luxembourg, 0.81 pentru Bulgaria. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Luxembourg are 40 meciuri in ultimii patru ani, Bulgaria are 37. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1545655",
@@ -4859,17 +4584,17 @@
    "home": "Switzerland",
    "away": "FYR Macedonia",
    "probs": {
-    "p_home": 0.8303,
-    "p_draw": 0.1225,
-    "p_away": 0.0472,
-    "p_over25": 0.6454,
-    "p_btts": 0.4016,
-    "p_under25": 0.3546,
-    "p_no_btts": 0.5984
+    "p_home": 0.8294,
+    "p_draw": 0.1228,
+    "p_away": 0.0478,
+    "p_over25": 0.6458,
+    "p_btts": 0.4035,
+    "p_under25": 0.3542,
+    "p_no_btts": 0.5965
    },
    "expected_goals": {
     "home": 2.77,
-    "away": 0.55
+    "away": 0.56
    },
    "confidence": "ridicata",
    "sample": {
@@ -4879,29 +4604,29 @@
    "top_scores": [
     {
      "score": "2-0",
-     "p": 0.1382
+     "p": 0.1377
     },
     {
      "score": "3-0",
-     "p": 0.1276
+     "p": 0.1271
     },
     {
      "score": "1-0",
-     "p": 0.0967
+     "p": 0.0965
     },
     {
      "score": "4-0",
-     "p": 0.0884
+     "p": 0.088
     },
     {
      "score": "2-1",
-     "p": 0.0765
+     "p": 0.0768
     }
    ],
    "reference_odds": {
     "home": 1.09,
-    "draw": 9.3,
-    "away": 24.29,
+    "draw": 9.47,
+    "away": 26.23,
     "over25": 1.4,
     "under25": 2.8
    },
@@ -4943,7 +4668,7 @@
      }
     ]
    },
-   "explanation": "Switzerland e favorita, cu 83% sanse de victorie. Goluri asteptate: 2.77 pentru Switzerland, 0.55 pentru FYR Macedonia. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Switzerland are 38 meciuri in ultimii patru ani, FYR Macedonia are 40. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Switzerland e favorita, cu 83% sanse de victorie. Goluri asteptate: 2.77 pentru Switzerland, 0.56 pentru FYR Macedonia. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Switzerland are 38 meciuri in ultimii patru ani, FYR Macedonia are 40. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1545657",
@@ -4954,17 +4679,17 @@
    "home": "Scotland",
    "away": "Slovenia",
    "probs": {
-    "p_home": 0.4976,
-    "p_draw": 0.2952,
-    "p_away": 0.2072,
-    "p_over25": 0.3557,
-    "p_btts": 0.405,
-    "p_under25": 0.6443,
-    "p_no_btts": 0.595
+    "p_home": 0.4955,
+    "p_draw": 0.2953,
+    "p_away": 0.2092,
+    "p_over25": 0.356,
+    "p_btts": 0.4059,
+    "p_under25": 0.644,
+    "p_no_btts": 0.5941
    },
    "expected_goals": {
-    "home": 1.35,
-    "away": 0.77
+    "home": 1.34,
+    "away": 0.78
    },
    "confidence": "ridicata",
    "sample": {
@@ -4974,29 +4699,29 @@
    "top_scores": [
     {
      "score": "1-0",
-     "p": 0.155
+     "p": 0.1545
     },
     {
      "score": "1-1",
-     "p": 0.1318
+     "p": 0.1319
     },
     {
      "score": "0-0",
-     "p": 0.1269
+     "p": 0.1267
     },
     {
      "score": "2-0",
-     "p": 0.1091
+     "p": 0.1084
     },
     {
      "score": "0-1",
-     "p": 0.0857
+     "p": 0.0863
     }
    ],
    "reference_odds": {
     "home": 1.76,
-    "draw": 3.48,
-    "away": 4.7,
+    "draw": 3.46,
+    "away": 4.69,
     "over25": 2.27,
     "under25": 1.63
    },
@@ -5050,7 +4775,7 @@
      }
     ]
    },
-   "explanation": "Scotland e favorita, cu 50% sanse de victorie. Goluri asteptate: 1.35 pentru Scotland, 0.77 pentru Slovenia. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Scotland are 38 meciuri in ultimii patru ani, Slovenia are 40. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Scotland e favorita, cu 50% sanse de victorie. Goluri asteptate: 1.34 pentru Scotland, 0.78 pentru Slovenia. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Scotland are 38 meciuri in ultimii patru ani, Slovenia are 40. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1545838",
@@ -5061,16 +4786,16 @@
    "home": "Angola",
    "away": "Malawi",
    "probs": {
-    "p_home": 0.6088,
-    "p_draw": 0.2893,
-    "p_away": 0.1019,
-    "p_over25": 0.2578,
-    "p_btts": 0.2484,
-    "p_under25": 0.7422,
-    "p_no_btts": 0.7516
+    "p_home": 0.6109,
+    "p_draw": 0.2874,
+    "p_away": 0.1017,
+    "p_over25": 0.2607,
+    "p_btts": 0.25,
+    "p_under25": 0.7393,
+    "p_no_btts": 0.75
    },
    "expected_goals": {
-    "home": 1.36,
+    "home": 1.37,
     "away": 0.4
    },
    "confidence": "ridicata",
@@ -5081,31 +4806,31 @@
    "top_scores": [
     {
      "score": "1-0",
-     "p": 0.2297
+     "p": 0.2288
     },
     {
      "score": "0-0",
-     "p": 0.1778
+     "p": 0.1757
     },
     {
      "score": "2-0",
-     "p": 0.1597
+     "p": 0.1601
     },
     {
      "score": "1-1",
-     "p": 0.0982
+     "p": 0.0981
     },
     {
      "score": "3-0",
-     "p": 0.0724
+     "p": 0.0731
     }
    ],
    "reference_odds": {
     "home": 1.36,
     "draw": 4.04,
-    "away": 8.94,
-    "over25": 2.27,
-    "under25": 1.58
+    "away": 9.24,
+    "over25": 2.29,
+    "under25": 1.57
    },
    "context": {
     "home": {
@@ -5138,7 +4863,7 @@
     },
     "h2h": []
    },
-   "explanation": "Angola e favorita, cu 61% sanse de victorie. Goluri asteptate: 1.36 pentru Angola, 0.40 pentru Malawi. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Angola are 33 meciuri in ultimii patru ani, Malawi are 31. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Angola e favorita, cu 61% sanse de victorie. Goluri asteptate: 1.37 pentru Angola, 0.40 pentru Malawi. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Angola are 33 meciuri in ultimii patru ani, Malawi are 31. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1639999",
@@ -5149,17 +4874,17 @@
    "home": "Montserrat",
    "away": "Turks and Caicos Islands",
    "probs": {
-    "p_home": 0.948,
-    "p_draw": 0.0397,
-    "p_away": 0.0123,
-    "p_over25": 0.8671,
-    "p_btts": 0.4094,
-    "p_under25": 0.1329,
-    "p_no_btts": 0.5906
+    "p_home": 0.947,
+    "p_draw": 0.0403,
+    "p_away": 0.0126,
+    "p_over25": 0.8658,
+    "p_btts": 0.4111,
+    "p_under25": 0.1342,
+    "p_no_btts": 0.5889
    },
    "expected_goals": {
-    "home": 4.38,
-    "away": 0.53
+    "home": 4.36,
+    "away": 0.54
    },
    "confidence": "medie",
    "sample": {
@@ -5169,23 +4894,23 @@
    "top_scores": [
     {
      "score": "4-0",
-     "p": 0.1133
+     "p": 0.1131
     },
     {
      "score": "3-0",
-     "p": 0.1034
+     "p": 0.1037
     },
     {
      "score": "5-0",
-     "p": 0.0992
+     "p": 0.0986
     },
     {
      "score": "2-0",
-     "p": 0.0709
+     "p": 0.0713
     },
     {
      "score": "4-1",
-     "p": 0.0605
+     "p": 0.0607
     }
    ],
    "reference_odds": {},
@@ -5220,7 +4945,7 @@
     },
     "h2h": []
    },
-   "explanation": "Montserrat e favorita, cu 95% sanse de victorie. Goluri asteptate: 4.38 pentru Montserrat, 0.53 pentru Turks and Caicos Islands. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Montserrat are 18 meciuri in ultimii patru ani, Turks and Caicos Islands are 13. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Montserrat e favorita, cu 95% sanse de victorie. Goluri asteptate: 4.36 pentru Montserrat, 0.54 pentru Turks and Caicos Islands. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Montserrat are 18 meciuri in ultimii patru ani, Turks and Caicos Islands are 13. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1640000",
@@ -5231,17 +4956,17 @@
    "home": "Saint Martin",
    "away": "Bahamas",
    "probs": {
-    "p_home": 0.7539,
-    "p_draw": 0.1385,
-    "p_away": 0.1076,
-    "p_over25": 0.8061,
-    "p_btts": 0.669,
-    "p_under25": 0.1939,
-    "p_no_btts": 0.331
+    "p_home": 0.754,
+    "p_draw": 0.1383,
+    "p_away": 0.1078,
+    "p_over25": 0.8072,
+    "p_btts": 0.6703,
+    "p_under25": 0.1928,
+    "p_no_btts": 0.3297
    },
    "expected_goals": {
     "home": 3.14,
-    "away": 1.19
+    "away": 1.2
    },
    "confidence": "medie",
    "sample": {
@@ -5251,19 +4976,19 @@
    "top_scores": [
     {
      "score": "3-1",
-     "p": 0.0809
+     "p": 0.0808
     },
     {
      "score": "2-1",
-     "p": 0.0774
+     "p": 0.0772
     },
     {
      "score": "3-0",
-     "p": 0.0678
+     "p": 0.0675
     },
     {
      "score": "2-0",
-     "p": 0.0649
+     "p": 0.0645
     },
     {
      "score": "4-1",
@@ -5302,7 +5027,7 @@
     },
     "h2h": []
    },
-   "explanation": "Saint Martin e favorita, cu 75% sanse de victorie. Goluri asteptate: 3.14 pentru Saint Martin, 1.19 pentru Bahamas. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Saint Martin are 17 meciuri in ultimii patru ani, Bahamas are 15. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Saint Martin e favorita, cu 75% sanse de victorie. Goluri asteptate: 3.14 pentru Saint Martin, 1.20 pentru Bahamas. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Saint Martin are 17 meciuri in ultimii patru ani, Bahamas are 15. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1640001",
@@ -5313,17 +5038,17 @@
    "home": "St. Vincent / Grenadines",
    "away": "Sint Maarten",
    "probs": {
-    "p_home": 0.8045,
-    "p_draw": 0.1122,
-    "p_away": 0.0833,
-    "p_over25": 0.8585,
-    "p_btts": 0.6875,
-    "p_under25": 0.1415,
-    "p_no_btts": 0.3125
+    "p_home": 0.8016,
+    "p_draw": 0.1134,
+    "p_away": 0.085,
+    "p_over25": 0.8574,
+    "p_btts": 0.6888,
+    "p_under25": 0.1426,
+    "p_no_btts": 0.3112
    },
    "expected_goals": {
-    "home": 3.59,
-    "away": 1.22
+    "home": 3.57,
+    "away": 1.23
    },
    "confidence": "medie",
    "sample": {
@@ -5333,26 +5058,32 @@
    "top_scores": [
     {
      "score": "3-1",
-     "p": 0.0767
+     "p": 0.0769
     },
     {
      "score": "4-1",
-     "p": 0.0689
+     "p": 0.0687
     },
     {
      "score": "2-1",
-     "p": 0.0641
+     "p": 0.0645
     },
     {
      "score": "3-0",
-     "p": 0.0628
+     "p": 0.0626
     },
     {
      "score": "4-0",
-     "p": 0.0564
+     "p": 0.056
     }
    ],
-   "reference_odds": {},
+   "reference_odds": {
+    "home": 1.51,
+    "draw": 4.27,
+    "away": 5.13,
+    "over25": 1.5,
+    "under25": 2.39
+   },
    "context": {
     "home": {
      "form": [
@@ -5384,7 +5115,7 @@
     },
     "h2h": []
    },
-   "explanation": "St. Vincent / Grenadines e favorita, cu 80% sanse de victorie. Goluri asteptate: 3.59 pentru St. Vincent / Grenadines, 1.22 pentru Sint Maarten. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. St. Vincent / Grenadines are 28 meciuri in ultimii patru ani, Sint Maarten are 14. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "St. Vincent / Grenadines e favorita, cu 80% sanse de victorie. Goluri asteptate: 3.57 pentru St. Vincent / Grenadines, 1.23 pentru Sint Maarten. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. St. Vincent / Grenadines are 28 meciuri in ultimii patru ani, Sint Maarten are 14. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1640002",
@@ -5395,17 +5126,17 @@
    "home": "Antigua and Barbuda",
    "away": "Aruba",
    "probs": {
-    "p_home": 0.3563,
-    "p_draw": 0.2814,
-    "p_away": 0.3623,
-    "p_over25": 0.4671,
-    "p_btts": 0.5247,
-    "p_under25": 0.5329,
-    "p_no_btts": 0.4753
+    "p_home": 0.3545,
+    "p_draw": 0.2806,
+    "p_away": 0.3648,
+    "p_over25": 0.4689,
+    "p_btts": 0.526,
+    "p_under25": 0.5311,
+    "p_no_btts": 0.474
    },
    "expected_goals": {
-    "home": 1.27,
-    "away": 1.28
+    "home": 1.26,
+    "away": 1.29
    },
    "confidence": "medie",
    "sample": {
@@ -5415,26 +5146,32 @@
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1341
+     "p": 0.1338
     },
     {
      "score": "0-1",
-     "p": 0.0935
+     "p": 0.0936
     },
     {
      "score": "1-0",
-     "p": 0.0925
+     "p": 0.0919
     },
     {
      "score": "0-0",
-     "p": 0.0857
+     "p": 0.0849
     },
     {
      "score": "1-2",
-     "p": 0.0812
+     "p": 0.0816
     }
    ],
-   "reference_odds": {},
+   "reference_odds": {
+    "home": 1.99,
+    "draw": 3.37,
+    "away": 3.4,
+    "over25": 1.95,
+    "under25": 1.8
+   },
    "context": {
     "home": {
      "form": [
@@ -5479,7 +5216,7 @@
      }
     ]
    },
-   "explanation": "Aruba e favorita, cu 36% sanse de victorie. Goluri asteptate: 1.27 pentru Antigua and Barbuda, 1.28 pentru Aruba. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Antigua and Barbuda are 18 meciuri in ultimii patru ani, Aruba are 18. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Aruba e favorita, cu 36% sanse de victorie. Goluri asteptate: 1.26 pentru Antigua and Barbuda, 1.29 pentru Aruba. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Antigua and Barbuda are 18 meciuri in ultimii patru ani, Aruba are 18. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1640517",
@@ -5490,17 +5227,17 @@
    "home": "Argentina",
    "away": "Benin",
    "probs": {
-    "p_home": 0.9355,
-    "p_draw": 0.0546,
-    "p_away": 0.0099,
-    "p_over25": 0.7172,
-    "p_btts": 0.2265,
-    "p_under25": 0.2828,
-    "p_no_btts": 0.7735
+    "p_home": 0.9339,
+    "p_draw": 0.0558,
+    "p_away": 0.0103,
+    "p_over25": 0.7144,
+    "p_btts": 0.2293,
+    "p_under25": 0.2856,
+    "p_no_btts": 0.7707
    },
    "expected_goals": {
-    "home": 3.45,
-    "away": 0.26
+    "home": 3.43,
+    "away": 0.27
    },
    "confidence": "ridicata",
    "sample": {
@@ -5510,31 +5247,31 @@
    "top_scores": [
     {
      "score": "3-0",
-     "p": 0.1668
+     "p": 0.1666
     },
     {
      "score": "2-0",
-     "p": 0.145
+     "p": 0.1456
     },
     {
      "score": "4-0",
-     "p": 0.144
+     "p": 0.1429
     },
     {
      "score": "5-0",
-     "p": 0.0994
+     "p": 0.0981
     },
     {
      "score": "1-0",
-     "p": 0.0827
+     "p": 0.0836
     }
    ],
    "reference_odds": {
     "home": 1.02,
-    "draw": 23.12,
-    "away": 44.83,
-    "over25": 1.11,
-    "under25": 5.74
+    "draw": 24.5,
+    "away": 54.86,
+    "over25": 1.09,
+    "under25": 6.38
    },
    "context": {
     "home": {
@@ -5567,7 +5304,7 @@
     },
     "h2h": []
    },
-   "explanation": "Argentina e favorita, cu 94% sanse de victorie. Goluri asteptate: 3.45 pentru Argentina, 0.26 pentru Benin. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Argentina are 36 meciuri in ultimii patru ani, Benin are 32. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Argentina e favorita, cu 93% sanse de victorie. Goluri asteptate: 3.43 pentru Argentina, 0.27 pentru Benin. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Argentina are 36 meciuri in ultimii patru ani, Benin are 32. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1632359",
@@ -5578,13 +5315,13 @@
    "home": "Colombia",
    "away": "Peru",
    "probs": {
-    "p_home": 0.6666,
-    "p_draw": 0.2256,
-    "p_away": 0.1078,
-    "p_over25": 0.4333,
-    "p_btts": 0.3784,
-    "p_under25": 0.5667,
-    "p_no_btts": 0.6216
+    "p_home": 0.6659,
+    "p_draw": 0.2259,
+    "p_away": 0.1082,
+    "p_over25": 0.432,
+    "p_btts": 0.3776,
+    "p_under25": 0.568,
+    "p_no_btts": 0.6224
    },
    "expected_goals": {
     "home": 1.82,
@@ -5598,7 +5335,7 @@
    "top_scores": [
     {
      "score": "1-0",
-     "p": 0.1581
+     "p": 0.1587
     },
     {
      "score": "2-0",
@@ -5606,23 +5343,23 @@
     },
     {
      "score": "1-1",
-     "p": 0.1015
+     "p": 0.1016
     },
     {
      "score": "0-0",
-     "p": 0.095
+     "p": 0.0953
     },
     {
      "score": "3-0",
-     "p": 0.0905
+     "p": 0.0903
     }
    ],
    "reference_odds": {
-    "home": 1.39,
-    "draw": 4.39,
-    "away": 7.73,
-    "over25": 2.09,
-    "under25": 1.74
+    "home": 1.37,
+    "draw": 4.29,
+    "away": 7.74,
+    "over25": 2.07,
+    "under25": 1.73
    },
    "context": {
     "home": {
@@ -5686,7 +5423,7 @@
      }
     ]
    },
-   "explanation": "Colombia e favorita, cu 67% sanse de victorie. Goluri asteptate: 1.82 pentru Colombia, 0.59 pentru Peru. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Colombia are 40 meciuri in ultimii patru ani, Peru are 39. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Colombia e favorita, cu 67% sanse de victorie. Goluri asteptate: 1.82 pentru Colombia, 0.59 pentru Peru. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Colombia are 40 meciuri in ultimii patru ani, Peru are 39. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1629007",
@@ -5697,16 +5434,16 @@
    "home": "USA",
    "away": "Canada",
    "probs": {
-    "p_home": 0.4006,
-    "p_draw": 0.291,
-    "p_away": 0.3085,
-    "p_over25": 0.4245,
-    "p_btts": 0.4881,
-    "p_under25": 0.5755,
-    "p_no_btts": 0.5119
+    "p_home": 0.4048,
+    "p_draw": 0.2902,
+    "p_away": 0.305,
+    "p_over25": 0.4249,
+    "p_btts": 0.4878,
+    "p_under25": 0.5751,
+    "p_no_btts": 0.5122
    },
    "expected_goals": {
-    "home": 1.28,
+    "home": 1.29,
     "away": 1.09
    },
    "confidence": "ridicata",
@@ -5717,31 +5454,31 @@
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1375
+     "p": 0.1371
     },
     {
      "score": "1-0",
-     "p": 0.1119
+     "p": 0.1127
     },
     {
      "score": "0-0",
-     "p": 0.0999
+     "p": 0.0996
     },
     {
      "score": "0-1",
-     "p": 0.0943
+     "p": 0.0937
     },
     {
      "score": "2-1",
-     "p": 0.0836
+     "p": 0.0841
     }
    ],
    "reference_odds": {
-    "home": 1.96,
-    "draw": 3.5,
-    "away": 3.62,
-    "over25": 1.77,
-    "under25": 2.04
+    "home": 1.95,
+    "draw": 3.48,
+    "away": 3.53,
+    "over25": 1.71,
+    "under25": 2.09
    },
    "context": {
     "home": {
@@ -5805,7 +5542,7 @@
      }
     ]
    },
-   "explanation": "USA e favorita, cu 40% sanse de victorie. Goluri asteptate: 1.28 pentru USA, 1.09 pentru Canada. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. USA are 43 meciuri in ultimii patru ani, Canada are 34. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "USA e favorita, cu 40% sanse de victorie. Goluri asteptate: 1.29 pentru USA, 1.09 pentru Canada. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. USA are 43 meciuri in ultimii patru ani, Canada are 34. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1640003",
@@ -5816,16 +5553,16 @@
    "home": "French Guyana",
    "away": "Belize",
    "probs": {
-    "p_home": 0.598,
-    "p_draw": 0.2625,
-    "p_away": 0.1395,
-    "p_over25": 0.3752,
-    "p_btts": 0.3729,
-    "p_under25": 0.6248,
-    "p_no_btts": 0.6271
+    "p_home": 0.6004,
+    "p_draw": 0.2608,
+    "p_away": 0.1388,
+    "p_over25": 0.3779,
+    "p_btts": 0.3737,
+    "p_under25": 0.6221,
+    "p_no_btts": 0.6263
    },
    "expected_goals": {
-    "home": 1.57,
+    "home": 1.58,
     "away": 0.62
    },
    "confidence": "medie",
@@ -5836,26 +5573,32 @@
    "top_scores": [
     {
      "score": "1-0",
-     "p": 0.1693
+     "p": 0.1688
     },
     {
      "score": "2-0",
-     "p": 0.1377
+     "p": 0.138
     },
     {
      "score": "0-0",
-     "p": 0.1177
+     "p": 0.1164
     },
     {
      "score": "1-1",
-     "p": 0.1151
+     "p": 0.1146
     },
     {
      "score": "2-1",
-     "p": 0.0856
+     "p": 0.0859
     }
    ],
-   "reference_odds": {},
+   "reference_odds": {
+    "home": 1.76,
+    "draw": 3.37,
+    "away": 4.38,
+    "over25": 2.09,
+    "under25": 1.68
+   },
    "context": {
     "home": {
      "form": [
@@ -5918,7 +5661,7 @@
      }
     ]
    },
-   "explanation": "French Guyana e favorita, cu 60% sanse de victorie. Goluri asteptate: 1.57 pentru French Guyana, 0.62 pentru Belize. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. French Guyana are 15 meciuri in ultimii patru ani, Belize are 20. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "French Guyana e favorita, cu 60% sanse de victorie. Goluri asteptate: 1.58 pentru French Guyana, 0.62 pentru Belize. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. French Guyana are 15 meciuri in ultimii patru ani, Belize are 20. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1629006",
@@ -5929,17 +5672,17 @@
    "home": "Mexico",
    "away": "Chile",
    "probs": {
-    "p_home": 0.4521,
-    "p_draw": 0.2764,
-    "p_away": 0.2715,
-    "p_over25": 0.4623,
-    "p_btts": 0.5104,
-    "p_under25": 0.5377,
-    "p_no_btts": 0.4896
+    "p_home": 0.4522,
+    "p_draw": 0.2754,
+    "p_away": 0.2724,
+    "p_over25": 0.4652,
+    "p_btts": 0.5127,
+    "p_under25": 0.5348,
+    "p_no_btts": 0.4873
    },
    "expected_goals": {
-    "home": 1.45,
-    "away": 1.07
+    "home": 1.46,
+    "away": 1.08
    },
    "confidence": "ridicata",
    "sample": {
@@ -5949,23 +5692,23 @@
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1316
+     "p": 0.1312
     },
     {
      "score": "1-0",
-     "p": 0.1096
+     "p": 0.1089
     },
     {
      "score": "2-1",
-     "p": 0.0906
+     "p": 0.0908
     },
     {
      "score": "0-0",
-     "p": 0.087
+     "p": 0.086
     },
     {
      "score": "2-0",
-     "p": 0.0846
+     "p": 0.0843
     }
    ],
    "reference_odds": {},
@@ -6019,7 +5762,7 @@
      }
     ]
    },
-   "explanation": "Mexico e favorita, cu 45% sanse de victorie. Goluri asteptate: 1.45 pentru Mexico, 1.07 pentru Chile. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,517 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Mexico are 47 meciuri in ultimii patru ani, Chile are 35. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Mexico e favorita, cu 45% sanse de victorie. Goluri asteptate: 1.46 pentru Mexico, 1.08 pentru Chile. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Mexico are 47 meciuri in ultimii patru ani, Chile are 35. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "ROU_Superliga_20261008_CFRCluj_U.Cluj",
