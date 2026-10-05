@@ -5,6 +5,7 @@ import 'about_screen.dart';
 import 'detail_screen.dart';
 import 'formatting.dart';
 import 'models.dart';
+import 'notificari.dart';
 import 'picks_card.dart';
 import 'repository.dart';
 import 'search_screen.dart';
@@ -114,6 +115,7 @@ class _MatchList extends StatelessWidget {
         SliverAppBar.large(
           title: const Text('Analiza meciurilor'),
           actions: [
+            const _NotificariButon(),
             IconButton(
               icon: const Icon(Icons.search),
               tooltip: 'Caută alt meci',
@@ -243,6 +245,50 @@ class _MatchList extends StatelessWidget {
     );
   }
 
+}
+
+/// Clopotelul din bara de sus: notificarile pornite sau oprite.
+class _NotificariButon extends StatefulWidget {
+  const _NotificariButon();
+
+  @override
+  State<_NotificariButon> createState() => _NotificariButonState();
+}
+
+class _NotificariButonState extends State<_NotificariButon> {
+  bool? _active;
+
+  @override
+  void initState() {
+    super.initState();
+    notificariActive().then((v) {
+      if (mounted) setState(() => _active = v);
+    });
+  }
+
+  Future<void> _comuta() async {
+    final nou = !(_active ?? true);
+    await seteazaNotificari(nou);
+    if (!mounted) return;
+    setState(() => _active = nou);
+    ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+      content: Text(nou
+          ? 'Notificări pornite: biletul zilei și cotele care încep să scadă.'
+          : 'Notificări oprite.'),
+    ));
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final active = _active ?? true;
+    return IconButton(
+      icon: Icon(active
+          ? Icons.notifications_active_outlined
+          : Icons.notifications_off_outlined),
+      tooltip: active ? 'Oprește notificările' : 'Pornește notificările',
+      onPressed: _active == null ? null : _comuta,
+    );
+  }
 }
 
 /// Ce se afiseaza cand nu e niciun meci de aratat.

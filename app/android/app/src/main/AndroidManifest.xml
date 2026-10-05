@@ -4,6 +4,10 @@
          poate descarca predictiile de pe GitHub: cade tacut pe fisierul inclus. -->
     <uses-permission android:name="android.permission.INTERNET"/>
 
+    <!-- Notificarile pentru biletul zilei si cotele in scadere. De la Android 13
+         permisiunea trebuie si declarata aici, si ceruta utilizatorului. -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+
     <!-- Incepand cu Android 11, o aplicatie nu mai poate afla ce alte aplicatii
          exista decat daca declara explicit ce cauta. Fara blocul asta,
          deschiderea unei adrese web esueaza tacut pe telefoanele noi. -->
