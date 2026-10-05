@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-04T18:42:42+00:00",
+ "actualizat": "2026-10-05T05:50:44+00:00",
  "selectii": [
   {
    "cheie": "D1_20260919_EinFrankfurt_Freiburg|over25",
@@ -968,8 +968,10 @@
    "odds": 1.46,
    "band": "sub piață",
    "notat_la": "2026-10-02T05:48:42+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": true,
+   "scor": "2-1",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-10-05T05:50:44+00:00"
   },
   {
    "cheie": "NAT1528941|home",
@@ -984,8 +986,10 @@
    "odds": 1.62,
    "band": "peste piață",
    "notat_la": "2026-10-03T06:03:04+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": true,
+   "scor": "2-1",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-10-05T05:50:44+00:00"
   },
   {
    "cheie": "NAT1528945|over25",

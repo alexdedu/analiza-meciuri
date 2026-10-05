@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-04T18:38:54+00:00",
+ "actualizat": "2026-10-05T05:50:44+00:00",
  "bilete": [
   {
    "date": "2026-10-04",
@@ -72,6 +72,80 @@
    "combined_probability": 0.1673,
    "expected_hit_rate": 0.1738,
    "combined_odds": 5.52,
+   "odds_estimated": true,
+   "castigat": null
+  },
+  {
+   "date": "2026-10-05",
+   "legs": [
+    {
+     "match_id": "NAT1528950",
+     "league_name": "UEFA Nations League",
+     "date": "2026-10-05",
+     "time": "18:45",
+     "home": "Montenegro",
+     "away": "Armenia",
+     "family": "1x2",
+     "market": "home",
+     "market_label": "Victorie Montenegro",
+     "probability": 0.6154,
+     "odds": 1.52,
+     "fair_odds": 1.62,
+     "historical_hit_rate": 0.632,
+     "won": null
+    },
+    {
+     "match_id": "NAT1528951",
+     "league_name": "UEFA Nations League",
+     "date": "2026-10-06",
+     "time": "14:00",
+     "home": "Kazakhstan",
+     "away": "Faroe Islands",
+     "family": "goluri",
+     "market": "under25",
+     "market_label": "Sub 2.5 goluri",
+     "probability": 0.6616,
+     "odds": 1.54,
+     "fair_odds": 1.51,
+     "historical_hit_rate": 0.601,
+     "won": null
+    },
+    {
+     "match_id": "P1_20261009_Moreirense_GilVicente",
+     "league_name": "Primeira Liga",
+     "date": "2026-10-09",
+     "time": "17:45",
+     "home": "Moreirense",
+     "away": "Gil Vicente",
+     "family": "cartonașe",
+     "market": "cards_away_over_1.5",
+     "market_label": "Gil Vicente peste 1.5 cartonașe",
+     "probability": 0.6555,
+     "odds": null,
+     "fair_odds": 1.53,
+     "historical_hit_rate": 0.666,
+     "won": null
+    },
+    {
+     "match_id": "E0_20261010_Chelsea_Bournemouth",
+     "league_name": "Premier League",
+     "date": "2026-10-10",
+     "time": "14:00",
+     "home": "Chelsea",
+     "away": "Bournemouth",
+     "family": "cornere",
+     "market": "corners_away_over_3.5",
+     "market_label": "Bournemouth peste 3.5 cornere",
+     "probability": 0.611,
+     "odds": null,
+     "fair_odds": 1.64,
+     "historical_hit_rate": 0.649,
+     "won": null
+    }
+   ],
+   "combined_probability": 0.1631,
+   "expected_hit_rate": 0.1642,
+   "combined_odds": 5.87,
    "odds_estimated": true,
    "castigat": null
   }
