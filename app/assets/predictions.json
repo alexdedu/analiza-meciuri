@@ -1,48 +1,6 @@
 {
- "generated_at": "2026-10-05T18:31:25+00:00",
+ "generated_at": "2026-10-05T21:40:21+00:00",
  "recommended_matches": [
-  {
-   "match_id": "NAT1528945",
-   "league_name": "UEFA Nations League",
-   "date": "2026-10-05",
-   "time": "18:45",
-   "home": "Italy",
-   "away": "Türkiye",
-   "picks": [
-    {
-     "family": "goluri",
-     "market": "over25",
-     "market_label": "Peste 2.5 goluri",
-     "probability": 0.6077,
-     "odds": 1.52,
-     "fair_odds": 1.65,
-     "historical_hit_rate": 0.653,
-     "band": "sub piață",
-     "odds_movement": 0.0066
-    }
-   ]
-  },
-  {
-   "match_id": "NAT1528950",
-   "league_name": "UEFA Nations League",
-   "date": "2026-10-05",
-   "time": "18:45",
-   "home": "Montenegro",
-   "away": "Armenia",
-   "picks": [
-    {
-     "family": "goluri",
-     "market": "over25",
-     "market_label": "Peste 2.5 goluri",
-     "probability": 0.6053,
-     "odds": 1.64,
-     "fair_odds": 1.65,
-     "historical_hit_rate": 0.601,
-     "band": "peste piață",
-     "odds_movement": 0.0
-    }
-   ]
-  },
   {
    "match_id": "P1_20261009_Moreirense_GilVicente",
    "league_name": "Primeira Liga",
@@ -109,7 +67,7 @@
      "family": "cornere",
      "market": "corners_away_over_3.5",
      "market_label": "Bournemouth peste 3.5 cornere",
-     "probability": 0.6108,
+     "probability": 0.611,
      "odds": null,
      "fair_odds": 1.64,
      "historical_hit_rate": 0.649,
@@ -141,7 +99,7 @@
      "family": "goluri",
      "market": "under25",
      "market_label": "Sub 2.5 goluri",
-     "probability": 0.6612,
+     "probability": 0.6616,
      "odds": 1.52,
      "fair_odds": 1.51,
      "historical_hit_rate": 0.601,
@@ -162,7 +120,7 @@
      "family": "cornere",
      "market": "corners_home_over_3.5",
      "market_label": "Vallecano peste 3.5 cornere",
-     "probability": 0.6997,
+     "probability": 0.6996,
      "odds": null,
      "fair_odds": 1.43,
      "historical_hit_rate": 0.665,
@@ -181,12 +139,65 @@
      "odds_movement": null
     }
    ]
+  },
+  {
+   "match_id": "F1_20261010_ParisSG_LeMans",
+   "league_name": "Ligue 1",
+   "date": "2026-10-10",
+   "time": "18:45",
+   "home": "Paris SG",
+   "away": "Le Mans",
+   "picks": [
+    {
+     "family": "cartonașe",
+     "market": "cards_total_over_2.5",
+     "market_label": "peste 2.5 cartonașe în meci",
+     "probability": 0.6935,
+     "odds": null,
+     "fair_odds": 1.44,
+     "historical_hit_rate": 0.671,
+     "band": "",
+     "odds_movement": null
+    }
+   ]
+  },
+  {
+   "match_id": "F1_20261010_Brest_Angers",
+   "league_name": "Ligue 1",
+   "date": "2026-10-10",
+   "time": "18:45",
+   "home": "Brest",
+   "away": "Angers",
+   "picks": [
+    {
+     "family": "cornere",
+     "market": "corners_home_over_3.5",
+     "market_label": "Brest peste 3.5 cornere",
+     "probability": 0.6643,
+     "odds": null,
+     "fair_odds": 1.51,
+     "historical_hit_rate": 0.665,
+     "band": "",
+     "odds_movement": null
+    },
+    {
+     "family": "cartonașe",
+     "market": "cards_total_over_2.5",
+     "market_label": "peste 2.5 cartonașe în meci",
+     "probability": 0.6923,
+     "odds": null,
+     "fair_odds": 1.44,
+     "historical_hit_rate": 0.671,
+     "band": "",
+     "odds_movement": null
+    }
+   ]
   }
  ],
  "ticket_of_the_day": null,
  "ticket_unavailable": {
-  "max_odds": 3.79,
-  "legs_available": 3,
+  "max_odds": 1.52,
+  "legs_available": 1,
   "min_odds": 10.0,
   "days": 3,
   "next_possible": "2026-10-07"
@@ -198,44 +209,6 @@
   "expected": null
  },
  "recommendations": [
-  {
-   "match_id": "NAT1528945",
-   "league_name": "UEFA Nations League",
-   "date": "2026-10-05",
-   "time": "18:45",
-   "home": "Italy",
-   "away": "Türkiye",
-   "market": "over25",
-   "market_label": "Peste 2.5 goluri",
-   "probability": 0.6077,
-   "odds": 1.52,
-   "market_probability": 0.6171,
-   "disagreement": -0.0094,
-   "band": "sub piață",
-   "historical_hit_rate": 0.653,
-   "odds_first": 1.53,
-   "odds_movement": 0.0066,
-   "fair_odds": 1.65
-  },
-  {
-   "match_id": "NAT1528950",
-   "league_name": "UEFA Nations League",
-   "date": "2026-10-05",
-   "time": "18:45",
-   "home": "Montenegro",
-   "away": "Armenia",
-   "market": "over25",
-   "market_label": "Peste 2.5 goluri",
-   "probability": 0.6053,
-   "odds": 1.64,
-   "market_probability": 0.5762,
-   "disagreement": 0.0291,
-   "band": "peste piață",
-   "historical_hit_rate": 0.601,
-   "odds_first": 1.64,
-   "odds_movement": 0.0,
-   "fair_odds": 1.65
-  },
   {
    "match_id": "P1_20261009_Moreirense_GilVicente",
    "league_name": "Primeira Liga",
@@ -283,10 +256,10 @@
    "away": "Faroe Islands",
    "market": "under25",
    "market_label": "Sub 2.5 goluri",
-   "probability": 0.6612,
+   "probability": 0.6616,
    "odds": 1.52,
    "market_probability": 0.62,
-   "disagreement": 0.0412,
+   "disagreement": 0.0416,
    "band": "peste piață",
    "historical_hit_rate": 0.601,
    "odds_first": 1.54,
@@ -304,9 +277,35 @@
    "away": "Ath Bilbao",
    "market": "corners_home_over_3.5",
    "market_label": "Vallecano peste 3.5 cornere",
-   "probability": 0.6997,
+   "probability": 0.6996,
    "fair_odds": 1.43,
    "historical_hit_rate": 0.665
+  },
+  {
+   "match_id": "F1_20261010_ParisSG_LeMans",
+   "league_name": "Ligue 1",
+   "date": "2026-10-10",
+   "time": "18:45",
+   "home": "Paris SG",
+   "away": "Le Mans",
+   "market": "cards_total_over_2.5",
+   "market_label": "peste 2.5 cartonașe în meci",
+   "probability": 0.6935,
+   "fair_odds": 1.44,
+   "historical_hit_rate": 0.671
+  },
+  {
+   "match_id": "F1_20261010_Brest_Angers",
+   "league_name": "Ligue 1",
+   "date": "2026-10-10",
+   "time": "18:45",
+   "home": "Brest",
+   "away": "Angers",
+   "market": "cards_total_over_2.5",
+   "market_label": "peste 2.5 cartonașe în meci",
+   "probability": 0.6923,
+   "fair_odds": 1.44,
+   "historical_hit_rate": 0.671
   },
   {
    "match_id": "SP1_20261010_Vallecano_AthBilbao",
@@ -320,32 +319,6 @@
    "probability": 0.6645,
    "fair_odds": 1.5,
    "historical_hit_rate": 0.666
-  },
-  {
-   "match_id": "P1_20261009_Moreirense_GilVicente",
-   "league_name": "Primeira Liga",
-   "date": "2026-10-09",
-   "time": "17:45",
-   "home": "Moreirense",
-   "away": "Gil Vicente",
-   "market": "cards_away_over_1.5",
-   "market_label": "Gil Vicente peste 1.5 cartonașe",
-   "probability": 0.6555,
-   "fair_odds": 1.53,
-   "historical_hit_rate": 0.666
-  },
-  {
-   "match_id": "E0_20261010_Chelsea_Bournemouth",
-   "league_name": "Premier League",
-   "date": "2026-10-10",
-   "time": "14:00",
-   "home": "Chelsea",
-   "away": "Bournemouth",
-   "market": "cards_home_over_1.5",
-   "market_label": "Chelsea peste 1.5 cartonașe",
-   "probability": 0.6261,
-   "fair_odds": 1.6,
-   "historical_hit_rate": 0.649
   }
  ],
  "track_record": {
@@ -402,14 +375,40 @@
   ],
   "since": "2026-09-19",
   "counts": {
-   "total": 24,
+   "total": 26,
    "resolved": 0,
-   "pending": 24,
+   "pending": 26,
    "hits": 0,
    "hit_rate": null,
    "expected": 0.65
   },
   "selections": [
+   {
+    "match_id": "F1_20261010_Brest_Angers",
+    "date": "2026-10-10",
+    "league_name": "Ligue 1",
+    "home": "Brest",
+    "away": "Angers",
+    "market_label": "peste 2.5 cartonașe în meci",
+    "probability": 0.6923,
+    "odds": null,
+    "band": "cornere/cartonașe",
+    "won": null,
+    "score": null
+   },
+   {
+    "match_id": "F1_20261010_Brest_Angers",
+    "date": "2026-10-10",
+    "league_name": "Ligue 1",
+    "home": "Brest",
+    "away": "Angers",
+    "market_label": "Brest peste 3.5 cornere",
+    "probability": 0.6643,
+    "odds": null,
+    "band": "cornere/cartonașe",
+    "won": null,
+    "score": null
+   },
    {
     "match_id": "E0_20261010_Chelsea_Bournemouth",
     "date": "2026-10-10",
@@ -1423,32 +1422,6 @@
     "band": "60-65%",
     "won": true,
     "score": "1-0"
-   },
-   {
-    "match_id": "NAT1528878",
-    "date": "2026-09-24",
-    "league_name": "UEFA Nations League",
-    "home": "Austria",
-    "away": "Israel",
-    "market_label": "Peste 2.5 goluri",
-    "probability": 0.6619,
-    "odds": 1.5,
-    "band": "65-70%",
-    "won": true,
-    "score": "3-1"
-   },
-   {
-    "match_id": "NAT1637929",
-    "date": "2026-09-23",
-    "league_name": "Cupa Golfului",
-    "home": "Saudi Arabia",
-    "away": "Kuwait",
-    "market_label": "Victorie Saudi Arabia",
-    "probability": 0.745,
-    "odds": 1.26,
-    "band": "70-80%",
-    "won": true,
-    "score": "1-0"
    }
   ]
  },
@@ -1471,1064 +1444,6 @@
  },
  "matches": [
   {
-   "id": "NAT1528944",
-   "league": "NAT_5",
-   "league_name": "UEFA Nations League",
-   "date": "2026-10-05",
-   "time": "18:45",
-   "home": "France",
-   "away": "Belgium",
-   "probs": {
-    "p_home": 0.5111,
-    "p_draw": 0.2491,
-    "p_away": 0.2398,
-    "p_over25": 0.5438,
-    "p_btts": 0.5613,
-    "p_under25": 0.4562,
-    "p_no_btts": 0.4387
-   },
-   "expected_goals": {
-    "home": 1.73,
-    "away": 1.12
-   },
-   "confidence": "ridicata",
-   "sample": {
-    "home_matches": 37,
-    "away_matches": 38
-   },
-   "top_scores": [
-    {
-     "score": "1-1",
-     "p": 0.1179
-    },
-    {
-     "score": "2-1",
-     "p": 0.097
-    },
-    {
-     "score": "1-0",
-     "p": 0.0937
-    },
-    {
-     "score": "2-0",
-     "p": 0.0865
-    },
-    {
-     "score": "0-0",
-     "p": 0.0635
-    }
-   ],
-   "reference_odds": {
-    "home": 1.47,
-    "draw": 4.58,
-    "away": 6.24,
-    "over25": 1.53,
-    "under25": 2.4
-   },
-   "context": {
-    "home": {
-     "form": [
-      "V",
-      "I",
-      "V",
-      "V",
-      "V",
-      "E"
-     ],
-     "goals_for_avg": 1.67,
-     "goals_against_avg": 0.83,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "E",
-      "V",
-      "V",
-      "V",
-      "I",
-      "V"
-     ],
-     "goals_for_avg": 2.17,
-     "goals_against_avg": 0.33,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "h2h": [
-     {
-      "date": "2026-09-28",
-      "home": "Belgium",
-      "away": "France",
-      "score": "0-1"
-     },
-     {
-      "date": "2024-10-14",
-      "home": "Belgium",
-      "away": "France",
-      "score": "1-2"
-     },
-     {
-      "date": "2024-09-09",
-      "home": "France",
-      "away": "Belgium",
-      "score": "2-0"
-     },
-     {
-      "date": "2021-10-07",
-      "home": "Belgium",
-      "away": "France",
-      "score": "2-3"
-     }
-    ]
-   },
-   "explanation": "France e favorita, cu 51% sanse de victorie. Goluri asteptate: 1.73 pentru France, 1.12 pentru Belgium. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. France are 37 meciuri in ultimii patru ani, Belgium are 38. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
-  },
-  {
-   "id": "NAT1528945",
-   "league": "NAT_5",
-   "league_name": "UEFA Nations League",
-   "date": "2026-10-05",
-   "time": "18:45",
-   "home": "Italy",
-   "away": "Türkiye",
-   "probs": {
-    "p_home": 0.6113,
-    "p_draw": 0.2142,
-    "p_away": 0.1746,
-    "p_over25": 0.6077,
-    "p_btts": 0.5731,
-    "p_under25": 0.3923,
-    "p_no_btts": 0.4269
-   },
-   "expected_goals": {
-    "home": 2.1,
-    "away": 1.04
-   },
-   "confidence": "ridicata",
-   "sample": {
-    "home_matches": 39,
-    "away_matches": 39
-   },
-   "top_scores": [
-    {
-     "score": "1-1",
-     "p": 0.0997
-    },
-    {
-     "score": "2-1",
-     "p": 0.0993
-    },
-    {
-     "score": "2-0",
-     "p": 0.0952
-    },
-    {
-     "score": "1-0",
-     "p": 0.0856
-    },
-    {
-     "score": "3-1",
-     "p": 0.0694
-    }
-   ],
-   "reference_odds": {
-    "home": 1.38,
-    "draw": 5.07,
-    "away": 7.53,
-    "over25": 1.52,
-    "under25": 2.45
-   },
-   "context": {
-    "home": {
-     "form": [
-      "E",
-      "V",
-      "V",
-      "I",
-      "V",
-      "E"
-     ],
-     "goals_for_avg": 1.33,
-     "goals_against_avg": 0.83,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "V",
-      "V",
-      "V",
-      "I",
-      "I",
-      "I"
-     ],
-     "goals_for_avg": 1.33,
-     "goals_against_avg": 1.5,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "h2h": [
-     {
-      "date": "2026-09-28",
-      "home": "Türkiye",
-      "away": "Italy",
-      "score": "1-4"
-     },
-     {
-      "date": "2024-06-04",
-      "home": "Italy",
-      "away": "Türkiye",
-      "score": "0-0"
-     },
-     {
-      "date": "2022-03-29",
-      "home": "Türkiye",
-      "away": "Italy",
-      "score": "2-3"
-     }
-    ]
-   },
-   "explanation": "Italy e favorita, cu 61% sanse de victorie. Goluri asteptate: 2.10 pentru Italy, 1.04 pentru Türkiye. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Italy are 39 meciuri in ultimii patru ani, Türkiye are 39. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
-  },
-  {
-   "id": "NAT1528946",
-   "league": "NAT_5",
-   "league_name": "UEFA Nations League",
-   "date": "2026-10-05",
-   "time": "18:45",
-   "home": "Ukraine",
-   "away": "Hungary",
-   "probs": {
-    "p_home": 0.4537,
-    "p_draw": 0.286,
-    "p_away": 0.2604,
-    "p_over25": 0.4206,
-    "p_btts": 0.4752,
-    "p_under25": 0.5794,
-    "p_no_btts": 0.5248
-   },
-   "expected_goals": {
-    "home": 1.38,
-    "away": 0.98
-   },
-   "confidence": "ridicata",
-   "sample": {
-    "home_matches": 37,
-    "away_matches": 39
-   },
-   "top_scores": [
-    {
-     "score": "1-1",
-     "p": 0.1346
-    },
-    {
-     "score": "1-0",
-     "p": 0.1231
-    },
-    {
-     "score": "0-0",
-     "p": 0.101
-    },
-    {
-     "score": "2-0",
-     "p": 0.0897
-    },
-    {
-     "score": "2-1",
-     "p": 0.0881
-    }
-   ],
-   "reference_odds": {
-    "home": 2.67,
-    "draw": 2.96,
-    "away": 2.85,
-    "over25": 2.46,
-    "under25": 1.54
-   },
-   "context": {
-    "home": {
-     "form": [
-      "V",
-      "V",
-      "I",
-      "V",
-      "E",
-      "I"
-     ],
-     "goals_for_avg": 0.83,
-     "goals_against_avg": 0.83,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "E",
-      "V",
-      "V",
-      "I",
-      "E",
-      "V"
-     ],
-     "goals_for_avg": 1.0,
-     "goals_against_avg": 0.5,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "h2h": [
-     {
-      "date": "2026-09-25",
-      "home": "Hungary",
-      "away": "Ukraine",
-      "score": "0-1"
-     }
-    ]
-   },
-   "explanation": "Ukraine e favorita, cu 45% sanse de victorie. Goluri asteptate: 1.38 pentru Ukraine, 0.98 pentru Hungary. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Ukraine are 37 meciuri in ultimii patru ani, Hungary are 39. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
-  },
-  {
-   "id": "NAT1528947",
-   "league": "NAT_5",
-   "league_name": "UEFA Nations League",
-   "date": "2026-10-05",
-   "time": "18:45",
-   "home": "Northern Ireland",
-   "away": "Georgia",
-   "probs": {
-    "p_home": 0.4016,
-    "p_draw": 0.3141,
-    "p_away": 0.2842,
-    "p_over25": 0.3415,
-    "p_btts": 0.4177,
-    "p_under25": 0.6585,
-    "p_no_btts": 0.5823
-   },
-   "expected_goals": {
-    "home": 1.15,
-    "away": 0.92
-   },
-   "confidence": "ridicata",
-   "sample": {
-    "home_matches": 37,
-    "away_matches": 37
-   },
-   "top_scores": [
-    {
-     "score": "1-1",
-     "p": 0.1407
-    },
-    {
-     "score": "1-0",
-     "p": 0.138
-    },
-    {
-     "score": "0-0",
-     "p": 0.1337
-    },
-    {
-     "score": "0-1",
-     "p": 0.1092
-    },
-    {
-     "score": "2-0",
-     "p": 0.0833
-    }
-   ],
-   "reference_odds": {
-    "home": 2.39,
-    "draw": 2.93,
-    "away": 3.32,
-    "over25": 2.79,
-    "under25": 1.43
-   },
-   "context": {
-    "home": {
-     "form": [
-      "E",
-      "V",
-      "I",
-      "V",
-      "E",
-      "V"
-     ],
-     "goals_for_avg": 1.17,
-     "goals_against_avg": 0.67,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "V",
-      "E",
-      "V",
-      "I",
-      "E",
-      "I"
-     ],
-     "goals_for_avg": 0.83,
-     "goals_against_avg": 0.5,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "h2h": [
-     {
-      "date": "2026-09-25",
-      "home": "Georgia",
-      "away": "Northern Ireland",
-      "score": "0-1"
-     }
-    ]
-   },
-   "explanation": "Northern Ireland e favorita, cu 40% sanse de victorie. Goluri asteptate: 1.15 pentru Northern Ireland, 0.92 pentru Georgia. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Northern Ireland are 37 meciuri in ultimii patru ani, Georgia are 37. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
-  },
-  {
-   "id": "NAT1528948",
-   "league": "NAT_5",
-   "league_name": "UEFA Nations League",
-   "date": "2026-10-05",
-   "time": "18:45",
-   "home": "Bosnia & Herzegovina",
-   "away": "Poland",
-   "probs": {
-    "p_home": 0.2852,
-    "p_draw": 0.2751,
-    "p_away": 0.4397,
-    "p_over25": 0.4728,
-    "p_btts": 0.5215,
-    "p_under25": 0.5272,
-    "p_no_btts": 0.4785
-   },
-   "expected_goals": {
-    "home": 1.12,
-    "away": 1.45
-   },
-   "confidence": "ridicata",
-   "sample": {
-    "home_matches": 36,
-    "away_matches": 38
-   },
-   "top_scores": [
-    {
-     "score": "1-1",
-     "p": 0.1311
-    },
-    {
-     "score": "0-1",
-     "p": 0.1046
-    },
-    {
-     "score": "1-2",
-     "p": 0.09
-    },
-    {
-     "score": "0-0",
-     "p": 0.0836
-    },
-    {
-     "score": "0-2",
-     "p": 0.0805
-    }
-   ],
-   "reference_odds": {
-    "home": 2.81,
-    "draw": 3.25,
-    "away": 2.52,
-    "over25": 2.0,
-    "under25": 1.81
-   },
-   "context": {
-    "home": {
-     "form": [
-      "E",
-      "E",
-      "E",
-      "E",
-      "V",
-      "E"
-     ],
-     "goals_for_avg": 1.17,
-     "goals_against_avg": 0.83,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "I",
-      "I",
-      "E",
-      "E",
-      "I",
-      "V"
-     ],
-     "goals_for_avg": 1.83,
-     "goals_against_avg": 1.67,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "h2h": [
-     {
-      "date": "2026-09-25",
-      "home": "Poland",
-      "away": "Bosnia & Herzegovina",
-      "score": "0-0"
-     },
-     {
-      "date": "2020-10-14",
-      "home": "Poland",
-      "away": "Bosnia & Herzegovina",
-      "score": "3-0"
-     },
-     {
-      "date": "2020-09-07",
-      "home": "Bosnia & Herzegovina",
-      "away": "Poland",
-      "score": "1-2"
-     }
-    ]
-   },
-   "explanation": "Poland e favorita, cu 44% sanse de victorie. Goluri asteptate: 1.12 pentru Bosnia & Herzegovina, 1.45 pentru Poland. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Bosnia & Herzegovina are 36 meciuri in ultimii patru ani, Poland are 38. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
-  },
-  {
-   "id": "NAT1528949",
-   "league": "NAT_5",
-   "league_name": "UEFA Nations League",
-   "date": "2026-10-05",
-   "time": "18:45",
-   "home": "Romania",
-   "away": "Sweden",
-   "probs": {
-    "p_home": 0.2986,
-    "p_draw": 0.2463,
-    "p_away": 0.4551,
-    "p_over25": 0.5969,
-    "p_btts": 0.6178,
-    "p_under25": 0.4031,
-    "p_no_btts": 0.3822
-   },
-   "expected_goals": {
-    "home": 1.36,
-    "away": 1.73
-   },
-   "confidence": "ridicata",
-   "sample": {
-    "home_matches": 39,
-    "away_matches": 42
-   },
-   "top_scores": [
-    {
-     "score": "1-1",
-     "p": 0.1129
-    },
-    {
-     "score": "1-2",
-     "p": 0.0925
-    },
-    {
-     "score": "2-1",
-     "p": 0.073
-    },
-    {
-     "score": "0-1",
-     "p": 0.0727
-    },
-    {
-     "score": "0-2",
-     "p": 0.0678
-    }
-   ],
-   "reference_odds": {
-    "home": 4.78,
-    "draw": 4.15,
-    "away": 1.65,
-    "over25": 1.54,
-    "under25": 2.38
-   },
-   "context": {
-    "home": {
-     "form": [
-      "I",
-      "E",
-      "V",
-      "I",
-      "I",
-      "I"
-     ],
-     "goals_for_avg": 1.0,
-     "goals_against_avg": 2.67,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "V",
-      "I",
-      "E",
-      "V",
-      "V",
-      "E"
-     ],
-     "goals_for_avg": 2.0,
-     "goals_against_avg": 1.67,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "h2h": [
-     {
-      "date": "2026-09-25",
-      "home": "Sweden",
-      "away": "Romania",
-      "score": "2-1"
-     },
-     {
-      "date": "2018-03-27",
-      "home": "Romania",
-      "away": "Sweden",
-      "score": "1-0"
-     }
-    ]
-   },
-   "explanation": "Sweden e favorita, cu 46% sanse de victorie. Goluri asteptate: 1.36 pentru Romania, 1.73 pentru Sweden. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Romania are 39 meciuri in ultimii patru ani, Sweden are 42. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
-  },
-  {
-   "id": "NAT1528950",
-   "league": "NAT_5",
-   "league_name": "UEFA Nations League",
-   "date": "2026-10-05",
-   "time": "18:45",
-   "home": "Montenegro",
-   "away": "Armenia",
-   "probs": {
-    "p_home": 0.6136,
-    "p_draw": 0.2139,
-    "p_away": 0.1725,
-    "p_over25": 0.6053,
-    "p_btts": 0.5697,
-    "p_under25": 0.3947,
-    "p_no_btts": 0.4303
-   },
-   "expected_goals": {
-    "home": 2.1,
-    "away": 1.03
-   },
-   "confidence": "ridicata",
-   "sample": {
-    "home_matches": 39,
-    "away_matches": 38
-   },
-   "top_scores": [
-    {
-     "score": "1-1",
-     "p": 0.0997
-    },
-    {
-     "score": "2-1",
-     "p": 0.0993
-    },
-    {
-     "score": "2-0",
-     "p": 0.0963
-    },
-    {
-     "score": "1-0",
-     "p": 0.0866
-    },
-    {
-     "score": "3-1",
-     "p": 0.0695
-    }
-   ],
-   "reference_odds": {
-    "home": 1.41,
-    "draw": 4.7,
-    "away": 6.82,
-    "over25": 1.64,
-    "under25": 2.23
-   },
-   "context": {
-    "home": {
-     "form": [
-      "I",
-      "V",
-      "E",
-      "V",
-      "V",
-      "V"
-     ],
-     "goals_for_avg": 2.0,
-     "goals_against_avg": 1.5,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "I",
-      "E",
-      "E",
-      "V",
-      "I",
-      "I"
-     ],
-     "goals_for_avg": 1.17,
-     "goals_against_avg": 1.5,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "h2h": [
-     {
-      "date": "2026-09-28",
-      "home": "Armenia",
-      "away": "Montenegro",
-      "score": "2-3"
-     },
-     {
-      "date": "2025-06-09",
-      "home": "Montenegro",
-      "away": "Armenia",
-      "score": "2-2"
-     },
-     {
-      "date": "2022-03-24",
-      "home": "Armenia",
-      "away": "Montenegro",
-      "score": "1-0"
-     },
-     {
-      "date": "2017-06-10",
-      "home": "Montenegro",
-      "away": "Armenia",
-      "score": "4-1"
-     },
-     {
-      "date": "2016-11-11",
-      "home": "Armenia",
-      "away": "Montenegro",
-      "score": "3-2"
-     }
-    ]
-   },
-   "explanation": "Montenegro e favorita, cu 61% sanse de victorie. Goluri asteptate: 2.10 pentru Montenegro, 1.03 pentru Armenia. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Montenegro are 39 meciuri in ultimii patru ani, Armenia are 38. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
-  },
-  {
-   "id": "NAT1610880",
-   "league": "NAT_10",
-   "league_name": "Friendlies",
-   "date": "2026-10-05",
-   "time": "18:45",
-   "home": "Liechtenstein",
-   "away": "Gibraltar",
-   "probs": {
-    "p_home": 0.2276,
-    "p_draw": 0.4347,
-    "p_away": 0.3377,
-    "p_over25": 0.1138,
-    "p_btts": 0.1974,
-    "p_under25": 0.8862,
-    "p_no_btts": 0.8026
-   },
-   "expected_goals": {
-    "home": 0.5,
-    "away": 0.67
-   },
-   "confidence": "ridicata",
-   "sample": {
-    "home_matches": 36,
-    "away_matches": 39
-   },
-   "top_scores": [
-    {
-     "score": "0-0",
-     "p": 0.3163
-    },
-    {
-     "score": "0-1",
-     "p": 0.2027
-    },
-    {
-     "score": "1-0",
-     "p": 0.1492
-    },
-    {
-     "score": "1-1",
-     "p": 0.1094
-    },
-    {
-     "score": "0-2",
-     "p": 0.0699
-    }
-   ],
-   "reference_odds": {
-    "home": 3.01,
-    "draw": 2.79,
-    "away": 2.54,
-    "over25": 3.14,
-    "under25": 1.31
-   },
-   "context": {
-    "home": {
-     "form": [
-      "I",
-      "I",
-      "I",
-      "I",
-      "I",
-      "E"
-     ],
-     "goals_for_avg": 0.0,
-     "goals_against_avg": 2.5,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "I",
-      "V",
-      "V",
-      "E",
-      "E",
-      "E"
-     ],
-     "goals_for_avg": 1.5,
-     "goals_against_avg": 0.5,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "h2h": [
-     {
-      "date": "2024-10-13",
-      "home": "Liechtenstein",
-      "away": "Gibraltar",
-      "score": "0-0"
-     },
-     {
-      "date": "2024-09-08",
-      "home": "Gibraltar",
-      "away": "Liechtenstein",
-      "score": "2-2"
-     },
-     {
-      "date": "2022-11-16",
-      "home": "Gibraltar",
-      "away": "Liechtenstein",
-      "score": "2-0"
-     },
-     {
-      "date": "2020-11-17",
-      "home": "Gibraltar",
-      "away": "Liechtenstein",
-      "score": "1-1"
-     },
-     {
-      "date": "2020-10-10",
-      "home": "Liechtenstein",
-      "away": "Gibraltar",
-      "score": "0-1"
-     }
-    ]
-   },
-   "explanation": "Gibraltar e favorita, cu 34% sanse de victorie. Goluri asteptate: 0.50 pentru Liechtenstein, 0.67 pentru Gibraltar. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Liechtenstein are 36 meciuri in ultimii patru ani, Gibraltar are 39. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
-  },
-  {
-   "id": "NAT1639992",
-   "league": "NAT_536",
-   "league_name": "CONCACAF Nations League",
-   "date": "2026-10-05",
-   "time": "19:00",
-   "home": "Guadeloupe",
-   "away": "St. Lucia",
-   "probs": {
-    "p_home": 0.7054,
-    "p_draw": 0.2105,
-    "p_away": 0.0841,
-    "p_over25": 0.4251,
-    "p_btts": 0.3358,
-    "p_under25": 0.5749,
-    "p_no_btts": 0.6642
-   },
-   "expected_goals": {
-    "home": 1.89,
-    "away": 0.5
-   },
-   "confidence": "medie",
-   "sample": {
-    "home_matches": 14,
-    "away_matches": 20
-   },
-   "top_scores": [
-    {
-     "score": "1-0",
-     "p": 0.1698
-    },
-    {
-     "score": "2-0",
-     "p": 0.1644
-    },
-    {
-     "score": "3-0",
-     "p": 0.1033
-    },
-    {
-     "score": "0-0",
-     "p": 0.0972
-    },
-    {
-     "score": "1-1",
-     "p": 0.091
-    }
-   ],
-   "reference_odds": {
-    "home": 4.4,
-    "draw": 4.08,
-    "away": 1.6,
-    "over25": 1.58,
-    "under25": 2.26
-   },
-   "context": {
-    "home": {
-     "form": [
-      "I",
-      "V",
-      "I",
-      "E",
-      "V",
-      "V"
-     ],
-     "goals_for_avg": 1.33,
-     "goals_against_avg": 0.67,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "V",
-      "I",
-      "I",
-      "I",
-      "I",
-      "V"
-     ],
-     "goals_for_avg": 0.83,
-     "goals_against_avg": 3.0,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "h2h": [
-     {
-      "date": "2023-10-15",
-      "home": "Guadeloupe",
-      "away": "St. Lucia",
-      "score": "2-0"
-     },
-     {
-      "date": "2023-10-13",
-      "home": "St. Lucia",
-      "away": "Guadeloupe",
-      "score": "2-1"
-     }
-    ]
-   },
-   "explanation": "Guadeloupe e favorita, cu 71% sanse de victorie. Goluri asteptate: 1.89 pentru Guadeloupe, 0.50 pentru St. Lucia. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Guadeloupe are 14 meciuri in ultimii patru ani, St. Lucia are 20. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
-  },
-  {
-   "id": "NAT1639993",
-   "league": "NAT_536",
-   "league_name": "CONCACAF Nations League",
-   "date": "2026-10-05",
-   "time": "21:00",
-   "home": "Cuba",
-   "away": "St. Kitts and Nevis",
-   "probs": {
-    "p_home": 0.7072,
-    "p_draw": 0.1848,
-    "p_away": 0.108,
-    "p_over25": 0.5901,
-    "p_btts": 0.4913,
-    "p_under25": 0.4099,
-    "p_no_btts": 0.5087
-   },
-   "expected_goals": {
-    "home": 2.28,
-    "away": 0.78
-   },
-   "confidence": "ridicata",
-   "sample": {
-    "home_matches": 25,
-    "away_matches": 26
-   },
-   "top_scores": [
-    {
-     "score": "2-0",
-     "p": 0.1217
-    },
-    {
-     "score": "1-0",
-     "p": 0.1023
-    },
-    {
-     "score": "2-1",
-     "p": 0.0951
-    },
-    {
-     "score": "3-0",
-     "p": 0.0924
-    },
-    {
-     "score": "1-1",
-     "p": 0.088
-    }
-   ],
-   "reference_odds": {
-    "home": 1.65,
-    "draw": 4.07,
-    "away": 4.11,
-    "over25": 1.48,
-    "under25": 2.45
-   },
-   "context": {
-    "home": {
-     "form": [
-      "V",
-      "V",
-      "I",
-      "I",
-      "I",
-      "I"
-     ],
-     "goals_for_avg": 1.0,
-     "goals_against_avg": 2.0,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "I",
-      "I",
-      "I",
-      "I",
-      "V",
-      "V"
-     ],
-     "goals_for_avg": 2.0,
-     "goals_against_avg": 2.83,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "h2h": [
-     {
-      "date": "2024-11-18",
-      "home": "Cuba",
-      "away": "St. Kitts and Nevis",
-      "score": "4-0"
-     },
-     {
-      "date": "2024-11-14",
-      "home": "St. Kitts and Nevis",
-      "away": "Cuba",
-      "score": "2-1"
-     }
-    ]
-   },
-   "explanation": "Cuba e favorita, cu 71% sanse de victorie. Goluri asteptate: 2.28 pentru Cuba, 0.78 pentru St. Kitts and Nevis. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Cuba are 25 meciuri in ultimii patru ani, St. Kitts and Nevis are 26. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
-  },
-  {
    "id": "NAT1639994",
    "league": "NAT_536",
    "league_name": "CONCACAF Nations League",
@@ -2537,16 +1452,16 @@
    "home": "Martinique",
    "away": "El Salvador",
    "probs": {
-    "p_home": 0.2746,
-    "p_draw": 0.3965,
+    "p_home": 0.2725,
+    "p_draw": 0.3986,
     "p_away": 0.3289,
-    "p_over25": 0.1649,
-    "p_btts": 0.2572,
-    "p_under25": 0.8351,
-    "p_no_btts": 0.7428
+    "p_over25": 0.1623,
+    "p_btts": 0.2546,
+    "p_under25": 0.8377,
+    "p_no_btts": 0.7454
    },
    "expected_goals": {
-    "home": 0.65,
+    "home": 0.64,
     "away": 0.74
    },
    "confidence": "scazuta",
@@ -2557,19 +1472,19 @@
    "top_scores": [
     {
      "score": "0-0",
-     "p": 0.2547
+     "p": 0.2576
     },
     {
      "score": "0-1",
-     "p": 0.1777
+     "p": 0.1786
     },
     {
      "score": "1-0",
-     "p": 0.1553
+     "p": 0.1551
     },
     {
      "score": "1-1",
-     "p": 0.1265
+     "p": 0.126
     },
     {
      "score": "0-2",
@@ -2577,9 +1492,9 @@
     }
    ],
    "reference_odds": {
-    "home": 2.4,
+    "home": 2.38,
     "draw": 3.34,
-    "away": 2.69,
+    "away": 2.7,
     "over25": 1.84,
     "under25": 1.92
    },
@@ -2627,7 +1542,7 @@
      }
     ]
    },
-   "explanation": "El Salvador e favorita, cu 33% sanse de victorie. Goluri asteptate: 0.65 pentru Martinique, 0.74 pentru El Salvador. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Martinique are 11 meciuri in ultimii patru ani, El Salvador are 39. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "El Salvador e favorita, cu 33% sanse de victorie. Goluri asteptate: 0.64 pentru Martinique, 0.74 pentru El Salvador. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,528 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Martinique are 11 meciuri in ultimii patru ani, El Salvador are 39. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1639995",
@@ -2638,17 +1553,17 @@
    "home": "Bermuda",
    "away": "Barbados",
    "probs": {
-    "p_home": 0.668,
-    "p_draw": 0.177,
-    "p_away": 0.155,
-    "p_over25": 0.7377,
-    "p_btts": 0.6585,
-    "p_under25": 0.2623,
-    "p_no_btts": 0.3415
+    "p_home": 0.6635,
+    "p_draw": 0.1781,
+    "p_away": 0.1584,
+    "p_over25": 0.7405,
+    "p_btts": 0.6637,
+    "p_under25": 0.2595,
+    "p_no_btts": 0.3363
    },
    "expected_goals": {
-    "home": 2.62,
-    "away": 1.23
+    "home": 2.61,
+    "away": 1.25
    },
    "confidence": "medie",
    "sample": {
@@ -2658,23 +1573,23 @@
    "top_scores": [
     {
      "score": "2-1",
-     "p": 0.09
+     "p": 0.0897
     },
     {
      "score": "3-1",
-     "p": 0.0785
-    },
-    {
-     "score": "2-0",
-     "p": 0.0734
+     "p": 0.0782
     },
     {
      "score": "1-1",
      "p": 0.0725
     },
     {
+     "score": "2-0",
+     "p": 0.0721
+    },
+    {
      "score": "3-0",
-     "p": 0.064
+     "p": 0.0628
     }
    ],
    "reference_odds": {
@@ -2728,7 +1643,7 @@
      }
     ]
    },
-   "explanation": "Bermuda e favorita, cu 67% sanse de victorie. Goluri asteptate: 2.62 pentru Bermuda, 1.23 pentru Barbados. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Bermuda are 28 meciuri in ultimii patru ani, Barbados are 23. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Bermuda e favorita, cu 66% sanse de victorie. Goluri asteptate: 2.61 pentru Bermuda, 1.25 pentru Barbados. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,528 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Bermuda are 28 meciuri in ultimii patru ani, Barbados are 23. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1639996",
@@ -2739,17 +1654,17 @@
    "home": "Grenada",
    "away": "Bonaire",
    "probs": {
-    "p_home": 0.7671,
-    "p_draw": 0.1611,
-    "p_away": 0.0718,
-    "p_over25": 0.5755,
-    "p_btts": 0.4164,
-    "p_under25": 0.4245,
-    "p_no_btts": 0.5836
+    "p_home": 0.7603,
+    "p_draw": 0.1646,
+    "p_away": 0.0751,
+    "p_over25": 0.5743,
+    "p_btts": 0.423,
+    "p_under25": 0.4257,
+    "p_no_btts": 0.577
    },
    "expected_goals": {
-    "home": 2.39,
-    "away": 0.61
+    "home": 2.37,
+    "away": 0.62
    },
    "confidence": "medie",
    "sample": {
@@ -2759,23 +1674,23 @@
    "top_scores": [
     {
      "score": "2-0",
-     "p": 0.1429
+     "p": 0.1412
     },
     {
      "score": "1-0",
-     "p": 0.1157
+     "p": 0.1151
     },
     {
      "score": "3-0",
-     "p": 0.1138
+     "p": 0.1115
     },
     {
      "score": "2-1",
-     "p": 0.0865
+     "p": 0.0876
     },
     {
      "score": "1-1",
-     "p": 0.0763
+     "p": 0.0781
     }
    ],
    "reference_odds": {
@@ -2816,7 +1731,7 @@
     },
     "h2h": []
    },
-   "explanation": "Grenada e favorita, cu 77% sanse de victorie. Goluri asteptate: 2.39 pentru Grenada, 0.61 pentru Bonaire. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Grenada are 28 meciuri in ultimii patru ani, Bonaire are 14. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Grenada e favorita, cu 76% sanse de victorie. Goluri asteptate: 2.37 pentru Grenada, 0.62 pentru Bonaire. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,528 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Grenada are 28 meciuri in ultimii patru ani, Bonaire are 14. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1639997",
@@ -2827,17 +1742,17 @@
    "home": "Guatemala",
    "away": "Suriname",
    "probs": {
-    "p_home": 0.4691,
-    "p_draw": 0.2862,
-    "p_away": 0.2447,
-    "p_over25": 0.41,
-    "p_btts": 0.4621,
-    "p_under25": 0.59,
-    "p_no_btts": 0.5379
+    "p_home": 0.4671,
+    "p_draw": 0.2864,
+    "p_away": 0.2465,
+    "p_over25": 0.4122,
+    "p_btts": 0.4647,
+    "p_under25": 0.5878,
+    "p_no_btts": 0.5353
    },
    "expected_goals": {
     "home": 1.39,
-    "away": 0.93
+    "away": 0.94
    },
    "confidence": "medie",
    "sample": {
@@ -2847,19 +1762,19 @@
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1338
+     "p": 0.1341
     },
     {
      "score": "1-0",
-     "p": 0.1295
+     "p": 0.1282
     },
     {
      "score": "0-0",
-     "p": 0.1048
+     "p": 0.1043
     },
     {
      "score": "2-0",
-     "p": 0.0949
+     "p": 0.0942
     },
     {
      "score": "2-1",
@@ -2917,7 +1832,7 @@
      }
     ]
    },
-   "explanation": "Guatemala e favorita, cu 47% sanse de victorie. Goluri asteptate: 1.39 pentru Guatemala, 0.93 pentru Suriname. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Guatemala are 43 meciuri in ultimii patru ani, Suriname are 22. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Guatemala e favorita, cu 47% sanse de victorie. Goluri asteptate: 1.39 pentru Guatemala, 0.94 pentru Suriname. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,528 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Guatemala are 43 meciuri in ultimii patru ani, Suriname are 22. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1639998",
@@ -2928,17 +1843,17 @@
    "home": "Honduras",
    "away": "Jamaica",
    "probs": {
-    "p_home": 0.3927,
-    "p_draw": 0.3388,
-    "p_away": 0.2684,
-    "p_over25": 0.2722,
-    "p_btts": 0.3565,
-    "p_under25": 0.7278,
-    "p_no_btts": 0.6435
+    "p_home": 0.3922,
+    "p_draw": 0.3386,
+    "p_away": 0.2693,
+    "p_over25": 0.2741,
+    "p_btts": 0.3586,
+    "p_under25": 0.7259,
+    "p_no_btts": 0.6414
    },
    "expected_goals": {
     "home": 1.02,
-    "away": 0.79
+    "away": 0.8
    },
    "confidence": "ridicata",
    "sample": {
@@ -2948,23 +1863,23 @@
    "top_scores": [
     {
      "score": "0-0",
-     "p": 0.1707
+     "p": 0.1698
     },
     {
      "score": "1-0",
-     "p": 0.1597
+     "p": 0.1586
     },
     {
      "score": "1-1",
-     "p": 0.139
+     "p": 0.1394
     },
     {
      "score": "0-1",
-     "p": 0.1223
+     "p": 0.1219
     },
     {
      "score": "2-0",
-     "p": 0.085
+     "p": 0.0848
     }
    ],
    "reference_odds": {
@@ -3036,7 +1951,7 @@
      }
     ]
    },
-   "explanation": "Honduras e favorita, cu 39% sanse de victorie. Goluri asteptate: 1.02 pentru Honduras, 0.79 pentru Jamaica. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Honduras are 35 meciuri in ultimii patru ani, Jamaica are 42. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Honduras e favorita, cu 39% sanse de victorie. Goluri asteptate: 1.02 pentru Honduras, 0.80 pentru Jamaica. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,528 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Honduras are 35 meciuri in ultimii patru ani, Jamaica are 42. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1629005",
@@ -3047,12 +1962,12 @@
    "home": "South Korea",
    "away": "Uzbekistan",
    "probs": {
-    "p_home": 0.5344,
-    "p_draw": 0.2718,
-    "p_away": 0.1938,
-    "p_over25": 0.4143,
+    "p_home": 0.5337,
+    "p_draw": 0.2724,
+    "p_away": 0.1939,
+    "p_over25": 0.4137,
     "p_btts": 0.4422,
-    "p_under25": 0.5857,
+    "p_under25": 0.5863,
     "p_no_btts": 0.5578
    },
    "expected_goals": {
@@ -3067,23 +1982,23 @@
    "top_scores": [
     {
      "score": "1-0",
-     "p": 0.1406
+     "p": 0.1405
     },
     {
      "score": "1-1",
-     "p": 0.1262
+     "p": 0.1265
     },
     {
      "score": "2-0",
-     "p": 0.1121
+     "p": 0.112
     },
     {
      "score": "0-0",
-     "p": 0.1029
+     "p": 0.1033
     },
     {
      "score": "2-1",
-     "p": 0.0913
+     "p": 0.0912
     }
    ],
    "reference_odds": {
@@ -3143,7 +2058,7 @@
      }
     ]
    },
-   "explanation": "South Korea e favorita, cu 53% sanse de victorie. Goluri asteptate: 1.52 pentru South Korea, 0.81 pentru Uzbekistan. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. South Korea are 39 meciuri in ultimii patru ani, Uzbekistan are 37. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "South Korea e favorita, cu 53% sanse de victorie. Goluri asteptate: 1.52 pentru South Korea, 0.81 pentru Uzbekistan. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,528 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. South Korea are 39 meciuri in ultimii patru ani, Uzbekistan are 37. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1638603",
@@ -3154,13 +2069,13 @@
    "home": "China",
    "away": "Tajikistan",
    "probs": {
-    "p_home": 0.4698,
-    "p_draw": 0.2903,
-    "p_away": 0.2399,
-    "p_over25": 0.3937,
-    "p_btts": 0.4478,
-    "p_under25": 0.6063,
-    "p_no_btts": 0.5522
+    "p_home": 0.4675,
+    "p_draw": 0.2911,
+    "p_away": 0.2414,
+    "p_over25": 0.3935,
+    "p_btts": 0.4485,
+    "p_under25": 0.6065,
+    "p_no_btts": 0.5515
    },
    "expected_goals": {
     "home": 1.36,
@@ -3173,24 +2088,24 @@
    },
    "top_scores": [
     {
-     "score": "1-0",
-     "p": 0.1353
+     "score": "1-1",
+     "p": 0.1349
     },
     {
-     "score": "1-1",
-     "p": 0.1344
+     "score": "1-0",
+     "p": 0.1347
     },
     {
      "score": "0-0",
-     "p": 0.1111
+     "p": 0.1114
     },
     {
      "score": "2-0",
-     "p": 0.0969
+     "p": 0.0964
     },
     {
-     "score": "2-1",
-     "p": 0.087
+     "score": "0-1",
+     "p": 0.0869
     }
    ],
    "reference_odds": {
@@ -3238,7 +2153,7 @@
      }
     ]
    },
-   "explanation": "China e favorita, cu 47% sanse de victorie. Goluri asteptate: 1.36 pentru China, 0.90 pentru Tajikistan. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. China are 32 meciuri in ultimii patru ani, Tajikistan are 28. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "China e favorita, cu 47% sanse de victorie. Goluri asteptate: 1.36 pentru China, 0.90 pentru Tajikistan. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,528 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. China are 32 meciuri in ultimii patru ani, Tajikistan are 28. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1528951",
@@ -3249,16 +2164,16 @@
    "home": "Kazakhstan",
    "away": "Faroe Islands",
    "probs": {
-    "p_home": 0.3761,
-    "p_draw": 0.3169,
-    "p_away": 0.307,
-    "p_over25": 0.3388,
+    "p_home": 0.3745,
+    "p_draw": 0.3176,
+    "p_away": 0.3079,
+    "p_over25": 0.3384,
     "p_btts": 0.4185,
-    "p_under25": 0.6612,
+    "p_under25": 0.6616,
     "p_no_btts": 0.5815
    },
    "expected_goals": {
-    "home": 1.1,
+    "home": 1.09,
     "away": 0.96
    },
    "confidence": "ridicata",
@@ -3269,23 +2184,23 @@
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1419
+     "p": 0.1422
     },
     {
      "score": "0-0",
-     "p": 0.1351
+     "p": 0.1355
     },
     {
      "score": "1-0",
-     "p": 0.1327
+     "p": 0.1323
     },
     {
      "score": "0-1",
-     "p": 0.1157
+     "p": 0.1158
     },
     {
      "score": "2-0",
-     "p": 0.0767
+     "p": 0.0763
     }
    ],
    "reference_odds": {
@@ -3339,7 +2254,7 @@
      }
     ]
    },
-   "explanation": "Kazakhstan e favorita, cu 38% sanse de victorie. Goluri asteptate: 1.10 pentru Kazakhstan, 0.96 pentru Faroe Islands. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Kazakhstan are 40 meciuri in ultimii patru ani, Faroe Islands are 34. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Kazakhstan e favorita, cu 37% sanse de victorie. Goluri asteptate: 1.09 pentru Kazakhstan, 0.96 pentru Faroe Islands. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,528 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Kazakhstan are 40 meciuri in ultimii patru ani, Faroe Islands are 34. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1638604",
@@ -3350,17 +2265,17 @@
    "home": "India",
    "away": "Uruguay",
    "probs": {
-    "p_home": 0.01,
-    "p_draw": 0.058,
-    "p_away": 0.932,
-    "p_over25": 0.6959,
-    "p_btts": 0.2129,
-    "p_under25": 0.3041,
-    "p_no_btts": 0.7871
+    "p_home": 0.0097,
+    "p_draw": 0.057,
+    "p_away": 0.9332,
+    "p_over25": 0.6991,
+    "p_btts": 0.2121,
+    "p_under25": 0.3009,
+    "p_no_btts": 0.7879
    },
    "expected_goals": {
     "home": 0.25,
-    "away": 3.35
+    "away": 3.37
    },
    "confidence": "ridicata",
    "sample": {
@@ -3370,23 +2285,23 @@
    "top_scores": [
     {
      "score": "0-3",
-     "p": 0.1718
+     "p": 0.1717
     },
     {
      "score": "0-2",
-     "p": 0.154
+     "p": 0.153
     },
     {
      "score": "0-4",
-     "p": 0.1437
+     "p": 0.1444
     },
     {
      "score": "0-5",
-     "p": 0.0962
+     "p": 0.0972
     },
     {
      "score": "0-1",
-     "p": 0.0908
+     "p": 0.0897
     }
    ],
    "reference_odds": {
@@ -3427,7 +2342,7 @@
     },
     "h2h": []
    },
-   "explanation": "Uruguay e favorita, cu 93% sanse de victorie. Goluri asteptate: 0.25 pentru India, 3.35 pentru Uruguay. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. India are 31 meciuri in ultimii patru ani, Uruguay are 35. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Uruguay e favorita, cu 93% sanse de victorie. Goluri asteptate: 0.25 pentru India, 3.37 pentru Uruguay. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,528 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. India are 31 meciuri in ultimii patru ani, Uruguay are 35. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1640080",
@@ -3438,17 +2353,17 @@
    "home": "Russia",
    "away": "Nigeria",
    "probs": {
-    "p_home": 0.6715,
-    "p_draw": 0.2111,
-    "p_away": 0.1175,
-    "p_over25": 0.5065,
-    "p_btts": 0.4428,
-    "p_under25": 0.4935,
-    "p_no_btts": 0.5572
+    "p_home": 0.6757,
+    "p_draw": 0.2092,
+    "p_away": 0.1151,
+    "p_over25": 0.5099,
+    "p_btts": 0.4426,
+    "p_under25": 0.4901,
+    "p_no_btts": 0.5574
    },
    "expected_goals": {
-    "home": 1.99,
-    "away": 0.71
+    "home": 2.01,
+    "away": 0.7
    },
    "confidence": "ridicata",
    "sample": {
@@ -3458,23 +2373,23 @@
    "top_scores": [
     {
      "score": "2-0",
-     "p": 0.1335
+     "p": 0.134
     },
     {
      "score": "1-0",
-     "p": 0.1288
+     "p": 0.128
     },
     {
      "score": "1-1",
-     "p": 0.0998
+     "p": 0.0989
     },
     {
      "score": "2-1",
-     "p": 0.0944
+     "p": 0.0942
     },
     {
      "score": "3-0",
-     "p": 0.0887
+     "p": 0.0898
     }
    ],
    "reference_odds": {
@@ -3522,7 +2437,7 @@
      }
     ]
    },
-   "explanation": "Russia e favorita, cu 67% sanse de victorie. Goluri asteptate: 1.99 pentru Russia, 0.71 pentru Nigeria. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Russia are 30 meciuri in ultimii patru ani, Nigeria are 40. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Russia e favorita, cu 68% sanse de victorie. Goluri asteptate: 2.01 pentru Russia, 0.70 pentru Nigeria. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,528 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Russia are 30 meciuri in ultimii patru ani, Nigeria are 40. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1640081",
@@ -3533,17 +2448,17 @@
    "home": "Jordan",
    "away": "Venezuela",
    "probs": {
-    "p_home": 0.2328,
-    "p_draw": 0.2733,
-    "p_away": 0.4938,
-    "p_over25": 0.4456,
-    "p_btts": 0.4849,
-    "p_under25": 0.5544,
-    "p_no_btts": 0.5151
+    "p_home": 0.2306,
+    "p_draw": 0.273,
+    "p_away": 0.4964,
+    "p_over25": 0.4465,
+    "p_btts": 0.485,
+    "p_under25": 0.5535,
+    "p_no_btts": 0.515
    },
    "expected_goals": {
     "home": 0.95,
-    "away": 1.5
+    "away": 1.51
    },
    "confidence": "ridicata",
    "sample": {
@@ -3553,7 +2468,7 @@
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1294
+     "p": 0.1293
     },
     {
      "score": "0-1",
@@ -3561,15 +2476,15 @@
     },
     {
      "score": "0-2",
-     "p": 0.0969
+     "p": 0.0974
     },
     {
      "score": "1-2",
-     "p": 0.0924
+     "p": 0.0926
     },
     {
      "score": "0-0",
-     "p": 0.0922
+     "p": 0.092
     }
    ],
    "reference_odds": {
@@ -3610,7 +2525,7 @@
     },
     "h2h": []
    },
-   "explanation": "Venezuela e favorita, cu 49% sanse de victorie. Goluri asteptate: 0.95 pentru Jordan, 1.50 pentru Venezuela. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Jordan are 43 meciuri in ultimii patru ani, Venezuela are 35. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Venezuela e favorita, cu 50% sanse de victorie. Goluri asteptate: 0.95 pentru Jordan, 1.51 pentru Venezuela. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,528 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Jordan are 43 meciuri in ultimii patru ani, Venezuela are 35. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1640082",
@@ -3621,13 +2536,13 @@
    "home": "Algeria",
    "away": "Niger",
    "probs": {
-    "p_home": 0.876,
-    "p_draw": 0.0908,
-    "p_away": 0.0331,
-    "p_over25": 0.7263,
-    "p_btts": 0.4104,
-    "p_under25": 0.2737,
-    "p_no_btts": 0.5896
+    "p_home": 0.8767,
+    "p_draw": 0.0906,
+    "p_away": 0.0327,
+    "p_over25": 0.7258,
+    "p_btts": 0.4084,
+    "p_under25": 0.2742,
+    "p_no_btts": 0.5916
    },
    "expected_goals": {
     "home": 3.22,
@@ -3641,23 +2556,23 @@
    "top_scores": [
     {
      "score": "3-0",
-     "p": 0.1279
+     "p": 0.1284
     },
     {
      "score": "2-0",
-     "p": 0.1192
+     "p": 0.1196
     },
     {
      "score": "4-0",
-     "p": 0.1029
+     "p": 0.1033
     },
     {
      "score": "1-0",
-     "p": 0.0719
+     "p": 0.0721
     },
     {
      "score": "3-1",
-     "p": 0.0708
+     "p": 0.0706
     }
    ],
    "reference_odds": {
@@ -3723,7 +2638,7 @@
      }
     ]
    },
-   "explanation": "Algeria e favorita, cu 88% sanse de victorie. Goluri asteptate: 3.22 pentru Algeria, 0.55 pentru Niger. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Algeria are 39 meciuri in ultimii patru ani, Niger are 34. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Algeria e favorita, cu 88% sanse de victorie. Goluri asteptate: 3.22 pentru Algeria, 0.55 pentru Niger. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,528 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Algeria are 39 meciuri in ultimii patru ani, Niger are 34. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1644165",
@@ -3734,16 +2649,16 @@
    "home": "Saudi Arabia",
    "away": "United Arab Emirates",
    "probs": {
-    "p_home": 0.4212,
-    "p_draw": 0.3232,
-    "p_away": 0.2556,
-    "p_over25": 0.3066,
-    "p_btts": 0.3829,
-    "p_under25": 0.6934,
-    "p_no_btts": 0.6171
+    "p_home": 0.4205,
+    "p_draw": 0.3237,
+    "p_away": 0.2557,
+    "p_over25": 0.3064,
+    "p_btts": 0.383,
+    "p_under25": 0.6936,
+    "p_no_btts": 0.617
    },
    "expected_goals": {
-    "home": 1.13,
+    "home": 1.12,
     "away": 0.81
    },
    "confidence": "ridicata",
@@ -3754,15 +2669,15 @@
    "top_scores": [
     {
      "score": "1-0",
-     "p": 0.155
+     "p": 0.1547
     },
     {
      "score": "0-0",
-     "p": 0.151
+     "p": 0.1514
     },
     {
      "score": "1-1",
-     "p": 0.1388
+     "p": 0.139
     },
     {
      "score": "0-1",
@@ -3770,7 +2685,7 @@
     },
     {
      "score": "2-0",
-     "p": 0.0913
+     "p": 0.0911
     }
    ],
    "reference_odds": {
@@ -3842,7 +2757,7 @@
      }
     ]
    },
-   "explanation": "Saudi Arabia e favorita, cu 42% sanse de victorie. Goluri asteptate: 1.13 pentru Saudi Arabia, 0.81 pentru United Arab Emirates. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Saudi Arabia are 44 meciuri in ultimii patru ani, United Arab Emirates are 32. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Saudi Arabia e favorita, cu 42% sanse de victorie. Goluri asteptate: 1.12 pentru Saudi Arabia, 0.81 pentru United Arab Emirates. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,528 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Saudi Arabia are 44 meciuri in ultimii patru ani, United Arab Emirates are 32. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1528952",
@@ -3853,17 +2768,17 @@
    "home": "Croatia",
    "away": "Spain",
    "probs": {
-    "p_home": 0.1958,
-    "p_draw": 0.2266,
-    "p_away": 0.5776,
-    "p_over25": 0.5871,
-    "p_btts": 0.5718,
-    "p_under25": 0.4129,
-    "p_no_btts": 0.4282
+    "p_home": 0.1972,
+    "p_draw": 0.2278,
+    "p_away": 0.575,
+    "p_over25": 0.5854,
+    "p_btts": 0.5716,
+    "p_under25": 0.4146,
+    "p_no_btts": 0.4284
    },
    "expected_goals": {
     "home": 1.07,
-    "away": 1.97
+    "away": 1.96
    },
    "confidence": "ridicata",
    "sample": {
@@ -3873,7 +2788,7 @@
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1061
+     "p": 0.1067
     },
     {
      "score": "1-2",
@@ -3881,15 +2796,15 @@
     },
     {
      "score": "0-2",
-     "p": 0.0926
+     "p": 0.0925
     },
     {
      "score": "0-1",
-     "p": 0.0884
+     "p": 0.0885
     },
     {
      "score": "1-3",
-     "p": 0.0653
+     "p": 0.065
     }
    ],
    "reference_odds": {
@@ -3955,7 +2870,7 @@
      }
     ]
    },
-   "explanation": "Spain e favorita, cu 58% sanse de victorie. Goluri asteptate: 1.07 pentru Croatia, 1.97 pentru Spain. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Croatia are 38 meciuri in ultimii patru ani, Spain are 38. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Spain e favorita, cu 57% sanse de victorie. Goluri asteptate: 1.07 pentru Croatia, 1.96 pentru Spain. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,528 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Croatia are 38 meciuri in ultimii patru ani, Spain are 38. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1528953",
@@ -3966,13 +2881,13 @@
    "home": "England",
    "away": "Czechia",
    "probs": {
-    "p_home": 0.7766,
-    "p_draw": 0.1574,
-    "p_away": 0.066,
-    "p_over25": 0.5684,
-    "p_btts": 0.3977,
-    "p_under25": 0.4316,
-    "p_no_btts": 0.6023
+    "p_home": 0.7757,
+    "p_draw": 0.1581,
+    "p_away": 0.0662,
+    "p_over25": 0.5677,
+    "p_btts": 0.3981,
+    "p_under25": 0.4323,
+    "p_no_btts": 0.6019
    },
    "expected_goals": {
     "home": 2.39,
@@ -3986,23 +2901,23 @@
    "top_scores": [
     {
      "score": "2-0",
-     "p": 0.1482
+     "p": 0.1481
     },
     {
      "score": "1-0",
-     "p": 0.1199
+     "p": 0.12
     },
     {
      "score": "3-0",
-     "p": 0.1183
+     "p": 0.1181
     },
     {
      "score": "2-1",
-     "p": 0.0842
+     "p": 0.0843
     },
     {
      "score": "1-1",
-     "p": 0.0741
+     "p": 0.0744
     }
    ],
    "reference_odds": {
@@ -4050,7 +2965,7 @@
      }
     ]
    },
-   "explanation": "England e favorita, cu 78% sanse de victorie. Goluri asteptate: 2.39 pentru England, 0.57 pentru Czechia. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. England are 37 meciuri in ultimii patru ani, Czechia are 39. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "England e favorita, cu 78% sanse de victorie. Goluri asteptate: 2.39 pentru England, 0.57 pentru Czechia. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,528 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. England are 37 meciuri in ultimii patru ani, Czechia are 39. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1528954",
@@ -4061,16 +2976,16 @@
    "home": "Albania",
    "away": "San Marino",
    "probs": {
-    "p_home": 0.9432,
-    "p_draw": 0.0511,
-    "p_away": 0.0057,
-    "p_over25": 0.6712,
-    "p_btts": 0.1365,
-    "p_under25": 0.3288,
-    "p_no_btts": 0.8635
+    "p_home": 0.9412,
+    "p_draw": 0.0529,
+    "p_away": 0.0059,
+    "p_over25": 0.665,
+    "p_btts": 0.1377,
+    "p_under25": 0.335,
+    "p_no_btts": 0.8623
    },
    "expected_goals": {
-    "home": 3.31,
+    "home": 3.27,
     "away": 0.15
    },
    "confidence": "ridicata",
@@ -4081,23 +2996,23 @@
    "top_scores": [
     {
      "score": "3-0",
-     "p": 0.1898
+     "p": 0.1901
     },
     {
      "score": "2-0",
-     "p": 0.1722
+     "p": 0.1743
     },
     {
      "score": "4-0",
-     "p": 0.1569
-    },
-    {
-     "score": "5-0",
-     "p": 0.1038
+     "p": 0.1555
     },
     {
      "score": "1-0",
-     "p": 0.1033
+     "p": 0.1056
+    },
+    {
+     "score": "5-0",
+     "p": 0.1018
     }
    ],
    "reference_odds": {
@@ -4157,7 +3072,7 @@
      }
     ]
    },
-   "explanation": "Albania e favorita, cu 94% sanse de victorie. Goluri asteptate: 3.31 pentru Albania, 0.15 pentru San Marino. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Albania are 40 meciuri in ultimii patru ani, San Marino are 39. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Albania e favorita, cu 94% sanse de victorie. Goluri asteptate: 3.27 pentru Albania, 0.15 pentru San Marino. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,528 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Albania are 40 meciuri in ultimii patru ani, San Marino are 39. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1528955",
@@ -4168,13 +3083,13 @@
    "home": "Belarus",
    "away": "Finland",
    "probs": {
-    "p_home": 0.2996,
-    "p_draw": 0.2833,
-    "p_away": 0.417,
-    "p_over25": 0.448,
-    "p_btts": 0.505,
-    "p_under25": 0.552,
-    "p_no_btts": 0.495
+    "p_home": 0.2992,
+    "p_draw": 0.284,
+    "p_away": 0.4168,
+    "p_over25": 0.447,
+    "p_btts": 0.5045,
+    "p_under25": 0.553,
+    "p_no_btts": 0.4955
    },
    "expected_goals": {
     "home": 1.11,
@@ -4188,7 +3103,7 @@
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1347
+     "p": 0.135
     },
     {
      "score": "0-1",
@@ -4196,15 +3111,15 @@
     },
     {
      "score": "0-0",
-     "p": 0.0916
+     "p": 0.0922
     },
     {
      "score": "1-0",
-     "p": 0.0873
+     "p": 0.0872
     },
     {
      "score": "1-2",
-     "p": 0.0867
+     "p": 0.0866
     }
    ],
    "reference_odds": {
@@ -4258,7 +3173,7 @@
      }
     ]
    },
-   "explanation": "Finland e favorita, cu 42% sanse de victorie. Goluri asteptate: 1.11 pentru Belarus, 1.36 pentru Finland. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Belarus are 39 meciuri in ultimii patru ani, Finland are 39. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Finland e favorita, cu 42% sanse de victorie. Goluri asteptate: 1.11 pentru Belarus, 1.36 pentru Finland. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,528 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Belarus are 39 meciuri in ultimii patru ani, Finland are 39. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1528956",
@@ -4269,12 +3184,12 @@
    "home": "Moldova",
    "away": "Slovakia",
    "probs": {
-    "p_home": 0.1192,
-    "p_draw": 0.2183,
-    "p_away": 0.6626,
-    "p_over25": 0.4832,
+    "p_home": 0.1188,
+    "p_draw": 0.2185,
+    "p_away": 0.6627,
+    "p_over25": 0.4833,
     "p_btts": 0.4282,
-    "p_under25": 0.5168,
+    "p_under25": 0.5167,
     "p_no_btts": 0.5718
    },
    "expected_goals": {
@@ -4289,15 +3204,15 @@
    "top_scores": [
     {
      "score": "0-1",
-     "p": 0.1366
+     "p": 0.1365
     },
     {
      "score": "0-2",
-     "p": 0.1364
+     "p": 0.1365
     },
     {
      "score": "1-1",
-     "p": 0.1023
+     "p": 0.1024
     },
     {
      "score": "1-2",
@@ -4305,7 +3220,7 @@
     },
     {
      "score": "0-3",
-     "p": 0.0874
+     "p": 0.0875
     }
    ],
    "reference_odds": {
@@ -4353,7 +3268,7 @@
      }
     ]
    },
-   "explanation": "Slovakia e favorita, cu 66% sanse de victorie. Goluri asteptate: 0.68 pentru Moldova, 1.92 pentru Slovakia. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Moldova are 39 meciuri in ultimii patru ani, Slovakia are 39. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Slovakia e favorita, cu 66% sanse de victorie. Goluri asteptate: 0.68 pentru Moldova, 1.92 pentru Slovakia. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,528 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Moldova are 39 meciuri in ultimii patru ani, Slovakia are 39. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1528957",
@@ -4364,17 +3279,17 @@
    "home": "Estonia",
    "away": "Iceland",
    "probs": {
-    "p_home": 0.2037,
-    "p_draw": 0.2555,
-    "p_away": 0.5408,
-    "p_over25": 0.4822,
-    "p_btts": 0.4986,
-    "p_under25": 0.5178,
-    "p_no_btts": 0.5014
+    "p_home": 0.2025,
+    "p_draw": 0.2552,
+    "p_away": 0.5422,
+    "p_over25": 0.4834,
+    "p_btts": 0.4991,
+    "p_under25": 0.5166,
+    "p_no_btts": 0.5009
    },
    "expected_goals": {
     "home": 0.93,
-    "away": 1.67
+    "away": 1.68
    },
    "confidence": "ridicata",
    "sample": {
@@ -4384,23 +3299,23 @@
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1216
+     "p": 0.1215
     },
     {
      "score": "0-1",
-     "p": 0.1175
+     "p": 0.1171
     },
     {
      "score": "0-2",
-     "p": 0.1032
+     "p": 0.1035
     },
     {
      "score": "1-2",
-     "p": 0.0963
+     "p": 0.0964
     },
     {
      "score": "0-0",
-     "p": 0.0803
+     "p": 0.0802
     }
    ],
    "reference_odds": {
@@ -4454,7 +3369,7 @@
      }
     ]
    },
-   "explanation": "Iceland e favorita, cu 54% sanse de victorie. Goluri asteptate: 0.93 pentru Estonia, 1.67 pentru Iceland. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Estonia are 35 meciuri in ultimii patru ani, Iceland are 44. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Iceland e favorita, cu 54% sanse de victorie. Goluri asteptate: 0.93 pentru Estonia, 1.68 pentru Iceland. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,528 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Estonia are 35 meciuri in ultimii patru ani, Iceland are 44. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1545612",
@@ -4465,17 +3380,17 @@
    "home": "Luxembourg",
    "away": "Bulgaria",
    "probs": {
-    "p_home": 0.4234,
-    "p_draw": 0.3234,
-    "p_away": 0.2532,
-    "p_over25": 0.305,
-    "p_btts": 0.3809,
-    "p_under25": 0.695,
-    "p_no_btts": 0.6191
+    "p_home": 0.4226,
+    "p_draw": 0.3242,
+    "p_away": 0.2533,
+    "p_over25": 0.3044,
+    "p_btts": 0.3807,
+    "p_under25": 0.6956,
+    "p_no_btts": 0.6193
    },
    "expected_goals": {
     "home": 1.13,
-    "away": 0.81
+    "away": 0.8
    },
    "confidence": "ridicata",
    "sample": {
@@ -4485,15 +3400,15 @@
    "top_scores": [
     {
      "score": "1-0",
-     "p": 0.1561
+     "p": 0.156
     },
     {
      "score": "0-0",
-     "p": 0.1519
+     "p": 0.1525
     },
     {
      "score": "1-1",
-     "p": 0.1385
+     "p": 0.1388
     },
     {
      "score": "0-1",
@@ -4501,7 +3416,7 @@
     },
     {
      "score": "2-0",
-     "p": 0.092
+     "p": 0.0919
     }
    ],
    "reference_odds": {
@@ -4573,7 +3488,7 @@
      }
     ]
    },
-   "explanation": "Luxembourg e favorita, cu 42% sanse de victorie. Goluri asteptate: 1.13 pentru Luxembourg, 0.81 pentru Bulgaria. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Luxembourg are 40 meciuri in ultimii patru ani, Bulgaria are 37. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Luxembourg e favorita, cu 42% sanse de victorie. Goluri asteptate: 1.13 pentru Luxembourg, 0.80 pentru Bulgaria. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,528 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Luxembourg are 40 meciuri in ultimii patru ani, Bulgaria are 37. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1545655",
@@ -4584,13 +3499,13 @@
    "home": "Switzerland",
    "away": "FYR Macedonia",
    "probs": {
-    "p_home": 0.8294,
-    "p_draw": 0.1228,
-    "p_away": 0.0478,
-    "p_over25": 0.6458,
-    "p_btts": 0.4035,
-    "p_under25": 0.3542,
-    "p_no_btts": 0.5965
+    "p_home": 0.8301,
+    "p_draw": 0.1225,
+    "p_away": 0.0474,
+    "p_over25": 0.6461,
+    "p_btts": 0.4026,
+    "p_under25": 0.3539,
+    "p_no_btts": 0.5974
    },
    "expected_goals": {
     "home": 2.77,
@@ -4604,23 +3519,23 @@
    "top_scores": [
     {
      "score": "2-0",
-     "p": 0.1377
+     "p": 0.1379
     },
     {
      "score": "3-0",
-     "p": 0.1271
+     "p": 0.1274
     },
     {
      "score": "1-0",
-     "p": 0.0965
+     "p": 0.0964
     },
     {
      "score": "4-0",
-     "p": 0.088
+     "p": 0.0883
     },
     {
      "score": "2-1",
-     "p": 0.0768
+     "p": 0.0766
     }
    ],
    "reference_odds": {
@@ -4668,7 +3583,7 @@
      }
     ]
    },
-   "explanation": "Switzerland e favorita, cu 83% sanse de victorie. Goluri asteptate: 2.77 pentru Switzerland, 0.56 pentru FYR Macedonia. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Switzerland are 38 meciuri in ultimii patru ani, FYR Macedonia are 40. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Switzerland e favorita, cu 83% sanse de victorie. Goluri asteptate: 2.77 pentru Switzerland, 0.56 pentru FYR Macedonia. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,528 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Switzerland are 38 meciuri in ultimii patru ani, FYR Macedonia are 40. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1545657",
@@ -4679,17 +3594,17 @@
    "home": "Scotland",
    "away": "Slovenia",
    "probs": {
-    "p_home": 0.4955,
-    "p_draw": 0.2953,
-    "p_away": 0.2092,
-    "p_over25": 0.356,
-    "p_btts": 0.4059,
-    "p_under25": 0.644,
-    "p_no_btts": 0.5941
+    "p_home": 0.4959,
+    "p_draw": 0.2957,
+    "p_away": 0.2084,
+    "p_over25": 0.3555,
+    "p_btts": 0.4054,
+    "p_under25": 0.6445,
+    "p_no_btts": 0.5946
    },
    "expected_goals": {
-    "home": 1.34,
-    "away": 0.78
+    "home": 1.35,
+    "away": 0.77
    },
    "confidence": "ridicata",
    "sample": {
@@ -4699,23 +3614,23 @@
    "top_scores": [
     {
      "score": "1-0",
-     "p": 0.1545
+     "p": 0.1547
     },
     {
      "score": "1-1",
-     "p": 0.1319
+     "p": 0.132
     },
     {
      "score": "0-0",
-     "p": 0.1267
+     "p": 0.1271
     },
     {
      "score": "2-0",
-     "p": 0.1084
+     "p": 0.1087
     },
     {
      "score": "0-1",
-     "p": 0.0863
+     "p": 0.086
     }
    ],
    "reference_odds": {
@@ -4775,7 +3690,7 @@
      }
     ]
    },
-   "explanation": "Scotland e favorita, cu 50% sanse de victorie. Goluri asteptate: 1.34 pentru Scotland, 0.78 pentru Slovenia. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Scotland are 38 meciuri in ultimii patru ani, Slovenia are 40. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Scotland e favorita, cu 50% sanse de victorie. Goluri asteptate: 1.35 pentru Scotland, 0.77 pentru Slovenia. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,528 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Scotland are 38 meciuri in ultimii patru ani, Slovenia are 40. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1545838",
@@ -4787,12 +3702,12 @@
    "away": "Malawi",
    "probs": {
     "p_home": 0.6109,
-    "p_draw": 0.2874,
-    "p_away": 0.1017,
-    "p_over25": 0.2607,
-    "p_btts": 0.25,
-    "p_under25": 0.7393,
-    "p_no_btts": 0.75
+    "p_draw": 0.2876,
+    "p_away": 0.1015,
+    "p_over25": 0.2609,
+    "p_btts": 0.2502,
+    "p_under25": 0.7391,
+    "p_no_btts": 0.7498
    },
    "expected_goals": {
     "home": 1.37,
@@ -4806,11 +3721,11 @@
    "top_scores": [
     {
      "score": "1-0",
-     "p": 0.2288
+     "p": 0.2286
     },
     {
      "score": "0-0",
-     "p": 0.1757
+     "p": 0.1758
     },
     {
      "score": "2-0",
@@ -4818,7 +3733,7 @@
     },
     {
      "score": "1-1",
-     "p": 0.0981
+     "p": 0.0983
     },
     {
      "score": "3-0",
@@ -4863,7 +3778,7 @@
     },
     "h2h": []
    },
-   "explanation": "Angola e favorita, cu 61% sanse de victorie. Goluri asteptate: 1.37 pentru Angola, 0.40 pentru Malawi. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Angola are 33 meciuri in ultimii patru ani, Malawi are 31. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Angola e favorita, cu 61% sanse de victorie. Goluri asteptate: 1.37 pentru Angola, 0.40 pentru Malawi. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,528 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Angola are 33 meciuri in ultimii patru ani, Malawi are 31. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1639999",
@@ -4874,16 +3789,16 @@
    "home": "Montserrat",
    "away": "Turks and Caicos Islands",
    "probs": {
-    "p_home": 0.947,
-    "p_draw": 0.0403,
-    "p_away": 0.0126,
-    "p_over25": 0.8658,
-    "p_btts": 0.4111,
-    "p_under25": 0.1342,
-    "p_no_btts": 0.5889
+    "p_home": 0.9459,
+    "p_draw": 0.0411,
+    "p_away": 0.013,
+    "p_over25": 0.8653,
+    "p_btts": 0.4147,
+    "p_under25": 0.1347,
+    "p_no_btts": 0.5853
    },
    "expected_goals": {
-    "home": 4.36,
+    "home": 4.35,
     "away": 0.54
    },
    "confidence": "medie",
@@ -4894,15 +3809,15 @@
    "top_scores": [
     {
      "score": "4-0",
-     "p": 0.1131
+     "p": 0.1124
     },
     {
      "score": "3-0",
-     "p": 0.1037
+     "p": 0.1034
     },
     {
      "score": "5-0",
-     "p": 0.0986
+     "p": 0.0978
     },
     {
      "score": "2-0",
@@ -4910,7 +3825,7 @@
     },
     {
      "score": "4-1",
-     "p": 0.0607
+     "p": 0.0611
     }
    ],
    "reference_odds": {},
@@ -4945,7 +3860,7 @@
     },
     "h2h": []
    },
-   "explanation": "Montserrat e favorita, cu 95% sanse de victorie. Goluri asteptate: 4.36 pentru Montserrat, 0.54 pentru Turks and Caicos Islands. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Montserrat are 18 meciuri in ultimii patru ani, Turks and Caicos Islands are 13. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Montserrat e favorita, cu 95% sanse de victorie. Goluri asteptate: 4.35 pentru Montserrat, 0.54 pentru Turks and Caicos Islands. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,528 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Montserrat are 18 meciuri in ultimii patru ani, Turks and Caicos Islands are 13. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1640000",
@@ -4956,16 +3871,16 @@
    "home": "Saint Martin",
    "away": "Bahamas",
    "probs": {
-    "p_home": 0.754,
-    "p_draw": 0.1383,
-    "p_away": 0.1078,
-    "p_over25": 0.8072,
-    "p_btts": 0.6703,
-    "p_under25": 0.1928,
-    "p_no_btts": 0.3297
+    "p_home": 0.7555,
+    "p_draw": 0.1373,
+    "p_away": 0.1072,
+    "p_over25": 0.8108,
+    "p_btts": 0.6731,
+    "p_under25": 0.1892,
+    "p_no_btts": 0.3269
    },
    "expected_goals": {
-    "home": 3.14,
+    "home": 3.16,
     "away": 1.2
    },
    "confidence": "medie",
@@ -4976,23 +3891,23 @@
    "top_scores": [
     {
      "score": "3-1",
-     "p": 0.0808
+     "p": 0.0806
     },
     {
      "score": "2-1",
-     "p": 0.0772
+     "p": 0.0765
     },
     {
      "score": "3-0",
-     "p": 0.0675
-    },
-    {
-     "score": "2-0",
-     "p": 0.0645
+     "p": 0.067
     },
     {
      "score": "4-1",
-     "p": 0.0634
+     "p": 0.0637
+    },
+    {
+     "score": "2-0",
+     "p": 0.0635
     }
    ],
    "reference_odds": {},
@@ -5027,7 +3942,7 @@
     },
     "h2h": []
    },
-   "explanation": "Saint Martin e favorita, cu 75% sanse de victorie. Goluri asteptate: 3.14 pentru Saint Martin, 1.20 pentru Bahamas. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Saint Martin are 17 meciuri in ultimii patru ani, Bahamas are 15. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Saint Martin e favorita, cu 76% sanse de victorie. Goluri asteptate: 3.16 pentru Saint Martin, 1.20 pentru Bahamas. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,528 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Saint Martin are 17 meciuri in ultimii patru ani, Bahamas are 15. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1640001",
@@ -5038,17 +3953,17 @@
    "home": "St. Vincent / Grenadines",
    "away": "Sint Maarten",
    "probs": {
-    "p_home": 0.8016,
-    "p_draw": 0.1134,
-    "p_away": 0.085,
-    "p_over25": 0.8574,
-    "p_btts": 0.6888,
-    "p_under25": 0.1426,
-    "p_no_btts": 0.3112
+    "p_home": 0.8003,
+    "p_draw": 0.1138,
+    "p_away": 0.0859,
+    "p_over25": 0.8589,
+    "p_btts": 0.6922,
+    "p_under25": 0.1411,
+    "p_no_btts": 0.3078
    },
    "expected_goals": {
-    "home": 3.57,
-    "away": 1.23
+    "home": 3.58,
+    "away": 1.24
    },
    "confidence": "medie",
    "sample": {
@@ -5058,23 +3973,23 @@
    "top_scores": [
     {
      "score": "3-1",
-     "p": 0.0769
+     "p": 0.0766
     },
     {
      "score": "4-1",
-     "p": 0.0687
+     "p": 0.0686
     },
     {
      "score": "2-1",
-     "p": 0.0645
+     "p": 0.0642
     },
     {
      "score": "3-0",
-     "p": 0.0626
+     "p": 0.0619
     },
     {
      "score": "4-0",
-     "p": 0.056
+     "p": 0.0554
     }
    ],
    "reference_odds": {
@@ -5115,7 +4030,7 @@
     },
     "h2h": []
    },
-   "explanation": "St. Vincent / Grenadines e favorita, cu 80% sanse de victorie. Goluri asteptate: 3.57 pentru St. Vincent / Grenadines, 1.23 pentru Sint Maarten. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. St. Vincent / Grenadines are 28 meciuri in ultimii patru ani, Sint Maarten are 14. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "St. Vincent / Grenadines e favorita, cu 80% sanse de victorie. Goluri asteptate: 3.58 pentru St. Vincent / Grenadines, 1.24 pentru Sint Maarten. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,528 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. St. Vincent / Grenadines are 28 meciuri in ultimii patru ani, Sint Maarten are 14. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1640002",
@@ -5126,16 +4041,16 @@
    "home": "Antigua and Barbuda",
    "away": "Aruba",
    "probs": {
-    "p_home": 0.3545,
-    "p_draw": 0.2806,
-    "p_away": 0.3648,
-    "p_over25": 0.4689,
-    "p_btts": 0.526,
-    "p_under25": 0.5311,
-    "p_no_btts": 0.474
+    "p_home": 0.3555,
+    "p_draw": 0.2808,
+    "p_away": 0.3638,
+    "p_over25": 0.4701,
+    "p_btts": 0.5271,
+    "p_under25": 0.5299,
+    "p_no_btts": 0.4729
    },
    "expected_goals": {
-    "home": 1.26,
+    "home": 1.27,
     "away": 1.29
    },
    "confidence": "medie",
@@ -5146,23 +4061,23 @@
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1338
+     "p": 0.1339
     },
     {
      "score": "0-1",
-     "p": 0.0936
+     "p": 0.0929
     },
     {
      "score": "1-0",
-     "p": 0.0919
+     "p": 0.0915
     },
     {
      "score": "0-0",
-     "p": 0.0849
+     "p": 0.0848
     },
     {
      "score": "1-2",
-     "p": 0.0816
+     "p": 0.0815
     }
    ],
    "reference_odds": {
@@ -5216,7 +4131,7 @@
      }
     ]
    },
-   "explanation": "Aruba e favorita, cu 36% sanse de victorie. Goluri asteptate: 1.26 pentru Antigua and Barbuda, 1.29 pentru Aruba. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Antigua and Barbuda are 18 meciuri in ultimii patru ani, Aruba are 18. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Aruba e favorita, cu 36% sanse de victorie. Goluri asteptate: 1.27 pentru Antigua and Barbuda, 1.29 pentru Aruba. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,528 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Antigua and Barbuda are 18 meciuri in ultimii patru ani, Aruba are 18. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1640517",
@@ -5227,17 +4142,17 @@
    "home": "Argentina",
    "away": "Benin",
    "probs": {
-    "p_home": 0.9339,
-    "p_draw": 0.0558,
-    "p_away": 0.0103,
-    "p_over25": 0.7144,
-    "p_btts": 0.2293,
-    "p_under25": 0.2856,
-    "p_no_btts": 0.7707
+    "p_home": 0.9374,
+    "p_draw": 0.0532,
+    "p_away": 0.0095,
+    "p_over25": 0.7213,
+    "p_btts": 0.2241,
+    "p_under25": 0.2787,
+    "p_no_btts": 0.7759
    },
    "expected_goals": {
-    "home": 3.43,
-    "away": 0.27
+    "home": 3.48,
+    "away": 0.26
    },
    "confidence": "ridicata",
    "sample": {
@@ -5247,23 +4162,23 @@
    "top_scores": [
     {
      "score": "3-0",
-     "p": 0.1666
-    },
-    {
-     "score": "2-0",
-     "p": 0.1456
+     "p": 0.1668
     },
     {
      "score": "4-0",
-     "p": 0.1429
+     "p": 0.1451
+    },
+    {
+     "score": "2-0",
+     "p": 0.1438
     },
     {
      "score": "5-0",
-     "p": 0.0981
+     "p": 0.101
     },
     {
      "score": "1-0",
-     "p": 0.0836
+     "p": 0.0814
     }
    ],
    "reference_odds": {
@@ -5304,7 +4219,7 @@
     },
     "h2h": []
    },
-   "explanation": "Argentina e favorita, cu 93% sanse de victorie. Goluri asteptate: 3.43 pentru Argentina, 0.27 pentru Benin. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Argentina are 36 meciuri in ultimii patru ani, Benin are 32. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Argentina e favorita, cu 94% sanse de victorie. Goluri asteptate: 3.48 pentru Argentina, 0.26 pentru Benin. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,528 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Argentina are 36 meciuri in ultimii patru ani, Benin are 32. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1632359",
@@ -5315,13 +4230,13 @@
    "home": "Colombia",
    "away": "Peru",
    "probs": {
-    "p_home": 0.6659,
-    "p_draw": 0.2259,
-    "p_away": 0.1082,
-    "p_over25": 0.432,
-    "p_btts": 0.3776,
-    "p_under25": 0.568,
-    "p_no_btts": 0.6224
+    "p_home": 0.6662,
+    "p_draw": 0.226,
+    "p_away": 0.1077,
+    "p_over25": 0.4321,
+    "p_btts": 0.3774,
+    "p_under25": 0.5679,
+    "p_no_btts": 0.6226
    },
    "expected_goals": {
     "home": 1.82,
@@ -5335,11 +4250,11 @@
    "top_scores": [
     {
      "score": "1-0",
-     "p": 0.1587
+     "p": 0.1586
     },
     {
      "score": "2-0",
-     "p": 0.149
+     "p": 0.1492
     },
     {
      "score": "1-1",
@@ -5347,11 +4262,11 @@
     },
     {
      "score": "0-0",
-     "p": 0.0953
+     "p": 0.0955
     },
     {
      "score": "3-0",
-     "p": 0.0903
+     "p": 0.0905
     }
    ],
    "reference_odds": {
@@ -5423,7 +4338,7 @@
      }
     ]
    },
-   "explanation": "Colombia e favorita, cu 67% sanse de victorie. Goluri asteptate: 1.82 pentru Colombia, 0.59 pentru Peru. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Colombia are 40 meciuri in ultimii patru ani, Peru are 39. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Colombia e favorita, cu 67% sanse de victorie. Goluri asteptate: 1.82 pentru Colombia, 0.59 pentru Peru. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,528 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Colombia are 40 meciuri in ultimii patru ani, Peru are 39. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1629007",
@@ -5434,17 +4349,17 @@
    "home": "USA",
    "away": "Canada",
    "probs": {
-    "p_home": 0.4048,
-    "p_draw": 0.2902,
-    "p_away": 0.305,
-    "p_over25": 0.4249,
-    "p_btts": 0.4878,
-    "p_under25": 0.5751,
-    "p_no_btts": 0.5122
+    "p_home": 0.4024,
+    "p_draw": 0.29,
+    "p_away": 0.3076,
+    "p_over25": 0.4281,
+    "p_btts": 0.4909,
+    "p_under25": 0.5719,
+    "p_no_btts": 0.5091
    },
    "expected_goals": {
     "home": 1.29,
-    "away": 1.09
+    "away": 1.1
    },
    "confidence": "ridicata",
    "sample": {
@@ -5454,23 +4369,23 @@
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1371
+     "p": 0.1372
     },
     {
      "score": "1-0",
-     "p": 0.1127
+     "p": 0.1111
     },
     {
      "score": "0-0",
-     "p": 0.0996
+     "p": 0.0987
     },
     {
      "score": "0-1",
-     "p": 0.0937
+     "p": 0.0932
     },
     {
      "score": "2-1",
-     "p": 0.0841
+     "p": 0.084
     }
    ],
    "reference_odds": {
@@ -5542,7 +4457,7 @@
      }
     ]
    },
-   "explanation": "USA e favorita, cu 40% sanse de victorie. Goluri asteptate: 1.29 pentru USA, 1.09 pentru Canada. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. USA are 43 meciuri in ultimii patru ani, Canada are 34. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "USA e favorita, cu 40% sanse de victorie. Goluri asteptate: 1.29 pentru USA, 1.10 pentru Canada. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,528 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. USA are 43 meciuri in ultimii patru ani, Canada are 34. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1640003",
@@ -5553,17 +4468,17 @@
    "home": "French Guyana",
    "away": "Belize",
    "probs": {
-    "p_home": 0.6004,
-    "p_draw": 0.2608,
-    "p_away": 0.1388,
-    "p_over25": 0.3779,
-    "p_btts": 0.3737,
-    "p_under25": 0.6221,
-    "p_no_btts": 0.6263
+    "p_home": 0.5974,
+    "p_draw": 0.2624,
+    "p_away": 0.1402,
+    "p_over25": 0.3767,
+    "p_btts": 0.3746,
+    "p_under25": 0.6233,
+    "p_no_btts": 0.6254
    },
    "expected_goals": {
-    "home": 1.58,
-    "away": 0.62
+    "home": 1.57,
+    "away": 0.63
    },
    "confidence": "medie",
    "sample": {
@@ -5573,19 +4488,19 @@
    "top_scores": [
     {
      "score": "1-0",
-     "p": 0.1688
+     "p": 0.1685
     },
     {
      "score": "2-0",
-     "p": 0.138
+     "p": 0.1372
     },
     {
      "score": "0-0",
-     "p": 0.1164
+     "p": 0.1171
     },
     {
      "score": "1-1",
-     "p": 0.1146
+     "p": 0.1153
     },
     {
      "score": "2-1",
@@ -5661,7 +4576,7 @@
      }
     ]
    },
-   "explanation": "French Guyana e favorita, cu 60% sanse de victorie. Goluri asteptate: 1.58 pentru French Guyana, 0.62 pentru Belize. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. French Guyana are 15 meciuri in ultimii patru ani, Belize are 20. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "French Guyana e favorita, cu 60% sanse de victorie. Goluri asteptate: 1.57 pentru French Guyana, 0.63 pentru Belize. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,528 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. French Guyana are 15 meciuri in ultimii patru ani, Belize are 20. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "NAT1629006",
@@ -5672,17 +4587,17 @@
    "home": "Mexico",
    "away": "Chile",
    "probs": {
-    "p_home": 0.4522,
-    "p_draw": 0.2754,
-    "p_away": 0.2724,
+    "p_home": 0.4531,
+    "p_draw": 0.2757,
+    "p_away": 0.2712,
     "p_over25": 0.4652,
-    "p_btts": 0.5127,
+    "p_btts": 0.5126,
     "p_under25": 0.5348,
-    "p_no_btts": 0.4873
+    "p_no_btts": 0.4874
    },
    "expected_goals": {
     "home": 1.46,
-    "away": 1.08
+    "away": 1.07
    },
    "confidence": "ridicata",
    "sample": {
@@ -5692,7 +4607,7 @@
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1312
+     "p": 0.1313
     },
     {
      "score": "1-0",
@@ -5704,11 +4619,11 @@
     },
     {
      "score": "0-0",
-     "p": 0.086
+     "p": 0.0862
     },
     {
      "score": "2-0",
-     "p": 0.0843
+     "p": 0.0846
     }
    ],
    "reference_odds": {},
@@ -5762,7 +4677,7 @@
      }
     ]
    },
-   "explanation": "Mexico e favorita, cu 45% sanse de victorie. Goluri asteptate: 1.46 pentru Mexico, 1.08 pentru Chile. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,520 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Mexico are 47 meciuri in ultimii patru ani, Chile are 35. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
+   "explanation": "Mexico e favorita, cu 45% sanse de victorie. Goluri asteptate: 1.46 pentru Mexico, 1.07 pentru Chile. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,528 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. Mexico are 47 meciuri in ultimii patru ani, Chile are 35. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
   },
   {
    "id": "ROU_Superliga_20261008_CFRCluj_U.Cluj",
@@ -5773,7 +4688,7 @@
    "home": "CFR Cluj",
    "away": "U. Cluj",
    "probs": {
-    "p_home": 0.4793,
+    "p_home": 0.4794,
     "p_draw": 0.2537,
     "p_away": 0.2669,
     "p_over25": 0.5182,
@@ -6051,7 +4966,7 @@
       },
       {
        "line": 4.5,
-       "over": 0.4422
+       "over": 0.4423
       },
       {
        "line": 5.5,
@@ -6089,8 +5004,8 @@
       },
       {
        "line": 5.5,
-       "over": 0.3395,
-       "under": 0.6605
+       "over": 0.3396,
+       "under": 0.6604
       }
      ],
      "home": [
@@ -6303,20 +5218,20 @@
      "away": [
       {
        "line": 3.5,
-       "over": 0.4632
+       "over": 0.4631
       },
       {
        "line": 4.5,
-       "over": 0.3085
+       "over": 0.3084
       },
       {
        "line": 5.5,
-       "over": 0.1902
+       "over": 0.1901
       }
      ],
      "winner": {
-      "home": 0.7854,
-      "away": 0.1577,
+      "home": 0.7855,
+      "away": 0.1576,
       "draw": 0.0569
      },
      "sample": 920
@@ -6533,8 +5448,8 @@
       },
       {
        "line": 10.5,
-       "over": 0.3671,
-       "under": 0.6329
+       "over": 0.3672,
+       "under": 0.6328
       },
       {
        "line": 11.5,
@@ -6559,11 +5474,11 @@
      "away": [
       {
        "line": 3.5,
-       "over": 0.4427
+       "over": 0.4428
       },
       {
        "line": 4.5,
-       "over": 0.2785
+       "over": 0.2786
       },
       {
        "line": 5.5,
@@ -6571,9 +5486,9 @@
       }
      ],
      "winner": {
-      "home": 0.6969,
+      "home": 0.6968,
       "away": 0.2109,
-      "draw": 0.0922
+      "draw": 0.0923
      },
      "sample": 899
     },
@@ -6741,58 +5656,58 @@
    "extra_markets": {
     "corners": {
      "expected": {
-      "home": 6.74,
-      "away": 2.96,
-      "total": 9.69
+      "home": 6.73,
+      "away": 2.95,
+      "total": 9.68
      },
      "total": [
       {
        "line": 8.5,
-       "over": 0.643,
-       "under": 0.357
+       "over": 0.6427,
+       "under": 0.3573
       },
       {
        "line": 9.5,
-       "over": 0.5156,
-       "under": 0.4844
+       "over": 0.5152,
+       "under": 0.4848
       },
       {
        "line": 10.5,
-       "over": 0.4079,
-       "under": 0.5921
+       "over": 0.4075,
+       "under": 0.5925
       },
       {
        "line": 11.5,
-       "over": 0.2871,
-       "under": 0.7129
+       "over": 0.2868,
+       "under": 0.7132
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.8389
+       "over": 0.8387
       },
       {
        "line": 4.5,
-       "over": 0.7204
+       "over": 0.7201
       },
       {
        "line": 5.5,
-       "over": 0.5851
+       "over": 0.5847
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.4005
+       "over": 0.4002
       },
       {
        "line": 4.5,
-       "over": 0.2497
+       "over": 0.2495
       },
       {
        "line": 5.5,
-       "over": 0.1426
+       "over": 0.1424
       }
      ],
      "winner": {
@@ -7009,8 +5924,8 @@
       },
       {
        "line": 9.5,
-       "over": 0.5459,
-       "under": 0.4541
+       "over": 0.5458,
+       "under": 0.4542
       },
       {
        "line": 10.5,
@@ -7026,25 +5941,25 @@
      "home": [
       {
        "line": 3.5,
-       "over": 0.822
+       "over": 0.8219
       },
       {
        "line": 4.5,
-       "over": 0.7084
+       "over": 0.7083
       },
       {
        "line": 5.5,
-       "over": 0.5849
+       "over": 0.5848
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.5727
+       "over": 0.5726
       },
       {
        "line": 4.5,
-       "over": 0.4095
+       "over": 0.4094
       },
       {
        "line": 5.5,
@@ -7052,9 +5967,9 @@
       }
      ],
      "winner": {
-      "home": 0.67,
+      "home": 0.6699,
       "away": 0.2469,
-      "draw": 0.0831
+      "draw": 0.0832
      },
      "sample": 900
     },
@@ -7222,64 +6137,64 @@
    "extra_markets": {
     "corners": {
      "expected": {
-      "home": 7.5,
+      "home": 7.51,
       "away": 4.3,
       "total": 11.81
      },
      "total": [
       {
        "line": 8.5,
-       "over": 0.7397,
-       "under": 0.2603
+       "over": 0.7398,
+       "under": 0.2602
       },
       {
        "line": 9.5,
-       "over": 0.6326,
-       "under": 0.3674
+       "over": 0.6327,
+       "under": 0.3673
       },
       {
        "line": 10.5,
-       "over": 0.5238,
-       "under": 0.4762
+       "over": 0.524,
+       "under": 0.476
       },
       {
        "line": 11.5,
-       "over": 0.4214,
-       "under": 0.5786
+       "over": 0.4216,
+       "under": 0.5784
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.8608
+       "over": 0.861
       },
       {
        "line": 4.5,
-       "over": 0.763
+       "over": 0.7633
       },
       {
        "line": 5.5,
-       "over": 0.648
+       "over": 0.6484
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.5969
+       "over": 0.5967
       },
       {
        "line": 4.5,
-       "over": 0.4286
+       "over": 0.4284
       },
       {
        "line": 5.5,
-       "over": 0.2836
+       "over": 0.2835
       }
      ],
      "winner": {
-      "home": 0.7008,
-      "away": 0.2224,
-      "draw": 0.0768
+      "home": 0.7012,
+      "away": 0.2221,
+      "draw": 0.0767
      },
      "sample": 1631
     },
@@ -7314,11 +6229,11 @@
      "home": [
       {
        "line": 1.5,
-       "over": 0.547
+       "over": 0.5468
       },
       {
        "line": 2.5,
-       "over": 0.2737
+       "over": 0.2736
       }
      ],
      "away": [
@@ -7478,64 +6393,64 @@
    "extra_markets": {
     "corners": {
      "expected": {
-      "home": 6.54,
-      "away": 3.89,
+      "home": 6.53,
+      "away": 3.88,
       "total": 10.42
      },
      "total": [
       {
        "line": 8.5,
-       "over": 0.6378,
-       "under": 0.3622
+       "over": 0.6374,
+       "under": 0.3626
       },
       {
        "line": 9.5,
-       "over": 0.5207,
-       "under": 0.4793
+       "over": 0.5203,
+       "under": 0.4797
       },
       {
        "line": 10.5,
-       "over": 0.4077,
-       "under": 0.5923
+       "over": 0.4073,
+       "under": 0.5927
       },
       {
        "line": 11.5,
-       "over": 0.3037,
-       "under": 0.6963
+       "over": 0.3033,
+       "under": 0.6967
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.8019
+       "over": 0.8016
       },
       {
        "line": 4.5,
-       "over": 0.6798
+       "over": 0.6794
       },
       {
        "line": 5.5,
-       "over": 0.5486
+       "over": 0.5481
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.5342
+       "over": 0.5338
       },
       {
        "line": 4.5,
-       "over": 0.3587
+       "over": 0.3584
       },
       {
        "line": 5.5,
-       "over": 0.2254
+       "over": 0.2251
       }
      ],
      "winner": {
-      "home": 0.6732,
+      "home": 0.6731,
       "away": 0.2383,
-      "draw": 0.0885
+      "draw": 0.0886
      },
      "sample": 1130
     },
@@ -7654,7 +6569,7 @@
     },
     {
      "score": "0-2",
-     "p": 0.081
+     "p": 0.0809
     },
     {
      "score": "1-0",
@@ -7746,8 +6661,8 @@
       },
       {
        "line": 9.5,
-       "over": 0.3836,
-       "under": 0.6164
+       "over": 0.3837,
+       "under": 0.6163
       },
       {
        "line": 10.5,
@@ -7763,15 +6678,15 @@
      "home": [
       {
        "line": 3.5,
-       "over": 0.5273
+       "over": 0.5274
       },
       {
        "line": 4.5,
-       "over": 0.3603
+       "over": 0.3604
       },
       {
        "line": 5.5,
-       "over": 0.2316
+       "over": 0.2317
       }
      ],
      "away": [
@@ -7789,16 +6704,16 @@
       }
      ],
      "winner": {
-      "home": 0.4079,
+      "home": 0.408,
       "away": 0.4629,
-      "draw": 0.1292
+      "draw": 0.1291
      },
      "sample": 917
     },
     "cards": {
      "expected": {
       "home": 2.6,
-      "away": 2.61,
+      "away": 2.6,
       "total": 5.21
      },
      "total": [
@@ -7826,7 +6741,7 @@
      "home": [
       {
        "line": 1.5,
-       "over": 0.7168
+       "over": 0.7169
       },
       {
        "line": 2.5,
@@ -7836,7 +6751,7 @@
      "away": [
       {
        "line": 1.5,
-       "over": 0.7234
+       "over": 0.7233
       },
       {
        "line": 2.5,
@@ -8002,13 +6917,13 @@
       },
       {
        "line": 9.5,
-       "over": 0.5215,
-       "under": 0.4785
+       "over": 0.5214,
+       "under": 0.4786
       },
       {
        "line": 10.5,
-       "over": 0.4082,
-       "under": 0.5918
+       "over": 0.4081,
+       "under": 0.5919
       },
       {
        "line": 11.5,
@@ -8279,31 +7194,31 @@
       },
       {
        "line": 4.5,
-       "over": 0.5487
+       "over": 0.5486
       },
       {
        "line": 5.5,
-       "over": 0.4037
+       "over": 0.4036
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.6232
+       "over": 0.6233
       },
       {
        "line": 4.5,
-       "over": 0.4569
+       "over": 0.4571
       },
       {
        "line": 5.5,
-       "over": 0.3095
+       "over": 0.3096
       }
      ],
      "winner": {
-      "home": 0.5049,
-      "away": 0.3809,
-      "draw": 0.1142
+      "home": 0.5048,
+      "away": 0.3811,
+      "draw": 0.1141
      },
      "sample": 1631
     },
@@ -8326,19 +7241,19 @@
       },
       {
        "line": 4.5,
-       "over": 0.3087,
-       "under": 0.6913
+       "over": 0.3086,
+       "under": 0.6914
       },
       {
        "line": 5.5,
-       "over": 0.1689,
-       "under": 0.8311
+       "over": 0.1688,
+       "under": 0.8312
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.4853
+       "over": 0.4852
       },
       {
        "line": 2.5,
@@ -8535,7 +7450,7 @@
       },
       {
        "line": 4.5,
-       "over": 0.5192
+       "over": 0.5193
       },
       {
        "line": 5.5,
@@ -8545,7 +7460,7 @@
      "away": [
       {
        "line": 3.5,
-       "over": 0.6232
+       "over": 0.6231
       },
       {
        "line": 4.5,
@@ -8553,12 +7468,12 @@
       },
       {
        "line": 5.5,
-       "over": 0.3095
+       "over": 0.3094
       }
      ],
      "winner": {
-      "home": 0.4829,
-      "away": 0.4004,
+      "home": 0.483,
+      "away": 0.4003,
       "draw": 0.1167
      },
      "sample": 1631
@@ -8577,13 +7492,13 @@
       },
       {
        "line": 3.5,
-       "over": 0.5489,
-       "under": 0.4511
+       "over": 0.549,
+       "under": 0.451
       },
       {
        "line": 4.5,
-       "over": 0.3577,
-       "under": 0.6423
+       "over": 0.3578,
+       "under": 0.6422
       },
       {
        "line": 5.5,
@@ -8604,7 +7519,7 @@
      "away": [
       {
        "line": 1.5,
-       "over": 0.6564
+       "over": 0.6565
       },
       {
        "line": 2.5,
@@ -8787,7 +7702,7 @@
      "home": [
       {
        "line": 3.5,
-       "over": 0.6512
+       "over": 0.6511
       },
       {
        "line": 4.5,
@@ -8795,26 +7710,26 @@
       },
       {
        "line": 5.5,
-       "over": 0.3506
+       "over": 0.3505
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.667
+       "over": 0.6671
       },
       {
        "line": 4.5,
-       "over": 0.5066
+       "over": 0.5067
       },
       {
        "line": 5.5,
-       "over": 0.3571
+       "over": 0.3572
       }
      ],
      "winner": {
-      "home": 0.4309,
-      "away": 0.4544,
+      "home": 0.4308,
+      "away": 0.4545,
       "draw": 0.1147
      },
      "sample": 1631
@@ -8838,8 +7753,8 @@
       },
       {
        "line": 4.5,
-       "over": 0.3239,
-       "under": 0.6761
+       "over": 0.324,
+       "under": 0.676
       },
       {
        "line": 5.5,
@@ -8860,7 +7775,7 @@
      "away": [
       {
        "line": 1.5,
-       "over": 0.5508
+       "over": 0.5509
       },
       {
        "line": 2.5,
@@ -9026,8 +7941,8 @@
       },
       {
        "line": 9.5,
-       "over": 0.5363,
-       "under": 0.4637
+       "over": 0.5362,
+       "under": 0.4638
       },
       {
        "line": 10.5,
@@ -9043,7 +7958,7 @@
      "home": [
       {
        "line": 3.5,
-       "over": 0.6997
+       "over": 0.6996
       },
       {
        "line": 4.5,
@@ -9070,8 +7985,8 @@
      ],
      "winner": {
       "home": 0.4258,
-      "away": 0.4688,
-      "draw": 0.1054
+      "away": 0.4689,
+      "draw": 0.1053
      },
      "sample": 1130
     },
@@ -9317,7 +8232,7 @@
       },
       {
        "line": 4.5,
-       "over": 0.3891
+       "over": 0.389
       },
       {
        "line": 5.5,
@@ -9533,23 +8448,23 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.619,
-       "under": 0.381
+       "over": 0.6189,
+       "under": 0.3811
       },
       {
        "line": 9.5,
-       "over": 0.5078,
-       "under": 0.4922
+       "over": 0.5077,
+       "under": 0.4923
       },
       {
        "line": 10.5,
-       "over": 0.3894,
-       "under": 0.6106
+       "over": 0.3893,
+       "under": 0.6107
       },
       {
        "line": 11.5,
-       "over": 0.2862,
-       "under": 0.7138
+       "over": 0.2861,
+       "under": 0.7139
       }
      ],
      "home": [
@@ -9559,11 +8474,11 @@
       },
       {
        "line": 4.5,
-       "over": 0.4724
+       "over": 0.4723
       },
       {
        "line": 5.5,
-       "over": 0.3276
+       "over": 0.3275
       }
      ],
      "away": [
@@ -9573,7 +8488,7 @@
       },
       {
        "line": 4.5,
-       "over": 0.5325
+       "over": 0.5324
       },
       {
        "line": 5.5,
@@ -9829,11 +8744,11 @@
       },
       {
        "line": 4.5,
-       "over": 0.2838
+       "over": 0.2839
       },
       {
        "line": 5.5,
-       "over": 0.1647
+       "over": 0.1648
       }
      ],
      "winner": {
@@ -10055,8 +8970,8 @@
       },
       {
        "line": 10.5,
-       "over": 0.4077,
-       "under": 0.5923
+       "over": 0.4076,
+       "under": 0.5924
       },
       {
        "line": 11.5,
@@ -10075,13 +8990,13 @@
       },
       {
        "line": 5.5,
-       "over": 0.2171
+       "over": 0.2172
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.7873
+       "over": 0.7872
       },
       {
        "line": 4.5,
@@ -10089,7 +9004,7 @@
       },
       {
        "line": 5.5,
-       "over": 0.5281
+       "over": 0.528
       }
      ],
      "winner": {
@@ -10278,19 +9193,19 @@
       },
       {
        "line": 10.5,
-       "over": 0.4771,
-       "under": 0.5229
+       "over": 0.4772,
+       "under": 0.5228
       },
       {
        "line": 11.5,
-       "over": 0.37,
-       "under": 0.63
+       "over": 0.3701,
+       "under": 0.6299
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.88
+       "over": 0.8801
       },
       {
        "line": 4.5,
@@ -10298,17 +9213,17 @@
       },
       {
        "line": 5.5,
-       "over": 0.6807
+       "over": 0.6808
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.4785
+       "over": 0.4786
       },
       {
        "line": 4.5,
-       "over": 0.3098
+       "over": 0.3099
       },
       {
        "line": 5.5,
@@ -10506,37 +9421,37 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.6844,
-       "under": 0.3156
+       "over": 0.6842,
+       "under": 0.3158
       },
       {
        "line": 9.5,
-       "over": 0.582,
-       "under": 0.418
+       "over": 0.5818,
+       "under": 0.4182
       },
       {
        "line": 10.5,
-       "over": 0.4659,
-       "under": 0.5341
+       "over": 0.4657,
+       "under": 0.5343
       },
       {
        "line": 11.5,
-       "over": 0.3586,
-       "under": 0.6414
+       "over": 0.3584,
+       "under": 0.6416
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.6389
+       "over": 0.6383
       },
       {
        "line": 4.5,
-       "over": 0.4714
+       "over": 0.4708
       },
       {
        "line": 5.5,
-       "over": 0.3267
+       "over": 0.3262
       }
      ],
      "away": [
@@ -10550,13 +9465,13 @@
       },
       {
        "line": 5.5,
-       "over": 0.5458
+       "over": 0.5457
       }
      ],
      "winner": {
-      "home": 0.299,
-      "away": 0.6107,
-      "draw": 0.0903
+      "home": 0.2987,
+      "away": 0.6111,
+      "draw": 0.0902
      },
      "sample": 899
     },
@@ -10645,7 +9560,7 @@
    "probs": {
     "p_home": 0.3582,
     "p_draw": 0.252,
-    "p_away": 0.3898,
+    "p_away": 0.3899,
     "p_over25": 0.5809,
     "p_btts": 0.6114,
     "p_under25": 0.4191,
@@ -10767,32 +9682,32 @@
       },
       {
        "line": 9.5,
-       "over": 0.5786,
-       "under": 0.4214
+       "over": 0.5785,
+       "under": 0.4215
       },
       {
        "line": 10.5,
-       "over": 0.4727,
-       "under": 0.5273
+       "over": 0.4726,
+       "under": 0.5274
       },
       {
        "line": 11.5,
-       "over": 0.3482,
-       "under": 0.6518
+       "over": 0.3481,
+       "under": 0.6519
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.7641
+       "over": 0.764
       },
       {
        "line": 4.5,
-       "over": 0.6169
+       "over": 0.6168
       },
       {
        "line": 5.5,
-       "over": 0.4647
+       "over": 0.4646
       }
      ],
      "away": [
@@ -10810,8 +9725,8 @@
       }
      ],
      "winner": {
-      "home": 0.4904,
-      "away": 0.4032,
+      "home": 0.4903,
+      "away": 0.4033,
       "draw": 0.1064
      },
      "sample": 925
@@ -11028,8 +9943,8 @@
       },
       {
        "line": 10.5,
-       "over": 0.5119,
-       "under": 0.4881
+       "over": 0.5118,
+       "under": 0.4882
       },
       {
        "line": 11.5,
@@ -11040,35 +9955,35 @@
      "home": [
       {
        "line": 3.5,
-       "over": 0.8339
+       "over": 0.8338
       },
       {
        "line": 4.5,
-       "over": 0.7194
+       "over": 0.7193
       },
       {
        "line": 5.5,
-       "over": 0.5942
+       "over": 0.594
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.6108
+       "over": 0.611
       },
       {
        "line": 4.5,
-       "over": 0.4487
+       "over": 0.4489
       },
       {
        "line": 5.5,
-       "over": 0.3144
+       "over": 0.3145
       }
      ],
      "winner": {
-      "home": 0.6463,
-      "away": 0.2659,
-      "draw": 0.0878
+      "home": 0.646,
+      "away": 0.2661,
+      "draw": 0.0879
      },
      "sample": 1120
     },
@@ -11256,33 +10171,33 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.6816,
-       "under": 0.3184
+       "over": 0.6818,
+       "under": 0.3182
       },
       {
        "line": 9.5,
-       "over": 0.5683,
-       "under": 0.4317
+       "over": 0.5685,
+       "under": 0.4315
       },
       {
        "line": 10.5,
-       "over": 0.4535,
-       "under": 0.5465
+       "over": 0.4536,
+       "under": 0.5464
       },
       {
        "line": 11.5,
-       "over": 0.3302,
-       "under": 0.6698
+       "over": 0.3304,
+       "under": 0.6696
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.6013
+       "over": 0.6014
       },
       {
        "line": 4.5,
-       "over": 0.4335
+       "over": 0.4336
       },
       {
        "line": 5.5,
@@ -11292,21 +10207,21 @@
      "away": [
       {
        "line": 3.5,
-       "over": 0.7423
+       "over": 0.7425
       },
       {
        "line": 4.5,
-       "over": 0.6047
+       "over": 0.605
       },
       {
        "line": 5.5,
-       "over": 0.4739
+       "over": 0.4742
       }
      ],
      "winner": {
-      "home": 0.3271,
-      "away": 0.5726,
-      "draw": 0.1003
+      "home": 0.327,
+      "away": 0.5728,
+      "draw": 0.1002
      },
      "sample": 1120
     },
@@ -11522,47 +10437,47 @@
       },
       {
        "line": 10.5,
-       "over": 0.4721,
-       "under": 0.5279
+       "over": 0.472,
+       "under": 0.528
       },
       {
        "line": 11.5,
-       "over": 0.3477,
-       "under": 0.6523
+       "over": 0.3476,
+       "under": 0.6524
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.8097
+       "over": 0.8096
       },
       {
        "line": 4.5,
-       "over": 0.6842
+       "over": 0.6841
       },
       {
        "line": 5.5,
-       "over": 0.5513
+       "over": 0.5511
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.5678
+       "over": 0.5679
       },
       {
        "line": 4.5,
-       "over": 0.4035
+       "over": 0.4036
       },
       {
        "line": 5.5,
-       "over": 0.2734
+       "over": 0.2735
       }
      ],
      "winner": {
-      "home": 0.6465,
-      "away": 0.2615,
-      "draw": 0.092
+      "home": 0.6464,
+      "away": 0.2617,
+      "draw": 0.0919
      },
      "sample": 1120
     },
@@ -11772,34 +10687,34 @@
      "home": [
       {
        "line": 3.5,
-       "over": 0.5795
+       "over": 0.5792
       },
       {
        "line": 4.5,
-       "over": 0.4115
+       "over": 0.4112
       },
       {
        "line": 5.5,
-       "over": 0.2773
+       "over": 0.2771
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.6256
+       "over": 0.6258
       },
       {
        "line": 4.5,
-       "over": 0.4648
+       "over": 0.4651
       },
       {
        "line": 5.5,
-       "over": 0.3295
+       "over": 0.3297
       }
      ],
      "winner": {
-      "home": 0.4051,
-      "away": 0.4742,
+      "home": 0.4048,
+      "away": 0.4745,
       "draw": 0.1207
      },
      "sample": 1120
@@ -12015,42 +10930,42 @@
       },
       {
        "line": 11.5,
-       "over": 0.2868,
-       "under": 0.7132
+       "over": 0.2867,
+       "under": 0.7133
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.6079
+       "over": 0.6077
       },
       {
        "line": 4.5,
-       "over": 0.4476
+       "over": 0.4475
       },
       {
        "line": 5.5,
-       "over": 0.3089
+       "over": 0.3088
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.6469
+       "over": 0.647
       },
       {
        "line": 4.5,
-       "over": 0.4834
+       "over": 0.4835
       },
       {
        "line": 5.5,
-       "over": 0.3345
+       "over": 0.3346
       }
      ],
      "winner": {
-      "home": 0.4131,
-      "away": 0.4685,
-      "draw": 0.1184
+      "home": 0.4129,
+      "away": 0.4686,
+      "draw": 0.1185
      },
      "sample": 1631
     },
@@ -12063,29 +10978,29 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.809,
-       "under": 0.191
+       "over": 0.8089,
+       "under": 0.1911
       },
       {
        "line": 3.5,
-       "over": 0.6397,
-       "under": 0.3603
+       "over": 0.6396,
+       "under": 0.3604
       },
       {
        "line": 4.5,
-       "over": 0.4601,
-       "under": 0.5399
+       "over": 0.46,
+       "under": 0.54
       },
       {
        "line": 5.5,
-       "over": 0.2991,
-       "under": 0.7009
+       "over": 0.299,
+       "under": 0.701
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.6081
+       "over": 0.608
       },
       {
        "line": 2.5,
@@ -12095,11 +11010,11 @@
      "away": [
       {
        "line": 1.5,
-       "over": 0.7203
+       "over": 0.7202
       },
       {
        "line": 2.5,
-       "over": 0.4593
+       "over": 0.4592
       }
      ],
      "sample": 1631
@@ -12266,8 +11181,8 @@
       },
       {
        "line": 10.5,
-       "over": 0.4873,
-       "under": 0.5127
+       "over": 0.4874,
+       "under": 0.5126
       },
       {
        "line": 11.5,
@@ -12278,7 +11193,7 @@
      "home": [
       {
        "line": 3.5,
-       "over": 0.7589
+       "over": 0.759
       },
       {
        "line": 4.5,
@@ -12292,21 +11207,21 @@
      "away": [
       {
        "line": 3.5,
-       "over": 0.7086
+       "over": 0.7087
       },
       {
        "line": 4.5,
-       "over": 0.5568
+       "over": 0.5569
       },
       {
        "line": 5.5,
-       "over": 0.4083
+       "over": 0.4084
       }
      ],
      "winner": {
-      "home": 0.4927,
+      "home": 0.4926,
       "away": 0.4033,
-      "draw": 0.104
+      "draw": 0.1041
      },
      "sample": 1631
     },
@@ -12329,8 +11244,8 @@
       },
       {
        "line": 4.5,
-       "over": 0.2948,
-       "under": 0.7052
+       "over": 0.2949,
+       "under": 0.7051
       },
       {
        "line": 5.5,
@@ -12476,56 +11391,56 @@
      "expected": {
       "home": 10.02,
       "away": 3.9,
-      "total": 13.93
+      "total": 13.92
      },
      "total": [
       {
        "line": 8.5,
-       "over": 0.7854,
-       "under": 0.2146
+       "over": 0.7853,
+       "under": 0.2147
       },
       {
        "line": 9.5,
-       "over": 0.6948,
-       "under": 0.3052
+       "over": 0.6947,
+       "under": 0.3053
       },
       {
        "line": 10.5,
-       "over": 0.6011,
-       "under": 0.3989
+       "over": 0.6009,
+       "under": 0.3991
       },
       {
        "line": 11.5,
-       "over": 0.5096,
-       "under": 0.4904
+       "over": 0.5094,
+       "under": 0.4906
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.9187
+       "over": 0.9186
       },
       {
        "line": 4.5,
-       "over": 0.8585
+       "over": 0.8584
       },
       {
        "line": 5.5,
-       "over": 0.7824
+       "over": 0.7822
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.544
+       "over": 0.5438
       },
       {
        "line": 4.5,
-       "over": 0.3747
+       "over": 0.3745
       },
       {
        "line": 5.5,
-       "over": 0.2372
+       "over": 0.237
       }
      ],
      "winner": {
@@ -12544,29 +11459,29 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.7748,
-       "under": 0.2252
+       "over": 0.7747,
+       "under": 0.2253
       },
       {
        "line": 3.5,
-       "over": 0.5862,
-       "under": 0.4138
+       "over": 0.5861,
+       "under": 0.4139
       },
       {
        "line": 4.5,
-       "over": 0.3967,
-       "under": 0.6033
+       "over": 0.3965,
+       "under": 0.6035
       },
       {
        "line": 5.5,
-       "over": 0.2383,
-       "under": 0.7617
+       "over": 0.2382,
+       "under": 0.7618
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.4083
+       "over": 0.4084
       },
       {
        "line": 2.5,
@@ -12576,11 +11491,11 @@
      "away": [
       {
        "line": 1.5,
-       "over": 0.7539
+       "over": 0.7538
       },
       {
        "line": 2.5,
-       "over": 0.5104
+       "over": 0.5103
       }
      ],
      "sample": 1631
@@ -12731,62 +11646,62 @@
     "corners": {
      "expected": {
       "home": 5.13,
-      "away": 5.15,
+      "away": 5.14,
       "total": 10.27
      },
      "total": [
       {
        "line": 8.5,
-       "over": 0.6834,
-       "under": 0.3166
+       "over": 0.6832,
+       "under": 0.3168
       },
       {
        "line": 9.5,
-       "over": 0.5651,
-       "under": 0.4349
+       "over": 0.565,
+       "under": 0.435
       },
       {
        "line": 10.5,
-       "over": 0.4504,
-       "under": 0.5496
+       "over": 0.4502,
+       "under": 0.5498
       },
       {
        "line": 11.5,
-       "over": 0.3478,
-       "under": 0.6522
+       "over": 0.3477,
+       "under": 0.6523
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.7133
+       "over": 0.713
       },
       {
        "line": 4.5,
-       "over": 0.5647
+       "over": 0.5644
       },
       {
        "line": 5.5,
-       "over": 0.4199
+       "over": 0.4196
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.6893
+       "over": 0.6892
       },
       {
        "line": 4.5,
-       "over": 0.5331
+       "over": 0.533
       },
       {
        "line": 5.5,
-       "over": 0.3837
+       "over": 0.3836
       }
      ],
      "winner": {
-      "home": 0.4653,
-      "away": 0.4255,
+      "home": 0.4652,
+      "away": 0.4256,
       "draw": 0.1092
      },
      "sample": 1631
@@ -12795,18 +11710,18 @@
      "expected": {
       "home": 2.12,
       "away": 1.95,
-      "total": 4.08
+      "total": 4.07
      },
      "total": [
       {
        "line": 2.5,
-       "over": 0.7547,
-       "under": 0.2453
+       "over": 0.7546,
+       "under": 0.2454
       },
       {
        "line": 3.5,
-       "over": 0.558,
-       "under": 0.442
+       "over": 0.5579,
+       "under": 0.4421
       },
       {
        "line": 4.5,
@@ -12822,7 +11737,7 @@
      "home": [
       {
        "line": 1.5,
-       "over": 0.5824
+       "over": 0.5823
       },
       {
        "line": 2.5,
@@ -12832,11 +11747,11 @@
      "away": [
       {
        "line": 1.5,
-       "over": 0.6106
+       "over": 0.6104
       },
       {
        "line": 2.5,
-       "over": 0.3296
+       "over": 0.3295
       }
      ],
      "sample": 1631
@@ -12975,56 +11890,56 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.652,
-       "under": 0.348
+       "over": 0.6518,
+       "under": 0.3482
       },
       {
        "line": 9.5,
-       "over": 0.5308,
-       "under": 0.4692
+       "over": 0.5306,
+       "under": 0.4694
       },
       {
        "line": 10.5,
-       "over": 0.4162,
-       "under": 0.5838
+       "over": 0.416,
+       "under": 0.584
       },
       {
        "line": 11.5,
-       "over": 0.3166,
-       "under": 0.6834
+       "over": 0.3165,
+       "under": 0.6835
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.7272
+       "over": 0.7271
       },
       {
        "line": 4.5,
-       "over": 0.5814
+       "over": 0.5813
       },
       {
        "line": 5.5,
-       "over": 0.4371
+       "over": 0.437
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.5992
+       "over": 0.5989
       },
       {
        "line": 4.5,
-       "over": 0.431
+       "over": 0.4307
       },
       {
        "line": 5.5,
-       "over": 0.2858
+       "over": 0.2855
       }
      ],
      "winner": {
-      "home": 0.5473,
-      "away": 0.3417,
+      "home": 0.5475,
+      "away": 0.3415,
       "draw": 0.111
      },
      "sample": 1631
@@ -13038,8 +11953,8 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.7128,
-       "under": 0.2872
+       "over": 0.7127,
+       "under": 0.2873
       },
       {
        "line": 3.5,
@@ -13053,8 +11968,8 @@
       },
       {
        "line": 5.5,
-       "over": 0.1747,
-       "under": 0.8253
+       "over": 0.1746,
+       "under": 0.8254
       }
      ],
      "home": [
@@ -13064,7 +11979,7 @@
       },
       {
        "line": 2.5,
-       "over": 0.2403
+       "over": 0.2402
       }
      ],
      "away": [
@@ -13213,13 +12128,13 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.6511,
-       "under": 0.3489
+       "over": 0.6512,
+       "under": 0.3488
       },
       {
        "line": 9.5,
-       "over": 0.5299,
-       "under": 0.4701
+       "over": 0.53,
+       "under": 0.47
       },
       {
        "line": 10.5,
@@ -13243,21 +12158,21 @@
       },
       {
        "line": 5.5,
-       "over": 0.4588
+       "over": 0.4589
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.5722
+       "over": 0.5723
       },
       {
        "line": 4.5,
-       "over": 0.4029
+       "over": 0.403
       },
       {
        "line": 5.5,
-       "over": 0.2611
+       "over": 0.2612
       }
      ],
      "winner": {
@@ -13276,13 +12191,13 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.7036,
-       "under": 0.2964
+       "over": 0.7037,
+       "under": 0.2963
       },
       {
        "line": 3.5,
-       "over": 0.4949,
-       "under": 0.5051
+       "over": 0.495,
+       "under": 0.505
       },
       {
        "line": 4.5,
@@ -13291,14 +12206,14 @@
       },
       {
        "line": 5.5,
-       "over": 0.1682,
-       "under": 0.8318
+       "over": 0.1683,
+       "under": 0.8317
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.5614
+       "over": 0.5615
       },
       {
        "line": 2.5,
@@ -13308,11 +12223,11 @@
      "away": [
       {
        "line": 1.5,
-       "over": 0.5206
+       "over": 0.5207
       },
       {
        "line": 2.5,
-       "over": 0.2537
+       "over": 0.2538
       }
      ],
      "sample": 1631
@@ -13469,23 +12384,23 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.7066,
-       "under": 0.2934
+       "over": 0.7067,
+       "under": 0.2933
       },
       {
        "line": 9.5,
-       "over": 0.5919,
-       "under": 0.4081
+       "over": 0.5921,
+       "under": 0.4079
       },
       {
        "line": 10.5,
-       "over": 0.4785,
-       "under": 0.5215
+       "over": 0.4786,
+       "under": 0.5214
       },
       {
        "line": 11.5,
-       "over": 0.3749,
-       "under": 0.6251
+       "over": 0.3751,
+       "under": 0.6249
       }
      ],
      "home": [
@@ -13505,60 +12420,60 @@
      "away": [
       {
        "line": 3.5,
-       "over": 0.6903
+       "over": 0.6905
       },
       {
        "line": 4.5,
-       "over": 0.5343
+       "over": 0.5346
       },
       {
        "line": 5.5,
-       "over": 0.3849
+       "over": 0.3852
       }
      ],
      "winner": {
-      "home": 0.5101,
-      "away": 0.3852,
+      "home": 0.51,
+      "away": 0.3853,
       "draw": 0.1047
      },
      "sample": 1631
     },
     "cards": {
      "expected": {
-      "home": 1.75,
+      "home": 1.74,
       "away": 1.26,
       "total": 3.0
      },
      "total": [
       {
        "line": 2.5,
-       "over": 0.6637,
-       "under": 0.3363
+       "over": 0.6635,
+       "under": 0.3365
       },
       {
        "line": 3.5,
-       "over": 0.4523,
-       "under": 0.5477
+       "over": 0.4522,
+       "under": 0.5478
       },
       {
        "line": 4.5,
-       "over": 0.2734,
-       "under": 0.7266
+       "over": 0.2733,
+       "under": 0.7267
       },
       {
        "line": 5.5,
-       "over": 0.1459,
-       "under": 0.8541
+       "over": 0.1458,
+       "under": 0.8542
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.5236
+       "over": 0.5234
       },
       {
        "line": 2.5,
-       "over": 0.2525
+       "over": 0.2524
       }
      ],
      "away": [
@@ -13720,23 +12635,23 @@
      "expected": {
       "home": 4.62,
       "away": 5.28,
-      "total": 9.9
+      "total": 9.89
      },
      "total": [
       {
        "line": 8.5,
-       "over": 0.6139,
-       "under": 0.3861
+       "over": 0.6138,
+       "under": 0.3862
       },
       {
        "line": 9.5,
-       "over": 0.4941,
-       "under": 0.5059
+       "over": 0.494,
+       "under": 0.506
       },
       {
        "line": 10.5,
-       "over": 0.3807,
-       "under": 0.6193
+       "over": 0.3806,
+       "under": 0.6194
       },
       {
        "line": 11.5,
@@ -13761,20 +12676,20 @@
      "away": [
       {
        "line": 3.5,
-       "over": 0.6967
+       "over": 0.6966
       },
       {
        "line": 4.5,
-       "over": 0.5379
+       "over": 0.5377
       },
       {
        "line": 5.5,
-       "over": 0.392
+       "over": 0.3919
       }
      ],
      "winner": {
-      "home": 0.4066,
-      "away": 0.4831,
+      "home": 0.4067,
+      "away": 0.483,
       "draw": 0.1103
      },
      "sample": 1130
@@ -13996,8 +12911,8 @@
       },
       {
        "line": 11.5,
-       "over": 0.4461,
-       "under": 0.5539
+       "over": 0.446,
+       "under": 0.554
       }
      ],
      "home": [
@@ -14007,25 +12922,25 @@
       },
       {
        "line": 4.5,
-       "over": 0.7805
+       "over": 0.7804
       },
       {
        "line": 5.5,
-       "over": 0.6669
+       "over": 0.6668
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.6372
+       "over": 0.6371
       },
       {
        "line": 4.5,
-       "over": 0.4832
+       "over": 0.483
       },
       {
        "line": 5.5,
-       "over": 0.3418
+       "over": 0.3416
       }
      ],
      "winner": {
@@ -14247,8 +13162,8 @@
       },
       {
        "line": 10.5,
-       "over": 0.356,
-       "under": 0.644
+       "over": 0.3559,
+       "under": 0.6441
       },
       {
        "line": 11.5,
@@ -14259,15 +13174,15 @@
      "home": [
       {
        "line": 3.5,
-       "over": 0.6433
+       "over": 0.6432
       },
       {
        "line": 4.5,
-       "over": 0.479
+       "over": 0.4789
       },
       {
        "line": 5.5,
-       "over": 0.3345
+       "over": 0.3344
       }
      ],
      "away": [
@@ -14519,7 +13434,7 @@
       },
       {
        "line": 4.5,
-       "over": 0.6226
+       "over": 0.6225
       },
       {
        "line": 5.5,
@@ -14529,7 +13444,7 @@
      "away": [
       {
        "line": 3.5,
-       "over": 0.4446
+       "over": 0.4447
       },
       {
        "line": 4.5,
@@ -14537,13 +13452,13 @@
       },
       {
        "line": 5.5,
-       "over": 0.1736
+       "over": 0.1737
       }
      ],
      "winner": {
-      "home": 0.6801,
+      "home": 0.68,
       "away": 0.228,
-      "draw": 0.0919
+      "draw": 0.092
      },
      "sample": 900
     },
@@ -14918,11 +13833,11 @@
     },
     {
      "score": "1-1",
-     "p": 0.0973
+     "p": 0.0972
     },
     {
      "score": "0-3",
-     "p": 0.0798
+     "p": 0.0799
     }
    ],
    "reference_odds": {
@@ -14980,44 +13895,44 @@
    "extra_markets": {
     "corners": {
      "expected": {
-      "home": 3.95,
+      "home": 3.94,
       "away": 5.82,
       "total": 9.77
      },
      "total": [
       {
        "line": 8.5,
-       "over": 0.647,
-       "under": 0.353
+       "over": 0.6469,
+       "under": 0.3531
       },
       {
        "line": 9.5,
-       "over": 0.5198,
-       "under": 0.4802
+       "over": 0.5197,
+       "under": 0.4803
       },
       {
        "line": 10.5,
-       "over": 0.412,
-       "under": 0.588
+       "over": 0.4119,
+       "under": 0.5881
       },
       {
        "line": 11.5,
-       "over": 0.2908,
-       "under": 0.7092
+       "over": 0.2907,
+       "under": 0.7093
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.5829
+       "over": 0.5828
       },
       {
        "line": 4.5,
-       "over": 0.4117
+       "over": 0.4116
       },
       {
        "line": 5.5,
-       "over": 0.2685
+       "over": 0.2684
       }
      ],
      "away": [
@@ -15253,8 +14168,8 @@
       },
       {
        "line": 10.5,
-       "over": 0.4081,
-       "under": 0.5919
+       "over": 0.408,
+       "under": 0.592
       },
       {
        "line": 11.5,
@@ -15279,20 +14194,20 @@
      "away": [
       {
        "line": 3.5,
-       "over": 0.5582
+       "over": 0.5581
       },
       {
        "line": 4.5,
-       "over": 0.386
+       "over": 0.3859
       },
       {
        "line": 5.5,
-       "over": 0.2452
+       "over": 0.2451
       }
      ],
      "winner": {
-      "home": 0.6279,
-      "away": 0.2709,
+      "home": 0.628,
+      "away": 0.2708,
       "draw": 0.1012
      },
      "sample": 899
@@ -15499,13 +14414,13 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.7227,
-       "under": 0.2773
+       "over": 0.7228,
+       "under": 0.2772
       },
       {
        "line": 9.5,
-       "over": 0.616,
-       "under": 0.384
+       "over": 0.6161,
+       "under": 0.3839
       },
       {
        "line": 10.5,
@@ -15514,14 +14429,14 @@
       },
       {
        "line": 11.5,
-       "over": 0.3786,
-       "under": 0.6214
+       "over": 0.3787,
+       "under": 0.6213
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.7611
+       "over": 0.7612
       },
       {
        "line": 4.5,
@@ -15535,20 +14450,20 @@
      "away": [
       {
        "line": 3.5,
-       "over": 0.7041
+       "over": 0.7042
       },
       {
        "line": 4.5,
-       "over": 0.5564
+       "over": 0.5565
       },
       {
        "line": 5.5,
-       "over": 0.4214
+       "over": 0.4215
       }
      ],
      "winner": {
-      "home": 0.4862,
-      "away": 0.4106,
+      "home": 0.4861,
+      "away": 0.4107,
       "draw": 0.1032
      },
      "sample": 1120
@@ -15765,8 +14680,8 @@
       },
       {
        "line": 10.5,
-       "over": 0.3986,
-       "under": 0.6014
+       "over": 0.3987,
+       "under": 0.6013
       },
       {
        "line": 11.5,
@@ -15777,21 +14692,21 @@
      "home": [
       {
        "line": 3.5,
-       "over": 0.8407
+       "over": 0.8408
       },
       {
        "line": 4.5,
-       "over": 0.7359
+       "over": 0.736
       },
       {
        "line": 5.5,
-       "over": 0.6178
+       "over": 0.6179
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.3787
+       "over": 0.3786
       },
       {
        "line": 4.5,
@@ -15803,9 +14718,9 @@
       }
      ],
      "winner": {
-      "home": 0.7892,
+      "home": 0.7893,
       "away": 0.1518,
-      "draw": 0.059
+      "draw": 0.0589
      },
      "sample": 1130
     },
@@ -16011,37 +14926,37 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.6694,
-       "under": 0.3306
+       "over": 0.6693,
+       "under": 0.3307
       },
       {
        "line": 9.5,
-       "over": 0.5402,
-       "under": 0.4598
+       "over": 0.5401,
+       "under": 0.4599
       },
       {
        "line": 10.5,
-       "over": 0.4274,
-       "under": 0.5726
+       "over": 0.4273,
+       "under": 0.5727
       },
       {
        "line": 11.5,
-       "over": 0.3199,
-       "under": 0.6801
+       "over": 0.3198,
+       "under": 0.6802
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.7925
+       "over": 0.7924
       },
       {
        "line": 4.5,
-       "over": 0.6606
+       "over": 0.6604
       },
       {
        "line": 5.5,
-       "over": 0.5173
+       "over": 0.5171
       }
      ],
      "away": [
@@ -16055,13 +14970,13 @@
       },
       {
        "line": 5.5,
-       "over": 0.2293
+       "over": 0.2294
       }
      ],
      "winner": {
-      "home": 0.6591,
-      "away": 0.2466,
-      "draw": 0.0943
+      "home": 0.6589,
+      "away": 0.2467,
+      "draw": 0.0944
      },
      "sample": 920
     },
@@ -16180,7 +15095,7 @@
     },
     {
      "score": "0-3",
-     "p": 0.0925
+     "p": 0.0924
     },
     {
      "score": "1-1",
@@ -16261,63 +15176,63 @@
     "corners": {
      "expected": {
       "home": 2.36,
-      "away": 5.01,
-      "total": 7.37
+      "away": 5.0,
+      "total": 7.36
      },
      "total": [
       {
        "line": 8.5,
-       "over": 0.4778,
-       "under": 0.5222
+       "over": 0.4774,
+       "under": 0.5226
       },
       {
        "line": 9.5,
-       "over": 0.3603,
-       "under": 0.6397
+       "over": 0.3599,
+       "under": 0.6401
       },
       {
        "line": 10.5,
-       "over": 0.2666,
-       "under": 0.7334
+       "over": 0.2663,
+       "under": 0.7337
       },
       {
        "line": 11.5,
-       "over": 0.1843,
-       "under": 0.8157
+       "over": 0.1841,
+       "under": 0.8159
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.3172
+       "over": 0.3171
       },
       {
        "line": 4.5,
-       "over": 0.1928
+       "over": 0.1927
       },
       {
        "line": 5.5,
-       "over": 0.1176
+       "over": 0.1175
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.663
+       "over": 0.6623
       },
       {
        "line": 4.5,
-       "over": 0.5091
+       "over": 0.5083
       },
       {
        "line": 5.5,
-       "over": 0.3697
+       "over": 0.3689
       }
      ],
      "winner": {
-      "home": 0.2215,
-      "away": 0.6802,
-      "draw": 0.0983
+      "home": 0.2218,
+      "away": 0.6798,
+      "draw": 0.0984
      },
      "sample": 917
     },
@@ -16335,24 +15250,24 @@
       },
       {
        "line": 3.5,
-       "over": 0.6566,
-       "under": 0.3434
+       "over": 0.6565,
+       "under": 0.3435
       },
       {
        "line": 4.5,
-       "over": 0.4872,
-       "under": 0.5128
+       "over": 0.4871,
+       "under": 0.5129
       },
       {
        "line": 5.5,
-       "over": 0.3374,
-       "under": 0.6626
+       "over": 0.3373,
+       "under": 0.6627
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.6587
+       "over": 0.6586
       },
       {
        "line": 2.5,
@@ -16362,11 +15277,11 @@
      "away": [
       {
        "line": 1.5,
-       "over": 0.6617
+       "over": 0.6616
       },
       {
        "line": 2.5,
-       "over": 0.4072
+       "over": 0.4071
       }
      ],
      "sample": 917
@@ -16526,10 +15441,10 @@
     "p_home": 0.4801,
     "p_draw": 0.2588,
     "p_away": 0.2611,
-    "p_over25": 0.4936,
-    "p_btts": 0.5267,
-    "p_under25": 0.5064,
-    "p_no_btts": 0.4733
+    "p_over25": 0.4937,
+    "p_btts": 0.5268,
+    "p_under25": 0.5063,
+    "p_no_btts": 0.4732
    },
    "expected_goals": {
     "home": 1.56,
@@ -16644,7 +15559,7 @@
    "probs": {
     "p_home": 0.2106,
     "p_draw": 0.2761,
-    "p_away": 0.5132,
+    "p_away": 0.5133,
     "p_over25": 0.3915,
     "p_btts": 0.4289,
     "p_under25": 0.6085,
@@ -16724,7 +15639,7 @@
    "home": "FC Arges",
    "away": "CFR Cluj",
    "probs": {
-    "p_home": 0.3352,
+    "p_home": 0.3353,
     "p_draw": 0.3298,
     "p_away": 0.335,
     "p_over25": 0.2847,
@@ -16744,11 +15659,11 @@
    "top_scores": [
     {
      "score": "0-0",
-     "p": 0.1596
+     "p": 0.1597
     },
     {
      "score": "1-0",
-     "p": 0.1414
+     "p": 0.1415
     },
     {
      "score": "0-1",
@@ -16832,7 +15747,7 @@
      }
     ]
    },
-   "explanation": "Meci echilibrat: modelul nu vede un favorit clar (34% / 33% / 34%). Goluri asteptate: 0.93 pentru FC Arges, 0.93 pentru CFR Cluj. Forma recenta — FC Arges: EIIIEI, CFR Cluj: IVVEIV (cel mai recent meci la dreapta). In clasamentul intern al modelului, FC Arges e pe locul 23 la atac, CFR Cluj pe 4, din 25 echipe. Se asteapta un meci inchis: 72% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+   "explanation": "Meci echilibrat: modelul nu vede un favorit clar (34% / 33% / 33%). Goluri asteptate: 0.93 pentru FC Arges, 0.93 pentru CFR Cluj. Forma recenta — FC Arges: EIIIEI, CFR Cluj: IVVEIV (cel mai recent meci la dreapta). In clasamentul intern al modelului, FC Arges e pe locul 23 la atac, CFR Cluj pe 4, din 25 echipe. Se asteapta un meci inchis: 72% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
   },
   {
    "id": "ROU_Superliga_20261010_FarulConstanta_Petrolul",
@@ -16844,12 +15759,12 @@
    "away": "Petrolul",
    "probs": {
     "p_home": 0.485,
-    "p_draw": 0.2865,
+    "p_draw": 0.2864,
     "p_away": 0.2285,
     "p_over25": 0.3735,
-    "p_btts": 0.4229,
+    "p_btts": 0.423,
     "p_under25": 0.6265,
-    "p_no_btts": 0.5771
+    "p_no_btts": 0.577
    },
    "expected_goals": {
     "home": 1.35,
@@ -17084,10 +15999,10 @@
     "p_home": 0.1142,
     "p_draw": 0.1933,
     "p_away": 0.6924,
-    "p_over25": 0.5434,
-    "p_btts": 0.4597,
-    "p_under25": 0.4566,
-    "p_no_btts": 0.5403
+    "p_over25": 0.5433,
+    "p_btts": 0.4596,
+    "p_under25": 0.4567,
+    "p_no_btts": 0.5404
    },
    "expected_goals": {
     "home": 0.73,
@@ -17182,13 +16097,13 @@
    "home": "Corvinul",
    "away": "FC Voluntari",
    "probs": {
-    "p_home": 0.6895,
-    "p_draw": 0.2014,
-    "p_away": 0.1092,
-    "p_over25": 0.4982,
-    "p_btts": 0.4199,
-    "p_under25": 0.5018,
-    "p_no_btts": 0.5801
+    "p_home": 0.6897,
+    "p_draw": 0.2013,
+    "p_away": 0.1091,
+    "p_over25": 0.4983,
+    "p_btts": 0.4198,
+    "p_under25": 0.5017,
+    "p_no_btts": 0.5802
    },
    "expected_goals": {
     "home": 2.01,
@@ -17206,15 +16121,15 @@
     },
     {
      "score": "1-0",
-     "p": 0.1371
+     "p": 0.1372
     },
     {
      "score": "1-1",
-     "p": 0.0943
+     "p": 0.0942
     },
     {
      "score": "3-0",
-     "p": 0.0938
+     "p": 0.0939
     },
     {
      "score": "2-1",
@@ -17383,7 +16298,7 @@
     "corners": {
      "expected": {
       "home": 3.5,
-      "away": 6.56,
+      "away": 6.57,
       "total": 10.06
      },
      "total": [
@@ -17399,8 +16314,8 @@
       },
       {
        "line": 10.5,
-       "over": 0.444,
-       "under": 0.556
+       "over": 0.4441,
+       "under": 0.5559
       },
       {
        "line": 11.5,
@@ -17415,7 +16330,7 @@
       },
       {
        "line": 4.5,
-       "over": 0.3507
+       "over": 0.3508
       },
       {
        "line": 5.5,
@@ -17425,21 +16340,21 @@
      "away": [
       {
        "line": 3.5,
-       "over": 0.7757
+       "over": 0.7758
       },
       {
        "line": 4.5,
-       "over": 0.6554
+       "over": 0.6555
       },
       {
        "line": 5.5,
-       "over": 0.5266
+       "over": 0.5267
       }
      ],
      "winner": {
       "home": 0.2522,
-      "away": 0.6637,
-      "draw": 0.0841
+      "away": 0.6638,
+      "draw": 0.084
      },
      "sample": 920
     },
@@ -17474,7 +16389,7 @@
      "home": [
       {
        "line": 1.5,
-       "over": 0.5028
+       "over": 0.5027
       },
       {
        "line": 2.5,
@@ -17667,34 +16582,34 @@
      "home": [
       {
        "line": 3.5,
-       "over": 0.7756
+       "over": 0.7755
       },
       {
        "line": 4.5,
-       "over": 0.632
+       "over": 0.6318
       },
       {
        "line": 5.5,
-       "over": 0.4813
+       "over": 0.4811
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.6063
+       "over": 0.6064
       },
       {
        "line": 4.5,
-       "over": 0.4403
+       "over": 0.4404
       },
       {
        "line": 5.5,
-       "over": 0.2931
+       "over": 0.2932
       }
      ],
      "winner": {
-      "home": 0.5857,
-      "away": 0.3088,
+      "home": 0.5855,
+      "away": 0.309,
       "draw": 0.1055
      },
      "sample": 925
@@ -17894,63 +16809,63 @@
    "extra_markets": {
     "corners": {
      "expected": {
-      "home": 5.49,
+      "home": 5.5,
       "away": 3.61,
       "total": 9.1
      },
      "total": [
       {
        "line": 8.5,
-       "over": 0.6124,
-       "under": 0.3876
+       "over": 0.6125,
+       "under": 0.3875
       },
       {
        "line": 9.5,
-       "over": 0.4836,
-       "under": 0.5164
+       "over": 0.4838,
+       "under": 0.5162
       },
       {
        "line": 10.5,
-       "over": 0.3777,
-       "under": 0.6223
+       "over": 0.3779,
+       "under": 0.6221
       },
       {
        "line": 11.5,
-       "over": 0.2611,
-       "under": 0.7389
+       "over": 0.2612,
+       "under": 0.7388
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.7564
+       "over": 0.7566
       },
       {
        "line": 4.5,
-       "over": 0.607
+       "over": 0.6073
       },
       {
        "line": 5.5,
-       "over": 0.454
+       "over": 0.4543
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.5014
+       "over": 0.5016
       },
       {
        "line": 4.5,
-       "over": 0.3359
+       "over": 0.3361
       },
       {
        "line": 5.5,
-       "over": 0.205
+       "over": 0.2051
       }
      ],
      "winner": {
-      "home": 0.6375,
-      "away": 0.2579,
+      "home": 0.6376,
+      "away": 0.2578,
       "draw": 0.1046
      },
      "sample": 925
@@ -18147,7 +17062,7 @@
      "home": [
       {
        "line": 3.5,
-       "over": 0.9001
+       "over": 0.9
       },
       {
        "line": 4.5,
@@ -18386,8 +17301,8 @@
       },
       {
        "line": 9.5,
-       "over": 0.4519,
-       "under": 0.5481
+       "over": 0.452,
+       "under": 0.548
       },
       {
        "line": 10.5,
@@ -18417,21 +17332,21 @@
      "away": [
       {
        "line": 3.5,
-       "over": 0.4999
+       "over": 0.5
       },
       {
        "line": 4.5,
-       "over": 0.3373
+       "over": 0.3374
       },
       {
        "line": 5.5,
-       "over": 0.2124
+       "over": 0.2125
       }
      ],
      "winner": {
-      "home": 0.6203,
+      "home": 0.6202,
       "away": 0.2767,
-      "draw": 0.103
+      "draw": 0.1031
      },
      "sample": 900
     },
@@ -18619,33 +17534,33 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.5182,
-       "under": 0.4818
+       "over": 0.5183,
+       "under": 0.4817
       },
       {
        "line": 9.5,
-       "over": 0.4014,
-       "under": 0.5986
+       "over": 0.4015,
+       "under": 0.5985
       },
       {
        "line": 10.5,
-       "over": 0.2954,
-       "under": 0.7046
+       "over": 0.2955,
+       "under": 0.7045
       },
       {
        "line": 11.5,
-       "over": 0.206,
-       "under": 0.794
+       "over": 0.2061,
+       "under": 0.7939
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.5724
+       "over": 0.5725
       },
       {
        "line": 4.5,
-       "over": 0.4069
+       "over": 0.407
       },
       {
        "line": 5.5,
@@ -18655,20 +17570,20 @@
      "away": [
       {
        "line": 3.5,
-       "over": 0.5683
+       "over": 0.5684
       },
       {
        "line": 4.5,
-       "over": 0.4049
+       "over": 0.4051
       },
       {
        "line": 5.5,
-       "over": 0.2697
+       "over": 0.2698
       }
      ],
      "winner": {
-      "home": 0.4423,
-      "away": 0.4333,
+      "home": 0.4422,
+      "away": 0.4334,
       "draw": 0.1244
      },
      "sample": 900
@@ -18885,13 +17800,13 @@
       },
       {
        "line": 10.5,
-       "over": 0.3392,
-       "under": 0.6608
+       "over": 0.3391,
+       "under": 0.6609
       },
       {
        "line": 11.5,
-       "over": 0.2421,
-       "under": 0.7579
+       "over": 0.242,
+       "under": 0.758
       }
      ],
      "home": [
@@ -18901,17 +17816,17 @@
       },
       {
        "line": 4.5,
-       "over": 0.5054
+       "over": 0.5053
       },
       {
        "line": 5.5,
-       "over": 0.3614
+       "over": 0.3613
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.5897
+       "over": 0.5896
       },
       {
        "line": 4.5,
@@ -19136,8 +18051,8 @@
       },
       {
        "line": 9.5,
-       "over": 0.5964,
-       "under": 0.4036
+       "over": 0.5963,
+       "under": 0.4037
       },
       {
        "line": 10.5,
@@ -19171,7 +18086,7 @@
       },
       {
        "line": 4.5,
-       "over": 0.3705
+       "over": 0.3704
       },
       {
        "line": 5.5,
@@ -19387,13 +18302,13 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.6433,
-       "under": 0.3567
+       "over": 0.6434,
+       "under": 0.3566
       },
       {
        "line": 9.5,
-       "over": 0.5127,
-       "under": 0.4873
+       "over": 0.5128,
+       "under": 0.4872
       },
       {
        "line": 10.5,
@@ -19402,8 +18317,8 @@
       },
       {
        "line": 11.5,
-       "over": 0.2971,
-       "under": 0.7029
+       "over": 0.2972,
+       "under": 0.7028
       }
      ],
      "home": [
@@ -19413,25 +18328,25 @@
       },
       {
        "line": 4.5,
-       "over": 0.5793
+       "over": 0.5794
       },
       {
        "line": 5.5,
-       "over": 0.4288
+       "over": 0.4289
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.5507
+       "over": 0.5508
       },
       {
        "line": 4.5,
-       "over": 0.3912
+       "over": 0.3913
       },
       {
        "line": 5.5,
-       "over": 0.2575
+       "over": 0.2576
       }
      ],
      "winner": {
@@ -19643,37 +18558,37 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.6405,
-       "under": 0.3595
+       "over": 0.6406,
+       "under": 0.3594
       },
       {
        "line": 9.5,
-       "over": 0.5238,
-       "under": 0.4762
+       "over": 0.5239,
+       "under": 0.4761
       },
       {
        "line": 10.5,
-       "over": 0.411,
-       "under": 0.589
+       "over": 0.4111,
+       "under": 0.5889
       },
       {
        "line": 11.5,
-       "over": 0.3068,
-       "under": 0.6932
+       "over": 0.3069,
+       "under": 0.6931
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.8274
+       "over": 0.8275
       },
       {
        "line": 4.5,
-       "over": 0.7163
+       "over": 0.7164
       },
       {
        "line": 5.5,
-       "over": 0.593
+       "over": 0.5931
       }
      ],
      "away": [
@@ -19683,7 +18598,7 @@
       },
       {
        "line": 4.5,
-       "over": 0.2969
+       "over": 0.2968
       },
       {
        "line": 5.5,
@@ -19691,9 +18606,9 @@
       }
      ],
      "winner": {
-      "home": 0.7367,
+      "home": 0.7369,
       "away": 0.1895,
-      "draw": 0.0738
+      "draw": 0.0736
      },
      "sample": 1130
     },
@@ -19868,13 +18783,13 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.5018,
-       "under": 0.4982
+       "over": 0.5017,
+       "under": 0.4983
       },
       {
        "line": 9.5,
-       "over": 0.3807,
-       "under": 0.6193
+       "over": 0.3806,
+       "under": 0.6194
       },
       {
        "line": 10.5,
@@ -19890,34 +18805,34 @@
      "home": [
       {
        "line": 3.5,
-       "over": 0.4899
+       "over": 0.4896
       },
       {
        "line": 4.5,
-       "over": 0.3261
+       "over": 0.3257
       },
       {
        "line": 5.5,
-       "over": 0.2051
+       "over": 0.2049
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.5898
+       "over": 0.5899
       },
       {
        "line": 4.5,
-       "over": 0.4273
+       "over": 0.4274
       },
       {
        "line": 5.5,
-       "over": 0.2917
+       "over": 0.2919
       }
      ],
      "winner": {
-      "home": 0.3662,
-      "away": 0.5072,
+      "home": 0.3659,
+      "away": 0.5075,
       "draw": 0.1266
      },
      "sample": 917
@@ -19936,18 +18851,18 @@
       },
       {
        "line": 3.5,
-       "over": 0.6451,
-       "under": 0.3549
+       "over": 0.645,
+       "under": 0.355
       },
       {
        "line": 4.5,
-       "over": 0.4752,
-       "under": 0.5248
+       "over": 0.4751,
+       "under": 0.5249
       },
       {
        "line": 5.5,
-       "over": 0.3271,
-       "under": 0.6729
+       "over": 0.327,
+       "under": 0.673
       }
      ],
      "home": [
@@ -19957,17 +18872,17 @@
       },
       {
        "line": 2.5,
-       "over": 0.4006
+       "over": 0.4005
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.6438
+       "over": 0.6437
       },
       {
        "line": 2.5,
-       "over": 0.3889
+       "over": 0.3888
       }
      ],
      "sample": 917

@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-05T18:31:25+00:00",
+ "actualizat": "2026-10-05T21:40:21+00:00",
  "selectii": [
   {
    "cheie": "D1_20260919_EinFrankfurt_Freiburg|over25",
@@ -1516,6 +1516,38 @@
    "odds": 1.64,
    "band": "peste piață",
    "notat_la": "2026-10-05T18:31:24+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "F1_20261010_Brest_Angers|cards_total_over_2.5",
+   "match_id": "F1_20261010_Brest_Angers",
+   "date": "2026-10-10",
+   "league_name": "Ligue 1",
+   "home": "Brest",
+   "away": "Angers",
+   "market": "cards_total_over_2.5",
+   "market_label": "peste 2.5 cartonașe în meci",
+   "probability": 0.6923,
+   "odds": null,
+   "band": "cornere/cartonașe",
+   "notat_la": "2026-10-05T21:40:19+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "F1_20261010_Brest_Angers|corners_home_over_3.5",
+   "match_id": "F1_20261010_Brest_Angers",
+   "date": "2026-10-10",
+   "league_name": "Ligue 1",
+   "home": "Brest",
+   "away": "Angers",
+   "market": "corners_home_over_3.5",
+   "market_label": "Brest peste 3.5 cornere",
+   "probability": 0.6643,
+   "odds": null,
+   "band": "cornere/cartonașe",
+   "notat_la": "2026-10-05T21:40:19+00:00",
    "castigat": null,
    "scor": null
   }
