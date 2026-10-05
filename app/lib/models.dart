@@ -98,6 +98,31 @@ class CountLine {
       );
 }
 
+/// Arbitrul delegat si cat de mult isi pune amprenta pe cartonase.
+class RefereeInfo {
+  const RefereeInfo({
+    required this.name,
+    required this.factor,
+    required this.matches,
+  });
+
+  final String name;
+
+  /// Cat da fata de asteptari, deja tras spre 1 pentru arbitrii cu putine
+  /// meciuri: 1.12 inseamna cu 12% mai multe cartonase decat media.
+  final double factor;
+  final int matches;
+
+  static RefereeInfo? fromJson(Map<String, dynamic>? json) {
+    if (json == null) return null;
+    return RefereeInfo(
+      name: json['name'] as String,
+      factor: (json['factor'] as num).toDouble(),
+      matches: (json['matches'] as num?)?.toInt() ?? 0,
+    );
+  }
+}
+
 /// Cornere sau cartonase pentru un meci: asteptari si linii.
 class CountsMarket {
   const CountsMarket({
@@ -109,6 +134,7 @@ class CountsMarket {
     required this.away,
     required this.winner,
     required this.sample,
+    this.referee,
   });
 
   final double expectedHome;
@@ -123,6 +149,9 @@ class CountsMarket {
 
   /// Cate meciuri au stat la baza fitului.
   final int sample;
+
+  /// Arbitrul delegat (doar la cartonase, si doar dupa ce a fost anuntat).
+  final RefereeInfo? referee;
 
   static List<CountLine> _linii(dynamic brut) =>
       ((brut as List<dynamic>?) ?? [])
@@ -141,6 +170,7 @@ class CountsMarket {
       away: _linii(json['away']),
       winner: castigator?.map((k, v) => MapEntry(k, (v as num).toDouble())),
       sample: (json['sample'] as num?)?.toInt() ?? 0,
+      referee: RefereeInfo.fromJson(json['referee'] as Map<String, dynamic>?),
     );
   }
 }
@@ -371,7 +401,12 @@ class MatchPick {
     required this.fairOdds,
     required this.historicalHitRate,
     required this.band,
+    this.oddsMovement,
   });
+
+  /// Cat s-a miscat cota de cand a aparut selectia: pozitiv = a scazut.
+  /// Lipseste la cornere si cartonase, unde n-avem cota de urmarit.
+  final double? oddsMovement;
 
   /// "1x2", "goluri", "cornere", "cartonașe".
   final String family;
@@ -399,6 +434,7 @@ class MatchPick {
         fairOdds: (json['fair_odds'] as num).toDouble(),
         historicalHitRate: (json['historical_hit_rate'] as num).toDouble(),
         band: (json['band'] as String?) ?? '',
+        oddsMovement: (json['odds_movement'] as num?)?.toDouble(),
       );
 }
 

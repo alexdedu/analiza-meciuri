@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T08:53:15+00:00",
+ "generated_at": "2026-10-05T09:14:56+00:00",
  "recommended_matches": [
   {
    "match_id": "NAT1528950",
@@ -17,7 +17,8 @@
      "odds": 1.52,
      "fair_odds": 1.66,
      "historical_hit_rate": 0.653,
-     "band": "sub piață"
+     "band": "sub piață",
+     "odds_movement": 0.0
     }
    ]
   },
@@ -37,7 +38,8 @@
      "odds": 1.51,
      "fair_odds": 1.64,
      "historical_hit_rate": 0.653,
-     "band": "sub piață"
+     "band": "sub piață",
+     "odds_movement": 0.0
     }
    ]
   },
@@ -57,7 +59,8 @@
      "odds": 1.6,
      "fair_odds": 1.62,
      "historical_hit_rate": 0.601,
-     "band": "peste piață"
+     "band": "peste piață",
+     "odds_movement": 0.0
     },
     {
      "family": "cornere",
@@ -67,7 +70,8 @@
      "odds": null,
      "fair_odds": 1.66,
      "historical_hit_rate": 0.649,
-     "band": ""
+     "band": "",
+     "odds_movement": null
     },
     {
      "family": "cartonașe",
@@ -77,7 +81,8 @@
      "odds": null,
      "fair_odds": 1.53,
      "historical_hit_rate": 0.666,
-     "band": ""
+     "band": "",
+     "odds_movement": null
     }
    ]
   },
@@ -97,7 +102,8 @@
      "odds": 1.46,
      "fair_odds": 1.62,
      "historical_hit_rate": 0.653,
-     "band": "sub piață"
+     "band": "sub piață",
+     "odds_movement": 0.0
     },
     {
      "family": "cornere",
@@ -107,7 +113,8 @@
      "odds": null,
      "fair_odds": 1.64,
      "historical_hit_rate": 0.649,
-     "band": ""
+     "band": "",
+     "odds_movement": null
     },
     {
      "family": "cartonașe",
@@ -117,7 +124,8 @@
      "odds": null,
      "fair_odds": 1.6,
      "historical_hit_rate": 0.649,
-     "band": ""
+     "band": "",
+     "odds_movement": null
     }
    ]
   },
@@ -137,7 +145,8 @@
      "odds": 1.54,
      "fair_odds": 1.51,
      "historical_hit_rate": 0.601,
-     "band": "peste piață"
+     "band": "peste piață",
+     "odds_movement": 0.0
     }
    ]
   },
@@ -157,7 +166,8 @@
      "odds": 1.49,
      "fair_odds": 1.52,
      "historical_hit_rate": 0.601,
-     "band": "peste piață"
+     "band": "peste piață",
+     "odds_movement": 0.0
     }
    ]
   }
@@ -192,6 +202,8 @@
    "disagreement": -0.0138,
    "band": "sub piață",
    "historical_hit_rate": 0.653,
+   "odds_first": 1.52,
+   "odds_movement": 0.0,
    "fair_odds": 1.66
   },
   {
@@ -209,6 +221,8 @@
    "disagreement": -0.0132,
    "band": "sub piață",
    "historical_hit_rate": 0.653,
+   "odds_first": 1.51,
+   "odds_movement": 0.0,
    "fair_odds": 1.64
   },
   {
@@ -226,6 +240,8 @@
    "disagreement": 0.025,
    "band": "peste piață",
    "historical_hit_rate": 0.601,
+   "odds_first": 1.6,
+   "odds_movement": 0.0,
    "fair_odds": 1.62
   },
   {
@@ -243,6 +259,8 @@
    "disagreement": -0.0241,
    "band": "sub piață",
    "historical_hit_rate": 0.653,
+   "odds_first": 1.46,
+   "odds_movement": 0.0,
    "fair_odds": 1.62
   },
   {
@@ -260,6 +278,8 @@
    "disagreement": 0.0498,
    "band": "peste piață",
    "historical_hit_rate": 0.601,
+   "odds_first": 1.54,
+   "odds_movement": 0.0,
    "fair_odds": 1.51
   },
   {
@@ -277,6 +297,8 @@
    "disagreement": 0.0233,
    "band": "peste piață",
    "historical_hit_rate": 0.601,
+   "odds_first": 1.49,
+   "odds_movement": 0.0,
    "fair_odds": 1.52
   }
  ],

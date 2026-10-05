@@ -71,6 +71,7 @@ jobs:
           python test_card_events.py
           python test_counts_national.py
           python test_bilet.py
+          python test_cote_urmarite.py
 
       - name: Descarca datele istorice
         working-directory: research
@@ -111,6 +112,14 @@ jobs:
         env:
           STATISTICI_BUGET: 250
         run: python fetch_national_stats.py
+
+      # Arbitrii se anunta cu doua-patru zile inainte de meci. Sezonul curent se
+      # reimprospateaza la fiecare rulare (zece cereri), ca delegarile noi sa
+      # intre in predictiile pe cartonase imediat ce apar.
+      - name: Aduce arbitrii
+        working-directory: research
+        continue-on-error: true
+        run: python fetch_referees.py
 
       - name: Estimeaza puterea campionatelor
         working-directory: research

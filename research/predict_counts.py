@@ -130,12 +130,55 @@ def tip_din_coloane(coloane: tuple[str, str]) -> str:
     return "corners" if coloane[0] == "hc" else "cards"
 
 
+# Arbitrul, la cartonase. Masurat in backtest_arbitri.py pe 13.310 meciuri:
+# castig la log-loss +0,0038 la "peste 3.5" (t = +4,60) si +0,0047 la
+# "peste 4.5" (t = +5,44), fara sa strice calibrarea din banda 60-70%.
+# K e greutatea "neutra": un arbitru cu putine meciuri ramane aproape de 1,
+# iar unul cu sute de meciuri isi impune propriul profil. 120 a iesit cel mai
+# bine dintre 10, 20, 40, 80, 120, 160 si 240.
+K_ARBITRU = 120.0
+
+
+def profil_arbitri(fit, liga: pd.DataFrame, arbitri: pd.DataFrame,
+                   azi: pd.Timestamp) -> dict[str, tuple[float, float, int]]:
+    """Pentru fiecare arbitru: cartonase date, cartonase asteptate, meciuri."""
+    if arbitri.empty:
+        return {}
+    train = liga[(liga["date"] < azi)
+                 & (liga["date"] >= azi - pd.Timedelta(days=FEREASTRA_ZILE))]
+    train = train.dropna(subset=["cy", "ca"])
+    cu_arbitru = train.merge(
+        arbitri[["date", "home", "away", "referee"]],
+        on=["date", "home", "away"], how="inner")
+    profil: dict[str, list[float]] = {}
+    for r in cu_arbitru.itertuples(index=False):
+        if not r.referee:
+            continue
+        rate = fit.rates(r.home, r.away)
+        if not rate:
+            continue
+        p = profil.setdefault(r.referee, [0.0, 0.0, 0])
+        p[0] += float(r.cy + r.ca)
+        p[1] += rate[0] + rate[1]
+        p[2] += 1
+    return {k: (v[0], v[1], int(v[2])) for k, v in profil.items()}
+
+
+def factor_arbitru(profil: dict, arbitru: str | None) -> tuple[float, int]:
+    """Cat da arbitrul fata de cat ar fi fost de asteptat, tras spre 1."""
+    if not arbitru or arbitru not in profil:
+        return 1.0, 0
+    dat, asteptat, meciuri = profil[arbitru]
+    return (dat + K_ARBITRU) / (asteptat + K_ARBITRU), meciuri
+
+
 def _piete(fit, dispersii: dict, baze: dict, tip: str,
-           gazda: str, oaspete: str) -> dict | None:
+           gazda: str, oaspete: str, factor: float = 1.0) -> dict | None:
     rate = fit.rates(gazda, oaspete)
     if rate is None:
         return None
-    lam, mu = rate
+    # Factorul arbitrului muta ambele parti la fel: el nu tine cu nimeni.
+    lam, mu = rate[0] * factor, rate[1] * factor
 
     dist = {
         "total": counts_model.nb_pmf(lam + mu, dispersii["total"]),
@@ -186,6 +229,17 @@ def imbogateste(meciuri: list[dict], hist: pd.DataFrame) -> int:
     hist = pregateste(hist)
     azi = pd.Timestamp(pd.Timestamp.now().date())
 
+    # Arbitrii, din API: istoricul lor si cine e delegat la meciurile care vin.
+    try:
+        from fetch_referees import incarca as incarca_arbitri
+        arbitri = incarca_arbitri()
+    except Exception:
+        arbitri = pd.DataFrame()
+    if not arbitri.empty:
+        arbitri = arbitri[(arbitri["referee"] != "") & (arbitri["home"] != "")].copy()
+        arbitri["date"] = arbitri["date"].dt.normalize()
+    profiluri: dict[str, dict] = {}
+
     # Un fit per campionat si tip, refolosit pentru toate meciurile lui.
     cache: dict[tuple[str, str], object] = {}
     imbogatite = 0
@@ -205,9 +259,31 @@ def imbogateste(meciuri: list[dict], hist: pd.DataFrame) -> int:
             if pregatit is None:
                 continue
             fit, dispersii, n_train, baze = pregatit
-            piete = _piete(fit, dispersii, baze, tip, m["home"], m["away"])
+
+            factor, arbitru, meciuri_arbitru = 1.0, None, 0
+            if tip == "cards" and not arbitri.empty and m.get("date"):
+                if div not in profiluri:
+                    profiluri[div] = profil_arbitri(
+                        fit, hist[hist["div"] == div],
+                        arbitri[arbitri["div"] == div], azi)
+                delegat = arbitri[(arbitri["div"] == div)
+                                  & (arbitri["home"] == m["home"])
+                                  & (arbitri["away"] == m["away"])
+                                  & (arbitri["date"] == pd.Timestamp(m["date"]))]
+                if not delegat.empty:
+                    arbitru = delegat.iloc[0]["referee"]
+                    factor, meciuri_arbitru = factor_arbitru(profiluri[div], arbitru)
+
+            piete = _piete(fit, dispersii, baze, tip, m["home"], m["away"], factor)
             if piete:
                 piete["sample"] = n_train
+                if arbitru:
+                    piete["referee"] = {
+                        "name": arbitru.title(),
+                        # Cat da fata de asteptari, deja tras spre 1.
+                        "factor": round(factor, 3),
+                        "matches": meciuri_arbitru,
+                    }
                 extra[tip] = piete
 
         if extra:

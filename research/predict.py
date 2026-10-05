@@ -443,6 +443,23 @@ def main() -> None:
     # intr-un loc, ca alegerea sa fie a utilizatorului. Lista plata ramane,
     # fiindca din ea se noteaza selectiile in evidenta.
     toate_cu_cota = construieste_recomandari(out, toate=True)
+
+    # Miscarea cotelor: selectiile a caror cota a crescut cu peste 5% de cand
+    # le-am vazut prima data ies din lista (vezi cote_urmarite.py).
+    try:
+        import cote_urmarite
+        urmarite = cote_urmarite.actualizeaza(toate_cu_cota, cote_urmarite.incarca())
+        cote_urmarite.salveaza(urmarite)
+        fugite = [c for c in toate_cu_cota if cote_urmarite.a_fugit_piata(c)]
+        if fugite:
+            print(f"Scoase pentru ca piata a fugit de ele: {len(fugite)}")
+            for c in fugite:
+                print(f"  {c['home']} - {c['away']}: {c['market_label']} "
+                      f"({c['odds_first']} -> {c['odds']})")
+        toate_cu_cota = [c for c in toate_cu_cota if not cote_urmarite.a_fugit_piata(c)]
+    except Exception as exc:
+        print(f"  urmarirea cotelor a esuat: {str(exc)[:90]}")
+
     meciuri_recomandate = grupeaza_pe_meci(toate_cu_cota, selectii_contori)
 
     # Ce s-a afisat efectiv, ca sa notam in evidenta exact atat.

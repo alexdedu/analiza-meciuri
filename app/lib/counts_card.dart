@@ -46,6 +46,10 @@ class CountsCard extends StatelessWidget {
             _Legenda(home: home, away: away, valori: market.winner!),
             const Divider(height: 26, color: AppColors.border),
           ],
+          if (market.referee != null) ...[
+            _Arbitru(referee: market.referee!),
+            const Divider(height: 26, color: AppColors.border),
+          ],
           _Eticheta('Total pe meci', calitate: kind.calitateTotal,
               bun: kind.totalInformativ),
           const SizedBox(height: 8),
@@ -258,6 +262,65 @@ class _Legenda extends StatelessWidget {
               overflow: TextOverflow.ellipsis,
               textAlign: TextAlign.right,
               style: const TextStyle(fontSize: 11.5, color: AppColors.awayWin)),
+        ),
+      ],
+    );
+  }
+}
+
+/// Arbitrul delegat si cat isi pune amprenta pe cartonase.
+///
+/// Masurat: stiind arbitrul, predictia pe cartonase se imbunatateste clar
+/// (t = +5,4 la "peste 4.5"). Profilul e deja tras spre medie pentru arbitrii
+/// cu putine meciuri, ca un debutant cu doua meciuri dure sa nu para un macelar.
+class _Arbitru extends StatelessWidget {
+  const _Arbitru({required this.referee});
+
+  final RefereeInfo referee;
+
+  @override
+  Widget build(BuildContext context) {
+    final diferenta = (referee.factor - 1) * 100;
+    final String descriere;
+    final Color culoare;
+    if (diferenta.abs() < 3) {
+      descriere = 'arbitrează în media campionatului';
+      culoare = AppColors.textSecondary;
+    } else if (diferenta > 0) {
+      descriere = 'dă cu ${diferenta.toStringAsFixed(0)}% mai multe cartonașe '
+          'decât s-ar aștepta';
+      culoare = AppColors.awayWin;
+    } else {
+      descriere = 'dă cu ${(-diferenta).toStringAsFixed(0)}% mai puține cartonașe '
+          'decât s-ar aștepta';
+      culoare = AppColors.homeWin;
+    }
+
+    return Row(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        const Icon(Icons.sports, size: 18, color: AppColors.textSecondary),
+        const SizedBox(width: 9),
+        Expanded(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text('Arbitru: ${referee.name}',
+                  style: const TextStyle(
+                      fontSize: 13,
+                      fontWeight: FontWeight.w700,
+                      color: AppColors.textPrimary)),
+              const SizedBox(height: 2),
+              Text(descriere,
+                  style: TextStyle(fontSize: 12, color: culoare)),
+              const SizedBox(height: 2),
+              Text(
+                'din ${referee.matches} de meciuri în ultimii trei ani — deja '
+                'inclus în procentele de mai jos',
+                style: const TextStyle(fontSize: 10.5, color: AppColors.textSecondary),
+              ),
+            ],
+          ),
         ),
       ],
     );

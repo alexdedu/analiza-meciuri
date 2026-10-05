@@ -73,6 +73,7 @@ def _ruleaza_fara_meciuri(tmp: str, out: Path, etapa):
     # pe retea (cupe europene, nationale) se inlocuiesc cu liste goale, ca
     # testul sa masoare exact ce vrea: comportarea la zero meciuri.
     import bilet
+    import cote_urmarite
     import predict_europa
     import predict_national
     import rezultate_api
@@ -81,6 +82,7 @@ def _ruleaza_fara_meciuri(tmp: str, out: Path, etapa):
     with mock.patch.object(predict, "OUT", out), \
          mock.patch.object(scorecard, "ISTORIC", Path(tmp) / "selectii.json"), \
          mock.patch.object(bilet, "ISTORIC", Path(tmp) / "bilete.json"), \
+         mock.patch.object(cote_urmarite, "FISIER", Path(tmp) / "cote.json"), \
          mock.patch.object(rezultate_api, "rezolvator", lambda: None), \
          mock.patch.object(rezultate_api, "urmatoarea_etapa", lambda: etapa), \
          mock.patch.object(predict_europa, "construieste_predictii",

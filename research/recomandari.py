@@ -224,6 +224,8 @@ def grupeaza_pe_meci(cu_cota: list[dict], contori: list[dict]) -> list[dict]:
             "fair_odds": pick.get("fair_odds") or round(1 / pick["probability"], 2),
             "historical_hit_rate": pick["historical_hit_rate"],
             "band": pick.get("band", ""),
+            # Cat s-a miscat cota de la prima observatie (pozitiv = a scazut).
+            "odds_movement": pick.get("odds_movement"),
         }
         # Daca o familie are doua selectii la acelasi meci, o pastram pe cea
         # care promite mai mult.

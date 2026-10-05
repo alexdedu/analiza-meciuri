@@ -152,6 +152,19 @@ class _PickRow extends StatelessWidget {
                         '${(pick.historicalHitRate * 100).toStringAsFixed(0)}%',
                 style: const TextStyle(fontSize: 10.5, color: AppColors.textSecondary),
               ),
+              if (pick.oddsMovement != null && pick.oddsMovement! >= 0.02) ...[
+                const SizedBox(height: 2),
+                // Cand cota scade, valoarea era in pretul de la inceput:
+                // masurat, la deschidere ar fi iesit +4,5%, la inchidere -3%.
+                Text(
+                  '↘ cota a scăzut ${(pick.oddsMovement! * 100).toStringAsFixed(0)}% '
+                  'de când a apărut — merită pusă devreme',
+                  style: const TextStyle(
+                      fontSize: 10.5,
+                      fontWeight: FontWeight.w600,
+                      color: AppColors.positive),
+                ),
+              ],
             ],
           ),
         ),

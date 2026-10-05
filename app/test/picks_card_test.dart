@@ -120,6 +120,30 @@ void main() {
     expect(apasat, 'MECI_9');
   });
 
+  testWidgets('cand cota scade, spune ca merita pusa devreme', (tester) async {
+    await pump(tester, [
+      meci(picks: [
+        const MatchPick(
+          family: '1x2', market: 'home', marketLabel: 'Victorie Arsenal',
+          probability: 0.62, odds: 1.55, fairOdds: 1.61,
+          historicalHitRate: 0.653, band: 'sub piață', oddsMovement: 0.06),
+      ]),
+    ]);
+    expect(find.textContaining('cota a scăzut 6%'), findsOneWidget);
+  });
+
+  testWidgets('o miscare mica nu se afiseaza', (tester) async {
+    await pump(tester, [
+      meci(picks: [
+        const MatchPick(
+          family: '1x2', market: 'home', marketLabel: 'Victorie Arsenal',
+          probability: 0.62, odds: 1.55, fairOdds: 1.61,
+          historicalHitRate: 0.653, band: 'sub piață', oddsMovement: 0.01),
+      ]),
+    ]);
+    expect(find.textContaining('cota a scăzut'), findsNothing);
+  });
+
   testWidgets('spune unde exista cote si unde nu', (tester) async {
     await pump(tester, [meci()]);
     expect(find.textContaining('La cornere și cartonașe nu există cote'),

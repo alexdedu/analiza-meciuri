@@ -72,6 +72,27 @@ void main() {
     expect(find.textContaining('Arsenal 65%'), findsOneWidget);
   });
 
+  testWidgets('arata arbitrul si cat de sever e', (tester) async {
+    await tester.pumpWidget(const MaterialApp(
+      home: Scaffold(
+        body: SingleChildScrollView(
+          child: CountsCard(
+            market: CountsMarket(
+              expectedHome: 1.8, expectedAway: 2.1, expectedTotal: 3.9,
+              total: [CountLine(line: 3.5, over: 0.62, under: 0.38)],
+              home: [], away: [], winner: null, sample: 900,
+              referee: RefereeInfo(name: 'Michael Oliver', factor: 1.14, matches: 87),
+            ),
+            kind: CountsKind.cards, home: 'Arsenal', away: 'Chelsea',
+          ),
+        ),
+      ),
+    ));
+    expect(find.text('Arbitru: Michael Oliver'), findsOneWidget);
+    expect(find.textContaining('cu 14% mai multe cartonașe'), findsOneWidget);
+    expect(find.textContaining('din 87 de meciuri'), findsOneWidget);
+  });
+
   test('sectiunea lipseste cand sursa nu are datele', () {
     expect(ExtraMarkets.fromJson(null), isNull);
     expect(ExtraMarkets.fromJson(const {}), isNull);

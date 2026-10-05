@@ -29,6 +29,14 @@ ODDS = {
     "avg_u25": ["AvgC<2.5", "Avg<2.5", "BbAv<2.5"],
     "max_o25": ["MaxC>2.5", "Max>2.5", "BbMx>2.5"],
     "max_u25": ["MaxC<2.5", "Max<2.5", "BbMx<2.5"],
+    # Pentru miscarea cotelor ne trebuie ambele capete, fara rezerve: daca o
+    # coloana lipseste si cadem pe cealalta, miscarea ar iesi zero fals.
+    # Cotele "de deschidere" sunt cele culese de football-data cu cateva zile
+    # inainte de meci; cele de inchidere, chiar inainte de fluier.
+    "open_h": ["AvgH"], "open_d": ["AvgD"], "open_a": ["AvgA"],
+    "open_o25": ["Avg>2.5"], "open_u25": ["Avg<2.5"],
+    "close_h": ["AvgCH"], "close_d": ["AvgCD"], "close_a": ["AvgCA"],
+    "close_o25": ["AvgC>2.5"], "close_u25": ["AvgC<2.5"],
 }
 
 # Cornere si cartonase: exista doar in feedul principal (cele 12 campionate),

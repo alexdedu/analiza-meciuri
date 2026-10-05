@@ -114,6 +114,39 @@ def test_calitatea_declarata_e_cea_masurata() -> None:
              "ierarhia pietelor nu mai corespunde masuratorii")
 
 
+def test_factorul_arbitrului() -> None:
+    profil = {
+        "strict": (600.0, 400.0, 100),   # da cu 50% mai mult decat se astepta
+        "nou": (12.0, 8.0, 2),           # la fel, dar doar doua meciuri
+    }
+    f_strict, n = predict_counts.factor_arbitru(profil, "strict")
+    f_nou, _ = predict_counts.factor_arbitru(profil, "nou")
+    verifica(f_strict > 1.25 and n == 100, f"arbitrul strict: {f_strict}")
+    # Doua meciuri nu fac un profil: factorul trebuie sa ramana aproape de 1.
+    verifica(1.0 < f_nou < 1.05, f"arbitrul cu doua meciuri: {f_nou}")
+    verifica(predict_counts.factor_arbitru(profil, None) == (1.0, 0),
+             "fara arbitru cunoscut, factorul trebuie sa fie 1")
+    verifica(predict_counts.factor_arbitru(profil, "necunoscut")[0] == 1.0,
+             "arbitru fara istoric: factorul trebuie sa fie 1")
+
+
+def test_arbitrul_muta_cartonasele_asteptate() -> None:
+    hist = istoric_sintetic()
+    meciuri = [{"id": "M1", "league": "E0", "home": "Ofensiva", "away": "Defensiva"}]
+    predict_counts.imbogateste(meciuri, hist)
+    fara = meciuri[0]["extra_markets"]["cards"]["expected"]["total"]
+
+    import counts_model
+    pregatit = predict_counts.pregateste(hist)
+    fit, dispersii, _, baze = predict_counts._fit_liga(
+        pregatit[pregatit["div"] == "E0"], ("cy", "ca"),
+        pregatit["date"].max() + pd.Timedelta(days=1))
+    cu = predict_counts._piete(fit, dispersii, baze, "cards",
+                               "Ofensiva", "Defensiva", factor=1.3)
+    verifica(cu["expected"]["total"] > fara * 1.2,
+             f"factorul 1.3 nu a crescut asteptarea: {fara} -> {cu['expected']['total']}")
+
+
 def main() -> int:
     for test in (test_distributia_totalului_e_o_distributie,
                  test_binomiala_negativa_are_coada_mai_groasa,
@@ -121,7 +154,9 @@ def main() -> int:
                  test_modelul_prinde_diferenta_dintre_echipe,
                  test_nu_dam_procente_unde_nu_avem_date,
                  test_echipa_nevazuta_nu_primeste_predictie,
-                 test_calitatea_declarata_e_cea_masurata):
+                 test_calitatea_declarata_e_cea_masurata,
+                 test_factorul_arbitrului,
+                 test_arbitrul_muta_cartonasele_asteptate):
         test()
     if esecuri:
         print(f"ESUAT: {len(esecuri)}")
