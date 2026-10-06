@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-05T21:40:21+00:00",
+ "actualizat": "2026-10-06T06:30:00+00:00",
  "bilete": [
   {
    "date": "2026-10-04",
@@ -18,7 +18,7 @@
      "odds": 1.52,
      "fair_odds": 1.67,
      "historical_hit_rate": 0.653,
-     "won": null
+     "won": false
     },
     {
      "match_id": "NAT1528947",
@@ -34,7 +34,7 @@
      "odds": 1.53,
      "fair_odds": 1.51,
      "historical_hit_rate": 0.601,
-     "won": null
+     "won": true
     },
     {
      "match_id": "P1_20261009_Moreirense_GilVicente",
@@ -73,7 +73,7 @@
    "expected_hit_rate": 0.1738,
    "combined_odds": 5.52,
    "odds_estimated": true,
-   "castigat": null
+   "castigat": false
   },
   {
    "date": "2026-10-05",
@@ -92,7 +92,7 @@
      "odds": 1.52,
      "fair_odds": 1.62,
      "historical_hit_rate": 0.632,
-     "won": null
+     "won": false
     },
     {
      "match_id": "NAT1528951",
@@ -147,7 +147,7 @@
    "expected_hit_rate": 0.1642,
    "combined_odds": 5.87,
    "odds_estimated": true,
-   "castigat": null,
+   "castigat": false,
    "inlocuit": true
   }
  ]

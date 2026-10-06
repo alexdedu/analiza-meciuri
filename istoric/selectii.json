@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-05T21:40:21+00:00",
+ "actualizat": "2026-10-06T06:30:00+00:00",
  "selectii": [
   {
    "cheie": "D1_20260919_EinFrankfurt_Freiburg|over25",
@@ -1004,8 +1004,10 @@
    "odds": 1.49,
    "band": "sub piață",
    "notat_la": "2026-10-03T05:24:56+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": true,
+   "scor": "3-1",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-10-06T06:29:59+00:00"
   },
   {
    "cheie": "NAT1528950|home",
@@ -1020,8 +1022,10 @@
    "odds": 1.54,
    "band": "aproape de piață",
    "notat_la": "2026-10-03T14:22:01+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": false,
+   "scor": "0-0",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-10-06T06:29:59+00:00"
   },
   {
    "cheie": "NAT1528947|under25",
@@ -1036,8 +1040,10 @@
    "odds": 1.53,
    "band": "peste piață",
    "notat_la": "2026-10-04T14:49:53+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": true,
+   "scor": "0-0",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-10-06T06:29:59+00:00"
   },
   {
    "cheie": "NAT1528951|under25",
@@ -1516,8 +1522,10 @@
    "odds": 1.64,
    "band": "peste piață",
    "notat_la": "2026-10-05T18:31:24+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": false,
+   "scor": "0-0",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-10-06T06:30:00+00:00"
   },
   {
    "cheie": "F1_20261010_Brest_Angers|cards_total_over_2.5",
