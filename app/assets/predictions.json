@@ -1,32 +1,10 @@
 {
- "generated_at": "2026-10-06T06:30:00+00:00",
- "recommended_matches": [
-  {
-   "match_id": "NAT1528951",
-   "league_name": "UEFA Nations League",
-   "date": "2026-10-06",
-   "time": "14:00",
-   "home": "Kazakhstan",
-   "away": "Faroe Islands",
-   "picks": [
-    {
-     "family": "goluri",
-     "market": "under25",
-     "market_label": "Sub 2.5 goluri",
-     "probability": 0.6607,
-     "odds": 1.52,
-     "fair_odds": 1.51,
-     "historical_hit_rate": 0.601,
-     "band": "peste piață",
-     "odds_movement": 0.0132
-    }
-   ]
-  }
- ],
+ "generated_at": "2026-10-06T11:31:13+00:00",
+ "recommended_matches": [],
  "ticket_of_the_day": null,
  "ticket_unavailable": {
-  "max_odds": 1.52,
-  "legs_available": 1,
+  "max_odds": 1.0,
+  "legs_available": 0,
   "min_odds": 10.0,
   "days": 3,
   "next_possible": null
@@ -37,27 +15,7 @@
   "won": 0,
   "expected": 0.1738
  },
- "recommendations": [
-  {
-   "match_id": "NAT1528951",
-   "league_name": "UEFA Nations League",
-   "date": "2026-10-06",
-   "time": "14:00",
-   "home": "Kazakhstan",
-   "away": "Faroe Islands",
-   "market": "under25",
-   "market_label": "Sub 2.5 goluri",
-   "probability": 0.6607,
-   "odds": 1.52,
-   "market_probability": 0.6209,
-   "disagreement": 0.0398,
-   "band": "peste piață",
-   "historical_hit_rate": 0.601,
-   "odds_first": 1.54,
-   "odds_movement": 0.0132,
-   "fair_odds": 1.51
-  }
- ],
+ "recommendations": [],
  "count_picks": [],
  "track_record": {
   "total": 64,
@@ -1189,113 +1147,6 @@
  },
  "matches": [
   {
-   "id": "NAT1629005",
-   "league": "NAT_10",
-   "league_name": "Friendlies",
-   "date": "2026-10-06",
-   "time": "11:00",
-   "home": "South Korea",
-   "away": "Uzbekistan",
-   "probs": {
-    "p_home": 0.5329,
-    "p_draw": 0.2729,
-    "p_away": 0.1942,
-    "p_over25": 0.4125,
-    "p_btts": 0.4415,
-    "p_under25": 0.5875,
-    "p_no_btts": 0.5585
-   },
-   "expected_goals": {
-    "home": 1.52,
-    "away": 0.81
-   },
-   "confidence": "ridicata",
-   "sample": {
-    "home_matches": 39,
-    "away_matches": 37
-   },
-   "top_scores": [
-    {
-     "score": "1-0",
-     "p": 0.1407
-    },
-    {
-     "score": "1-1",
-     "p": 0.1266
-    },
-    {
-     "score": "2-0",
-     "p": 0.112
-    },
-    {
-     "score": "0-0",
-     "p": 0.1037
-    },
-    {
-     "score": "2-1",
-     "p": 0.0911
-    }
-   ],
-   "reference_odds": {
-    "home": 1.67,
-    "draw": 3.71,
-    "away": 4.56,
-    "over25": 1.86,
-    "under25": 1.92
-   },
-   "context": {
-    "home": {
-     "form": [
-      "I",
-      "V",
-      "V",
-      "V",
-      "I",
-      "E"
-     ],
-     "goals_for_avg": 1.67,
-     "goals_against_avg": 0.83,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "E",
-      "V",
-      "I",
-      "I",
-      "V",
-      "V"
-     ],
-     "goals_for_avg": 2.33,
-     "goals_against_avg": 1.67,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "h2h": [
-     {
-      "date": "2018-11-20",
-      "home": "Uzbekistan",
-      "away": "South Korea",
-      "score": "0-4"
-     },
-     {
-      "date": "2017-09-05",
-      "home": "Uzbekistan",
-      "away": "South Korea",
-      "score": "0-0"
-     },
-     {
-      "date": "2016-11-15",
-      "home": "South Korea",
-      "away": "Uzbekistan",
-      "score": "2-1"
-     }
-    ]
-   },
-   "explanation": "South Korea e favorita, cu 53% sanse de victorie. Goluri asteptate: 1.52 pentru South Korea, 0.81 pentru Uzbekistan. Fortele sunt estimate dintr-un model antrenat separat pe meciuri intre echipe nationale (7,528 meciuri din 2015 incoace), pentru ca nationalele nu apar in datele de club. South Korea are 39 meciuri in ultimii patru ani, Uzbekistan are 37. Modelul a fost verificat pe meciuri neatinse la antrenare, unde a fost clar mai bun decat ratele de baza, dar pentru nationale nu exista cote istorice, deci nu s-a putut compara cu piata."
-  },
-  {
    "id": "NAT1638603",
    "league": "NAT_10",
    "league_name": "Friendlies",
@@ -1344,9 +1195,9 @@
     }
    ],
    "reference_odds": {
-    "home": 1.69,
+    "home": 1.71,
     "draw": 3.59,
-    "away": 4.6,
+    "away": 4.55,
     "over25": 2.02,
     "under25": 1.77
    },
@@ -1439,11 +1290,11 @@
     }
    ],
    "reference_odds": {
-    "home": 2.43,
-    "draw": 3.0,
+    "home": 2.45,
+    "draw": 3.1,
     "away": 3.1,
-    "over25": 2.49,
-    "under25": 1.52
+    "over25": 2.38,
+    "under25": 1.53
    },
    "context": {
     "home": {
@@ -1540,11 +1391,11 @@
     }
    ],
    "reference_odds": {
-    "home": 47.1,
-    "draw": 19.97,
+    "home": 46.57,
+    "draw": 19.17,
     "away": 1.03,
     "over25": 1.21,
-    "under25": 4.04
+    "under25": 4.02
    },
    "context": {
     "home": {
@@ -1629,8 +1480,8 @@
    ],
    "reference_odds": {
     "home": 1.6,
-    "draw": 3.66,
-    "away": 5.4,
+    "draw": 3.7,
+    "away": 5.47,
     "over25": 2.01,
     "under25": 1.81
    },
@@ -1723,11 +1574,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.97,
-    "draw": 3.24,
-    "away": 3.7,
-    "over25": 2.3,
-    "under25": 1.61
+    "home": 1.95,
+    "draw": 3.33,
+    "away": 3.69,
+    "over25": 2.24,
+    "under25": 1.63
    },
    "context": {
     "home": {
@@ -1812,8 +1663,8 @@
    ],
    "reference_odds": {
     "home": 1.22,
-    "draw": 5.69,
-    "away": 11.84,
+    "draw": 5.72,
+    "away": 11.95,
     "over25": 1.59,
     "under25": 2.34
    },
@@ -1924,11 +1775,11 @@
     }
    ],
    "reference_odds": {
-    "home": 2.32,
-    "draw": 2.93,
-    "away": 3.04,
-    "over25": 2.5,
-    "under25": 1.47
+    "home": 2.36,
+    "draw": 2.9,
+    "away": 3.03,
+    "over25": 2.58,
+    "under25": 1.44
    },
    "context": {
     "home": {
@@ -2043,11 +1894,11 @@
     }
    ],
    "reference_odds": {
-    "home": 10.47,
-    "draw": 6.4,
-    "away": 1.24,
-    "over25": 1.41,
-    "under25": 2.79
+    "home": 8.0,
+    "draw": 6.0,
+    "away": 1.3,
+    "over25": 1.4,
+    "under25": 2.88
    },
    "context": {
     "home": {
@@ -2156,11 +2007,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.11,
-    "draw": 9.35,
-    "away": 21.97,
+    "home": 1.1,
+    "draw": 9.0,
+    "away": 21.0,
     "over25": 1.33,
-    "under25": 3.22
+    "under25": 3.4
    },
    "context": {
     "home": {
@@ -2251,11 +2102,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.03,
-    "draw": 19.78,
-    "away": 51.41,
-    "over25": 1.16,
-    "under25": 4.55
+    "home": 1.02,
+    "draw": 17.0,
+    "away": 51.0,
+    "over25": 1.2,
+    "under25": 4.33
    },
    "context": {
     "home": {
@@ -2358,11 +2209,11 @@
     }
    ],
    "reference_odds": {
-    "home": 3.95,
+    "home": 4.2,
     "draw": 3.2,
-    "away": 1.98,
-    "over25": 2.41,
-    "under25": 1.55
+    "away": 1.95,
+    "over25": 2.38,
+    "under25": 1.53
    },
    "context": {
     "home": {
@@ -2459,11 +2310,11 @@
     }
    ],
    "reference_odds": {
-    "home": 8.04,
-    "draw": 4.62,
-    "away": 1.37,
-    "over25": 1.79,
-    "under25": 2.02
+    "home": 8.0,
+    "draw": 4.5,
+    "away": 1.4,
+    "over25": 1.8,
+    "under25": 2.0
    },
    "context": {
     "home": {
@@ -2554,8 +2405,8 @@
     }
    ],
    "reference_odds": {
-    "home": 5.61,
-    "draw": 3.95,
+    "home": 5.5,
+    "draw": 4.0,
     "away": 1.57,
     "over25": 1.9,
     "under25": 1.9
@@ -2655,11 +2506,11 @@
     }
    ],
    "reference_odds": {
-    "home": 2.12,
-    "draw": 3.19,
-    "away": 3.47,
-    "over25": 2.43,
-    "under25": 1.54
+    "home": 2.2,
+    "draw": 3.25,
+    "away": 3.1,
+    "over25": 2.38,
+    "under25": 1.53
    },
    "context": {
     "home": {
@@ -2774,11 +2625,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.09,
-    "draw": 9.87,
-    "away": 25.85,
+    "home": 1.07,
+    "draw": 10.0,
+    "away": 26.0,
     "over25": 1.4,
-    "under25": 2.81
+    "under25": 2.88
    },
    "context": {
     "home": {
@@ -2869,11 +2720,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.74,
-    "draw": 3.48,
-    "away": 5.0,
-    "over25": 2.31,
-    "under25": 1.61
+    "home": 1.8,
+    "draw": 3.4,
+    "away": 4.5,
+    "over25": 2.3,
+    "under25": 1.6
    },
    "context": {
     "home": {
@@ -2976,11 +2827,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.36,
-    "draw": 3.97,
-    "away": 9.11,
-    "over25": 2.33,
-    "under25": 1.55
+    "home": 1.39,
+    "draw": 3.91,
+    "away": 9.9,
+    "over25": 2.41,
+    "under25": 1.53
    },
    "context": {
     "home": {
@@ -3065,10 +2916,10 @@
    ],
    "reference_odds": {
     "home": 1.17,
-    "draw": 5.96,
-    "away": 16.37,
-    "over25": 1.64,
-    "under25": 2.16
+    "draw": 5.97,
+    "away": 16.54,
+    "over25": 1.68,
+    "under25": 2.11
    },
    "context": {
     "home": {
@@ -3153,10 +3004,10 @@
    ],
    "reference_odds": {
     "home": 1.02,
-    "draw": 15.71,
-    "away": 46.0,
+    "draw": 17.12,
+    "away": 45.0,
     "over25": 1.09,
-    "under25": 6.02
+    "under25": 6.33
    },
    "context": {
     "home": {
@@ -3240,11 +3091,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.52,
-    "draw": 4.21,
-    "away": 5.11,
+    "home": 1.49,
+    "draw": 4.27,
+    "away": 5.26,
     "over25": 1.51,
-    "under25": 2.36
+    "under25": 2.38
    },
    "context": {
     "home": {
@@ -3328,11 +3179,11 @@
     }
    ],
    "reference_odds": {
-    "home": 2.07,
+    "home": 2.13,
     "draw": 3.31,
-    "away": 3.28,
-    "over25": 1.98,
-    "under25": 1.76
+    "away": 3.09,
+    "over25": 2.0,
+    "under25": 1.75
    },
    "context": {
     "home": {
@@ -3433,7 +3284,7 @@
     "draw": 25.07,
     "away": 58.0,
     "over25": 1.08,
-    "under25": 6.57
+    "under25": 6.82
    },
    "context": {
     "home": {
@@ -3518,8 +3369,8 @@
    ],
    "reference_odds": {
     "home": 1.37,
-    "draw": 4.3,
-    "away": 7.81,
+    "draw": 4.32,
+    "away": 7.94,
     "over25": 2.07,
     "under25": 1.73
    },
@@ -3636,11 +3487,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.77,
-    "draw": 3.62,
-    "away": 4.06,
-    "over25": 1.69,
-    "under25": 2.13
+    "home": 1.75,
+    "draw": 3.79,
+    "away": 4.2,
+    "over25": 1.67,
+    "under25": 2.14
    },
    "context": {
     "home": {
@@ -3937,7 +3788,7 @@
    "league": "ROU_Superliga",
    "league_name": "Romania — Superliga",
    "date": "2026-10-08",
-   "time": "17:30",
+   "time": "18:30",
    "home": "CFR Cluj",
    "away": "U. Cluj",
    "probs": {
@@ -3981,11 +3832,9 @@
     }
    ],
    "reference_odds": {
-    "home": 2.35,
-    "draw": 3.3,
-    "away": 2.74,
-    "over25": 1.78,
-    "under25": 2.0
+    "home": 2.32,
+    "draw": 3.33,
+    "away": 2.69
    },
    "context": {
     "home": {
