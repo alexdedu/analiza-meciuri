@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T06:08:57+00:00",
+ "generated_at": "2026-10-07T11:21:05+00:00",
  "recommended_matches": [
   {
    "match_id": "P1_20261009_Moreirense_GilVicente",
@@ -24,7 +24,7 @@
      "family": "cornere",
      "market": "corners_away_over_3.5",
      "market_label": "Gil Vicente peste 3.5 cornere",
-     "probability": 0.6062,
+     "probability": 0.6061,
      "odds": null,
      "fair_odds": 1.65,
      "historical_hit_rate": 0.649,
@@ -1635,23 +1635,23 @@
       },
       {
        "line": 10.5,
-       "over": 0.2834,
-       "under": 0.7166
+       "over": 0.2835,
+       "under": 0.7165
       },
       {
        "line": 11.5,
-       "over": 0.1964,
-       "under": 0.8036
+       "over": 0.1965,
+       "under": 0.8035
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.476
+       "over": 0.4761
       },
       {
        "line": 4.5,
-       "over": 0.3134
+       "over": 0.3135
       },
       {
        "line": 5.5,
@@ -1661,7 +1661,7 @@
      "away": [
       {
        "line": 3.5,
-       "over": 0.6062
+       "over": 0.6061
       },
       {
        "line": 4.5,
@@ -1673,9 +1673,9 @@
       }
      ],
      "winner": {
-      "home": 0.3462,
+      "home": 0.3463,
       "away": 0.5297,
-      "draw": 0.1241
+      "draw": 0.124
      },
      "sample": 912
     },
@@ -1949,13 +1949,13 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.554,
-       "under": 0.446
+       "over": 0.5541,
+       "under": 0.4459
       },
       {
        "line": 3.5,
-       "over": 0.3438,
-       "under": 0.6562
+       "over": 0.3439,
+       "under": 0.6561
       },
       {
        "line": 4.5,
@@ -1971,11 +1971,11 @@
      "home": [
       {
        "line": 1.5,
-       "over": 0.3509
+       "over": 0.351
       },
       {
        "line": 2.5,
-       "over": 0.1398
+       "over": 0.1399
       }
      ],
      "away": [
@@ -1991,7 +1991,7 @@
      "sample": 915,
      "referee": {
       "name": "Joey Kooij",
-      "factor": 1.053,
+      "factor": 1.054,
       "matches": 10
      }
     },
@@ -2162,8 +2162,8 @@
       },
       {
        "line": 11.5,
-       "over": 0.2678,
-       "under": 0.7322
+       "over": 0.2679,
+       "under": 0.7321
       }
      ],
      "home": [
@@ -2183,11 +2183,11 @@
      "away": [
       {
        "line": 3.5,
-       "over": 0.4421
+       "over": 0.4422
       },
       {
        "line": 4.5,
-       "over": 0.2782
+       "over": 0.2783
       },
       {
        "line": 5.5,
@@ -2288,9 +2288,9 @@
     "p_draw": 0.3333,
     "p_away": 0.2903,
     "p_over25": 0.2845,
-    "p_btts": 0.3691,
+    "p_btts": 0.3692,
     "p_under25": 0.7155,
-    "p_no_btts": 0.6309
+    "p_no_btts": 0.6308
    },
    "expected_goals": {
     "home": 1.01,
@@ -2365,63 +2365,63 @@
    "extra_markets": {
     "corners": {
      "expected": {
-      "home": 6.72,
-      "away": 2.95,
+      "home": 6.73,
+      "away": 2.96,
       "total": 9.68
      },
      "total": [
       {
        "line": 8.5,
-       "over": 0.6415,
-       "under": 0.3585
+       "over": 0.6418,
+       "under": 0.3582
       },
       {
        "line": 9.5,
-       "over": 0.5143,
-       "under": 0.4857
+       "over": 0.5147,
+       "under": 0.4853
       },
       {
        "line": 10.5,
-       "over": 0.4064,
-       "under": 0.5936
+       "over": 0.4068,
+       "under": 0.5932
       },
       {
        "line": 11.5,
-       "over": 0.2861,
-       "under": 0.7139
+       "over": 0.2864,
+       "under": 0.7136
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.8388
+       "over": 0.8389
       },
       {
        "line": 4.5,
-       "over": 0.7199
+       "over": 0.7201
       },
       {
        "line": 5.5,
-       "over": 0.5842
+       "over": 0.5844
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.4004
+       "over": 0.4011
       },
       {
        "line": 4.5,
-       "over": 0.2493
+       "over": 0.2499
       },
       {
        "line": 5.5,
-       "over": 0.1421
+       "over": 0.1425
       }
      ],
      "winner": {
-      "home": 0.7713,
-      "away": 0.1602,
+      "home": 0.7711,
+      "away": 0.1604,
       "draw": 0.0685
      },
      "sample": 921
@@ -2643,8 +2643,8 @@
       },
       {
        "line": 11.5,
-       "over": 0.332,
-       "under": 0.668
+       "over": 0.3319,
+       "under": 0.6681
       }
      ],
      "home": [
@@ -2858,37 +2858,37 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.7405,
-       "under": 0.2595
+       "over": 0.7404,
+       "under": 0.2596
       },
       {
        "line": 9.5,
-       "over": 0.6331,
-       "under": 0.3669
+       "over": 0.633,
+       "under": 0.367
       },
       {
        "line": 10.5,
-       "over": 0.5237,
-       "under": 0.4763
+       "over": 0.5236,
+       "under": 0.4764
       },
       {
        "line": 11.5,
-       "over": 0.4207,
-       "under": 0.5793
+       "over": 0.4205,
+       "under": 0.5795
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.8606
+       "over": 0.8605
       },
       {
        "line": 4.5,
-       "over": 0.7628
+       "over": 0.7626
       },
       {
        "line": 5.5,
-       "over": 0.6479
+       "over": 0.6476
       }
      ],
      "away": [
@@ -2898,16 +2898,16 @@
       },
       {
        "line": 4.5,
-       "over": 0.4282
+       "over": 0.4281
       },
       {
        "line": 5.5,
-       "over": 0.2829
+       "over": 0.2828
       }
      ],
      "winner": {
-      "home": 0.7008,
-      "away": 0.2223,
+      "home": 0.7007,
+      "away": 0.2224,
       "draw": 0.0769
      },
      "sample": 1619
@@ -2997,7 +2997,7 @@
    "probs": {
     "p_home": 0.2446,
     "p_draw": 0.3095,
-    "p_away": 0.4458,
+    "p_away": 0.4459,
     "p_over25": 0.3117,
     "p_btts": 0.3782,
     "p_under25": 0.6883,
@@ -3031,7 +3031,7 @@
     },
     {
      "score": "0-2",
-     "p": 0.0967
+     "p": 0.0968
     }
    ],
    "reference_odds": {
@@ -3114,8 +3114,8 @@
      "total": [
       {
        "line": 8.5,
-       "over": 0.6368,
-       "under": 0.3632
+       "over": 0.6367,
+       "under": 0.3633
       },
       {
        "line": 9.5,
@@ -3140,11 +3140,11 @@
       },
       {
        "line": 4.5,
-       "over": 0.6793
+       "over": 0.6792
       },
       {
        "line": 5.5,
-       "over": 0.5482
+       "over": 0.5481
       }
      ],
      "away": [
@@ -3154,7 +3154,7 @@
       },
       {
        "line": 4.5,
-       "over": 0.3583
+       "over": 0.3582
       },
       {
        "line": 5.5,
@@ -3363,20 +3363,20 @@
    "extra_markets": {
     "corners": {
      "expected": {
-      "home": 3.68,
+      "home": 3.69,
       "away": 4.15,
       "total": 7.84
      },
      "total": [
       {
        "line": 8.5,
-       "over": 0.5046,
-       "under": 0.4954
+       "over": 0.5047,
+       "under": 0.4953
       },
       {
        "line": 9.5,
-       "over": 0.3827,
-       "under": 0.6173
+       "over": 0.3828,
+       "under": 0.6172
       },
       {
        "line": 10.5,
@@ -3392,15 +3392,15 @@
      "home": [
       {
        "line": 3.5,
-       "over": 0.5253
+       "over": 0.5254
       },
       {
        "line": 4.5,
-       "over": 0.3579
+       "over": 0.358
       },
       {
        "line": 5.5,
-       "over": 0.2291
+       "over": 0.2292
       }
      ],
      "away": [
@@ -3433,8 +3433,8 @@
      "total": [
       {
        "line": 2.5,
-       "over": 0.8519,
-       "under": 0.1481
+       "over": 0.8518,
+       "under": 0.1482
       },
       {
        "line": 3.5,
@@ -3465,7 +3465,7 @@
      "away": [
       {
        "line": 1.5,
-       "over": 0.7229
+       "over": 0.723
       },
       {
        "line": 2.5,
