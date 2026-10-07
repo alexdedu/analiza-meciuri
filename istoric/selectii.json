@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-06T19:50:28+00:00",
+ "actualizat": "2026-10-07T06:08:57+00:00",
  "selectii": [
   {
    "cheie": "D1_20260919_EinFrankfurt_Freiburg|over25",
@@ -1058,8 +1058,10 @@
    "odds": 1.54,
    "band": "peste piață",
    "notat_la": "2026-10-04T18:22:59+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": false,
+   "scor": "2-2",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-10-07T06:08:56+00:00"
   },
   {
    "cheie": "D1_20261009_Dortmund_WerderBremen|corners_more_home",
@@ -1572,8 +1574,10 @@
    "odds": 1.56,
    "band": "peste piață",
    "notat_la": "2026-10-06T16:00:45+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": false,
+   "scor": "1-2",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-10-07T06:08:56+00:00"
   },
   {
    "cheie": "NAT1545655|over25",
@@ -1588,6 +1592,104 @@
    "odds": 1.45,
    "band": "aproape de piață",
    "notat_la": "2026-10-06T16:00:45+00:00",
+   "castigat": true,
+   "scor": "3-0",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-10-07T06:08:57+00:00"
+  },
+  {
+   "cheie": "E1_20261009_WestHam_QPR|cards_total_under_4.5",
+   "match_id": "E1_20261009_WestHam_QPR",
+   "date": "2026-10-09",
+   "league_name": "Championship",
+   "home": "West Ham",
+   "away": "QPR",
+   "market": "cards_total_under_4.5",
+   "market_label": "sub 4.5 cartonașe în meci",
+   "probability": 0.6865,
+   "odds": null,
+   "band": "cornere/cartonașe",
+   "notat_la": "2026-10-07T06:08:55+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "SP1_20261009_Malaga_Espanol|corners_more_home",
+   "match_id": "SP1_20261009_Malaga_Espanol",
+   "date": "2026-10-09",
+   "league_name": "La Liga",
+   "home": "Malaga",
+   "away": "Espanol",
+   "market": "corners_more_home",
+   "market_label": "Malaga — mai multe cornere",
+   "probability": 0.6732,
+   "odds": null,
+   "band": "cornere/cartonașe",
+   "notat_la": "2026-10-07T06:08:55+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "F1_20261009_Lens_Lyon|corners_more_home",
+   "match_id": "F1_20261009_Lens_Lyon",
+   "date": "2026-10-09",
+   "league_name": "Ligue 1",
+   "home": "Lens",
+   "away": "Lyon",
+   "market": "corners_more_home",
+   "market_label": "Lens — mai multe cornere",
+   "probability": 0.6707,
+   "odds": null,
+   "band": "cornere/cartonașe",
+   "notat_la": "2026-10-07T06:08:55+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "P1_20261009_Moreirense_GilVicente|cards_total_under_5.5",
+   "match_id": "P1_20261009_Moreirense_GilVicente",
+   "date": "2026-10-09",
+   "league_name": "Primeira Liga",
+   "home": "Moreirense",
+   "away": "Gil Vicente",
+   "market": "cards_total_under_5.5",
+   "market_label": "sub 5.5 cartonașe în meci",
+   "probability": 0.6599,
+   "odds": null,
+   "band": "cornere/cartonașe",
+   "notat_la": "2026-10-07T06:08:55+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "F1_20261009_Lens_Lyon|cards_away_over_1.5",
+   "match_id": "F1_20261009_Lens_Lyon",
+   "date": "2026-10-09",
+   "league_name": "Ligue 1",
+   "home": "Lens",
+   "away": "Lyon",
+   "market": "cards_away_over_1.5",
+   "market_label": "Lyon peste 1.5 cartonașe",
+   "probability": 0.6228,
+   "odds": null,
+   "band": "cornere/cartonașe",
+   "notat_la": "2026-10-07T06:08:55+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "SP1_20261009_Malaga_Espanol|cards_total_over_3.5",
+   "match_id": "SP1_20261009_Malaga_Espanol",
+   "date": "2026-10-09",
+   "league_name": "La Liga",
+   "home": "Malaga",
+   "away": "Espanol",
+   "market": "cards_total_over_3.5",
+   "market_label": "peste 3.5 cartonașe în meci",
+   "probability": 0.6055,
+   "odds": null,
+   "band": "cornere/cartonașe",
+   "notat_la": "2026-10-07T06:08:55+00:00",
    "castigat": null,
    "scor": null
   }
