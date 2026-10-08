@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-08T11:38:11+00:00",
+ "actualizat": "2026-10-08T16:31:40+00:00",
  "selectii": [
   {
    "cheie": "D1_20260919_EinFrankfurt_Freiburg|over25",
@@ -1802,6 +1802,22 @@
    "odds": null,
    "band": "cornere/cartonașe",
    "notat_la": "2026-10-08T06:14:01+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "E1_20261010_Blackburn_Cardiff|cards_total_under_4.5",
+   "match_id": "E1_20261010_Blackburn_Cardiff",
+   "date": "2026-10-10",
+   "league_name": "Championship",
+   "home": "Blackburn",
+   "away": "Cardiff",
+   "market": "cards_total_under_4.5",
+   "market_label": "sub 4.5 cartonașe în meci",
+   "probability": 0.658,
+   "odds": null,
+   "band": "cornere/cartonașe",
+   "notat_la": "2026-10-08T16:31:38+00:00",
    "castigat": null,
    "scor": null
   }
