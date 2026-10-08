@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-07T20:10:52+00:00",
+ "actualizat": "2026-10-08T06:14:02+00:00",
  "bilete": [
   {
    "date": "2026-10-04",
@@ -149,6 +149,119 @@
    "odds_estimated": true,
    "castigat": false,
    "inlocuit": true
+  },
+  {
+   "date": "2026-10-08",
+   "rules": "3-zile-cota-10",
+   "legs": [
+    {
+     "match_id": "D1_20261009_Dortmund_WerderBremen",
+     "league_name": "Bundesliga",
+     "date": "2026-10-09",
+     "time": "18:30",
+     "home": "Dortmund",
+     "away": "Werder Bremen",
+     "family": "cartonașe",
+     "market": "cards_away_over_1.5",
+     "market_label": "Werder Bremen peste 1.5 cartonașe",
+     "probability": 0.6066,
+     "odds": null,
+     "fair_odds": 1.65,
+     "estimated_odds": 1.53,
+     "historical_hit_rate": 0.666,
+     "won": null
+    },
+    {
+     "match_id": "E0_20261010_Ipswich_Fulham",
+     "league_name": "Premier League",
+     "date": "2026-10-10",
+     "time": "14:00",
+     "home": "Ipswich",
+     "away": "Fulham",
+     "family": "cornere",
+     "market": "corners_home_over_3.5",
+     "market_label": "Ipswich peste 3.5 cornere",
+     "probability": 0.6012,
+     "odds": null,
+     "fair_odds": 1.66,
+     "estimated_odds": 1.54,
+     "historical_hit_rate": 0.665,
+     "won": null
+    },
+    {
+     "match_id": "E1_20261010_Watford_Burnley",
+     "league_name": "Championship",
+     "date": "2026-10-10",
+     "time": "14:00",
+     "home": "Watford",
+     "away": "Burnley",
+     "family": "cornere",
+     "market": "corners_home_over_3.5",
+     "market_label": "Watford peste 3.5 cornere",
+     "probability": 0.6084,
+     "odds": null,
+     "fair_odds": 1.64,
+     "estimated_odds": 1.53,
+     "historical_hit_rate": 0.665,
+     "won": null
+    },
+    {
+     "match_id": "I1_20261010_Napoli_Frosinone",
+     "league_name": "Serie A",
+     "date": "2026-10-10",
+     "time": "18:45",
+     "home": "Napoli",
+     "away": "Frosinone",
+     "family": "cartonașe",
+     "market": "cards_away_over_1.5",
+     "market_label": "Frosinone peste 1.5 cartonașe",
+     "probability": 0.6098,
+     "odds": null,
+     "fair_odds": 1.64,
+     "estimated_odds": 1.53,
+     "historical_hit_rate": 0.666,
+     "won": null
+    },
+    {
+     "match_id": "SP1_20261010_RealMadrid_Villarreal",
+     "league_name": "La Liga",
+     "date": "2026-10-10",
+     "time": "19:00",
+     "home": "Real Madrid",
+     "away": "Villarreal",
+     "family": "1x2",
+     "market": "home",
+     "market_label": "Victorie Real Madrid",
+     "probability": 0.6446,
+     "odds": 1.66,
+     "fair_odds": 1.55,
+     "estimated_odds": 1.66,
+     "historical_hit_rate": 0.632,
+     "won": null
+    },
+    {
+     "match_id": "P1_20261010_AcademicoViseu_Estoril",
+     "league_name": "Primeira Liga",
+     "date": "2026-10-10",
+     "time": "19:30",
+     "home": "Academico Viseu",
+     "away": "Estoril",
+     "family": "cartonașe",
+     "market": "cards_away_over_1.5",
+     "market_label": "Estoril peste 1.5 cartonașe",
+     "probability": 0.6111,
+     "odds": null,
+     "fair_odds": 1.64,
+     "estimated_odds": 1.53,
+     "historical_hit_rate": 0.666,
+     "won": null
+    }
+   ],
+   "combined_probability": 0.0533,
+   "expected_hit_rate": 0.0826,
+   "combined_odds": 14.01,
+   "odds_estimated": true,
+   "castigat": null
   }
  ]
 }
