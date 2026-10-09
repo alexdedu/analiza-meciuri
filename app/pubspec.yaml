@@ -28,8 +28,8 @@ flutter:
   assets:
     - assets/predictions.json
 
-# Iconita aplicatiei: biletul cu minge (varianta F). Sursele sunt generate de
-# tools/make_icon_v2.py -- "python tools/make_icon_v2.py scrie F".
+# Iconita aplicatiei: biletul cu minge pe galben (varianta G). Sursele sunt generate de
+# tools/make_icon_v2.py -- "python tools/make_icon_v2.py scrie G".
 # Regenerare:  flutter pub run flutter_launcher_icons
 flutter_launcher_icons:
   android: true

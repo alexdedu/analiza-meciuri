@@ -189,7 +189,8 @@ def bare_si_minge(d: ImageDraw.ImageDraw, s: int) -> None:
 VERDE = (34, 197, 94)
 
 
-def bilet_cu_minge(d: ImageDraw.ImageDraw, s: int) -> None:
+def bilet_cu_minge(d: ImageDraw.ImageDraw, s: int, antet=CHIHLIMBAR, eticheta=INDIGO_ADANC,
+                   umbra_c=(10, 8, 40)) -> None:
     """Un bilet de pariuri pe hartie, cu trei selectii bifate, si o minge in colt."""
     strat = Image.new("RGBA", (s, s), (0, 0, 0, 0))
     ds = ImageDraw.Draw(strat)
@@ -206,18 +207,17 @@ def bilet_cu_minge(d: ImageDraw.ImageDraw, s: int) -> None:
         contur += [(x - pas / 2, jos - adanc), (x - pas, jos)]
     umbra = Image.new("RGBA", (s, s), (0, 0, 0, 0))
     ImageDraw.Draw(umbra).polygon([(x + s * 0.02, y + s * 0.025) for x, y in contur],
-                                  fill=(10, 8, 40, 110))
+                                  fill=umbra_c + (110,))
     strat.alpha_composite(umbra)
     ds.polygon(contur, fill=ALB)
     # Coltul de sus rotunjit corect, fara poligon colturos.
     ds.rounded_rectangle([st, sus, dr, sus + s * 0.20], radius=s * 0.05, fill=ALB)
 
     # Antetul: banda chihlimbar.
-    ds.rounded_rectangle([st, sus, dr, sus + s * 0.12], radius=s * 0.05,
-                         fill=CHIHLIMBAR)
-    ds.rectangle([st, sus + s * 0.07, dr, sus + s * 0.12], fill=CHIHLIMBAR)
+    ds.rounded_rectangle([st, sus, dr, sus + s * 0.12], radius=s * 0.05, fill=antet)
+    ds.rectangle([st, sus + s * 0.07, dr, sus + s * 0.12], fill=antet)
     ds.rounded_rectangle([st + s * 0.06, sus + s * 0.045, st + s * 0.30, sus + s * 0.075],
-                         radius=s * 0.015, fill=INDIGO_ADANC)
+                         radius=s * 0.015, fill=eticheta)
 
     # Trei selectii: bifa verde, numele schitat, cota in dreapta.
     for i in range(3):
@@ -250,7 +250,7 @@ def bilet_cu_minge(d: ImageDraw.ImageDraw, s: int) -> None:
     umbra = Image.new("RGBA", (s, s), (0, 0, 0, 0))
     ImageDraw.Draw(umbra).ellipse([cx - r + s * 0.015, cy - r + s * 0.03,
                                    cx + r + s * 0.015, cy + r + s * 0.03],
-                                  fill=(10, 8, 40, 120))
+                                  fill=umbra_c + (120,))
     d._image.alpha_composite(umbra)
     _minge(d._image, cx, cy, r)
 
@@ -265,6 +265,11 @@ CONCEPTE = {
           (INDIGO_HI, INDIGO_LO)),
     "E": ("Bare și minge", bare_si_minge, (INDIGO_HI, INDIGO_LO)),
     "F": ("Bilet cu minge", bilet_cu_minge, (INDIGO_HI, INDIGO_LO)),
+    # Acelasi bilet pe galben: antetul devine indigo, ca sa nu se piarda in fundal.
+    "G": ("Bilet cu minge, pe galben",
+          lambda d, s: bilet_cu_minge(d, s, antet=INDIGO_LO, eticheta=CHIHLIMBAR,
+                                      umbra_c=(120, 53, 15)),
+          ((253, 211, 77), (245, 158, 11))),
 }
 
 
