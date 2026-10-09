@@ -12,9 +12,9 @@ fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,a
 1575456,2026-08-15,P1,2026,Alverca,Estrela,Alverca,Estrela,2,0,3,1,0,1,0,0,7
 1575455,2026-08-15,P1,2026,Academico Viseu,Santa Clara,Academico Viseu,Santa Clara,1,0,1,2,0,0,0,0,4
 1575462,2026-08-15,P1,2026,Rio Ave,FC Porto,Rio Ave,Porto,0,0,0,0,0,0,0,0,13
-1575461,2026-08-16,P1,2026,Nacional,Estoril,Nacional,Estoril,0,2,2,2,0,0,1,0,7
 1575457,2026-08-16,P1,2026,Arouca,Moreirense,Arouca,Moreirense,2,1,2,2,0,0,0,0,7
 1575460,2026-08-16,P1,2026,Famalicao,Maritimo,Famalicao,Maritimo,0,1,1,1,0,0,0,0,3
+1575461,2026-08-16,P1,2026,Nacional,Estoril,Nacional,Estoril,0,2,2,2,0,0,1,0,7
 1575459,2026-08-17,P1,2026,Casa Pia,Benfica,Casa Pia,Benfica,0,3,0,0,0,1,0,0,4
 1575464,2026-08-22,P1,2026,Estoril,Rio Ave,Estoril,Rio Ave,0,1,0,1,0,0,0,0,2
 1575471,2026-08-22,P1,2026,Sporting CP,Alverca,Sp Lisbon,Alverca,1,0,2,1,0,0,0,0,4
@@ -27,11 +27,11 @@ fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,a
 1575474,2026-08-29,P1,2026,Alverca,Santa Clara,Alverca,Santa Clara,0,1,0,2,0,0,0,0,3
 1575475,2026-08-29,P1,2026,Arouca,Maritimo,Arouca,Maritimo,0,2,1,0,0,0,0,0,3
 1575473,2026-08-29,P1,2026,Academico Viseu,FC Porto,Academico Viseu,Porto,0,0,0,0,0,0,0,0,13
-1575480,2026-08-30,P1,2026,Nacional,Estrela,Nacional,Estrela,1,1,0,1,0,0,0,0,3
 1575478,2026-08-30,P1,2026,Casa Pia,Moreirense,Casa Pia,Moreirense,0,1,1,2,0,0,0,0,4
 1575479,2026-08-30,P1,2026,Famalicao,GIL Vicente,Famalicao,Gil Vicente,0,2,2,2,0,0,0,0,6
-1575477,2026-08-31,P1,2026,SC Braga,Vitória SC,Sp Braga,Guimaraes,1,1,1,2,0,0,0,0,5
+1575480,2026-08-30,P1,2026,Nacional,Estrela,Nacional,Estrela,1,1,0,1,0,0,0,0,3
 1575476,2026-08-31,P1,2026,Benfica,Estoril,Benfica,Estoril,0,0,0,1,0,0,0,0,1
+1575477,2026-08-31,P1,2026,SC Braga,Vitória SC,Sp Braga,Guimaraes,1,1,1,2,0,0,0,0,5
 1575485,2026-09-04,P1,2026,FC Porto,Moreirense,Porto,Moreirense,0,1,1,1,0,0,0,1,4
 1575484,2026-09-05,P1,2026,Estrela,Famalicao,Estrela,Famalicao,2,1,0,2,0,0,0,0,5
 1575482,2026-09-05,P1,2026,Alverca,SC Braga,Alverca,Sp Braga,1,0,1,3,0,0,0,0,5
@@ -46,9 +46,9 @@ fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,a
 1575498,2026-09-12,P1,2026,Nacional,Alverca,Nacional,Alverca,0,0,1,2,0,0,0,0,3
 1575495,2026-09-12,P1,2026,Casa Pia,FC Porto,Casa Pia,Porto,0,4,1,0,0,0,0,0,5
 1575491,2026-09-12,P1,2026,Academico Viseu,Vitória SC,Academico Viseu,Guimaraes,0,4,1,2,0,0,0,1,8
+1575493,2026-09-13,P1,2026,Benfica,GIL Vicente,Benfica,Gil Vicente,1,1,1,2,0,0,0,0,5
 1575496,2026-09-13,P1,2026,Famalicao,Sporting CP,Famalicao,Sp Lisbon,1,1,0,4,0,1,0,0,7
 1575492,2026-09-13,P1,2026,Arouca,Santa Clara,Arouca,Santa Clara,0,3,1,4,0,0,0,1,9
-1575493,2026-09-13,P1,2026,Benfica,GIL Vicente,Benfica,Gil Vicente,1,1,1,2,0,0,0,0,5
 1575499,2026-09-14,P1,2026,Rio Ave,Estrela,Rio Ave,Estrela,1,1,1,2,0,0,0,0,5
 1575497,2026-09-14,P1,2026,Moreirense,Maritimo,Moreirense,Maritimo,1,0,1,2,0,0,0,0,4
 1575494,2026-09-14,P1,2026,SC Braga,Estoril,Sp Braga,Estoril,0,0,1,3,0,0,0,1,5
@@ -56,8 +56,9 @@ fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,a
 1575505,2026-09-19,P1,2026,Nacional,Famalicao,Nacional,Famalicao,0,3,1,2,0,1,0,0,7
 1575500,2026-09-19,P1,2026,Alverca,Rio Ave,Alverca,Rio Ave,0,2,0,2,0,0,0,0,4
 1575507,2026-09-19,P1,2026,Sporting CP,Arouca,Sp Lisbon,Arouca,0,4,2,3,0,1,0,0,10
+1575503,2026-09-20,P1,2026,FC Porto,Benfica,Porto,Benfica,1,2,3,2,0,0,1,0,9
 1575502,2026-09-20,P1,2026,Estrela,Academico Viseu,Estrela,Academico Viseu,1,1,1,2,0,0,0,0,5
 1575508,2026-09-20,P1,2026,Vitória SC,Moreirense,Guimaraes,Moreirense,0,0,0,0,0,0,0,0,12
 1575501,2026-09-20,P1,2026,Estoril,Casa Pia,Estoril,Casa Pia,1,2,0,2,0,0,0,0,5
 1575506,2026-09-20,P1,2026,Santa Clara,SC Braga,Santa Clara,Sp Braga,1,3,1,2,0,0,0,0,7
-1575503,2026-09-20,P1,2026,FC Porto,Benfica,Porto,Benfica,1,2,3,2,0,0,1,0,9
+1575516,2026-10-09,P1,2026,Moreirense,GIL Vicente,Moreirense,Gil Vicente,0,3,1,3,0,0,0,0,17
