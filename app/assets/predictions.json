@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-09T06:17:18+00:00",
+ "generated_at": "2026-10-09T11:31:10+00:00",
  "recommended_matches": [
   {
    "match_id": "E1_20261011_Southampton_Portsmouth",
    "league_name": "Championship",
    "date": "2026-10-11",
-   "time": "11:00",
+   "time": "12:00",
    "home": "Southampton",
    "away": "Portsmouth",
    "picks": [
@@ -14,22 +14,22 @@
      "market": "home",
      "market_label": "Victorie Southampton",
      "probability": 0.6102,
-     "odds": 1.58,
+     "odds": 1.57,
      "fair_odds": 1.64,
      "historical_hit_rate": 0.632,
      "band": "aproape de piață",
-     "odds_movement": 0.0
+     "odds_movement": 0.0064
     },
     {
      "family": "goluri",
      "market": "over25",
      "market_label": "Peste 2.5 goluri",
      "probability": 0.6104,
-     "odds": 1.64,
+     "odds": 1.63,
      "fair_odds": 1.64,
      "historical_hit_rate": 0.601,
      "band": "peste piață",
-     "odds_movement": 0.0
+     "odds_movement": 0.0061
     },
     {
      "family": "cornere",
@@ -48,7 +48,7 @@
    "match_id": "P1_20261009_Moreirense_GilVicente",
    "league_name": "Primeira Liga",
    "date": "2026-10-09",
-   "time": "17:45",
+   "time": "18:45",
    "home": "Moreirense",
    "away": "Gil Vicente",
    "picks": [
@@ -57,11 +57,11 @@
      "market": "under25",
      "market_label": "Sub 2.5 goluri",
      "probability": 0.6154,
-     "odds": 1.65,
+     "odds": 1.55,
      "fair_odds": 1.62,
-     "historical_hit_rate": 0.601,
-     "band": "peste piață",
-     "odds_movement": -0.0303
+     "historical_hit_rate": 0.632,
+     "band": "aproape de piață",
+     "odds_movement": 0.0323
     },
     {
      "family": "cornere",
@@ -88,53 +88,10 @@
    ]
   },
   {
-   "match_id": "F1_20261011_Rennes_Auxerre",
-   "league_name": "Ligue 1",
-   "date": "2026-10-11",
-   "time": "15:15",
-   "home": "Rennes",
-   "away": "Auxerre",
-   "picks": [
-    {
-     "family": "goluri",
-     "market": "over25",
-     "market_label": "Peste 2.5 goluri",
-     "probability": 0.6057,
-     "odds": 1.48,
-     "fair_odds": 1.65,
-     "historical_hit_rate": 0.653,
-     "band": "sub piață",
-     "odds_movement": 0.0
-    },
-    {
-     "family": "cornere",
-     "market": "corners_more_home",
-     "market_label": "Rennes — mai multe cornere",
-     "probability": 0.657,
-     "odds": null,
-     "fair_odds": 1.52,
-     "historical_hit_rate": 0.649,
-     "band": "",
-     "odds_movement": null
-    },
-    {
-     "family": "cartonașe",
-     "market": "cards_total_over_3.5",
-     "market_label": "peste 3.5 cartonașe în meci",
-     "probability": 0.6093,
-     "odds": null,
-     "fair_odds": 1.64,
-     "historical_hit_rate": 0.637,
-     "band": "",
-     "odds_movement": null
-    }
-   ]
-  },
-  {
    "match_id": "E0_20261010_Chelsea_Bournemouth",
    "league_name": "Premier League",
    "date": "2026-10-10",
-   "time": "14:00",
+   "time": "15:00",
    "home": "Chelsea",
    "away": "Bournemouth",
    "picks": [
@@ -174,23 +131,45 @@
    ]
   },
   {
-   "match_id": "N1_20261011_Utrecht_WillemII",
-   "league_name": "Eredivisie",
+   "match_id": "F1_20261011_Rennes_Auxerre",
+   "league_name": "Ligue 1",
    "date": "2026-10-11",
-   "time": "10:15",
-   "home": "Utrecht",
-   "away": "Willem II",
+   "time": "16:15",
+   "home": "Rennes",
+   "away": "Auxerre",
    "picks": [
     {
      "family": "goluri",
      "market": "over25",
      "market_label": "Peste 2.5 goluri",
-     "probability": 0.6354,
-     "odds": 1.45,
-     "fair_odds": 1.57,
+     "probability": 0.6057,
+     "odds": 1.47,
+     "fair_odds": 1.65,
      "historical_hit_rate": 0.653,
      "band": "sub piață",
-     "odds_movement": 0.0
+     "odds_movement": 0.0068
+    },
+    {
+     "family": "cornere",
+     "market": "corners_more_home",
+     "market_label": "Rennes — mai multe cornere",
+     "probability": 0.657,
+     "odds": null,
+     "fair_odds": 1.52,
+     "historical_hit_rate": 0.649,
+     "band": "",
+     "odds_movement": null
+    },
+    {
+     "family": "cartonașe",
+     "market": "cards_total_over_3.5",
+     "market_label": "peste 3.5 cartonașe în meci",
+     "probability": 0.6093,
+     "odds": null,
+     "fair_odds": 1.64,
+     "historical_hit_rate": 0.637,
+     "band": "",
+     "odds_movement": null
     }
    ]
   },
@@ -198,7 +177,7 @@
    "match_id": "D1_20261011_FCKoln_M'gladbach",
    "league_name": "Bundesliga",
    "date": "2026-10-11",
-   "time": "13:30",
+   "time": "14:30",
    "home": "FC Koln",
    "away": "M'gladbach",
    "picks": [
@@ -207,11 +186,11 @@
      "market": "over25",
      "market_label": "Peste 2.5 goluri",
      "probability": 0.6563,
-     "odds": 1.48,
+     "odds": 1.47,
      "fair_odds": 1.52,
      "historical_hit_rate": 0.601,
      "band": "peste piață",
-     "odds_movement": 0.0
+     "odds_movement": 0.0068
     },
     {
      "family": "cornere",
@@ -232,6 +211,27 @@
      "odds": null,
      "fair_odds": 1.59,
      "historical_hit_rate": 0.666,
+     "band": "",
+     "odds_movement": null
+    }
+   ]
+  },
+  {
+   "match_id": "F1_20261010_ParisSG_LeMans",
+   "league_name": "Ligue 1",
+   "date": "2026-10-10",
+   "time": "19:45",
+   "home": "Paris SG",
+   "away": "Le Mans",
+   "picks": [
+    {
+     "family": "cartonașe",
+     "market": "cards_total_over_2.5",
+     "market_label": "peste 2.5 cartonașe în meci",
+     "probability": 0.6987,
+     "odds": null,
+     "fair_odds": 1.43,
+     "historical_hit_rate": 0.671,
      "band": "",
      "odds_movement": null
     }
@@ -363,83 +363,64 @@
    "match_id": "E1_20261011_Southampton_Portsmouth",
    "league_name": "Championship",
    "date": "2026-10-11",
-   "time": "11:00",
+   "time": "12:00",
    "home": "Southampton",
    "away": "Portsmouth",
    "market": "home",
    "market_label": "Victorie Southampton",
    "probability": 0.6102,
-   "odds": 1.58,
-   "market_probability": 0.5904,
-   "disagreement": 0.0198,
+   "odds": 1.57,
+   "market_probability": 0.5951,
+   "disagreement": 0.0151,
    "band": "aproape de piață",
    "historical_hit_rate": 0.632,
    "odds_first": 1.58,
-   "odds_movement": 0.0,
+   "odds_movement": 0.0064,
+   "fair_odds": 1.64
+  },
+  {
+   "match_id": "E1_20261011_Southampton_Portsmouth",
+   "league_name": "Championship",
+   "date": "2026-10-11",
+   "time": "12:00",
+   "home": "Southampton",
+   "away": "Portsmouth",
+   "market": "over25",
+   "market_label": "Peste 2.5 goluri",
+   "probability": 0.6104,
+   "odds": 1.63,
+   "market_probability": 0.5733,
+   "disagreement": 0.0371,
+   "band": "peste piață",
+   "historical_hit_rate": 0.601,
+   "odds_first": 1.64,
+   "odds_movement": 0.0061,
    "fair_odds": 1.64
   },
   {
    "match_id": "P1_20261009_Moreirense_GilVicente",
    "league_name": "Primeira Liga",
    "date": "2026-10-09",
-   "time": "17:45",
+   "time": "18:45",
    "home": "Moreirense",
    "away": "Gil Vicente",
    "market": "under25",
    "market_label": "Sub 2.5 goluri",
    "probability": 0.6154,
-   "odds": 1.65,
-   "market_probability": 0.5747,
-   "disagreement": 0.0407,
-   "band": "peste piață",
-   "historical_hit_rate": 0.601,
+   "odds": 1.55,
+   "market_probability": 0.6005,
+   "disagreement": 0.0149,
+   "band": "aproape de piață",
+   "historical_hit_rate": 0.632,
    "odds_first": 1.6,
-   "odds_movement": -0.0303,
+   "odds_movement": 0.0323,
    "fair_odds": 1.62
-  },
-  {
-   "match_id": "E1_20261011_Southampton_Portsmouth",
-   "league_name": "Championship",
-   "date": "2026-10-11",
-   "time": "11:00",
-   "home": "Southampton",
-   "away": "Portsmouth",
-   "market": "over25",
-   "market_label": "Peste 2.5 goluri",
-   "probability": 0.6104,
-   "odds": 1.64,
-   "market_probability": 0.574,
-   "disagreement": 0.0364,
-   "band": "peste piață",
-   "historical_hit_rate": 0.601,
-   "odds_first": 1.64,
-   "odds_movement": 0.0,
-   "fair_odds": 1.64
-  },
-  {
-   "match_id": "F1_20261011_Rennes_Auxerre",
-   "league_name": "Ligue 1",
-   "date": "2026-10-11",
-   "time": "15:15",
-   "home": "Rennes",
-   "away": "Auxerre",
-   "market": "over25",
-   "market_label": "Peste 2.5 goluri",
-   "probability": 0.6057,
-   "odds": 1.48,
-   "market_probability": 0.6355,
-   "disagreement": -0.0298,
-   "band": "sub piață",
-   "historical_hit_rate": 0.653,
-   "odds_first": 1.48,
-   "odds_movement": 0.0,
-   "fair_odds": 1.65
   },
   {
    "match_id": "E0_20261010_Chelsea_Bournemouth",
    "league_name": "Premier League",
    "date": "2026-10-10",
-   "time": "14:00",
+   "time": "15:00",
    "home": "Chelsea",
    "away": "Bournemouth",
    "market": "over25",
@@ -455,50 +436,63 @@
    "fair_odds": 1.62
   },
   {
-   "match_id": "N1_20261011_Utrecht_WillemII",
-   "league_name": "Eredivisie",
+   "match_id": "F1_20261011_Rennes_Auxerre",
+   "league_name": "Ligue 1",
    "date": "2026-10-11",
-   "time": "10:15",
-   "home": "Utrecht",
-   "away": "Willem II",
+   "time": "16:15",
+   "home": "Rennes",
+   "away": "Auxerre",
    "market": "over25",
    "market_label": "Peste 2.5 goluri",
-   "probability": 0.6354,
-   "odds": 1.45,
-   "market_probability": 0.6429,
-   "disagreement": -0.0075,
+   "probability": 0.6057,
+   "odds": 1.47,
+   "market_probability": 0.6352,
+   "disagreement": -0.0295,
    "band": "sub piață",
    "historical_hit_rate": 0.653,
-   "odds_first": 1.45,
-   "odds_movement": 0.0,
-   "fair_odds": 1.57
+   "odds_first": 1.48,
+   "odds_movement": 0.0068,
+   "fair_odds": 1.65
   },
   {
    "match_id": "D1_20261011_FCKoln_M'gladbach",
    "league_name": "Bundesliga",
    "date": "2026-10-11",
-   "time": "13:30",
+   "time": "14:30",
    "home": "FC Koln",
    "away": "M'gladbach",
    "market": "over25",
    "market_label": "Peste 2.5 goluri",
    "probability": 0.6563,
-   "odds": 1.48,
-   "market_probability": 0.6346,
-   "disagreement": 0.0217,
+   "odds": 1.47,
+   "market_probability": 0.6352,
+   "disagreement": 0.0211,
    "band": "peste piață",
    "historical_hit_rate": 0.601,
    "odds_first": 1.48,
-   "odds_movement": 0.0,
+   "odds_movement": 0.0068,
    "fair_odds": 1.52
   }
  ],
  "count_picks": [
   {
+   "match_id": "F1_20261010_ParisSG_LeMans",
+   "league_name": "Ligue 1",
+   "date": "2026-10-10",
+   "time": "19:45",
+   "home": "Paris SG",
+   "away": "Le Mans",
+   "market": "cards_total_over_2.5",
+   "market_label": "peste 2.5 cartonașe în meci",
+   "probability": 0.6987,
+   "fair_odds": 1.43,
+   "historical_hit_rate": 0.671
+  },
+  {
    "match_id": "F1_20261011_Rennes_Auxerre",
    "league_name": "Ligue 1",
    "date": "2026-10-11",
-   "time": "15:15",
+   "time": "16:15",
    "home": "Rennes",
    "away": "Auxerre",
    "market": "corners_more_home",
@@ -511,7 +505,7 @@
    "match_id": "P1_20261009_Moreirense_GilVicente",
    "league_name": "Primeira Liga",
    "date": "2026-10-09",
-   "time": "17:45",
+   "time": "18:45",
    "home": "Moreirense",
    "away": "Gil Vicente",
    "market": "cards_away_over_1.5",
@@ -524,7 +518,7 @@
    "match_id": "D1_20261011_FCKoln_M'gladbach",
    "league_name": "Bundesliga",
    "date": "2026-10-11",
-   "time": "13:30",
+   "time": "14:30",
    "home": "FC Koln",
    "away": "M'gladbach",
    "market": "corners_more_home",
@@ -532,19 +526,6 @@
    "probability": 0.6284,
    "fair_odds": 1.59,
    "historical_hit_rate": 0.649
-  },
-  {
-   "match_id": "D1_20261011_FCKoln_M'gladbach",
-   "league_name": "Bundesliga",
-   "date": "2026-10-11",
-   "time": "13:30",
-   "home": "FC Koln",
-   "away": "M'gladbach",
-   "market": "cards_away_over_1.5",
-   "market_label": "M'gladbach peste 1.5 cartonașe",
-   "probability": 0.6283,
-   "fair_odds": 1.59,
-   "historical_hit_rate": 0.666
   }
  ],
  "track_record": {
@@ -1681,20 +1662,20 @@
    "league": "ROU_Superliga",
    "league_name": "Romania — Superliga",
    "date": "2026-10-09",
-   "time": "15:00",
+   "time": "16:00",
    "home": "Corvinul",
    "away": "FC Voluntari",
    "probs": {
-    "p_home": 0.691,
-    "p_draw": 0.2004,
-    "p_away": 0.1087,
-    "p_over25": 0.5004,
-    "p_btts": 0.4207,
-    "p_under25": 0.4996,
-    "p_no_btts": 0.5793
+    "p_home": 0.6859,
+    "p_draw": 0.2027,
+    "p_away": 0.1114,
+    "p_over25": 0.4967,
+    "p_btts": 0.4214,
+    "p_under25": 0.5033,
+    "p_no_btts": 0.5786
    },
    "expected_goals": {
-    "home": 2.02,
+    "home": 2.0,
     "away": 0.66
    },
    "confidence": "scazuta",
@@ -1705,31 +1686,29 @@
    "top_scores": [
     {
      "score": "2-0",
-     "p": 0.1401
+     "p": 0.1394
     },
     {
      "score": "1-0",
-     "p": 0.1365
-    },
-    {
-     "score": "3-0",
-     "p": 0.0942
+     "p": 0.1373
     },
     {
      "score": "1-1",
-     "p": 0.0939
+     "p": 0.0949
+    },
+    {
+     "score": "3-0",
+     "p": 0.0928
     },
     {
      "score": "2-1",
-     "p": 0.0923
+     "p": 0.0925
     }
    ],
    "reference_odds": {
     "home": 1.64,
     "draw": 3.7,
-    "away": 4.77,
-    "over25": 1.83,
-    "under25": 1.94
+    "away": 4.62
    },
    "context": {
     "home": {
@@ -1762,14 +1741,14 @@
     },
     "h2h": []
    },
-   "explanation": "Corvinul e favorita, cu 69% sanse de victorie. Goluri asteptate: 2.02 pentru Corvinul, 0.66 pentru FC Voluntari. Forma recenta — Corvinul: VEEIIV, FC Voluntari: IIEVII (cel mai recent meci la dreapta). In clasamentul intern al modelului, Corvinul e pe locul 13 la atac, FC Voluntari pe 14, din 25 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+   "explanation": "Corvinul e favorita, cu 69% sanse de victorie. Goluri asteptate: 2.00 pentru Corvinul, 0.66 pentru FC Voluntari. Forma recenta — Corvinul: VEEIIV, FC Voluntari: IIEVII (cel mai recent meci la dreapta). In clasamentul intern al modelului, Corvinul e pe locul 14 la atac, FC Voluntari pe 15, din 25 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
   },
   {
    "id": "P1_20261009_Moreirense_GilVicente",
    "league": "P1",
    "league_name": "Primeira Liga",
    "date": "2026-10-09",
-   "time": "17:45",
+   "time": "18:45",
    "home": "Moreirense",
    "away": "Gil Vicente",
    "probs": {
@@ -1813,11 +1792,11 @@
     }
    ],
    "reference_odds": {
-    "home": 3.25,
-    "draw": 3.18,
-    "away": 2.24,
-    "over25": 2.23,
-    "under25": 1.65
+    "home": 3.2,
+    "draw": 3.08,
+    "away": 2.29,
+    "over25": 2.33,
+    "under25": 1.55
    },
    "context": {
     "home": {
@@ -2030,7 +2009,7 @@
    "league": "N1",
    "league_name": "Eredivisie",
    "date": "2026-10-09",
-   "time": "18:00",
+   "time": "19:00",
    "home": "PSV Eindhoven",
    "away": "Heerenveen",
    "probs": {
@@ -2074,11 +2053,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.23,
-    "draw": 7.04,
-    "away": 9.23,
-    "over25": 1.14,
-    "under25": 5.23
+    "home": 1.26,
+    "draw": 6.41,
+    "away": 7.7,
+    "over25": 1.16,
+    "under25": 4.72
    },
    "context": {
     "home": {
@@ -2291,20 +2270,20 @@
    "league": "ROU_Superliga",
    "league_name": "Romania — Superliga",
    "date": "2026-10-09",
-   "time": "18:00",
+   "time": "19:00",
    "home": "Sepsi Sf. Gheorghe",
    "away": "Dinamo Bucuresti",
    "probs": {
-    "p_home": 0.2112,
-    "p_draw": 0.2757,
-    "p_away": 0.5131,
-    "p_over25": 0.3929,
-    "p_btts": 0.4301,
-    "p_under25": 0.6071,
-    "p_no_btts": 0.5699
+    "p_home": 0.2084,
+    "p_draw": 0.2751,
+    "p_away": 0.5165,
+    "p_over25": 0.3912,
+    "p_btts": 0.4272,
+    "p_under25": 0.6088,
+    "p_no_btts": 0.5728
    },
    "expected_goals": {
-    "home": 0.82,
+    "home": 0.81,
     "away": 1.44
    },
    "confidence": "medie",
@@ -2315,26 +2294,30 @@
    "top_scores": [
     {
      "score": "0-1",
-     "p": 0.1471
+     "p": 0.1485
     },
     {
      "score": "1-1",
-     "p": 0.1265
+     "p": 0.126
     },
     {
      "score": "0-2",
-     "p": 0.108
+     "p": 0.1092
     },
     {
      "score": "0-0",
-     "p": 0.1077
+     "p": 0.1082
     },
     {
      "score": "1-2",
      "p": 0.0886
     }
    ],
-   "reference_odds": {},
+   "reference_odds": {
+    "home": 5.11,
+    "draw": 3.9,
+    "away": 1.55
+   },
    "context": {
     "home": {
      "form": [
@@ -2366,14 +2349,14 @@
     },
     "h2h": []
    },
-   "explanation": "Dinamo Bucuresti e favorita, cu 51% sanse de victorie. Goluri asteptate: 0.82 pentru Sepsi Sf. Gheorghe, 1.44 pentru Dinamo Bucuresti. Forma recenta — Sepsi Sf. Gheorghe: EEVIVI, Dinamo Bucuresti: VVEVVV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Sepsi Sf. Gheorghe e pe locul 18 la atac, Dinamo Bucuresti pe 2, din 25 echipe. Se asteapta un meci inchis: 61% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+   "explanation": "Dinamo Bucuresti e favorita, cu 52% sanse de victorie. Goluri asteptate: 0.81 pentru Sepsi Sf. Gheorghe, 1.44 pentru Dinamo Bucuresti. Forma recenta — Sepsi Sf. Gheorghe: EEVIVI, Dinamo Bucuresti: VVEVVV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Sepsi Sf. Gheorghe e pe locul 18 la atac, Dinamo Bucuresti pe 2, din 25 echipe. Se asteapta un meci inchis: 61% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
   },
   {
    "id": "D1_20261009_Dortmund_WerderBremen",
    "league": "D1",
    "league_name": "Bundesliga",
    "date": "2026-10-09",
-   "time": "18:30",
+   "time": "19:30",
    "home": "Dortmund",
    "away": "Werder Bremen",
    "probs": {
@@ -2418,10 +2401,10 @@
    ],
    "reference_odds": {
     "home": 1.32,
-    "draw": 5.56,
-    "away": 8.3,
-    "over25": 1.38,
-    "under25": 2.94
+    "draw": 5.57,
+    "away": 8.15,
+    "over25": 1.37,
+    "under25": 2.98
    },
    "context": {
     "home": {
@@ -2634,7 +2617,7 @@
    "league": "B1",
    "league_name": "Jupiler Pro League",
    "date": "2026-10-09",
-   "time": "18:45",
+   "time": "19:45",
    "home": "Beveren",
    "away": "Lommel SK",
    "probs": {
@@ -2678,11 +2661,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.82,
-    "draw": 3.73,
-    "away": 3.92,
-    "over25": 1.64,
-    "under25": 2.21
+    "home": 1.8,
+    "draw": 3.79,
+    "away": 3.86,
+    "over25": 1.55,
+    "under25": 2.33
    },
    "context": {
     "home": {
@@ -2859,7 +2842,7 @@
    "league": "F1",
    "league_name": "Ligue 1",
    "date": "2026-10-09",
-   "time": "18:45",
+   "time": "19:45",
    "home": "Lens",
    "away": "Lyon",
    "probs": {
@@ -2903,11 +2886,11 @@
     }
    ],
    "reference_odds": {
-    "home": 2.35,
-    "draw": 3.67,
-    "away": 2.79,
+    "home": 2.38,
+    "draw": 3.68,
+    "away": 2.7,
     "over25": 1.51,
-    "under25": 2.51
+    "under25": 2.46
    },
    "context": {
     "home": {
@@ -3120,7 +3103,7 @@
    "league": "E1",
    "league_name": "Championship",
    "date": "2026-10-09",
-   "time": "19:00",
+   "time": "20:00",
    "home": "West Ham",
    "away": "QPR",
    "probs": {
@@ -3164,11 +3147,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.48,
-    "draw": 4.5,
-    "away": 5.79,
-    "over25": 1.52,
-    "under25": 2.44
+    "home": 1.45,
+    "draw": 4.68,
+    "away": 6.18,
+    "over25": 1.51,
+    "under25": 2.46
    },
    "context": {
     "home": {
@@ -3350,7 +3333,7 @@
    "league": "SP1",
    "league_name": "La Liga",
    "date": "2026-10-09",
-   "time": "19:00",
+   "time": "20:00",
    "home": "Malaga",
    "away": "Espanol",
    "probs": {
@@ -3394,10 +3377,10 @@
     }
    ],
    "reference_odds": {
-    "home": 2.72,
-    "draw": 3.2,
-    "away": 2.69,
-    "over25": 2.08,
+    "home": 2.8,
+    "draw": 3.18,
+    "away": 2.57,
+    "over25": 2.0,
     "under25": 1.76
    },
    "context": {
@@ -3611,7 +3594,7 @@
    "league": "P1",
    "league_name": "Primeira Liga",
    "date": "2026-10-09",
-   "time": "19:15",
+   "time": "20:15",
    "home": "Sp Braga",
    "away": "Sp Lisbon",
    "probs": {
@@ -3655,11 +3638,11 @@
     }
    ],
    "reference_odds": {
-    "home": 3.3,
-    "draw": 3.47,
-    "away": 2.1,
-    "over25": 1.86,
-    "under25": 1.94
+    "home": 3.04,
+    "draw": 3.25,
+    "away": 2.28,
+    "over25": 2.0,
+    "under25": 1.74
    },
    "context": {
     "home": {
@@ -3872,7 +3855,7 @@
    "league": "E0",
    "league_name": "Premier League",
    "date": "2026-10-10",
-   "time": "11:30",
+   "time": "12:30",
    "home": "Arsenal",
    "away": "Leeds",
    "probs": {
@@ -3916,11 +3899,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.39,
-    "draw": 4.84,
-    "away": 7.88,
-    "over25": 1.83,
-    "under25": 2.0
+    "home": 1.38,
+    "draw": 4.78,
+    "away": 7.89,
+    "over25": 1.79,
+    "under25": 1.96
    },
    "context": {
     "home": {
@@ -4129,533 +4112,11 @@
    }
   },
   {
-   "id": "E1_20261010_WestBrom_Birmingham",
-   "league": "E1",
-   "league_name": "Championship",
-   "date": "2026-10-10",
-   "time": "11:30",
-   "home": "West Brom",
-   "away": "Birmingham",
-   "probs": {
-    "p_home": 0.3944,
-    "p_draw": 0.3088,
-    "p_away": 0.2967,
-    "p_over25": 0.3799,
-    "p_btts": 0.4541,
-    "p_under25": 0.6201,
-    "p_no_btts": 0.5459
-   },
-   "expected_goals": {
-    "home": 1.2,
-    "away": 1.01
-   },
-   "confidence": "ridicata",
-   "sample": {
-    "home_matches": 135,
-    "away_matches": 89
-   },
-   "top_scores": [
-    {
-     "score": "1-1",
-     "p": 0.1429
-    },
-    {
-     "score": "1-0",
-     "p": 0.1219
-    },
-    {
-     "score": "0-0",
-     "p": 0.1198
-    },
-    {
-     "score": "0-1",
-     "p": 0.1005
-    },
-    {
-     "score": "2-1",
-     "p": 0.0799
-    }
-   ],
-   "reference_odds": {
-    "home": 2.35,
-    "draw": 3.31,
-    "away": 2.93,
-    "over25": 1.96,
-    "under25": 1.82
-   },
-   "context": {
-    "home": {
-     "form": [
-      "I",
-      "E",
-      "V",
-      "V",
-      "E",
-      "I"
-     ],
-     "goals_for_avg": 0.83,
-     "goals_against_avg": 1.0,
-     "shots_on_target_avg": 3.17,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "V",
-      "E",
-      "E",
-      "I",
-      "V",
-      "E"
-     ],
-     "goals_for_avg": 1.67,
-     "goals_against_avg": 1.5,
-     "shots_on_target_avg": 5.0,
-     "matches_analysed": 6
-    },
-    "h2h": [
-     {
-      "date": "2026-02-10",
-      "home": "Birmingham",
-      "away": "West Brom",
-      "score": "0-0"
-     },
-     {
-      "date": "2025-11-26",
-      "home": "West Brom",
-      "away": "Birmingham",
-      "score": "1-1"
-     },
-     {
-      "date": "2024-02-03",
-      "home": "West Brom",
-      "away": "Birmingham",
-      "score": "1-0"
-     },
-     {
-      "date": "2023-10-06",
-      "home": "Birmingham",
-      "away": "West Brom",
-      "score": "3-1"
-     },
-     {
-      "date": "2023-02-10",
-      "home": "Birmingham",
-      "away": "West Brom",
-      "score": "2-0"
-     }
-    ]
-   },
-   "explanation": "West Brom e favorita, cu 39% sanse de victorie. Goluri asteptate: 1.20 pentru West Brom, 1.01 pentru Birmingham. Forma recenta — West Brom: IEVVEI, Birmingham: VEEIVE (cel mai recent meci la dreapta). In clasamentul intern al modelului, West Brom e pe locul 24 la atac, Birmingham pe 18, din 36 echipe. Se asteapta un meci inchis: 62% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie.",
-   "extra_markets": {
-    "corners": {
-     "expected": {
-      "home": 4.97,
-      "away": 4.52,
-      "total": 9.5
-     },
-     "total": [
-      {
-       "line": 8.5,
-       "over": 0.6473,
-       "under": 0.3527
-      },
-      {
-       "line": 9.5,
-       "over": 0.5255,
-       "under": 0.4745
-      },
-      {
-       "line": 10.5,
-       "over": 0.4105,
-       "under": 0.5895
-      },
-      {
-       "line": 11.5,
-       "over": 0.311,
-       "under": 0.689
-      }
-     ],
-     "home": [
-      {
-       "line": 3.5,
-       "over": 0.6981
-      },
-      {
-       "line": 4.5,
-       "over": 0.5468
-      },
-      {
-       "line": 5.5,
-       "over": 0.4019
-      }
-     ],
-     "away": [
-      {
-       "line": 3.5,
-       "over": 0.6235
-      },
-      {
-       "line": 4.5,
-       "over": 0.4572
-      },
-      {
-       "line": 5.5,
-       "over": 0.3092
-      }
-     ],
-     "winner": {
-      "home": 0.5032,
-      "away": 0.3823,
-      "draw": 0.1145
-     },
-     "sample": 1619
-    },
-    "cards": {
-     "expected": {
-      "home": 1.38,
-      "away": 1.71,
-      "total": 3.09
-     },
-     "total": [
-      {
-       "line": 2.5,
-       "over": 0.6738,
-       "under": 0.3262
-      },
-      {
-       "line": 3.5,
-       "over": 0.4628,
-       "under": 0.5372
-      },
-      {
-       "line": 4.5,
-       "over": 0.2812,
-       "under": 0.7188
-      },
-      {
-       "line": 5.5,
-       "over": 0.1502,
-       "under": 0.8498
-      }
-     ],
-     "home": [
-      {
-       "line": 1.5,
-       "over": 0.4576
-      },
-      {
-       "line": 2.5,
-       "over": 0.2012
-      }
-     ],
-     "away": [
-      {
-       "line": 1.5,
-       "over": 0.5709
-      },
-      {
-       "line": 2.5,
-       "over": 0.2937
-      }
-     ],
-     "sample": 1619,
-     "referee": {
-      "name": "Gavin Ward",
-      "factor": 0.903,
-      "matches": 14
-     }
-    },
-    "quality": {
-     "corners_total": {
-      "gain": 0.0,
-      "label": "cat media campionatului"
-     },
-     "corners_team": {
-      "gain": 0.037,
-      "label": "informativ"
-     },
-     "corners_winner": {
-      "gain": 0.052,
-      "label": "cel mai informativ"
-     },
-     "cards_total": {
-      "gain": 0.022,
-      "label": "slab informativ"
-     },
-     "cards_team": {
-      "gain": 0.016,
-      "label": "slab informativ"
-     }
-    }
-   }
-  },
-  {
-   "id": "E1_20261010_Swansea_Norwich",
-   "league": "E1",
-   "league_name": "Championship",
-   "date": "2026-10-10",
-   "time": "11:30",
-   "home": "Swansea",
-   "away": "Norwich",
-   "probs": {
-    "p_home": 0.4018,
-    "p_draw": 0.2747,
-    "p_away": 0.3235,
-    "p_over25": 0.5099,
-    "p_btts": 0.5588,
-    "p_under25": 0.4901,
-    "p_no_btts": 0.4412
-   },
-   "expected_goals": {
-    "home": 1.44,
-    "away": 1.27
-   },
-   "confidence": "ridicata",
-   "sample": {
-    "home_matches": 135,
-    "away_matches": 135
-   },
-   "top_scores": [
-    {
-     "score": "1-1",
-     "p": 0.1307
-    },
-    {
-     "score": "2-1",
-     "p": 0.0877
-    },
-    {
-     "score": "1-0",
-     "p": 0.0864
-    },
-    {
-     "score": "1-2",
-     "p": 0.0773
-    },
-    {
-     "score": "0-0",
-     "p": 0.0754
-    }
-   ],
-   "reference_odds": {
-    "home": 2.33,
-    "draw": 3.44,
-    "away": 2.87,
-    "over25": 1.71,
-    "under25": 2.1
-   },
-   "context": {
-    "home": {
-     "form": [
-      "V",
-      "V",
-      "E",
-      "I",
-      "V",
-      "V"
-     ],
-     "goals_for_avg": 1.83,
-     "goals_against_avg": 0.83,
-     "shots_on_target_avg": 5.83,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "V",
-      "I",
-      "V",
-      "V",
-      "I",
-      "I"
-     ],
-     "goals_for_avg": 2.5,
-     "goals_against_avg": 2.0,
-     "shots_on_target_avg": 5.83,
-     "matches_analysed": 6
-    },
-    "h2h": [
-     {
-      "date": "2026-04-25",
-      "home": "Norwich",
-      "away": "Swansea",
-      "score": "1-1"
-     },
-     {
-      "date": "2025-10-25",
-      "home": "Swansea",
-      "away": "Norwich",
-      "score": "2-1"
-     },
-     {
-      "date": "2025-01-25",
-      "home": "Norwich",
-      "away": "Swansea",
-      "score": "5-1"
-     },
-     {
-      "date": "2024-09-14",
-      "home": "Swansea",
-      "away": "Norwich",
-      "score": "1-0"
-     },
-     {
-      "date": "2024-04-27",
-      "home": "Norwich",
-      "away": "Swansea",
-      "score": "2-2"
-     }
-    ]
-   },
-   "explanation": "Meci echilibrat: modelul nu vede un favorit clar (40% / 27% / 32%). Goluri asteptate: 1.44 pentru Swansea, 1.27 pentru Norwich. Forma recenta — Swansea: VVEIVV, Norwich: VIVVII (cel mai recent meci la dreapta). In clasamentul intern al modelului, Swansea e pe locul 15 la atac, Norwich pe 8, din 36 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie.",
-   "extra_markets": {
-    "corners": {
-     "expected": {
-      "home": 4.73,
-      "away": 4.52,
-      "total": 9.25
-     },
-     "total": [
-      {
-       "line": 8.5,
-       "over": 0.6346,
-       "under": 0.3654
-      },
-      {
-       "line": 9.5,
-       "over": 0.5123,
-       "under": 0.4877
-      },
-      {
-       "line": 10.5,
-       "over": 0.398,
-       "under": 0.602
-      },
-      {
-       "line": 11.5,
-       "over": 0.3002,
-       "under": 0.6998
-      }
-     ],
-     "home": [
-      {
-       "line": 3.5,
-       "over": 0.6733
-      },
-      {
-       "line": 4.5,
-       "over": 0.5183
-      },
-      {
-       "line": 5.5,
-       "over": 0.374
-      }
-     ],
-     "away": [
-      {
-       "line": 3.5,
-       "over": 0.6228
-      },
-      {
-       "line": 4.5,
-       "over": 0.4564
-      },
-      {
-       "line": 5.5,
-       "over": 0.3085
-      }
-     ],
-     "winner": {
-      "home": 0.4824,
-      "away": 0.4006,
-      "draw": 0.117
-     },
-     "sample": 1619
-    },
-    "cards": {
-     "expected": {
-      "home": 1.63,
-      "away": 2.18,
-      "total": 3.8
-     },
-     "total": [
-      {
-       "line": 2.5,
-       "over": 0.7362,
-       "under": 0.2638
-      },
-      {
-       "line": 3.5,
-       "over": 0.5338,
-       "under": 0.4662
-      },
-      {
-       "line": 4.5,
-       "over": 0.3426,
-       "under": 0.6574
-      },
-      {
-       "line": 5.5,
-       "over": 0.1931,
-       "under": 0.8069
-      }
-     ],
-     "home": [
-      {
-       "line": 1.5,
-       "over": 0.5028
-      },
-      {
-       "line": 2.5,
-       "over": 0.2352
-      }
-     ],
-     "away": [
-      {
-       "line": 1.5,
-       "over": 0.6434
-      },
-      {
-       "line": 2.5,
-       "over": 0.3639
-      }
-     ],
-     "sample": 1619,
-     "referee": {
-      "name": "Andrew Kitchen",
-      "factor": 0.955,
-      "matches": 17
-     }
-    },
-    "quality": {
-     "corners_total": {
-      "gain": 0.0,
-      "label": "cat media campionatului"
-     },
-     "corners_team": {
-      "gain": 0.037,
-      "label": "informativ"
-     },
-     "corners_winner": {
-      "gain": 0.052,
-      "label": "cel mai informativ"
-     },
-     "cards_total": {
-      "gain": 0.022,
-      "label": "slab informativ"
-     },
-     "cards_team": {
-      "gain": 0.016,
-      "label": "slab informativ"
-     }
-    }
-   }
-  },
-  {
    "id": "E1_20261010_Charlton_BristolCity",
    "league": "E1",
    "league_name": "Championship",
    "date": "2026-10-10",
-   "time": "11:30",
+   "time": "12:30",
    "home": "Charlton",
    "away": "Bristol City",
    "probs": {
@@ -4699,10 +4160,10 @@
     }
    ],
    "reference_odds": {
-    "home": 3.15,
-    "draw": 3.25,
-    "away": 2.25,
-    "over25": 2.07,
+    "home": 3.13,
+    "draw": 3.29,
+    "away": 2.27,
+    "over25": 2.04,
     "under25": 1.73
    },
    "context": {
@@ -4912,11 +4373,533 @@
    }
   },
   {
+   "id": "E1_20261010_Swansea_Norwich",
+   "league": "E1",
+   "league_name": "Championship",
+   "date": "2026-10-10",
+   "time": "12:30",
+   "home": "Swansea",
+   "away": "Norwich",
+   "probs": {
+    "p_home": 0.4018,
+    "p_draw": 0.2747,
+    "p_away": 0.3235,
+    "p_over25": 0.5099,
+    "p_btts": 0.5588,
+    "p_under25": 0.4901,
+    "p_no_btts": 0.4412
+   },
+   "expected_goals": {
+    "home": 1.44,
+    "away": 1.27
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 135,
+    "away_matches": 135
+   },
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 0.1307
+    },
+    {
+     "score": "2-1",
+     "p": 0.0877
+    },
+    {
+     "score": "1-0",
+     "p": 0.0864
+    },
+    {
+     "score": "1-2",
+     "p": 0.0773
+    },
+    {
+     "score": "0-0",
+     "p": 0.0754
+    }
+   ],
+   "reference_odds": {
+    "home": 2.36,
+    "draw": 3.52,
+    "away": 2.8,
+    "over25": 1.7,
+    "under25": 2.08
+   },
+   "context": {
+    "home": {
+     "form": [
+      "V",
+      "V",
+      "E",
+      "I",
+      "V",
+      "V"
+     ],
+     "goals_for_avg": 1.83,
+     "goals_against_avg": 0.83,
+     "shots_on_target_avg": 5.83,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "V",
+      "I",
+      "V",
+      "V",
+      "I",
+      "I"
+     ],
+     "goals_for_avg": 2.5,
+     "goals_against_avg": 2.0,
+     "shots_on_target_avg": 5.83,
+     "matches_analysed": 6
+    },
+    "h2h": [
+     {
+      "date": "2026-04-25",
+      "home": "Norwich",
+      "away": "Swansea",
+      "score": "1-1"
+     },
+     {
+      "date": "2025-10-25",
+      "home": "Swansea",
+      "away": "Norwich",
+      "score": "2-1"
+     },
+     {
+      "date": "2025-01-25",
+      "home": "Norwich",
+      "away": "Swansea",
+      "score": "5-1"
+     },
+     {
+      "date": "2024-09-14",
+      "home": "Swansea",
+      "away": "Norwich",
+      "score": "1-0"
+     },
+     {
+      "date": "2024-04-27",
+      "home": "Norwich",
+      "away": "Swansea",
+      "score": "2-2"
+     }
+    ]
+   },
+   "explanation": "Meci echilibrat: modelul nu vede un favorit clar (40% / 27% / 32%). Goluri asteptate: 1.44 pentru Swansea, 1.27 pentru Norwich. Forma recenta — Swansea: VVEIVV, Norwich: VIVVII (cel mai recent meci la dreapta). In clasamentul intern al modelului, Swansea e pe locul 15 la atac, Norwich pe 8, din 36 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie.",
+   "extra_markets": {
+    "corners": {
+     "expected": {
+      "home": 4.73,
+      "away": 4.52,
+      "total": 9.25
+     },
+     "total": [
+      {
+       "line": 8.5,
+       "over": 0.6346,
+       "under": 0.3654
+      },
+      {
+       "line": 9.5,
+       "over": 0.5123,
+       "under": 0.4877
+      },
+      {
+       "line": 10.5,
+       "over": 0.398,
+       "under": 0.602
+      },
+      {
+       "line": 11.5,
+       "over": 0.3002,
+       "under": 0.6998
+      }
+     ],
+     "home": [
+      {
+       "line": 3.5,
+       "over": 0.6733
+      },
+      {
+       "line": 4.5,
+       "over": 0.5183
+      },
+      {
+       "line": 5.5,
+       "over": 0.374
+      }
+     ],
+     "away": [
+      {
+       "line": 3.5,
+       "over": 0.6228
+      },
+      {
+       "line": 4.5,
+       "over": 0.4564
+      },
+      {
+       "line": 5.5,
+       "over": 0.3085
+      }
+     ],
+     "winner": {
+      "home": 0.4824,
+      "away": 0.4006,
+      "draw": 0.117
+     },
+     "sample": 1619
+    },
+    "cards": {
+     "expected": {
+      "home": 1.63,
+      "away": 2.18,
+      "total": 3.8
+     },
+     "total": [
+      {
+       "line": 2.5,
+       "over": 0.7362,
+       "under": 0.2638
+      },
+      {
+       "line": 3.5,
+       "over": 0.5338,
+       "under": 0.4662
+      },
+      {
+       "line": 4.5,
+       "over": 0.3426,
+       "under": 0.6574
+      },
+      {
+       "line": 5.5,
+       "over": 0.1931,
+       "under": 0.8069
+      }
+     ],
+     "home": [
+      {
+       "line": 1.5,
+       "over": 0.5028
+      },
+      {
+       "line": 2.5,
+       "over": 0.2352
+      }
+     ],
+     "away": [
+      {
+       "line": 1.5,
+       "over": 0.6434
+      },
+      {
+       "line": 2.5,
+       "over": 0.3639
+      }
+     ],
+     "sample": 1619,
+     "referee": {
+      "name": "Andrew Kitchen",
+      "factor": 0.955,
+      "matches": 17
+     }
+    },
+    "quality": {
+     "corners_total": {
+      "gain": 0.0,
+      "label": "cat media campionatului"
+     },
+     "corners_team": {
+      "gain": 0.037,
+      "label": "informativ"
+     },
+     "corners_winner": {
+      "gain": 0.052,
+      "label": "cel mai informativ"
+     },
+     "cards_total": {
+      "gain": 0.022,
+      "label": "slab informativ"
+     },
+     "cards_team": {
+      "gain": 0.016,
+      "label": "slab informativ"
+     }
+    }
+   }
+  },
+  {
+   "id": "E1_20261010_WestBrom_Birmingham",
+   "league": "E1",
+   "league_name": "Championship",
+   "date": "2026-10-10",
+   "time": "12:30",
+   "home": "West Brom",
+   "away": "Birmingham",
+   "probs": {
+    "p_home": 0.3944,
+    "p_draw": 0.3088,
+    "p_away": 0.2967,
+    "p_over25": 0.3799,
+    "p_btts": 0.4541,
+    "p_under25": 0.6201,
+    "p_no_btts": 0.5459
+   },
+   "expected_goals": {
+    "home": 1.2,
+    "away": 1.01
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 135,
+    "away_matches": 89
+   },
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 0.1429
+    },
+    {
+     "score": "1-0",
+     "p": 0.1219
+    },
+    {
+     "score": "0-0",
+     "p": 0.1198
+    },
+    {
+     "score": "0-1",
+     "p": 0.1005
+    },
+    {
+     "score": "2-1",
+     "p": 0.0799
+    }
+   ],
+   "reference_odds": {
+    "home": 2.35,
+    "draw": 3.36,
+    "away": 2.94,
+    "over25": 1.94,
+    "under25": 1.8
+   },
+   "context": {
+    "home": {
+     "form": [
+      "I",
+      "E",
+      "V",
+      "V",
+      "E",
+      "I"
+     ],
+     "goals_for_avg": 0.83,
+     "goals_against_avg": 1.0,
+     "shots_on_target_avg": 3.17,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "V",
+      "E",
+      "E",
+      "I",
+      "V",
+      "E"
+     ],
+     "goals_for_avg": 1.67,
+     "goals_against_avg": 1.5,
+     "shots_on_target_avg": 5.0,
+     "matches_analysed": 6
+    },
+    "h2h": [
+     {
+      "date": "2026-02-10",
+      "home": "Birmingham",
+      "away": "West Brom",
+      "score": "0-0"
+     },
+     {
+      "date": "2025-11-26",
+      "home": "West Brom",
+      "away": "Birmingham",
+      "score": "1-1"
+     },
+     {
+      "date": "2024-02-03",
+      "home": "West Brom",
+      "away": "Birmingham",
+      "score": "1-0"
+     },
+     {
+      "date": "2023-10-06",
+      "home": "Birmingham",
+      "away": "West Brom",
+      "score": "3-1"
+     },
+     {
+      "date": "2023-02-10",
+      "home": "Birmingham",
+      "away": "West Brom",
+      "score": "2-0"
+     }
+    ]
+   },
+   "explanation": "West Brom e favorita, cu 39% sanse de victorie. Goluri asteptate: 1.20 pentru West Brom, 1.01 pentru Birmingham. Forma recenta — West Brom: IEVVEI, Birmingham: VEEIVE (cel mai recent meci la dreapta). In clasamentul intern al modelului, West Brom e pe locul 24 la atac, Birmingham pe 18, din 36 echipe. Se asteapta un meci inchis: 62% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie.",
+   "extra_markets": {
+    "corners": {
+     "expected": {
+      "home": 4.97,
+      "away": 4.52,
+      "total": 9.5
+     },
+     "total": [
+      {
+       "line": 8.5,
+       "over": 0.6473,
+       "under": 0.3527
+      },
+      {
+       "line": 9.5,
+       "over": 0.5255,
+       "under": 0.4745
+      },
+      {
+       "line": 10.5,
+       "over": 0.4105,
+       "under": 0.5895
+      },
+      {
+       "line": 11.5,
+       "over": 0.311,
+       "under": 0.689
+      }
+     ],
+     "home": [
+      {
+       "line": 3.5,
+       "over": 0.6981
+      },
+      {
+       "line": 4.5,
+       "over": 0.5468
+      },
+      {
+       "line": 5.5,
+       "over": 0.4019
+      }
+     ],
+     "away": [
+      {
+       "line": 3.5,
+       "over": 0.6235
+      },
+      {
+       "line": 4.5,
+       "over": 0.4572
+      },
+      {
+       "line": 5.5,
+       "over": 0.3092
+      }
+     ],
+     "winner": {
+      "home": 0.5032,
+      "away": 0.3823,
+      "draw": 0.1145
+     },
+     "sample": 1619
+    },
+    "cards": {
+     "expected": {
+      "home": 1.38,
+      "away": 1.71,
+      "total": 3.09
+     },
+     "total": [
+      {
+       "line": 2.5,
+       "over": 0.6738,
+       "under": 0.3262
+      },
+      {
+       "line": 3.5,
+       "over": 0.4628,
+       "under": 0.5372
+      },
+      {
+       "line": 4.5,
+       "over": 0.2812,
+       "under": 0.7188
+      },
+      {
+       "line": 5.5,
+       "over": 0.1502,
+       "under": 0.8498
+      }
+     ],
+     "home": [
+      {
+       "line": 1.5,
+       "over": 0.4576
+      },
+      {
+       "line": 2.5,
+       "over": 0.2012
+      }
+     ],
+     "away": [
+      {
+       "line": 1.5,
+       "over": 0.5709
+      },
+      {
+       "line": 2.5,
+       "over": 0.2937
+      }
+     ],
+     "sample": 1619,
+     "referee": {
+      "name": "Gavin Ward",
+      "factor": 0.903,
+      "matches": 14
+     }
+    },
+    "quality": {
+     "corners_total": {
+      "gain": 0.0,
+      "label": "cat media campionatului"
+     },
+     "corners_team": {
+      "gain": 0.037,
+      "label": "informativ"
+     },
+     "corners_winner": {
+      "gain": 0.052,
+      "label": "cel mai informativ"
+     },
+     "cards_total": {
+      "gain": 0.022,
+      "label": "slab informativ"
+     },
+     "cards_team": {
+      "gain": 0.016,
+      "label": "slab informativ"
+     }
+    }
+   }
+  },
+  {
    "id": "SP1_20261010_Vallecano_AthBilbao",
    "league": "SP1",
    "league_name": "La Liga",
    "date": "2026-10-10",
-   "time": "12:00",
+   "time": "13:00",
    "home": "Vallecano",
    "away": "Ath Bilbao",
    "probs": {
@@ -4960,11 +4943,11 @@
     }
    ],
    "reference_odds": {
-    "home": 2.73,
-    "draw": 3.35,
-    "away": 2.57,
-    "over25": 1.92,
-    "under25": 1.91
+    "home": 2.7,
+    "draw": 3.34,
+    "away": 2.55,
+    "over25": 1.86,
+    "under25": 1.86
    },
    "context": {
     "home": {
@@ -5172,7 +5155,7 @@
    "league": "I1",
    "league_name": "Serie A",
    "date": "2026-10-10",
-   "time": "13:00",
+   "time": "14:00",
    "home": "Genoa",
    "away": "Fiorentina",
    "probs": {
@@ -5216,11 +5199,11 @@
     }
    ],
    "reference_odds": {
-    "home": 3.17,
+    "home": 3.18,
     "draw": 3.26,
-    "away": 2.3,
-    "over25": 2.05,
-    "under25": 1.79
+    "away": 2.27,
+    "over25": 2.02,
+    "under25": 1.75
    },
    "context": {
     "home": {
@@ -5429,533 +5412,11 @@
    }
   },
   {
-   "id": "D1_20261010_Mainz_Leverkusen",
-   "league": "D1",
-   "league_name": "Bundesliga",
-   "date": "2026-10-10",
-   "time": "13:30",
-   "home": "Mainz",
-   "away": "Leverkusen",
-   "probs": {
-    "p_home": 0.3377,
-    "p_draw": 0.2492,
-    "p_away": 0.4131,
-    "p_over25": 0.6061,
-    "p_btts": 0.6311,
-    "p_under25": 0.3939,
-    "p_no_btts": 0.3689
-   },
-   "expected_goals": {
-    "home": 1.48,
-    "away": 1.65
-   },
-   "confidence": "ridicata",
-   "sample": {
-    "home_matches": 99,
-    "away_matches": 99
-   },
-   "top_scores": [
-    {
-     "score": "1-1",
-     "p": 0.1132
-    },
-    {
-     "score": "1-2",
-     "p": 0.0882
-    },
-    {
-     "score": "2-1",
-     "p": 0.0788
-    },
-    {
-     "score": "0-1",
-     "p": 0.0655
-    },
-    {
-     "score": "2-2",
-     "p": 0.0652
-    }
-   ],
-   "reference_odds": {
-    "home": 2.92,
-    "draw": 3.8,
-    "away": 2.21,
-    "over25": 1.43,
-    "under25": 2.71
-   },
-   "context": {
-    "home": {
-     "form": [
-      "I",
-      "V",
-      "E",
-      "V",
-      "I",
-      "V"
-     ],
-     "goals_for_avg": 2.17,
-     "goals_against_avg": 1.5,
-     "shots_on_target_avg": 6.17,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "I",
-      "E",
-      "I",
-      "V",
-      "E",
-      "V"
-     ],
-     "goals_for_avg": 2.0,
-     "goals_against_avg": 1.5,
-     "shots_on_target_avg": 6.5,
-     "matches_analysed": 6
-    },
-    "h2h": [
-     {
-      "date": "2026-02-28",
-      "home": "Leverkusen",
-      "away": "Mainz",
-      "score": "1-1"
-     },
-     {
-      "date": "2025-10-18",
-      "home": "Mainz",
-      "away": "Leverkusen",
-      "score": "3-4"
-     },
-     {
-      "date": "2025-05-17",
-      "home": "Mainz",
-      "away": "Leverkusen",
-      "score": "2-2"
-     },
-     {
-      "date": "2025-01-14",
-      "home": "Leverkusen",
-      "away": "Mainz",
-      "score": "1-0"
-     },
-     {
-      "date": "2024-02-23",
-      "home": "Leverkusen",
-      "away": "Mainz",
-      "score": "2-1"
-     }
-    ]
-   },
-   "explanation": "Meci echilibrat: modelul nu vede un favorit clar (34% / 25% / 41%). Goluri asteptate: 1.48 pentru Mainz, 1.65 pentru Leverkusen. Forma recenta — Mainz: IVEVIV, Leverkusen: IEIVEV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Mainz e pe locul 10 la atac, Leverkusen pe 3, din 24 echipe. Se asteapta un meci deschis: 61% sanse la peste 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie.",
-   "extra_markets": {
-    "corners": {
-     "expected": {
-      "home": 4.4,
-      "away": 5.19,
-      "total": 9.59
-     },
-     "total": [
-      {
-       "line": 8.5,
-       "over": 0.6176,
-       "under": 0.3824
-      },
-      {
-       "line": 9.5,
-       "over": 0.5065,
-       "under": 0.4935
-      },
-      {
-       "line": 10.5,
-       "over": 0.3889,
-       "under": 0.6111
-      },
-      {
-       "line": 11.5,
-       "over": 0.2861,
-       "under": 0.7139
-      }
-     ],
-     "home": [
-      {
-       "line": 3.5,
-       "over": 0.6394
-      },
-      {
-       "line": 4.5,
-       "over": 0.4725
-      },
-      {
-       "line": 5.5,
-       "over": 0.3277
-      }
-     ],
-     "away": [
-      {
-       "line": 3.5,
-       "over": 0.6875
-      },
-      {
-       "line": 4.5,
-       "over": 0.5303
-      },
-      {
-       "line": 5.5,
-       "over": 0.3807
-      }
-     ],
-     "winner": {
-      "home": 0.3994,
-      "away": 0.4864,
-      "draw": 0.1142
-     },
-     "sample": 890
-    },
-    "cards": {
-     "expected": {
-      "home": 2.64,
-      "away": 2.4,
-      "total": 5.04
-     },
-     "total": [
-      {
-       "line": 2.5,
-       "over": 0.7917,
-       "under": 0.2083
-      },
-      {
-       "line": 3.5,
-       "over": 0.634,
-       "under": 0.366
-      },
-      {
-       "line": 4.5,
-       "over": 0.459,
-       "under": 0.541
-      },
-      {
-       "line": 5.5,
-       "over": 0.3102,
-       "under": 0.6898
-      }
-     ],
-     "home": [
-      {
-       "line": 1.5,
-       "over": 0.6516
-      },
-      {
-       "line": 2.5,
-       "over": 0.4102
-      }
-     ],
-     "away": [
-      {
-       "line": 1.5,
-       "over": 0.6634
-      },
-      {
-       "line": 2.5,
-       "over": 0.4061
-      }
-     ],
-     "sample": 890,
-     "referee": {
-      "name": "Max Burda",
-      "factor": 1.0,
-      "matches": 0
-     }
-    },
-    "quality": {
-     "corners_total": {
-      "gain": 0.0,
-      "label": "cat media campionatului"
-     },
-     "corners_team": {
-      "gain": 0.037,
-      "label": "informativ"
-     },
-     "corners_winner": {
-      "gain": 0.052,
-      "label": "cel mai informativ"
-     },
-     "cards_total": {
-      "gain": 0.022,
-      "label": "slab informativ"
-     },
-     "cards_team": {
-      "gain": 0.016,
-      "label": "slab informativ"
-     }
-    }
-   }
-  },
-  {
-   "id": "D1_20261010_Hoffenheim_Hamburg",
-   "league": "D1",
-   "league_name": "Bundesliga",
-   "date": "2026-10-10",
-   "time": "13:30",
-   "home": "Hoffenheim",
-   "away": "Hamburg",
-   "probs": {
-    "p_home": 0.6031,
-    "p_draw": 0.2087,
-    "p_away": 0.1882,
-    "p_over25": 0.6601,
-    "p_btts": 0.623,
-    "p_under25": 0.3399,
-    "p_no_btts": 0.377
-   },
-   "expected_goals": {
-    "home": 2.22,
-    "away": 1.18
-   },
-   "confidence": "medie",
-   "sample": {
-    "home_matches": 99,
-    "away_matches": 38
-   },
-   "top_scores": [
-    {
-     "score": "2-1",
-     "p": 0.097
-    },
-    {
-     "score": "1-1",
-     "p": 0.0929
-    },
-    {
-     "score": "2-0",
-     "p": 0.0822
-    },
-    {
-     "score": "3-1",
-     "p": 0.0718
-    },
-    {
-     "score": "1-0",
-     "p": 0.0687
-    }
-   ],
-   "reference_odds": {
-    "home": 1.42,
-    "draw": 4.91,
-    "away": 6.57,
-    "over25": 1.39,
-    "under25": 2.87
-   },
-   "context": {
-    "home": {
-     "form": [
-      "V",
-      "I",
-      "I",
-      "I",
-      "V",
-      "I"
-     ],
-     "goals_for_avg": 1.33,
-     "goals_against_avg": 2.33,
-     "shots_on_target_avg": 4.5,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "V",
-      "E",
-      "I",
-      "I",
-      "I",
-      "V"
-     ],
-     "goals_for_avg": 1.0,
-     "goals_against_avg": 2.67,
-     "shots_on_target_avg": 4.33,
-     "matches_analysed": 6
-    },
-    "h2h": [
-     {
-      "date": "2026-04-25",
-      "home": "Hamburg",
-      "away": "Hoffenheim",
-      "score": "1-2"
-     },
-     {
-      "date": "2025-12-13",
-      "home": "Hoffenheim",
-      "away": "Hamburg",
-      "score": "4-1"
-     },
-     {
-      "date": "2018-04-14",
-      "home": "Hoffenheim",
-      "away": "Hamburg",
-      "score": "2-0"
-     },
-     {
-      "date": "2017-11-26",
-      "home": "Hamburg",
-      "away": "Hoffenheim",
-      "score": "3-0"
-     },
-     {
-      "date": "2017-04-08",
-      "home": "Hamburg",
-      "away": "Hoffenheim",
-      "score": "2-1"
-     }
-    ]
-   },
-   "explanation": "Hoffenheim e favorita, cu 60% sanse de victorie. Goluri asteptate: 2.22 pentru Hoffenheim, 1.18 pentru Hamburg. Forma recenta — Hoffenheim: VIIIVI, Hamburg: VEIIIV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Hoffenheim e pe locul 8 la atac, Hamburg pe 19, din 24 echipe. Se asteapta un meci deschis: 66% sanse la peste 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie.",
-   "extra_markets": {
-    "corners": {
-     "expected": {
-      "home": 7.3,
-      "away": 3.32,
-      "total": 10.62
-     },
-     "total": [
-      {
-       "line": 8.5,
-       "over": 0.6645,
-       "under": 0.3355
-      },
-      {
-       "line": 9.5,
-       "over": 0.5586,
-       "under": 0.4414
-      },
-      {
-       "line": 10.5,
-       "over": 0.4415,
-       "under": 0.5585
-      },
-      {
-       "line": 11.5,
-       "over": 0.3347,
-       "under": 0.6653
-      }
-     ],
-     "home": [
-      {
-       "line": 3.5,
-       "over": 0.8605
-      },
-      {
-       "line": 4.5,
-       "over": 0.7573
-      },
-      {
-       "line": 5.5,
-       "over": 0.6395
-      }
-     ],
-     "away": [
-      {
-       "line": 3.5,
-       "over": 0.449
-      },
-      {
-       "line": 4.5,
-       "over": 0.2843
-      },
-      {
-       "line": 5.5,
-       "over": 0.1649
-      }
-     ],
-     "winner": {
-      "home": 0.7723,
-      "away": 0.1629,
-      "draw": 0.0648
-     },
-     "sample": 890
-    },
-    "cards": {
-     "expected": {
-      "home": 2.96,
-      "away": 2.05,
-      "total": 5.02
-     },
-     "total": [
-      {
-       "line": 2.5,
-       "over": 0.7909,
-       "under": 0.2091
-      },
-      {
-       "line": 3.5,
-       "over": 0.6328,
-       "under": 0.3672
-      },
-      {
-       "line": 4.5,
-       "over": 0.4575,
-       "under": 0.5425
-      },
-      {
-       "line": 5.5,
-       "over": 0.3087,
-       "under": 0.6913
-      }
-     ],
-     "home": [
-      {
-       "line": 1.5,
-       "over": 0.6819
-      },
-      {
-       "line": 2.5,
-       "over": 0.4518
-      }
-     ],
-     "away": [
-      {
-       "line": 1.5,
-       "over": 0.6172
-      },
-      {
-       "line": 2.5,
-       "over": 0.3548
-      }
-     ],
-     "sample": 890,
-     "referee": {
-      "name": "Harm Osmers",
-      "factor": 1.061,
-      "matches": 13
-     }
-    },
-    "quality": {
-     "corners_total": {
-      "gain": 0.0,
-      "label": "cat media campionatului"
-     },
-     "corners_team": {
-      "gain": 0.037,
-      "label": "informativ"
-     },
-     "corners_winner": {
-      "gain": 0.052,
-      "label": "cel mai informativ"
-     },
-     "cards_total": {
-      "gain": 0.022,
-      "label": "slab informativ"
-     },
-     "cards_team": {
-      "gain": 0.016,
-      "label": "slab informativ"
-     }
-    }
-   }
-  },
-  {
    "id": "D1_20261010_Augsburg_BayernMunich",
    "league": "D1",
    "league_name": "Bundesliga",
    "date": "2026-10-10",
-   "time": "13:30",
+   "time": "14:30",
    "home": "Augsburg",
    "away": "Bayern Munich",
    "probs": {
@@ -5999,11 +5460,11 @@
     }
    ],
    "reference_odds": {
-    "home": 11.25,
-    "draw": 8.36,
-    "away": 1.18,
-    "over25": 1.12,
-    "under25": 5.51
+    "home": 11.02,
+    "draw": 8.1,
+    "away": 1.17,
+    "over25": 1.13,
+    "under25": 5.48
    },
    "context": {
     "home": {
@@ -6212,207 +5673,501 @@
    }
   },
   {
-   "id": "D1_20261010_UnionBerlin_Elversberg",
+   "id": "D1_20261010_Hoffenheim_Hamburg",
    "league": "D1",
    "league_name": "Bundesliga",
    "date": "2026-10-10",
-   "time": "13:30",
-   "home": "Union Berlin",
-   "away": "Elversberg",
+   "time": "14:30",
+   "home": "Hoffenheim",
+   "away": "Hamburg",
    "probs": {
-    "p_home": 0.2942,
-    "p_draw": 0.2437,
-    "p_away": 0.4622,
-    "p_over25": 0.6134,
-    "p_btts": 0.6302,
-    "p_under25": 0.3866,
-    "p_no_btts": 0.3698
+    "p_home": 0.6031,
+    "p_draw": 0.2087,
+    "p_away": 0.1882,
+    "p_over25": 0.6601,
+    "p_btts": 0.623,
+    "p_under25": 0.3399,
+    "p_no_btts": 0.377
    },
    "expected_goals": {
-    "home": 1.39,
-    "away": 1.78
+    "home": 2.22,
+    "away": 1.18
    },
-   "confidence": "scazuta",
+   "confidence": "medie",
    "sample": {
     "home_matches": 99,
-    "away_matches": 4
+    "away_matches": 38
    },
    "top_scores": [
     {
-     "score": "1-1",
-     "p": 0.1104
-    },
-    {
-     "score": "1-2",
-     "p": 0.0926
-    },
-    {
      "score": "2-1",
-     "p": 0.0721
+     "p": 0.097
     },
     {
-     "score": "0-1",
-     "p": 0.0686
+     "score": "1-1",
+     "p": 0.0929
     },
     {
-     "score": "0-2",
-     "p": 0.0667
+     "score": "2-0",
+     "p": 0.0822
+    },
+    {
+     "score": "3-1",
+     "p": 0.0718
+    },
+    {
+     "score": "1-0",
+     "p": 0.0687
     }
    ],
    "reference_odds": {
-    "home": 2.32,
-    "draw": 3.68,
-    "away": 2.79,
-    "over25": 1.53,
-    "under25": 2.42
+    "home": 1.41,
+    "draw": 5.0,
+    "away": 6.39,
+    "over25": 1.38,
+    "under25": 2.91
    },
    "context": {
     "home": {
      "form": [
       "V",
+      "I",
+      "I",
+      "I",
       "V",
-      "E",
-      "I",
-      "I",
       "I"
      ],
-     "goals_for_avg": 1.83,
-     "goals_against_avg": 3.0,
-     "shots_on_target_avg": 6.33,
+     "goals_for_avg": 1.33,
+     "goals_against_avg": 2.33,
+     "shots_on_target_avg": 4.5,
      "matches_analysed": 6
     },
     "away": {
      "form": [
       "V",
-      "V",
+      "E",
       "I",
-      "E"
+      "I",
+      "I",
+      "V"
      ],
-     "goals_for_avg": 2.0,
-     "goals_against_avg": 1.75,
-     "shots_on_target_avg": 4.5,
-     "matches_analysed": 4
+     "goals_for_avg": 1.0,
+     "goals_against_avg": 2.67,
+     "shots_on_target_avg": 4.33,
+     "matches_analysed": 6
     },
-    "h2h": []
+    "h2h": [
+     {
+      "date": "2026-04-25",
+      "home": "Hamburg",
+      "away": "Hoffenheim",
+      "score": "1-2"
+     },
+     {
+      "date": "2025-12-13",
+      "home": "Hoffenheim",
+      "away": "Hamburg",
+      "score": "4-1"
+     },
+     {
+      "date": "2018-04-14",
+      "home": "Hoffenheim",
+      "away": "Hamburg",
+      "score": "2-0"
+     },
+     {
+      "date": "2017-11-26",
+      "home": "Hamburg",
+      "away": "Hoffenheim",
+      "score": "3-0"
+     },
+     {
+      "date": "2017-04-08",
+      "home": "Hamburg",
+      "away": "Hoffenheim",
+      "score": "2-1"
+     }
+    ]
    },
-   "explanation": "Elversberg e favorita, cu 46% sanse de victorie. Goluri asteptate: 1.39 pentru Union Berlin, 1.78 pentru Elversberg. Forma recenta — Union Berlin: VVEIII, Elversberg: VVIE (cel mai recent meci la dreapta). In clasamentul intern al modelului, Union Berlin e pe locul 18 la atac, Elversberg pe 2, din 24 echipe. Se asteapta un meci deschis: 61% sanse la peste 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie.",
+   "explanation": "Hoffenheim e favorita, cu 60% sanse de victorie. Goluri asteptate: 2.22 pentru Hoffenheim, 1.18 pentru Hamburg. Forma recenta — Hoffenheim: VIIIVI, Hamburg: VEIIIV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Hoffenheim e pe locul 8 la atac, Hamburg pe 19, din 24 echipe. Se asteapta un meci deschis: 66% sanse la peste 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie.",
    "extra_markets": {
     "corners": {
      "expected": {
-      "home": 7.85,
-      "away": 3.51,
-      "total": 11.36
+      "home": 7.3,
+      "away": 3.32,
+      "total": 10.62
      },
      "total": [
       {
        "line": 8.5,
-       "over": 0.692,
-       "under": 0.308
+       "over": 0.6645,
+       "under": 0.3355
       },
       {
        "line": 9.5,
-       "over": 0.5916,
-       "under": 0.4084
+       "over": 0.5586,
+       "under": 0.4414
       },
       {
        "line": 10.5,
-       "over": 0.4774,
-       "under": 0.5226
+       "over": 0.4415,
+       "under": 0.5585
       },
       {
        "line": 11.5,
-       "over": 0.3706,
-       "under": 0.6294
+       "over": 0.3347,
+       "under": 0.6653
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.8797
+       "over": 0.8605
       },
       {
        "line": 4.5,
-       "over": 0.7881
+       "over": 0.7573
       },
       {
        "line": 5.5,
-       "over": 0.6809
+       "over": 0.6395
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.4782
+       "over": 0.449
       },
       {
        "line": 4.5,
-       "over": 0.31
+       "over": 0.2843
       },
       {
        "line": 5.5,
-       "over": 0.184
+       "over": 0.1649
       }
      ],
      "winner": {
-      "home": 0.7834,
-      "away": 0.1576,
-      "draw": 0.059
+      "home": 0.7723,
+      "away": 0.1629,
+      "draw": 0.0648
      },
      "sample": 890
     },
     "cards": {
      "expected": {
-      "home": 1.73,
-      "away": 1.86,
-      "total": 3.59
+      "home": 2.96,
+      "away": 2.05,
+      "total": 5.02
      },
      "total": [
       {
        "line": 2.5,
-       "over": 0.7093,
-       "under": 0.2907
+       "over": 0.7909,
+       "under": 0.2091
       },
       {
        "line": 3.5,
-       "over": 0.5245,
-       "under": 0.4755
+       "over": 0.6328,
+       "under": 0.3672
       },
       {
        "line": 4.5,
-       "over": 0.3438,
-       "under": 0.6562
+       "over": 0.4575,
+       "under": 0.5425
       },
       {
        "line": 5.5,
-       "over": 0.2081,
-       "under": 0.7919
+       "over": 0.3087,
+       "under": 0.6913
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.5289
+       "over": 0.6819
       },
       {
        "line": 2.5,
-       "over": 0.2791
+       "over": 0.4518
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.5875
+       "over": 0.6172
       },
       {
        "line": 2.5,
-       "over": 0.3258
+       "over": 0.3548
       }
      ],
      "sample": 890,
      "referee": {
-      "name": "Tobias Reichel",
-      "factor": 0.972,
-      "matches": 11
+      "name": "Harm Osmers",
+      "factor": 1.061,
+      "matches": 13
+     }
+    },
+    "quality": {
+     "corners_total": {
+      "gain": 0.0,
+      "label": "cat media campionatului"
+     },
+     "corners_team": {
+      "gain": 0.037,
+      "label": "informativ"
+     },
+     "corners_winner": {
+      "gain": 0.052,
+      "label": "cel mai informativ"
+     },
+     "cards_total": {
+      "gain": 0.022,
+      "label": "slab informativ"
+     },
+     "cards_team": {
+      "gain": 0.016,
+      "label": "slab informativ"
+     }
+    }
+   }
+  },
+  {
+   "id": "D1_20261010_Mainz_Leverkusen",
+   "league": "D1",
+   "league_name": "Bundesliga",
+   "date": "2026-10-10",
+   "time": "14:30",
+   "home": "Mainz",
+   "away": "Leverkusen",
+   "probs": {
+    "p_home": 0.3377,
+    "p_draw": 0.2492,
+    "p_away": 0.4131,
+    "p_over25": 0.6061,
+    "p_btts": 0.6311,
+    "p_under25": 0.3939,
+    "p_no_btts": 0.3689
+   },
+   "expected_goals": {
+    "home": 1.48,
+    "away": 1.65
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 99,
+    "away_matches": 99
+   },
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 0.1132
+    },
+    {
+     "score": "1-2",
+     "p": 0.0882
+    },
+    {
+     "score": "2-1",
+     "p": 0.0788
+    },
+    {
+     "score": "0-1",
+     "p": 0.0655
+    },
+    {
+     "score": "2-2",
+     "p": 0.0652
+    }
+   ],
+   "reference_odds": {
+    "home": 2.88,
+    "draw": 3.83,
+    "away": 2.17,
+    "over25": 1.42,
+    "under25": 2.72
+   },
+   "context": {
+    "home": {
+     "form": [
+      "I",
+      "V",
+      "E",
+      "V",
+      "I",
+      "V"
+     ],
+     "goals_for_avg": 2.17,
+     "goals_against_avg": 1.5,
+     "shots_on_target_avg": 6.17,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "I",
+      "E",
+      "I",
+      "V",
+      "E",
+      "V"
+     ],
+     "goals_for_avg": 2.0,
+     "goals_against_avg": 1.5,
+     "shots_on_target_avg": 6.5,
+     "matches_analysed": 6
+    },
+    "h2h": [
+     {
+      "date": "2026-02-28",
+      "home": "Leverkusen",
+      "away": "Mainz",
+      "score": "1-1"
+     },
+     {
+      "date": "2025-10-18",
+      "home": "Mainz",
+      "away": "Leverkusen",
+      "score": "3-4"
+     },
+     {
+      "date": "2025-05-17",
+      "home": "Mainz",
+      "away": "Leverkusen",
+      "score": "2-2"
+     },
+     {
+      "date": "2025-01-14",
+      "home": "Leverkusen",
+      "away": "Mainz",
+      "score": "1-0"
+     },
+     {
+      "date": "2024-02-23",
+      "home": "Leverkusen",
+      "away": "Mainz",
+      "score": "2-1"
+     }
+    ]
+   },
+   "explanation": "Meci echilibrat: modelul nu vede un favorit clar (34% / 25% / 41%). Goluri asteptate: 1.48 pentru Mainz, 1.65 pentru Leverkusen. Forma recenta — Mainz: IVEVIV, Leverkusen: IEIVEV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Mainz e pe locul 10 la atac, Leverkusen pe 3, din 24 echipe. Se asteapta un meci deschis: 61% sanse la peste 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie.",
+   "extra_markets": {
+    "corners": {
+     "expected": {
+      "home": 4.4,
+      "away": 5.19,
+      "total": 9.59
+     },
+     "total": [
+      {
+       "line": 8.5,
+       "over": 0.6176,
+       "under": 0.3824
+      },
+      {
+       "line": 9.5,
+       "over": 0.5065,
+       "under": 0.4935
+      },
+      {
+       "line": 10.5,
+       "over": 0.3889,
+       "under": 0.6111
+      },
+      {
+       "line": 11.5,
+       "over": 0.2861,
+       "under": 0.7139
+      }
+     ],
+     "home": [
+      {
+       "line": 3.5,
+       "over": 0.6394
+      },
+      {
+       "line": 4.5,
+       "over": 0.4725
+      },
+      {
+       "line": 5.5,
+       "over": 0.3277
+      }
+     ],
+     "away": [
+      {
+       "line": 3.5,
+       "over": 0.6875
+      },
+      {
+       "line": 4.5,
+       "over": 0.5303
+      },
+      {
+       "line": 5.5,
+       "over": 0.3807
+      }
+     ],
+     "winner": {
+      "home": 0.3994,
+      "away": 0.4864,
+      "draw": 0.1142
+     },
+     "sample": 890
+    },
+    "cards": {
+     "expected": {
+      "home": 2.64,
+      "away": 2.4,
+      "total": 5.04
+     },
+     "total": [
+      {
+       "line": 2.5,
+       "over": 0.7917,
+       "under": 0.2083
+      },
+      {
+       "line": 3.5,
+       "over": 0.634,
+       "under": 0.366
+      },
+      {
+       "line": 4.5,
+       "over": 0.459,
+       "under": 0.541
+      },
+      {
+       "line": 5.5,
+       "over": 0.3102,
+       "under": 0.6898
+      }
+     ],
+     "home": [
+      {
+       "line": 1.5,
+       "over": 0.6516
+      },
+      {
+       "line": 2.5,
+       "over": 0.4102
+      }
+     ],
+     "away": [
+      {
+       "line": 1.5,
+       "over": 0.6634
+      },
+      {
+       "line": 2.5,
+       "over": 0.4061
+      }
+     ],
+     "sample": 890,
+     "referee": {
+      "name": "Max Burda",
+      "factor": 1.0,
+      "matches": 0
      }
     },
     "quality": {
@@ -6444,7 +6199,7 @@
    "league": "D1",
    "league_name": "Bundesliga",
    "date": "2026-10-10",
-   "time": "13:30",
+   "time": "14:30",
    "home": "Paderborn",
    "away": "Stuttgart",
    "probs": {
@@ -6488,9 +6243,9 @@
     }
    ],
    "reference_odds": {
-    "home": 4.83,
-    "draw": 4.57,
-    "away": 1.59,
+    "home": 4.65,
+    "draw": 4.55,
+    "away": 1.58,
     "over25": 1.36,
     "under25": 3.03
    },
@@ -6683,11 +6438,239 @@
    }
   },
   {
+   "id": "D1_20261010_UnionBerlin_Elversberg",
+   "league": "D1",
+   "league_name": "Bundesliga",
+   "date": "2026-10-10",
+   "time": "14:30",
+   "home": "Union Berlin",
+   "away": "Elversberg",
+   "probs": {
+    "p_home": 0.2942,
+    "p_draw": 0.2437,
+    "p_away": 0.4622,
+    "p_over25": 0.6134,
+    "p_btts": 0.6302,
+    "p_under25": 0.3866,
+    "p_no_btts": 0.3698
+   },
+   "expected_goals": {
+    "home": 1.39,
+    "away": 1.78
+   },
+   "confidence": "scazuta",
+   "sample": {
+    "home_matches": 99,
+    "away_matches": 4
+   },
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 0.1104
+    },
+    {
+     "score": "1-2",
+     "p": 0.0926
+    },
+    {
+     "score": "2-1",
+     "p": 0.0721
+    },
+    {
+     "score": "0-1",
+     "p": 0.0686
+    },
+    {
+     "score": "0-2",
+     "p": 0.0667
+    }
+   ],
+   "reference_odds": {
+    "home": 2.29,
+    "draw": 3.69,
+    "away": 2.77,
+    "over25": 1.52,
+    "under25": 2.46
+   },
+   "context": {
+    "home": {
+     "form": [
+      "V",
+      "V",
+      "E",
+      "I",
+      "I",
+      "I"
+     ],
+     "goals_for_avg": 1.83,
+     "goals_against_avg": 3.0,
+     "shots_on_target_avg": 6.33,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "V",
+      "V",
+      "I",
+      "E"
+     ],
+     "goals_for_avg": 2.0,
+     "goals_against_avg": 1.75,
+     "shots_on_target_avg": 4.5,
+     "matches_analysed": 4
+    },
+    "h2h": []
+   },
+   "explanation": "Elversberg e favorita, cu 46% sanse de victorie. Goluri asteptate: 1.39 pentru Union Berlin, 1.78 pentru Elversberg. Forma recenta — Union Berlin: VVEIII, Elversberg: VVIE (cel mai recent meci la dreapta). In clasamentul intern al modelului, Union Berlin e pe locul 18 la atac, Elversberg pe 2, din 24 echipe. Se asteapta un meci deschis: 61% sanse la peste 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie.",
+   "extra_markets": {
+    "corners": {
+     "expected": {
+      "home": 7.85,
+      "away": 3.51,
+      "total": 11.36
+     },
+     "total": [
+      {
+       "line": 8.5,
+       "over": 0.692,
+       "under": 0.308
+      },
+      {
+       "line": 9.5,
+       "over": 0.5916,
+       "under": 0.4084
+      },
+      {
+       "line": 10.5,
+       "over": 0.4774,
+       "under": 0.5226
+      },
+      {
+       "line": 11.5,
+       "over": 0.3706,
+       "under": 0.6294
+      }
+     ],
+     "home": [
+      {
+       "line": 3.5,
+       "over": 0.8797
+      },
+      {
+       "line": 4.5,
+       "over": 0.7881
+      },
+      {
+       "line": 5.5,
+       "over": 0.6809
+      }
+     ],
+     "away": [
+      {
+       "line": 3.5,
+       "over": 0.4782
+      },
+      {
+       "line": 4.5,
+       "over": 0.31
+      },
+      {
+       "line": 5.5,
+       "over": 0.184
+      }
+     ],
+     "winner": {
+      "home": 0.7834,
+      "away": 0.1576,
+      "draw": 0.059
+     },
+     "sample": 890
+    },
+    "cards": {
+     "expected": {
+      "home": 1.73,
+      "away": 1.86,
+      "total": 3.59
+     },
+     "total": [
+      {
+       "line": 2.5,
+       "over": 0.7093,
+       "under": 0.2907
+      },
+      {
+       "line": 3.5,
+       "over": 0.5245,
+       "under": 0.4755
+      },
+      {
+       "line": 4.5,
+       "over": 0.3438,
+       "under": 0.6562
+      },
+      {
+       "line": 5.5,
+       "over": 0.2081,
+       "under": 0.7919
+      }
+     ],
+     "home": [
+      {
+       "line": 1.5,
+       "over": 0.5289
+      },
+      {
+       "line": 2.5,
+       "over": 0.2791
+      }
+     ],
+     "away": [
+      {
+       "line": 1.5,
+       "over": 0.5875
+      },
+      {
+       "line": 2.5,
+       "over": 0.3258
+      }
+     ],
+     "sample": 890,
+     "referee": {
+      "name": "Tobias Reichel",
+      "factor": 0.972,
+      "matches": 11
+     }
+    },
+    "quality": {
+     "corners_total": {
+      "gain": 0.0,
+      "label": "cat media campionatului"
+     },
+     "corners_team": {
+      "gain": 0.037,
+      "label": "informativ"
+     },
+     "corners_winner": {
+      "gain": 0.052,
+      "label": "cel mai informativ"
+     },
+     "cards_total": {
+      "gain": 0.022,
+      "label": "slab informativ"
+     },
+     "cards_team": {
+      "gain": 0.016,
+      "label": "slab informativ"
+     }
+    }
+   }
+  },
+  {
    "id": "B1_20261010_CercleBrugge_Anderlecht",
    "league": "B1",
    "league_name": "Jupiler Pro League",
    "date": "2026-10-10",
-   "time": "14:00",
+   "time": "15:00",
    "home": "Cercle Brugge",
    "away": "Anderlecht",
    "probs": {
@@ -6731,11 +6714,11 @@
     }
    ],
    "reference_odds": {
-    "home": 3.42,
-    "draw": 3.63,
-    "away": 1.97,
-    "over25": 1.65,
-    "under25": 2.21
+    "home": 3.41,
+    "draw": 3.65,
+    "away": 1.95,
+    "over25": 1.62,
+    "under25": 2.19
    },
    "context": {
     "home": {
@@ -6944,11 +6927,272 @@
    }
   },
   {
+   "id": "E0_20261010_AstonVilla_Brentford",
+   "league": "E0",
+   "league_name": "Premier League",
+   "date": "2026-10-10",
+   "time": "15:00",
+   "home": "Aston Villa",
+   "away": "Brentford",
+   "probs": {
+    "p_home": 0.4149,
+    "p_draw": 0.2699,
+    "p_away": 0.3152,
+    "p_over25": 0.5671,
+    "p_btts": 0.6064,
+    "p_under25": 0.4329,
+    "p_no_btts": 0.3936
+   },
+   "expected_goals": {
+    "home": 1.59,
+    "away": 1.37
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 111,
+    "away_matches": 111
+   },
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 0.1262
+    },
+    {
+     "score": "2-1",
+     "p": 0.0899
+    },
+    {
+     "score": "1-2",
+     "p": 0.0771
+    },
+    {
+     "score": "1-0",
+     "p": 0.0694
+    },
+    {
+     "score": "2-0",
+     "p": 0.0658
+    }
+   ],
+   "reference_odds": {
+    "home": 2.62,
+    "draw": 3.5,
+    "away": 2.54,
+    "over25": 1.67,
+    "under25": 2.11
+   },
+   "context": {
+    "home": {
+     "form": [
+      "V",
+      "I",
+      "I",
+      "E",
+      "I",
+      "V"
+     ],
+     "goals_for_avg": 1.0,
+     "goals_against_avg": 1.67,
+     "shots_on_target_avg": 2.83,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "E",
+      "V",
+      "E",
+      "E",
+      "E",
+      "V"
+     ],
+     "goals_for_avg": 1.83,
+     "goals_against_avg": 0.83,
+     "shots_on_target_avg": 4.17,
+     "matches_analysed": 6
+    },
+    "h2h": [
+     {
+      "date": "2026-02-01",
+      "home": "Aston Villa",
+      "away": "Brentford",
+      "score": "0-1"
+     },
+     {
+      "date": "2025-08-23",
+      "home": "Brentford",
+      "away": "Aston Villa",
+      "score": "1-0"
+     },
+     {
+      "date": "2025-03-08",
+      "home": "Brentford",
+      "away": "Aston Villa",
+      "score": "0-1"
+     },
+     {
+      "date": "2024-12-04",
+      "home": "Aston Villa",
+      "away": "Brentford",
+      "score": "3-1"
+     },
+     {
+      "date": "2024-04-06",
+      "home": "Aston Villa",
+      "away": "Brentford",
+      "score": "3-3"
+     }
+    ]
+   },
+   "explanation": "Aston Villa e favorita, cu 41% sanse de victorie. Goluri asteptate: 1.59 pentru Aston Villa, 1.37 pentru Brentford. Forma recenta — Aston Villa: VIIEIV, Brentford: EVEEEV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Aston Villa e pe locul 11 la atac, Brentford pe 8, din 27 echipe. Se asteapta un meci deschis: 57% sanse la peste 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie.",
+   "extra_markets": {
+    "corners": {
+     "expected": {
+      "home": 6.3,
+      "away": 4.13,
+      "total": 10.44
+     },
+     "total": [
+      {
+       "line": 8.5,
+       "over": 0.696,
+       "under": 0.304
+      },
+      {
+       "line": 9.5,
+       "over": 0.5852,
+       "under": 0.4148
+      },
+      {
+       "line": 10.5,
+       "over": 0.4714,
+       "under": 0.5286
+      },
+      {
+       "line": 11.5,
+       "over": 0.3469,
+       "under": 0.6531
+      }
+     ],
+     "home": [
+      {
+       "line": 3.5,
+       "over": 0.8083
+      },
+      {
+       "line": 4.5,
+       "over": 0.6824
+      },
+      {
+       "line": 5.5,
+       "over": 0.5496
+      }
+     ],
+     "away": [
+      {
+       "line": 3.5,
+       "over": 0.5681
+      },
+      {
+       "line": 4.5,
+       "over": 0.4038
+      },
+      {
+       "line": 5.5,
+       "over": 0.2736
+      }
+     ],
+     "winner": {
+      "home": 0.6448,
+      "away": 0.263,
+      "draw": 0.0922
+     },
+     "sample": 1110
+    },
+    "cards": {
+     "expected": {
+      "home": 1.58,
+      "away": 2.44,
+      "total": 4.02
+     },
+     "total": [
+      {
+       "line": 2.5,
+       "over": 0.7574,
+       "under": 0.2426
+      },
+      {
+       "line": 3.5,
+       "over": 0.5773,
+       "under": 0.4227
+      },
+      {
+       "line": 4.5,
+       "over": 0.387,
+       "under": 0.613
+      },
+      {
+       "line": 5.5,
+       "over": 0.2263,
+       "under": 0.7737
+      }
+     ],
+     "home": [
+      {
+       "line": 1.5,
+       "over": 0.5084
+      },
+      {
+       "line": 2.5,
+       "over": 0.2418
+      }
+     ],
+     "away": [
+      {
+       "line": 1.5,
+       "over": 0.6849
+      },
+      {
+       "line": 2.5,
+       "over": 0.4186
+      }
+     ],
+     "sample": 1110,
+     "referee": {
+      "name": "Craig Pawson",
+      "factor": 0.996,
+      "matches": 2
+     }
+    },
+    "quality": {
+     "corners_total": {
+      "gain": 0.0,
+      "label": "cat media campionatului"
+     },
+     "corners_team": {
+      "gain": 0.037,
+      "label": "informativ"
+     },
+     "corners_winner": {
+      "gain": 0.052,
+      "label": "cel mai informativ"
+     },
+     "cards_total": {
+      "gain": 0.022,
+      "label": "slab informativ"
+     },
+     "cards_team": {
+      "gain": 0.016,
+      "label": "slab informativ"
+     }
+    }
+   }
+  },
+  {
    "id": "E0_20261010_Chelsea_Bournemouth",
    "league": "E0",
    "league_name": "Premier League",
    "date": "2026-10-10",
-   "time": "14:00",
+   "time": "15:00",
    "home": "Chelsea",
    "away": "Bournemouth",
    "probs": {
@@ -6992,9 +7236,9 @@
     }
    ],
    "reference_odds": {
-    "home": 1.71,
-    "draw": 4.14,
-    "away": 4.45,
+    "home": 1.66,
+    "draw": 4.21,
+    "away": 4.53,
     "over25": 1.47,
     "under25": 2.58
    },
@@ -7209,7 +7453,7 @@
    "league": "E0",
    "league_name": "Premier League",
    "date": "2026-10-10",
-   "time": "14:00",
+   "time": "15:00",
    "home": "Ipswich",
    "away": "Fulham",
    "probs": {
@@ -7253,11 +7497,11 @@
     }
    ],
    "reference_odds": {
-    "home": 2.81,
-    "draw": 3.49,
-    "away": 2.43,
-    "over25": 1.75,
-    "under25": 2.09
+    "home": 2.75,
+    "draw": 3.48,
+    "away": 2.42,
+    "over25": 1.71,
+    "under25": 2.05
    },
    "context": {
     "home": {
@@ -7448,272 +7692,11 @@
    }
   },
   {
-   "id": "E0_20261010_AstonVilla_Brentford",
-   "league": "E0",
-   "league_name": "Premier League",
-   "date": "2026-10-10",
-   "time": "14:00",
-   "home": "Aston Villa",
-   "away": "Brentford",
-   "probs": {
-    "p_home": 0.4149,
-    "p_draw": 0.2699,
-    "p_away": 0.3152,
-    "p_over25": 0.5671,
-    "p_btts": 0.6064,
-    "p_under25": 0.4329,
-    "p_no_btts": 0.3936
-   },
-   "expected_goals": {
-    "home": 1.59,
-    "away": 1.37
-   },
-   "confidence": "ridicata",
-   "sample": {
-    "home_matches": 111,
-    "away_matches": 111
-   },
-   "top_scores": [
-    {
-     "score": "1-1",
-     "p": 0.1262
-    },
-    {
-     "score": "2-1",
-     "p": 0.0899
-    },
-    {
-     "score": "1-2",
-     "p": 0.0771
-    },
-    {
-     "score": "1-0",
-     "p": 0.0694
-    },
-    {
-     "score": "2-0",
-     "p": 0.0658
-    }
-   ],
-   "reference_odds": {
-    "home": 2.64,
-    "draw": 3.5,
-    "away": 2.57,
-    "over25": 1.7,
-    "under25": 2.17
-   },
-   "context": {
-    "home": {
-     "form": [
-      "V",
-      "I",
-      "I",
-      "E",
-      "I",
-      "V"
-     ],
-     "goals_for_avg": 1.0,
-     "goals_against_avg": 1.67,
-     "shots_on_target_avg": 2.83,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "E",
-      "V",
-      "E",
-      "E",
-      "E",
-      "V"
-     ],
-     "goals_for_avg": 1.83,
-     "goals_against_avg": 0.83,
-     "shots_on_target_avg": 4.17,
-     "matches_analysed": 6
-    },
-    "h2h": [
-     {
-      "date": "2026-02-01",
-      "home": "Aston Villa",
-      "away": "Brentford",
-      "score": "0-1"
-     },
-     {
-      "date": "2025-08-23",
-      "home": "Brentford",
-      "away": "Aston Villa",
-      "score": "1-0"
-     },
-     {
-      "date": "2025-03-08",
-      "home": "Brentford",
-      "away": "Aston Villa",
-      "score": "0-1"
-     },
-     {
-      "date": "2024-12-04",
-      "home": "Aston Villa",
-      "away": "Brentford",
-      "score": "3-1"
-     },
-     {
-      "date": "2024-04-06",
-      "home": "Aston Villa",
-      "away": "Brentford",
-      "score": "3-3"
-     }
-    ]
-   },
-   "explanation": "Aston Villa e favorita, cu 41% sanse de victorie. Goluri asteptate: 1.59 pentru Aston Villa, 1.37 pentru Brentford. Forma recenta — Aston Villa: VIIEIV, Brentford: EVEEEV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Aston Villa e pe locul 11 la atac, Brentford pe 8, din 27 echipe. Se asteapta un meci deschis: 57% sanse la peste 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie.",
-   "extra_markets": {
-    "corners": {
-     "expected": {
-      "home": 6.3,
-      "away": 4.13,
-      "total": 10.44
-     },
-     "total": [
-      {
-       "line": 8.5,
-       "over": 0.696,
-       "under": 0.304
-      },
-      {
-       "line": 9.5,
-       "over": 0.5852,
-       "under": 0.4148
-      },
-      {
-       "line": 10.5,
-       "over": 0.4714,
-       "under": 0.5286
-      },
-      {
-       "line": 11.5,
-       "over": 0.3469,
-       "under": 0.6531
-      }
-     ],
-     "home": [
-      {
-       "line": 3.5,
-       "over": 0.8083
-      },
-      {
-       "line": 4.5,
-       "over": 0.6824
-      },
-      {
-       "line": 5.5,
-       "over": 0.5496
-      }
-     ],
-     "away": [
-      {
-       "line": 3.5,
-       "over": 0.5681
-      },
-      {
-       "line": 4.5,
-       "over": 0.4038
-      },
-      {
-       "line": 5.5,
-       "over": 0.2736
-      }
-     ],
-     "winner": {
-      "home": 0.6448,
-      "away": 0.263,
-      "draw": 0.0922
-     },
-     "sample": 1110
-    },
-    "cards": {
-     "expected": {
-      "home": 1.58,
-      "away": 2.44,
-      "total": 4.02
-     },
-     "total": [
-      {
-       "line": 2.5,
-       "over": 0.7574,
-       "under": 0.2426
-      },
-      {
-       "line": 3.5,
-       "over": 0.5773,
-       "under": 0.4227
-      },
-      {
-       "line": 4.5,
-       "over": 0.387,
-       "under": 0.613
-      },
-      {
-       "line": 5.5,
-       "over": 0.2263,
-       "under": 0.7737
-      }
-     ],
-     "home": [
-      {
-       "line": 1.5,
-       "over": 0.5084
-      },
-      {
-       "line": 2.5,
-       "over": 0.2418
-      }
-     ],
-     "away": [
-      {
-       "line": 1.5,
-       "over": 0.6849
-      },
-      {
-       "line": 2.5,
-       "over": 0.4186
-      }
-     ],
-     "sample": 1110,
-     "referee": {
-      "name": "Craig Pawson",
-      "factor": 0.996,
-      "matches": 2
-     }
-    },
-    "quality": {
-     "corners_total": {
-      "gain": 0.0,
-      "label": "cat media campionatului"
-     },
-     "corners_team": {
-      "gain": 0.037,
-      "label": "informativ"
-     },
-     "corners_winner": {
-      "gain": 0.052,
-      "label": "cel mai informativ"
-     },
-     "cards_total": {
-      "gain": 0.022,
-      "label": "slab informativ"
-     },
-     "cards_team": {
-      "gain": 0.016,
-      "label": "slab informativ"
-     }
-    }
-   }
-  },
-  {
    "id": "E0_20261010_Sunderland_Brighton",
    "league": "E0",
    "league_name": "Premier League",
    "date": "2026-10-10",
-   "time": "14:00",
+   "time": "15:00",
    "home": "Sunderland",
    "away": "Brighton",
    "probs": {
@@ -7757,11 +7740,11 @@
     }
    ],
    "reference_odds": {
-    "home": 3.0,
-    "draw": 3.44,
-    "away": 2.32,
-    "over25": 1.81,
-    "under25": 2.02
+    "home": 2.94,
+    "draw": 3.47,
+    "away": 2.3,
+    "over25": 1.77,
+    "under25": 1.99
    },
    "context": {
     "home": {
@@ -7952,757 +7935,11 @@
    }
   },
   {
-   "id": "E1_20261010_Watford_Burnley",
-   "league": "E1",
-   "league_name": "Championship",
-   "date": "2026-10-10",
-   "time": "14:00",
-   "home": "Watford",
-   "away": "Burnley",
-   "probs": {
-    "p_home": 0.3227,
-    "p_draw": 0.2995,
-    "p_away": 0.3778,
-    "p_over25": 0.4166,
-    "p_btts": 0.4862,
-    "p_under25": 0.5834,
-    "p_no_btts": 0.5138
-   },
-   "expected_goals": {
-    "home": 1.12,
-    "away": 1.23
-   },
-   "confidence": "ridicata",
-   "sample": {
-    "home_matches": 135,
-    "away_matches": 54
-   },
-   "top_scores": [
-    {
-     "score": "1-1",
-     "p": 0.1413
-    },
-    {
-     "score": "0-1",
-     "p": 0.1077
-    },
-    {
-     "score": "0-0",
-     "p": 0.1055
-    },
-    {
-     "score": "1-0",
-     "p": 0.0969
-    },
-    {
-     "score": "1-2",
-     "p": 0.0808
-    }
-   ],
-   "reference_odds": {
-    "home": 2.99,
-    "draw": 3.42,
-    "away": 2.25,
-    "over25": 1.78,
-    "under25": 2.0
-   },
-   "context": {
-    "home": {
-     "form": [
-      "E",
-      "I",
-      "I",
-      "V",
-      "I",
-      "I"
-     ],
-     "goals_for_avg": 0.67,
-     "goals_against_avg": 1.33,
-     "shots_on_target_avg": 3.17,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "I",
-      "E",
-      "I",
-      "E",
-      "I",
-      "E"
-     ],
-     "goals_for_avg": 1.0,
-     "goals_against_avg": 2.0,
-     "shots_on_target_avg": 3.5,
-     "matches_analysed": 6
-    },
-    "h2h": [
-     {
-      "date": "2025-04-18",
-      "home": "Watford",
-      "away": "Burnley",
-      "score": "1-2"
-     },
-     {
-      "date": "2024-12-21",
-      "home": "Burnley",
-      "away": "Watford",
-      "score": "2-1"
-     },
-     {
-      "date": "2023-02-14",
-      "home": "Burnley",
-      "away": "Watford",
-      "score": "1-1"
-     },
-     {
-      "date": "2022-08-12",
-      "home": "Watford",
-      "away": "Burnley",
-      "score": "1-0"
-     }
-    ]
-   },
-   "explanation": "Meci echilibrat: modelul nu vede un favorit clar (32% / 30% / 38%). Goluri asteptate: 1.12 pentru Watford, 1.23 pentru Burnley. Forma recenta — Watford: EIIVII, Burnley: IEIEIE (cel mai recent meci la dreapta). In clasamentul intern al modelului, Watford e pe locul 29 la atac, Burnley pe 14, din 36 echipe. Se asteapta un meci inchis: 58% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie.",
-   "extra_markets": {
-    "corners": {
-     "expected": {
-      "home": 4.18,
-      "away": 4.74,
-      "total": 8.92
-     },
-     "total": [
-      {
-       "line": 8.5,
-       "over": 0.6168,
-       "under": 0.3832
-      },
-      {
-       "line": 9.5,
-       "over": 0.4944,
-       "under": 0.5056
-      },
-      {
-       "line": 10.5,
-       "over": 0.3816,
-       "under": 0.6184
-      },
-      {
-       "line": 11.5,
-       "over": 0.2864,
-       "under": 0.7136
-      }
-     ],
-     "home": [
-      {
-       "line": 3.5,
-       "over": 0.6083
-      },
-      {
-       "line": 4.5,
-       "over": 0.448
-      },
-      {
-       "line": 5.5,
-       "over": 0.3093
-      }
-     ],
-     "away": [
-      {
-       "line": 3.5,
-       "over": 0.6483
-      },
-      {
-       "line": 4.5,
-       "over": 0.4849
-      },
-      {
-       "line": 5.5,
-       "over": 0.3355
-      }
-     ],
-     "winner": {
-      "home": 0.4122,
-      "away": 0.4694,
-      "draw": 0.1184
-     },
-     "sample": 1619
-    },
-    "cards": {
-     "expected": {
-      "home": 2.31,
-      "away": 2.86,
-      "total": 5.17
-     },
-     "total": [
-      {
-       "line": 2.5,
-       "over": 0.8098,
-       "under": 0.1902
-      },
-      {
-       "line": 3.5,
-       "over": 0.6409,
-       "under": 0.3591
-      },
-      {
-       "line": 4.5,
-       "over": 0.4609,
-       "under": 0.5391
-      },
-      {
-       "line": 5.5,
-       "over": 0.2992,
-       "under": 0.7008
-      }
-     ],
-     "home": [
-      {
-       "line": 1.5,
-       "over": 0.6082
-      },
-      {
-       "line": 2.5,
-       "over": 0.3379
-      }
-     ],
-     "away": [
-      {
-       "line": 1.5,
-       "over": 0.7208
-      },
-      {
-       "line": 2.5,
-       "over": 0.4604
-      }
-     ],
-     "sample": 1619,
-     "referee": {
-      "name": "Andrew Madley",
-      "factor": 1.0,
-      "matches": 0
-     }
-    },
-    "quality": {
-     "corners_total": {
-      "gain": 0.0,
-      "label": "cat media campionatului"
-     },
-     "corners_team": {
-      "gain": 0.037,
-      "label": "informativ"
-     },
-     "corners_winner": {
-      "gain": 0.052,
-      "label": "cel mai informativ"
-     },
-     "cards_total": {
-      "gain": 0.022,
-      "label": "slab informativ"
-     },
-     "cards_team": {
-      "gain": 0.016,
-      "label": "slab informativ"
-     }
-    }
-   }
-  },
-  {
-   "id": "E1_20261010_Preston_Millwall",
-   "league": "E1",
-   "league_name": "Championship",
-   "date": "2026-10-10",
-   "time": "14:00",
-   "home": "Preston",
-   "away": "Millwall",
-   "probs": {
-    "p_home": 0.3063,
-    "p_draw": 0.2878,
-    "p_away": 0.4059,
-    "p_over25": 0.4549,
-    "p_btts": 0.5145,
-    "p_under25": 0.5451,
-    "p_no_btts": 0.4855
-   },
-   "expected_goals": {
-    "home": 1.14,
-    "away": 1.35
-   },
-   "confidence": "ridicata",
-   "sample": {
-    "home_matches": 135,
-    "away_matches": 135
-   },
-   "top_scores": [
-    {
-     "score": "1-1",
-     "p": 0.1371
-    },
-    {
-     "score": "0-1",
-     "p": 0.1019
-    },
-    {
-     "score": "0-0",
-     "p": 0.0921
-    },
-    {
-     "score": "1-2",
-     "p": 0.0862
-    },
-    {
-     "score": "1-0",
-     "p": 0.0847
-    }
-   ],
-   "reference_odds": {
-    "home": 2.79,
-    "draw": 3.38,
-    "away": 2.39,
-    "over25": 1.83,
-    "under25": 1.96
-   },
-   "context": {
-    "home": {
-     "form": [
-      "I",
-      "I",
-      "V",
-      "I",
-      "I",
-      "E"
-     ],
-     "goals_for_avg": 1.0,
-     "goals_against_avg": 1.67,
-     "shots_on_target_avg": 3.33,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "I",
-      "I",
-      "V",
-      "I",
-      "E",
-      "E"
-     ],
-     "goals_for_avg": 1.67,
-     "goals_against_avg": 2.5,
-     "shots_on_target_avg": 3.83,
-     "matches_analysed": 6
-    },
-    "h2h": [
-     {
-      "date": "2026-02-28",
-      "home": "Preston",
-      "away": "Millwall",
-      "score": "0-2"
-     },
-     {
-      "date": "2025-11-08",
-      "home": "Millwall",
-      "away": "Preston",
-      "score": "1-1"
-     },
-     {
-      "date": "2025-02-18",
-      "home": "Preston",
-      "away": "Millwall",
-      "score": "1-1"
-     },
-     {
-      "date": "2024-09-28",
-      "home": "Millwall",
-      "away": "Preston",
-      "score": "3-1"
-     },
-     {
-      "date": "2024-01-27",
-      "home": "Millwall",
-      "away": "Preston",
-      "score": "1-1"
-     }
-    ]
-   },
-   "explanation": "Millwall e favorita, cu 41% sanse de victorie. Goluri asteptate: 1.14 pentru Preston, 1.35 pentru Millwall. Forma recenta — Preston: IIVIIE, Millwall: IIVIEE (cel mai recent meci la dreapta). In clasamentul intern al modelului, Preston e pe locul 25 la atac, Millwall pe 10, din 36 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie.",
-   "extra_markets": {
-    "corners": {
-     "expected": {
-      "home": 5.67,
-      "away": 5.36,
-      "total": 11.03
-     },
-     "total": [
-      {
-       "line": 8.5,
-       "over": 0.7149,
-       "under": 0.2851
-      },
-      {
-       "line": 9.5,
-       "over": 0.6014,
-       "under": 0.3986
-      },
-      {
-       "line": 10.5,
-       "over": 0.488,
-       "under": 0.512
-      },
-      {
-       "line": 11.5,
-       "over": 0.3838,
-       "under": 0.6162
-      }
-     ],
-     "home": [
-      {
-       "line": 3.5,
-       "over": 0.7596
-      },
-      {
-       "line": 4.5,
-       "over": 0.6221
-      },
-      {
-       "line": 5.5,
-       "over": 0.4803
-      }
-     ],
-     "away": [
-      {
-       "line": 3.5,
-       "over": 0.7094
-      },
-      {
-       "line": 4.5,
-       "over": 0.5577
-      },
-      {
-       "line": 5.5,
-       "over": 0.4087
-      }
-     ],
-     "winner": {
-      "home": 0.4928,
-      "away": 0.4031,
-      "draw": 0.1041
-     },
-     "sample": 1619
-    },
-    "cards": {
-     "expected": {
-      "home": 1.88,
-      "away": 1.39,
-      "total": 3.26
-     },
-     "total": [
-      {
-       "line": 2.5,
-       "over": 0.6903,
-       "under": 0.3097
-      },
-      {
-       "line": 3.5,
-       "over": 0.4802,
-       "under": 0.5198
-      },
-      {
-       "line": 4.5,
-       "over": 0.2951,
-       "under": 0.7049
-      },
-      {
-       "line": 5.5,
-       "over": 0.1592,
-       "under": 0.8408
-      }
-     ],
-     "home": [
-      {
-       "line": 1.5,
-       "over": 0.5455
-      },
-      {
-       "line": 2.5,
-       "over": 0.2726
-      }
-     ],
-     "away": [
-      {
-       "line": 1.5,
-       "over": 0.5112
-      },
-      {
-       "line": 2.5,
-       "over": 0.2475
-      }
-     ],
-     "sample": 1619,
-     "referee": {
-      "name": "Ben Speedie",
-      "factor": 1.0,
-      "matches": 0
-     }
-    },
-    "quality": {
-     "corners_total": {
-      "gain": 0.0,
-      "label": "cat media campionatului"
-     },
-     "corners_team": {
-      "gain": 0.037,
-      "label": "informativ"
-     },
-     "corners_winner": {
-      "gain": 0.052,
-      "label": "cel mai informativ"
-     },
-     "cards_total": {
-      "gain": 0.022,
-      "label": "slab informativ"
-     },
-     "cards_team": {
-      "gain": 0.016,
-      "label": "slab informativ"
-     }
-    }
-   }
-  },
-  {
-   "id": "E1_20261010_SheffieldUnited_Lincoln",
-   "league": "E1",
-   "league_name": "Championship",
-   "date": "2026-10-10",
-   "time": "14:00",
-   "home": "Sheffield United",
-   "away": "Lincoln",
-   "probs": {
-    "p_home": 0.491,
-    "p_draw": 0.2939,
-    "p_away": 0.2151,
-    "p_over25": 0.3831,
-    "p_btts": 0.4335,
-    "p_under25": 0.6169,
-    "p_no_btts": 0.5665
-   },
-   "expected_goals": {
-    "home": 1.39,
-    "away": 0.83
-   },
-   "confidence": "scazuta",
-   "sample": {
-    "home_matches": 100,
-    "away_matches": 8
-   },
-   "top_scores": [
-    {
-     "score": "1-0",
-     "p": 0.1412
-    },
-    {
-     "score": "1-1",
-     "p": 0.1348
-    },
-    {
-     "score": "0-0",
-     "p": 0.1179
-    },
-    {
-     "score": "2-0",
-     "p": 0.1047
-    },
-    {
-     "score": "2-1",
-     "p": 0.0871
-    }
-   ],
-   "reference_odds": {
-    "home": 2.09,
-    "draw": 3.34,
-    "away": 3.43,
-    "over25": 1.97,
-    "under25": 1.81
-   },
-   "context": {
-    "home": {
-     "form": [
-      "E",
-      "V",
-      "I",
-      "V",
-      "I",
-      "I"
-     ],
-     "goals_for_avg": 1.5,
-     "goals_against_avg": 1.83,
-     "shots_on_target_avg": 3.67,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "V",
-      "E",
-      "E",
-      "V",
-      "V",
-      "I"
-     ],
-     "goals_for_avg": 0.83,
-     "goals_against_avg": 0.5,
-     "shots_on_target_avg": 3.0,
-     "matches_analysed": 6
-    },
-    "h2h": []
-   },
-   "explanation": "Sheffield United e favorita, cu 49% sanse de victorie. Goluri asteptate: 1.39 pentru Sheffield United, 0.83 pentru Lincoln. Forma recenta — Sheffield United: EVIVII, Lincoln: VEEVVI (cel mai recent meci la dreapta). In clasamentul intern al modelului, Sheffield United e pe locul 12 la atac, Lincoln pe 34, din 36 echipe. Se asteapta un meci inchis: 62% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie.",
-   "extra_markets": {
-    "corners": {
-     "expected": {
-      "home": 10.02,
-      "away": 3.91,
-      "total": 13.93
-     },
-     "total": [
-      {
-       "line": 8.5,
-       "over": 0.7863,
-       "under": 0.2137
-      },
-      {
-       "line": 9.5,
-       "over": 0.6957,
-       "under": 0.3043
-      },
-      {
-       "line": 10.5,
-       "over": 0.6015,
-       "under": 0.3985
-      },
-      {
-       "line": 11.5,
-       "over": 0.5096,
-       "under": 0.4904
-      }
-     ],
-     "home": [
-      {
-       "line": 3.5,
-       "over": 0.9185
-      },
-      {
-       "line": 4.5,
-       "over": 0.8584
-      },
-      {
-       "line": 5.5,
-       "over": 0.7824
-      }
-     ],
-     "away": [
-      {
-       "line": 3.5,
-       "over": 0.5443
-      },
-      {
-       "line": 4.5,
-       "over": 0.3749
-      },
-      {
-       "line": 5.5,
-       "over": 0.2369
-      }
-     ],
-     "winner": {
-      "home": 0.8207,
-      "away": 0.1392,
-      "draw": 0.0401
-     },
-     "sample": 1619
-    },
-    "cards": {
-     "expected": {
-      "home": 1.11,
-      "away": 3.2,
-      "total": 4.31
-     },
-     "total": [
-      {
-       "line": 2.5,
-       "over": 0.77,
-       "under": 0.23
-      },
-      {
-       "line": 3.5,
-       "over": 0.5791,
-       "under": 0.4209
-      },
-      {
-       "line": 4.5,
-       "over": 0.3885,
-       "under": 0.6115
-      },
-      {
-       "line": 5.5,
-       "over": 0.2306,
-       "under": 0.7694
-      }
-     ],
-     "home": [
-      {
-       "line": 1.5,
-       "over": 0.4032
-      },
-      {
-       "line": 2.5,
-       "over": 0.1672
-      }
-     ],
-     "away": [
-      {
-       "line": 1.5,
-       "over": 0.749
-      },
-      {
-       "line": 2.5,
-       "over": 0.5028
-      }
-     ],
-     "sample": 1619,
-     "referee": {
-      "name": "Josh Smith",
-      "factor": 0.978,
-      "matches": 17
-     }
-    },
-    "quality": {
-     "corners_total": {
-      "gain": 0.0,
-      "label": "cat media campionatului"
-     },
-     "corners_team": {
-      "gain": 0.037,
-      "label": "informativ"
-     },
-     "corners_winner": {
-      "gain": 0.052,
-      "label": "cel mai informativ"
-     },
-     "cards_total": {
-      "gain": 0.022,
-      "label": "slab informativ"
-     },
-     "cards_team": {
-      "gain": 0.016,
-      "label": "slab informativ"
-     }
-    }
-   }
-  },
-  {
    "id": "E1_20261010_Blackburn_Cardiff",
    "league": "E1",
    "league_name": "Championship",
    "date": "2026-10-10",
-   "time": "14:00",
+   "time": "15:00",
    "home": "Blackburn",
    "away": "Cardiff",
    "probs": {
@@ -8746,11 +7983,11 @@
     }
    ],
    "reference_odds": {
-    "home": 2.65,
-    "draw": 3.54,
-    "away": 2.44,
-    "over25": 1.61,
-    "under25": 2.27
+    "home": 2.64,
+    "draw": 3.63,
+    "away": 2.45,
+    "over25": 1.6,
+    "under25": 2.25
    },
    "context": {
     "home": {
@@ -8963,7 +8200,7 @@
    "league": "E1",
    "league_name": "Championship",
    "date": "2026-10-10",
-   "time": "14:00",
+   "time": "15:00",
    "home": "Bolton",
    "away": "Stoke",
    "probs": {
@@ -9008,10 +8245,10 @@
    ],
    "reference_odds": {
     "home": 2.69,
-    "draw": 3.32,
-    "away": 2.51,
-    "over25": 1.85,
-    "under25": 1.94
+    "draw": 3.38,
+    "away": 2.52,
+    "over25": 1.83,
+    "under25": 1.92
    },
    "context": {
     "home": {
@@ -9206,7 +8443,7 @@
    "league": "E1",
    "league_name": "Championship",
    "date": "2026-10-10",
-   "time": "14:00",
+   "time": "15:00",
    "home": "Derby",
    "away": "Wrexham",
    "probs": {
@@ -9250,11 +8487,11 @@
     }
    ],
    "reference_odds": {
-    "home": 2.69,
-    "draw": 3.26,
-    "away": 2.56,
-    "over25": 1.99,
-    "under25": 1.79
+    "home": 2.67,
+    "draw": 3.32,
+    "away": 2.59,
+    "over25": 1.98,
+    "under25": 1.77
    },
    "context": {
     "home": {
@@ -9449,7 +8686,7 @@
    "league": "E1",
    "league_name": "Championship",
    "date": "2026-10-10",
-   "time": "14:00",
+   "time": "15:00",
    "home": "Middlesbrough",
    "away": "Wolves",
    "probs": {
@@ -9493,11 +8730,11 @@
     }
    ],
    "reference_odds": {
-    "home": 2.21,
-    "draw": 3.6,
-    "away": 2.93,
-    "over25": 1.61,
-    "under25": 2.28
+    "home": 2.22,
+    "draw": 3.67,
+    "away": 2.92,
+    "over25": 1.6,
+    "under25": 2.25
    },
    "context": {
     "home": {
@@ -9706,24 +8943,770 @@
    }
   },
   {
+   "id": "E1_20261010_Preston_Millwall",
+   "league": "E1",
+   "league_name": "Championship",
+   "date": "2026-10-10",
+   "time": "15:00",
+   "home": "Preston",
+   "away": "Millwall",
+   "probs": {
+    "p_home": 0.3063,
+    "p_draw": 0.2878,
+    "p_away": 0.4059,
+    "p_over25": 0.4549,
+    "p_btts": 0.5145,
+    "p_under25": 0.5451,
+    "p_no_btts": 0.4855
+   },
+   "expected_goals": {
+    "home": 1.14,
+    "away": 1.35
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 135,
+    "away_matches": 135
+   },
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 0.1371
+    },
+    {
+     "score": "0-1",
+     "p": 0.1019
+    },
+    {
+     "score": "0-0",
+     "p": 0.0921
+    },
+    {
+     "score": "1-2",
+     "p": 0.0862
+    },
+    {
+     "score": "1-0",
+     "p": 0.0847
+    }
+   ],
+   "reference_odds": {
+    "home": 2.81,
+    "draw": 3.44,
+    "away": 2.39,
+    "over25": 1.8,
+    "under25": 1.94
+   },
+   "context": {
+    "home": {
+     "form": [
+      "I",
+      "I",
+      "V",
+      "I",
+      "I",
+      "E"
+     ],
+     "goals_for_avg": 1.0,
+     "goals_against_avg": 1.67,
+     "shots_on_target_avg": 3.33,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "I",
+      "I",
+      "V",
+      "I",
+      "E",
+      "E"
+     ],
+     "goals_for_avg": 1.67,
+     "goals_against_avg": 2.5,
+     "shots_on_target_avg": 3.83,
+     "matches_analysed": 6
+    },
+    "h2h": [
+     {
+      "date": "2026-02-28",
+      "home": "Preston",
+      "away": "Millwall",
+      "score": "0-2"
+     },
+     {
+      "date": "2025-11-08",
+      "home": "Millwall",
+      "away": "Preston",
+      "score": "1-1"
+     },
+     {
+      "date": "2025-02-18",
+      "home": "Preston",
+      "away": "Millwall",
+      "score": "1-1"
+     },
+     {
+      "date": "2024-09-28",
+      "home": "Millwall",
+      "away": "Preston",
+      "score": "3-1"
+     },
+     {
+      "date": "2024-01-27",
+      "home": "Millwall",
+      "away": "Preston",
+      "score": "1-1"
+     }
+    ]
+   },
+   "explanation": "Millwall e favorita, cu 41% sanse de victorie. Goluri asteptate: 1.14 pentru Preston, 1.35 pentru Millwall. Forma recenta — Preston: IIVIIE, Millwall: IIVIEE (cel mai recent meci la dreapta). In clasamentul intern al modelului, Preston e pe locul 25 la atac, Millwall pe 10, din 36 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie.",
+   "extra_markets": {
+    "corners": {
+     "expected": {
+      "home": 5.67,
+      "away": 5.36,
+      "total": 11.03
+     },
+     "total": [
+      {
+       "line": 8.5,
+       "over": 0.7149,
+       "under": 0.2851
+      },
+      {
+       "line": 9.5,
+       "over": 0.6014,
+       "under": 0.3986
+      },
+      {
+       "line": 10.5,
+       "over": 0.488,
+       "under": 0.512
+      },
+      {
+       "line": 11.5,
+       "over": 0.3838,
+       "under": 0.6162
+      }
+     ],
+     "home": [
+      {
+       "line": 3.5,
+       "over": 0.7596
+      },
+      {
+       "line": 4.5,
+       "over": 0.6221
+      },
+      {
+       "line": 5.5,
+       "over": 0.4803
+      }
+     ],
+     "away": [
+      {
+       "line": 3.5,
+       "over": 0.7094
+      },
+      {
+       "line": 4.5,
+       "over": 0.5577
+      },
+      {
+       "line": 5.5,
+       "over": 0.4087
+      }
+     ],
+     "winner": {
+      "home": 0.4928,
+      "away": 0.4031,
+      "draw": 0.1041
+     },
+     "sample": 1619
+    },
+    "cards": {
+     "expected": {
+      "home": 1.88,
+      "away": 1.39,
+      "total": 3.26
+     },
+     "total": [
+      {
+       "line": 2.5,
+       "over": 0.6903,
+       "under": 0.3097
+      },
+      {
+       "line": 3.5,
+       "over": 0.4802,
+       "under": 0.5198
+      },
+      {
+       "line": 4.5,
+       "over": 0.2951,
+       "under": 0.7049
+      },
+      {
+       "line": 5.5,
+       "over": 0.1592,
+       "under": 0.8408
+      }
+     ],
+     "home": [
+      {
+       "line": 1.5,
+       "over": 0.5455
+      },
+      {
+       "line": 2.5,
+       "over": 0.2726
+      }
+     ],
+     "away": [
+      {
+       "line": 1.5,
+       "over": 0.5112
+      },
+      {
+       "line": 2.5,
+       "over": 0.2475
+      }
+     ],
+     "sample": 1619,
+     "referee": {
+      "name": "Ben Speedie",
+      "factor": 1.0,
+      "matches": 0
+     }
+    },
+    "quality": {
+     "corners_total": {
+      "gain": 0.0,
+      "label": "cat media campionatului"
+     },
+     "corners_team": {
+      "gain": 0.037,
+      "label": "informativ"
+     },
+     "corners_winner": {
+      "gain": 0.052,
+      "label": "cel mai informativ"
+     },
+     "cards_total": {
+      "gain": 0.022,
+      "label": "slab informativ"
+     },
+     "cards_team": {
+      "gain": 0.016,
+      "label": "slab informativ"
+     }
+    }
+   }
+  },
+  {
+   "id": "E1_20261010_SheffieldUnited_Lincoln",
+   "league": "E1",
+   "league_name": "Championship",
+   "date": "2026-10-10",
+   "time": "15:00",
+   "home": "Sheffield United",
+   "away": "Lincoln",
+   "probs": {
+    "p_home": 0.491,
+    "p_draw": 0.2939,
+    "p_away": 0.2151,
+    "p_over25": 0.3831,
+    "p_btts": 0.4335,
+    "p_under25": 0.6169,
+    "p_no_btts": 0.5665
+   },
+   "expected_goals": {
+    "home": 1.39,
+    "away": 0.83
+   },
+   "confidence": "scazuta",
+   "sample": {
+    "home_matches": 100,
+    "away_matches": 8
+   },
+   "top_scores": [
+    {
+     "score": "1-0",
+     "p": 0.1412
+    },
+    {
+     "score": "1-1",
+     "p": 0.1348
+    },
+    {
+     "score": "0-0",
+     "p": 0.1179
+    },
+    {
+     "score": "2-0",
+     "p": 0.1047
+    },
+    {
+     "score": "2-1",
+     "p": 0.0871
+    }
+   ],
+   "reference_odds": {
+    "home": 2.11,
+    "draw": 3.37,
+    "away": 3.44,
+    "over25": 1.98,
+    "under25": 1.77
+   },
+   "context": {
+    "home": {
+     "form": [
+      "E",
+      "V",
+      "I",
+      "V",
+      "I",
+      "I"
+     ],
+     "goals_for_avg": 1.5,
+     "goals_against_avg": 1.83,
+     "shots_on_target_avg": 3.67,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "V",
+      "E",
+      "E",
+      "V",
+      "V",
+      "I"
+     ],
+     "goals_for_avg": 0.83,
+     "goals_against_avg": 0.5,
+     "shots_on_target_avg": 3.0,
+     "matches_analysed": 6
+    },
+    "h2h": []
+   },
+   "explanation": "Sheffield United e favorita, cu 49% sanse de victorie. Goluri asteptate: 1.39 pentru Sheffield United, 0.83 pentru Lincoln. Forma recenta — Sheffield United: EVIVII, Lincoln: VEEVVI (cel mai recent meci la dreapta). In clasamentul intern al modelului, Sheffield United e pe locul 12 la atac, Lincoln pe 34, din 36 echipe. Se asteapta un meci inchis: 62% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie.",
+   "extra_markets": {
+    "corners": {
+     "expected": {
+      "home": 10.02,
+      "away": 3.91,
+      "total": 13.93
+     },
+     "total": [
+      {
+       "line": 8.5,
+       "over": 0.7863,
+       "under": 0.2137
+      },
+      {
+       "line": 9.5,
+       "over": 0.6957,
+       "under": 0.3043
+      },
+      {
+       "line": 10.5,
+       "over": 0.6015,
+       "under": 0.3985
+      },
+      {
+       "line": 11.5,
+       "over": 0.5096,
+       "under": 0.4904
+      }
+     ],
+     "home": [
+      {
+       "line": 3.5,
+       "over": 0.9185
+      },
+      {
+       "line": 4.5,
+       "over": 0.8584
+      },
+      {
+       "line": 5.5,
+       "over": 0.7824
+      }
+     ],
+     "away": [
+      {
+       "line": 3.5,
+       "over": 0.5443
+      },
+      {
+       "line": 4.5,
+       "over": 0.3749
+      },
+      {
+       "line": 5.5,
+       "over": 0.2369
+      }
+     ],
+     "winner": {
+      "home": 0.8207,
+      "away": 0.1392,
+      "draw": 0.0401
+     },
+     "sample": 1619
+    },
+    "cards": {
+     "expected": {
+      "home": 1.11,
+      "away": 3.2,
+      "total": 4.31
+     },
+     "total": [
+      {
+       "line": 2.5,
+       "over": 0.77,
+       "under": 0.23
+      },
+      {
+       "line": 3.5,
+       "over": 0.5791,
+       "under": 0.4209
+      },
+      {
+       "line": 4.5,
+       "over": 0.3885,
+       "under": 0.6115
+      },
+      {
+       "line": 5.5,
+       "over": 0.2306,
+       "under": 0.7694
+      }
+     ],
+     "home": [
+      {
+       "line": 1.5,
+       "over": 0.4032
+      },
+      {
+       "line": 2.5,
+       "over": 0.1672
+      }
+     ],
+     "away": [
+      {
+       "line": 1.5,
+       "over": 0.749
+      },
+      {
+       "line": 2.5,
+       "over": 0.5028
+      }
+     ],
+     "sample": 1619,
+     "referee": {
+      "name": "Josh Smith",
+      "factor": 0.978,
+      "matches": 17
+     }
+    },
+    "quality": {
+     "corners_total": {
+      "gain": 0.0,
+      "label": "cat media campionatului"
+     },
+     "corners_team": {
+      "gain": 0.037,
+      "label": "informativ"
+     },
+     "corners_winner": {
+      "gain": 0.052,
+      "label": "cel mai informativ"
+     },
+     "cards_total": {
+      "gain": 0.022,
+      "label": "slab informativ"
+     },
+     "cards_team": {
+      "gain": 0.016,
+      "label": "slab informativ"
+     }
+    }
+   }
+  },
+  {
+   "id": "E1_20261010_Watford_Burnley",
+   "league": "E1",
+   "league_name": "Championship",
+   "date": "2026-10-10",
+   "time": "15:00",
+   "home": "Watford",
+   "away": "Burnley",
+   "probs": {
+    "p_home": 0.3227,
+    "p_draw": 0.2995,
+    "p_away": 0.3778,
+    "p_over25": 0.4166,
+    "p_btts": 0.4862,
+    "p_under25": 0.5834,
+    "p_no_btts": 0.5138
+   },
+   "expected_goals": {
+    "home": 1.12,
+    "away": 1.23
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 135,
+    "away_matches": 54
+   },
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 0.1413
+    },
+    {
+     "score": "0-1",
+     "p": 0.1077
+    },
+    {
+     "score": "0-0",
+     "p": 0.1055
+    },
+    {
+     "score": "1-0",
+     "p": 0.0969
+    },
+    {
+     "score": "1-2",
+     "p": 0.0808
+    }
+   ],
+   "reference_odds": {
+    "home": 2.99,
+    "draw": 3.48,
+    "away": 2.26,
+    "over25": 1.77,
+    "under25": 1.98
+   },
+   "context": {
+    "home": {
+     "form": [
+      "E",
+      "I",
+      "I",
+      "V",
+      "I",
+      "I"
+     ],
+     "goals_for_avg": 0.67,
+     "goals_against_avg": 1.33,
+     "shots_on_target_avg": 3.17,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "I",
+      "E",
+      "I",
+      "E",
+      "I",
+      "E"
+     ],
+     "goals_for_avg": 1.0,
+     "goals_against_avg": 2.0,
+     "shots_on_target_avg": 3.5,
+     "matches_analysed": 6
+    },
+    "h2h": [
+     {
+      "date": "2025-04-18",
+      "home": "Watford",
+      "away": "Burnley",
+      "score": "1-2"
+     },
+     {
+      "date": "2024-12-21",
+      "home": "Burnley",
+      "away": "Watford",
+      "score": "2-1"
+     },
+     {
+      "date": "2023-02-14",
+      "home": "Burnley",
+      "away": "Watford",
+      "score": "1-1"
+     },
+     {
+      "date": "2022-08-12",
+      "home": "Watford",
+      "away": "Burnley",
+      "score": "1-0"
+     }
+    ]
+   },
+   "explanation": "Meci echilibrat: modelul nu vede un favorit clar (32% / 30% / 38%). Goluri asteptate: 1.12 pentru Watford, 1.23 pentru Burnley. Forma recenta — Watford: EIIVII, Burnley: IEIEIE (cel mai recent meci la dreapta). In clasamentul intern al modelului, Watford e pe locul 29 la atac, Burnley pe 14, din 36 echipe. Se asteapta un meci inchis: 58% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie.",
+   "extra_markets": {
+    "corners": {
+     "expected": {
+      "home": 4.18,
+      "away": 4.74,
+      "total": 8.92
+     },
+     "total": [
+      {
+       "line": 8.5,
+       "over": 0.6168,
+       "under": 0.3832
+      },
+      {
+       "line": 9.5,
+       "over": 0.4944,
+       "under": 0.5056
+      },
+      {
+       "line": 10.5,
+       "over": 0.3816,
+       "under": 0.6184
+      },
+      {
+       "line": 11.5,
+       "over": 0.2864,
+       "under": 0.7136
+      }
+     ],
+     "home": [
+      {
+       "line": 3.5,
+       "over": 0.6083
+      },
+      {
+       "line": 4.5,
+       "over": 0.448
+      },
+      {
+       "line": 5.5,
+       "over": 0.3093
+      }
+     ],
+     "away": [
+      {
+       "line": 3.5,
+       "over": 0.6483
+      },
+      {
+       "line": 4.5,
+       "over": 0.4849
+      },
+      {
+       "line": 5.5,
+       "over": 0.3355
+      }
+     ],
+     "winner": {
+      "home": 0.4122,
+      "away": 0.4694,
+      "draw": 0.1184
+     },
+     "sample": 1619
+    },
+    "cards": {
+     "expected": {
+      "home": 2.31,
+      "away": 2.86,
+      "total": 5.17
+     },
+     "total": [
+      {
+       "line": 2.5,
+       "over": 0.8098,
+       "under": 0.1902
+      },
+      {
+       "line": 3.5,
+       "over": 0.6409,
+       "under": 0.3591
+      },
+      {
+       "line": 4.5,
+       "over": 0.4609,
+       "under": 0.5391
+      },
+      {
+       "line": 5.5,
+       "over": 0.2992,
+       "under": 0.7008
+      }
+     ],
+     "home": [
+      {
+       "line": 1.5,
+       "over": 0.6082
+      },
+      {
+       "line": 2.5,
+       "over": 0.3379
+      }
+     ],
+     "away": [
+      {
+       "line": 1.5,
+       "over": 0.7208
+      },
+      {
+       "line": 2.5,
+       "over": 0.4604
+      }
+     ],
+     "sample": 1619,
+     "referee": {
+      "name": "Andrew Madley",
+      "factor": 1.0,
+      "matches": 0
+     }
+    },
+    "quality": {
+     "corners_total": {
+      "gain": 0.0,
+      "label": "cat media campionatului"
+     },
+     "corners_team": {
+      "gain": 0.037,
+      "label": "informativ"
+     },
+     "corners_winner": {
+      "gain": 0.052,
+      "label": "cel mai informativ"
+     },
+     "cards_total": {
+      "gain": 0.022,
+      "label": "slab informativ"
+     },
+     "cards_team": {
+      "gain": 0.016,
+      "label": "slab informativ"
+     }
+    }
+   }
+  },
+  {
    "id": "ROU_Superliga_20261010_FCBotosani_UTAArad",
    "league": "ROU_Superliga",
    "league_name": "Romania — Superliga",
    "date": "2026-10-10",
-   "time": "14:15",
+   "time": "15:15",
    "home": "FC Botosani",
    "away": "UTA Arad",
    "probs": {
-    "p_home": 0.4815,
-    "p_draw": 0.2582,
-    "p_away": 0.2603,
-    "p_over25": 0.495,
-    "p_btts": 0.5275,
-    "p_under25": 0.505,
-    "p_no_btts": 0.4725
+    "p_home": 0.4777,
+    "p_draw": 0.2588,
+    "p_away": 0.2635,
+    "p_over25": 0.4934,
+    "p_btts": 0.527,
+    "p_under25": 0.5066,
+    "p_no_btts": 0.473
    },
    "expected_goals": {
-    "home": 1.57,
+    "home": 1.56,
     "away": 1.09
    },
    "confidence": "ridicata",
@@ -9734,31 +9717,29 @@
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1229
+     "p": 0.1232
     },
     {
      "score": "1-0",
-     "p": 0.1072
+     "p": 0.1073
     },
     {
      "score": "2-1",
-     "p": 0.0939
+     "p": 0.0936
     },
     {
      "score": "2-0",
-     "p": 0.0864
+     "p": 0.0858
     },
     {
-     "score": "0-0",
-     "p": 0.0735
+     "score": "0-1",
+     "p": 0.0744
     }
    ],
    "reference_odds": {
-    "home": 2.31,
-    "draw": 3.4,
-    "away": 2.73,
-    "over25": 1.73,
-    "under25": 2.05
+    "home": 2.29,
+    "draw": 3.39,
+    "away": 2.72
    },
    "context": {
     "home": {
@@ -9822,14 +9803,14 @@
      }
     ]
    },
-   "explanation": "FC Botosani e favorita, cu 48% sanse de victorie. Goluri asteptate: 1.57 pentru FC Botosani, 1.09 pentru UTA Arad. Forma recenta — FC Botosani: IVEVEI, UTA Arad: IEVVIV (cel mai recent meci la dreapta). In clasamentul intern al modelului, FC Botosani e pe locul 11 la atac, UTA Arad pe 9, din 25 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+   "explanation": "FC Botosani e favorita, cu 48% sanse de victorie. Goluri asteptate: 1.56 pentru FC Botosani, 1.09 pentru UTA Arad. Forma recenta — FC Botosani: IVEVEI, UTA Arad: IEVVIV (cel mai recent meci la dreapta). In clasamentul intern al modelului, FC Botosani e pe locul 11 la atac, UTA Arad pe 9, din 25 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
   },
   {
    "id": "SP1_20261010_Alaves_AthMadrid",
    "league": "SP1",
    "league_name": "La Liga",
    "date": "2026-10-10",
-   "time": "14:15",
+   "time": "15:15",
    "home": "Alaves",
    "away": "Ath Madrid",
    "probs": {
@@ -9873,11 +9854,11 @@
     }
    ],
    "reference_odds": {
-    "home": 4.33,
-    "draw": 3.71,
-    "away": 1.79,
-    "over25": 1.84,
-    "under25": 1.99
+    "home": 4.23,
+    "draw": 3.69,
+    "away": 1.8,
+    "over25": 1.8,
+    "under25": 1.94
    },
    "context": {
     "home": {
@@ -10085,7 +10066,7 @@
    "league": "N1",
    "league_name": "Eredivisie",
    "date": "2026-10-10",
-   "time": "14:30",
+   "time": "15:30",
    "home": "Go Ahead Eagles",
    "away": "Sparta Rotterdam",
    "probs": {
@@ -10129,10 +10110,10 @@
     }
    ],
    "reference_odds": {
-    "home": 1.75,
-    "draw": 4.01,
-    "away": 4.03,
-    "over25": 1.38,
+    "home": 1.74,
+    "draw": 4.06,
+    "away": 3.92,
+    "over25": 1.37,
     "under25": 2.89
    },
    "context": {
@@ -10346,7 +10327,7 @@
    "league": "P1",
    "league_name": "Primeira Liga",
    "date": "2026-10-10",
-   "time": "14:30",
+   "time": "15:30",
    "home": "Casa Pia",
    "away": "Santa Clara",
    "probs": {
@@ -10390,11 +10371,11 @@
     }
    ],
    "reference_odds": {
-    "home": 4.36,
-    "draw": 3.29,
-    "away": 1.86,
-    "over25": 2.33,
-    "under25": 1.59
+    "home": 4.31,
+    "draw": 3.28,
+    "away": 1.85,
+    "over25": 2.28,
+    "under25": 1.57
    },
    "context": {
     "home": {
@@ -10607,7 +10588,7 @@
    "league": "F1",
    "league_name": "Ligue 1",
    "date": "2026-10-10",
-   "time": "15:15",
+   "time": "16:15",
    "home": "Lille",
    "away": "Le Havre",
    "probs": {
@@ -10651,11 +10632,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.43,
-    "draw": 4.67,
-    "away": 6.92,
-    "over25": 1.64,
-    "under25": 2.28
+    "home": 1.42,
+    "draw": 4.66,
+    "away": 6.76,
+    "over25": 1.6,
+    "under25": 2.25
    },
    "context": {
     "home": {
@@ -10868,7 +10849,7 @@
    "league": "I1",
    "league_name": "Serie A",
    "date": "2026-10-10",
-   "time": "16:00",
+   "time": "17:00",
    "home": "Inter",
    "away": "Parma",
    "probs": {
@@ -10912,11 +10893,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.14,
-    "draw": 8.59,
-    "away": 16.99,
-    "over25": 1.34,
-    "under25": 3.11
+    "home": 1.13,
+    "draw": 8.38,
+    "away": 17.13,
+    "over25": 1.33,
+    "under25": 3.16
    },
    "context": {
     "home": {
@@ -11129,7 +11110,7 @@
    "league": "B1",
    "league_name": "Jupiler Pro League",
    "date": "2026-10-10",
-   "time": "16:15",
+   "time": "17:15",
    "home": "RAAL La Louviere",
    "away": "Club Brugge",
    "probs": {
@@ -11173,11 +11154,11 @@
     }
    ],
    "reference_odds": {
-    "home": 6.67,
-    "draw": 4.8,
-    "away": 1.39,
+    "home": 6.54,
+    "draw": 4.82,
+    "away": 1.38,
     "over25": 1.47,
-    "under25": 2.57
+    "under25": 2.55
    },
    "context": {
     "home": {
@@ -11367,7 +11348,7 @@
    "league": "D1",
    "league_name": "Bundesliga",
    "date": "2026-10-10",
-   "time": "16:30",
+   "time": "17:30",
    "home": "RB Leipzig",
    "away": "Ein Frankfurt",
    "probs": {
@@ -11412,10 +11393,10 @@
    ],
    "reference_odds": {
     "home": 1.55,
-    "draw": 4.77,
-    "away": 4.93,
+    "draw": 4.73,
+    "away": 4.74,
     "over25": 1.28,
-    "under25": 3.5
+    "under25": 3.51
    },
    "context": {
     "home": {
@@ -11628,7 +11609,7 @@
    "league": "E0",
    "league_name": "Premier League",
    "date": "2026-10-10",
-   "time": "16:30",
+   "time": "17:30",
    "home": "Man United",
    "away": "Tottenham",
    "probs": {
@@ -11672,11 +11653,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.71,
-    "draw": 4.12,
-    "away": 4.47,
-    "over25": 1.48,
-    "under25": 2.54
+    "home": 1.69,
+    "draw": 4.16,
+    "away": 4.37,
+    "over25": 1.49,
+    "under25": 2.52
    },
    "context": {
     "home": {
@@ -11889,7 +11870,7 @@
    "league": "SP1",
    "league_name": "La Liga",
    "date": "2026-10-10",
-   "time": "16:30",
+   "time": "17:30",
    "home": "Barcelona",
    "away": "Getafe",
    "probs": {
@@ -11933,11 +11914,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.07,
-    "draw": 12.52,
-    "away": 27.19,
-    "over25": 1.27,
-    "under25": 3.5
+    "home": 1.08,
+    "draw": 11.73,
+    "away": 23.81,
+    "over25": 1.24,
+    "under25": 3.78
    },
    "context": {
     "home": {
@@ -12145,7 +12126,7 @@
    "league": "N1",
    "league_name": "Eredivisie",
    "date": "2026-10-10",
-   "time": "16:45",
+   "time": "17:45",
    "home": "Feyenoord",
    "away": "AZ Alkmaar",
    "probs": {
@@ -12189,11 +12170,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.81,
-    "draw": 3.94,
-    "away": 3.82,
-    "over25": 1.4,
-    "under25": 2.81
+    "home": 1.8,
+    "draw": 3.96,
+    "away": 3.76,
+    "over25": 1.39,
+    "under25": 2.82
    },
    "context": {
     "home": {
@@ -12406,7 +12387,7 @@
    "league": "P1",
    "league_name": "Primeira Liga",
    "date": "2026-10-10",
-   "time": "17:00",
+   "time": "18:00",
    "home": "Maritimo",
    "away": "Porto",
    "probs": {
@@ -12450,11 +12431,11 @@
     }
    ],
    "reference_odds": {
-    "home": 9.2,
-    "draw": 5.02,
+    "home": 9.3,
+    "draw": 4.87,
     "away": 1.31,
-    "over25": 1.75,
-    "under25": 2.04
+    "over25": 1.84,
+    "under25": 1.88
    },
    "context": {
     "home": {
@@ -12663,249 +12644,11 @@
    }
   },
   {
-   "id": "ROU_Superliga_20261010_FCArges_CFRCluj",
-   "league": "ROU_Superliga",
-   "league_name": "Romania — Superliga",
-   "date": "2026-10-10",
-   "time": "17:00",
-   "home": "FC Arges",
-   "away": "CFR Cluj",
-   "probs": {
-    "p_home": 0.3359,
-    "p_draw": 0.3297,
-    "p_away": 0.3344,
-    "p_over25": 0.2845,
-    "p_btts": 0.3692,
-    "p_under25": 0.7155,
-    "p_no_btts": 0.6308
-   },
-   "expected_goals": {
-    "home": 0.93,
-    "away": 0.93
-   },
-   "confidence": "ridicata",
-   "sample": {
-    "home_matches": 50,
-    "away_matches": 117
-   },
-   "top_scores": [
-    {
-     "score": "0-0",
-     "p": 0.1597
-    },
-    {
-     "score": "1-0",
-     "p": 0.1418
-    },
-    {
-     "score": "0-1",
-     "p": 0.1413
-    },
-    {
-     "score": "1-1",
-     "p": 0.1381
-    },
-    {
-     "score": "2-0",
-     "p": 0.0675
-    }
-   ],
-   "reference_odds": {
-    "home": 2.64,
-    "draw": 3.01,
-    "away": 2.69,
-    "over25": 2.34,
-    "under25": 1.56
-   },
-   "context": {
-    "home": {
-     "form": [
-      "E",
-      "I",
-      "I",
-      "I",
-      "E",
-      "I"
-     ],
-     "goals_for_avg": 0.5,
-     "goals_against_avg": 1.33,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "I",
-      "V",
-      "V",
-      "E",
-      "I",
-      "V"
-     ],
-     "goals_for_avg": 1.33,
-     "goals_against_avg": 1.5,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "h2h": [
-     {
-      "date": "2026-05-22",
-      "home": "CFR Cluj",
-      "away": "FC Arges",
-      "score": "1-1"
-     },
-     {
-      "date": "2026-04-17",
-      "home": "FC Arges",
-      "away": "CFR Cluj",
-      "score": "0-1"
-     },
-     {
-      "date": "2025-11-29",
-      "home": "FC Arges",
-      "away": "CFR Cluj",
-      "score": "3-0"
-     },
-     {
-      "date": "2025-07-27",
-      "home": "CFR Cluj",
-      "away": "FC Arges",
-      "score": "0-2"
-     },
-     {
-      "date": "2023-02-19",
-      "home": "CFR Cluj",
-      "away": "FC Arges",
-      "score": "3-1"
-     }
-    ]
-   },
-   "explanation": "Meci echilibrat: modelul nu vede un favorit clar (34% / 33% / 33%). Goluri asteptate: 0.93 pentru FC Arges, 0.93 pentru CFR Cluj. Forma recenta — FC Arges: EIIIEI, CFR Cluj: IVVEIV (cel mai recent meci la dreapta). In clasamentul intern al modelului, FC Arges e pe locul 23 la atac, CFR Cluj pe 4, din 25 echipe. Se asteapta un meci inchis: 72% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
-  },
-  {
-   "id": "ROU_Superliga_20261010_U.Cluj_FCRapidBucuresti",
-   "league": "ROU_Superliga",
-   "league_name": "Romania — Superliga",
-   "date": "2026-10-10",
-   "time": "17:00",
-   "home": "U. Cluj",
-   "away": "FC Rapid Bucuresti",
-   "probs": {
-    "p_home": 0.4841,
-    "p_draw": 0.2732,
-    "p_away": 0.2427,
-    "p_over25": 0.4264,
-    "p_btts": 0.4692,
-    "p_under25": 0.5736,
-    "p_no_btts": 0.5308
-   },
-   "expected_goals": {
-    "home": 1.44,
-    "away": 0.94
-   },
-   "confidence": "ridicata",
-   "sample": {
-    "home_matches": 118,
-    "away_matches": 118
-   },
-   "top_scores": [
-    {
-     "score": "1-0",
-     "p": 0.1297
-    },
-    {
-     "score": "1-1",
-     "p": 0.1284
-    },
-    {
-     "score": "2-0",
-     "p": 0.0959
-    },
-    {
-     "score": "0-0",
-     "p": 0.0953
-    },
-    {
-     "score": "2-1",
-     "p": 0.0903
-    }
-   ],
-   "reference_odds": {
-    "home": 2.61,
-    "draw": 3.2,
-    "away": 2.57,
-    "over25": 1.97,
-    "under25": 1.79
-   },
-   "context": {
-    "home": {
-     "form": [
-      "V",
-      "I",
-      "I",
-      "I",
-      "V",
-      "V"
-     ],
-     "goals_for_avg": 1.67,
-     "goals_against_avg": 1.67,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "I",
-      "V",
-      "E",
-      "V",
-      "V",
-      "V"
-     ],
-     "goals_for_avg": 1.5,
-     "goals_against_avg": 0.67,
-     "shots_on_target_avg": null,
-     "matches_analysed": 6
-    },
-    "h2h": [
-     {
-      "date": "2026-05-09",
-      "home": "U. Cluj",
-      "away": "FC Rapid Bucuresti",
-      "score": "1-0"
-     },
-     {
-      "date": "2026-04-05",
-      "home": "FC Rapid Bucuresti",
-      "away": "U. Cluj",
-      "score": "1-2"
-     },
-     {
-      "date": "2026-01-31",
-      "home": "FC Rapid Bucuresti",
-      "away": "U. Cluj",
-      "score": "0-2"
-     },
-     {
-      "date": "2025-09-12",
-      "home": "U. Cluj",
-      "away": "FC Rapid Bucuresti",
-      "score": "0-0"
-     },
-     {
-      "date": "2025-05-24",
-      "home": "U. Cluj",
-      "away": "FC Rapid Bucuresti",
-      "score": "2-2"
-     }
-    ]
-   },
-   "explanation": "U. Cluj e favorita, cu 48% sanse de victorie. Goluri asteptate: 1.44 pentru U. Cluj, 0.94 pentru FC Rapid Bucuresti. Forma recenta — U. Cluj: VIIIVV, FC Rapid Bucuresti: IVEVVV (cel mai recent meci la dreapta). In clasamentul intern al modelului, U. Cluj e pe locul 5 la atac, FC Rapid Bucuresti pe 7, din 25 echipe. Se asteapta un meci inchis: 57% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
-  },
-  {
    "id": "N1_20261010_ForSittard_Twente",
    "league": "N1",
    "league_name": "Eredivisie",
    "date": "2026-10-10",
-   "time": "18:00",
+   "time": "19:00",
    "home": "For Sittard",
    "away": "Twente",
    "probs": {
@@ -12949,8 +12692,8 @@
     }
    ],
    "reference_odds": {
-    "home": 6.19,
-    "draw": 4.92,
+    "home": 6.16,
+    "draw": 4.99,
     "away": 1.41,
     "over25": 1.35,
     "under25": 3.0
@@ -13166,21 +12909,21 @@
    "league": "ROU_Superliga",
    "league_name": "Romania — Superliga",
    "date": "2026-10-10",
-   "time": "18:30",
+   "time": "19:30",
    "home": "FCSB",
    "away": "Otelul",
    "probs": {
-    "p_home": 0.5636,
-    "p_draw": 0.2295,
-    "p_away": 0.2069,
-    "p_over25": 0.5611,
+    "p_home": 0.5605,
+    "p_draw": 0.2302,
+    "p_away": 0.2093,
+    "p_over25": 0.5597,
     "p_btts": 0.5543,
-    "p_under25": 0.4389,
+    "p_under25": 0.4403,
     "p_no_btts": 0.4457
    },
    "expected_goals": {
-    "home": 1.88,
-    "away": 1.05
+    "home": 1.87,
+    "away": 1.06
    },
    "confidence": "ridicata",
    "sample": {
@@ -13190,31 +12933,29 @@
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1082
+     "p": 0.1086
     },
     {
      "score": "2-1",
-     "p": 0.0991
+     "p": 0.099
     },
     {
      "score": "1-0",
-     "p": 0.0975
+     "p": 0.0977
     },
     {
      "score": "2-0",
-     "p": 0.0941
+     "p": 0.0936
     },
     {
      "score": "3-1",
-     "p": 0.062
+     "p": 0.0616
     }
    ],
    "reference_odds": {
-    "home": 1.39,
-    "draw": 4.58,
-    "away": 6.58,
-    "over25": 1.57,
-    "under25": 2.33
+    "home": 1.37,
+    "draw": 4.55,
+    "away": 6.5
    },
    "context": {
     "home": {
@@ -13278,275 +13019,14 @@
      }
     ]
    },
-   "explanation": "FCSB e favorita, cu 56% sanse de victorie. Goluri asteptate: 1.88 pentru FCSB, 1.05 pentru Otelul. Forma recenta — FCSB: VIIIEI, Otelul: EVEIII (cel mai recent meci la dreapta). In clasamentul intern al modelului, FCSB e pe locul 6 la atac, Otelul pe 10, din 25 echipe. Se asteapta un meci deschis: 56% sanse la peste 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
-  },
-  {
-   "id": "B1_20261010_Waregem_Gent",
-   "league": "B1",
-   "league_name": "Jupiler Pro League",
-   "date": "2026-10-10",
-   "time": "18:45",
-   "home": "Waregem",
-   "away": "Gent",
-   "probs": {
-    "p_home": 0.4299,
-    "p_draw": 0.2677,
-    "p_away": 0.3024,
-    "p_over25": 0.4999,
-    "p_btts": 0.5441,
-    "p_under25": 0.5001,
-    "p_no_btts": 0.4559
-   },
-   "expected_goals": {
-    "home": 1.48,
-    "away": 1.2
-   },
-   "confidence": "ridicata",
-   "sample": {
-    "home_matches": 43,
-    "away_matches": 118
-   },
-   "top_scores": [
-    {
-     "score": "1-1",
-     "p": 0.1275
-    },
-    {
-     "score": "1-0",
-     "p": 0.0963
-    },
-    {
-     "score": "2-1",
-     "p": 0.09
-    },
-    {
-     "score": "0-1",
-     "p": 0.0772
-    },
-    {
-     "score": "2-0",
-     "p": 0.0751
-    }
-   ],
-   "reference_odds": {
-    "home": 2.81,
-    "draw": 3.31,
-    "away": 2.37,
-    "over25": 1.92,
-    "under25": 1.87
-   },
-   "context": {
-    "home": {
-     "form": [
-      "E",
-      "V",
-      "E",
-      "V",
-      "I",
-      "I"
-     ],
-     "goals_for_avg": 1.33,
-     "goals_against_avg": 1.0,
-     "shots_on_target_avg": 4.5,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "V",
-      "V",
-      "V",
-      "V",
-      "E",
-      "V"
-     ],
-     "goals_for_avg": 1.83,
-     "goals_against_avg": 0.67,
-     "shots_on_target_avg": 4.33,
-     "matches_analysed": 6
-    },
-    "h2h": [
-     {
-      "date": "2026-03-13",
-      "home": "Gent",
-      "away": "Waregem",
-      "score": "2-0"
-     },
-     {
-      "date": "2025-10-19",
-      "home": "Waregem",
-      "away": "Gent",
-      "score": "4-1"
-     },
-     {
-      "date": "2023-03-12",
-      "home": "Waregem",
-      "away": "Gent",
-      "score": "2-6"
-     },
-     {
-      "date": "2022-09-11",
-      "home": "Gent",
-      "away": "Waregem",
-      "score": "2-0"
-     },
-     {
-      "date": "2022-03-06",
-      "home": "Gent",
-      "away": "Waregem",
-      "score": "2-1"
-     }
-    ]
-   },
-   "explanation": "Waregem e favorita, cu 43% sanse de victorie. Goluri asteptate: 1.48 pentru Waregem, 1.20 pentru Gent. Forma recenta — Waregem: EVEVII, Gent: VVVVEV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Waregem e pe locul 7 la atac, Gent pe 9, din 22 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie.",
-   "extra_markets": {
-    "corners": {
-     "expected": {
-      "home": 5.73,
-      "away": 4.38,
-      "total": 10.11
-     },
-     "total": [
-      {
-       "line": 8.5,
-       "over": 0.6624,
-       "under": 0.3376
-      },
-      {
-       "line": 9.5,
-       "over": 0.5368,
-       "under": 0.4632
-      },
-      {
-       "line": 10.5,
-       "over": 0.4292,
-       "under": 0.5708
-      },
-      {
-       "line": 11.5,
-       "over": 0.3065,
-       "under": 0.6935
-      }
-     ],
-     "home": [
-      {
-       "line": 3.5,
-       "over": 0.7758
-      },
-      {
-       "line": 4.5,
-       "over": 0.6319
-      },
-      {
-       "line": 5.5,
-       "over": 0.4807
-      }
-     ],
-     "away": [
-      {
-       "line": 3.5,
-       "over": 0.6064
-      },
-      {
-       "line": 4.5,
-       "over": 0.44
-      },
-      {
-       "line": 5.5,
-       "over": 0.2927
-      }
-     ],
-     "winner": {
-      "home": 0.5858,
-      "away": 0.3086,
-      "draw": 0.1056
-     },
-     "sample": 917
-    },
-    "cards": {
-     "expected": {
-      "home": 1.27,
-      "away": 2.54,
-      "total": 3.81
-     },
-     "total": [
-      {
-       "line": 2.5,
-       "over": 0.7181,
-       "under": 0.2819
-      },
-      {
-       "line": 3.5,
-       "over": 0.5376,
-       "under": 0.4624
-      },
-      {
-       "line": 4.5,
-       "over": 0.3588,
-       "under": 0.6412
-      },
-      {
-       "line": 5.5,
-       "over": 0.2158,
-       "under": 0.7842
-      }
-     ],
-     "home": [
-      {
-       "line": 1.5,
-       "over": 0.437
-      },
-      {
-       "line": 2.5,
-       "over": 0.1941
-      }
-     ],
-     "away": [
-      {
-       "line": 1.5,
-       "over": 0.6887
-      },
-      {
-       "line": 2.5,
-       "over": 0.4164
-      }
-     ],
-     "sample": 917,
-     "referee": {
-      "name": "N Laforge",
-      "factor": 1.148,
-      "matches": 64
-     }
-    },
-    "quality": {
-     "corners_total": {
-      "gain": 0.0,
-      "label": "cat media campionatului"
-     },
-     "corners_team": {
-      "gain": 0.037,
-      "label": "informativ"
-     },
-     "corners_winner": {
-      "gain": 0.052,
-      "label": "cel mai informativ"
-     },
-     "cards_total": {
-      "gain": 0.022,
-      "label": "slab informativ"
-     },
-     "cards_team": {
-      "gain": 0.016,
-      "label": "slab informativ"
-     }
-    }
-   }
+   "explanation": "FCSB e favorita, cu 56% sanse de victorie. Goluri asteptate: 1.87 pentru FCSB, 1.06 pentru Otelul. Forma recenta — FCSB: VIIIEI, Otelul: EVEIII (cel mai recent meci la dreapta). In clasamentul intern al modelului, FCSB e pe locul 6 la atac, Otelul pe 10, din 25 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
   },
   {
    "id": "B1_20261010_Genk_Kortrijk",
    "league": "B1",
    "league_name": "Jupiler Pro League",
    "date": "2026-10-10",
-   "time": "18:45",
+   "time": "19:45",
    "home": "Genk",
    "away": "Kortrijk",
    "probs": {
@@ -13590,10 +13070,10 @@
     }
    ],
    "reference_odds": {
-    "home": 1.43,
-    "draw": 4.51,
+    "home": 1.42,
+    "draw": 4.54,
     "away": 6.31,
-    "over25": 1.55,
+    "over25": 1.53,
     "under25": 2.37
    },
    "context": {
@@ -13803,712 +13283,240 @@
    }
   },
   {
-   "id": "F1_20261010_ParisSG_LeMans",
-   "league": "F1",
-   "league_name": "Ligue 1",
+   "id": "B1_20261010_Waregem_Gent",
+   "league": "B1",
+   "league_name": "Jupiler Pro League",
    "date": "2026-10-10",
-   "time": "18:45",
-   "home": "Paris SG",
-   "away": "Le Mans",
+   "time": "19:45",
+   "home": "Waregem",
+   "away": "Gent",
    "probs": {
-    "p_home": 0.7626,
-    "p_draw": 0.1452,
-    "p_away": 0.0922,
-    "p_over25": 0.7328,
-    "p_btts": 0.5815,
-    "p_under25": 0.2672,
-    "p_no_btts": 0.4185
+    "p_home": 0.4299,
+    "p_draw": 0.2677,
+    "p_away": 0.3024,
+    "p_over25": 0.4999,
+    "p_btts": 0.5441,
+    "p_under25": 0.5001,
+    "p_no_btts": 0.4559
    },
    "expected_goals": {
-    "home": 2.86,
-    "away": 0.95
-   },
-   "confidence": "scazuta",
-   "sample": {
-    "home_matches": 99,
-    "away_matches": 5
-   },
-   "top_scores": [
-    {
-     "score": "2-0",
-     "p": 0.0906
-    },
-    {
-     "score": "3-0",
-     "p": 0.0865
-    },
-    {
-     "score": "2-1",
-     "p": 0.086
-    },
-    {
-     "score": "3-1",
-     "p": 0.0821
-    },
-    {
-     "score": "1-1",
-     "p": 0.0638
-    }
-   ],
-   "reference_odds": {
-    "home": 1.08,
-    "draw": 12.56,
-    "away": 25.84,
-    "over25": 1.2,
-    "under25": 4.28
-   },
-   "context": {
-    "home": {
-     "form": [
-      "I",
-      "E",
-      "E",
-      "I",
-      "V",
-      "V"
-     ],
-     "goals_for_avg": 1.5,
-     "goals_against_avg": 1.5,
-     "shots_on_target_avg": 6.33,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "E",
-      "I",
-      "E",
-      "E",
-      "V"
-     ],
-     "goals_for_avg": 1.8,
-     "goals_against_avg": 1.8,
-     "shots_on_target_avg": 5.0,
-     "matches_analysed": 5
-    },
-    "h2h": []
-   },
-   "explanation": "Paris SG e favorita, cu 76% sanse de victorie. Goluri asteptate: 2.86 pentru Paris SG, 0.95 pentru Le Mans. Forma recenta — Paris SG: IEEIVV, Le Mans: EIEEV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Paris SG e pe locul 1 la atac, Le Mans pe 5, din 24 echipe. Se asteapta un meci deschis: 73% sanse la peste 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie.",
-   "extra_markets": {
-    "corners": {
-     "expected": {
-      "home": 9.82,
-      "away": 1.45,
-      "total": 11.26
-     },
-     "total": [
-      {
-       "line": 8.5,
-       "over": 0.6591,
-       "under": 0.3409
-      },
-      {
-       "line": 9.5,
-       "over": 0.5495,
-       "under": 0.4505
-      },
-      {
-       "line": 10.5,
-       "over": 0.439,
-       "under": 0.561
-      },
-      {
-       "line": 11.5,
-       "over": 0.3353,
-       "under": 0.6647
-      }
-     ],
-     "home": [
-      {
-       "line": 3.5,
-       "over": 0.9008
-      },
-      {
-       "line": 4.5,
-       "over": 0.8344
-      },
-      {
-       "line": 5.5,
-       "over": 0.7571
-      }
-     ],
-     "away": [
-      {
-       "line": 3.5,
-       "over": 0.1755
-      },
-      {
-       "line": 4.5,
-       "over": 0.1052
-      },
-      {
-       "line": 5.5,
-       "over": 0.0653
-      }
-     ],
-     "winner": {
-      "home": 0.8923,
-      "away": 0.0968,
-      "draw": 0.0109
-     },
-     "sample": 892
-    },
-    "cards": {
-     "expected": {
-      "home": 1.46,
-      "away": 1.71,
-      "total": 3.18
-     },
-     "total": [
-      {
-       "line": 2.5,
-       "over": 0.6987,
-       "under": 0.3013
-      },
-      {
-       "line": 3.5,
-       "over": 0.4891,
-       "under": 0.5109
-      },
-      {
-       "line": 4.5,
-       "over": 0.3022,
-       "under": 0.6978
-      },
-      {
-       "line": 5.5,
-       "over": 0.152,
-       "under": 0.848
-      }
-     ],
-     "home": [
-      {
-       "line": 1.5,
-       "over": 0.4924
-      },
-      {
-       "line": 2.5,
-       "over": 0.2242
-      }
-     ],
-     "away": [
-      {
-       "line": 1.5,
-       "over": 0.5702
-      },
-      {
-       "line": 2.5,
-       "over": 0.2926
-      }
-     ],
-     "sample": 892,
-     "referee": {
-      "name": "Mathieu Vernice",
-      "factor": 1.013,
-      "matches": 6
-     }
-    },
-    "quality": {
-     "corners_total": {
-      "gain": 0.0,
-      "label": "cat media campionatului"
-     },
-     "corners_team": {
-      "gain": 0.037,
-      "label": "informativ"
-     },
-     "corners_winner": {
-      "gain": 0.052,
-      "label": "cel mai informativ"
-     },
-     "cards_total": {
-      "gain": 0.022,
-      "label": "slab informativ"
-     },
-     "cards_team": {
-      "gain": 0.016,
-      "label": "slab informativ"
-     }
-    }
-   }
-  },
-  {
-   "id": "F1_20261010_Monaco_Toulouse",
-   "league": "F1",
-   "league_name": "Ligue 1",
-   "date": "2026-10-10",
-   "time": "18:45",
-   "home": "Monaco",
-   "away": "Toulouse",
-   "probs": {
-    "p_home": 0.5134,
-    "p_draw": 0.2472,
-    "p_away": 0.2394,
-    "p_over25": 0.5596,
-    "p_btts": 0.5742,
-    "p_under25": 0.4404,
-    "p_no_btts": 0.4258
-   },
-   "expected_goals": {
-    "home": 1.77,
-    "away": 1.15
+    "home": 1.48,
+    "away": 1.2
    },
    "confidence": "ridicata",
    "sample": {
-    "home_matches": 99,
-    "away_matches": 99
+    "home_matches": 43,
+    "away_matches": 118
    },
    "top_scores": [
     {
      "score": "1-1",
-     "p": 0.1164
+     "p": 0.1275
+    },
+    {
+     "score": "1-0",
+     "p": 0.0963
     },
     {
      "score": "2-1",
-     "p": 0.0972
-    },
-    {
-     "score": "1-0",
-     "p": 0.0885
-    },
-    {
-     "score": "2-0",
-     "p": 0.0846
-    },
-    {
-     "score": "1-2",
-     "p": 0.063
-    }
-   ],
-   "reference_odds": {
-    "home": 1.59,
-    "draw": 4.26,
-    "away": 5.14,
-    "over25": 1.59,
-    "under25": 2.39
-   },
-   "context": {
-    "home": {
-     "form": [
-      "I",
-      "V",
-      "V",
-      "V",
-      "E",
-      "V"
-     ],
-     "goals_for_avg": 2.0,
-     "goals_against_avg": 1.33,
-     "shots_on_target_avg": 5.17,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "E",
-      "I",
-      "E",
-      "I",
-      "E",
-      "V"
-     ],
-     "goals_for_avg": 1.17,
-     "goals_against_avg": 1.5,
-     "shots_on_target_avg": 4.0,
-     "matches_analysed": 6
-    },
-    "h2h": [
-     {
-      "date": "2026-04-25",
-      "home": "Toulouse",
-      "away": "Monaco",
-      "score": "2-2"
-     },
-     {
-      "date": "2025-10-25",
-      "home": "Monaco",
-      "away": "Toulouse",
-      "score": "1-0"
-     },
-     {
-      "date": "2025-03-07",
-      "home": "Toulouse",
-      "away": "Monaco",
-      "score": "1-1"
-     },
-     {
-      "date": "2024-12-07",
-      "home": "Monaco",
-      "away": "Toulouse",
-      "score": "2-0"
-     },
-     {
-      "date": "2024-02-18",
-      "home": "Monaco",
-      "away": "Toulouse",
-      "score": "1-2"
-     }
-    ]
-   },
-   "explanation": "Monaco e favorita, cu 51% sanse de victorie. Goluri asteptate: 1.77 pentru Monaco, 1.15 pentru Toulouse. Forma recenta — Monaco: IVVVEV, Toulouse: EIEIEV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Monaco e pe locul 2 la atac, Toulouse pe 11, din 24 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie.",
-   "extra_markets": {
-    "corners": {
-     "expected": {
-      "home": 5.52,
-      "away": 3.67,
-      "total": 9.2
-     },
-     "total": [
-      {
-       "line": 8.5,
-       "over": 0.571,
-       "under": 0.429
-      },
-      {
-       "line": 9.5,
-       "over": 0.4521,
-       "under": 0.5479
-      },
-      {
-       "line": 10.5,
-       "over": 0.34,
-       "under": 0.66
-      },
-      {
-       "line": 11.5,
-       "over": 0.2422,
-       "under": 0.7578
-      }
-     ],
-     "home": [
-      {
-       "line": 3.5,
-       "over": 0.7332
-      },
-      {
-       "line": 4.5,
-       "over": 0.5875
-      },
-      {
-       "line": 5.5,
-       "over": 0.4448
-      }
-     ],
-     "away": [
-      {
-       "line": 3.5,
-       "over": 0.4978
-      },
-      {
-       "line": 4.5,
-       "over": 0.3353
-      },
-      {
-       "line": 5.5,
-       "over": 0.2113
-      }
-     ],
-     "winner": {
-      "home": 0.6222,
-      "away": 0.275,
-      "draw": 0.1028
-     },
-     "sample": 892
-    },
-    "cards": {
-     "expected": {
-      "home": 1.86,
-      "away": 2.02,
-      "total": 3.88
-     },
-     "total": [
-      {
-       "line": 2.5,
-       "over": 0.759,
-       "under": 0.241
-      },
-      {
-       "line": 3.5,
-       "over": 0.5596,
-       "under": 0.4404
-      },
-      {
-       "line": 4.5,
-       "over": 0.3643,
-       "under": 0.6357
-      },
-      {
-       "line": 5.5,
-       "over": 0.196,
-       "under": 0.804
-      }
-     ],
-     "home": [
-      {
-       "line": 1.5,
-       "over": 0.5624
-      },
-      {
-       "line": 2.5,
-       "over": 0.2822
-      }
-     ],
-     "away": [
-      {
-       "line": 1.5,
-       "over": 0.6195
-      },
-      {
-       "line": 2.5,
-       "over": 0.3385
-      }
-     ],
-     "sample": 892,
-     "referee": {
-      "name": "Ruddy Buquet",
-      "factor": 0.968,
-      "matches": 8
-     }
-    },
-    "quality": {
-     "corners_total": {
-      "gain": 0.0,
-      "label": "cat media campionatului"
-     },
-     "corners_team": {
-      "gain": 0.037,
-      "label": "informativ"
-     },
-     "corners_winner": {
-      "gain": 0.052,
-      "label": "cel mai informativ"
-     },
-     "cards_total": {
-      "gain": 0.022,
-      "label": "slab informativ"
-     },
-     "cards_team": {
-      "gain": 0.016,
-      "label": "slab informativ"
-     }
-    }
-   }
-  },
-  {
-   "id": "F1_20261010_Lorient_ParisFC",
-   "league": "F1",
-   "league_name": "Ligue 1",
-   "date": "2026-10-10",
-   "time": "18:45",
-   "home": "Lorient",
-   "away": "Paris FC",
-   "probs": {
-    "p_home": 0.3413,
-    "p_draw": 0.2984,
-    "p_away": 0.3602,
-    "p_over25": 0.41,
-    "p_btts": 0.48,
-    "p_under25": 0.59,
-    "p_no_btts": 0.52
-   },
-   "expected_goals": {
-    "home": 1.14,
-    "away": 1.18
-   },
-   "confidence": "medie",
-   "sample": {
-    "home_matches": 65,
-    "away_matches": 39
-   },
-   "top_scores": [
-    {
-     "score": "1-1",
-     "p": 0.1404
+     "p": 0.09
     },
     {
      "score": "0-1",
-     "p": 0.1075
+     "p": 0.0772
     },
     {
-     "score": "0-0",
-     "p": 0.1062
-    },
-    {
-     "score": "1-0",
-     "p": 0.1037
-    },
-    {
-     "score": "1-2",
-     "p": 0.078
+     "score": "2-0",
+     "p": 0.0751
     }
    ],
    "reference_odds": {
-    "home": 3.19,
-    "draw": 3.33,
-    "away": 2.25,
-    "over25": 1.94,
-    "under25": 1.89
+    "home": 2.77,
+    "draw": 3.31,
+    "away": 2.38,
+    "over25": 1.88,
+    "under25": 1.84
    },
    "context": {
     "home": {
      "form": [
-      "I",
       "E",
-      "I",
       "V",
       "E",
+      "V",
+      "I",
       "I"
      ],
-     "goals_for_avg": 0.83,
-     "goals_against_avg": 1.33,
-     "shots_on_target_avg": 3.0,
+     "goals_for_avg": 1.33,
+     "goals_against_avg": 1.0,
+     "shots_on_target_avg": 4.5,
      "matches_analysed": 6
     },
     "away": {
      "form": [
       "V",
-      "E",
+      "V",
       "V",
       "V",
       "E",
       "V"
      ],
-     "goals_for_avg": 1.67,
+     "goals_for_avg": 1.83,
      "goals_against_avg": 0.67,
-     "shots_on_target_avg": 5.33,
+     "shots_on_target_avg": 4.33,
      "matches_analysed": 6
     },
     "h2h": [
      {
-      "date": "2026-04-05",
-      "home": "Lorient",
-      "away": "Paris FC",
-      "score": "1-1"
+      "date": "2026-03-13",
+      "home": "Gent",
+      "away": "Waregem",
+      "score": "2-0"
      },
      {
-      "date": "2025-10-03",
-      "home": "Paris FC",
-      "away": "Lorient",
+      "date": "2025-10-19",
+      "home": "Waregem",
+      "away": "Gent",
+      "score": "4-1"
+     },
+     {
+      "date": "2023-03-12",
+      "home": "Waregem",
+      "away": "Gent",
+      "score": "2-6"
+     },
+     {
+      "date": "2022-09-11",
+      "home": "Gent",
+      "away": "Waregem",
       "score": "2-0"
+     },
+     {
+      "date": "2022-03-06",
+      "home": "Gent",
+      "away": "Waregem",
+      "score": "2-1"
      }
     ]
    },
-   "explanation": "Meci echilibrat: modelul nu vede un favorit clar (34% / 30% / 36%). Goluri asteptate: 1.14 pentru Lorient, 1.18 pentru Paris FC. Forma recenta — Lorient: IEIVEI, Paris FC: VEVVEV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Lorient e pe locul 13 la atac, Paris FC pe 10, din 24 echipe. Se asteapta un meci inchis: 59% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie.",
+   "explanation": "Waregem e favorita, cu 43% sanse de victorie. Goluri asteptate: 1.48 pentru Waregem, 1.20 pentru Gent. Forma recenta — Waregem: EVEVII, Gent: VVVVEV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Waregem e pe locul 7 la atac, Gent pe 9, din 22 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie.",
    "extra_markets": {
     "corners": {
      "expected": {
-      "home": 4.03,
-      "away": 4.21,
-      "total": 8.24
+      "home": 5.73,
+      "away": 4.38,
+      "total": 10.11
      },
      "total": [
       {
        "line": 8.5,
-       "over": 0.5198,
-       "under": 0.4802
+       "over": 0.6624,
+       "under": 0.3376
       },
       {
        "line": 9.5,
-       "over": 0.4023,
-       "under": 0.5977
+       "over": 0.5368,
+       "under": 0.4632
       },
       {
        "line": 10.5,
-       "over": 0.2956,
-       "under": 0.7044
+       "over": 0.4292,
+       "under": 0.5708
       },
       {
        "line": 11.5,
-       "over": 0.2056,
-       "under": 0.7944
+       "over": 0.3065,
+       "under": 0.6935
       }
      ],
      "home": [
       {
        "line": 3.5,
-       "over": 0.5738
+       "over": 0.7758
       },
       {
        "line": 4.5,
-       "over": 0.408
+       "over": 0.6319
       },
       {
        "line": 5.5,
-       "over": 0.2722
+       "over": 0.4807
       }
      ],
      "away": [
       {
        "line": 3.5,
-       "over": 0.5682
+       "over": 0.6064
       },
       {
        "line": 4.5,
-       "over": 0.4049
+       "over": 0.44
       },
       {
        "line": 5.5,
-       "over": 0.2702
+       "over": 0.2927
       }
      ],
      "winner": {
-      "home": 0.4427,
-      "away": 0.4328,
-      "draw": 0.1245
+      "home": 0.5858,
+      "away": 0.3086,
+      "draw": 0.1056
      },
-     "sample": 892
+     "sample": 917
     },
     "cards": {
      "expected": {
-      "home": 1.12,
-      "away": 2.52,
-      "total": 3.65
+      "home": 1.27,
+      "away": 2.54,
+      "total": 3.81
      },
      "total": [
       {
        "line": 2.5,
-       "over": 0.7409,
-       "under": 0.2591
+       "over": 0.7181,
+       "under": 0.2819
       },
       {
        "line": 3.5,
-       "over": 0.5369,
-       "under": 0.4631
+       "over": 0.5376,
+       "under": 0.4624
       },
       {
        "line": 4.5,
-       "over": 0.343,
-       "under": 0.657
+       "over": 0.3588,
+       "under": 0.6412
       },
       {
        "line": 5.5,
-       "over": 0.1799,
-       "under": 0.8201
+       "over": 0.2158,
+       "under": 0.7842
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.4252
+       "over": 0.437
       },
       {
        "line": 2.5,
-       "over": 0.1808
+       "over": 0.1941
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.6854
+       "over": 0.6887
       },
       {
        "line": 2.5,
-       "over": 0.4129
+       "over": 0.4164
       }
      ],
-     "sample": 892,
+     "sample": 917,
      "referee": {
-      "name": "Jerome Brisard",
-      "factor": 0.998,
-      "matches": 9
+      "name": "N Laforge",
+      "factor": 1.148,
+      "matches": 64
      }
     },
     "quality": {
@@ -14540,7 +13548,7 @@
    "league": "F1",
    "league_name": "Ligue 1",
    "date": "2026-10-10",
-   "time": "18:45",
+   "time": "19:45",
    "home": "Brest",
    "away": "Angers",
    "probs": {
@@ -14584,11 +13592,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.99,
-    "draw": 3.62,
-    "away": 3.6,
-    "over25": 1.75,
-    "under25": 2.1
+    "home": 1.98,
+    "draw": 3.61,
+    "away": 3.53,
+    "over25": 1.72,
+    "under25": 2.04
    },
    "context": {
     "home": {
@@ -14797,11 +13805,744 @@
    }
   },
   {
+   "id": "F1_20261010_Lorient_ParisFC",
+   "league": "F1",
+   "league_name": "Ligue 1",
+   "date": "2026-10-10",
+   "time": "19:45",
+   "home": "Lorient",
+   "away": "Paris FC",
+   "probs": {
+    "p_home": 0.3413,
+    "p_draw": 0.2984,
+    "p_away": 0.3602,
+    "p_over25": 0.41,
+    "p_btts": 0.48,
+    "p_under25": 0.59,
+    "p_no_btts": 0.52
+   },
+   "expected_goals": {
+    "home": 1.14,
+    "away": 1.18
+   },
+   "confidence": "medie",
+   "sample": {
+    "home_matches": 65,
+    "away_matches": 39
+   },
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 0.1404
+    },
+    {
+     "score": "0-1",
+     "p": 0.1075
+    },
+    {
+     "score": "0-0",
+     "p": 0.1062
+    },
+    {
+     "score": "1-0",
+     "p": 0.1037
+    },
+    {
+     "score": "1-2",
+     "p": 0.078
+    }
+   ],
+   "reference_odds": {
+    "home": 3.15,
+    "draw": 3.33,
+    "away": 2.23,
+    "over25": 1.88,
+    "under25": 1.85
+   },
+   "context": {
+    "home": {
+     "form": [
+      "I",
+      "E",
+      "I",
+      "V",
+      "E",
+      "I"
+     ],
+     "goals_for_avg": 0.83,
+     "goals_against_avg": 1.33,
+     "shots_on_target_avg": 3.0,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "V",
+      "E",
+      "V",
+      "V",
+      "E",
+      "V"
+     ],
+     "goals_for_avg": 1.67,
+     "goals_against_avg": 0.67,
+     "shots_on_target_avg": 5.33,
+     "matches_analysed": 6
+    },
+    "h2h": [
+     {
+      "date": "2026-04-05",
+      "home": "Lorient",
+      "away": "Paris FC",
+      "score": "1-1"
+     },
+     {
+      "date": "2025-10-03",
+      "home": "Paris FC",
+      "away": "Lorient",
+      "score": "2-0"
+     }
+    ]
+   },
+   "explanation": "Meci echilibrat: modelul nu vede un favorit clar (34% / 30% / 36%). Goluri asteptate: 1.14 pentru Lorient, 1.18 pentru Paris FC. Forma recenta — Lorient: IEIVEI, Paris FC: VEVVEV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Lorient e pe locul 13 la atac, Paris FC pe 10, din 24 echipe. Se asteapta un meci inchis: 59% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie.",
+   "extra_markets": {
+    "corners": {
+     "expected": {
+      "home": 4.03,
+      "away": 4.21,
+      "total": 8.24
+     },
+     "total": [
+      {
+       "line": 8.5,
+       "over": 0.5198,
+       "under": 0.4802
+      },
+      {
+       "line": 9.5,
+       "over": 0.4023,
+       "under": 0.5977
+      },
+      {
+       "line": 10.5,
+       "over": 0.2956,
+       "under": 0.7044
+      },
+      {
+       "line": 11.5,
+       "over": 0.2056,
+       "under": 0.7944
+      }
+     ],
+     "home": [
+      {
+       "line": 3.5,
+       "over": 0.5738
+      },
+      {
+       "line": 4.5,
+       "over": 0.408
+      },
+      {
+       "line": 5.5,
+       "over": 0.2722
+      }
+     ],
+     "away": [
+      {
+       "line": 3.5,
+       "over": 0.5682
+      },
+      {
+       "line": 4.5,
+       "over": 0.4049
+      },
+      {
+       "line": 5.5,
+       "over": 0.2702
+      }
+     ],
+     "winner": {
+      "home": 0.4427,
+      "away": 0.4328,
+      "draw": 0.1245
+     },
+     "sample": 892
+    },
+    "cards": {
+     "expected": {
+      "home": 1.12,
+      "away": 2.52,
+      "total": 3.65
+     },
+     "total": [
+      {
+       "line": 2.5,
+       "over": 0.7409,
+       "under": 0.2591
+      },
+      {
+       "line": 3.5,
+       "over": 0.5369,
+       "under": 0.4631
+      },
+      {
+       "line": 4.5,
+       "over": 0.343,
+       "under": 0.657
+      },
+      {
+       "line": 5.5,
+       "over": 0.1799,
+       "under": 0.8201
+      }
+     ],
+     "home": [
+      {
+       "line": 1.5,
+       "over": 0.4252
+      },
+      {
+       "line": 2.5,
+       "over": 0.1808
+      }
+     ],
+     "away": [
+      {
+       "line": 1.5,
+       "over": 0.6854
+      },
+      {
+       "line": 2.5,
+       "over": 0.4129
+      }
+     ],
+     "sample": 892,
+     "referee": {
+      "name": "Jerome Brisard",
+      "factor": 0.998,
+      "matches": 9
+     }
+    },
+    "quality": {
+     "corners_total": {
+      "gain": 0.0,
+      "label": "cat media campionatului"
+     },
+     "corners_team": {
+      "gain": 0.037,
+      "label": "informativ"
+     },
+     "corners_winner": {
+      "gain": 0.052,
+      "label": "cel mai informativ"
+     },
+     "cards_total": {
+      "gain": 0.022,
+      "label": "slab informativ"
+     },
+     "cards_team": {
+      "gain": 0.016,
+      "label": "slab informativ"
+     }
+    }
+   }
+  },
+  {
+   "id": "F1_20261010_Monaco_Toulouse",
+   "league": "F1",
+   "league_name": "Ligue 1",
+   "date": "2026-10-10",
+   "time": "19:45",
+   "home": "Monaco",
+   "away": "Toulouse",
+   "probs": {
+    "p_home": 0.5134,
+    "p_draw": 0.2472,
+    "p_away": 0.2394,
+    "p_over25": 0.5596,
+    "p_btts": 0.5742,
+    "p_under25": 0.4404,
+    "p_no_btts": 0.4258
+   },
+   "expected_goals": {
+    "home": 1.77,
+    "away": 1.15
+   },
+   "confidence": "ridicata",
+   "sample": {
+    "home_matches": 99,
+    "away_matches": 99
+   },
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 0.1164
+    },
+    {
+     "score": "2-1",
+     "p": 0.0972
+    },
+    {
+     "score": "1-0",
+     "p": 0.0885
+    },
+    {
+     "score": "2-0",
+     "p": 0.0846
+    },
+    {
+     "score": "1-2",
+     "p": 0.063
+    }
+   ],
+   "reference_odds": {
+    "home": 1.59,
+    "draw": 4.22,
+    "away": 5.03,
+    "over25": 1.55,
+    "under25": 2.34
+   },
+   "context": {
+    "home": {
+     "form": [
+      "I",
+      "V",
+      "V",
+      "V",
+      "E",
+      "V"
+     ],
+     "goals_for_avg": 2.0,
+     "goals_against_avg": 1.33,
+     "shots_on_target_avg": 5.17,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "E",
+      "I",
+      "E",
+      "I",
+      "E",
+      "V"
+     ],
+     "goals_for_avg": 1.17,
+     "goals_against_avg": 1.5,
+     "shots_on_target_avg": 4.0,
+     "matches_analysed": 6
+    },
+    "h2h": [
+     {
+      "date": "2026-04-25",
+      "home": "Toulouse",
+      "away": "Monaco",
+      "score": "2-2"
+     },
+     {
+      "date": "2025-10-25",
+      "home": "Monaco",
+      "away": "Toulouse",
+      "score": "1-0"
+     },
+     {
+      "date": "2025-03-07",
+      "home": "Toulouse",
+      "away": "Monaco",
+      "score": "1-1"
+     },
+     {
+      "date": "2024-12-07",
+      "home": "Monaco",
+      "away": "Toulouse",
+      "score": "2-0"
+     },
+     {
+      "date": "2024-02-18",
+      "home": "Monaco",
+      "away": "Toulouse",
+      "score": "1-2"
+     }
+    ]
+   },
+   "explanation": "Monaco e favorita, cu 51% sanse de victorie. Goluri asteptate: 1.77 pentru Monaco, 1.15 pentru Toulouse. Forma recenta — Monaco: IVVVEV, Toulouse: EIEIEV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Monaco e pe locul 2 la atac, Toulouse pe 11, din 24 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie.",
+   "extra_markets": {
+    "corners": {
+     "expected": {
+      "home": 5.52,
+      "away": 3.67,
+      "total": 9.2
+     },
+     "total": [
+      {
+       "line": 8.5,
+       "over": 0.571,
+       "under": 0.429
+      },
+      {
+       "line": 9.5,
+       "over": 0.4521,
+       "under": 0.5479
+      },
+      {
+       "line": 10.5,
+       "over": 0.34,
+       "under": 0.66
+      },
+      {
+       "line": 11.5,
+       "over": 0.2422,
+       "under": 0.7578
+      }
+     ],
+     "home": [
+      {
+       "line": 3.5,
+       "over": 0.7332
+      },
+      {
+       "line": 4.5,
+       "over": 0.5875
+      },
+      {
+       "line": 5.5,
+       "over": 0.4448
+      }
+     ],
+     "away": [
+      {
+       "line": 3.5,
+       "over": 0.4978
+      },
+      {
+       "line": 4.5,
+       "over": 0.3353
+      },
+      {
+       "line": 5.5,
+       "over": 0.2113
+      }
+     ],
+     "winner": {
+      "home": 0.6222,
+      "away": 0.275,
+      "draw": 0.1028
+     },
+     "sample": 892
+    },
+    "cards": {
+     "expected": {
+      "home": 1.86,
+      "away": 2.02,
+      "total": 3.88
+     },
+     "total": [
+      {
+       "line": 2.5,
+       "over": 0.759,
+       "under": 0.241
+      },
+      {
+       "line": 3.5,
+       "over": 0.5596,
+       "under": 0.4404
+      },
+      {
+       "line": 4.5,
+       "over": 0.3643,
+       "under": 0.6357
+      },
+      {
+       "line": 5.5,
+       "over": 0.196,
+       "under": 0.804
+      }
+     ],
+     "home": [
+      {
+       "line": 1.5,
+       "over": 0.5624
+      },
+      {
+       "line": 2.5,
+       "over": 0.2822
+      }
+     ],
+     "away": [
+      {
+       "line": 1.5,
+       "over": 0.6195
+      },
+      {
+       "line": 2.5,
+       "over": 0.3385
+      }
+     ],
+     "sample": 892,
+     "referee": {
+      "name": "Ruddy Buquet",
+      "factor": 0.968,
+      "matches": 8
+     }
+    },
+    "quality": {
+     "corners_total": {
+      "gain": 0.0,
+      "label": "cat media campionatului"
+     },
+     "corners_team": {
+      "gain": 0.037,
+      "label": "informativ"
+     },
+     "corners_winner": {
+      "gain": 0.052,
+      "label": "cel mai informativ"
+     },
+     "cards_total": {
+      "gain": 0.022,
+      "label": "slab informativ"
+     },
+     "cards_team": {
+      "gain": 0.016,
+      "label": "slab informativ"
+     }
+    }
+   }
+  },
+  {
+   "id": "F1_20261010_ParisSG_LeMans",
+   "league": "F1",
+   "league_name": "Ligue 1",
+   "date": "2026-10-10",
+   "time": "19:45",
+   "home": "Paris SG",
+   "away": "Le Mans",
+   "probs": {
+    "p_home": 0.7626,
+    "p_draw": 0.1452,
+    "p_away": 0.0922,
+    "p_over25": 0.7328,
+    "p_btts": 0.5815,
+    "p_under25": 0.2672,
+    "p_no_btts": 0.4185
+   },
+   "expected_goals": {
+    "home": 2.86,
+    "away": 0.95
+   },
+   "confidence": "scazuta",
+   "sample": {
+    "home_matches": 99,
+    "away_matches": 5
+   },
+   "top_scores": [
+    {
+     "score": "2-0",
+     "p": 0.0906
+    },
+    {
+     "score": "3-0",
+     "p": 0.0865
+    },
+    {
+     "score": "2-1",
+     "p": 0.086
+    },
+    {
+     "score": "3-1",
+     "p": 0.0821
+    },
+    {
+     "score": "1-1",
+     "p": 0.0638
+    }
+   ],
+   "reference_odds": {
+    "home": 1.08,
+    "draw": 11.3,
+    "away": 22.06,
+    "over25": 1.2,
+    "under25": 4.24
+   },
+   "context": {
+    "home": {
+     "form": [
+      "I",
+      "E",
+      "E",
+      "I",
+      "V",
+      "V"
+     ],
+     "goals_for_avg": 1.5,
+     "goals_against_avg": 1.5,
+     "shots_on_target_avg": 6.33,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "E",
+      "I",
+      "E",
+      "E",
+      "V"
+     ],
+     "goals_for_avg": 1.8,
+     "goals_against_avg": 1.8,
+     "shots_on_target_avg": 5.0,
+     "matches_analysed": 5
+    },
+    "h2h": []
+   },
+   "explanation": "Paris SG e favorita, cu 76% sanse de victorie. Goluri asteptate: 2.86 pentru Paris SG, 0.95 pentru Le Mans. Forma recenta — Paris SG: IEEIVV, Le Mans: EIEEV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Paris SG e pe locul 1 la atac, Le Mans pe 5, din 24 echipe. Se asteapta un meci deschis: 73% sanse la peste 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie.",
+   "extra_markets": {
+    "corners": {
+     "expected": {
+      "home": 9.82,
+      "away": 1.45,
+      "total": 11.26
+     },
+     "total": [
+      {
+       "line": 8.5,
+       "over": 0.6591,
+       "under": 0.3409
+      },
+      {
+       "line": 9.5,
+       "over": 0.5495,
+       "under": 0.4505
+      },
+      {
+       "line": 10.5,
+       "over": 0.439,
+       "under": 0.561
+      },
+      {
+       "line": 11.5,
+       "over": 0.3353,
+       "under": 0.6647
+      }
+     ],
+     "home": [
+      {
+       "line": 3.5,
+       "over": 0.9008
+      },
+      {
+       "line": 4.5,
+       "over": 0.8344
+      },
+      {
+       "line": 5.5,
+       "over": 0.7571
+      }
+     ],
+     "away": [
+      {
+       "line": 3.5,
+       "over": 0.1755
+      },
+      {
+       "line": 4.5,
+       "over": 0.1052
+      },
+      {
+       "line": 5.5,
+       "over": 0.0653
+      }
+     ],
+     "winner": {
+      "home": 0.8923,
+      "away": 0.0968,
+      "draw": 0.0109
+     },
+     "sample": 892
+    },
+    "cards": {
+     "expected": {
+      "home": 1.46,
+      "away": 1.71,
+      "total": 3.18
+     },
+     "total": [
+      {
+       "line": 2.5,
+       "over": 0.6987,
+       "under": 0.3013
+      },
+      {
+       "line": 3.5,
+       "over": 0.4891,
+       "under": 0.5109
+      },
+      {
+       "line": 4.5,
+       "over": 0.3022,
+       "under": 0.6978
+      },
+      {
+       "line": 5.5,
+       "over": 0.152,
+       "under": 0.848
+      }
+     ],
+     "home": [
+      {
+       "line": 1.5,
+       "over": 0.4924
+      },
+      {
+       "line": 2.5,
+       "over": 0.2242
+      }
+     ],
+     "away": [
+      {
+       "line": 1.5,
+       "over": 0.5702
+      },
+      {
+       "line": 2.5,
+       "over": 0.2926
+      }
+     ],
+     "sample": 892,
+     "referee": {
+      "name": "Mathieu Vernice",
+      "factor": 1.013,
+      "matches": 6
+     }
+    },
+    "quality": {
+     "corners_total": {
+      "gain": 0.0,
+      "label": "cat media campionatului"
+     },
+     "corners_team": {
+      "gain": 0.037,
+      "label": "informativ"
+     },
+     "corners_winner": {
+      "gain": 0.052,
+      "label": "cel mai informativ"
+     },
+     "cards_total": {
+      "gain": 0.022,
+      "label": "slab informativ"
+     },
+     "cards_team": {
+      "gain": 0.016,
+      "label": "slab informativ"
+     }
+    }
+   }
+  },
+  {
    "id": "I1_20261010_Napoli_Frosinone",
    "league": "I1",
    "league_name": "Serie A",
    "date": "2026-10-10",
-   "time": "18:45",
+   "time": "19:45",
    "home": "Napoli",
    "away": "Frosinone",
    "probs": {
@@ -14845,11 +14586,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.45,
-    "draw": 4.77,
-    "away": 6.45,
-    "over25": 1.48,
-    "under25": 2.57
+    "home": 1.44,
+    "draw": 4.74,
+    "away": 6.44,
+    "over25": 1.46,
+    "under25": 2.6
    },
    "context": {
     "home": {
@@ -15062,7 +14803,7 @@
    "league": "N1",
    "league_name": "Eredivisie",
    "date": "2026-10-10",
-   "time": "19:00",
+   "time": "20:00",
    "home": "Ajax",
    "away": "Nijmegen",
    "probs": {
@@ -15107,10 +14848,10 @@
    ],
    "reference_odds": {
     "home": 1.3,
-    "draw": 5.69,
-    "away": 7.99,
+    "draw": 5.74,
+    "away": 7.74,
     "over25": 1.29,
-    "under25": 3.39
+    "under25": 3.4
    },
    "context": {
     "home": {
@@ -15323,7 +15064,7 @@
    "league": "SP1",
    "league_name": "La Liga",
    "date": "2026-10-10",
-   "time": "19:00",
+   "time": "20:00",
    "home": "Real Madrid",
    "away": "Villarreal",
    "probs": {
@@ -15367,11 +15108,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.37,
-    "draw": 5.56,
-    "away": 6.72,
-    "over25": 1.27,
-    "under25": 3.56
+    "home": 1.36,
+    "draw": 5.61,
+    "away": 6.69,
+    "over25": 1.26,
+    "under25": 3.64
    },
    "context": {
     "home": {
@@ -15579,7 +15320,7 @@
    "league": "P1",
    "league_name": "Primeira Liga",
    "date": "2026-10-10",
-   "time": "19:30",
+   "time": "20:30",
    "home": "Academico Viseu",
    "away": "Estoril",
    "probs": {
@@ -15623,11 +15364,11 @@
     }
    ],
    "reference_odds": {
-    "home": 2.25,
-    "draw": 3.37,
-    "away": 3.04,
-    "over25": 1.9,
-    "under25": 1.89
+    "home": 2.24,
+    "draw": 3.38,
+    "away": 2.99,
+    "over25": 1.87,
+    "under25": 1.85
    },
    "context": {
     "home": {
@@ -15809,7 +15550,7 @@
    "league": "N1",
    "league_name": "Eredivisie",
    "date": "2026-10-11",
-   "time": "10:15",
+   "time": "11:15",
    "home": "Utrecht",
    "away": "Willem II",
    "probs": {
@@ -15853,11 +15594,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.49,
+    "home": 1.48,
     "draw": 4.53,
-    "away": 5.62,
-    "over25": 1.45,
-    "under25": 2.61
+    "away": 5.58,
+    "over25": 1.44,
+    "under25": 2.62
    },
    "context": {
     "home": {
@@ -16070,7 +15811,7 @@
    "league": "I1",
    "league_name": "Serie A",
    "date": "2026-10-11",
-   "time": "10:30",
+   "time": "11:30",
    "home": "Como",
    "away": "Roma",
    "probs": {
@@ -16114,11 +15855,11 @@
     }
    ],
    "reference_odds": {
-    "home": 2.55,
+    "home": 2.54,
     "draw": 3.54,
-    "away": 2.61,
-    "over25": 1.64,
-    "under25": 2.28
+    "away": 2.56,
+    "over25": 1.61,
+    "under25": 2.22
    },
    "context": {
     "home": {
@@ -16325,7 +16066,7 @@
    "league": "E1",
    "league_name": "Championship",
    "date": "2026-10-11",
-   "time": "11:00",
+   "time": "12:00",
    "home": "Southampton",
    "away": "Portsmouth",
    "probs": {
@@ -16369,11 +16110,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.58,
-    "draw": 4.07,
-    "away": 5.17,
-    "over25": 1.64,
-    "under25": 2.21
+    "home": 1.57,
+    "draw": 4.13,
+    "away": 5.23,
+    "over25": 1.63,
+    "under25": 2.19
    },
    "context": {
     "home": {
@@ -16568,7 +16309,7 @@
    "league": "B1",
    "league_name": "Jupiler Pro League",
    "date": "2026-10-11",
-   "time": "11:30",
+   "time": "12:30",
    "home": "Standard",
    "away": "Charleroi",
    "probs": {
@@ -16612,11 +16353,11 @@
     }
    ],
    "reference_odds": {
-    "home": 2.87,
-    "draw": 3.38,
-    "away": 2.3,
-    "over25": 1.81,
-    "under25": 1.98
+    "home": 2.85,
+    "draw": 3.41,
+    "away": 2.28,
+    "over25": 1.76,
+    "under25": 1.96
    },
    "context": {
     "home": {
@@ -16824,7 +16565,7 @@
    "league": "SP1",
    "league_name": "La Liga",
    "date": "2026-10-11",
-   "time": "12:00",
+   "time": "13:00",
    "home": "Elche",
    "away": "Celta",
    "probs": {
@@ -16868,11 +16609,11 @@
     }
    ],
    "reference_odds": {
-    "home": 2.78,
-    "draw": 3.24,
-    "away": 2.58,
-    "over25": 2.02,
-    "under25": 1.81
+    "home": 2.72,
+    "draw": 3.25,
+    "away": 2.55,
+    "over25": 1.96,
+    "under25": 1.78
    },
    "context": {
     "home": {
@@ -17076,11 +16817,241 @@
    }
   },
   {
+   "id": "N1_20261011_Telstar_DenHaag",
+   "league": "N1",
+   "league_name": "Eredivisie",
+   "date": "2026-10-11",
+   "time": "13:30",
+   "home": "Telstar",
+   "away": "Den Haag",
+   "probs": {
+    "p_home": 0.5438,
+    "p_draw": 0.2481,
+    "p_away": 0.208,
+    "p_over25": 0.5882,
+    "p_btts": 0.5916,
+    "p_under25": 0.4118,
+    "p_no_btts": 0.4084
+   },
+   "expected_goals": {
+    "home": 1.92,
+    "away": 1.13
+   },
+   "confidence": "scazuta",
+   "sample": {
+    "home_matches": 41,
+    "away_matches": 7
+   },
+   "top_scores": [
+    {
+     "score": "1-1",
+     "p": 0.1162
+    },
+    {
+     "score": "2-1",
+     "p": 0.0986
+    },
+    {
+     "score": "2-0",
+     "p": 0.0871
+    },
+    {
+     "score": "1-0",
+     "p": 0.0774
+    },
+    {
+     "score": "3-1",
+     "p": 0.0631
+    }
+   ],
+   "reference_odds": {
+    "home": 2.0,
+    "draw": 3.74,
+    "away": 3.23,
+    "over25": 1.51,
+    "under25": 2.42
+   },
+   "context": {
+    "home": {
+     "form": [
+      "I",
+      "I",
+      "E",
+      "I",
+      "E",
+      "I"
+     ],
+     "goals_for_avg": 0.5,
+     "goals_against_avg": 1.83,
+     "shots_on_target_avg": 2.0,
+     "matches_analysed": 6
+    },
+    "away": {
+     "form": [
+      "I",
+      "I",
+      "E",
+      "I",
+      "I",
+      "E"
+     ],
+     "goals_for_avg": 1.17,
+     "goals_against_avg": 2.5,
+     "shots_on_target_avg": 4.0,
+     "matches_analysed": 6
+    },
+    "h2h": []
+   },
+   "explanation": "Telstar e favorita, cu 54% sanse de victorie. Goluri asteptate: 1.92 pentru Telstar, 1.13 pentru Den Haag. Forma recenta — Telstar: IIEIEI, Den Haag: IIEIIE (cel mai recent meci la dreapta). In clasamentul intern al modelului, Telstar e pe locul 15 la atac, Den Haag pe 21, din 24 echipe. Se asteapta un meci deschis: 59% sanse la peste 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie.",
+   "extra_markets": {
+    "corners": {
+     "expected": {
+      "home": 5.55,
+      "away": 4.48,
+      "total": 10.02
+     },
+     "total": [
+      {
+       "line": 8.5,
+       "over": 0.6836,
+       "under": 0.3164
+      },
+      {
+       "line": 9.5,
+       "over": 0.5555,
+       "under": 0.4445
+      },
+      {
+       "line": 10.5,
+       "over": 0.4433,
+       "under": 0.5567
+      },
+      {
+       "line": 11.5,
+       "over": 0.3338,
+       "under": 0.6662
+      }
+     ],
+     "home": [
+      {
+       "line": 3.5,
+       "over": 0.7591
+      },
+      {
+       "line": 4.5,
+       "over": 0.6161
+      },
+      {
+       "line": 5.5,
+       "over": 0.4675
+      }
+     ],
+     "away": [
+      {
+       "line": 3.5,
+       "over": 0.6058
+      },
+      {
+       "line": 4.5,
+       "over": 0.4486
+      },
+      {
+       "line": 5.5,
+       "over": 0.3091
+      }
+     ],
+     "winner": {
+      "home": 0.5629,
+      "away": 0.331,
+      "draw": 0.1061
+     },
+     "sample": 911
+    },
+    "cards": {
+     "expected": {
+      "home": 0.93,
+      "away": 2.14,
+      "total": 3.08
+     },
+     "total": [
+      {
+       "line": 2.5,
+       "over": 0.5861,
+       "under": 0.4139
+      },
+      {
+       "line": 3.5,
+       "over": 0.3752,
+       "under": 0.6248
+      },
+      {
+       "line": 4.5,
+       "over": 0.2211,
+       "under": 0.7789
+      },
+      {
+       "line": 5.5,
+       "over": 0.1196,
+       "under": 0.8804
+      }
+     ],
+     "home": [
+      {
+       "line": 1.5,
+       "over": 0.3056
+      },
+      {
+       "line": 2.5,
+       "over": 0.1157
+      }
+     ],
+     "away": [
+      {
+       "line": 1.5,
+       "over": 0.5864
+      },
+      {
+       "line": 2.5,
+       "over": 0.3139
+      }
+     ],
+     "sample": 911,
+     "referee": {
+      "name": "Erwin Blank",
+      "factor": 0.953,
+      "matches": 6
+     }
+    },
+    "quality": {
+     "corners_total": {
+      "gain": 0.0,
+      "label": "cat media campionatului"
+     },
+     "corners_team": {
+      "gain": 0.037,
+      "label": "informativ"
+     },
+     "corners_winner": {
+      "gain": 0.052,
+      "label": "cel mai informativ"
+     },
+     "cards_total": {
+      "gain": 0.022,
+      "label": "slab informativ"
+     },
+     "cards_team": {
+      "gain": 0.016,
+      "label": "slab informativ"
+     }
+    }
+   }
+  },
+  {
    "id": "N1_20261011_Zwolle_Cambuur",
    "league": "N1",
    "league_name": "Eredivisie",
    "date": "2026-10-11",
-   "time": "12:30",
+   "time": "13:30",
    "home": "Zwolle",
    "away": "Cambuur",
    "probs": {
@@ -17124,11 +17095,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.93,
-    "draw": 3.82,
-    "away": 3.45,
-    "over25": 1.49,
-    "under25": 2.48
+    "home": 1.92,
+    "draw": 3.84,
+    "away": 3.38,
+    "over25": 1.48,
+    "under25": 2.51
    },
    "context": {
     "home": {
@@ -17337,241 +17308,11 @@
    }
   },
   {
-   "id": "N1_20261011_Telstar_DenHaag",
-   "league": "N1",
-   "league_name": "Eredivisie",
-   "date": "2026-10-11",
-   "time": "12:30",
-   "home": "Telstar",
-   "away": "Den Haag",
-   "probs": {
-    "p_home": 0.5438,
-    "p_draw": 0.2481,
-    "p_away": 0.208,
-    "p_over25": 0.5882,
-    "p_btts": 0.5916,
-    "p_under25": 0.4118,
-    "p_no_btts": 0.4084
-   },
-   "expected_goals": {
-    "home": 1.92,
-    "away": 1.13
-   },
-   "confidence": "scazuta",
-   "sample": {
-    "home_matches": 41,
-    "away_matches": 7
-   },
-   "top_scores": [
-    {
-     "score": "1-1",
-     "p": 0.1162
-    },
-    {
-     "score": "2-1",
-     "p": 0.0986
-    },
-    {
-     "score": "2-0",
-     "p": 0.0871
-    },
-    {
-     "score": "1-0",
-     "p": 0.0774
-    },
-    {
-     "score": "3-1",
-     "p": 0.0631
-    }
-   ],
-   "reference_odds": {
-    "home": 2.01,
-    "draw": 3.7,
-    "away": 3.33,
-    "over25": 1.5,
-    "under25": 2.45
-   },
-   "context": {
-    "home": {
-     "form": [
-      "I",
-      "I",
-      "E",
-      "I",
-      "E",
-      "I"
-     ],
-     "goals_for_avg": 0.5,
-     "goals_against_avg": 1.83,
-     "shots_on_target_avg": 2.0,
-     "matches_analysed": 6
-    },
-    "away": {
-     "form": [
-      "I",
-      "I",
-      "E",
-      "I",
-      "I",
-      "E"
-     ],
-     "goals_for_avg": 1.17,
-     "goals_against_avg": 2.5,
-     "shots_on_target_avg": 4.0,
-     "matches_analysed": 6
-    },
-    "h2h": []
-   },
-   "explanation": "Telstar e favorita, cu 54% sanse de victorie. Goluri asteptate: 1.92 pentru Telstar, 1.13 pentru Den Haag. Forma recenta — Telstar: IIEIEI, Den Haag: IIEIIE (cel mai recent meci la dreapta). In clasamentul intern al modelului, Telstar e pe locul 15 la atac, Den Haag pe 21, din 24 echipe. Se asteapta un meci deschis: 59% sanse la peste 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie.",
-   "extra_markets": {
-    "corners": {
-     "expected": {
-      "home": 5.55,
-      "away": 4.48,
-      "total": 10.02
-     },
-     "total": [
-      {
-       "line": 8.5,
-       "over": 0.6836,
-       "under": 0.3164
-      },
-      {
-       "line": 9.5,
-       "over": 0.5555,
-       "under": 0.4445
-      },
-      {
-       "line": 10.5,
-       "over": 0.4433,
-       "under": 0.5567
-      },
-      {
-       "line": 11.5,
-       "over": 0.3338,
-       "under": 0.6662
-      }
-     ],
-     "home": [
-      {
-       "line": 3.5,
-       "over": 0.7591
-      },
-      {
-       "line": 4.5,
-       "over": 0.6161
-      },
-      {
-       "line": 5.5,
-       "over": 0.4675
-      }
-     ],
-     "away": [
-      {
-       "line": 3.5,
-       "over": 0.6058
-      },
-      {
-       "line": 4.5,
-       "over": 0.4486
-      },
-      {
-       "line": 5.5,
-       "over": 0.3091
-      }
-     ],
-     "winner": {
-      "home": 0.5629,
-      "away": 0.331,
-      "draw": 0.1061
-     },
-     "sample": 911
-    },
-    "cards": {
-     "expected": {
-      "home": 0.93,
-      "away": 2.14,
-      "total": 3.08
-     },
-     "total": [
-      {
-       "line": 2.5,
-       "over": 0.5861,
-       "under": 0.4139
-      },
-      {
-       "line": 3.5,
-       "over": 0.3752,
-       "under": 0.6248
-      },
-      {
-       "line": 4.5,
-       "over": 0.2211,
-       "under": 0.7789
-      },
-      {
-       "line": 5.5,
-       "over": 0.1196,
-       "under": 0.8804
-      }
-     ],
-     "home": [
-      {
-       "line": 1.5,
-       "over": 0.3056
-      },
-      {
-       "line": 2.5,
-       "over": 0.1157
-      }
-     ],
-     "away": [
-      {
-       "line": 1.5,
-       "over": 0.5864
-      },
-      {
-       "line": 2.5,
-       "over": 0.3139
-      }
-     ],
-     "sample": 911,
-     "referee": {
-      "name": "Erwin Blank",
-      "factor": 0.953,
-      "matches": 6
-     }
-    },
-    "quality": {
-     "corners_total": {
-      "gain": 0.0,
-      "label": "cat media campionatului"
-     },
-     "corners_team": {
-      "gain": 0.037,
-      "label": "informativ"
-     },
-     "corners_winner": {
-      "gain": 0.052,
-      "label": "cel mai informativ"
-     },
-     "cards_total": {
-      "gain": 0.022,
-      "label": "slab informativ"
-     },
-     "cards_team": {
-      "gain": 0.016,
-      "label": "slab informativ"
-     }
-    }
-   }
-  },
-  {
    "id": "E0_20261011_CrystalPalace_Nott'mForest",
    "league": "E0",
    "league_name": "Premier League",
    "date": "2026-10-11",
-   "time": "13:00",
+   "time": "14:00",
    "home": "Crystal Palace",
    "away": "Nott'm Forest",
    "probs": {
@@ -17615,11 +17356,11 @@
     }
    ],
    "reference_odds": {
-    "home": 2.64,
-    "draw": 3.3,
-    "away": 2.67,
-    "over25": 1.93,
-    "under25": 1.89
+    "home": 2.59,
+    "draw": 3.33,
+    "away": 2.64,
+    "over25": 1.86,
+    "under25": 1.87
    },
    "context": {
     "home": {
@@ -17832,7 +17573,7 @@
    "league": "E0",
    "league_name": "Premier League",
    "date": "2026-10-11",
-   "time": "13:00",
+   "time": "14:00",
    "home": "Hull",
    "away": "Everton",
    "probs": {
@@ -17876,11 +17617,11 @@
     }
    ],
    "reference_odds": {
-    "home": 3.64,
-    "draw": 3.41,
-    "away": 2.06,
-    "over25": 2.01,
-    "under25": 1.82
+    "home": 3.58,
+    "draw": 3.4,
+    "away": 2.04,
+    "over25": 1.96,
+    "under25": 1.78
    },
    "context": {
     "home": {
@@ -18087,7 +17828,7 @@
    "league": "F1",
    "league_name": "Ligue 1",
    "date": "2026-10-11",
-   "time": "13:00",
+   "time": "14:00",
    "home": "Nice",
    "away": "Strasbourg",
    "probs": {
@@ -18131,11 +17872,11 @@
     }
    ],
    "reference_odds": {
-    "home": 2.3,
-    "draw": 3.58,
-    "away": 2.92,
-    "over25": 1.71,
-    "under25": 2.16
+    "home": 2.29,
+    "draw": 3.56,
+    "away": 2.87,
+    "over25": 1.66,
+    "under25": 2.13
    },
    "context": {
     "home": {
@@ -18348,7 +18089,7 @@
    "league": "I1",
    "league_name": "Serie A",
    "date": "2026-10-11",
-   "time": "13:00",
+   "time": "14:00",
    "home": "Lazio",
    "away": "Monza",
    "probs": {
@@ -18392,11 +18133,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.58,
-    "draw": 4.0,
-    "away": 5.78,
-    "over25": 1.87,
-    "under25": 1.95
+    "home": 1.57,
+    "draw": 3.98,
+    "away": 5.66,
+    "over25": 1.84,
+    "under25": 1.9
    },
    "context": {
     "home": {
@@ -18609,7 +18350,7 @@
    "league": "I1",
    "league_name": "Serie A",
    "date": "2026-10-11",
-   "time": "13:00",
+   "time": "14:00",
    "home": "Lecce",
    "away": "Bologna",
    "probs": {
@@ -18653,11 +18394,11 @@
     }
    ],
    "reference_odds": {
-    "home": 4.25,
-    "draw": 3.33,
+    "home": 4.1,
+    "draw": 3.34,
     "away": 1.91,
-    "over25": 2.12,
-    "under25": 1.74
+    "over25": 2.07,
+    "under25": 1.71
    },
    "context": {
     "home": {
@@ -18870,7 +18611,7 @@
    "league": "D1",
    "league_name": "Bundesliga",
    "date": "2026-10-11",
-   "time": "13:30",
+   "time": "14:30",
    "home": "FC Koln",
    "away": "M'gladbach",
    "probs": {
@@ -18914,11 +18655,11 @@
     }
    ],
    "reference_odds": {
-    "home": 2.03,
-    "draw": 3.9,
+    "home": 2.0,
+    "draw": 3.89,
     "away": 3.22,
-    "over25": 1.48,
-    "under25": 2.57
+    "over25": 1.47,
+    "under25": 2.56
    },
    "context": {
     "home": {
@@ -19131,7 +18872,7 @@
    "league": "B1",
    "league_name": "Jupiler Pro League",
    "date": "2026-10-11",
-   "time": "14:00",
+   "time": "15:00",
    "home": "St. Gilloise",
    "away": "Oud-Heverlee Leuven",
    "probs": {
@@ -19176,10 +18917,10 @@
    ],
    "reference_odds": {
     "home": 1.23,
-    "draw": 5.9,
-    "away": 9.86,
-    "over25": 1.44,
-    "under25": 2.66
+    "draw": 5.92,
+    "away": 9.76,
+    "over25": 1.42,
+    "under25": 2.67
    },
    "context": {
     "home": {
@@ -19392,7 +19133,7 @@
    "league": "SP1",
    "league_name": "La Liga",
    "date": "2026-10-11",
-   "time": "14:15",
+   "time": "15:15",
    "home": "Sociedad",
    "away": "La Coruna",
    "probs": {
@@ -19436,11 +19177,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.64,
-    "draw": 3.92,
-    "away": 5.24,
-    "over25": 1.77,
-    "under25": 2.07
+    "home": 1.61,
+    "draw": 3.93,
+    "away": 5.19,
+    "over25": 1.72,
+    "under25": 2.04
    },
    "context": {
     "home": {
@@ -19648,7 +19389,7 @@
    "league": "P1",
    "league_name": "Primeira Liga",
    "date": "2026-10-11",
-   "time": "14:30",
+   "time": "15:30",
    "home": "Rio Ave",
    "away": "Nacional",
    "probs": {
@@ -19692,11 +19433,11 @@
     }
    ],
    "reference_odds": {
-    "home": 2.27,
+    "home": 2.25,
     "draw": 3.24,
-    "away": 3.12,
-    "over25": 2.09,
-    "under25": 1.73
+    "away": 3.09,
+    "over25": 2.05,
+    "under25": 1.7
    },
    "context": {
     "home": {
@@ -19909,7 +19650,7 @@
    "league": "N1",
    "league_name": "Eredivisie",
    "date": "2026-10-11",
-   "time": "14:45",
+   "time": "15:45",
    "home": "Excelsior",
    "away": "Groningen",
    "probs": {
@@ -19953,11 +19694,11 @@
     }
    ],
    "reference_odds": {
-    "home": 2.54,
-    "draw": 3.6,
-    "away": 2.52,
-    "over25": 1.52,
-    "under25": 2.4
+    "home": 2.51,
+    "draw": 3.62,
+    "away": 2.48,
+    "over25": 1.53,
+    "under25": 2.38
    },
    "context": {
     "home": {
@@ -20170,21 +19911,21 @@
    "league": "ROU_Superliga",
    "league_name": "Romania — Superliga",
    "date": "2026-10-11",
-   "time": "15:00",
+   "time": "16:00",
    "home": "Csikszereda M. Ciuc",
    "away": "Univ. Craiova",
    "probs": {
-    "p_home": 0.1143,
-    "p_draw": 0.1931,
-    "p_away": 0.6926,
-    "p_over25": 0.5438,
-    "p_btts": 0.4599,
-    "p_under25": 0.4562,
-    "p_no_btts": 0.5401
+    "p_home": 0.1125,
+    "p_draw": 0.1915,
+    "p_away": 0.696,
+    "p_over25": 0.5448,
+    "p_btts": 0.4579,
+    "p_under25": 0.4552,
+    "p_no_btts": 0.5421
    },
    "expected_goals": {
     "home": 0.73,
-    "away": 2.12
+    "away": 2.13
    },
    "confidence": "ridicata",
    "sample": {
@@ -20194,31 +19935,29 @@
    "top_scores": [
     {
      "score": "0-2",
-     "p": 0.1295
+     "p": 0.1302
     },
     {
      "score": "0-1",
-     "p": 0.1197
+     "p": 0.1199
     },
     {
      "score": "1-2",
-     "p": 0.095
-    },
-    {
-     "score": "1-1",
-     "p": 0.0918
+     "p": 0.0947
     },
     {
      "score": "0-3",
-     "p": 0.0916
+     "p": 0.0925
+    },
+    {
+     "score": "1-1",
+     "p": 0.091
     }
    ],
    "reference_odds": {
-    "home": 9.17,
-    "draw": 5.29,
-    "away": 1.27,
-    "over25": 1.57,
-    "under25": 2.35
+    "home": 8.73,
+    "draw": 5.18,
+    "away": 1.26
    },
    "context": {
     "home": {
@@ -20264,14 +20003,14 @@
      }
     ]
    },
-   "explanation": "Univ. Craiova e favorita, cu 69% sanse de victorie. Goluri asteptate: 0.73 pentru Csikszereda M. Ciuc, 2.12 pentru Univ. Craiova. Forma recenta — Csikszereda M. Ciuc: EIIIII, Univ. Craiova: EVEVVV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Csikszereda M. Ciuc e pe locul 21 la atac, Univ. Craiova pe 3, din 25 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+   "explanation": "Univ. Craiova e favorita, cu 70% sanse de victorie. Goluri asteptate: 0.73 pentru Csikszereda M. Ciuc, 2.13 pentru Univ. Craiova. Forma recenta — Csikszereda M. Ciuc: EIIIII, Univ. Craiova: EVEVVV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Csikszereda M. Ciuc e pe locul 21 la atac, Univ. Craiova pe 3, din 25 echipe. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
   },
   {
    "id": "F1_20261011_Rennes_Auxerre",
    "league": "F1",
    "league_name": "Ligue 1",
    "date": "2026-10-11",
-   "time": "15:15",
+   "time": "16:15",
    "home": "Rennes",
    "away": "Auxerre",
    "probs": {
@@ -20315,11 +20054,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.43,
-    "draw": 4.85,
-    "away": 6.54,
-    "over25": 1.48,
-    "under25": 2.58
+    "home": 1.42,
+    "draw": 4.83,
+    "away": 6.43,
+    "over25": 1.47,
+    "under25": 2.56
    },
    "context": {
     "home": {
@@ -20532,7 +20271,7 @@
    "league": "D1",
    "league_name": "Bundesliga",
    "date": "2026-10-11",
-   "time": "15:30",
+   "time": "16:30",
    "home": "Freiburg",
    "away": "Schalke 04",
    "probs": {
@@ -20576,11 +20315,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.65,
-    "draw": 3.94,
-    "away": 5.01,
-    "over25": 1.61,
-    "under25": 2.31
+    "home": 1.64,
+    "draw": 3.98,
+    "away": 4.83,
+    "over25": 1.58,
+    "under25": 2.28
    },
    "context": {
     "home": {
@@ -20793,7 +20532,7 @@
    "league": "E0",
    "league_name": "Premier League",
    "date": "2026-10-11",
-   "time": "15:30",
+   "time": "16:30",
    "home": "Liverpool",
    "away": "Man City",
    "probs": {
@@ -20837,10 +20576,10 @@
     }
    ],
    "reference_odds": {
-    "home": 2.65,
-    "draw": 3.66,
-    "away": 2.47,
-    "over25": 1.55,
+    "home": 2.62,
+    "draw": 3.64,
+    "away": 2.44,
+    "over25": 1.54,
     "under25": 2.37
    },
    "context": {
@@ -21054,7 +20793,7 @@
    "league": "I1",
    "league_name": "Serie A",
    "date": "2026-10-11",
-   "time": "16:00",
+   "time": "17:00",
    "home": "Sassuolo",
    "away": "Milan",
    "probs": {
@@ -21098,11 +20837,11 @@
     }
    ],
    "reference_odds": {
-    "home": 4.24,
-    "draw": 3.72,
-    "away": 1.8,
-    "over25": 1.77,
-    "under25": 2.07
+    "home": 4.04,
+    "draw": 3.71,
+    "away": 1.81,
+    "over25": 1.72,
+    "under25": 2.04
    },
    "context": {
     "home": {
@@ -21315,7 +21054,7 @@
    "league": "B1",
    "league_name": "Jupiler Pro League",
    "date": "2026-10-11",
-   "time": "16:30",
+   "time": "17:30",
    "home": "Westerlo",
    "away": "Antwerp",
    "probs": {
@@ -21359,11 +21098,11 @@
     }
    ],
    "reference_odds": {
-    "home": 2.09,
+    "home": 2.08,
     "draw": 3.73,
-    "away": 3.01,
+    "away": 2.98,
     "over25": 1.47,
-    "under25": 2.57
+    "under25": 2.54
    },
    "context": {
     "home": {
@@ -21576,7 +21315,7 @@
    "league": "SP1",
    "league_name": "La Liga",
    "date": "2026-10-11",
-   "time": "16:30",
+   "time": "17:30",
    "home": "Betis",
    "away": "Osasuna",
    "probs": {
@@ -21620,11 +21359,11 @@
     }
    ],
    "reference_odds": {
-    "home": 1.56,
-    "draw": 4.18,
-    "away": 5.7,
-    "over25": 1.75,
-    "under25": 2.1
+    "home": 1.53,
+    "draw": 4.17,
+    "away": 5.63,
+    "over25": 1.72,
+    "under25": 2.04
    },
    "context": {
     "home": {
@@ -21832,7 +21571,7 @@
    "league": "P1",
    "league_name": "Primeira Liga",
    "date": "2026-10-11",
-   "time": "17:00",
+   "time": "18:00",
    "home": "Benfica",
    "away": "Guimaraes",
    "probs": {
@@ -21877,9 +21616,9 @@
    ],
    "reference_odds": {
     "home": 1.21,
-    "draw": 6.3,
-    "away": 11.56,
-    "over25": 1.45,
+    "draw": 6.15,
+    "away": 11.59,
+    "over25": 1.44,
     "under25": 2.61
    },
    "context": {
@@ -22088,7 +21827,7 @@
    "league": "B1",
    "league_name": "Jupiler Pro League",
    "date": "2026-10-11",
-   "time": "17:15",
+   "time": "18:15",
    "home": "Mechelen",
    "away": "St Truiden",
    "probs": {
@@ -22132,10 +21871,10 @@
     }
    ],
    "reference_odds": {
-    "home": 3.15,
-    "draw": 3.52,
-    "away": 2.1,
-    "over25": 1.67,
+    "home": 3.14,
+    "draw": 3.51,
+    "away": 2.08,
+    "over25": 1.63,
     "under25": 2.17
    },
    "context": {
@@ -22349,20 +22088,20 @@
    "league": "ROU_Superliga",
    "league_name": "Romania — Superliga",
    "date": "2026-10-11",
-   "time": "18:00",
+   "time": "19:00",
    "home": "Farul Constanta",
    "away": "Petrolul",
    "probs": {
-    "p_home": 0.4853,
-    "p_draw": 0.2859,
-    "p_away": 0.2287,
-    "p_over25": 0.3747,
-    "p_btts": 0.4239,
-    "p_under25": 0.6253,
-    "p_no_btts": 0.5761
+    "p_home": 0.482,
+    "p_draw": 0.2867,
+    "p_away": 0.2314,
+    "p_over25": 0.3732,
+    "p_btts": 0.4235,
+    "p_under25": 0.6268,
+    "p_no_btts": 0.5765
    },
    "expected_goals": {
-    "home": 1.35,
+    "home": 1.34,
     "away": 0.84
    },
    "confidence": "ridicata",
@@ -22373,31 +22112,29 @@
    "top_scores": [
     {
      "score": "1-0",
-     "p": 0.1481
+     "p": 0.148
     },
     {
      "score": "1-1",
-     "p": 0.13
+     "p": 0.1303
     },
     {
      "score": "0-0",
-     "p": 0.1151
+     "p": 0.1156
     },
     {
      "score": "2-0",
-     "p": 0.1024
+     "p": 0.1015
     },
     {
      "score": "0-1",
-     "p": 0.0904
+     "p": 0.0915
     }
    ],
    "reference_odds": {
-    "home": 1.88,
-    "draw": 3.49,
-    "away": 3.67,
-    "over25": 1.78,
-    "under25": 1.99
+    "home": 1.85,
+    "draw": 3.47,
+    "away": 3.62
    },
    "context": {
     "home": {
@@ -22461,14 +22198,14 @@
      }
     ]
    },
-   "explanation": "Farul Constanta e favorita, cu 49% sanse de victorie. Goluri asteptate: 1.35 pentru Farul Constanta, 0.84 pentru Petrolul. Forma recenta — Farul Constanta: EEEEVI, Petrolul: VIVVEV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Farul Constanta e pe locul 12 la atac, Petrolul pe 17, din 25 echipe. Se asteapta un meci inchis: 63% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
+   "explanation": "Farul Constanta e favorita, cu 48% sanse de victorie. Goluri asteptate: 1.34 pentru Farul Constanta, 0.84 pentru Petrolul. Forma recenta — Farul Constanta: EEEEVI, Petrolul: VIVVEV (cel mai recent meci la dreapta). In clasamentul intern al modelului, Farul Constanta e pe locul 12 la atac, Petrolul pe 17, din 25 echipe. Se asteapta un meci inchis: 63% sanse la sub 2.5 goluri. Probabilitatile sunt bine calibrate istoric, dar modelul NU bate cotele de inchidere. Foloseste-le ca reper de plecare, nu ca garantie."
   },
   {
    "id": "F1_20261011_Troyes_Marseille",
    "league": "F1",
    "league_name": "Ligue 1",
    "date": "2026-10-11",
-   "time": "18:45",
+   "time": "19:45",
    "home": "Troyes",
    "away": "Marseille",
    "probs": {
@@ -22512,11 +22249,11 @@
     }
    ],
    "reference_odds": {
-    "home": 3.72,
-    "draw": 3.82,
-    "away": 1.89,
-    "over25": 1.59,
-    "under25": 2.38
+    "home": 3.66,
+    "draw": 3.81,
+    "away": 1.88,
+    "over25": 1.57,
+    "under25": 2.3
    },
    "context": {
     "home": {
@@ -22729,7 +22466,7 @@
    "league": "I1",
    "league_name": "Serie A",
    "date": "2026-10-11",
-   "time": "18:45",
+   "time": "19:45",
    "home": "Cagliari",
    "away": "Juventus",
    "probs": {
@@ -22773,11 +22510,11 @@
     }
    ],
    "reference_odds": {
-    "home": 6.21,
-    "draw": 3.91,
-    "away": 1.56,
-    "over25": 2.0,
-    "under25": 1.82
+    "home": 6.13,
+    "draw": 3.89,
+    "away": 1.55,
+    "over25": 1.95,
+    "under25": 1.79
    },
    "context": {
     "home": {
@@ -22985,7 +22722,7 @@
    "league": "SP1",
    "league_name": "La Liga",
    "date": "2026-10-11",
-   "time": "19:00",
+   "time": "20:00",
    "home": "Santander",
    "away": "Valencia",
    "probs": {
@@ -23029,11 +22766,11 @@
     }
    ],
    "reference_odds": {
-    "home": 2.31,
-    "draw": 3.53,
-    "away": 2.93,
-    "over25": 1.68,
-    "under25": 2.2
+    "home": 2.28,
+    "draw": 3.51,
+    "away": 2.89,
+    "over25": 1.64,
+    "under25": 2.18
    },
    "context": {
     "home": {
@@ -23210,7 +22947,7 @@
    "league": "P1",
    "league_name": "Primeira Liga",
    "date": "2026-10-11",
-   "time": "19:30",
+   "time": "20:30",
    "home": "Arouca",
    "away": "Estrela",
    "probs": {
@@ -23254,11 +22991,11 @@
     }
    ],
    "reference_odds": {
-    "home": 2.1,
-    "draw": 3.4,
-    "away": 3.35,
-    "over25": 1.9,
-    "under25": 1.9
+    "home": 2.09,
+    "draw": 3.37,
+    "away": 3.28,
+    "over25": 1.84,
+    "under25": 1.89
    },
    "context": {
     "home": {
