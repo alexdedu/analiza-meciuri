@@ -186,6 +186,75 @@ def bare_si_minge(d: ImageDraw.ImageDraw, s: int) -> None:
     _minge(d._image, x_ultima, baza - s * 0.50 - r - s * 0.03, r)
 
 
+VERDE = (34, 197, 94)
+
+
+def bilet_cu_minge(d: ImageDraw.ImageDraw, s: int) -> None:
+    """Un bilet de pariuri pe hartie, cu trei selectii bifate, si o minge in colt."""
+    strat = Image.new("RGBA", (s, s), (0, 0, 0, 0))
+    ds = ImageDraw.Draw(strat)
+    st, dr, sus, jos = s * 0.21, s * 0.73, s * 0.12, s * 0.84
+
+    # Marginea de jos rupta in zig-zag, ca la un bon scos din imprimanta.
+    dinti = 7
+    pas = (dr - st) / dinti
+    adanc = s * 0.035
+    contur = [(st, sus + s * 0.05), (st + s * 0.05, sus), (dr - s * 0.05, sus),
+              (dr, sus + s * 0.05), (dr, jos)]
+    for i in range(dinti):
+        x = dr - i * pas
+        contur += [(x - pas / 2, jos - adanc), (x - pas, jos)]
+    umbra = Image.new("RGBA", (s, s), (0, 0, 0, 0))
+    ImageDraw.Draw(umbra).polygon([(x + s * 0.02, y + s * 0.025) for x, y in contur],
+                                  fill=(10, 8, 40, 110))
+    strat.alpha_composite(umbra)
+    ds.polygon(contur, fill=ALB)
+    # Coltul de sus rotunjit corect, fara poligon colturos.
+    ds.rounded_rectangle([st, sus, dr, sus + s * 0.20], radius=s * 0.05, fill=ALB)
+
+    # Antetul: banda chihlimbar.
+    ds.rounded_rectangle([st, sus, dr, sus + s * 0.12], radius=s * 0.05,
+                         fill=CHIHLIMBAR)
+    ds.rectangle([st, sus + s * 0.07, dr, sus + s * 0.12], fill=CHIHLIMBAR)
+    ds.rounded_rectangle([st + s * 0.06, sus + s * 0.045, st + s * 0.30, sus + s * 0.075],
+                         radius=s * 0.015, fill=INDIGO_ADANC)
+
+    # Trei selectii: bifa verde, numele schitat, cota in dreapta.
+    for i in range(3):
+        y = sus + s * 0.205 + i * s * 0.135
+        r = s * 0.038
+        cx = st + s * 0.085
+        ds.ellipse([cx - r, y - r, cx + r, y + r], fill=VERDE)
+        ds.line([(cx - r * 0.45, y + r * 0.02), (cx - r * 0.10, y + r * 0.38),
+                 (cx + r * 0.50, y - r * 0.35)], fill=ALB, width=round(s * 0.013),
+                joint="curve")
+        ds.rounded_rectangle([cx + s * 0.065, y - s * 0.016, cx + s * 0.24, y + s * 0.016],
+                             radius=s * 0.016, fill=(148, 155, 190))
+        ds.rounded_rectangle([dr - s * 0.135, y - s * 0.030, dr - s * 0.045, y + s * 0.030],
+                             radius=s * 0.022, fill=INDIGO_LO)
+
+    # Linia punctata si totalul.
+    yt = sus + s * 0.585
+    for i in range(9):
+        x0 = st + s * 0.05 + i * (dr - st - s * 0.10) / 9
+        ds.line([(x0, yt), (x0 + s * 0.022, yt)], fill=(148, 155, 190),
+                width=round(s * 0.008))
+    ds.rounded_rectangle([st + s * 0.05, yt + s * 0.04, st + s * 0.20, yt + s * 0.07],
+                         radius=s * 0.015, fill=INDIGO_ADANC)
+
+    strat = strat.rotate(8, resample=Image.BICUBIC, center=(s / 2, s / 2))
+    d._image.alpha_composite(strat)
+
+    # Mingea peste coltul din dreapta-jos, cu o umbra moale sub ea.
+    cx, cy, r = s * 0.70, s * 0.72, s * 0.155
+    umbra = Image.new("RGBA", (s, s), (0, 0, 0, 0))
+    ImageDraw.Draw(umbra).ellipse([cx - r + s * 0.015, cy - r + s * 0.03,
+                                   cx + r + s * 0.015, cy + r + s * 0.03],
+                                  fill=(10, 8, 40, 120))
+    d._image.alpha_composite(umbra)
+    _minge(d._image, cx, cy, r)
+
+
 CONCEPTE = {
     "A": ("Scut cu grafic", scut_cu_grafic, (INDIGO_HI, INDIGO_LO)),
     "B": ("Poartă și procent", poarta_cu_procent, (INDIGO_HI, INDIGO_LO)),
@@ -195,6 +264,7 @@ CONCEPTE = {
           lambda d, s: bilet(d, s, culoare=CHIHLIMBAR, accent=INDIGO_ADANC),
           (INDIGO_HI, INDIGO_LO)),
     "E": ("Bare și minge", bare_si_minge, (INDIGO_HI, INDIGO_LO)),
+    "F": ("Bilet cu minge", bilet_cu_minge, (INDIGO_HI, INDIGO_LO)),
 }
 
 
