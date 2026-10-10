@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T10:48:34+00:00",
+ "generated_at": "2026-10-10T15:25:16+00:00",
  "recommended_matches": [
   {
    "match_id": "E1_20261011_Southampton_Portsmouth",
@@ -4631,57 +4631,57 @@
     },
     "cards": {
      "expected": {
-      "home": 2.29,
-      "away": 2.89,
-      "total": 5.18
+      "home": 2.15,
+      "away": 2.72,
+      "total": 4.88
      },
      "total": [
       {
        "line": 2.5,
-       "over": 0.7902,
-       "under": 0.2098
+       "over": 0.7783,
+       "under": 0.2217
       },
       {
        "line": 3.5,
-       "over": 0.6384,
-       "under": 0.3616
+       "over": 0.6199,
+       "under": 0.3801
       },
       {
        "line": 4.5,
-       "over": 0.469,
-       "under": 0.531
+       "over": 0.4465,
+       "under": 0.5535
       },
       {
        "line": 5.5,
-       "over": 0.3162,
-       "under": 0.6838
+       "over": 0.2936,
+       "under": 0.7064
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.6063
+       "over": 0.5884
       },
       {
        "line": 2.5,
-       "over": 0.3417
+       "over": 0.3218
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.7241
+       "over": 0.7082
       },
       {
        "line": 2.5,
-       "over": 0.4644
+       "over": 0.4421
       }
      ],
      "sample": 917,
      "referee": {
-      "name": "K Van Damme",
-      "factor": 1.082,
-      "matches": 41
+      "name": "Kevin Van Damme",
+      "factor": 1.019,
+      "matches": 9
      }
     },
     "quality": {

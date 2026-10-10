@@ -1,97 +1,100 @@
 fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,ar1,ar2,evenimente
 1563083,2026-08-14,E1,2026,Wolves,Blackburn,Wolves,Blackburn,0,1,3,0,0,0,0,0,4
-1563088,2026-08-15,E1,2026,Norwich,West Brom,Norwich,West Brom,0,0,1,1,0,0,0,0,2
-1563089,2026-08-15,E1,2026,Portsmouth,QPR,Portsmouth,QPR,0,0,1,0,0,0,0,0,1
-1563090,2026-08-15,E1,2026,Stoke City,Swansea,Stoke,Swansea,1,0,0,3,0,0,0,0,4
-1563086,2026-08-15,E1,2026,Charlton,Derby,Charlton,Derby,0,0,0,3,0,0,0,0,3
-1563087,2026-08-15,E1,2026,Middlesbrough,Lincoln,Middlesbrough,Lincoln,0,0,1,1,0,0,0,0,2
-1563085,2026-08-15,E1,2026,Bristol City,Millwall,Bristol City,Millwall,2,0,2,0,1,0,0,0,5
 1563091,2026-08-15,E1,2026,Sheffield Utd,Birmingham,Sheffield United,Birmingham,0,0,0,0,0,0,0,0,9
+1563085,2026-08-15,E1,2026,Bristol City,Millwall,Bristol City,Millwall,2,0,2,0,1,0,0,0,5
+1563087,2026-08-15,E1,2026,Middlesbrough,Lincoln,Middlesbrough,Lincoln,0,0,1,1,0,0,0,0,2
 1563084,2026-08-15,E1,2026,Bolton,Preston,Bolton,Preston,0,2,3,0,0,0,0,0,5
+1563090,2026-08-15,E1,2026,Stoke City,Swansea,Stoke,Swansea,1,0,0,3,0,0,0,0,4
+1563089,2026-08-15,E1,2026,Portsmouth,QPR,Portsmouth,QPR,0,0,1,0,0,0,0,0,1
+1563088,2026-08-15,E1,2026,Norwich,West Brom,Norwich,West Brom,0,0,1,1,0,0,0,0,2
+1563086,2026-08-15,E1,2026,Charlton,Derby,Charlton,Derby,0,0,0,3,0,0,0,0,3
 1563092,2026-08-16,E1,2026,Watford,Southampton,Watford,Southampton,3,3,2,1,0,0,0,0,9
 1563093,2026-08-16,E1,2026,Burnley,West Ham,Burnley,West Ham,0,1,1,3,0,0,0,0,5
 1563094,2026-08-17,E1,2026,Cardiff,Wrexham,Cardiff,Wrexham,0,1,1,1,0,0,0,0,3
-1563096,2026-08-22,E1,2026,Blackburn,Middlesbrough,Blackburn,Middlesbrough,2,2,0,1,0,0,0,0,5
-1563102,2026-08-22,E1,2026,Southampton,Stoke City,Southampton,Stoke,1,2,1,4,0,0,0,1,9
-1563105,2026-08-22,E1,2026,West Ham,Charlton,West Ham,Charlton,0,2,0,3,0,0,0,0,5
-1563100,2026-08-22,E1,2026,Preston,Wolves,Preston,Wolves,1,3,1,0,0,0,0,0,5
-1563097,2026-08-22,E1,2026,Derby,Cardiff,Derby,Cardiff,1,4,0,1,0,0,0,0,6
-1563106,2026-08-22,E1,2026,Wrexham,Watford,Wrexham,Watford,1,1,0,0,0,0,0,0,2
-1563103,2026-08-22,E1,2026,Swansea,Sheffield Utd,Swansea,Sheffield United,0,2,1,1,0,0,0,0,4
 1563095,2026-08-22,E1,2026,Birmingham,Bristol City,Birmingham,Bristol City,1,1,0,1,0,0,0,0,3
-1563099,2026-08-22,E1,2026,Millwall,Norwich,Millwall,Norwich,1,0,2,1,0,0,0,1,5
-1563098,2026-08-22,E1,2026,Lincoln,Portsmouth,Lincoln,Portsmouth,1,2,0,1,0,0,0,0,4
 1563101,2026-08-22,E1,2026,QPR,Bolton,QPR,Bolton,0,1,1,1,0,0,0,0,3
+1563098,2026-08-22,E1,2026,Lincoln,Portsmouth,Lincoln,Portsmouth,1,2,0,1,0,0,0,0,4
+1563099,2026-08-22,E1,2026,Millwall,Norwich,Millwall,Norwich,1,0,2,1,0,0,0,1,5
+1563103,2026-08-22,E1,2026,Swansea,Sheffield Utd,Swansea,Sheffield United,0,2,1,1,0,0,0,0,4
+1563105,2026-08-22,E1,2026,West Ham,Charlton,West Ham,Charlton,0,2,0,3,0,0,0,0,5
+1563097,2026-08-22,E1,2026,Derby,Cardiff,Derby,Cardiff,1,4,0,1,0,0,0,0,6
+1563100,2026-08-22,E1,2026,Preston,Wolves,Preston,Wolves,1,3,1,0,0,0,0,0,5
+1563102,2026-08-22,E1,2026,Southampton,Stoke City,Southampton,Stoke,1,2,1,4,0,0,0,1,9
+1563096,2026-08-22,E1,2026,Blackburn,Middlesbrough,Blackburn,Middlesbrough,2,2,0,1,0,0,0,0,5
+1563106,2026-08-22,E1,2026,Wrexham,Watford,Wrexham,Watford,1,1,0,0,0,0,0,0,2
 1563104,2026-08-23,E1,2026,West Brom,Burnley,West Brom,Burnley,1,0,1,1,0,0,0,0,3
 1563118,2026-08-28,E1,2026,Wrexham,Birmingham,Wrexham,Birmingham,0,1,1,1,0,0,0,0,3
-1563113,2026-08-29,E1,2026,Middlesbrough,West Brom,Middlesbrough,West Brom,0,0,0,1,0,0,0,0,1
-1563116,2026-08-29,E1,2026,Watford,West Ham,Watford,West Ham,2,1,1,0,0,0,0,0,4
-1563115,2026-08-29,E1,2026,Southampton,Millwall,Southampton,Millwall,1,1,1,0,0,0,0,0,3
-1563110,2026-08-29,E1,2026,Cardiff,Sheffield Utd,Cardiff,Sheffield United,2,0,1,1,0,0,0,0,4
-1563107,2026-08-29,E1,2026,Blackburn,QPR,Blackburn,QPR,0,3,2,0,0,0,0,0,5
-1563109,2026-08-29,E1,2026,Bristol City,Portsmouth,Bristol City,Portsmouth,0,3,0,0,0,0,0,0,3
-1563114,2026-08-29,E1,2026,Norwich,Burnley,Norwich,Burnley,2,2,1,2,0,0,0,1,8
 1563111,2026-08-29,E1,2026,Charlton,Preston,Charlton,Preston,0,1,0,1,0,0,0,0,2
-1563117,2026-08-29,E1,2026,Wolves,Stoke City,Wolves,Stoke,1,0,3,1,0,0,0,0,5
-1563112,2026-08-29,E1,2026,Derby,Swansea,Derby,Swansea,0,3,0,2,0,0,0,0,5
 1563108,2026-08-29,E1,2026,Bolton,Lincoln,Bolton,Lincoln,0,0,1,2,0,0,0,0,3
-1563122,2026-09-01,E1,2026,Preston,Bristol City,Preston,Bristol City,1,1,0,0,0,0,0,0,2
-1563119,2026-09-01,E1,2026,Birmingham,Southampton,Birmingham,Southampton,1,2,0,2,0,0,0,0,5
-1563124,2026-09-01,E1,2026,Stoke City,Norwich,Stoke,Norwich,0,2,0,2,0,0,0,0,4
-1563126,2026-09-01,E1,2026,West Ham,Wolves,West Ham,Wolves,1,1,0,1,0,0,0,0,3
+1563112,2026-08-29,E1,2026,Derby,Swansea,Derby,Swansea,0,3,0,2,0,0,0,0,5
+1563117,2026-08-29,E1,2026,Wolves,Stoke City,Wolves,Stoke,1,0,3,1,0,0,0,0,5
+1563114,2026-08-29,E1,2026,Norwich,Burnley,Norwich,Burnley,2,2,1,2,0,0,0,1,8
+1563116,2026-08-29,E1,2026,Watford,West Ham,Watford,West Ham,2,1,1,0,0,0,0,0,4
+1563107,2026-08-29,E1,2026,Blackburn,QPR,Blackburn,QPR,0,3,2,0,0,0,0,0,5
+1563110,2026-08-29,E1,2026,Cardiff,Sheffield Utd,Cardiff,Sheffield United,2,0,1,1,0,0,0,0,4
+1563115,2026-08-29,E1,2026,Southampton,Millwall,Southampton,Millwall,1,1,1,0,0,0,0,0,3
+1563113,2026-08-29,E1,2026,Middlesbrough,West Brom,Middlesbrough,West Brom,0,0,0,1,0,0,0,0,1
+1563109,2026-08-29,E1,2026,Bristol City,Portsmouth,Bristol City,Portsmouth,0,3,0,0,0,0,0,0,3
+1563121,2026-09-01,E1,2026,Portsmouth,Derby,Portsmouth,Derby,0,1,0,2,0,0,0,0,3
+1563125,2026-09-01,E1,2026,Swansea,Watford,Swansea,Watford,0,0,1,3,0,0,0,0,4
 1563120,2026-09-01,E1,2026,Lincoln,Blackburn,Lincoln,Blackburn,0,1,1,3,0,0,0,1,6
 1563123,2026-09-01,E1,2026,Sheffield Utd,Bolton,Sheffield United,Bolton,0,0,1,1,0,0,0,0,2
-1563125,2026-09-01,E1,2026,Swansea,Watford,Swansea,Watford,0,0,1,3,0,0,0,0,4
-1563121,2026-09-01,E1,2026,Portsmouth,Derby,Portsmouth,Derby,0,1,0,2,0,0,0,0,3
+1563124,2026-09-01,E1,2026,Stoke City,Norwich,Stoke,Norwich,0,2,0,2,0,0,0,0,4
+1563119,2026-09-01,E1,2026,Birmingham,Southampton,Birmingham,Southampton,1,2,0,2,0,0,0,0,5
+1563122,2026-09-01,E1,2026,Preston,Bristol City,Preston,Bristol City,1,1,0,0,0,0,0,0,2
+1563126,2026-09-01,E1,2026,West Ham,Wolves,West Ham,Wolves,1,1,0,1,0,0,0,0,3
 1563128,2026-09-02,E1,2026,Millwall,Wrexham,Millwall,Wrexham,1,1,1,0,0,0,0,0,3
 1563127,2026-09-02,E1,2026,Burnley,Middlesbrough,Burnley,Middlesbrough,1,1,1,1,0,0,0,0,4
 1563129,2026-09-02,E1,2026,QPR,Cardiff,QPR,Cardiff,0,0,0,2,0,0,0,0,2
 1563130,2026-09-02,E1,2026,West Brom,Charlton,West Brom,Charlton,0,1,0,1,0,0,0,0,2
-1563133,2026-09-05,E1,2026,Lincoln,Southampton,Lincoln,Southampton,1,2,0,0,0,0,0,0,3
-1563140,2026-09-05,E1,2026,Swansea,Wrexham,Swansea,Wrexham,0,3,0,0,0,0,0,0,3
-1563132,2026-09-05,E1,2026,Burnley,Bristol City,Burnley,Bristol City,1,2,0,0,0,0,0,0,3
-1563142,2026-09-05,E1,2026,West Ham,Derby,West Ham,Derby,0,0,1,1,0,0,0,0,2
-1563141,2026-09-05,E1,2026,West Brom,Watford,West Brom,Watford,2,3,1,2,0,0,0,0,8
-1563134,2026-09-05,E1,2026,Millwall,Bolton,Millwall,Bolton,0,0,0,1,0,1,0,1,3
-1563137,2026-09-05,E1,2026,QPR,Middlesbrough,QPR,Middlesbrough,0,1,0,2,0,0,0,0,3
 1563135,2026-09-05,E1,2026,Portsmouth,Cardiff,Portsmouth,Cardiff,0,0,1,3,0,0,0,0,4
-1563136,2026-09-05,E1,2026,Preston,Blackburn,Preston,Blackburn,1,3,2,0,0,0,0,0,6
-1563139,2026-09-05,E1,2026,Stoke City,Charlton,Stoke,Charlton,1,0,1,3,0,0,0,1,6
 1563138,2026-09-05,E1,2026,Sheffield Utd,Norwich,Sheffield United,Norwich,1,1,3,0,0,0,0,0,5
+1563139,2026-09-05,E1,2026,Stoke City,Charlton,Stoke,Charlton,1,0,1,3,0,0,0,1,6
+1563136,2026-09-05,E1,2026,Preston,Blackburn,Preston,Blackburn,1,3,2,0,0,0,0,0,6
+1563137,2026-09-05,E1,2026,QPR,Middlesbrough,QPR,Middlesbrough,0,1,0,2,0,0,0,0,3
+1563140,2026-09-05,E1,2026,Swansea,Wrexham,Swansea,Wrexham,0,3,0,0,0,0,0,0,3
+1563141,2026-09-05,E1,2026,West Brom,Watford,West Brom,Watford,2,3,1,2,0,0,0,0,8
+1563142,2026-09-05,E1,2026,West Ham,Derby,West Ham,Derby,0,0,1,1,0,0,0,0,2
+1563132,2026-09-05,E1,2026,Burnley,Bristol City,Burnley,Bristol City,1,2,0,0,0,0,0,0,3
+1563133,2026-09-05,E1,2026,Lincoln,Southampton,Lincoln,Southampton,1,2,0,0,0,0,0,0,3
+1563134,2026-09-05,E1,2026,Millwall,Bolton,Millwall,Bolton,0,0,0,1,0,1,0,1,3
 1563131,2026-09-06,E1,2026,Birmingham,Wolves,Birmingham,Wolves,0,2,0,1,0,0,0,0,3
-1563154,2026-09-08,E1,2026,Wrexham,Burnley,Wrexham,Burnley,1,1,0,3,0,0,0,0,5
-1563148,2026-09-08,E1,2026,Southampton,Swansea,Southampton,Swansea,0,0,0,1,0,0,0,0,1
-1563146,2026-09-08,E1,2026,Cardiff,Stoke City,Cardiff,Stoke,1,0,1,1,0,0,0,0,3
-1563144,2026-09-08,E1,2026,Bolton,West Ham,Bolton,West Ham,0,0,1,2,0,0,0,0,3
-1563149,2026-09-08,E1,2026,Watford,Preston,Watford,Preston,0,0,0,2,0,0,0,0,2
 1563143,2026-09-08,E1,2026,Blackburn,Sheffield Utd,Blackburn,Sheffield United,0,1,0,2,0,0,0,0,3
+1563149,2026-09-08,E1,2026,Watford,Preston,Watford,Preston,0,0,0,2,0,0,0,0,2
+1563144,2026-09-08,E1,2026,Bolton,West Ham,Bolton,West Ham,0,0,1,2,0,0,0,0,3
+1563148,2026-09-08,E1,2026,Southampton,Swansea,Southampton,Swansea,0,0,0,1,0,0,0,0,1
+1563154,2026-09-08,E1,2026,Wrexham,Burnley,Wrexham,Burnley,1,1,0,3,0,0,0,0,5
+1563146,2026-09-08,E1,2026,Cardiff,Stoke City,Cardiff,Stoke,1,0,1,1,0,0,0,0,3
 1563153,2026-09-09,E1,2026,Norwich,Birmingham,Norwich,Birmingham,2,4,0,2,0,0,0,0,8
 1563152,2026-09-09,E1,2026,Derby,West Brom,Derby,West Brom,0,0,3,1,0,0,1,0,5
 1563151,2026-09-09,E1,2026,Charlton,QPR,Charlton,QPR,0,0,0,2,0,0,0,0,2
 1563166,2026-09-11,E1,2026,West Ham,Wrexham,West Ham,Wrexham,0,1,0,0,0,0,0,0,1
-1563157,2026-09-12,E1,2026,Charlton,Portsmouth,Charlton,Portsmouth,0,1,0,1,0,0,0,0,2
-1563159,2026-09-12,E1,2026,Middlesbrough,Norwich,Middlesbrough,Norwich,0,2,0,1,0,0,0,0,3
-1563158,2026-09-12,E1,2026,Derby,Birmingham,Derby,Birmingham,1,0,2,1,0,0,0,0,4
-1563156,2026-09-12,E1,2026,Bolton,Cardiff,Bolton,Cardiff,3,2,1,1,0,0,0,0,7
-1563163,2026-09-12,E1,2026,Swansea,Burnley,Swansea,Burnley,0,2,0,1,0,0,0,0,3
+1563165,2026-09-12,E1,2026,West Brom,QPR,West Brom,QPR,0,1,0,4,0,0,0,0,5
+1563164,2026-09-12,E1,2026,Watford,Stoke City,Watford,Stoke,1,1,1,1,0,0,0,0,4
+1563162,2026-09-12,E1,2026,Southampton,Bristol City,Southampton,Bristol City,0,0,0,2,0,0,0,0,2
 1563160,2026-09-12,E1,2026,Preston,Lincoln,Preston,Lincoln,0,1,0,1,0,0,0,0,2
 1563155,2026-09-12,E1,2026,Blackburn,Millwall,Blackburn,Millwall,3,2,1,2,0,0,0,0,8
-1563162,2026-09-12,E1,2026,Southampton,Bristol City,Southampton,Bristol City,0,0,0,2,0,0,0,0,2
-1563164,2026-09-12,E1,2026,Watford,Stoke City,Watford,Stoke,1,1,1,1,0,0,0,0,4
-1563165,2026-09-12,E1,2026,West Brom,QPR,West Brom,QPR,0,1,0,4,0,0,0,0,5
+1563156,2026-09-12,E1,2026,Bolton,Cardiff,Bolton,Cardiff,3,2,1,1,0,0,0,0,7
+1563158,2026-09-12,E1,2026,Derby,Birmingham,Derby,Birmingham,1,0,2,1,0,0,0,0,4
+1563159,2026-09-12,E1,2026,Middlesbrough,Norwich,Middlesbrough,Norwich,0,2,0,1,0,0,0,0,3
+1563157,2026-09-12,E1,2026,Charlton,Portsmouth,Charlton,Portsmouth,0,1,0,1,0,0,0,0,2
+1563163,2026-09-12,E1,2026,Swansea,Burnley,Swansea,Burnley,0,2,0,1,0,0,0,0,3
 1563161,2026-09-13,E1,2026,Sheffield Utd,Wolves,Sheffield United,Wolves,1,1,1,0,0,0,0,0,3
 1563147,2026-09-15,E1,2026,Middlesbrough,Millwall,Middlesbrough,Millwall,0,1,0,1,0,0,0,0,2
 1563145,2026-09-15,E1,2026,Bristol City,Lincoln,Bristol City,Lincoln,2,0,3,2,0,0,0,0,7
 1563168,2026-09-18,E1,2026,Bristol City,Watford,Bristol City,Watford,0,2,2,3,0,0,0,0,7
-1563171,2026-09-19,E1,2026,Lincoln,Swansea,Lincoln,Swansea,2,0,0,1,0,0,0,0,3
-1563176,2026-09-19,E1,2026,Stoke City,Sheffield Utd,Stoke,Sheffield United,2,2,1,3,0,0,0,0,8
+1563172,2026-09-19,E1,2026,Millwall,West Ham,Millwall,West Ham,0,1,1,3,0,0,0,1,6
+1563169,2026-09-19,E1,2026,Burnley,Derby,Burnley,Derby,1,3,0,2,0,0,0,0,6
+1563175,2026-09-19,E1,2026,QPR,Preston,QPR,Preston,1,1,1,1,1,0,0,0,5
+1563174,2026-09-19,E1,2026,Portsmouth,Blackburn,Portsmouth,Blackburn,1,1,0,1,0,0,0,0,3
 1563170,2026-09-19,E1,2026,Cardiff,Charlton,Cardiff,Charlton,3,2,1,2,0,0,0,0,8
 1563178,2026-09-19,E1,2026,Wrexham,Southampton,Wrexham,Southampton,0,1,1,3,0,0,0,0,5
+1563176,2026-09-19,E1,2026,Stoke City,Sheffield Utd,Stoke,Sheffield United,2,2,1,3,0,0,0,0,8
+1563171,2026-09-19,E1,2026,Lincoln,Swansea,Lincoln,Swansea,2,0,0,1,0,0,0,0,3
 1563167,2026-09-19,E1,2026,Birmingham,Middlesbrough,Birmingham,Middlesbrough,1,1,0,0,0,0,0,0,2
-1563174,2026-09-19,E1,2026,Portsmouth,Blackburn,Portsmouth,Blackburn,1,1,0,1,0,0,0,0,3
-1563175,2026-09-19,E1,2026,QPR,Preston,QPR,Preston,1,1,1,1,1,0,0,0,5
-1563169,2026-09-19,E1,2026,Burnley,Derby,Burnley,Derby,1,3,0,2,0,0,0,0,6
-1563172,2026-09-19,E1,2026,Millwall,West Ham,Millwall,West Ham,0,1,1,3,0,0,0,1,6
 1563173,2026-09-20,E1,2026,Norwich,Bolton,Norwich,Bolton,0,0,0,0,0,0,0,0,15
 1563177,2026-09-20,E1,2026,Wolves,West Brom,Wolves,West Brom,0,1,2,0,0,0,0,0,3
 1563190,2026-10-09,E1,2026,West Ham,QPR,West Ham,QPR,1,2,1,3,0,0,0,0,18
+1563187,2026-10-10,E1,2026,Swansea,Norwich,Swansea,Norwich,1,0,0,1,0,0,0,0,14
+1563189,2026-10-10,E1,2026,West Brom,Birmingham,West Brom,Birmingham,1,1,1,3,0,0,0,0,15
+1563181,2026-10-10,E1,2026,Charlton,Bristol City,Charlton,Bristol City,0,2,0,1,0,0,0,0,15
