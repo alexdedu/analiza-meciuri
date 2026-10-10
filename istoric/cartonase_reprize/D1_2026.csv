@@ -6,8 +6,8 @@ fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,a
 1575148,2026-08-29,D1,2026,Union Berlin,Eintracht Frankfurt,Union Berlin,Ein Frankfurt,1,1,2,2,0,0,0,0,6
 1575144,2026-08-29,D1,2026,1. FC Köln,1899 Hoffenheim,FC Koln,Hoffenheim,0,0,0,2,0,0,0,0,2
 1575147,2026-08-29,D1,2026,RB Leipzig,Borussia Mönchengladbach,RB Leipzig,M'gladbach,0,1,0,0,0,0,0,0,1
-1575145,2026-08-30,D1,2026,SC Freiburg,Werder Bremen,Freiburg,Werder Bremen,0,1,0,1,0,0,0,0,2
 1575141,2026-08-30,D1,2026,FC Augsburg,FC Schalke 04,Augsburg,Schalke 04,1,0,0,0,0,0,0,1,2
+1575145,2026-08-30,D1,2026,SC Freiburg,Werder Bremen,Freiburg,Werder Bremen,0,1,0,1,0,0,0,0,2
 1575149,2026-09-04,D1,2026,VfB Stuttgart,1. FC Köln,Stuttgart,FC Koln,0,1,1,2,0,0,0,0,4
 1575157,2026-09-05,D1,2026,SC Paderborn 07,SC Freiburg,Paderborn,Freiburg,1,2,1,2,0,0,0,0,6
 1575151,2026-09-05,D1,2026,Bayer Leverkusen,Union Berlin,Leverkusen,Union Berlin,0,2,1,1,0,0,0,0,4
@@ -35,3 +35,4 @@ fixture_id,date,div,season,home_api,away_api,home,away,hy1,hy2,ay1,ay2,hr1,hr2,a
 1575169,2026-09-20,D1,2026,Bayer Leverkusen,RB Leipzig,Leverkusen,RB Leipzig,0,2,1,2,0,0,0,0,5
 1575173,2026-09-20,D1,2026,FC Schalke 04,SV Elversberg,Schalke 04,Elversberg,0,1,2,0,0,0,0,0,3
 1575175,2026-09-20,D1,2026,SC Paderborn 07,1899 Hoffenheim,Paderborn,Hoffenheim,0,0,1,0,0,0,0,0,1
+1575176,2026-10-09,D1,2026,Borussia Dortmund,Werder Bremen,Dortmund,Werder Bremen,0,2,0,2,0,0,0,0,16

@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-09T19:45:25+00:00",
+ "actualizat": "2026-10-10T06:00:02+00:00",
  "selectii": [
   {
    "cheie": "D1_20260919_EinFrankfurt_Freiburg|over25",
@@ -1124,8 +1124,10 @@
    "odds": 1.6,
    "band": "peste piață",
    "notat_la": "2026-10-03T06:05:35+00:00",
-   "castigat": null,
-   "scor": null
+   "castigat": true,
+   "scor": "0-1",
+   "sursa_scor": "api",
+   "rezolvat_la": "2026-10-10T06:00:02+00:00"
   },
   {
    "cheie": "P1_20261009_Moreirense_GilVicente|corners_away_over_3.5",
@@ -2042,6 +2044,54 @@
    "odds": null,
    "band": "cornere/cartonașe",
    "notat_la": "2026-10-09T06:17:17+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "I1_20261012_Torino_Udinese|corners_home_over_3.5",
+   "match_id": "I1_20261012_Torino_Udinese",
+   "date": "2026-10-12",
+   "league_name": "Serie A",
+   "home": "Torino",
+   "away": "Udinese",
+   "market": "corners_home_over_3.5",
+   "market_label": "Torino peste 3.5 cornere",
+   "probability": 0.6959,
+   "odds": null,
+   "band": "cornere/cartonașe",
+   "notat_la": "2026-10-10T06:00:00+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "I1_20261012_Torino_Udinese|cards_total_over_2.5",
+   "match_id": "I1_20261012_Torino_Udinese",
+   "date": "2026-10-12",
+   "league_name": "Serie A",
+   "home": "Torino",
+   "away": "Udinese",
+   "market": "cards_total_over_2.5",
+   "market_label": "peste 2.5 cartonașe în meci",
+   "probability": 0.6908,
+   "odds": null,
+   "band": "cornere/cartonașe",
+   "notat_la": "2026-10-10T06:00:00+00:00",
+   "castigat": null,
+   "scor": null
+  },
+  {
+   "cheie": "SP1_20261012_Levante_Sevilla|corners_home_over_3.5",
+   "match_id": "SP1_20261012_Levante_Sevilla",
+   "date": "2026-10-12",
+   "league_name": "La Liga",
+   "home": "Levante",
+   "away": "Sevilla",
+   "market": "corners_home_over_3.5",
+   "market_label": "Levante peste 3.5 cornere",
+   "probability": 0.6038,
+   "odds": null,
+   "band": "cornere/cartonașe",
+   "notat_la": "2026-10-10T06:00:00+00:00",
    "castigat": null,
    "scor": null
   }
