@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T15:25:16+00:00",
+ "generated_at": "2026-10-10T18:51:34+00:00",
  "recommended_matches": [
   {
    "match_id": "E1_20261011_Southampton_Portsmouth",
@@ -9058,53 +9058,58 @@
     },
     "cards": {
      "expected": {
-      "home": 2.01,
-      "away": 1.3,
-      "total": 3.31
+      "home": 2.1,
+      "away": 1.35,
+      "total": 3.45
      },
      "total": [
       {
        "line": 2.5,
-       "over": 0.678,
-       "under": 0.322
+       "over": 0.6897,
+       "under": 0.3103
       },
       {
        "line": 3.5,
-       "over": 0.4911,
-       "under": 0.5089
+       "over": 0.5041,
+       "under": 0.4959
       },
       {
        "line": 4.5,
-       "over": 0.3167,
-       "under": 0.6833
+       "over": 0.328,
+       "under": 0.672
       },
       {
        "line": 5.5,
-       "over": 0.1843,
-       "under": 0.8157
+       "over": 0.1923,
+       "under": 0.8077
       }
      ],
      "home": [
       {
        "line": 1.5,
-       "over": 0.568
+       "over": 0.5802
       },
       {
        "line": 2.5,
-       "over": 0.3007
+       "over": 0.3131
       }
      ],
      "away": [
       {
        "line": 1.5,
-       "over": 0.4941
+       "over": 0.5046
       },
       {
        "line": 2.5,
-       "over": 0.2354
+       "over": 0.2423
       }
      ],
-     "sample": 917
+     "sample": 917,
+     "referee": {
+      "name": "Lothar D'Hondt",
+      "factor": 1.041,
+      "matches": 27
+     }
     },
     "quality": {
      "corners_total": {
